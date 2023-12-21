@@ -113,8 +113,7 @@
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🏳️XX | vless | @v2logy | 16",
-                "🇩🇪DE | vless | @azadi_az_inja_migzare | 29",
-                "🇫🇮FI | vless | @V2rayCollectorDonate | 19",
+                "🇹🇷TR | vless | @V2rayCollectorDonate | 19",
                 "🇪🇸ES | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
@@ -129,6 +128,7 @@
                 "🇩🇪DE | vless | @Capoit | 7",
                 "🇩🇪DE | vless | @FreakConfig | 17",
                 "🏳️XX | vless | @flyv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 14",
                 "🏳️XX | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 22",
                 "🇸🇪SE | vless | @kingofilter | 13",
@@ -148,8 +148,7 @@
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🏳️XX | vless | @v2logy | 16",
-                "🇩🇪DE | vless | @azadi_az_inja_migzare | 29",
-                "🇫🇮FI | vless | @V2rayCollectorDonate | 19",
+                "🇹🇷TR | vless | @V2rayCollectorDonate | 19",
                 "🇪🇸ES | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
@@ -164,6 +163,7 @@
                 "🇩🇪DE | vless | @Capoit | 7",
                 "🇩🇪DE | vless | @FreakConfig | 17",
                 "🏳️XX | vless | @flyv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 14",
                 "🏳️XX | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 22",
                 "🇸🇪SE | vless | @kingofilter | 13",
@@ -430,11 +430,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @azadi_az_inja_migzare | 29",
+            "tag": "🇹🇷TR | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "139.162.144.195",
-            "server_port": 2083,
-            "uuid": "38c1db58-0b97-40fe-a857-2119443872bf",
+            "server": "84.32.230.178",
+            "server_port": 443,
+            "uuid": "b0da8a3a-6d39-46f2-a1e0-25a5653bde3f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -444,54 +444,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "canva.com",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "randomized"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "AoVVD-FGx5-IC2fwjqH3B_0M3T-muzmULO73sw4BLGw",
-                    "short_id": "3eddc513f64c2104"
+                    "public_key": "eHqColboP_DRi9bWGSSTkpRGugJX83FydjGBcqbByw8",
+                    "short_id": "1473c982f1"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "h1.sharidali.tk",
-            "server_port": 8443,
-            "uuid": "1395ce4f-9500-43be-82a6-6d79f7e1b9e8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hostgator.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Q8x4Mws1gMvtbJGnZd1aDxJiDYZHEq4o9QDeY1NQx0s",
-                    "short_id": "9c694087"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "xyz",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -972,6 +936,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@flyv2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 14",
+            "type": "vless",
+            "server": "5.75.216.103",
+            "server_port": 443,
+            "uuid": "738c5e99-7faa-4893-81a8-4d6655adde77",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "44pa79d1pgsXBDhuaoAorrir4k2OSTNdOuMEXFw9zXc",
+                    "short_id": "ab7b40b2"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Digiv2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

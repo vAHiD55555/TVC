@@ -112,10 +112,12 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 70",
                 "🏳️XX | vmess | @vless_vmess | 8",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇮🇷IR | vmess | @Hope_Net | 12",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -129,10 +131,12 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 70",
                 "🏳️XX | vmess | @vless_vmess | 8",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇮🇷IR | vmess | @Hope_Net | 12",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -282,6 +286,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "www.visa.com",
+            "server_port": 443,
+            "uuid": "2e1ddbe7-9d5e-4b68-93a0-92f17309b3a2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "brands-providence-wall-associates.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/2e1ddbe7-9d5e-4b68-93a0-92f17309b3a2-vm",
+                "headers": {
+                    "Host": "brands-providence-wall-associates.trycloudflare.com"
+                }
+            }
+        },
+        {
             "tag": "🇨🇳CN | vmess | @yaney_01 | 14",
             "type": "vmess",
             "server": "110.72.101.145",
@@ -370,6 +408,40 @@
                 "path": "\/racevpn",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "104.17.151.248",
+            "server_port": 2083,
+            "uuid": "da37a316-d17b-493f-bd6e-b58a23e31823",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "foryourtestmyfriends.hesam5a.tk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/foryourtestmyfriends2083",
+                "headers": {
+                    "Host": "foryourtestmyfriends.hesam5a.tk"
                 }
             }
         },

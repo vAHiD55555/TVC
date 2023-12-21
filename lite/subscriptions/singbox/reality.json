@@ -116,7 +116,6 @@
                 "🇪🇸ES | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
-                "🇩🇪DE | vless | @v2ray_swhil | 15",
                 "🇩🇪DE | vless | @MTConfig | 24",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @DailyV2RY | 147",
@@ -127,7 +126,6 @@
                 "🇩🇪DE | vless | @flyv2ray | 17",
                 "🏳️XX | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 22",
-                "🇸🇪SE | vless | @kingofilter | 13",
                 "🇩🇪DE | vless | @GozargahVPN | 17",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -147,7 +145,6 @@
                 "🇪🇸ES | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
-                "🇩🇪DE | vless | @v2ray_swhil | 15",
                 "🇩🇪DE | vless | @MTConfig | 24",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @DailyV2RY | 147",
@@ -158,7 +155,6 @@
                 "🇩🇪DE | vless | @flyv2ray | 17",
                 "🏳️XX | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 22",
-                "🇸🇪SE | vless | @kingofilter | 13",
                 "🇩🇪DE | vless | @GozargahVPN | 17",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -530,42 +526,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 15",
-            "type": "vless",
-            "server": "titaniom.official.mmdtitaniom.com",
-            "server_port": 443,
-            "uuid": "46a7b4fd-16c3-4e6b-ff02-973d69b9eec6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "myOyTs6wtYgOioDwSzMCIUNRuq6l6I7ciLUqfusSTmY",
-                    "short_id": "6fa697ff"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @MTConfig | 24",
             "type": "vless",
             "server": "128.140.122.248",
@@ -895,35 +855,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @kingofilter | 13",
-            "type": "vless",
-            "server": "13.51.254.68",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.makers.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OzX5HJ5bS-V3lo1ioQ2xuic7tmjC8TcVE4t--r3JW1k",
-                    "short_id": "3c"
-                }
             }
         },
         {

@@ -106,13 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🏳️XX | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 70",
                 "🏳️XX | vmess | @vless_vmess | 8",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
-                "🇬🇧GB | vmess | @Hope_Net | 12",
+                "🇬🇧GB | vmess | @Hope_Net | 13",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 4"
@@ -122,13 +123,14 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🏳️XX | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 70",
                 "🏳️XX | vmess | @vless_vmess | 8",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
-                "🇬🇧GB | vmess | @Hope_Net | 12",
+                "🇬🇧GB | vmess | @Hope_Net | 13",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 4"
@@ -152,6 +154,30 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🏳️XX | vmess | @V2rayCollectorDonate | 19",
+            "type": "vmess",
+            "server": "::ffff:67a0:cc8d",
+            "server_port": 8880,
+            "uuid": "@V2Group7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@v2group7",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -270,7 +296,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @Hope_Net | 12",
+            "tag": "🇬🇧GB | vmess | @Hope_Net | 13",
             "type": "vmess",
             "server": "51.75.162.199",
             "server_port": 61570,

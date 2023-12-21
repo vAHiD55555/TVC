@@ -112,12 +112,10 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 70",
                 "🏳️XX | vmess | @vless_vmess | 8",
-                "🇩🇪DE | vmess | @ConfigsHUB | 18",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
-                "🇺🇸US | vmess | @Hope_Net | 13",
+                "🇳🇱NL | vmess | @Hope_Net | 13",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 9",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -131,12 +129,10 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 70",
                 "🏳️XX | vmess | @vless_vmess | 8",
-                "🇩🇪DE | vmess | @ConfigsHUB | 18",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
-                "🇺🇸US | vmess | @Hope_Net | 13",
+                "🇳🇱NL | vmess | @Hope_Net | 13",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 9",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -276,23 +272,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "Germany.meberplus.site",
-            "server_port": 4000,
-            "uuid": "718daa77-ec1c-4c3a-b9ff-65e4cce4b483",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇨🇳CN | vmess | @yaney_01 | 14",
             "type": "vmess",
             "server": "110.72.101.145",
@@ -310,11 +289,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 13",
+            "tag": "🇳🇱NL | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "103.179.142.117",
-            "server_port": 24640,
-            "uuid": "119a25bf-e35e-44c2-8b81-287ea8b2cac0",
+            "server": "Holland.meberplus.site",
+            "server_port": 4000,
+            "uuid": "718daa77-ec1c-4c3a-b9ff-65e4cce4b483",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -381,40 +360,6 @@
                 "path": "\/racevpn",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 9",
-            "type": "vmess",
-            "server": "ip.1alpha1.shop",
-            "server_port": 2096,
-            "uuid": "Tech_Tube_ORG",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn20.1alpha1.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Tel:@Tech_Tube_ORG-@Tech_Tube_ORG-@Tech_Tube_ORG-@Tech_Tube_ORG-@Tech_Tube_ORG-@Tech_Tube_ORG-@Tech_Tube_ORG",
-                "headers": {
-                    "Host": "cdn20.1alpha1.shop"
                 }
             }
         },

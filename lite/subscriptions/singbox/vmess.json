@@ -110,9 +110,10 @@
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🏳️XX | vmess | @vless_vmess | 8",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 5"
             ]
         },
@@ -124,9 +125,10 @@
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🏳️XX | vmess | @vless_vmess | 8",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -225,11 +227,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "104.18.212.188",
-            "server_port": 8080,
-            "uuid": "4e1fb101-e96a-4a7e-d936-13aeee7bd132",
+            "server": "162.159.141.214",
+            "server_port": 2082,
+            "uuid": "06fa3033-d172-4eff-8382-5af41fc90c5a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -242,7 +244,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ray",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
@@ -301,6 +303,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "2de7cd7b-a51a-441b-ed18-aef636198bc9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@vpn_whal,@vpn_whal",
                 "headers": {
                     "Host": ""
                 }

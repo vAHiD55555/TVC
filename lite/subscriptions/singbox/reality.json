@@ -124,6 +124,7 @@
                 "🏳️XX | vless | @fnet00 | 8",
                 "🇩🇪DE | vless | @Capital_NET | 57",
                 "🏳️XX | vless | @flyv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @kiava | 14",
                 "🇩🇪DE | vless | @proxy_mtm | 6",
                 "🇨🇦CA | vless | @vpn_go67 | 22",
@@ -154,6 +155,7 @@
                 "🏳️XX | vless | @fnet00 | 8",
                 "🇩🇪DE | vless | @Capital_NET | 57",
                 "🏳️XX | vless | @flyv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @kiava | 14",
                 "🇩🇪DE | vless | @proxy_mtm | 6",
                 "🇨🇦CA | vless | @vpn_go67 | 22",
@@ -796,6 +798,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@flyv2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "128.140.48.179",
+            "server_port": 13001,
+            "uuid": "57c39f24-7da0-47db-83d0-24ab89dec2f8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kukala.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MQeMaDwc9_e42HpJCSJTmqi5GYkEtv0yPKTQTj13Q2k",
+                    "short_id": "b8dd3974"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

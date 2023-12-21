@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇨🇿CZ | vmess | @oneclickvpnkeys | 8",
                 "🏳️XX | vmess | @vless_vmess | 8",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇨🇦CA | vmess | @Hope_Net | 6",
@@ -123,7 +122,6 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇨🇿CZ | vmess | @oneclickvpnkeys | 8",
                 "🏳️XX | vmess | @vless_vmess | 8",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇨🇦CA | vmess | @Hope_Net | 6",
@@ -187,30 +185,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/cctv1.m3u8",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇿CZ | vmess | @oneclickvpnkeys | 8",
-            "type": "vmess",
-            "server": "94.131.97.10",
-            "server_port": 8880,
-            "uuid": "13c4fa1d-c558-4cd0-8108-c1f64cd399ff",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
                 "headers": {
                     "Host": ""
                 }

@@ -106,16 +106,15 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 70",
                 "🏳️XX | vmess | @vless_vmess | 8",
-                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇳🇱NL | vmess | @forwardv2ray | 14",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 5"
             ]
         },
@@ -123,16 +122,15 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 70",
                 "🏳️XX | vmess | @vless_vmess | 8",
-                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇳🇱NL | vmess | @forwardv2ray | 14",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -154,30 +152,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
-            "type": "vmess",
-            "server": "discord.GG",
-            "server_port": 8880,
-            "uuid": "c2441b44-e556-401a-8963-8678ca14acf6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@v2group7",
-                "headers": {
-                    "Host": ""
-                }
-            }
         },
         {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -252,33 +226,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "95.38.96.202",
-            "server_port": 443,
-            "uuid": "d328e1c4-a2df-421f-902f-68eb29026195",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
@@ -378,6 +325,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 14",
+            "type": "vmess",
+            "server": "Holland.meberplus.site",
+            "server_port": 4000,
+            "uuid": "718daa77-ec1c-4c3a-b9ff-65e4cce4b483",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

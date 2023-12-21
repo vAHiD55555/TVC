@@ -178,6 +178,7 @@ proxies:
   - {"name":"🏳️XX | vless | @kiava | 14","type":"vless","server":"ec61.kiava.fun","port":8443,"udp":true,"uuid":"6b7376dd-11d8-443c-804a-996072aefd81","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"coinmarketcap.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"HaxuwLXAMWyELSwOqo3zZR-u23yyVNIloB7MkrYFF0U","short-id":"5e"}}
   - {"name":"🇬🇧GB | vless | @nofiltering2 | 22","type":"vless","server":"ip2.nofiltering2.sbs","port":443,"udp":false,"uuid":"376b9861-2fc6-4647-959c-18185cd9c95a","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"lmn37.sbs","ws-opts":{"path":"/fflsws","headers":{"host":"lmn37.sbs"}}}
   - {"name":"🇨🇦CA | vless | @proxy_mtm | 11","type":"vless","server":"104.18.202.212","port":2087,"udp":false,"uuid":"2bacd375-1c12-4f90-87c6-14259b4756b5","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"fl.ZoV2ray.cfd","grpc-opts":{"grpc-service-name":"@AntiFilterChV2,@AntiFilterChV2,@AntiFilterChV2"}}
+  - {"name":"🇨🇦CA | vless | @kingofilter | 8","type":"vless","server":"172.67.132.41","port":2095,"udp":false,"uuid":"8f07dc3b-8a0f-430f-a0fc-25e07760502c","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"@m4dvpn/?ed=2048","headers":{"host":"nl54.vlessx.us"}}}
   - {"name":"🇬🇧GB | vless | @freeconfigv2 | 14","type":"vless","server":"51.89.156.132","port":42440,"udp":false,"uuid":"ee1a886f-05ba-4407-bdd1-efdb4daac2f6","tls":false,"network":"tcp","client-fingerprint":"chrome","flow":"xtls-rprx-vision"}
   - {"name":"🇳🇴NO | vless | @Good_V2rayy | 2","type":"vless","server":"185.125.171.13","port":443,"udp":true,"uuid":"a09373e2-e120-457d-9ec9-ea7fe8bedb52","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"partner.g2.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
 proxy-groups:
@@ -244,6 +245,7 @@ proxy-groups:
       - '🏳️XX | vless | @kiava | 14'
       - '🇬🇧GB | vless | @nofiltering2 | 22'
       - '🇨🇦CA | vless | @proxy_mtm | 11'
+      - '🇨🇦CA | vless | @kingofilter | 8'
       - '🇬🇧GB | vless | @freeconfigv2 | 14'
       - '🇳🇴NO | vless | @Good_V2rayy | 2'
   - name: URL-TEST
@@ -310,6 +312,7 @@ proxy-groups:
       - '🏳️XX | vless | @kiava | 14'
       - '🇬🇧GB | vless | @nofiltering2 | 22'
       - '🇨🇦CA | vless | @proxy_mtm | 11'
+      - '🇨🇦CA | vless | @kingofilter | 8'
       - '🇬🇧GB | vless | @freeconfigv2 | 14'
       - '🇳🇴NO | vless | @Good_V2rayy | 2'
   - name: FALLBACK
@@ -375,6 +378,7 @@ proxy-groups:
       - '🏳️XX | vless | @kiava | 14'
       - '🇬🇧GB | vless | @nofiltering2 | 22'
       - '🇨🇦CA | vless | @proxy_mtm | 11'
+      - '🇨🇦CA | vless | @kingofilter | 8'
       - '🇬🇧GB | vless | @freeconfigv2 | 14'
       - '🇳🇴NO | vless | @Good_V2rayy | 2'
 rule-providers:

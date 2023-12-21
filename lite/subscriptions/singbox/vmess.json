@@ -108,13 +108,14 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
+                "🇹🇼TW | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 70",
                 "🏳️XX | vmess | @vless_vmess | 8",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇩🇪DE | vmess | @forwardv2ray | 19",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -124,13 +125,14 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
+                "🇹🇼TW | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 70",
                 "🏳️XX | vmess | @vless_vmess | 8",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇩🇪DE | vmess | @forwardv2ray | 19",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -195,6 +197,23 @@
             }
         },
         {
+            "tag": "🇹🇼TW | vmess | @oneclickvpnkeys | 7",
+            "type": "vmess",
+            "server": "nb36.ntbq.dynu.net",
+            "server_port": 3643,
+            "uuid": "99e39047-9298-404e-b632-1867f7ed1b37",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 70",
             "type": "vmess",
             "server": "116.202.22.168",
@@ -248,9 +267,9 @@
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "rf.rafalion.ir",
-            "server_port": 8443,
-            "uuid": "0198fa0c-221c-427c-8ab0-3a4829e73078",
+            "server": "tl.iranray.online",
+            "server_port": 8080,
+            "uuid": "839a223f-7510-4556-91fc-03c9dcd9056b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -260,16 +279,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
@@ -338,11 +347,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "tag": "🇩🇪DE | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "172.67.153.179",
-            "server_port": 8443,
-            "uuid": "874a60cd-f099-499a-8aee-e4606ccf3e86",
+            "server": "Germany.meberplus.site",
+            "server_port": 4000,
+            "uuid": "718daa77-ec1c-4c3a-b9ff-65e4cce4b483",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -352,23 +361,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nomore.hideip.tk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "nomore.hideip.tk"
-                }
             }
         },
         {

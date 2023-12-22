@@ -112,12 +112,11 @@
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🏳️XX | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇫🇮FI | vless | @V2rayCollectorDonate | 19",
                 "🇪🇸ES | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
                 "🇩🇪DE | vless | @v2ray_swhil | 17",
-                "🇩🇪DE | vless | @MTConfig | 24",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -126,8 +125,7 @@
                 "🇩🇪DE | vless | @FreakConfig | 15",
                 "🇩🇪DE | vless | @flyv2ray | 17",
                 "🏳️XX | vless | @kiava | 14",
-                "🇩🇪DE | vless | @nofiltering2 | 21",
-                "🇺🇸US | vless | @vpn_go67 | 22",
+                "🇨🇦CA | vless | @vpn_go67 | 22",
                 "🇩🇪DE | vless | @GozargahVPN | 17",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -143,12 +141,11 @@
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🏳️XX | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇫🇮FI | vless | @V2rayCollectorDonate | 19",
                 "🇪🇸ES | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
                 "🇩🇪DE | vless | @v2ray_swhil | 17",
-                "🇩🇪DE | vless | @MTConfig | 24",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -157,8 +154,7 @@
                 "🇩🇪DE | vless | @FreakConfig | 15",
                 "🇩🇪DE | vless | @flyv2ray | 17",
                 "🏳️XX | vless | @kiava | 14",
-                "🇩🇪DE | vless | @nofiltering2 | 21",
-                "🇺🇸US | vless | @vpn_go67 | 22",
+                "🇨🇦CA | vless | @vpn_go67 | 22",
                 "🇩🇪DE | vless | @GozargahVPN | 17",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -386,11 +382,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇫🇮FI | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "5.161.151.69",
+            "server": "65.109.196.60",
             "server_port": 443,
-            "uuid": "d4d38aa6-76dd-42c4-a0d1-4996d8a39e3f",
+            "uuid": "77de5be2-96da-4b20-b23a-6c31599f661a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -409,8 +405,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "N56r3Trm3uXikKTNQMDTDuCqc6dKyCBYPKakk517nHc",
-                    "short_id": "c08a9b9f"
+                    "public_key": "HyfhuipSo5mPPlOlQ53Oi-jySZAx32cRbK7VMdVccAk",
+                    "short_id": "db77564f"
                 }
             },
             "transport": {
@@ -560,42 +556,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @MTConfig | 24",
-            "type": "vless",
-            "server": "128.140.122.248",
-            "server_port": 58053,
-            "uuid": "c2b18fa2-ad79-4387-b8b8-949dade97fe9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.tradingview.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5jJCPNWmP5u-nCFsXrOAG5fvlQSoLslhMj-fIuNsjF4",
-                    "short_id": "62b754ec"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@XsV2ray,@XsV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -862,36 +822,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @nofiltering2 | 21",
-            "type": "vless",
-            "server": "blogc.samnet.pw",
-            "server_port": 443,
-            "uuid": "86d3d6fb-5337-4f3b-bb45-1f0d29f9c4fd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ee1.samnet.pw",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 22",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 22",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,

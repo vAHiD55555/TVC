@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇮🇷IR | vless | @Helix_Servers | 11",
                 "🇩🇪DE | vless | @EliV2ray | 12",
-                "🇸🇪SE | vless | @reality_daily | 8",
+                "🇹🇷TR | vless | @reality_daily | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @frev2ray | 16",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -125,7 +125,8 @@
                 "🇸🇪SE | vless | @kingofilter | 14",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
-                "🇺🇸US | vless | @FoXrayIran | 7"
+                "🇺🇸US | vless | @FoXrayIran | 7",
+                "🇩🇪DE | vless | @IBv2ray | 13"
             ]
         },
         {
@@ -134,7 +135,7 @@
             "outbounds": [
                 "🇮🇷IR | vless | @Helix_Servers | 11",
                 "🇩🇪DE | vless | @EliV2ray | 12",
-                "🇸🇪SE | vless | @reality_daily | 8",
+                "🇹🇷TR | vless | @reality_daily | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @frev2ray | 16",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -151,7 +152,8 @@
                 "🇸🇪SE | vless | @kingofilter | 14",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
-                "🇺🇸US | vless | @FoXrayIran | 7"
+                "🇺🇸US | vless | @FoXrayIran | 7",
+                "🇩🇪DE | vless | @IBv2ray | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -246,11 +248,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @reality_daily | 8",
+            "tag": "🇹🇷TR | vless | @reality_daily | 7",
             "type": "vless",
-            "server": "5.42.86.225",
+            "server": "83.217.9.129",
             "server_port": 22,
-            "uuid": "e0f6985c-61e0-4518-b91c-ba85a32fb9b1",
+            "uuid": "e7aef492-edcb-421f-8fce-7f44edadd77f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -260,7 +262,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ftp.debian.org",
+                "server_name": "speed.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -269,8 +271,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "F5U2T63jq-kp564TvoWVeC2NJZJ7QTpwGxb7ZuCEunw",
-                    "short_id": "74343174"
+                    "public_key": "wcvw9ztmKUh96CmY9NEtUi47oNqSwh85aGZ07BNfgxQ",
+                    "short_id": "30717062"
                 }
             }
         },
@@ -853,6 +855,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "join-channel-foxrayiran-join-channel-foxrayiran-join-channel-foxrayiran-join-channel-foxrayiran-join-channel-foxrayiran-join-channel-foxrayiran",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @IBv2ray | 13",
+            "type": "vless",
+            "server": "159.69.107.97",
+            "server_port": 2096,
+            "uuid": "82992eb8-c5a0-483d-bcf0-a830aa59eab7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JiFmcB_LrEuwE9tOx-_QOKJcxmRGU0ff0m5vU4MSRT8",
+                    "short_id": "48028167"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "TELEGRAM:@ZEDMODEON,TELEGRAM:@ZEDMODEON,TELEGRAM:@ZEDMODEON,TELEGRAM:@ZEDMODEON",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

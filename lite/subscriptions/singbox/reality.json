@@ -110,7 +110,6 @@
                 "🇸🇪SE | vless | @reality_daily | 8",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @frev2ray | 16",
-                "🇩🇪DE | vless | @Lockey_vpn | 18",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🏳️XX | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
@@ -118,10 +117,8 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
                 "🇩🇪DE | vless | @DailyV2RY | 157",
                 "🏳️XX | vless | @fnet00 | 10",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 12",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 11",
-                "🇩🇪DE | vless | @FreakConfig | 14",
                 "🇩🇪DE | vless | @flyv2ray | 18",
                 "🏳️XX | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -138,7 +135,6 @@
                 "🇸🇪SE | vless | @reality_daily | 8",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @frev2ray | 16",
-                "🇩🇪DE | vless | @Lockey_vpn | 18",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🏳️XX | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
@@ -146,10 +142,8 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
                 "🇩🇪DE | vless | @DailyV2RY | 157",
                 "🏳️XX | vless | @fnet00 | 10",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 12",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 11",
-                "🇩🇪DE | vless | @FreakConfig | 14",
                 "🇩🇪DE | vless | @flyv2ray | 18",
                 "🏳️XX | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -309,42 +303,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Frev2ray:",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @Lockey_vpn | 18",
-            "type": "vless",
-            "server": "91.107.252.203",
-            "server_port": 2096,
-            "uuid": "2b154d15-437a-43a3-ff4a-ba1a9a05c2e7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "91.107.252.203",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "XgMabGBxLIRQds0LEFXBrHWH3bB95cAJBFKn1suYlUw",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@LOCKEY_VPN",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -603,42 +561,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 12",
-            "type": "vless",
-            "server": "116.203.149.241",
-            "server_port": 443,
-            "uuid": "1596e7f0-2106-468f-e2b0-93f19e83bd0c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JYFrn4MJLzIx9jeYhpmtcgk0KoP2_HKukaRBEO6VCiU",
-                    "short_id": "a18472f7"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @Capital_NET | 56",
             "type": "vless",
             "server": "shabdiz.kermanshah.fun",
@@ -698,42 +620,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@V2ray_Alpha",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @FreakConfig | 14",
-            "type": "vless",
-            "server": "78.47.67.130",
-            "server_port": 443,
-            "uuid": "766fd032-c88c-4737-9d0c-d22d4bf691c2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "u16iuEO65ocISv1IAd5fbBOH2bnkvwLsrnxu8tXxyAk",
-                    "short_id": "ecf80fac"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

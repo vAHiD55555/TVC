@@ -109,7 +109,10 @@
                 "🇮🇷IR | vless | @Helix_Servers | 11",
                 "🇹🇷TR | vless | @reality_daily | 6",
                 "🇩🇪DE | vless | @ipV2Ray | 17",
+                "🇬🇧GB | vless | @ARv2ray | 14",
+                "🇩🇪DE | vless | @Lockey_vpn | 18",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇪🇸ES | vless | @ProxyForOpeta | 4",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
@@ -132,7 +135,10 @@
                 "🇮🇷IR | vless | @Helix_Servers | 11",
                 "🇹🇷TR | vless | @reality_daily | 6",
                 "🇩🇪DE | vless | @ipV2Ray | 17",
+                "🇬🇧GB | vless | @ARv2ray | 14",
+                "🇩🇪DE | vless | @Lockey_vpn | 18",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇪🇸ES | vless | @ProxyForOpeta | 4",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
@@ -269,6 +275,78 @@
             }
         },
         {
+            "tag": "🇬🇧GB | vless | @ARv2ray | 14",
+            "type": "vless",
+            "server": "3.9.104.147",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "deb.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jGV0kJtzLFBz6OXCU4kBzIo0cNps2Xsqf0Dxzlk-M20",
+                    "short_id": "28d7e262"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @Lockey_vpn | 18",
+            "type": "vless",
+            "server": "91.107.252.203",
+            "server_port": 2096,
+            "uuid": "2b154d15-437a-43a3-ff4a-ba1a9a05c2e7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "91.107.252.203",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XgMabGBxLIRQds0LEFXBrHWH3bB95cAJBFKn1suYlUw",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@LOCKEY_VPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
             "type": "vless",
             "server": "49.12.69.241",
@@ -302,6 +380,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "168.119.173.56",
+            "server_port": 443,
+            "uuid": "Tech_Tube_ORG",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.pcmag.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0gCqWCKWYRpwxWcxfLevqHJI0LzanF8ObD5b_EdTukk",
+                    "short_id": "f4ecd674"
+                }
             }
         },
         {

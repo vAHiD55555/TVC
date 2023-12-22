@@ -128,7 +128,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | tuic | @EUT_VPN | 7",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
-                "🇨🇦CA | vless | @DarkTeam_VPN | 9",
+                "🇨🇦CA | vless | @DarkTeam_VPN | 6",
                 "🏳️XX | vless | @V2raysFree | 16",
                 "🇨🇦CA | vless | @v2logy | 16",
                 "🇬🇧GB | vless | @servermomo | 9",
@@ -176,7 +176,7 @@
                 "🇩🇪DE | vless | @FreakConfig | 14",
                 "🇨🇭CH | vless | @IRN_VPN | 14",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 6",
+                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🏳️XX | vless | @kiava | 14",
@@ -217,7 +217,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | tuic | @EUT_VPN | 7",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
-                "🇨🇦CA | vless | @DarkTeam_VPN | 9",
+                "🇨🇦CA | vless | @DarkTeam_VPN | 6",
                 "🏳️XX | vless | @V2raysFree | 16",
                 "🇨🇦CA | vless | @v2logy | 16",
                 "🇬🇧GB | vless | @servermomo | 9",
@@ -265,7 +265,7 @@
                 "🇩🇪DE | vless | @FreakConfig | 14",
                 "🇨🇭CH | vless | @IRN_VPN | 14",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 6",
+                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🏳️XX | vless | @kiava | 14",
@@ -960,7 +960,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DarkTeam_VPN | 9",
+            "tag": "🇨🇦CA | vless | @DarkTeam_VPN | 6",
             "type": "vless",
             "server": "104.21.12.150",
             "server_port": 8443,
@@ -2278,11 +2278,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 6",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 11",
             "type": "vless",
-            "server": "all.globalnetvpn.site",
-            "server_port": 2053,
-            "uuid": "5254369e-48b7-4471-81a8-53c5c7a6d59e",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "ac94a4d2-37f0-4cd0-e27b-b1e1f3433345",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2292,7 +2292,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "global.globalnetvpn.site",
+                "server_name": "bomb.epsia.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2302,9 +2302,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@V2NET_IRAN,@V2NET_IRAN,@V2NET_IRAN,@V2NET_IRAN,@V2NET_IRAN,@V2NET_IRAN,@V2NET_IRAN,",
                 "headers": {
-                    "Host": "global.globalnetvpn.site"
+                    "Host": "bomb.epsia.cfd"
                 }
             }
         },

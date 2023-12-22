@@ -109,13 +109,12 @@
                 "🇩🇪DE | vmess | @azadi_az_inja_migzare | 6",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 7",
                 "🏳️XX | vmess | @vless_vmess | 8",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇨🇷CR | vmess | @Hope_Net | 17",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -126,13 +125,12 @@
                 "🇩🇪DE | vmess | @azadi_az_inja_migzare | 6",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 7",
                 "🏳️XX | vmess | @vless_vmess | 8",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇨🇷CR | vmess | @Hope_Net | 17",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -207,11 +205,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "cf.network383.online",
-            "server_port": 2083,
-            "uuid": "055079b7-84cb-4619-8b46-f21e642232ef",
+            "server": "146.59.147.250",
+            "server_port": 29776,
+            "uuid": "82447abf-dcb9-408a-9ca6-79e0a7698d08",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -221,23 +219,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fracukayi0pixif.carfin.tech",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@apt_mahdi",
-                "headers": {
-                    "Host": "fracukayi0pixif.carfin.tech"
-                }
             }
         },
         {
@@ -351,30 +332,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "DISCORD.GG",
-            "server_port": 8880,
-            "uuid": "@V2Group7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@v2group7",
                 "headers": {
                     "Host": ""
                 }

@@ -116,7 +116,7 @@
                 "🇪🇸ES | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
-                "🇩🇪DE | vless | @v2ray_swhil | 15",
+                "🇩🇪DE | vless | @v2ray_swhil | 17",
                 "🇩🇪DE | vless | @MTConfig | 24",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -126,8 +126,8 @@
                 "🇩🇪DE | vless | @FreakConfig | 15",
                 "🇩🇪DE | vless | @flyv2ray | 17",
                 "🏳️XX | vless | @kiava | 14",
-                "🇨🇦CA | vless | @vpn_go67 | 22",
-                "🇩🇪DE | vless | @kingofilter | 10",
+                "🇩🇪DE | vless | @nofiltering2 | 21",
+                "🇺🇸US | vless | @vpn_go67 | 22",
                 "🇩🇪DE | vless | @GozargahVPN | 17",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -147,7 +147,7 @@
                 "🇪🇸ES | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
-                "🇩🇪DE | vless | @v2ray_swhil | 15",
+                "🇩🇪DE | vless | @v2ray_swhil | 17",
                 "🇩🇪DE | vless | @MTConfig | 24",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -157,8 +157,8 @@
                 "🇩🇪DE | vless | @FreakConfig | 15",
                 "🇩🇪DE | vless | @flyv2ray | 17",
                 "🏳️XX | vless | @kiava | 14",
-                "🇨🇦CA | vless | @vpn_go67 | 22",
-                "🇩🇪DE | vless | @kingofilter | 10",
+                "🇩🇪DE | vless | @nofiltering2 | 21",
+                "🇺🇸US | vless | @vpn_go67 | 22",
                 "🇩🇪DE | vless | @GozargahVPN | 17",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -530,7 +530,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 15",
+            "tag": "🇩🇪DE | vless | @v2ray_swhil | 17",
             "type": "vless",
             "server": "titaniom.official.mmdtitaniom.com",
             "server_port": 443,
@@ -862,7 +862,36 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 22",
+            "tag": "🇩🇪DE | vless | @nofiltering2 | 21",
+            "type": "vless",
+            "server": "blogc.samnet.pw",
+            "server_port": 443,
+            "uuid": "86d3d6fb-5337-4f3b-bb45-1f0d29f9c4fd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ee1.samnet.pw",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @vpn_go67 | 22",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
@@ -895,35 +924,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @kingofilter | 10",
-            "type": "vless",
-            "server": "94.130.183.41",
-            "server_port": 1503,
-            "uuid": "482931a4-fa81-4d82-a6fd-f5efa846b586",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "0first.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "21-4cyes9zNNaaOPl-xOlkESjzaRaCUnEXyYZE8rmW0",
-                    "short_id": ""
-                }
             }
         },
         {

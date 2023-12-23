@@ -134,7 +134,7 @@
                 "🇨🇷CR | vless | @V2rayNGn | 24",
                 "🇮🇷IR | vless | @prrofile_purple | 178",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
-                "🇺🇸US | vless | @customv2ray | 11",
+                "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🏳️XX | vless | @vmessorg | 58",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 16",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 12",
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🇨🇦CA | vless | @MehradLearn | 9",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
@@ -167,13 +167,13 @@
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🏳️XX | vless | @kiava | 14",
                 "🇨🇷CR | vless | @proxy_mtm | 30",
-                "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 14",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7",
-                "🇩🇪DE | vless | @IBv2ray | 13"
+                "🇷🇺RU | vless | @IBv2ray | 11"
             ]
         },
         {
@@ -208,7 +208,7 @@
                 "🇨🇷CR | vless | @V2rayNGn | 24",
                 "🇮🇷IR | vless | @prrofile_purple | 178",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
-                "🇺🇸US | vless | @customv2ray | 11",
+                "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🏳️XX | vless | @vmessorg | 58",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 16",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 12",
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🇨🇦CA | vless | @MehradLearn | 9",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
@@ -241,13 +241,13 @@
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🏳️XX | vless | @kiava | 14",
                 "🇨🇷CR | vless | @proxy_mtm | 30",
-                "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 14",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7",
-                "🇩🇪DE | vless | @IBv2ray | 13"
+                "🇷🇺RU | vless | @IBv2ray | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1102,7 +1102,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @customv2ray | 11",
+            "tag": "🇨🇦CA | vless | @customv2ray | 11",
             "type": "vless",
             "server": "104.21.13.125",
             "server_port": 80,
@@ -1608,12 +1608,12 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "maskunlimit2.api-tel.online",
-            "server_port": 41485,
-            "uuid": "eae76614-f990-4bc3-b544-9957b91fb2b0",
-            "flow": "xtls-rprx-vision",
+            "server": "vpneror2.arminhadadi.site",
+            "server_port": 2087,
+            "uuid": "4e963830-b7bf-4b16-98ed-dc2df7702d4b",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1622,17 +1622,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zula.ir",
+                "server_name": "vpneror2.arminhadadi.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "o-GAnBu1-OiNAWTZaaamyZCKKeXM96rcH45bE0bMhnY",
-                    "short_id": "b335888870"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless",
+                "headers": {
+                    "Host": "vpneror2.arminhadadi.site"
                 }
             }
         },
@@ -2065,7 +2067,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 23",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
@@ -2245,11 +2247,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @IBv2ray | 13",
+            "tag": "🇷🇺RU | vless | @IBv2ray | 11",
             "type": "vless",
-            "server": "159.69.107.97",
-            "server_port": 2096,
-            "uuid": "82992eb8-c5a0-483d-bcf0-a830aa59eab7",
+            "server": "45.15.158.55",
+            "server_port": 25365,
+            "uuid": "29d3dea8-e9c6-4d48-a956-4269c6e6b551",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2268,8 +2270,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "JiFmcB_LrEuwE9tOx-_QOKJcxmRGU0ff0m5vU4MSRT8",
-                    "short_id": "48028167"
+                    "public_key": "0V-a4uvH8_dLxXxMBqgHrBgXvKk8DbNTht4Uv780Ew4",
+                    "short_id": "d0bb1dc8"
                 }
             },
             "transport": {

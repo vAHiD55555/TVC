@@ -120,9 +120,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇹🇷TR | vless | @forwardv2ray | 15",
                 "🏳️XX | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇸🇪SE | vless | @kingofilter | 15",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7",
@@ -147,9 +147,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇹🇷TR | vless | @forwardv2ray | 15",
                 "🏳️XX | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇸🇪SE | vless | @kingofilter | 15",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7",
@@ -666,35 +666,6 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vless | @forwardv2ray | 15",
-            "type": "vless",
-            "server": "mrarsha3thanksgivingrebelmoon-part1.irandarkpro.gq",
-            "server_port": 10001,
-            "uuid": "bd3df99b-15c7-4d47-b19f-6e375d65fef4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "proxmox.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "XKIad4_xZdlRhq1mLmou1AeM2O9qytwC0X5ySlq6XXw",
-                    "short_id": "2e68ebc2"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @kiava | 14",
             "type": "vless",
             "server": "ec61.kiava.fun",
@@ -757,6 +728,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @kingofilter | 15",
+            "type": "vless",
+            "server": "13.51.254.68",
+            "server_port": 8443,
+            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.makers.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OzX5HJ5bS-V3lo1ioQ2xuic7tmjC8TcVE4t--r3JW1k",
+                    "short_id": "3c"
+                }
             }
         },
         {

@@ -160,7 +160,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @IRN_VPN | 2",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -171,7 +171,7 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7",
-                "🇺🇸US | vless | @IBv2ray | 5"
+                "🇨🇦CA | vless | @IBv2ray | 5"
             ]
         },
         {
@@ -232,7 +232,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @IRN_VPN | 2",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -243,7 +243,7 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7",
-                "🇺🇸US | vless | @IBv2ray | 5"
+                "🇨🇦CA | vless | @IBv2ray | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1522,9 +1522,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.21.28.62",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "xio.vpnxw.eu.org",
+            "server_port": 2082,
+            "uuid": "45699ea8-557b-4679-ad78-c45c893b5806",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1532,21 +1532,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "xio.vpnxw.eu.org"
                 }
             }
         },
@@ -1895,11 +1885,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "srv1.helixservers.space",
-            "server_port": 443,
-            "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
+            "server": "de.MsV2ray.sbs",
+            "server_port": 2083,
+            "uuid": "8fac0e66-13a0-443f-fd7a-8c0b027e4632",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1909,7 +1899,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "lmn37.sbs",
+                "server_name": "fe.MsV2ray.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1918,11 +1908,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/fflsws",
-                "headers": {
-                    "Host": "lmn37.sbs"
-                }
+                "type": "grpc",
+                "service_name": "@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -2228,7 +2218,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @IBv2ray | 5",
+            "tag": "🇨🇦CA | vless | @IBv2ray | 5",
             "type": "vless",
             "server": "104.17.193.37",
             "server_port": 2087,

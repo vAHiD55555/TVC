@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @Lockey_vpn | 17",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 19",
+                "🇺🇸US | vless | @lightning6 | 19",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇨🇦CA | vless | @vpn_xw | 7",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -139,7 +139,6 @@
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Proxy_PJ | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @MTConfig | 24",
@@ -148,7 +147,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇷CR | vless | @SafeNet_Server | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @free1_vpn | 6",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -159,7 +158,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @IRN_VPN | 2",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @FAKEOFTVC | 7",
+                "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇷CR | vless | @proxy_mtm | 18",
@@ -187,7 +186,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @Lockey_vpn | 17",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 19",
+                "🇺🇸US | vless | @lightning6 | 19",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇨🇦CA | vless | @vpn_xw | 7",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -209,7 +208,6 @@
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Proxy_PJ | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @MTConfig | 24",
@@ -218,7 +216,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇷CR | vless | @SafeNet_Server | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @free1_vpn | 6",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -229,7 +227,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @IRN_VPN | 2",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @FAKEOFTVC | 7",
+                "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇷CR | vless | @proxy_mtm | 18",
@@ -606,7 +604,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 19",
+            "tag": "🇺🇸US | vless | @lightning6 | 19",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.mamd.sbs",
             "server_port": 2083,
@@ -1240,42 +1238,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 20",
-            "type": "vless",
-            "server": "titaniom.official.mmdtitaniom.com",
-            "server_port": 2087,
-            "uuid": "2983fa60-9ff9-4c09-b70f-9f53dbf4be35",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "myOyTs6wtYgOioDwSzMCIUNRuq6l6I7ciLUqfusSTmY",
-                    "short_id": "6fa697ff"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @MsV2ray | 11",
             "type": "vless",
             "server": "de.MsV2ray.sbs",
@@ -1519,11 +1481,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "bia_to2.vmessorg.shop",
+            "server": "172.67.172.214",
             "server_port": 80,
-            "uuid": "62a4fad0-31ba-484d-ae3a-8d10617dcb33",
+            "uuid": "9c20a72b-0ad6-4914-b10d-8c539142136c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1533,9 +1495,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/backup",
                 "headers": {
-                    "Host": "bia_to2.vmessorg.shop"
+                    "Host": "172.67.172.214"
                 }
             }
         },
@@ -1640,9 +1602,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "edgu.pureboy.eu.org",
-            "server_port": 443,
-            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
+            "server": "xio.vpnxw.eu.org",
+            "server_port": 2052,
+            "uuid": "45699ea8-557b-4679-ad78-c45c893b5806",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1650,21 +1612,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "edgu.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "edgu.pureboy.eu.org"
+                    "Host": "xio.vpnxw.eu.org"
                 }
             }
         },
@@ -1863,11 +1815,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 7",
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 6",
             "type": "vless",
-            "server": "a-ipclf.tabanweb.com",
+            "server": "104.31.16.32",
             "server_port": 443,
-            "uuid": "667c6c32-609f-4c08-9bdb-da6333f2a89b",
+            "uuid": "c17ee8d1-c7a3-4666-83da-d923ae45c31d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1877,7 +1829,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vhapi124sh.vipluptvs.store",
+                "server_name": "oniyx.fun",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1887,9 +1839,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/apiapp",
+                "path": "\/uorpws",
                 "headers": {
-                    "Host": "vhapi124sh.vipluptvs.store"
+                    "Host": "oniyx.fun"
                 }
             }
         },

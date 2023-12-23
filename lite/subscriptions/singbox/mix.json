@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇮🇷IR | vless | @free_v2rayyy | 10",
-                "🇺🇸US | vless | @lightning6 | 19",
+                "🇨🇷CR | vless | @lightning6 | 19",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇨🇦CA | vless | @vpn_xw | 7",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -162,7 +162,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🇨🇦CA | vless | @MehradLearn | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vless | @VPNCLOP | 0",
@@ -175,10 +175,10 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @FreakConfig | 10",
-                "🇨🇭CH | vless | @IRN_VPN | 14",
+                "🇧🇬BG | vless | @IRN_VPN | 14",
                 "🇳🇱NL | vless | @flyv2ray | 16",
-                "🏳️XX | vmess | @forwardv2ray | 18",
-                "🇨🇦CA | vless | @FAKEOFTVC | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vless | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🏳️XX | vless | @kiava | 14",
                 "🇨🇷CR | vless | @proxy_mtm | 30",
@@ -211,7 +211,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇮🇷IR | vless | @free_v2rayyy | 10",
-                "🇺🇸US | vless | @lightning6 | 19",
+                "🇨🇷CR | vless | @lightning6 | 19",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇨🇦CA | vless | @vpn_xw | 7",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -252,7 +252,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🇨🇦CA | vless | @MehradLearn | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vless | @VPNCLOP | 0",
@@ -265,10 +265,10 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @FreakConfig | 10",
-                "🇨🇭CH | vless | @IRN_VPN | 14",
+                "🇧🇬BG | vless | @IRN_VPN | 14",
                 "🇳🇱NL | vless | @flyv2ray | 16",
-                "🏳️XX | vmess | @forwardv2ray | 18",
-                "🇨🇦CA | vless | @FAKEOFTVC | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vless | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🏳️XX | vless | @kiava | 14",
                 "🇨🇷CR | vless | @proxy_mtm | 30",
@@ -765,7 +765,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 19",
+            "tag": "🇨🇷CR | vless | @lightning6 | 19",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.mamd.sbs",
             "server_port": 2083,
@@ -1843,11 +1843,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "all.globalnetvpn.site",
-            "server_port": 2096,
-            "uuid": "fd048b86-e415-4900-aa32-3eae5d50c8cc",
+            "server": "discord.com",
+            "server_port": 443,
+            "uuid": "77d104fd-b578-4af7-ae66-ad5a4dbd93d1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1857,7 +1857,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "global.globalnetvpn.site",
+                "server_name": "Vip.hsza.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1866,11 +1866,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@global_net_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Vip.hsza.site"
+                }
             }
         },
         {
@@ -2229,7 +2229,7 @@
             }
         },
         {
-            "tag": "🇨🇭CH | vless | @IRN_VPN | 14",
+            "tag": "🇧🇬BG | vless | @IRN_VPN | 14",
             "type": "vless",
             "server": "93.123.82.35",
             "server_port": 1402,
@@ -2279,11 +2279,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "6C0D8FF1-3189-4FBC-BF90-22581BEAFA36",
+            "server": "singapore.com",
+            "server_port": 80,
+            "uuid": "b1e30339-a603-47d1-b31c-1d0ceb59952e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2294,26 +2294,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/speedtest",
+                "path": "\/api\/v3\/download.getFile",
                 "headers": {
-                    "Host": "Dusseldorf.kotick.site"
+                    "Host": "singapore.com"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 9",
+            "tag": "🇺🇸US | vless | @FAKEOFTVC | 9",
             "type": "vless",
             "server": "a-ipclf.tabanweb.com",
             "server_port": 443,

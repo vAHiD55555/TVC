@@ -112,7 +112,7 @@
                 "🇨🇦CA | vless | @v2_team | 15",
                 "🇨🇦CA | vless | @XsV2ray | 16",
                 "🇹🇷TR | vless | @reality_daily | 7",
-                "🇸🇪SE | vless | @VlessConfig | 16",
+                "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 24",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @V2pedia | 9",
@@ -155,6 +155,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 10",
+                "🇫🇷FR | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇺🇸US | vless | @https_config_injector | 13",
                 "🇨🇦CA | vless | @mehrosaboran | 5",
@@ -179,7 +180,7 @@
                 "🇨🇦CA | vless | @v2_team | 15",
                 "🇨🇦CA | vless | @XsV2ray | 16",
                 "🇹🇷TR | vless | @reality_daily | 7",
-                "🇸🇪SE | vless | @VlessConfig | 16",
+                "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 24",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @V2pedia | 9",
@@ -222,6 +223,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 10",
+                "🇫🇷FR | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇺🇸US | vless | @https_config_injector | 13",
                 "🇨🇦CA | vless | @mehrosaboran | 5",
@@ -445,9 +447,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VlessConfig | 16",
+            "tag": "🇩🇪DE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "51.21.114.39",
+            "server": "3.79.252.244",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1734,6 +1736,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@vmesskhodam",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "panel1fr.trv2rayy.cfd",
+            "server_port": 38531,
+            "uuid": "a2004ed7-a6cb-40ae-9f13-96bf951a21dc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AuYqTmP40MEQyjWVoVBZMpaPWSCm7H4n9tv4ZSFRzQQ",
+                    "short_id": "f5e4a7a5"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023\/@v2rayng12023",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

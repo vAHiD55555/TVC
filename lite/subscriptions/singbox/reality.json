@@ -118,11 +118,11 @@
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
                 "🇩🇪DE | vless | @DailyV2RY | 104",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇫🇷FR | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 15",
@@ -147,11 +147,11 @@
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
                 "🇩🇪DE | vless | @DailyV2RY | 104",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇫🇷FR | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 15",
@@ -591,6 +591,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "49.13.11.249",
+            "server_port": 443,
+            "uuid": "96bbbba8-eac5-4bf7-916d-52c34ed5117c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "time.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zC5dRSgRznzVgsc8qyb6NR-KZ0LShVCjU6kWJ2TgdyI",
+                    "short_id": "55e25a2b"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @fnet00 | 10",
             "type": "vless",
             "server": "kamyarservers.ddns.net",
@@ -725,35 +754,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "brownfish.uk",
-            "server_port": 58566,
-            "uuid": "ff0ff664-9e36-4d93-9005-39ae4eab3a0d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AE3HT0NRScYiaDAwLJPR2gLVuz9wwm_-6D6nTUCLODk",
-                    "short_id": "b2a3f098"
-                }
             }
         },
         {

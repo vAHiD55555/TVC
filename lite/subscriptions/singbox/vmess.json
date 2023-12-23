@@ -113,7 +113,6 @@
                 "🇯🇵JP | vmess | @ShadowProxy66 | 62",
                 "🇨🇦CA | vmess | @v2ray1_ng | 8",
                 "🏳️XX | vmess | @vless_vmess | 8",
-                "🇨🇦CA | vmess | @ConfigsHUB | 13",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
@@ -132,7 +131,6 @@
                 "🇯🇵JP | vmess | @ShadowProxy66 | 62",
                 "🇨🇦CA | vmess | @v2ray1_ng | 8",
                 "🏳️XX | vmess | @vless_vmess | 8",
-                "🇨🇦CA | vmess | @ConfigsHUB | 13",
                 "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
@@ -324,30 +322,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 13",
-            "type": "vmess",
-            "server": "104.17.100.131",
-            "server_port": 2095,
-            "uuid": "5293ffc4-754f-4299-a570-1f831fcd28b1",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/asdas",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {

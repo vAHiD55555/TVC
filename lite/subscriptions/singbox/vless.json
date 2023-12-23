@@ -141,12 +141,11 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 16",
                 "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
-                "🇨🇦CA | vless | @ShadowProxy66 | 59",
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Proxy_PJ | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇷CR | vless | @v2ray_swhil | 17",
-                "🇺🇸US | vless | @proxyymeliii | 18",
+                "🇨🇷CR | vless | @v2ray_swhil | 19",
+                "🇨🇷CR | vless | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @MsV2ray | 13",
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @MTConfig | 24",
@@ -154,14 +153,13 @@
                 "🇫🇮FI | vless | @DailyV2RY | 131",
                 "🇨🇦CA | vless | @MehradLearn | 9",
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 8",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 13",
-                "🇨🇦CA | vless | @FreakConfig | 14",
+                "🇨🇦CA | vless | @FreakConfig | 12",
                 "🇨🇭CH | vless | @IRN_VPN | 14",
                 "🇳🇱NL | vless | @flyv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 9",
@@ -216,12 +214,11 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 16",
                 "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
-                "🇨🇦CA | vless | @ShadowProxy66 | 59",
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Proxy_PJ | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇷CR | vless | @v2ray_swhil | 17",
-                "🇺🇸US | vless | @proxyymeliii | 18",
+                "🇨🇷CR | vless | @v2ray_swhil | 19",
+                "🇨🇷CR | vless | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @MsV2ray | 13",
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @MTConfig | 24",
@@ -229,14 +226,13 @@
                 "🇫🇮FI | vless | @DailyV2RY | 131",
                 "🇨🇦CA | vless | @MehradLearn | 9",
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 8",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 13",
-                "🇨🇦CA | vless | @FreakConfig | 14",
+                "🇨🇦CA | vless | @FreakConfig | 12",
                 "🇨🇭CH | vless | @IRN_VPN | 14",
                 "🇳🇱NL | vless | @flyv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 9",
@@ -1262,37 +1258,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 59",
-            "type": "vless",
-            "server": "w3.sylarsun.eu.org",
-            "server_port": 443,
-            "uuid": "89420825-e589-4735-bee1-6dc636fca343",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "w3.sylarsun.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "w3.sylarsun.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @ServerNett | 14",
             "type": "vless",
             "server": "join2.servernet.cfd",
@@ -1386,11 +1351,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @v2ray_swhil | 17",
+            "tag": "🇨🇷CR | vless | @v2ray_swhil | 19",
             "type": "vless",
             "server": "all.digiv2ray.shop",
             "server_port": 2096,
-            "uuid": "443dd82b-68b9-40a6-aefd-094ad8c63e78",
+            "uuid": "443dd82b-68b9-40a6-aefd-094ad8c63e77",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1417,11 +1382,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxyymeliii | 18",
+            "tag": "🇨🇷CR | vless | @proxyymeliii | 20",
             "type": "vless",
-            "server": "V2ray.motorcycles",
-            "server_port": 2087,
-            "uuid": "7a705576-967e-4425-aed0-45fe16524337",
+            "server": "All.SHHPROXY.monster",
+            "server_port": 443,
+            "uuid": "090fa492-872f-4081-96b2-1d123352f5f5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1431,7 +1396,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "FreeV2rayng.SHHPROXY.monster",
+                "server_name": "FreeV2rayng.SHHPROXY.motorcycles",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1440,11 +1405,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "FreeV2rayng.SHHPROXY.monster"
-                }
+                "type": "grpc",
+                "service_name": "@Shh_Proxy,@Shh_Proxy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1670,37 +1635,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "162.159.136.67",
-            "server_port": 2096,
-            "uuid": "ef82c6c1-ea00-40ce-88eb-e1e04c30d051",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Daily_Configs.DarkMood.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs",
-                "headers": {
-                    "Host": "Daily_Configs.DarkMood.cfd"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @fnet00 | 10",
             "type": "vless",
             "server": "kamyarservers.ddns.net",
@@ -1895,11 +1829,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 14",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 12",
             "type": "vless",
-            "server": "104.27.91.235",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "6e34f2c5-6c71-4010-c292-10d05ef4a9a2",
+            "uuid": "efcb3057-d780-47f7-a894-706e77436e49",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1909,7 +1843,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "current.ircp.online",
+                "server_name": "omgws.bedonemarz.online",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1919,9 +1853,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram:@bed0nemarz:@uciranir",
                 "headers": {
-                    "Host": "current.ircp.online"
+                    "Host": "omgws.bedonemarz.online"
                 }
             }
         },

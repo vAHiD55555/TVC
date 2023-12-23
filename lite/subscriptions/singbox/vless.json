@@ -150,7 +150,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @free1_vpn | 6",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -159,7 +159,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 10",
-                "🇨🇷CR | vless | @forwardv2ray | 9",
+                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇫🇮FI | vless | @mehrosaboran | 3",
@@ -171,7 +171,7 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7",
-                "🇺🇸US | vless | @IBv2ray | 5"
+                "🇨🇦CA | vless | @IBv2ray | 5"
             ]
         },
         {
@@ -222,7 +222,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @free1_vpn | 6",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -231,7 +231,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 10",
-                "🇨🇷CR | vless | @forwardv2ray | 9",
+                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇫🇮FI | vless | @mehrosaboran | 3",
@@ -243,7 +243,7 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7",
-                "🇺🇸US | vless | @IBv2ray | 5"
+                "🇨🇦CA | vless | @IBv2ray | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1587,11 +1587,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "3k.pureboy.eu.org",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "speed.cloudflare.com",
+            "server_port": 2053,
+            "uuid": "a04c3389-c027-4119-87f4-d3a21f92d6cd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1601,7 +1601,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
+                "server_name": "vip.lockey-vip.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1610,11 +1610,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "@vbox_speed-@vbox_speed",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1874,12 +1874,12 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 9",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 16",
             "type": "vless",
-            "server": "GozargahVPN.vazagh.top",
+            "server": "116.203.149.241",
             "server_port": 443,
-            "uuid": "-GozargahVPN-",
-            "flow": "",
+            "uuid": "1596e7f0-2106-468f-e2b0-93f19e83bd0c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1888,20 +1888,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "khiyar.vazagh.top",
+                "server_name": "greenpepper.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wxzZx9_9R0QXG4Hjc8e3_ckaUIbn9oKc5yKsBqh8ulc",
+                    "short_id": "a18472f7"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN",
-                "headers": {
-                    "Host": "khiyar.vazagh.top"
-                }
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -2243,7 +2248,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @IBv2ray | 5",
+            "tag": "🇨🇦CA | vless | @IBv2ray | 5",
             "type": "vless",
             "server": "104.17.193.37",
             "server_port": 2087,

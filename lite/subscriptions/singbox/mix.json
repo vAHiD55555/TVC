@@ -164,7 +164,7 @@
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
-                "🇺🇸US | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 4",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇺🇸US | vmess | @v2Line | 9",
@@ -172,7 +172,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @IRN_VPN | 2",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🏳️XX | vmess | @forwardv2ray | 14",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -184,7 +184,7 @@
                 "🇺🇸US | vmess | @eliya_chiter0 | 4",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7",
-                "🇨🇦CA | vless | @IBv2ray | 5"
+                "🇺🇸US | vless | @IBv2ray | 5"
             ]
         },
         {
@@ -249,7 +249,7 @@
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
-                "🇺🇸US | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 4",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇺🇸US | vmess | @v2Line | 9",
@@ -257,7 +257,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @IRN_VPN | 2",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🏳️XX | vmess | @forwardv2ray | 14",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -269,7 +269,7 @@
                 "🇺🇸US | vmess | @eliya_chiter0 | 4",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7",
-                "🇨🇦CA | vless | @IBv2ray | 5"
+                "🇺🇸US | vless | @IBv2ray | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1708,9 +1708,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "ir.ifr1.shopiiiiing.cfd",
+            "server": "ir.ifi1.shopiiiiing.cfd",
             "server_port": 80,
-            "uuid": "13198e79-6b05-4abf-c2d8-3860268e0180",
+            "uuid": "34190107-f315-4ddf-d6d4-7f9f87af715b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1722,7 +1722,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "ir.ifr1.shopiiiiing.cfd"
+                    "Host": "ir.ifi1.shopiiiiing.cfd"
                 }
             }
         },
@@ -1921,7 +1921,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 14",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 14",
             "type": "vless",
             "server": "xio.vpnxw.eu.org",
             "server_port": 2052,
@@ -2170,16 +2170,13 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 14",
-            "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "75507389-F899-476C-9A10-24205BA03C94",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "49.13.169.240",
+            "server_port": 8585,
+            "uuid": "d5d844e0-ab22-44da-aa64-05b92ecef4ad",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2187,19 +2184,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
+                "server_name": "www.iranserver.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Dusseldorf.kotick.site"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "39O6fWzeUxklEb1DKaXuhB60zrJxHK6dvoY8Jq7O6lA",
+                    "short_id": "c068"
                 }
             }
         },
@@ -2523,7 +2518,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @IBv2ray | 5",
+            "tag": "🇺🇸US | vless | @IBv2ray | 5",
             "type": "vless",
             "server": "104.17.193.37",
             "server_port": 2087,

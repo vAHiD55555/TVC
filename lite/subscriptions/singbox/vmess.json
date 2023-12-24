@@ -109,11 +109,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
                 "🇯🇵JP | vmess | @ShadowProxy66 | 74",
-                "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇮🇷IR | vmess | @free1_vpn | 4",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -124,11 +124,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
                 "🇯🇵JP | vmess | @ShadowProxy66 | 74",
-                "🇨🇳CN | vmess | @yaney_01 | 14",
                 "🇮🇷IR | vmess | @free1_vpn | 4",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -214,23 +214,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | vmess | @yaney_01 | 14",
-            "type": "vmess",
-            "server": "110.72.101.145",
-            "server_port": 26009,
-            "uuid": "d40d976d-d569-3e7d-9396-132dea60cf28",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -327,6 +310,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "104.27.102.105",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }

@@ -148,19 +148,18 @@
                 "🇩🇪DE | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇷CR | vless | @SafeNet_Server | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇨🇦CA | vless | @free1_vpn | 6",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 4",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @IRN_VPN | 2",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -220,19 +219,18 @@
                 "🇩🇪DE | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇷CR | vless | @SafeNet_Server | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇨🇦CA | vless | @free1_vpn | 6",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 4",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @IRN_VPN | 2",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -1520,11 +1518,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "ir.iu1.shopiiiiing.cfd",
+            "server": "ir.ifr1.shopiiiiing.cfd",
             "server_port": 80,
-            "uuid": "a8768dac-6d8f-40c7-e310-4a853039e7f8",
+            "uuid": "13198e79-6b05-4abf-c2d8-3860268e0180",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1536,7 +1534,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "ir.iu1.shopiiiiing.cfd"
+                    "Host": "ir.ifr1.shopiiiiing.cfd"
                 }
             }
         },
@@ -1670,7 +1668,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 14",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 14",
             "type": "vless",
             "server": "xio.vpnxw.eu.org",
             "server_port": 2052,
@@ -1882,37 +1880,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
-                }
             }
         },
         {

@@ -116,7 +116,6 @@
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 14",
                 "🇸🇪SE | vless | @VmessProtocol | 15",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 9",
@@ -143,7 +142,6 @@
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 14",
                 "🇸🇪SE | vless | @VmessProtocol | 15",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 9",
@@ -519,42 +517,6 @@
                     "public_key": "95SrsSO0NRDkppMnRh6QM_K-e9Ur8-dcykz_QGiECBw",
                     "short_id": "3c"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "62.60.177.179",
-            "server_port": 48841,
-            "uuid": "da6e8624-3a5f-46b8-9488-3649fd5fd567",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "esud-eU_-cndgnxTGhCQxwJ14I2PSF3rhenv7k41-W8",
-                    "short_id": "fd2f77b0"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Frev2ray,@Frev2ray,@Frev2ray@Frev2ray,@Frev2ray,@Frev2ray,@Frev2ray,@Frev2ray,@Frev2ray,@Frev2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

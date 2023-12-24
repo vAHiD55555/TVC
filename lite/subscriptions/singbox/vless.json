@@ -144,6 +144,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇩🇪DE | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @MehradLearn | 7",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇨🇦CA | vless | @free1_vpn | 5",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -155,12 +156,11 @@
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @IRN_VPN | 2",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
-                "🇺🇸US | vless | @https_config_injector | 14",
+                "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇨🇦CA | vless | @nofiltering2 | 21",
                 "🇨🇷CR | vless | @proxy_mtm | 18",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 15",
@@ -213,6 +213,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇩🇪DE | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @MehradLearn | 7",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇨🇦CA | vless | @free1_vpn | 5",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -224,12 +225,11 @@
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @IRN_VPN | 2",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
-                "🇺🇸US | vless | @https_config_injector | 14",
+                "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇨🇦CA | vless | @nofiltering2 | 21",
                 "🇨🇷CR | vless | @proxy_mtm | 18",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 15",
@@ -1392,6 +1392,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "maz.maznet.cfd",
+            "server_port": 8443,
+            "uuid": "7167dd5a-fa7a-4985-af58-631c6d1a2622",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join3.maznet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @proxystore11 | 18",
             "type": "vless",
             "server": "proxystore11.ddns.net",
@@ -1736,11 +1767,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 14",
             "type": "vless",
-            "server": "Discord.com",
-            "server_port": 443,
-            "uuid": "db33e43b-e394-49f8-e336-bcce6e2b4ad1",
+            "server": "xio.vpnxw.eu.org",
+            "server_port": 2082,
+            "uuid": "45699ea8-557b-4679-ad78-c45c893b5806",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1748,21 +1779,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Vip.hsza.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/TelegramHosseinStore_Za",
+                "path": "\/",
                 "headers": {
-                    "Host": "Vip.hsza.site"
+                    "Host": "xio.vpnxw.eu.org"
                 }
             }
         },
@@ -1798,7 +1819,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @https_config_injector | 14",
+            "tag": "🇨🇦CA | vless | @https_config_injector | 14",
             "type": "vless",
             "server": "104.27.25.79",
             "server_port": 443,
@@ -1886,37 +1907,6 @@
                     "public_key": "HtrlxdMBuoum5aY574OjEze2kuJYhcBHH3iTixp_dCw",
                     "short_id": "5e"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @nofiltering2 | 21",
-            "type": "vless",
-            "server": "ip2.nofiltering2.sbs",
-            "server_port": 443,
-            "uuid": "3b9a0d25-1969-4241-9d8d-09eaa9abd211",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "V2ray.VPN-MIKEY.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Vpn_Mikey،@Vpn_Mikey",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

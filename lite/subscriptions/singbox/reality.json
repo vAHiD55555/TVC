@@ -107,19 +107,17 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷IR | vless | @Helix_Servers | 11",
-                "🇹🇷TR | vless | @reality_daily | 6",
+                "🇹🇷TR | vless | @reality_daily | 4",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
-                "🇩🇪DE | vless | @Lockey_vpn | 16",
+                "🇩🇪DE | vless | @Lockey_vpn | 15",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 17",
-                "🏳️XX | vless | @ProxyForOpeta | 5",
+                "🏳️XX | vless | @ProxyForOpeta | 6",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
-                "🇸🇪SE | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 7",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇫🇮FI | vless | @forwardv2ray | 12",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇩🇪DE | vless | @proxy_mtm | 9",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -134,19 +132,17 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷IR | vless | @Helix_Servers | 11",
-                "🇹🇷TR | vless | @reality_daily | 6",
+                "🇹🇷TR | vless | @reality_daily | 4",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
-                "🇩🇪DE | vless | @Lockey_vpn | 16",
+                "🇩🇪DE | vless | @Lockey_vpn | 15",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 17",
-                "🏳️XX | vless | @ProxyForOpeta | 5",
+                "🏳️XX | vless | @ProxyForOpeta | 6",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
-                "🇸🇪SE | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 7",
                 "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇫🇮FI | vless | @forwardv2ray | 12",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇩🇪DE | vless | @proxy_mtm | 9",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -212,11 +208,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vless | @reality_daily | 6",
+            "tag": "🇹🇷TR | vless | @reality_daily | 4",
             "type": "vless",
             "server": "83.217.9.129",
-            "server_port": 22,
-            "uuid": "5d3f3116-05ca-4718-ab32-882765d580bb",
+            "server_port": 2052,
+            "uuid": "583a3278-4f0a-4233-bfce-dd4a7e9f8018",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -226,7 +222,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speed.cloudflare.com",
+                "server_name": "www.who.int",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -277,7 +273,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Lockey_vpn | 16",
+            "tag": "🇩🇪DE | vless | @Lockey_vpn | 15",
             "type": "vless",
             "server": "49.13.155.253",
             "server_port": 443,
@@ -385,7 +381,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @ProxyForOpeta | 5",
+            "tag": "🏳️XX | vless | @ProxyForOpeta | 6",
             "type": "vless",
             "server": "emi.opeta.cfd",
             "server_port": 443,
@@ -454,35 +450,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @VmessProtocol | 16",
-            "type": "vless",
-            "server": "16.16.167.66",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.mozorg.moz.works",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eaxrK0Un5WGtDKzdOiIw7i_CI3aDrXV2XPuv-7SWcHs",
-                    "short_id": "3c"
-                }
             }
         },
         {
@@ -611,42 +578,6 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "-uDfImDtN52jfYOCuqwm4SuSIQgTMTMZSBcaSilNSik",
-                    "short_id": "fada4f5f"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @forwardv2ray | 12",
-            "type": "vless",
-            "server": "65.108.54.206",
-            "server_port": 443,
-            "uuid": "a0562dec-26ac-43d4-ba1d-785c334e644f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J8vhC3eshe9rG-ubqcgSQW6dPFeiZZEQn16eHGqxBT8",
                     "short_id": "fada4f5f"
                 }
             },

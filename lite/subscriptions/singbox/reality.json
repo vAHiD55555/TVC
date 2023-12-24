@@ -107,14 +107,13 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷IR | vless | @Helix_Servers | 11",
-                "🇹🇷TR | vless | @reality_daily | 7",
+                "🇸🇪SE | vless | @reality_daily | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @Lockey_vpn | 16",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 17",
                 "🏳️XX | vless | @ProxyForOpeta | 4",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
-                "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
@@ -132,14 +131,13 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷IR | vless | @Helix_Servers | 11",
-                "🇹🇷TR | vless | @reality_daily | 7",
+                "🇸🇪SE | vless | @reality_daily | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @Lockey_vpn | 16",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 17",
                 "🏳️XX | vless | @ProxyForOpeta | 4",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
-                "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
@@ -208,11 +206,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vless | @reality_daily | 7",
+            "tag": "🇸🇪SE | vless | @reality_daily | 7",
             "type": "vless",
-            "server": "83.217.9.129",
+            "server": "5.42.77.255",
             "server_port": 22,
-            "uuid": "17424d69-5edb-4fed-992a-737222914ea0",
+            "uuid": "fcccfab2-1154-44ea-a107-72e58b2ceb75",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -231,8 +229,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "BEPkYk6YNlZYANC2pQ2GPXb81hvpKxQgtKweaC3lK30",
-                    "short_id": "6f366c6e"
+                    "public_key": "m9Ceix_gBNsB4oNDCs_U1a-tqqbV1ryfgwO35eueZiQ",
+                    "short_id": "9d7e65421a488009"
                 }
             }
         },
@@ -447,42 +445,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@funza-----@ShadowSocks_s-----@funza-----@funza-----@ShadowSocks_s-----@funza-----@funza-----@ShadowSocks_s-----@funza-----@funza-----@ShadowSocks_s-----@funza-----",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @FalconPolV2rayNG | 15",
-            "type": "vless",
-            "server": "49.13.159.122",
-            "server_port": 27663,
-            "uuid": "1017ea75-e901-4964-b951-ccbf0f03046b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "univ-grenoble-alpes.fr",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tTQp6Qpu7ay_wH3_196KWZxb2UcEaKlc7BaHsKc51R0",
-                    "short_id": "61247504"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "----------telegram:funza--------------------telegram:funza----------telegram:funza----------telegram:funza----------telegram:funza----------telegram:funza",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

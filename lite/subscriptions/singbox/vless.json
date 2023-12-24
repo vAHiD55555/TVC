@@ -126,7 +126,6 @@
                 "🇩🇪DE | vless | @v2logy | 16",
                 "🇬🇧GB | vless | @servermomo | 10",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🏳️XX | vless | @ProxyForOpeta | 4",
                 "🇨🇷CR | vless | @V2rayNGn | 26",
                 "🇩🇪DE | vless | @prrofile_purple | 178",
@@ -147,7 +146,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇷CR | vless | @SafeNet_Server | 9",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇨🇷CR | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇨🇦CA | vless | @free1_vpn | 5",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -196,7 +195,6 @@
                 "🇩🇪DE | vless | @v2logy | 16",
                 "🇬🇧GB | vless | @servermomo | 10",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🏳️XX | vless | @ProxyForOpeta | 4",
                 "🇨🇷CR | vless | @V2rayNGn | 26",
                 "🇩🇪DE | vless | @prrofile_purple | 178",
@@ -217,7 +215,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇷CR | vless | @SafeNet_Server | 9",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇨🇷CR | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇨🇦CA | vless | @free1_vpn | 5",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -868,27 +866,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "104.24.177.7",
-            "server_port": 80,
-            "uuid": "356c890f-31a8-47d8-984f-f79727412994",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TalaNetwork",
-                "headers": {
-                    "Host": "104.24.177.7"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @ProxyForOpeta | 4",
             "type": "vless",
             "server": "emi.opeta.cfd",
@@ -1477,11 +1454,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "173.245.58.100",
-            "server_port": 443,
-            "uuid": "9776b9c1-eb53-4ec9-9a1b-46c34497dbac",
+            "server": "190.93.246.241",
+            "server_port": 2083,
+            "uuid": "51aff53f-6898-4636-d5c8-8b63317e3d0e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1491,7 +1468,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "AntiV2ray.godratmand.link",
+                "server_name": "mt.AntiV2ray.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {

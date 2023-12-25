@@ -106,18 +106,17 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @reality_daily | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @melov2ray | 8",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 14",
-                "🇩🇪DE | vless | @v2ray_swhil | 19",
                 "🇩🇪DE | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 7",
+                "🇩🇪DE | vless | @FreakConfig | 9",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 17",
@@ -130,18 +129,17 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @reality_daily | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @melov2ray | 8",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 14",
-                "🇩🇪DE | vless | @v2ray_swhil | 19",
                 "🇩🇪DE | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 7",
+                "🇩🇪DE | vless | @FreakConfig | 9",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 17",
@@ -168,35 +166,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇸🇪SE | vless | @reality_daily | 7",
-            "type": "vless",
-            "server": "5.42.77.255",
-            "server_port": 22,
-            "uuid": "8b0646c4-f129-4fc4-b531-d41524e358bf",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "atuAXGl0sb_WmuSIKMqYA0g2oCF0RMH6mDpgLEkMwk4",
-                    "short_id": "2f1aab54b5946e40"
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @ipV2Ray | 19",
@@ -408,42 +377,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 19",
-            "type": "vless",
-            "server": "titaniom.official.mmdtitaniom.com",
-            "server_port": 2087,
-            "uuid": "2983fa60-9ff9-4c09-b70f-9f53dbf4be35",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "myOyTs6wtYgOioDwSzMCIUNRuq6l6I7ciLUqfusSTmY",
-                    "short_id": "6fa697ff"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @VPNCLOP | 0",
             "type": "vless",
             "server": "kamyarservers.camdvr.org",
@@ -575,6 +508,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @FreakConfig | 9",
+            "type": "vless",
+            "server": "49.13.14.209",
+            "server_port": 2083,
+            "uuid": "7b0db2cc-608c-4f97-9de0-1c7e9cd40d86",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mihanyas.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Yo-ie3OiVvSIIm4JVrqBhv8NaNPafHzLYPmCpaHafns",
+                    "short_id": "0960546b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Anonymous",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

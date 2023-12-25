@@ -112,7 +112,7 @@
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🏳️XX | vmess | @forwardv2ray | 18",
+                "🇨🇳CN | vmess | @forwardv2ray | 17",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ]
         },
@@ -126,7 +126,7 @@
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🏳️XX | vmess | @forwardv2ray | 18",
+                "🇨🇳CN | vmess | @forwardv2ray | 17",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -297,11 +297,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
+            "tag": "🇨🇳CN | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "::ffff:8a44:61d1",
-            "server_port": 59304,
-            "uuid": "20f3d10d-6df3-4519-aad2-a9d893b555f6",
+            "server": "yes.cnmjcn.net",
+            "server_port": 16618,
+            "uuid": "c2c76420-257f-492a-b20f-6560f3bfa78d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -311,6 +311,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "yes.cnmjcn.net"
+                }
             }
         },
         {

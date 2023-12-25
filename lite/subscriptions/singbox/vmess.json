@@ -110,11 +110,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
+                "🏳️XX | vmess | @ConfigsHUB | 16",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 8",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @FreakConfig | 13",
-                "🇦🇺AU | vmess | @forwardv2ray | 17",
+                "🇺🇸US | vmess | @FreakConfig | 13",
+                "🇻🇳VN | vmess | @forwardv2ray | 15",
                 "🇬🇧GB | vmess | @eliya_chiter0 | 2"
             ]
         },
@@ -126,11 +127,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
+                "🏳️XX | vmess | @ConfigsHUB | 16",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 8",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @FreakConfig | 13",
-                "🇦🇺AU | vmess | @forwardv2ray | 17",
+                "🇺🇸US | vmess | @FreakConfig | 13",
+                "🇻🇳VN | vmess | @forwardv2ray | 15",
                 "🇬🇧GB | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -236,6 +238,23 @@
             }
         },
         {
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇷CR | vmess | @Hope_Net | 16",
             "type": "vmess",
             "server": "190.93.246.119",
@@ -318,7 +337,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @FreakConfig | 13",
+            "tag": "🇺🇸US | vmess | @FreakConfig | 13",
             "type": "vmess",
             "server": "yalda1.turboo-server.website",
             "server_port": 2087,
@@ -352,11 +371,11 @@
             }
         },
         {
-            "tag": "🇦🇺AU | vmess | @forwardv2ray | 17",
+            "tag": "🇻🇳VN | vmess | @forwardv2ray | 15",
             "type": "vmess",
-            "server": "146.185.221.132",
+            "server": "171.229.196.137",
             "server_port": 443,
-            "uuid": "449bd4b1-7fae-45a1-b6f2-d78ca453394c",
+            "uuid": "a52f1b0e-8a3b-4506-a24a-de72d52083e0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -369,7 +388,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "besttv3.zapto.org",
+                "server_name": "bestyv.zapto.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -381,7 +400,7 @@
                 "type": "ws",
                 "path": "\/@FORWARDV2RAY",
                 "headers": {
-                    "Host": "besttv3.zapto.org"
+                    "Host": "bestyv.zapto.org"
                 }
             }
         },

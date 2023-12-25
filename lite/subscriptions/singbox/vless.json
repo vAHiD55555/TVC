@@ -151,9 +151,7 @@
                 "🇨🇦CA | vless | @MTConfig | 23",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 47",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
-                "🇸🇪SE | vless | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @free1_vpn | 7",
                 "🇩🇪DE | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -163,10 +161,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇹🇷TR | vless | @IRN_VPN | 3",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 17",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -224,9 +221,7 @@
                 "🇨🇦CA | vless | @MTConfig | 23",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 47",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
-                "🇸🇪SE | vless | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @free1_vpn | 7",
                 "🇩🇪DE | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -236,10 +231,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇹🇷TR | vless | @IRN_VPN | 3",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 17",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -1588,37 +1582,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 47",
-            "type": "vless",
-            "server": "104.21.20.148",
-            "server_port": 8443,
-            "uuid": "acca9938-3695-43df-872a-9c7d2b11f3bd",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "felinetest.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "felinetest.site"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @lrnbymaa | 3",
             "type": "vless",
             "server": "lbm.egaf.app",
@@ -1636,35 +1599,6 @@
                 "path": "\/X4To2NcNvq3qytz3SdRR8DyzHp",
                 "headers": {
                     "Host": "changeme.egaf.app"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 12",
-            "type": "vless",
-            "server": "16.16.80.41",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "coinmarketcap.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "6ixGuRjBRRcMTXA5yMTv4QRMgvYB1KjOSzjGw6Ne8ko",
-                    "short_id": "fe"
                 }
             }
         },
@@ -1961,37 +1895,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "172.67.170.103",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
             "type": "vless",
             "server": "104.21.28.62",
@@ -2052,7 +1955,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 23",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,

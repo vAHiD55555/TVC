@@ -156,10 +156,10 @@
                 "🇨🇦CA | vless | @MTConfig | 23",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 47",
+                "🇨🇦CA | vmess | @DailyV2RY | 48",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 12",
+                "🇨🇦CA | vmess | @ConfigsHUB | 10",
                 "🇨🇦CA | vless | @free1_vpn | 7",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇩🇪DE | vless | @VPNCLOP | 0",
@@ -172,10 +172,10 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇹🇷TR | vless | @IRN_VPN | 3",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 17",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -239,10 +239,10 @@
                 "🇨🇦CA | vless | @MTConfig | 23",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 47",
+                "🇨🇦CA | vmess | @DailyV2RY | 48",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | vless | @ConfigsHUB | 12",
+                "🇨🇦CA | vmess | @ConfigsHUB | 10",
                 "🇨🇦CA | vless | @free1_vpn | 7",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇩🇪DE | vless | @VPNCLOP | 0",
@@ -255,10 +255,10 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇹🇷TR | vless | @IRN_VPN | 3",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 17",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -1086,7 +1086,7 @@
         {
             "tag": "🇸🇪SE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "51.21.63.152",
+            "server": "13.51.94.119",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1717,33 +1717,26 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 47",
-            "type": "vless",
-            "server": "104.21.20.148",
-            "server_port": 8443,
-            "uuid": "acca9938-3695-43df-872a-9c7d2b11f3bd",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @DailyV2RY | 48",
+            "type": "vmess",
+            "server": "172.67.189.60",
+            "server_port": 80,
+            "uuid": "892ebb75-7055-3007-8d16-356e65c6a49a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "felinetest.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/skincare",
                 "headers": {
-                    "Host": "felinetest.site"
+                    "Host": ""
                 }
             }
         },
@@ -1779,13 +1772,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 12",
-            "type": "vless",
-            "server": "16.16.80.41",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 10",
+            "type": "vmess",
+            "server": "104.31.16.247",
+            "server_port": 443,
+            "uuid": "89FB19E1-0F6F-495E-9CD2-7189BF0F218B",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1793,17 +1789,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "coinmarketcap.com",
+                "server_name": "Kansas.bobbykotick.rip",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "6ixGuRjBRRcMTXA5yMTv4QRMgvYB1KjOSzjGw6Ne8ko",
-                    "short_id": "fe"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "Kansas.bobbykotick.rip"
                 }
             }
         },
@@ -2182,35 +2180,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "172.67.170.103",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 16",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
             "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
@@ -2273,7 +2250,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 23",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,

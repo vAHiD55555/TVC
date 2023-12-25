@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | vmess | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
@@ -120,7 +120,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | vmess | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
@@ -150,10 +150,10 @@
             "type": "dns"
         },
         {
-            "tag": "🏳️XX | vmess | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
             "type": "vmess",
-            "server": "[2602:294:0:f5:1234:4321:dc1e:1]",
-            "server_port": 8080,
+            "server": "www.visa.com",
+            "server_port": 443,
             "uuid": "548760e0-2de5-437d-a8ac-2b32b80424a8",
             "security": "auto",
             "alter_id": 0,
@@ -165,11 +165,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "involved-theoretical-purse-cool.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/548760e0-2de5-437d-a8ac-2b32b80424a8-vm",
                 "headers": {
-                    "Host": "[2602:294:0:f5:1234:4321:dc1e:1]"
+                    "Host": "involved-theoretical-purse-cool.trycloudflare.com"
                 }
             }
         },

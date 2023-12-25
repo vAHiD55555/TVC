@@ -109,7 +109,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
-                "🏳️XX | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
@@ -123,7 +123,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
-                "🏳️XX | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 7",
                 "🇺🇸US | vmess | @v2Line | 9",
@@ -193,9 +193,33 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "daqehwiv.site",
+            "server": "104.27.102.105",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "104.31.16.138",
             "server_port": 443,
-            "uuid": "4fa35ea4-668e-4d7b-9bbc-b83681060617",
+            "uuid": "B62638BB-D3CC-46CD-80AD-1BF3FBF33BBA",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,7 +232,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "daqehwiv.site",
+                "server_name": "Kansas.bobbykotick.rip",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -218,27 +242,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/kwhmvws",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "daqehwiv.site"
+                    "Host": "Kansas.bobbykotick.rip"
                 }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {

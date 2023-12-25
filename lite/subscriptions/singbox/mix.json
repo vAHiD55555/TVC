@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇮🇷IR | vless | @free_v2rayyy | 9",
-                "🇺🇸US | vless | @lightning6 | 19",
+                "🇨🇷CR | vless | @lightning6 | 19",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇨🇦CA | vless | @vpn_xw | 7",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -164,7 +164,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇷CR | vless | @ConfigsHUB | 16",
+                "🇳🇱NL | vmess | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 19",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇨🇷CR | vless | @VPNCLOP | 0",
@@ -176,13 +176,12 @@
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @Capoit | 9",
-                "🇨🇦CA | vmess | @FreakConfig | 13",
+                "🇺🇸US | vmess | @FreakConfig | 13",
                 "🇹🇷TR | vless | @IRN_VPN | 3",
-                "🇳🇱NL | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇩🇪DE | vless | @proxy_mtm | 22",
-                "🇺🇸US | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 16",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -211,7 +210,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇮🇷IR | vless | @free_v2rayyy | 9",
-                "🇺🇸US | vless | @lightning6 | 19",
+                "🇨🇷CR | vless | @lightning6 | 19",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇨🇦CA | vless | @vpn_xw | 7",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -254,7 +253,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇷CR | vless | @ConfigsHUB | 16",
+                "🇳🇱NL | vmess | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 19",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇨🇷CR | vless | @VPNCLOP | 0",
@@ -266,13 +265,12 @@
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @Capoit | 9",
-                "🇨🇦CA | vmess | @FreakConfig | 13",
+                "🇺🇸US | vmess | @FreakConfig | 13",
                 "🇹🇷TR | vless | @IRN_VPN | 3",
-                "🇳🇱NL | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇩🇪DE | vless | @proxy_mtm | 22",
-                "🇺🇸US | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 16",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -758,7 +756,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 19",
+            "tag": "🇨🇷CR | vless | @lightning6 | 19",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.mamd.sbs",
             "server_port": 2083,
@@ -1912,13 +1910,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "190.93.246.241",
-            "server_port": 2083,
-            "uuid": "51aff53f-6898-4636-d5c8-8b63317e3d0e",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "188.114.97.18",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1926,7 +1927,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mt.AntiV2ray.site",
+                "server_name": "odelia.autos",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1935,11 +1936,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@AntiFilterChV2,@AntiFilterChV2,@AntiFilterChV2",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "odelia.autos"
+                }
             }
         },
         {
@@ -2271,7 +2272,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @FreakConfig | 13",
+            "tag": "🇺🇸US | vmess | @FreakConfig | 13",
             "type": "vmess",
             "server": "yalda1.turboo-server.website",
             "server_port": 2087,
@@ -2333,40 +2334,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 16",
-            "type": "vmess",
-            "server": "188.114.97.7",
-            "server_port": 443,
-            "uuid": "8C3B7421-A320-4BF5-95C8-713137B6F9DB",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kansas.gafn.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "kansas.gafn.online"
-                }
             }
         },
         {
@@ -2466,7 +2433,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 23",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,

@@ -106,11 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 8",
                 "🇺🇸US | vmess | @v2Line | 9",
@@ -121,11 +120,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 8",
                 "🇺🇸US | vmess | @v2Line | 9",
@@ -150,40 +148,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
-            "type": "vmess",
-            "server": "www.visa.com",
-            "server_port": 443,
-            "uuid": "548760e0-2de5-437d-a8ac-2b32b80424a8",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "involved-theoretical-purse-cool.trycloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/548760e0-2de5-437d-a8ac-2b32b80424a8-vm",
-                "headers": {
-                    "Host": "involved-theoretical-purse-cool.trycloudflare.com"
-                }
-            }
         },
         {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -227,7 +191,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
             "server": "104.21.94.251",
             "server_port": 80,
@@ -251,11 +215,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 2087,
-            "uuid": "78f20b00-386b-4c3f-d238-a781a60724fc",
+            "server": "aule.manwe.ir",
+            "server_port": 2053,
+            "uuid": "3278cda8-42dd-4c08-8e06-c3c8093c71fd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -268,7 +232,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "p.amniat.monster",
+                "server_name": "sauron.melkore.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -277,11 +241,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "sauron.melkore.ir"
+                }
             }
         },
         {

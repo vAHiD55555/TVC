@@ -106,12 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @reality_daily | 8",
+                "🇸🇪SE | vless | @reality_daily | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @melov2ray | 8",
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 14",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
@@ -132,12 +131,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @reality_daily | 8",
+                "🇸🇪SE | vless | @reality_daily | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @melov2ray | 8",
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 14",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
@@ -174,11 +172,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @reality_daily | 8",
+            "tag": "🇸🇪SE | vless | @reality_daily | 7",
             "type": "vless",
-            "server": "5.42.86.225",
+            "server": "5.42.77.255",
             "server_port": 22,
-            "uuid": "2c34ea48-6f40-4aa3-9ddb-69718b48c3f8",
+            "uuid": "8b0646c4-f129-4fc4-b531-d41524e358bf",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -188,7 +186,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ftp.debian.org",
+                "server_name": "speed.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -197,8 +195,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "1yjMDe_3ZcrJDc4fGqWPmy-udJRLW502p2EjplmCWx8",
-                    "short_id": "76753364"
+                    "public_key": "atuAXGl0sb_WmuSIKMqYA0g2oCF0RMH6mDpgLEkMwk4",
+                    "short_id": "2f1aab54b5946e40"
                 }
             }
         },
@@ -344,35 +342,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "45.84.196.14",
-            "server_port": 8443,
-            "uuid": "3c41abaa-4054-479b-8cff-08ebdc075fd1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JMAzAzC8yE_H2xPUZyY1MYfr3Z_AhjtsZdVbvoQmlHw",
-                    "short_id": "ed297c1b"
-                }
             }
         },
         {

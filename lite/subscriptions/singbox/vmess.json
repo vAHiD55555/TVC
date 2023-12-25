@@ -113,7 +113,7 @@
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 8",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇳CN | vmess | @forwardv2ray | 19",
                 "🇬🇧GB | vmess | @eliya_chiter0 | 2"
             ]
         },
@@ -128,7 +128,7 @@
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 8",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇳CN | vmess | @forwardv2ray | 19",
                 "🇬🇧GB | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -195,9 +195,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "104.21.94.251",
-            "server_port": 80,
-            "uuid": "c7421a39-020d-4a01-97ed-9eacbce0a7ca",
+            "server": "daqehwiv.site",
+            "server_port": 443,
+            "uuid": "4fa35ea4-668e-4d7b-9bbc-b83681060617",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,11 +208,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "daqehwiv.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/kwhmvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "daqehwiv.site"
                 }
             }
         },
@@ -323,11 +333,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇨🇳CN | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "0145ec5a-fa39-4471-e94c-ca641a756d1f",
+            "server": "m.cnmjcn.com",
+            "server_port": 16648,
+            "uuid": "c2c76420-257f-492a-b20f-6560f3bfa78d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -340,9 +350,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@vpn_whal,@vpn_whal",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "m.cnmjcn.com"
                 }
             }
         },

@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @EliV2ray | 17",
-                "🇸🇪SE | vless | @reality_daily | 0",
+                "🇸🇪SE | vless | @reality_daily | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @melov2ray | 8",
                 "🇩🇪DE | vless | @ARv2ray | 14",
@@ -116,12 +116,13 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 14",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇺🇸US | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 17",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
@@ -133,7 +134,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @EliV2ray | 17",
-                "🇸🇪SE | vless | @reality_daily | 0",
+                "🇸🇪SE | vless | @reality_daily | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @melov2ray | 8",
                 "🇩🇪DE | vless | @ARv2ray | 14",
@@ -142,12 +143,13 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 14",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇺🇸US | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 17",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
@@ -210,7 +212,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @reality_daily | 0",
+            "tag": "🇸🇪SE | vless | @reality_daily | 7",
             "type": "vless",
             "server": "5.42.86.225",
             "server_port": 22,
@@ -520,6 +522,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "23.88.116.162",
+            "server_port": 443,
+            "uuid": "c084e53f-c642-4339-b163-0f972a2893b7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_IvMhkNpZ8Y58pMlkI0WdDymFJFpSuWGguAh3Z9gkh8",
+                    "short_id": "b1f54cff"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @VPNCLOP | 0",
             "type": "vless",
             "server": "kamyarservers.camdvr.org",
@@ -686,7 +724,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 23",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,

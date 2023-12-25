@@ -125,11 +125,10 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"104.21.94.251","port":"80","cipher":"auto","uuid":"c7421a39-020d-4a01-97ed-9eacbce0a7ca","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"de2.xv2ray.net"}}}
   - {"name":"🇨🇦CA | vmess | @DailyV2RY | 48","type":"vmess","server":"172.67.189.60","port":"80","cipher":"auto","uuid":"892ebb75-7055-3007-8d16-356e65c6a49a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/skincare","headers":{"host":"fr2c.newliving.top"}}}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 17","type":"ss","server":"www.outline.network.ak1986.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"mVMNhvDFhFH56a2iFF4ZOPTvkSEPbFXoe3eQ205xHTU=","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇦CA | vmess | @ConfigsHUB | 10","type":"vmess","server":"104.31.16.247","port":"443","cipher":"auto","uuid":"89FB19E1-0F6F-495E-9CD2-7189BF0F218B","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.bobbykotick.rip"}}}
   - {"name":"🇨🇷CR | vmess | @Hope_Net | 16","type":"vmess","server":"190.93.246.119","port":"80","cipher":"auto","uuid":"b7fdc31a-3f0b-45f1-aa0e-d5d883ac5c4e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/QUeMEWutZAndOVVMwhRJqh28","headers":{"host":"m.iranspeed.shop"}}}
   - {"name":"🇮🇷IR | vmess | @MrV2Ray | 8","type":"vmess","server":"158.58.188.21","port":"17008","cipher":"auto","uuid":"895db088-8973-4111-ad59-6429df2dd780","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 9","type":"vmess","server":"v2line.telegram.channel.1371.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"443","cipher":"auto","uuid":"540bfb2c-2b26-4154-b5be-55d08bf40add","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":""}}}
-  - {"name":"🇬🇧GB | ss | @forwardv2ray | 16","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 16","type":"vmess","server":"172.66.46.50","port":"2087","cipher":"auto","uuid":"08ec6a06-8c15-4069-a781-8c725a30b7e7","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"multi"}}
   - {"name":"🇬🇧GB | vmess | @eliya_chiter0 | 2","type":"vmess","server":"51.75.162.199","port":"61570","cipher":"auto","uuid":"e6aab1e0-ede0-47c3-b01c-f34a498db838","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
@@ -144,11 +143,10 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 9'
       - '🇨🇦CA | vmess | @DailyV2RY | 48'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇨🇦CA | vmess | @ConfigsHUB | 10'
       - '🇨🇷CR | vmess | @Hope_Net | 16'
       - '🇮🇷IR | vmess | @MrV2Ray | 8'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇬🇧GB | ss | @forwardv2ray | 16'
+      - '🇨🇦CA | vmess | @forwardv2ray | 16'
       - '🇬🇧GB | vmess | @eliya_chiter0 | 2'
   - name: URL-TEST
     type: url-test
@@ -163,11 +161,10 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 9'
       - '🇨🇦CA | vmess | @DailyV2RY | 48'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇨🇦CA | vmess | @ConfigsHUB | 10'
       - '🇨🇷CR | vmess | @Hope_Net | 16'
       - '🇮🇷IR | vmess | @MrV2Ray | 8'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇬🇧GB | ss | @forwardv2ray | 16'
+      - '🇨🇦CA | vmess | @forwardv2ray | 16'
       - '🇬🇧GB | vmess | @eliya_chiter0 | 2'
   - name: FALLBACK
     type: fallback
@@ -181,11 +178,10 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 9'
       - '🇨🇦CA | vmess | @DailyV2RY | 48'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇨🇦CA | vmess | @ConfigsHUB | 10'
       - '🇨🇷CR | vmess | @Hope_Net | 16'
       - '🇮🇷IR | vmess | @MrV2Ray | 8'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇬🇧GB | ss | @forwardv2ray | 16'
+      - '🇨🇦CA | vmess | @forwardv2ray | 16'
       - '🇬🇧GB | vmess | @eliya_chiter0 | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

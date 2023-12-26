@@ -111,13 +111,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇸🇪SE | vless | @customv2ray | 13",
-                "🇩🇪DE | vless | @v2ray_swhil | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 55",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 9",
+                "🇩🇪DE | vless | @FreakConfig | 7",
                 "🇫🇮FI | vless | @flyv2ray | 15",
-                "🇸🇪SE | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
@@ -135,13 +134,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇸🇪SE | vless | @customv2ray | 13",
-                "🇩🇪DE | vless | @v2ray_swhil | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 55",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 9",
+                "🇩🇪DE | vless | @FreakConfig | 7",
                 "🇫🇮FI | vless | @flyv2ray | 15",
-                "🇸🇪SE | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @GozargahVPN | 18",
@@ -343,42 +341,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 14",
-            "type": "vless",
-            "server": "titaniom.official.mmdtitaniom.com",
-            "server_port": 2087,
-            "uuid": "2983fa60-9ff9-4c09-b70f-9f53dbf4be35",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "myOyTs6wtYgOioDwSzMCIUNRuq6l6I7ciLUqfusSTmY",
-                    "short_id": "6fa697ff"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 55",
             "type": "vless",
             "server": "104.26.15.16",
@@ -516,6 +478,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @FreakConfig | 7",
+            "type": "vless",
+            "server": "5.75.213.198",
+            "server_port": 2096,
+            "uuid": "a833584f-c5f1-4b2c-8f7e-8a7fd896822a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jeJlKIykDoOH-iLFVuCP7T9YZZxzQZuddSWGJtaOjxI",
+                    "short_id": "75049ef0"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇫🇮FI | vless | @flyv2ray | 15",
             "type": "vless",
             "server": "95.217.7.210",
@@ -549,35 +547,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "16.16.254.31",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "coinmarketcap.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "u3_YscrSYWcQZtz7S_k5ibMHNMMPeEk-caOn3K-HEzk",
-                    "short_id": "fe"
-                }
             }
         },
         {

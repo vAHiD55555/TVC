@@ -115,7 +115,6 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 12",
                 "🇩🇪DE | vless | @v2ray_swhil | 19",
                 "🇩🇪DE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @DailyV2RY | 59",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 9",
@@ -141,7 +140,6 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 12",
                 "🇩🇪DE | vless | @v2ray_swhil | 19",
                 "🇩🇪DE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @DailyV2RY | 59",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 9",
@@ -485,42 +483,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 59",
-            "type": "vless",
-            "server": "104.26.15.16",
-            "server_port": 2083,
-            "uuid": "7b96592f-6be9-4bfd-9332-e6e583bc18f6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.parsvds.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r9xqYf3TXGXiuUiWewGsA2uMGgqC_WVZOn9WLojL10Q",
-                    "short_id": "9d307375"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "www.parsvds.com",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

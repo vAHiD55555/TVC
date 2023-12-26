@@ -142,12 +142,11 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 72",
                 "🇨🇦CA | vless | @Proxy_PJ | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 17",
                 "🇨🇷CR | vless | @proxyymeliii | 16",
-                "🇨🇦CA | vless | @MsV2ray | 11",
+                "🇺🇸US | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇮🇷IR | vless | @vless_vmess | 8",
-                "🇳🇱NL | vless | @MTConfig | 23",
+                "🇨🇦CA | vless | @MTConfig | 23",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇫🇷FR | vless | @DailyV2RY | 47",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
@@ -213,12 +212,11 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 72",
                 "🇨🇦CA | vless | @Proxy_PJ | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 17",
                 "🇨🇷CR | vless | @proxyymeliii | 16",
-                "🇨🇦CA | vless | @MsV2ray | 11",
+                "🇺🇸US | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇮🇷IR | vless | @vless_vmess | 8",
-                "🇳🇱NL | vless | @MTConfig | 23",
+                "🇨🇦CA | vless | @MTConfig | 23",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇫🇷FR | vless | @DailyV2RY | 47",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
@@ -1270,42 +1268,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 17",
-            "type": "vless",
-            "server": "116.203.149.241",
-            "server_port": 443,
-            "uuid": "1596e7f0-2106-468f-e2b0-93f19e83bd0c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JYFrn4MJLzIx9jeYhpmtcgk0KoP2_HKukaRBEO6VCiU",
-                    "short_id": "a18472f7"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇷CR | vless | @proxyymeliii | 16",
             "type": "vless",
             "server": "V2ray.motorcycles",
@@ -1337,7 +1299,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @MsV2ray | 11",
+            "tag": "🇺🇸US | vless | @MsV2ray | 11",
             "type": "vless",
             "server": "de.MsV2ray.sbs",
             "server_port": 2083,
@@ -1403,7 +1365,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @MTConfig | 23",
+            "tag": "🇨🇦CA | vless | @MTConfig | 23",
             "type": "vless",
             "server": "all.vipxali.cfd",
             "server_port": 2083,

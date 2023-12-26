@@ -13,13 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇫🇷FR | trojan | @PrivateVPNs | 18 = trojan, 52.47.212.150, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
 🇬🇧GB | trojan | @DirectVPN | 18 = trojan, 13.43.133.93, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
-🇫🇷FR | trojan | @ConfigsHUB | 19 = trojan, 35.181.219.27, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
 🇰🇷KR | trojan | @yaney_01 | 10 = trojan, 64.110.90.224, 40004, password = 57edfecf-5694-4a34-8072-54a4f0636a62, udp-delay = true, skip-cert-verify = true, ws = false
-🇬🇧GB | trojan | @forwardv2ray | 14 = trojan, 18.169.3.36, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 18,🇬🇧GB | trojan | @DirectVPN | 18,🇫🇷FR | trojan | @ConfigsHUB | 19,🇰🇷KR | trojan | @yaney_01 | 10,🇬🇧GB | trojan | @forwardv2ray | 14
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 18,🇬🇧GB | trojan | @DirectVPN | 18,🇫🇷FR | trojan | @ConfigsHUB | 19,🇰🇷KR | trojan | @yaney_01 | 10,🇬🇧GB | trojan | @forwardv2ray | 14
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 18,🇬🇧GB | trojan | @DirectVPN | 18,🇫🇷FR | trojan | @ConfigsHUB | 19,🇰🇷KR | trojan | @yaney_01 | 10,🇬🇧GB | trojan | @forwardv2ray | 14
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 18,🇬🇧GB | trojan | @DirectVPN | 18,🇰🇷KR | trojan | @yaney_01 | 10
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 18,🇬🇧GB | trojan | @DirectVPN | 18,🇰🇷KR | trojan | @yaney_01 | 10
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 18,🇬🇧GB | trojan | @DirectVPN | 18,🇰🇷KR | trojan | @yaney_01 | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

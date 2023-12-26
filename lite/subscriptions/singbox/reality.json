@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | vless | @Helix_Servers | 9",
                 "🇹🇷TR | vless | @reality_daily | 6",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 8",
@@ -118,7 +117,6 @@
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 8",
                 "🇩🇪DE | vless | @Capital_NET | 56",
-                "🇸🇪SE | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -133,7 +131,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | vless | @Helix_Servers | 9",
                 "🇹🇷TR | vless | @reality_daily | 6",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 8",
@@ -145,7 +142,6 @@
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 8",
                 "🇩🇪DE | vless | @Capital_NET | 56",
-                "🇸🇪SE | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -174,42 +170,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇳🇱NL | vless | @Helix_Servers | 9",
-            "type": "vless",
-            "server": "helix-3.helixservers.space",
-            "server_port": 443,
-            "uuid": "4d716554-8fe8-4ae6-a784-bc610b0c3273",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "rJ96dTvOd4HmZSk9pAtI9ifmZzM0cA3yTNVOEkRc61k",
-                    "short_id": "c0dcd3a5"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
         },
         {
             "tag": "🇹🇷TR | vless | @reality_daily | 6",
@@ -576,35 +536,6 @@
                     "enabled": true,
                     "public_key": "yvST7IS7c400DGyW4HwHI2c2ZrV8znWHZGV8jbiz4Wo",
                     "short_id": "8911ac48"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "16.16.141.217",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "coinmarketcap.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yquzWsxKFOJt9DRENH6-FovuNXg6shkSei3zL3LcAEY",
-                    "short_id": "fe"
                 }
             }
         },

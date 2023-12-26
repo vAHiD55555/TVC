@@ -115,8 +115,9 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 12",
                 "🇩🇪DE | vless | @v2ray_swhil | 19",
                 "🇩🇪DE | vless | @V2RayTz | 19",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @fnet00 | 10",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 16",
+                "🇫🇮FI | vless | @v2rayng_vpnrog | 7",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -141,8 +142,9 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 12",
                 "🇩🇪DE | vless | @v2ray_swhil | 19",
                 "🇩🇪DE | vless | @V2RayTz | 19",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @fnet00 | 10",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 16",
+                "🇫🇮FI | vless | @v2rayng_vpnrog | 7",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -491,35 +493,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "16.16.141.217",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "coinmarketcap.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yquzWsxKFOJt9DRENH6-FovuNXg6shkSei3zL3LcAEY",
-                    "short_id": "fe"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @fnet00 | 10",
             "type": "vless",
             "server": "kamyarservers.ddns.net",
@@ -550,6 +523,71 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@configMs",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 16",
+            "type": "vless",
+            "server": "16.16.173.220",
+            "server_port": 8443,
+            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "coinmarketcap.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r1X-lpRCeFJFkcdSCJmY5CdLgaJy0SzIpPmTH0JUkXs",
+                    "short_id": "fe"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | @v2rayng_vpnrog | 7",
+            "type": "vless",
+            "server": "65.108.58.248",
+            "server_port": 443,
+            "uuid": "b0107817-029c-432c-ad4d-bd1e9e1c3471",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RL6RJY-vbjYIUpDulvSJ8LHI9zCsJ0ICWWY5I-coWwE",
+                    "short_id": "cac59972"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz--@vpnwedbaz",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

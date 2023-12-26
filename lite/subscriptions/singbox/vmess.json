@@ -109,9 +109,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇯🇵JP | vmess | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ]
         },
@@ -122,9 +124,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇯🇵JP | vmess | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -191,9 +195,33 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "glaSco.fx-trAder.shop",
-            "server_port": 8443,
-            "uuid": "ff294d8b-a34d-44ea-c509-0de06b08bc88",
+            "server": "nody.ir",
+            "server_port": 2052,
+            "uuid": "a5795aef-f1b4-4fbf-bd81-fd873ff58fd6",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/public",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "104.31.16.138",
+            "server_port": 443,
+            "uuid": "3CAA8AEA-C140-4C2D-9D18-7D1F04A2F07E",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -206,7 +234,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bMwV2ray.carmeloshop.shop",
+                "server_name": "Kansas.bobbykotick.rip",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -216,9 +244,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "bMwV2ray.carmeloshop.shop"
+                    "Host": "Kansas.bobbykotick.rip"
                 }
             }
         },
@@ -299,6 +327,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "109.123.230.157",
+            "server_port": 80,
+            "uuid": "877aa2a8-5854-4cb2-9aba-4a1413a6b2de",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/takeshi.wiki",
                 "headers": {
                     "Host": ""
                 }

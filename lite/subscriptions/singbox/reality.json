@@ -116,8 +116,9 @@
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @customv2ray | 11",
                 "🇩🇪DE | vless | @v2ray_swhil | 19",
-                "🇩🇪DE | vless | @V2RayTz | 16",
+                "🇫🇮FI | vless | @V2RayTz | 16",
                 "🇦🇺AU | vless | @DailyV2RY | 57",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 7",
@@ -146,8 +147,9 @@
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @customv2ray | 11",
                 "🇩🇪DE | vless | @v2ray_swhil | 19",
-                "🇩🇪DE | vless | @V2RayTz | 16",
+                "🇫🇮FI | vless | @V2RayTz | 16",
                 "🇦🇺AU | vless | @DailyV2RY | 57",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 7",
@@ -528,11 +530,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 16",
+            "tag": "🇫🇮FI | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "49.13.124.151",
+            "server": "95.217.222.4",
             "server_port": 443,
-            "uuid": "c084e53f-c642-4339-b163-0f972a2893b7",
+            "uuid": "a0562dec-26ac-43d4-ba1d-785c334e644f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -551,8 +553,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "AeW1GbKQeuf0Z64mEk5mv8sa0NC8AtPlyvujpTk_yyk",
-                    "short_id": "b1f54cff"
+                    "public_key": "6xB68DajC7miFErmsxQfmDM0KNlsdh551QjFfMSBXmA",
+                    "short_id": "fada4f5f"
                 }
             },
             "transport": {
@@ -597,6 +599,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "16.16.219.14",
+            "server_port": 8443,
+            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "coinmarketcap.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "u3_YscrSYWcQZtz7S_k5ibMHNMMPeEk-caOn3K-HEzk",
+                    "short_id": "fe"
+                }
             }
         },
         {

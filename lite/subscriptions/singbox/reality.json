@@ -119,7 +119,9 @@
                 "🇸🇪SE | vless | @Outlinev2rayNG | 16",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 7",
                 "🇩🇪DE | vless | @Capital_NET | 56",
-                "🇩🇪DE | vless | @Capoit | 9",
+                "🇩🇪DE | vless | @Capoit | 11",
+                "🇩🇪DE | vless | @forwardv2ray | 11",
+                "🇸🇪SE | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 18",
@@ -146,7 +148,9 @@
                 "🇸🇪SE | vless | @Outlinev2rayNG | 16",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 7",
                 "🇩🇪DE | vless | @Capital_NET | 56",
-                "🇩🇪DE | vless | @Capoit | 9",
+                "🇩🇪DE | vless | @Capoit | 11",
+                "🇩🇪DE | vless | @forwardv2ray | 11",
+                "🇸🇪SE | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 18",
@@ -616,7 +620,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Capoit | 9",
+            "tag": "🇩🇪DE | vless | @Capoit | 11",
             "type": "vless",
             "server": "128.140.86.66",
             "server_port": 443,
@@ -649,6 +653,71 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 11",
+            "type": "vless",
+            "server": "vip.windscribe.cam",
+            "server_port": 2055,
+            "uuid": "160e5b77-a918-4a65-a263-f3b95c9d69bf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sni.windscribe.cam",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LfgBV263BZBVPfmtH13NhI2CDuyxoHrS4ZeFsvxVqSw",
+                    "short_id": "2eb986795859a47a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "xyz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @mehrosaboran | 10",
+            "type": "vless",
+            "server": "16.16.80.41",
+            "server_port": 8443,
+            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "coinmarketcap.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6ixGuRjBRRcMTXA5yMTv4QRMgvYB1KjOSzjGw6Ne8ko",
+                    "short_id": "fe"
+                }
             }
         },
         {

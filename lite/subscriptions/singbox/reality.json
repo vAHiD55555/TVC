@@ -115,13 +115,12 @@
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @customv2ray | 11",
                 "🇩🇪DE | vless | @v2ray_swhil | 19",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇦🇺AU | vless | @DailyV2RY | 57",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 7",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 11",
-                "🇩🇪DE | vless | @forwardv2ray | 14",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 18",
@@ -144,13 +143,12 @@
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | vless | @customv2ray | 11",
                 "🇩🇪DE | vless | @v2ray_swhil | 19",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇦🇺AU | vless | @DailyV2RY | 57",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 7",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 11",
-                "🇩🇪DE | vless | @forwardv2ray | 14",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 18",
@@ -490,11 +488,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "tag": "🇦🇺AU | vless | @DailyV2RY | 57",
             "type": "vless",
-            "server": "195.201.249.91",
-            "server_port": 25365,
-            "uuid": "82815b5f-05d0-4c57-b8a1-2e2ba8f32f34",
+            "server": "192.99.158.243",
+            "server_port": 80,
+            "uuid": "7a57aa83-947f-4a67-bb79-f5c109358402",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -504,22 +502,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "souceforge.net",
+                "server_name": "www.speedtest.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "safari"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tjoV2RMtPvpB29fxuDCvAYzBt3RCLe8Uqrrc4O4zXzs",
-                    "short_id": "dda0f0d2"
+                    "public_key": "r9xqYf3TXGXiuUiWewGsA2uMGgqC_WVZOn9WLojL10Q",
+                    "short_id": "9d307375"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ZEDMODEON",
+                "service_name": "dwcWGerZn",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -680,42 +678,6 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "jHJQ1xZ72Rk9I29I2V57mfK0hWYw5MLUzJpuu0z-B1Q",
-                    "short_id": "b1f54cff"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 14",
-            "type": "vless",
-            "server": "49.13.124.151",
-            "server_port": 443,
-            "uuid": "c084e53f-c642-4339-b163-0f972a2893b7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "upmusics.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AeW1GbKQeuf0Z64mEk5mv8sa0NC8AtPlyvujpTk_yyk",
                     "short_id": "b1f54cff"
                 }
             },

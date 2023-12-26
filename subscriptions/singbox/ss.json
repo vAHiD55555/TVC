@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇹IT | ss | @V2rayCollectorDonate | 13",
+                "🇮🇹IT | ss | @V2rayCollectorDonate | 14",
                 "🇬🇧GB | ss | @proxyymeliii | 9",
                 "🇬🇧GB | ss | @proxyymeliii | 14",
                 "🇹🇼TW | ss | @VmessProtocol | 12",
@@ -126,7 +126,8 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @kingofilter | 5",
+                "🇷🇺RU | ss | @forwardv2ray | 4",
+                "🇬🇧GB | ss | @forwardv2ray | 14",
                 "🇫🇮FI | ss | @kingofilter | 6"
             ]
         },
@@ -134,7 +135,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇹IT | ss | @V2rayCollectorDonate | 13",
+                "🇮🇹IT | ss | @V2rayCollectorDonate | 14",
                 "🇬🇧GB | ss | @proxyymeliii | 9",
                 "🇬🇧GB | ss | @proxyymeliii | 14",
                 "🇹🇼TW | ss | @VmessProtocol | 12",
@@ -154,7 +155,8 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @kingofilter | 5",
+                "🇷🇺RU | ss | @forwardv2ray | 4",
+                "🇬🇧GB | ss | @forwardv2ray | 14",
                 "🇫🇮FI | ss | @kingofilter | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -178,7 +180,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇹IT | ss | @V2rayCollectorDonate | 13",
+            "tag": "🇮🇹IT | ss | @V2rayCollectorDonate | 14",
             "type": "shadowsocks",
             "server": "it.doushimeng.com",
             "server_port": 21102,
@@ -378,7 +380,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @kingofilter | 5",
+            "tag": "🇷🇺RU | ss | @forwardv2ray | 4",
+            "type": "shadowsocks",
+            "server": "vpn-ru.wwp.im",
+            "server_port": 15174,
+            "method": "chacha20-ietf-poly1305",
+            "password": "9XIIKhhuEu2AeYAtlLLF5k",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 14",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
             "server_port": 443,

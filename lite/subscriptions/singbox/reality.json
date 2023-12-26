@@ -111,12 +111,15 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
+                "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
-                "🇩🇪DE | vless | @V2RayTz | 18",
+                "🇩🇪DE | vless | @V2RayTz | 19",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 8",
                 "🇩🇪DE | vless | @Capital_NET | 56",
+                "🇸🇪SE | vless | @forwardv2ray | 19",
+                "🇳🇱NL | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 18",
@@ -135,12 +138,15 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
+                "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇩🇪DE | vless | @ShadowSocks_s | 1",
-                "🇩🇪DE | vless | @V2RayTz | 18",
+                "🇩🇪DE | vless | @V2RayTz | 19",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 8",
                 "🇩🇪DE | vless | @Capital_NET | 56",
+                "🇸🇪SE | vless | @forwardv2ray | 19",
+                "🇳🇱NL | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 18",
@@ -343,6 +349,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @prrofile_purple | 179",
+            "type": "vless",
+            "server": "172.104.234.144",
+            "server_port": 2083,
+            "uuid": "38c1db58-0b97-40fe-a857-2119443872bf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AoVVD-FGx5-IC2fwjqH3B_0M3T-muzmULO73sw4BLGw",
+                    "short_id": "3eddc513f64c2104"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @ShadowSocks_s | 1",
             "type": "vless",
             "server": "78.47.225.52",
@@ -379,7 +414,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 18",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "164.90.188.180",
             "server_port": 443,
@@ -542,6 +577,71 @@
                     "public_key": "yvST7IS7c400DGyW4HwHI2c2ZrV8znWHZGV8jbiz4Wo",
                     "short_id": "8911ac48"
                 }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "16.16.141.217",
+            "server_port": 8443,
+            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "coinmarketcap.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yquzWsxKFOJt9DRENH6-FovuNXg6shkSei3zL3LcAEY",
+                    "short_id": "fe"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @FAKEOFTVC | 5",
+            "type": "vless",
+            "server": "193.203.51.15",
+            "server_port": 443,
+            "uuid": "d48e8f9f-25ff-4795-acb7-b01c0a96297a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wbgbRBXas-xHjm59gSQ39-NU3uHM9tmkg7ipS93Y1nU",
+                    "short_id": "178a8544"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "discordapp.com"
+                ],
+                "path": "\/"
             }
         },
         {

@@ -108,12 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇯🇵JP | vmess | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ]
         },
@@ -123,12 +121,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇯🇵JP | vmess | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -193,11 +189,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "nody.ir",
-            "server_port": 2052,
-            "uuid": "a5795aef-f1b4-4fbf-bd81-fd873ff58fd6",
+            "server": "kom645yj.sbs",
+            "server_port": 35189,
+            "uuid": "52ef45f6-88b1-48ea-8e44-69814e11e6e4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -210,43 +206,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/public",
+                "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "104.31.16.138",
-            "server_port": 443,
-            "uuid": "3CAA8AEA-C140-4C2D-9D18-7D1F04A2F07E",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Kansas.bobbykotick.rip",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Kansas.bobbykotick.rip"
                 }
             }
         },
@@ -327,30 +289,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "109.123.230.157",
-            "server_port": 80,
-            "uuid": "877aa2a8-5854-4cb2-9aba-4a1413a6b2de",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/takeshi.wiki",
                 "headers": {
                     "Host": ""
                 }

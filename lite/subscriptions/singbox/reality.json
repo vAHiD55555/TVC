@@ -112,11 +112,11 @@
                 "🇫🇮FI | vless | @v2logy | 20",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
                 "🇩🇪DE | vless | @customv2ray | 11",
-                "🇺🇸US | vless | @VmessProtocol | 20",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 18",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇫🇮FI | vless | @flyv2ray | 17",
+                "🇹🇷TR | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇩🇪DE | vless | @proxy_mtm | 28",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -134,11 +134,11 @@
                 "🇫🇮FI | vless | @v2logy | 20",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
                 "🇩🇪DE | vless | @customv2ray | 11",
-                "🇺🇸US | vless | @VmessProtocol | 20",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 18",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇫🇮FI | vless | @flyv2ray | 17",
+                "🇹🇷TR | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇩🇪DE | vless | @proxy_mtm | 28",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -375,42 +375,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VmessProtocol | 20",
-            "type": "vless",
-            "server": "us.eecdn.r-yu.me",
-            "server_port": 23333,
-            "uuid": "6fd4ce3d-e8ef-4a0a-8113-289945b15b43",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.lovelive-anime.jp",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "VQC7doiCM9egWHsn5mgCSAwoXZdC4khYHkQF2b25lEs",
-                    "short_id": "b1522633"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "JAVAService",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @fnet00 | 10",
             "type": "vless",
             "server": "kamyarservers.ddns.net",
@@ -545,6 +509,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "83.217.9.129",
+            "server_port": 22,
+            "uuid": "bdd27ce3-4c4c-4d98-b595-976443eb8097",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gx5W59k3eliDd9I8IYLg8x05x_gcY0j8sie5_MpTSw0",
+                    "short_id": "746a7866"
+                }
             }
         },
         {

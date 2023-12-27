@@ -210,9 +210,9 @@
         {
             "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "dl3.doushimeng.com",
-            "server_port": 2082,
-            "uuid": "92b85b70-d62f-4bf5-80d4-2bbad33a02cc",
+            "server": "162.159.130.233",
+            "server_port": 2096,
+            "uuid": "4b9ede00-2d53-4971-a29a-632f2f64de0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -223,11 +223,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "a7abd90-9e7c-11ee-863a-ca024a986c71.baloti9900best.shoP",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/asdas",
+                "path": "\/a7abd90-9e7c-11ee-863a-ca024a986c71",
                 "headers": {
-                    "Host": ""
+                    "Host": "a7abd90-9e7c-11ee-863a-ca024a986c71.baloti9900best.shoP"
                 }
             }
         },

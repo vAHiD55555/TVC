@@ -106,16 +106,15 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇹🇷TR | vless | @reality_daily | 4",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @prrofile_purple | 179",
+                "🇩🇪DE | vless | @v2ray_swhil | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 15",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 8",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 9",
-                "🇳🇱NL | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 18",
@@ -129,16 +128,15 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇹🇷TR | vless | @reality_daily | 4",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @prrofile_purple | 179",
+                "🇩🇪DE | vless | @v2ray_swhil | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 15",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 8",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇩🇪DE | vless | @Capoit | 9",
-                "🇳🇱NL | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 18",
@@ -166,35 +164,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇹🇷TR | vless | @reality_daily | 4",
-            "type": "vless",
-            "server": "83.217.9.129",
-            "server_port": 2052,
-            "uuid": "83b1bd7b-ebbb-47a3-8929-3862eb2f87c4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.who.int",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YFjZe0zxF_pzUyNREyE6tm10oGmoXT1Z7R9DtR2BQEk",
-                    "short_id": "64386864"
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @ipV2Ray | 19",
@@ -295,6 +264,42 @@
                     "public_key": "AoVVD-FGx5-IC2fwjqH3B_0M3T-muzmULO73sw4BLGw",
                     "short_id": "3eddc513f64c2104"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2ray_swhil | 18",
+            "type": "vless",
+            "server": "116.203.149.241",
+            "server_port": 443,
+            "uuid": "1596e7f0-2106-468f-e2b0-93f19e83bd0c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JYFrn4MJLzIx9jeYhpmtcgk0KoP2_HKukaRBEO6VCiU",
+                    "short_id": "a18472f7"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -468,35 +473,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "2.828427121746190.unitydualitytrinityquadriviumhexagondecagon.k-zone.com",
-            "server_port": 443,
-            "uuid": "6584ed53-90b2-45d6-aa78-ff34867c814c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cisco.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fQ-IHsiPC6PXiHaLFROGvaRnqkSlO-AWqDXc_16bgzE",
-                    "short_id": "09f74abe"
-                }
             }
         },
         {

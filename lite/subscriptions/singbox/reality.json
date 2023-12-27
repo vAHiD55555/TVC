@@ -111,9 +111,11 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇫🇮FI | vless | @v2logy | 20",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
+                "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇩🇪DE | vless | @customv2ray | 11",
                 "🇺🇸US | vless | @VmessProtocol | 20",
                 "🏳️XX | vless | @fnet00 | 10",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 14",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 9",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -133,9 +135,11 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇫🇮FI | vless | @v2logy | 20",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
+                "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇩🇪DE | vless | @customv2ray | 11",
                 "🇺🇸US | vless | @VmessProtocol | 20",
                 "🏳️XX | vless | @fnet00 | 10",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 14",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 9",
                 "🇩🇪DE | vless | @Capital_NET | 56",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -339,6 +343,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @prrofile_purple | 179",
+            "type": "vless",
+            "server": "172.104.234.144",
+            "server_port": 2083,
+            "uuid": "38c1db58-0b97-40fe-a857-2119443872bf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AoVVD-FGx5-IC2fwjqH3B_0M3T-muzmULO73sw4BLGw",
+                    "short_id": "3eddc513f64c2104"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @customv2ray | 11",
             "type": "vless",
             "server": "23.88.116.162",
@@ -441,6 +474,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@configMs",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 14",
+            "type": "vless",
+            "server": "49.13.124.151",
+            "server_port": 443,
+            "uuid": "c084e53f-c642-4339-b163-0f972a2893b7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "upmusics.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AeW1GbKQeuf0Z64mEk5mv8sa0NC8AtPlyvujpTk_yyk",
+                    "short_id": "b1f54cff"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

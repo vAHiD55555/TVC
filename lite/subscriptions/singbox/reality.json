@@ -111,11 +111,11 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 10",
                 "🇩🇪DE | vless | @customv2ray | 11",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @VmessProtocol | 20",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 8",
                 "🇩🇪DE | vless | @Capital_NET | 56",
-                "🏳️XX | vless | @forwardv2ray | 14",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 19",
@@ -132,11 +132,11 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 10",
                 "🇩🇪DE | vless | @customv2ray | 11",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @VmessProtocol | 20",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 8",
                 "🇩🇪DE | vless | @Capital_NET | 56",
-                "🏳️XX | vless | @forwardv2ray | 14",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 19",
@@ -207,7 +207,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "greenpepper.ir",
+                "server_name": "apecs.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -216,7 +216,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "wxzZx9_9R0QXG4Hjc8e3_ckaUIbn9oKc5yKsBqh8ulc",
+                    "public_key": "Eu3u4rbEDP00R68CW9sj8j9juJWcPIgB-KT5YBO2D04",
                     "short_id": "a18472f7"
                 }
             },
@@ -337,11 +337,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | vless | @VmessProtocol | 20",
             "type": "vless",
-            "server": "104.168.107.230",
-            "server_port": 22,
-            "uuid": "e4b0ea77-aa0e-4181-8ca0-214791b5a2ea",
+            "server": "us.eecdn.r-yu.me",
+            "server_port": 23333,
+            "uuid": "6fd4ce3d-e8ef-4a0a-8113-289945b15b43",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -351,18 +351,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speed.cloudflare.com",
+                "server_name": "www.lovelive-anime.jp",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Gc6P3EsJl5sW_wPKZtpHLA_d2_nb2DGthH-eh-lAdgc",
-                    "short_id": "aeb0aeef9185d823"
+                    "public_key": "VQC7doiCM9egWHsn5mgCSAwoXZdC4khYHkQF2b25lEs",
+                    "short_id": "b1522633"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "JAVAService",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -467,7 +474,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @forwardv2ray | 14",
+            "tag": "🏳️XX | vless | @forwardv2ray | 18",
             "type": "vless",
             "server": "v2logy.ddns.net",
             "server_port": 443,

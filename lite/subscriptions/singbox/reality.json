@@ -113,13 +113,14 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
                 "🇩🇪DE | vless | @customv2ray | 11",
                 "🇺🇸US | vless | @VmessProtocol | 20",
-                "🏳️XX | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 15",
                 "🇩🇪DE | vless | @Capital_NET | 56",
+                "🇫🇮FI | vless | @flyv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇩🇪DE | vless | @proxy_mtm | 28",
-                "🇺🇸US | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
             ]
@@ -135,13 +136,14 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
                 "🇩🇪DE | vless | @customv2ray | 11",
                 "🇺🇸US | vless | @VmessProtocol | 20",
-                "🏳️XX | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 15",
                 "🇩🇪DE | vless | @Capital_NET | 56",
+                "🇫🇮FI | vless | @flyv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇩🇪DE | vless | @proxy_mtm | 28",
-                "🇺🇸US | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
             ],
@@ -411,42 +413,6 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "v2logy.ddns.net",
-            "server_port": 443,
-            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @fnet00 | 10",
             "type": "vless",
             "server": "kamyarservers.ddns.net",
@@ -548,6 +514,78 @@
             }
         },
         {
+            "tag": "🇫🇮FI | vless | @flyv2ray | 17",
+            "type": "vless",
+            "server": "95.217.7.210",
+            "server_port": 443,
+            "uuid": "a0562dec-26ac-43d4-ba1d-785c334e644f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Xi1Nzphv4VP75yeymoAI141i_LQijEJhfQy7z_29VnM",
+                    "short_id": "fada4f5f"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "flyv2ray.camdvr.org",
+            "server_port": 443,
+            "uuid": "7cb4c5f2-18cd-44a3-a6c9-d6534b714c9b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xq6RYOPcRTrtWBzj2q6iiecamHAREvsoffEgfgtgKm0",
+                    "short_id": "15273896"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@flyv2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @kiava | 14",
             "type": "vless",
             "server": "13.48.6.186",
@@ -613,7 +651,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 23",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,

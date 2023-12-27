@@ -109,12 +109,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 11",
-                "🇩🇪DE | vmess | @DailyV2RY | 54",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇩🇪DE | vmess | @DailyV2RY | 63",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇳🇱NL | vmess | @forwardv2ray | 10",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ]
         },
@@ -125,12 +123,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇻🇳VN | vmess | @mftizi | 18",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 11",
-                "🇩🇪DE | vmess | @DailyV2RY | 54",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇩🇪DE | vmess | @DailyV2RY | 63",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇳🇱NL | vmess | @forwardv2ray | 10",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -212,7 +208,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @DailyV2RY | 54",
+            "tag": "🇩🇪DE | vmess | @DailyV2RY | 63",
             "type": "vmess",
             "server": "royalgamer.royalping.xyz",
             "server_port": 12345,
@@ -226,40 +222,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "2bbiozh7wbc.servecounterstrike.com",
-            "server_port": 2096,
-            "uuid": "2a3b0cb4-40e6-46ce-99fe-7251ecf2e725",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "SkamAmmLLLmawm.mookomeIlz.Homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@FreeVPNHomes@FreeVPNHomes",
-                "headers": {
-                    "Host": "SkamAmmLLLmawm.mookomeIlz.Homes"
-                }
             }
         },
         {
@@ -341,40 +303,6 @@
                 "path": "\/racevpn",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 10",
-            "type": "vmess",
-            "server": "188.114.97.7",
-            "server_port": 443,
-            "uuid": "6C4FB658-4806-4ACB-BC39-522A196FD5EC",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kansas.gafn.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "kansas.gafn.online"
                 }
             }
         },

@@ -108,11 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 12",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
+                "🇺🇸US | vmess | @ConfigsHUB | 14",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 4",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ]
         },
@@ -122,11 +122,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 12",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
+                "🇺🇸US | vmess | @ConfigsHUB | 14",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 4",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @oneclickvpnkeys | 12",
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "172.99.190.12",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "217.160.45.31",
+            "server_port": 8880,
+            "uuid": "4e186678-fcca-4325-e4bc-b2916bdf6708",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -198,6 +198,37 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "173.245.58.34",
+            "server_port": 2052,
+            "uuid": "Telegram-V2ray_alpha",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -277,30 +308,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "104.27.102.105",
-            "server_port": 8080,
-            "uuid": "Telegram-V2ray_alpha",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
                 "headers": {
                     "Host": ""
                 }

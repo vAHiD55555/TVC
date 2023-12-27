@@ -106,8 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @proxyymeliii | 12",
-                "🇬🇧GB | ss | @proxyymeliii | 17",
+                "🇮🇹IT | ss | @V2rayCollectorDonate | 5",
+                "🇬🇧GB | ss | @proxyymeliii | 14",
+                "🇬🇧GB | ss | @proxyymeliii | 19",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 5",
@@ -123,16 +124,17 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @kingofilter | 6",
-                "🇫🇮FI | ss | @kingofilter | 7"
+                "🇬🇧GB | ss | @kingofilter | 7",
+                "🇫🇮FI | ss | @kingofilter | 8"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @proxyymeliii | 12",
-                "🇬🇧GB | ss | @proxyymeliii | 17",
+                "🇮🇹IT | ss | @V2rayCollectorDonate | 5",
+                "🇬🇧GB | ss | @proxyymeliii | 14",
+                "🇬🇧GB | ss | @proxyymeliii | 19",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 5",
@@ -148,8 +150,8 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @kingofilter | 6",
-                "🇫🇮FI | ss | @kingofilter | 7"
+                "🇬🇧GB | ss | @kingofilter | 7",
+                "🇫🇮FI | ss | @kingofilter | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -172,7 +174,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @proxyymeliii | 12",
+            "tag": "🇮🇹IT | ss | @V2rayCollectorDonate | 5",
+            "type": "shadowsocks",
+            "server": "it.fanqiecloud.top",
+            "server_port": 22802,
+            "method": "chacha20-ietf-poly1305",
+            "password": "134f1fa5-da1a-4fdd-a11b-1f375ab48e6c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @proxyymeliii | 14",
             "type": "shadowsocks",
             "server": "series-a2.samanehha.co",
             "server_port": 443,
@@ -182,7 +194,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @proxyymeliii | 17",
+            "tag": "🇬🇧GB | ss | @proxyymeliii | 19",
             "type": "shadowsocks",
             "server": "series-a2-me.samanehha.co",
             "server_port": 443,
@@ -342,7 +354,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @kingofilter | 6",
+            "tag": "🇬🇧GB | ss | @kingofilter | 7",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
             "server_port": 443,
@@ -352,7 +364,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | ss | @kingofilter | 7",
+            "tag": "🇫🇮FI | ss | @kingofilter | 8",
             "type": "shadowsocks",
             "server": "passconf.xyz",
             "server_port": 8080,

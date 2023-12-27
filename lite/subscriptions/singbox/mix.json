@@ -162,7 +162,7 @@
                 "🇮🇷IR | vless | @SafeNet_Server | 7",
                 "🇳🇱NL | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | vmess | @ConfigsHUB | 12",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🇰🇷KR | trojan | @yaney_01 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 3",
@@ -178,7 +178,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇹🇷TR | vless | @IRN_VPN | 3",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🏳️XX | vmess | @forwardv2ray | 9",
+                "🇳🇱NL | ss | @forwardv2ray | 18",
                 "🇬🇧GB | ss | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -255,7 +255,7 @@
                 "🇮🇷IR | vless | @SafeNet_Server | 7",
                 "🇳🇱NL | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | vmess | @ConfigsHUB | 12",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🇰🇷KR | trojan | @yaney_01 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 3",
@@ -271,7 +271,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇹🇷TR | vless | @IRN_VPN | 3",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🏳️XX | vmess | @forwardv2ray | 9",
+                "🇳🇱NL | ss | @forwardv2ray | 18",
                 "🇬🇧GB | ss | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -1771,11 +1771,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 12",
             "type": "vmess",
-            "server": "tapsell.ir",
-            "server_port": 2052,
-            "uuid": "5e1e4530-f36f-4b89-a952-c45968ed4e94",
+            "server": "us3.36routes.online",
+            "server_port": 80,
+            "uuid": "ed5c3009-b6cf-4fc2-ab14-240f49ebd98c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1788,7 +1788,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/public",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
@@ -2248,38 +2248,14 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 9",
-            "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "B417B4F7-58E3-445E-80AC-C86CC8D03EE7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Dusseldorf.kotick.site"
-                }
-            }
+            "tag": "🇳🇱NL | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "46.151.29.2",
+            "server_port": 1165,
+            "method": "chacha20-ietf-poly1305",
+            "password": "v1PgdpGO_fTTUCle68dhbw",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇬🇧GB | ss | @FAKEOFTVC | 4",

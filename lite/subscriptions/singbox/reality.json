@@ -116,7 +116,6 @@
                 "🇩🇪DE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🏳️XX | vless | @fnet00 | 10",
-                "🇫🇮FI | vless | @Outlinev2rayNG | 14",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇫🇮FI | vless | @flyv2ray | 16",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -139,7 +138,6 @@
                 "🇩🇪DE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🏳️XX | vless | @fnet00 | 10",
-                "🇫🇮FI | vless | @Outlinev2rayNG | 14",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇫🇮FI | vless | @flyv2ray | 16",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -501,42 +499,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@configMs",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @Outlinev2rayNG | 14",
-            "type": "vless",
-            "server": "95.217.222.4",
-            "server_port": 443,
-            "uuid": "a0562dec-26ac-43d4-ba1d-785c334e644f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dnschecker.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gm2Wwz40i567MHvwS8wqKDSEnHYViWx5_sqjj3v22ms",
-                    "short_id": "fada4f5f"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

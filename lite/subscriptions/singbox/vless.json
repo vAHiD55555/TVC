@@ -143,7 +143,8 @@
                 "🇨🇷CR | vless | @MTConfig | 22",
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @SafeNet_Server | 8",
+                "🇺🇸US | vless | @SafeNet_Server | 8",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 35",
@@ -151,6 +152,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
+                "🇫🇮FI | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -203,7 +205,8 @@
                 "🇨🇷CR | vless | @MTConfig | 22",
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @SafeNet_Server | 8",
+                "🇺🇸US | vless | @SafeNet_Server | 8",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 35",
@@ -211,6 +214,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
+                "🇫🇮FI | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -1265,7 +1269,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @SafeNet_Server | 8",
+            "tag": "🇺🇸US | vless | @SafeNet_Server | 8",
             "type": "vless",
             "server": "3k.pureboy.eu.org",
             "server_port": 443,
@@ -1292,6 +1296,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "tapsell.ir",
+            "server_port": 443,
+            "uuid": "55c0fd6d-cf14-4d61-dae8-f113734619e2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "summit-mortality-outdoors-pcs.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "summit-mortality-outdoors-pcs.trycloudflare.com"
                 }
             }
         },
@@ -1510,6 +1545,42 @@
                 "headers": {
                     "Host": "cdn.cheshmsabz.top"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "3bia-to3.unlimiteddev.shop",
+            "server_port": 443,
+            "uuid": "2c99e91f-a7e0-46a2-af49-5388f2a3f985",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XjCgUwywc1XF43Yj5VG-dEaLib3XCl1H0bR9rH0-0lk",
+                    "short_id": "e81dba58"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@UnlimitedDev",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

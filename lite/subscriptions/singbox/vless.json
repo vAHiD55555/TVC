@@ -114,6 +114,7 @@
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @V2pedia | 8",
                 "🇩🇪DE | vless | @ARv2ray | 13",
+                "🇺🇸US | vless | @shh_proxy | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 17",
                 "🇮🇷IR | vless | @free_v2rayyy | 10",
@@ -143,7 +144,6 @@
                 "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇩🇪DE | vless | @DailyV2RY | 49",
                 "🇨🇦CA | vless | @SafeNet_Server | 7",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 21",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
@@ -175,6 +175,7 @@
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @V2pedia | 8",
                 "🇩🇪DE | vless | @ARv2ray | 13",
+                "🇺🇸US | vless | @shh_proxy | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 17",
                 "🇮🇷IR | vless | @free_v2rayyy | 10",
@@ -204,7 +205,6 @@
                 "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇩🇪DE | vless | @DailyV2RY | 49",
                 "🇨🇦CA | vless | @SafeNet_Server | 7",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 21",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 41",
@@ -497,6 +497,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @shh_proxy | 19",
+            "type": "vless",
+            "server": "V2ray.motorcycles",
+            "server_port": 2087,
+            "uuid": "e29239d1-68e2-4c6d-a510-0f7883c5fabe",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "FreeV2rayng.SHHPROXY.monster",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "FreeV2rayng.SHHPROXY.monster"
+                }
             }
         },
         {
@@ -1317,37 +1348,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Parsashonam",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "maz.maznet.cfd",
-            "server_port": 443,
-            "uuid": "b9709f4f-202c-4614-8e05-18c92277783d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join10.maznet.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

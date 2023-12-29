@@ -106,13 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇹🇷TR | vless | @reality_daily | 8",
+                "🇸🇪SE | vless | @reality_daily | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇮🇷IR | vless | @frev2ray | 12",
+                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇫🇮FI | vless | @v2logy | 20",
                 "🇹🇷TR | vless | @V2rayCollector | 1",
-                "🇹🇷TR | vless | @V2rayCollectorDonate | 16",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 6",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
@@ -127,13 +127,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇹🇷TR | vless | @reality_daily | 8",
+                "🇸🇪SE | vless | @reality_daily | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇮🇷IR | vless | @frev2ray | 12",
+                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇫🇮FI | vless | @v2logy | 20",
                 "🇹🇷TR | vless | @V2rayCollector | 1",
-                "🇹🇷TR | vless | @V2rayCollectorDonate | 16",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 6",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
@@ -164,11 +164,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇹🇷TR | vless | @reality_daily | 8",
+            "tag": "🇸🇪SE | vless | @reality_daily | 7",
             "type": "vless",
-            "server": "83.217.9.129",
+            "server": "5.42.77.255",
             "server_port": 22,
-            "uuid": "3d1c4757-3674-47ac-a1a8-5ab834b6cbb4",
+            "uuid": "f1c2160e-6e72-459b-9f24-0493afc72695",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -187,8 +187,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "eVScC98SbhLdsUmzJ3yUfaY2p5YOXrXSKU4wlt_AuDM",
-                    "short_id": "736a796b"
+                    "public_key": "YCVu6k-jUgzuofniWmLMAdq4bYTVzi_TMgzefTIsJwY",
+                    "short_id": "1f2ad3d6497f94e8"
                 }
             }
         },
@@ -259,6 +259,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Frev2ray,@Frev2ray,@Frev2ray@Frev2ray,@Frev2ray,@Frev2ray,@Frev2ray,@Frev2ray,@Frev2ray,@Frev2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ARv2ray | 13",
+            "type": "vless",
+            "server": "138.201.155.113",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gsmarena.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "A3-Agx7ozSGUnygo7mkUK_pu1pIwYnJQV7QDDVN3GEs",
+                    "short_id": "20a51c60"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -370,42 +406,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇹🇷TR | vless | @V2rayCollectorDonate | 16",
-            "type": "vless",
-            "server": "188.132.232.167",
-            "server_port": 58320,
-            "uuid": "a38f9f15-e7cf-44ec-afc6-2a4c0e948dc8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Hwat9kk0rMHVXGG8BOXuMLKVs38aUUkxjEFb2hl_eAY",
-                    "short_id": "e5e3e61e"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "zula.ir"
-                ],
-                "path": "\/"
             }
         },
         {

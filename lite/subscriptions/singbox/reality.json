@@ -112,7 +112,6 @@
                 "🇩🇪DE | vless | @v2logy | 21",
                 "🇹🇷TR | vless | @V2rayCollector | 1",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 4",
-                "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 40",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
@@ -132,7 +131,6 @@
                 "🇩🇪DE | vless | @v2logy | 21",
                 "🇹🇷TR | vless | @V2rayCollector | 1",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 4",
-                "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 40",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
@@ -360,35 +358,6 @@
                     "enabled": true,
                     "public_key": "hUn6Xly_pebWdzNIF1jl5tiN1hmmY0IYXVw_O6XCZWA",
                     "short_id": "fe"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 18",
-            "type": "vless",
-            "server": "maketheworldbetter.faraelm.fun",
-            "server_port": 45163,
-            "uuid": "7507d12d-1b60-48b8-8fc5-7bb878078aee",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Snifinder.faraelm.fun",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "u_LpzVFLwn4F4CQrM_jN1dwDwvYxkj7LSMxq75KxyxY",
-                    "short_id": "e701d69c"
                 }
             }
         },

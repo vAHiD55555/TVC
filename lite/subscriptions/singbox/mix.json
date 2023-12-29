@@ -119,7 +119,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 17",
                 "🇮🇷IR | vless | @free_v2rayyy | 10",
-                "🇺🇸US | vless | @lightning6 | 18",
+                "🇨🇷CR | vless | @lightning6 | 18",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 13",
@@ -151,7 +151,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇳🇱NL | vmess | @DailyV2RY | 14",
                 "🇨🇦CA | vless | @SafeNet_Server | 8",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
@@ -194,7 +194,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 17",
                 "🇮🇷IR | vless | @free_v2rayyy | 10",
-                "🇺🇸US | vless | @lightning6 | 18",
+                "🇨🇷CR | vless | @lightning6 | 18",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 13",
@@ -226,7 +226,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇳🇱NL | vmess | @DailyV2RY | 14",
                 "🇨🇦CA | vless | @SafeNet_Server | 8",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
@@ -663,7 +663,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 18",
+            "tag": "🇨🇷CR | vless | @lightning6 | 18",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.mamd.sbs",
             "server_port": 2083,
@@ -1485,12 +1485,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
-            "server": "www.outline.network.ak1986.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server": "www.outline.network.ak1985.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 2443,
             "method": "aes-256-gcm",
-            "password": "mVMNhvDFhFH56a2iFF4ZOPTvkSEPbFXoe3eQ205xHTU=",
+            "password": "5O+1vuAy1jMIm3H3olcLL53lZy\/9akX8UvaItv6ls2M=",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -1830,9 +1830,9 @@
         {
             "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "49.13.11.249",
+            "server": "kamyarservers.camdvr.org",
             "server_port": 443,
-            "uuid": "96bbbba8-eac5-4bf7-916d-52c34ed5117c",
+            "uuid": "6f5d7ed2-cfdf-43a9-9b3e-4cb20d0afb29",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1842,7 +1842,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "time.com",
+                "server_name": "mihanyas.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1851,9 +1851,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "zC5dRSgRznzVgsc8qyb6NR-KZ0LShVCjU6kWJ2TgdyI",
-                    "short_id": "55e25a2b"
+                    "public_key": "bl_WgZJU4-XnjnZ1HWu6tAWaz8rvdgy2pGmaFpOgcQ0",
+                    "short_id": "0960546b"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@configMs",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

@@ -205,6 +205,7 @@
                 "🇩🇪DE | vless | @flyv2ray | 13",
                 "🇫🇮FI | vless | @flyv2ray | 14",
                 "🇩🇪DE | vless | @flyv2ray | 15",
+                "🇹🇷TR | vless | @forwardv2ray | 5",
                 "🇩🇪DE | vless | @mehrosaboran | 5",
                 "🇸🇪SE | vless | @kiava | 0",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -224,16 +225,16 @@
                 "🇳🇱NL | vless | @nofiltering2 | 7",
                 "🇫🇮FI | vless | @nofiltering2 | 9",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
-                "🇨🇦CA | vless | @vpn_go67 | 10",
-                "🇨🇦CA | vless | @vpn_go67 | 11",
+                "🇺🇸US | vless | @vpn_go67 | 10",
+                "🇺🇸US | vless | @vpn_go67 | 11",
                 "🇺🇸US | vless | @vpn_go67 | 12",
-                "🇨🇦CA | vless | @vpn_go67 | 13",
+                "🇺🇸US | vless | @vpn_go67 | 13",
                 "🇫🇮FI | vless | @vpn_go67 | 14",
                 "🇺🇸US | vless | @vpn_go67 | 15",
-                "🇨🇦CA | vless | @vpn_go67 | 16",
+                "🇺🇸US | vless | @vpn_go67 | 16",
                 "🇫🇮FI | vless | @vpn_go67 | 17",
-                "🇨🇦CA | vless | @vpn_go67 | 18",
-                "🇨🇦CA | vless | @vpn_go67 | 19",
+                "🇺🇸US | vless | @vpn_go67 | 18",
+                "🇺🇸US | vless | @vpn_go67 | 19",
                 "🇺🇸US | vless | @vpn_go67 | 20",
                 "🇺🇸US | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @vpn_go67 | 22",
@@ -354,6 +355,7 @@
                 "🇩🇪DE | vless | @flyv2ray | 13",
                 "🇫🇮FI | vless | @flyv2ray | 14",
                 "🇩🇪DE | vless | @flyv2ray | 15",
+                "🇹🇷TR | vless | @forwardv2ray | 5",
                 "🇩🇪DE | vless | @mehrosaboran | 5",
                 "🇸🇪SE | vless | @kiava | 0",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -373,16 +375,16 @@
                 "🇳🇱NL | vless | @nofiltering2 | 7",
                 "🇫🇮FI | vless | @nofiltering2 | 9",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
-                "🇨🇦CA | vless | @vpn_go67 | 10",
-                "🇨🇦CA | vless | @vpn_go67 | 11",
+                "🇺🇸US | vless | @vpn_go67 | 10",
+                "🇺🇸US | vless | @vpn_go67 | 11",
                 "🇺🇸US | vless | @vpn_go67 | 12",
-                "🇨🇦CA | vless | @vpn_go67 | 13",
+                "🇺🇸US | vless | @vpn_go67 | 13",
                 "🇫🇮FI | vless | @vpn_go67 | 14",
                 "🇺🇸US | vless | @vpn_go67 | 15",
-                "🇨🇦CA | vless | @vpn_go67 | 16",
+                "🇺🇸US | vless | @vpn_go67 | 16",
                 "🇫🇮FI | vless | @vpn_go67 | 17",
-                "🇨🇦CA | vless | @vpn_go67 | 18",
-                "🇨🇦CA | vless | @vpn_go67 | 19",
+                "🇺🇸US | vless | @vpn_go67 | 18",
+                "🇺🇸US | vless | @vpn_go67 | 19",
                 "🇺🇸US | vless | @vpn_go67 | 20",
                 "🇺🇸US | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @vpn_go67 | 22",
@@ -3788,6 +3790,42 @@
             }
         },
         {
+            "tag": "🇹🇷TR | vless | @forwardv2ray | 5",
+            "type": "vless",
+            "server": "188.132.232.167",
+            "server_port": 58320,
+            "uuid": "a38f9f15-e7cf-44ec-afc6-2a4c0e948dc8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Hwat9kk0rMHVXGG8BOXuMLKVs38aUUkxjEFb2hl_eAY",
+                    "short_id": "e5e3e61e"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "zula.ir"
+                ],
+                "path": "\/"
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "49.13.124.151",
@@ -4360,7 +4398,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 10",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 10",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
@@ -4396,7 +4434,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 11",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 11",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
@@ -4468,7 +4506,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 13",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 13",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
@@ -4576,7 +4614,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 16",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 16",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
@@ -4648,7 +4686,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 18",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 18",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
@@ -4684,7 +4722,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 19",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 19",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,

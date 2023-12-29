@@ -146,13 +146,12 @@
                 "🇨🇦CA | vless | @MsV2ray | 11",
                 "🇨🇷CR | vless | @v2ray1_ng | 8",
                 "🇮🇷IR | vless | @vless_vmess | 6",
-                "🇨🇷CR | vless | @MTConfig | 22",
+                "🇨🇦CA | vless | @MTConfig | 22",
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇳🇱NL | vmess | @DailyV2RY | 14",
                 "🇨🇦CA | vless | @SafeNet_Server | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
@@ -164,7 +163,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -222,13 +221,12 @@
                 "🇨🇦CA | vless | @MsV2ray | 11",
                 "🇨🇷CR | vless | @v2ray1_ng | 8",
                 "🇮🇷IR | vless | @vless_vmess | 6",
-                "🇨🇷CR | vless | @MTConfig | 22",
+                "🇨🇦CA | vless | @MTConfig | 22",
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇳🇱NL | vmess | @DailyV2RY | 14",
                 "🇨🇦CA | vless | @SafeNet_Server | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇨🇷CR | vmess | @Hope_Net | 16",
@@ -240,7 +238,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -1341,7 +1339,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @MTConfig | 22",
+            "tag": "🇨🇦CA | vless | @MTConfig | 22",
             "type": "vless",
             "server": "all.vipxali.cfd",
             "server_port": 2083,
@@ -1495,37 +1493,6 @@
             "password": "mVMNhvDFhFH56a2iFF4ZOPTvkSEPbFXoe3eQ205xHTU=",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "104.31.16.183",
-            "server_port": 443,
-            "uuid": "6e34f2c5-6c71-4010-c292-10d05ef4a9a2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fragment.iraniancp.click",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "fragment.iraniancp.click"
-                }
-            }
         },
         {
             "tag": "🏳️XX | vless | @proxystore11 | 20",
@@ -1861,26 +1828,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "104.27.102.105",
-            "server_port": 8080,
-            "uuid": "Telegram-V2ray_alpha",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "49.13.11.249",
+            "server_port": 443,
+            "uuid": "96bbbba8-eac5-4bf7-916d-52c34ed5117c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "time.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zC5dRSgRznzVgsc8qyb6NR-KZ0LShVCjU6kWJ2TgdyI",
+                    "short_id": "55e25a2b"
                 }
             }
         },

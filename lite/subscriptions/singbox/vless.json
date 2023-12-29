@@ -138,11 +138,10 @@
                 "🇨🇦CA | vless | @MsV2ray | 11",
                 "🇨🇷CR | vless | @v2ray1_ng | 8",
                 "🇮🇷IR | vless | @vless_vmess | 6",
-                "🇨🇷CR | vless | @MTConfig | 22",
+                "🇨🇦CA | vless | @MTConfig | 22",
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @SafeNet_Server | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 35",
@@ -150,6 +149,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -197,11 +197,10 @@
                 "🇨🇦CA | vless | @MsV2ray | 11",
                 "🇨🇷CR | vless | @v2ray1_ng | 8",
                 "🇮🇷IR | vless | @vless_vmess | 6",
-                "🇨🇷CR | vless | @MTConfig | 22",
+                "🇨🇦CA | vless | @MTConfig | 22",
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @SafeNet_Server | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 35",
@@ -209,6 +208,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -1137,7 +1137,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @MTConfig | 22",
+            "tag": "🇨🇦CA | vless | @MTConfig | 22",
             "type": "vless",
             "server": "all.vipxali.cfd",
             "server_port": 2083,
@@ -1255,37 +1255,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "104.31.16.183",
-            "server_port": 443,
-            "uuid": "6e34f2c5-6c71-4010-c292-10d05ef4a9a2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fragment.iraniancp.click",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "fragment.iraniancp.click"
                 }
             }
         },
@@ -1503,6 +1472,35 @@
                 "path": "\/",
                 "headers": {
                     "Host": "cdn.cheshmsabz.top"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "49.13.11.249",
+            "server_port": 443,
+            "uuid": "96bbbba8-eac5-4bf7-916d-52c34ed5117c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "time.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zC5dRSgRznzVgsc8qyb6NR-KZ0LShVCjU6kWJ2TgdyI",
+                    "short_id": "55e25a2b"
                 }
             }
         },

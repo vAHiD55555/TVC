@@ -130,11 +130,11 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 25",
                 "🇸🇪SE | trojan | @PrivateVPNs | 16",
-                "🇩🇪DE | trojan | @DirectVPN | 16",
+                "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
-                "🇩🇪DE | vless | @prrofile_purple | 170",
+                "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇮🇷IR | vmess | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🇨🇦CA | vless | @vmessorg | 79",
@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @MehradLearn | 8",
                 "🇨🇦CA | vless | @SafeNet_Server | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
+                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 21",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -169,7 +169,7 @@
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇨🇦CA | vless | @proxy_mtm | 4",
+                "🇨🇦CA | vless | @proxy_mtm | 12",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 19",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -207,11 +207,11 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 25",
                 "🇸🇪SE | trojan | @PrivateVPNs | 16",
-                "🇩🇪DE | trojan | @DirectVPN | 16",
+                "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
-                "🇩🇪DE | vless | @prrofile_purple | 170",
+                "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇮🇷IR | vmess | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🇨🇦CA | vless | @vmessorg | 79",
@@ -232,7 +232,7 @@
                 "🇨🇦CA | vless | @MehradLearn | 8",
                 "🇨🇦CA | vless | @SafeNet_Server | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
+                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 21",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -246,7 +246,7 @@
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇨🇦CA | vless | @proxy_mtm | 4",
+                "🇨🇦CA | vless | @proxy_mtm | 12",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 19",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -874,9 +874,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 14",
             "type": "vless",
-            "server": "m1002.s25id.buzz",
-            "server_port": 8443,
-            "uuid": "706a9e3e-89a6-4ebe-baba-3f348aa635b1",
+            "server": "file.fontyab.info",
+            "server_port": 443,
+            "uuid": "db9ad0ce-438c-4444-c454-a92692da2e84",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -886,7 +886,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zoro.zerozoro.cfd",
+                "server_name": "fontyab.info",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -896,9 +896,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/sitemap.xml",
                 "headers": {
-                    "Host": "zoro.zerozoro.cfd"
+                    "Host": "fontyab.info"
                 }
             }
         },
@@ -987,9 +987,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 16",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "3.73.246.1",
+            "server": "13.50.58.139",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1077,7 +1077,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @prrofile_purple | 170",
+            "tag": "🇩🇪DE | vless | @prrofile_purple | 179",
             "type": "vless",
             "server": "45.159.219.50",
             "server_port": 80,
@@ -1599,20 +1599,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "All.digiv2ray.shop",
+            "server_port": 2087,
+            "uuid": "8e556711-ac12-4671-b414-f2b9def01b88",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ConneCtion-SpeedV2rayNg.Digiv2ray.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Digiv2ray",
+                "headers": {
+                    "Host": "ConneCtion-SpeedV2rayNg.Digiv2ray.shop"
+                }
             }
         },
         {
@@ -2000,7 +2014,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 4",
+            "tag": "🇨🇦CA | vless | @proxy_mtm | 12",
             "type": "vless",
             "server": "104.21.59.125",
             "server_port": 80,

@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @proxyymeliii | 19",
+                "🇬🇧GB | ss | @proxyymeliii | 20",
                 "🇬🇧GB | ss | @VmessProtocol | 9",
                 "🇰🇷KR | ss | @VmessProtocol | 10",
                 "🇹🇼TW | ss | @VmessProtocol | 11",
@@ -125,7 +125,10 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇬🇧GB | ss | @forwardv2ray | 16",
+                "🇭🇰HK | ss | @forwardv2ray | 0",
+                "🇳🇱NL | ss | @forwardv2ray | 1",
+                "🇮🇸IS | ss | @forwardv2ray | 2",
+                "🇩🇪DE | ss | @forwardv2ray | 3",
                 "🇬🇧GB | ss | @FAKEOFTVC | 1",
                 "🇸🇪SE | ss | @FAKEOFTVC | 4",
                 "🇬🇧GB | ss | @kingofilter | 8",
@@ -136,7 +139,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @proxyymeliii | 19",
+                "🇬🇧GB | ss | @proxyymeliii | 20",
                 "🇬🇧GB | ss | @VmessProtocol | 9",
                 "🇰🇷KR | ss | @VmessProtocol | 10",
                 "🇹🇼TW | ss | @VmessProtocol | 11",
@@ -155,7 +158,10 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇬🇧GB | ss | @forwardv2ray | 16",
+                "🇭🇰HK | ss | @forwardv2ray | 0",
+                "🇳🇱NL | ss | @forwardv2ray | 1",
+                "🇮🇸IS | ss | @forwardv2ray | 2",
+                "🇩🇪DE | ss | @forwardv2ray | 3",
                 "🇬🇧GB | ss | @FAKEOFTVC | 1",
                 "🇸🇪SE | ss | @FAKEOFTVC | 4",
                 "🇬🇧GB | ss | @kingofilter | 8",
@@ -182,7 +188,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @proxyymeliii | 19",
+            "tag": "🇬🇧GB | ss | @proxyymeliii | 20",
             "type": "shadowsocks",
             "server": "series-a2.samanehha.co",
             "server_port": 443,
@@ -372,12 +378,42 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 16",
+            "tag": "🇭🇰HK | ss | @forwardv2ray | 0",
             "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
+            "server": "8.210.231.146",
+            "server_port": 1146,
+            "method": "aes-256-gcm",
+            "password": "jmtgsmW40R",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | ss | @forwardv2ray | 1",
+            "type": "shadowsocks",
+            "server": "89.19.216.18",
+            "server_port": 8388,
             "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
+            "password": "NC7jORVNrruV\/+3+PwOJrnnOeG7n75X1",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇮🇸IS | ss | @forwardv2ray | 2",
+            "type": "shadowsocks",
+            "server": "is1.ssproxy.xyz",
+            "server_port": 8388,
+            "method": "chacha20-ietf-poly1305",
+            "password": "OWJlYjYy",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 3",
+            "type": "shadowsocks",
+            "server": "masting.xyz",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "XvK0ltH67Xhv9ht9RhYsFy",
             "plugin": "",
             "plugin_opts": ""
         },

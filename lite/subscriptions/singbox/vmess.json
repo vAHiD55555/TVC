@@ -115,8 +115,7 @@
                 "🇬🇧GB | vmess | @Hope_Net | 12",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
-                "🇳🇱NL | vmess | @eliya_chiter0 | 0"
+                "🇺🇸US | vmess | @eliya_chiter0 | 0"
             ]
         },
         {
@@ -132,8 +131,7 @@
                 "🇬🇧GB | vmess | @Hope_Net | 12",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
-                "🇳🇱NL | vmess | @eliya_chiter0 | 0"
+                "🇺🇸US | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -374,41 +372,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "gafn.online",
-            "server_port": 443,
-            "uuid": "2B106574-5ABA-45A9-B3B5-D905B18FB7CC",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Kansas.gafn.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Kansas.gafn.online"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | @eliya_chiter0 | 0",
+            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 0",
             "type": "vmess",
             "server": "188.114.96.58",
             "server_port": 443,

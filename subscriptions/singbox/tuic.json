@@ -106,20 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | tuic | @TUICity | 8",
-                "🏳️XX | tuic | @TUICity | 9",
-                "🇺🇸US | tuic | @TUICity | 10",
-                "🇺🇸US | tuic | @TUICity | 19"
+                "🇺🇸US | tuic | @TUICity | 5",
+                "🏳️XX | tuic | @TUICity | 6",
+                "🇺🇸US | tuic | @TUICity | 7"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | tuic | @TUICity | 8",
-                "🏳️XX | tuic | @TUICity | 9",
-                "🇺🇸US | tuic | @TUICity | 10",
-                "🇺🇸US | tuic | @TUICity | 19"
+                "🇺🇸US | tuic | @TUICity | 5",
+                "🏳️XX | tuic | @TUICity | 6",
+                "🇺🇸US | tuic | @TUICity | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,7 +140,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | tuic | @TUICity | 8",
+            "tag": "🇺🇸US | tuic | @TUICity | 5",
             "type": "tuic",
             "server": "64.110.25.10",
             "server_port": 11227,
@@ -165,7 +163,7 @@
             }
         },
         {
-            "tag": "🏳️XX | tuic | @TUICity | 9",
+            "tag": "🏳️XX | tuic | @TUICity | 6",
             "type": "tuic",
             "server": "[2602:294:0:f5:1234:4321:dc1e:1]",
             "server_port": 28029,
@@ -188,7 +186,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | tuic | @TUICity | 10",
+            "tag": "🇺🇸US | tuic | @TUICity | 7",
             "type": "tuic",
             "server": "108.181.22.239",
             "server_port": 45600,
@@ -203,29 +201,6 @@
                 "enabled": true,
                 "disable_sni": false,
                 "server_name": "www.virustotal.com",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy\/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "🇺🇸US | tuic | @TUICity | 19",
-            "type": "tuic",
-            "server": "108.181.22.155",
-            "server_port": 12255,
-            "uuid": "ed6a538a-6e66-4f21-a769-4b389bb2f3ab",
-            "password": "dongtaiwang",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "zero_rtt_handshake": false,
-            "heartbeat": "10s",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "disable_sni": true,
-                "server_name": "",
                 "insecure": true,
                 "alpn": [
                     "h3",

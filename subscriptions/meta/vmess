@@ -122,7 +122,7 @@ dns:
 proxies:
   - {"name":"🇩🇪DE | vmess | @CUSTOMVPNSERVER | 6","type":"vmess","server":"88.198.93.175","port":"8880","cipher":"auto","uuid":"58531009-b664-445b-b896-7bb9026b744d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @azadi_az_inja_migzare | 6","type":"vmess","server":"2bbiozh7wbc.servecounterstrike.com","port":"2096","cipher":"auto","uuid":"c7ccf81e-2f35-4170-aeb8-f84fb2ec2b29","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@FreeVPNHomes@FreeVPNHomes","headers":{"host":"PAnEl128.MookomeIlz.Homes"}}}
-  - {"name":"🇨🇦CA | vmess | @V2rayCollectorDonate | 3","type":"vmess","server":"cdnjs.com","port":"443","cipher":"none","uuid":"341275fa-eb62-4fcf-a374-5d391403d767","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/connect/de/","headers":{"host":"de.simindl.xyz"}}}
+  - {"name":"🇺🇸US | vmess | @V2rayCollectorDonate | 3","type":"vmess","server":"cdnjs.com","port":"443","cipher":"none","uuid":"341275fa-eb62-4fcf-a374-5d391403d767","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/connect/de/","headers":{"host":"de.simindl.xyz"}}}
   - {"name":"🇮🇷IR | vmess | @V2rayCollectorDonate | 4","type":"vmess","server":"46.245.92.89","port":"80","cipher":"none","uuid":"341275fa-eb62-4fcf-a374-5d391403d767","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/connect/de/","headers":{"host":""}}}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 4","type":"vmess","server":"112.28.208.10","port":"46602","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -175,7 +175,7 @@ proxies:
   - {"name":"🇺🇸US | vmess | @v2Line | 9","type":"vmess","server":"v2line.telegram.channel.1371.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"443","cipher":"auto","uuid":"540bfb2c-2b26-4154-b5be-55d08bf40add","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":""}}}
   - {"name":"🇳🇱NL | vmess | @nofiltering2 | 5","type":"vmess","server":"kom645yj.sbs","port":"35189","cipher":"auto","uuid":"52ef45f6-88b1-48ea-8e44-69814e11e6e4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇬🇧GB | vmess | @kingofilter | 13","type":"vmess","server":"51.75.162.199","port":"61570","cipher":"auto","uuid":"e6aab1e0-ede0-47c3-b01c-f34a498db838","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | @FoXrayIran | 1","type":"vmess","server":"tl.iranray.online","port":"8080","cipher":"auto","uuid":"b3c20911-126d-4c30-bd32-10152bf0b593","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tl.iranray.online"}}}
+  - {"name":"🇺🇸US | vmess | @FoXrayIran | 1","type":"vmess","server":"tl.iranray.online","port":"8080","cipher":"auto","uuid":"b3c20911-126d-4c30-bd32-10152bf0b593","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tl.iranray.online"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -184,7 +184,7 @@ proxy-groups:
       - FALLBACK
       - '🇩🇪DE | vmess | @CUSTOMVPNSERVER | 6'
       - '🇺🇸US | vmess | @azadi_az_inja_migzare | 6'
-      - '🇨🇦CA | vmess | @V2rayCollectorDonate | 3'
+      - '🇺🇸US | vmess | @V2rayCollectorDonate | 3'
       - '🇮🇷IR | vmess | @V2rayCollectorDonate | 4'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 4'
@@ -237,7 +237,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @v2Line | 9'
       - '🇳🇱NL | vmess | @nofiltering2 | 5'
       - '🇬🇧GB | vmess | @kingofilter | 13'
-      - '🇨🇦CA | vmess | @FoXrayIran | 1'
+      - '🇺🇸US | vmess | @FoXrayIran | 1'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -246,7 +246,7 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | vmess | @CUSTOMVPNSERVER | 6'
       - '🇺🇸US | vmess | @azadi_az_inja_migzare | 6'
-      - '🇨🇦CA | vmess | @V2rayCollectorDonate | 3'
+      - '🇺🇸US | vmess | @V2rayCollectorDonate | 3'
       - '🇮🇷IR | vmess | @V2rayCollectorDonate | 4'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 4'
@@ -299,7 +299,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @v2Line | 9'
       - '🇳🇱NL | vmess | @nofiltering2 | 5'
       - '🇬🇧GB | vmess | @kingofilter | 13'
-      - '🇨🇦CA | vmess | @FoXrayIran | 1'
+      - '🇺🇸US | vmess | @FoXrayIran | 1'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -307,7 +307,7 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | vmess | @CUSTOMVPNSERVER | 6'
       - '🇺🇸US | vmess | @azadi_az_inja_migzare | 6'
-      - '🇨🇦CA | vmess | @V2rayCollectorDonate | 3'
+      - '🇺🇸US | vmess | @V2rayCollectorDonate | 3'
       - '🇮🇷IR | vmess | @V2rayCollectorDonate | 4'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 4'
@@ -360,7 +360,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @v2Line | 9'
       - '🇳🇱NL | vmess | @nofiltering2 | 5'
       - '🇬🇧GB | vmess | @kingofilter | 13'
-      - '🇨🇦CA | vmess | @FoXrayIran | 1'
+      - '🇺🇸US | vmess | @FoXrayIran | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

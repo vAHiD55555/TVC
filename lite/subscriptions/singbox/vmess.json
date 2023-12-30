@@ -114,8 +114,6 @@
                 "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇯🇵JP | vmess | @forwardv2ray | 19",
-                "🇬🇧GB | vmess | @kingofilter | 14",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ]
         },
@@ -131,8 +129,6 @@
                 "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇯🇵JP | vmess | @forwardv2ray | 19",
-                "🇬🇧GB | vmess | @kingofilter | 14",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -361,47 +357,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "jpd.kalaa.online",
-            "server_port": 80,
-            "uuid": "1c546e40-3d23-48d0-98e6-c8c81b1f3501",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vmess | @kingofilter | 14",
-            "type": "vmess",
-            "server": "51.75.162.199",
-            "server_port": 61570,
-            "uuid": "e6aab1e0-ede0-47c3-b01c-f34a498db838",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {

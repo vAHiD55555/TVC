@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇸🇪SE | vless | @reality_daily | 2",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
-                "🇮🇷IR | vless | @frev2ray | 12",
+                "🇨🇦CA | vless | @frev2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇹🇷TR | vless | @V2rayCollector | 2",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 11",
@@ -129,7 +129,7 @@
             "outbounds": [
                 "🇸🇪SE | vless | @reality_daily | 2",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
-                "🇮🇷IR | vless | @frev2ray | 12",
+                "🇨🇦CA | vless | @frev2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇹🇷TR | vless | @V2rayCollector | 2",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 11",
@@ -229,11 +229,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @frev2ray | 12",
+            "tag": "🇨🇦CA | vless | @frev2ray | 11",
             "type": "vless",
-            "server": "62.60.177.179",
-            "server_port": 2020,
-            "uuid": "cda86f8b-d3bd-45e6-b279-6b241f09cfed",
+            "server": "v20.cuvr.cfd",
+            "server_port": 2053,
+            "uuid": "df1d3c00-3e59-4516-9c91-60257bb1722d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -252,13 +252,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "thaFSP55Pa_N2AQsFtau01qbBZ0jQpLMJuaSYWt8XVk",
-                    "short_id": "0981d2"
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@Frev2ray,@Frev2ray,@Frev2ray@Frev2ray,@Frev2ray,@Frev2ray,@Frev2ray,@Frev2ray,@Frev2ray,@Frev2ray",
+                "service_name": "xyz",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

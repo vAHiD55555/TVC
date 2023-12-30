@@ -142,11 +142,12 @@
                 "🇨🇦CA | vless | @MsV2ray | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 0",
                 "🇮🇷IR | vless | @vless_vmess | 6",
-                "🇨🇷CR | vless | @MTConfig | 22",
+                "🇨🇦CA | vless | @MTConfig | 22",
                 "🇳🇱NL | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @MehradLearn | 8",
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 19",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -156,9 +157,9 @@
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇨🇦CA | vless | @proxy_mtm | 12",
-                "🇺🇸US | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 19",
+                "🇺🇸US | vless | @proxy_mtm | 12",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @kingofilter | 19",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -204,11 +205,12 @@
                 "🇨🇦CA | vless | @MsV2ray | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 0",
                 "🇮🇷IR | vless | @vless_vmess | 6",
-                "🇨🇷CR | vless | @MTConfig | 22",
+                "🇨🇦CA | vless | @MTConfig | 22",
                 "🇳🇱NL | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @MehradLearn | 8",
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 19",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -218,9 +220,9 @@
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
                 "🇸🇪SE | vless | @kiava | 14",
-                "🇨🇦CA | vless | @proxy_mtm | 12",
-                "🇺🇸US | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 19",
+                "🇺🇸US | vless | @proxy_mtm | 12",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @kingofilter | 19",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -1262,7 +1264,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @MTConfig | 22",
+            "tag": "🇨🇦CA | vless | @MTConfig | 22",
             "type": "vless",
             "server": "all.vipxali.cfd",
             "server_port": 2083,
@@ -1413,6 +1415,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "tapsell.ir",
+            "server_port": 443,
+            "uuid": "5f79aea6-2606-498d-cce3-2af4c7f9c52f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "workflow-joseph-exceptions-sleeve.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "workflow-joseph-exceptions-sleeve.trycloudflare.com"
                 }
             }
         },
@@ -1714,7 +1747,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 12",
+            "tag": "🇺🇸US | vless | @proxy_mtm | 12",
             "type": "vless",
             "server": "104.21.59.125",
             "server_port": 80,
@@ -1735,7 +1768,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 23",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
@@ -1771,7 +1804,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @kingofilter | 19",
+            "tag": "🇺🇸US | vless | @kingofilter | 19",
             "type": "vless",
             "server": "ejoin-to.outline-vpn.cloud",
             "server_port": 443,

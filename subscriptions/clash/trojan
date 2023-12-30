@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇨🇦CA | trojan | @V2rayCollectorDonate | 14","type":"trojan","server":"ironone.libertasiran.cloud","port":443,"udp":false,"password":"Libertasone","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ironone.libertasiran.cloud"}
+  - {"name":"🇨🇦CA | trojan | @V2rayCollectorDonate | 16","type":"trojan","server":"ironone.libertasiran.cloud","port":443,"udp":false,"password":"Libertasone","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ironone.libertasiran.cloud"}
   - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 2","type":"trojan","server":"3.78.195.135","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 3","type":"trojan","server":"16.16.223.135","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 4","type":"trojan","server":"13.50.66.97","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
@@ -150,9 +150,8 @@ proxies:
   - {"name":"🇩🇪DE | trojan | @DirectVPN | 15","type":"trojan","server":"3.77.69.109","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"51.21.119.53","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇮🇪IE | trojan | @V2RayTz | 8","type":"trojan","server":"63.34.55.199","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
-  - {"name":"🇺🇸US | trojan | @VmessProtocol | 14","type":"trojan","server":"tgju.org","port":443,"udp":false,"password":"e240a3b5-5bb3-4400-ae61-03fadfa6be45","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"allahi.qurani.shop"}
-  - {"name":"🇫🇷FR | trojan | @ConfigsHUB | 15","type":"trojan","server":"13.38.173.50","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
-  - {"name":"🇺🇸US | trojan | @ConfigsHUB | 17","type":"trojan","server":"52.27.102.223","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇨🇦CA | trojan | @VmessProtocol | 14","type":"trojan","server":"tgju.org","port":443,"udp":false,"password":"e240a3b5-5bb3-4400-ae61-03fadfa6be45","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"allahi.qurani.shop"}
+  - {"name":"🇫🇷FR | trojan | @ConfigsHUB | 10","type":"trojan","server":"13.38.173.50","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇩🇪DE | trojan | @yaney_01 | 4","type":"trojan","server":"www.casperco.online","port":993,"udp":false,"password":"74811f39-8f69-4334-9e0f-a8a25d7413c1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇯🇵JP | trojan | @kingofilter | 13","type":"trojan","server":"54.168.244.142","port":3306,"udp":false,"password":"d07a02a06191c99f","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"n2.gladns.com"}
 proxy-groups:
@@ -161,7 +160,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 14'
+      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 16'
       - '🇩🇪DE | trojan | @PrivateVPNs | 2'
       - '🇸🇪SE | trojan | @PrivateVPNs | 3'
       - '🇸🇪SE | trojan | @PrivateVPNs | 4'
@@ -193,9 +192,8 @@ proxy-groups:
       - '🇩🇪DE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇮🇪IE | trojan | @V2RayTz | 8'
-      - '🇺🇸US | trojan | @VmessProtocol | 14'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 15'
-      - '🇺🇸US | trojan | @ConfigsHUB | 17'
+      - '🇨🇦CA | trojan | @VmessProtocol | 14'
+      - '🇫🇷FR | trojan | @ConfigsHUB | 10'
       - '🇩🇪DE | trojan | @yaney_01 | 4'
       - '🇯🇵JP | trojan | @kingofilter | 13'
   - name: URL-TEST
@@ -204,7 +202,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 14'
+      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 16'
       - '🇩🇪DE | trojan | @PrivateVPNs | 2'
       - '🇸🇪SE | trojan | @PrivateVPNs | 3'
       - '🇸🇪SE | trojan | @PrivateVPNs | 4'
@@ -236,9 +234,8 @@ proxy-groups:
       - '🇩🇪DE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇮🇪IE | trojan | @V2RayTz | 8'
-      - '🇺🇸US | trojan | @VmessProtocol | 14'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 15'
-      - '🇺🇸US | trojan | @ConfigsHUB | 17'
+      - '🇨🇦CA | trojan | @VmessProtocol | 14'
+      - '🇫🇷FR | trojan | @ConfigsHUB | 10'
       - '🇩🇪DE | trojan | @yaney_01 | 4'
       - '🇯🇵JP | trojan | @kingofilter | 13'
   - name: FALLBACK
@@ -246,7 +243,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 14'
+      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 16'
       - '🇩🇪DE | trojan | @PrivateVPNs | 2'
       - '🇸🇪SE | trojan | @PrivateVPNs | 3'
       - '🇸🇪SE | trojan | @PrivateVPNs | 4'
@@ -278,9 +275,8 @@ proxy-groups:
       - '🇩🇪DE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇮🇪IE | trojan | @V2RayTz | 8'
-      - '🇺🇸US | trojan | @VmessProtocol | 14'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 15'
-      - '🇺🇸US | trojan | @ConfigsHUB | 17'
+      - '🇨🇦CA | trojan | @VmessProtocol | 14'
+      - '🇫🇷FR | trojan | @ConfigsHUB | 10'
       - '🇩🇪DE | trojan | @yaney_01 | 4'
       - '🇯🇵JP | trojan | @kingofilter | 13'
 rules:

@@ -116,6 +116,7 @@
                 "🇨🇦CA | vless | @V2pedia | 8",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇦CA | vless | @ARv2ray | 12",
+                "🇨🇷CR | vless | @shh_proxy | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 17",
                 "🇳🇱NL | vless | @free_v2rayyy | 12",
@@ -146,7 +147,7 @@
                 "🇨🇦CA | vless | @MehradLearn | 9",
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🏳️XX | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 10",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇺🇸US | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -156,7 +157,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇩🇪DE | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 15",
@@ -182,6 +183,7 @@
                 "🇨🇦CA | vless | @V2pedia | 8",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇦CA | vless | @ARv2ray | 12",
+                "🇨🇷CR | vless | @shh_proxy | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 17",
                 "🇳🇱NL | vless | @free_v2rayyy | 12",
@@ -212,7 +214,7 @@
                 "🇨🇦CA | vless | @MehradLearn | 9",
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🏳️XX | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 10",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇺🇸US | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -222,7 +224,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇩🇪DE | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 15",
@@ -571,6 +573,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @shh_proxy | 19",
+            "type": "vless",
+            "server": "V2ray.motorcycles",
+            "server_port": 2087,
+            "uuid": "02d4b3b9-0675-4ef3-900a-4f96c23efbdc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "FreeV2rayng.SHHPROXY.monster",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "FreeV2rayng.SHHPROXY.monster"
+                }
             }
         },
         {
@@ -1270,8 +1303,8 @@
             "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "190.93.246.225",
-            "server_port": 2087,
-            "uuid": "eddf0ad9-c45d-4ad8-a534-4fdaddde1d2c",
+            "server_port": 2083,
+            "uuid": "fe4a548f-a43f-4e34-919b-ce3113eb6267",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1281,7 +1314,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "FreeV2rayng.SHHPROXY.monster",
+                "server_name": "Liv2ray.p-lightning6.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1290,11 +1323,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "FreeV2rayng.SHHPROXY.monster"
-                }
+                "type": "grpc",
+                "service_name": "@LIGHTNING6",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1446,11 +1479,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "join-----telegram-----channel.U_CONFINGVPN.cloud",
-            "server_port": 2087,
-            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+            "server": "104.31.16.242",
+            "server_port": 443,
+            "uuid": "6c380b0b-4b4a-48ac-9da6-5fc846442526",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1460,7 +1493,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+                "server_name": "bolbolvpn-join-us-8.rising-from-ashes.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1470,9 +1503,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/https:\/\/www.udomain.hk\/sc\/customer\/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..&_ga=2.87081816.1167400509.1694209387-1102153160.1692921556",
+                "path": "\/",
                 "headers": {
-                    "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
+                    "Host": "bolbolvpn-join-us-8.rising-from-ashes.sbs"
                 }
             }
         },
@@ -1774,11 +1807,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "V2ray.motorcycles",
-            "server_port": 2087,
-            "uuid": "35dd52da-3bc7-4b00-9a7f-10e77015ba81",
+            "server": "res.cloudinary.com",
+            "server_port": 443,
+            "uuid": "63ef5e7f-5e66-4c34-b6f2-77f22dfe271a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1788,7 +1821,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "FreeV2rayng.SHHPROXY.monster",
+                "server_name": "a7abd90-9e7c-11ee-863a-ca024a986c8000.baloti9900best.shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1798,9 +1831,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/LmPUHQNgZ2EE6o93kz6lPmUTCwx77",
                 "headers": {
-                    "Host": "FreeV2rayng.SHHPROXY.monster"
+                    "Host": "a7abd90-9e7c-11ee-863a-ca024a986c8000.baloti9900best.shop"
                 }
             }
         },

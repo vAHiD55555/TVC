@@ -114,7 +114,7 @@
                 "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇯🇵JP | vmess | @forwardv2ray | 19",
                 "🇬🇧GB | vmess | @kingofilter | 14",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ]
@@ -131,7 +131,7 @@
                 "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇯🇵JP | vmess | @forwardv2ray | 19",
                 "🇬🇧GB | vmess | @kingofilter | 14",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ],
@@ -364,11 +364,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 17",
+            "tag": "🇯🇵JP | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "jpd.kalaa.online",
+            "server_port": 80,
+            "uuid": "1c546e40-3d23-48d0-98e6-c8c81b1f3501",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -378,6 +378,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {

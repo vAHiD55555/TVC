@@ -111,10 +111,10 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇮🇷IR | vmess | @customv2ray | 13",
                 "🏳️XX | vmess | @yaney_01 | 10",
-                "🇨🇳CN | vmess | @Hope_Net | 8",
+                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇬🇧GB | vmess | @kingofilter | 14",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ]
         },
@@ -127,10 +127,10 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇮🇷IR | vmess | @customv2ray | 13",
                 "🏳️XX | vmess | @yaney_01 | 10",
-                "🇨🇳CN | vmess | @Hope_Net | 8",
+                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇬🇧GB | vmess | @kingofilter | 14",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -270,13 +270,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 8",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "112.28.208.10",
-            "server_port": 45055,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "sg3-full.privateip.net",
+            "server_port": 443,
+            "uuid": "c363eba3-5c64-4843-b71c-3a0bd227944b",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -284,6 +284,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sg3-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": "sg3-full.privateip.net"
+                }
             }
         },
         {
@@ -345,11 +362,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "tag": "🇬🇧GB | vmess | @kingofilter | 14",
             "type": "vmess",
-            "server": "tel.lepingshop.top",
-            "server_port": 2096,
-            "uuid": "f326ca1d-ae09-4dac-d7bf-076486b21e63",
+            "server": "51.75.162.199",
+            "server_port": 61570,
+            "uuid": "e6aab1e0-ede0-47c3-b01c-f34a498db838",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -359,23 +376,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telma4.lepingshop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@telmavpn--@lepingshop",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

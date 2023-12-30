@@ -107,9 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇹🇼TW | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 12",
+                "🇺🇸US | vmess | @mftizi | 18",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @customv2ray | 13",
+                "🇩🇪DE | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -123,9 +124,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇹🇼TW | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 12",
+                "🇺🇸US | vmess | @mftizi | 18",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @customv2ray | 13",
+                "🇩🇪DE | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -171,11 +173,11 @@
             }
         },
         {
-            "tag": "🇹🇼TW | vmess | @mftizi | 18",
+            "tag": "🇺🇸US | vmess | @mftizi | 18",
             "type": "vmess",
-            "server": "b24.ntbq.dynu.net",
-            "server_port": 443,
-            "uuid": "b0912b17-b2d2-4c53-9d53-710f6c88251a",
+            "server": "103.35.188.226",
+            "server_port": 80,
+            "uuid": "098e7cdd-03b4-435d-8c41-ea608fa637c2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -186,30 +188,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/b24",
+                "path": "\/vmess",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 12",
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "45.77.52.194",
-            "server_port": 39159,
-            "uuid": "12bfd84f-6654-4cc3-816b-a9fa93daec05",
+            "server": "165.227.143.205",
+            "server_port": 37706,
+            "uuid": "8a7255c3-9448-4521-db42-39f9f6593fb9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -227,6 +219,23 @@
             "server": "ac-milan.myblackboy.online",
             "server_port": 21291,
             "uuid": "f48a948a-035c-428a-8bcc-9416850c2551",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "165.227.143.205",
+            "server_port": 18942,
+            "uuid": "226731fe-50cf-4b7e-8350-b4533cc3c138",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,

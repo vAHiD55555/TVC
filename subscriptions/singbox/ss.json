@@ -106,8 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @VmessProtocol | 13",
-                "🇬🇧GB | ss | @VmessProtocol | 16",
+                "🇬🇧GB | ss | @VmessProtocol | 15",
                 "🇬🇧GB | ss | @VmessProtocol | 18",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 5",
@@ -124,7 +123,8 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇬🇧GB | ss | @forwardv2ray | 8",
+                "🇬🇧GB | ss | @kingofilter | 2",
+                "🇬🇧GB | ss | @kingofilter | 12",
                 "🇩🇪DE | ss | @kingofilter | 13"
             ]
         },
@@ -132,8 +132,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @VmessProtocol | 13",
-                "🇬🇧GB | ss | @VmessProtocol | 16",
+                "🇬🇧GB | ss | @VmessProtocol | 15",
                 "🇬🇧GB | ss | @VmessProtocol | 18",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 5",
@@ -150,7 +149,8 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇬🇧GB | ss | @forwardv2ray | 8",
+                "🇬🇧GB | ss | @kingofilter | 2",
+                "🇬🇧GB | ss | @kingofilter | 12",
                 "🇩🇪DE | ss | @kingofilter | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -174,7 +174,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @VmessProtocol | 13",
+            "tag": "🇬🇧GB | ss | @VmessProtocol | 15",
             "type": "shadowsocks",
             "server": "series-a2.samanehha.co",
             "server_port": 443,
@@ -184,22 +184,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @VmessProtocol | 16",
+            "tag": "🇬🇧GB | ss | @VmessProtocol | 18",
             "type": "shadowsocks",
             "server": "uk1.ssproxy.xyz",
             "server_port": 8388,
             "method": "chacha20-ietf-poly1305",
             "password": "NjJkZmYw",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @VmessProtocol | 18",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -354,7 +344,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 8",
+            "tag": "🇬🇧GB | ss | @kingofilter | 2",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @kingofilter | 12",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
             "server_port": 443,

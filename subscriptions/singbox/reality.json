@@ -174,6 +174,7 @@
                 "🇮🇷IR | vless | @DailyV2RY | 62",
                 "🇮🇷IR | vless | @DailyV2RY | 63",
                 "🇮🇷IR | vless | @DailyV2RY | 67",
+                "🇸🇪SE | vless | @SafeNet_Server | 0",
                 "🇳🇱NL | vless | @fnet00 | 0",
                 "🇩🇪DE | vless | @fnet00 | 3",
                 "🏳️XX | vless | @fnet00 | 5",
@@ -222,16 +223,16 @@
                 "🇫🇮FI | vless | @vpn_go67 | 9",
                 "🇺🇸US | vless | @vpn_go67 | 10",
                 "🇺🇸US | vless | @vpn_go67 | 11",
-                "🇺🇸US | vless | @vpn_go67 | 12",
-                "🇺🇸US | vless | @vpn_go67 | 13",
+                "🇨🇦CA | vless | @vpn_go67 | 12",
+                "🇨🇦CA | vless | @vpn_go67 | 13",
                 "🇫🇮FI | vless | @vpn_go67 | 14",
-                "🇨🇦CA | vless | @vpn_go67 | 15",
+                "🇺🇸US | vless | @vpn_go67 | 15",
                 "🇺🇸US | vless | @vpn_go67 | 16",
                 "🇫🇮FI | vless | @vpn_go67 | 17",
                 "🇺🇸US | vless | @vpn_go67 | 18",
                 "🇺🇸US | vless | @vpn_go67 | 19",
                 "🇺🇸US | vless | @vpn_go67 | 20",
-                "🇨🇦CA | vless | @vpn_go67 | 21",
+                "🇺🇸US | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @vpn_go67 | 22",
                 "🇺🇸US | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 15",
@@ -318,6 +319,7 @@
                 "🇮🇷IR | vless | @DailyV2RY | 62",
                 "🇮🇷IR | vless | @DailyV2RY | 63",
                 "🇮🇷IR | vless | @DailyV2RY | 67",
+                "🇸🇪SE | vless | @SafeNet_Server | 0",
                 "🇳🇱NL | vless | @fnet00 | 0",
                 "🇩🇪DE | vless | @fnet00 | 3",
                 "🏳️XX | vless | @fnet00 | 5",
@@ -366,16 +368,16 @@
                 "🇫🇮FI | vless | @vpn_go67 | 9",
                 "🇺🇸US | vless | @vpn_go67 | 10",
                 "🇺🇸US | vless | @vpn_go67 | 11",
-                "🇺🇸US | vless | @vpn_go67 | 12",
-                "🇺🇸US | vless | @vpn_go67 | 13",
+                "🇨🇦CA | vless | @vpn_go67 | 12",
+                "🇨🇦CA | vless | @vpn_go67 | 13",
                 "🇫🇮FI | vless | @vpn_go67 | 14",
-                "🇨🇦CA | vless | @vpn_go67 | 15",
+                "🇺🇸US | vless | @vpn_go67 | 15",
                 "🇺🇸US | vless | @vpn_go67 | 16",
                 "🇫🇮FI | vless | @vpn_go67 | 17",
                 "🇺🇸US | vless | @vpn_go67 | 18",
                 "🇺🇸US | vless | @vpn_go67 | 19",
                 "🇺🇸US | vless | @vpn_go67 | 20",
-                "🇨🇦CA | vless | @vpn_go67 | 21",
+                "🇺🇸US | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @vpn_go67 | 22",
                 "🇺🇸US | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @kingofilter | 15",
@@ -2599,6 +2601,35 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @SafeNet_Server | 0",
+            "type": "vless",
+            "server": "16.16.220.210",
+            "server_port": 3074,
+            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "coinmarketcap.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yUroPWIXzHA8vQg4cC7kEZqwA-JOW3uA0Xlhi0uRmTQ",
+                    "short_id": "fe"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | vless | @fnet00 | 0",
             "type": "vless",
             "server": "85.192.40.92",
@@ -4180,7 +4211,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 12",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 12",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
@@ -4216,7 +4247,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 13",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 13",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,
@@ -4288,7 +4319,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 15",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 15",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
@@ -4504,7 +4535,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_go67 | 21",
+            "tag": "🇺🇸US | vless | @vpn_go67 | 21",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,

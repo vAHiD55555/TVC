@@ -144,8 +144,8 @@
                 "🇨🇷CR | vless | @V2RayTz | 15",
                 "🇸🇪SE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
-                "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 13",
+                "🇺🇸US | vless | @lrnbymaa | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -157,7 +157,7 @@
                 "🇨🇷CR | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇨🇦CA | vless | @proxy_mtm | 20",
-                "🇺🇸US | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 17",
                 "🏳️XX | vless | @GozargahVPN | 16",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -207,8 +207,8 @@
                 "🇨🇷CR | vless | @V2RayTz | 15",
                 "🇸🇪SE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
-                "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 13",
+                "🇺🇸US | vless | @lrnbymaa | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -220,7 +220,7 @@
                 "🇨🇷CR | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇨🇦CA | vless | @proxy_mtm | 20",
-                "🇺🇸US | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 17",
                 "🏳️XX | vless | @GozargahVPN | 16",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -1363,7 +1363,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 8",
+            "tag": "🇺🇸US | vless | @lrnbymaa | 8",
             "type": "vless",
             "server": "104.24.255.191",
             "server_port": 2052,
@@ -1384,11 +1384,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 13",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "ip1.naylon.top",
-            "server_port": 443,
-            "uuid": "83fcfaa8-923e-4c73-a62f-e575408e1312",
+            "server": "104.18.202.209",
+            "server_port": 2087,
+            "uuid": "22bcd819-ffa8-4d93-8d3c-b53334ddffaa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1398,7 +1398,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bbbb.dating-game-single.buzz",
+                "server_name": "tm.NaderShah.fun",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1407,11 +1407,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "bbbb.dating-game-single.buzz"
-                }
+                "type": "grpc",
+                "service_name": "@V2rayZs",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1769,7 +1769,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 23",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,

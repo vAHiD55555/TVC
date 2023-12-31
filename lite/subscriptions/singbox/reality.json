@@ -109,8 +109,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇮🇷IR | vless | @frev2ray | 12",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | vless | @V2RayTz | 16",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
+                "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @VmessProtocol | 19",
                 "🇮🇷IR | vless | @DailyV2RY | 61",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -130,8 +130,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇮🇷IR | vless | @frev2ray | 12",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | vless | @V2RayTz | 16",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
+                "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @VmessProtocol | 19",
                 "🇮🇷IR | vless | @DailyV2RY | 61",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -272,7 +272,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 9",
+            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
             "type": "vless",
             "server": "13.53.245.225",
             "server_port": 3074,
@@ -301,11 +301,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 16",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 17",
             "type": "vless",
-            "server": "49.12.114.141",
-            "server_port": 2053,
-            "uuid": "d8265da8-d5cd-45de-a93e-7fc993eb0c5d",
+            "server": "13.48.47.246",
+            "server_port": 3074,
+            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -315,25 +315,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "account.zula.ir",
+                "server_name": "coinmarketcap.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "GHHs_iVXqtoPvNNKYbFKB6RjZ_leRvhOzc8tNXSAdxg",
-                    "short_id": "14ae156a"
+                    "public_key": "f2oD6xgRje7Pc7HvyKIwYmfbt7_k-WEqCQM5sNb89wk",
+                    "short_id": "fe"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@mainV2ray,@mainV2ray,@mainV2ray,@mainV2ray,@mainV2ray,@mainV2ray,@mainV2ray,@mainV2ray,@mainV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

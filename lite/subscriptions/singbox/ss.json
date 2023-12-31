@@ -107,7 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧GB | ss | @VmessProtocol | 18",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 18"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 18",
+                "🇩🇪DE | ss | @kingofilter | 13"
             ]
         },
         {
@@ -115,7 +116,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧GB | ss | @VmessProtocol | 18",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 18"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 18",
+                "🇩🇪DE | ss | @kingofilter | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,10 +142,10 @@
         {
             "tag": "🇬🇧GB | ss | @VmessProtocol | 18",
             "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
+            "server": "uk1.ssproxy.xyz",
+            "server_port": 8388,
             "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
+            "password": "NjJkZmYw",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -154,6 +156,16 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "5O+1vuAy1jMIm3H3olcLL53lZy\/9akX8UvaItv6ls2M=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | @kingofilter | 13",
+            "type": "shadowsocks",
+            "server": "passconf.xyz",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qGjmI8WQlF0tfhDbkLqGdN",
             "plugin": "",
             "plugin_opts": ""
         }

@@ -119,14 +119,13 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇳🇱NL | vless | @free_v2rayyy | 12",
-                "🇨🇷CR | vless | @lightning6 | 18",
+                "🇺🇸US | vless | @lightning6 | 18",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 14",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 16",
                 "🇩🇪DE | vless | @V2raysFree | 15",
                 "🇨🇦CA | vless | @v2logy | 20",
                 "🇨🇦CA | vless | @servermomo | 12",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 0",
                 "🇨🇷CR | vless | @V2rayNGn | 25",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
@@ -147,6 +146,7 @@
                 "🇮🇷IR | vless | @DailyV2RY | 67",
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇮🇷IR | vless | @lrnbymaa | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -183,14 +183,13 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇳🇱NL | vless | @free_v2rayyy | 12",
-                "🇨🇷CR | vless | @lightning6 | 18",
+                "🇺🇸US | vless | @lightning6 | 18",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 14",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 16",
                 "🇩🇪DE | vless | @V2raysFree | 15",
                 "🇨🇦CA | vless | @v2logy | 20",
                 "🇨🇦CA | vless | @servermomo | 12",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 0",
                 "🇨🇷CR | vless | @V2rayNGn | 25",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
@@ -211,6 +210,7 @@
                 "🇮🇷IR | vless | @DailyV2RY | 67",
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇮🇷IR | vless | @lrnbymaa | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -653,7 +653,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 18",
+            "tag": "🇺🇸US | vless | @lightning6 | 18",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.mamd.sbs",
             "server_port": 2083,
@@ -844,27 +844,6 @@
                 "path": "\/Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-",
                 "headers": {
                     "Host": "hjfykfikfikki.mic-mokhaderat-irancel-raitel-hamrahman-mic.shop"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "172.67.229.179",
-            "server_port": 2052,
-            "uuid": "cf37227e-d438-4292-8d43-56413fb5d8f1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.229.179"
                 }
             }
         },
@@ -1426,6 +1405,37 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "chnaihe.ac.ir",
+            "server_port": 8443,
+            "uuid": "c8ae8d61-3212-4811-8d46-60e6ab5fd67e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mama.config-rayegan-nufilter.space",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "mama.config-rayegan-nufilter.space"
+                }
             }
         },
         {

@@ -110,7 +110,9 @@
                 "🇮🇷IR | vless | @frev2ray | 12",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 9",
+                "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇸🇪SE | vless | @VmessProtocol | 19",
+                "🇮🇷IR | vless | @DailyV2RY | 61",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇫🇷FR | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
@@ -129,7 +131,9 @@
                 "🇮🇷IR | vless | @frev2ray | 12",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 9",
+                "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇸🇪SE | vless | @VmessProtocol | 19",
+                "🇮🇷IR | vless | @DailyV2RY | 61",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇫🇷FR | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
@@ -297,9 +301,45 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @V2RayTz | 16",
+            "type": "vless",
+            "server": "49.12.114.141",
+            "server_port": 2053,
+            "uuid": "d8265da8-d5cd-45de-a93e-7fc993eb0c5d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "account.zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GHHs_iVXqtoPvNNKYbFKB6RjZ_leRvhOzc8tNXSAdxg",
+                    "short_id": "14ae156a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@mainV2ray,@mainV2ray,@mainV2ray,@mainV2ray,@mainV2ray,@mainV2ray,@mainV2ray,@mainV2ray,@mainV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @VmessProtocol | 19",
             "type": "vless",
-            "server": "16.16.90.96",
+            "server": "16.16.78.19",
             "server_port": 3074,
             "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
             "flow": "xtls-rprx-vision",
@@ -320,9 +360,45 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "HRuup8Jz_5nxotet4uMPpVE21PiOSyzBEmJHuICHN3c",
+                    "public_key": "t0esCqMwItjj_PCFeQNJuPbKFK50PbTp2ODY5IYqEg0",
                     "short_id": "fe"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @DailyV2RY | 61",
+            "type": "vless",
+            "server": "89.45.51.168",
+            "server_port": 8443,
+            "uuid": "afa01ec8-1c3d-4619-b006-660c3c1829a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "firefox.uDZJVbYyAhTu.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r9xqYf3TXGXiuUiWewGsA2uMGgqC_WVZOn9WLojL10Q",
+                    "short_id": "9d307375"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "firefox.uDZJVbYyAhTu.xyz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

@@ -109,12 +109,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇷🇺RU | vmess | @mftizi | 18",
                 "🇮🇸IS | vmess | @oneclickvpnkeys | 10",
-                "🇬🇧GB | vmess | @ShadowProxy66 | 79",
-                "🇫🇮FI | vmess | @Hope_Net | 9",
+                "🇺🇸US | vmess | @Hope_Net | 10",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
-                "🇺🇸US | vmess | @v2Line | 9",
-                "🇻🇳VN | vmess | @forwardv2ray | 16",
-                "🇺🇸US | vmess | @eliya_chiter0 | 2"
+                "🇺🇸US | vmess | @v2Line | 9"
             ]
         },
         {
@@ -124,12 +121,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇷🇺RU | vmess | @mftizi | 18",
                 "🇮🇸IS | vmess | @oneclickvpnkeys | 10",
-                "🇬🇧GB | vmess | @ShadowProxy66 | 79",
-                "🇫🇮FI | vmess | @Hope_Net | 9",
+                "🇺🇸US | vmess | @Hope_Net | 10",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
-                "🇺🇸US | vmess | @v2Line | 9",
-                "🇻🇳VN | vmess | @forwardv2ray | 16",
-                "🇺🇸US | vmess | @eliya_chiter0 | 2"
+                "🇺🇸US | vmess | @v2Line | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -217,11 +211,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @ShadowProxy66 | 79",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "172.99.190.109",
+            "server": "173.245.59.99",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "a407ba33-b69f-405d-9156-fe38edcf78d7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -234,7 +228,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "vip.osalizx.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -244,27 +238,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/fBB9TuCG0IPgGqmgbWQRdvK",
                 "headers": {
-                    "Host": ""
+                    "Host": "vip.osalizx.cfd"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "cmd.moeinrayan.xyz",
-            "server_port": 8080,
-            "uuid": "f6716e42-a761-4b5b-a14f-812137f3617b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -322,64 +299,6 @@
                 "path": "\/racevpn",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇻🇳VN | vmess | @forwardv2ray | 16",
-            "type": "vmess",
-            "server": "premium.ht4gvpn.com",
-            "server_port": 80,
-            "uuid": "2b69324d-5fe2-48c2-923f-049c3093cd56",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ht4gvpn.com",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 2",
-            "type": "vmess",
-            "server": "173.245.59.99",
-            "server_port": 443,
-            "uuid": "a407ba33-b69f-405d-9156-fe38edcf78d7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vip.osalizx.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/fBB9TuCG0IPgGqmgbWQRdvK",
-                "headers": {
-                    "Host": "vip.osalizx.cfd"
                 }
             }
         }

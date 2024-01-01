@@ -152,6 +152,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -160,7 +161,7 @@
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇺🇸US | vless | @FoXrayIran | 6",
-                "🇨🇦CA | vless | @V2FETCH | 0"
+                "🇺🇸US | vless | @V2FETCH | 0"
             ]
         },
         {
@@ -213,6 +214,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -221,7 +223,7 @@
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇺🇸US | vless | @FoXrayIran | 6",
-                "🇨🇦CA | vless | @V2FETCH | 0"
+                "🇺🇸US | vless | @V2FETCH | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1595,6 +1597,37 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "xmahanx.mahanvps.top",
+            "server_port": 2087,
+            "uuid": "_Mahanvpn_vip8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v4super.mahansrv.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "v4super.mahansrv.top",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
             "type": "vless",
             "server": "104.17.115.153",
@@ -1839,7 +1872,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 0",
+            "tag": "🇺🇸US | vless | @V2FETCH | 0",
             "type": "vless",
             "server": "ip.whiterose.monster",
             "server_port": 8443,

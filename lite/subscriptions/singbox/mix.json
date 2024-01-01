@@ -153,9 +153,9 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
+                "🏳️XX | vmess | @ConfigsHUB | 3",
                 "🏳️XX | vless | @proxystore11 | 18",
-                "🇨🇳CN | vmess | @Hope_Net | 12",
+                "🇳🇱NL | vmess | @Hope_Net | 10",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
@@ -164,6 +164,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇺🇸US | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 6",
@@ -229,9 +230,9 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
+                "🏳️XX | vmess | @ConfigsHUB | 3",
                 "🏳️XX | vless | @proxystore11 | 18",
-                "🇨🇳CN | vmess | @Hope_Net | 12",
+                "🇳🇱NL | vmess | @Hope_Net | 10",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
@@ -240,6 +241,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇺🇸US | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 6",
@@ -1527,7 +1529,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 19",
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 3",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -1575,13 +1577,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 12",
+            "tag": "🇳🇱NL | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "cm-03.zhuanfa.link",
-            "server_port": 45826,
-            "uuid": "65d79be3-7327-45f8-86fc-bd7f27948eec",
+            "server": "188.114.96.58",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1589,6 +1591,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ophelia.mom",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "ophelia.mom"
+                }
             }
         },
         {
@@ -1854,6 +1873,16 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
+        },
+        {
+            "tag": "🇺🇸US | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "38.68.135.19",
+            "server_port": 8888,
+            "method": "aes-256-gcm",
+            "password": "Y6R9pAtvxxzmGC",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",

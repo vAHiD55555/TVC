@@ -112,10 +112,10 @@
                 "🇨🇦CA | vmess | @prrofile_purple | 169",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 39",
-                "🇺🇸US | vmess | @Hope_Net | 13",
+                "🇮🇳IN | vmess | @Hope_Net | 14",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 18"
+                "🇺🇸US | vmess | @eliya_chiter0 | 6"
             ]
         },
         {
@@ -128,10 +128,10 @@
                 "🇨🇦CA | vmess | @prrofile_purple | 169",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 39",
-                "🇺🇸US | vmess | @Hope_Net | 13",
+                "🇮🇳IN | vmess | @Hope_Net | 14",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 18"
+                "🇺🇸US | vmess | @eliya_chiter0 | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -277,11 +277,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 13",
+            "tag": "🇮🇳IN | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "173.245.59.99",
-            "server_port": 443,
-            "uuid": "a407ba33-b69f-405d-9156-fe38edcf78d7",
+            "server": "129.154.228.4",
+            "server_port": 8085,
+            "uuid": "587da4bb-a799-418e-ab50-2cb5f632c691",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -292,21 +292,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vip.osalizx.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/fBB9TuCG0IPgGqmgbWQRdvK",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "vip.osalizx.cfd"
+                    "Host": ""
                 }
             }
         },
@@ -369,11 +359,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 6",
             "type": "vmess",
-            "server": "104.27.102.105",
-            "server_port": 8080,
-            "uuid": "Telegram-V2ray_alpha",
+            "server": "173.245.59.99",
+            "server_port": 443,
+            "uuid": "a407ba33-b69f-405d-9156-fe38edcf78d7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -384,11 +374,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip.osalizx.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/fBB9TuCG0IPgGqmgbWQRdvK",
                 "headers": {
-                    "Host": ""
+                    "Host": "vip.osalizx.cfd"
                 }
             }
         }

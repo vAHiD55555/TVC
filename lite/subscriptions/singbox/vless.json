@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | @EliV2ray | 12",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 1",
                 "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇸🇬SG | vless | @reality_daily | 0",
@@ -142,7 +141,7 @@
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇮🇷IR | vless | @vless_vmess | 5",
-                "🇨🇷CR | vless | @V2RayTz | 14",
+                "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇮🇷IR | vless | @DailyV2RY | 46",
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
@@ -154,6 +153,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇩🇪DE | vless | @flyv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇷CR | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -169,7 +169,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | @EliV2ray | 12",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 1",
                 "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇸🇬SG | vless | @reality_daily | 0",
@@ -205,7 +204,7 @@
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇮🇷IR | vless | @vless_vmess | 5",
-                "🇨🇷CR | vless | @V2RayTz | 14",
+                "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇮🇷IR | vless | @DailyV2RY | 46",
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
@@ -217,6 +216,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇩🇪DE | vless | @flyv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇷CR | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -246,42 +246,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇫🇷FR | vless | @EliV2ray | 12",
-            "type": "vless",
-            "server": "98.66.160.227",
-            "server_port": 29494,
-            "uuid": "f89dfd86-7994-46ed-8846-6ea38f76a4dd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dnschecker.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NSzxLt7w8kfyxl7C4kjH3Mg7mxW1UZKiTNI_3SsddBU",
-                    "short_id": "86ee9777"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@enani5",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @NIM_VPN_ir | 1",
@@ -1318,12 +1282,12 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2RayTz | 14",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 14",
             "type": "vless",
-            "server": "190.93.247.102",
-            "server_port": 2087,
-            "uuid": "fb921cb7-74d2-4d75-a470-0b318a2febab",
-            "flow": "",
+            "server": "16.16.126.54",
+            "server_port": 5222,
+            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1332,19 +1296,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "FreeV2rayng.SHHPROXY.monster",
+                "server_name": "coinmarketcap.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "FreeV2rayng.SHHPROXY.monster"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9phXvxA9Bm7NTIjBAc97fm330uFeMl-dMqM63XYnvH0",
+                    "short_id": "1db3"
                 }
             }
         },
@@ -1670,6 +1632,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.18.189.219",
+            "server_port": 443,
+            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "w1.sylar8.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "w1.sylar8.eu.org"
+                }
             }
         },
         {

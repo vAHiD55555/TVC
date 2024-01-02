@@ -111,7 +111,6 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @prrofile_purple | 178",
                 "🇮🇷IR | vmess | @customv2ray | 15",
-                "🇩🇪DE | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
@@ -127,7 +126,6 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @prrofile_purple | 178",
                 "🇮🇷IR | vmess | @customv2ray | 15",
-                "🇩🇪DE | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
@@ -257,33 +255,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 13",
-            "type": "vmess",
-            "server": "141.95.75.148",
-            "server_port": 443,
-            "uuid": "ce76d32e-3bc7-4a4f-bf2c-abddb893bed7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {

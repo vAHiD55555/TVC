@@ -108,12 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 12",
+                "🇻🇳VN | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
-                "🇭🇰HK | vmess | @Hope_Net | 12",
+                "🇭🇰HK | vmess | @Hope_Net | 14",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 10",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 7"
             ]
         },
@@ -123,12 +124,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 12",
+                "🇻🇳VN | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
-                "🇭🇰HK | vmess | @Hope_Net | 12",
+                "🇭🇰HK | vmess | @Hope_Net | 14",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 10",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -203,11 +205,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 12",
+            "tag": "🇻🇳VN | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "49.13.160.61",
-            "server_port": 20952,
-            "uuid": "5d6894b8-0736-449b-f44c-9ad4dab7e6f9",
+            "server": "diamond.ht4gvpn.com",
+            "server_port": 80,
+            "uuid": "2b69324d-5fe2-48c2-923f-049c3093cd56",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -217,6 +219,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ht4gvpn.com",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -254,7 +263,7 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 12",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 14",
             "type": "vmess",
             "server": "8.210.203.189",
             "server_port": 37309,
@@ -330,6 +339,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 10",
+            "type": "vmess",
+            "server": "104.27.102.105",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }

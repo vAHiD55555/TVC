@@ -112,10 +112,10 @@
                 "🇨🇦CA | vmess | @prrofile_purple | 178",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇨🇦CA | vmess | @v2ray1_ng | 2",
-                "🇯🇵JP | vmess | @ConfigsHUB | 19",
-                "🇭🇰HK | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇫🇮FI | vmess | @FAKEOFTVC | 3",
                 "🇺🇸US | vmess | @eliya_chiter0 | 6"
             ]
         },
@@ -129,10 +129,10 @@
                 "🇨🇦CA | vmess | @prrofile_purple | 178",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇨🇦CA | vmess | @v2ray1_ng | 2",
-                "🇯🇵JP | vmess | @ConfigsHUB | 19",
-                "🇭🇰HK | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇫🇮FI | vmess | @FAKEOFTVC | 3",
                 "🇺🇸US | vmess | @eliya_chiter0 | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -286,28 +286,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "64.176.47.200",
-            "server_port": 29414,
-            "uuid": "4d5e8aa2-0641-4323-e92c-2c061cdc8e34",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 13",
-            "type": "vmess",
-            "server": "8.218.73.227",
-            "server_port": 58641,
-            "uuid": "4821f5d8-dc31-4bb4-811c-8babcb8aec1a",
+            "server": "cn.azhz.eu.org",
+            "server_port": 443,
+            "uuid": "170857b0-d361-416d-be41-5112f4d21950",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -318,12 +301,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "suggesting-mesh-tanzania-bradford.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "http",
-                "host": [
-                    "8.218.73.227"
-                ],
-                "path": "\/"
+                "type": "ws",
+                "path": "\/argox-vm",
+                "headers": {
+                    "Host": "suggesting-mesh-tanzania-bradford.trycloudflare.com"
+                }
             }
         },
         {
@@ -382,6 +375,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vmess | @FAKEOFTVC | 3",
+            "type": "vmess",
+            "server": "cmd.moeinrayan.xyz",
+            "server_port": 8080,
+            "uuid": "f6716e42-a761-4b5b-a14f-812137f3617b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

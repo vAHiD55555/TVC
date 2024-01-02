@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇹🇷TR | vless | @reality_daily | 0",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -125,6 +126,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇹🇷TR | vless | @reality_daily | 0",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -158,6 +160,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇹🇷TR | vless | @reality_daily | 0",
+            "type": "vless",
+            "server": "83.217.9.129",
+            "server_port": 22,
+            "uuid": "d0ec432e-1f61-4232-b6d7-4a9c8722a962",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KOgeIcWtuMJnTsRT3KgjyTQaieZPikCCiI3XZeIMrxE",
+                    "short_id": "346b3063"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @frev2ray | 11",

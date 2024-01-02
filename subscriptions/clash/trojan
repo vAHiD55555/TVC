@@ -119,8 +119,8 @@ dns:
 
 proxies:
   - {"name":"🇮🇷IR | trojan | @V2rayCollectorDonate | 7","type":"trojan","server":"213.176.1.122","port":34970,"udp":false,"password":"HyZOgWDnXj","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"soft98.ir"}
-  - {"name":"🇺🇸US | trojan | @V2rayCollectorDonate | 10","type":"trojan","server":"ironone.libertasiran.cloud","port":443,"udp":false,"password":"xaafTz903F","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ironone.libertasiran.cloud"}
-  - {"name":"🇨🇦CA | trojan | @V2rayCollectorDonate | 12","type":"trojan","server":"172.66.47.74","port":443,"udp":false,"password":"8ca98c98-fb0b-4007-a6e8-c8294e546763","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"s10.xyzquant.cloud"}
+  - {"name":"🇨🇦CA | trojan | @V2rayCollectorDonate | 10","type":"trojan","server":"ironone.libertasiran.cloud","port":443,"udp":false,"password":"xaafTz903F","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ironone.libertasiran.cloud"}
+  - {"name":"🇺🇸US | trojan | @V2rayCollectorDonate | 12","type":"trojan","server":"172.66.47.74","port":443,"udp":false,"password":"8ca98c98-fb0b-4007-a6e8-c8294e546763","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"s10.xyzquant.cloud"}
   - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 2","type":"trojan","server":"3.78.82.4","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 3","type":"trojan","server":"16.170.97.182","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 4","type":"trojan","server":"51.21.41.122","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
@@ -152,6 +152,8 @@ proxies:
   - {"name":"🇩🇪DE | trojan | @DirectVPN | 15","type":"trojan","server":"18.153.178.201","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"13.49.35.59","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇩🇪DE | trojan | @yaney_01 | 7","type":"trojan","server":"www.casperco.online","port":993,"udp":false,"password":"74811f39-8f69-4334-9e0f-a8a25d7413c1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇫🇷FR | trojan | @forwardv2ray | 5","type":"trojan","server":"15.188.182.112","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @forwardv2ray | 6","type":"trojan","server":"18.198.173.123","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -159,8 +161,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇮🇷IR | trojan | @V2rayCollectorDonate | 7'
-      - '🇺🇸US | trojan | @V2rayCollectorDonate | 10'
-      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 12'
+      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 10'
+      - '🇺🇸US | trojan | @V2rayCollectorDonate | 12'
       - '🇩🇪DE | trojan | @PrivateVPNs | 2'
       - '🇸🇪SE | trojan | @PrivateVPNs | 3'
       - '🇸🇪SE | trojan | @PrivateVPNs | 4'
@@ -192,6 +194,8 @@ proxy-groups:
       - '🇩🇪DE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇩🇪DE | trojan | @yaney_01 | 7'
+      - '🇫🇷FR | trojan | @forwardv2ray | 5'
+      - '🇩🇪DE | trojan | @forwardv2ray | 6'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -199,8 +203,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇮🇷IR | trojan | @V2rayCollectorDonate | 7'
-      - '🇺🇸US | trojan | @V2rayCollectorDonate | 10'
-      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 12'
+      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 10'
+      - '🇺🇸US | trojan | @V2rayCollectorDonate | 12'
       - '🇩🇪DE | trojan | @PrivateVPNs | 2'
       - '🇸🇪SE | trojan | @PrivateVPNs | 3'
       - '🇸🇪SE | trojan | @PrivateVPNs | 4'
@@ -232,14 +236,16 @@ proxy-groups:
       - '🇩🇪DE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇩🇪DE | trojan | @yaney_01 | 7'
+      - '🇫🇷FR | trojan | @forwardv2ray | 5'
+      - '🇩🇪DE | trojan | @forwardv2ray | 6'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇮🇷IR | trojan | @V2rayCollectorDonate | 7'
-      - '🇺🇸US | trojan | @V2rayCollectorDonate | 10'
-      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 12'
+      - '🇨🇦CA | trojan | @V2rayCollectorDonate | 10'
+      - '🇺🇸US | trojan | @V2rayCollectorDonate | 12'
       - '🇩🇪DE | trojan | @PrivateVPNs | 2'
       - '🇸🇪SE | trojan | @PrivateVPNs | 3'
       - '🇸🇪SE | trojan | @PrivateVPNs | 4'
@@ -271,6 +277,8 @@ proxy-groups:
       - '🇩🇪DE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇩🇪DE | trojan | @yaney_01 | 7'
+      - '🇫🇷FR | trojan | @forwardv2ray | 5'
+      - '🇩🇪DE | trojan | @forwardv2ray | 6'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve

@@ -126,7 +126,6 @@ proxies:
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 18","type":"ss","server":"www.outline.network.ak1985.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"5O+1vuAy1jMIm3H3olcLL53lZy/9akX8UvaItv6ls2M=","cipher":"aes-256-gcm"}
   - {"name":"🇸🇬SG | vmess | @Hope_Net | 14","type":"vmess","server":"8.219.123.35","port":80,"cipher":"auto","uuid":"7e7f8398-bd39-49d8-9ce6-e48ffef463dd","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/2TokGE9A/","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 9","type":"vmess","server":"v2line.telegram.channel.1371.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"443","cipher":"auto","uuid":"540bfb2c-2b26-4154-b5be-55d08bf40add","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":""}}}
-  - {"name":"🇩🇪DE | trojan | @forwardv2ray | 11","type":"trojan","server":"3.71.208.112","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇩🇪DE | ss | @kingofilter | 16","type":"ss","server":"passconf.xyz","port":8080,"password":"qGjmI8WQlF0tfhDbkLqGdN","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇳IN | vmess | @eliya_chiter0 | 8","type":"vmess","server":"129.154.228.4","port":"8084","cipher":"auto","uuid":"f49ed5da-ce2e-4e38-a723-31acf6cd96f9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"eliya_chiter0"}}}
 proxy-groups:
@@ -143,7 +142,6 @@ proxy-groups:
       - '🇺🇸US | ss | @OutlineVpnOfficial | 18'
       - '🇸🇬SG | vmess | @Hope_Net | 14'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇩🇪DE | trojan | @forwardv2ray | 11'
       - '🇩🇪DE | ss | @kingofilter | 16'
       - '🇮🇳IN | vmess | @eliya_chiter0 | 8'
   - name: URL-TEST
@@ -160,7 +158,6 @@ proxy-groups:
       - '🇺🇸US | ss | @OutlineVpnOfficial | 18'
       - '🇸🇬SG | vmess | @Hope_Net | 14'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇩🇪DE | trojan | @forwardv2ray | 11'
       - '🇩🇪DE | ss | @kingofilter | 16'
       - '🇮🇳IN | vmess | @eliya_chiter0 | 8'
   - name: FALLBACK
@@ -176,7 +173,6 @@ proxy-groups:
       - '🇺🇸US | ss | @OutlineVpnOfficial | 18'
       - '🇸🇬SG | vmess | @Hope_Net | 14'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇩🇪DE | trojan | @forwardv2ray | 11'
       - '🇩🇪DE | ss | @kingofilter | 16'
       - '🇮🇳IN | vmess | @eliya_chiter0 | 8'
 rules:

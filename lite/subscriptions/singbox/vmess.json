@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷IR | vmess | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
@@ -123,7 +123,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷IR | vmess | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
@@ -156,11 +156,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷IR | vmess | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
             "type": "vmess",
-            "server": "test1.techno2.pw",
-            "server_port": 35047,
-            "uuid": "e3dae503-bf6e-49b4-e350-c0b316459d41",
+            "server": "172.67.170.103",
+            "server_port": 2082,
+            "uuid": "Telegram-V2ray_alpha",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -170,6 +170,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {

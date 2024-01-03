@@ -112,10 +112,12 @@
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 15",
                 "🏳️XX | vless | @MTConfig | 21",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @SafeNet_Server | 10",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 52",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
@@ -131,10 +133,12 @@
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 15",
                 "🏳️XX | vless | @MTConfig | 21",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @SafeNet_Server | 10",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 52",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
@@ -362,6 +366,42 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
+            "type": "vless",
+            "server": "16.171.15.175",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Jpq52IPqgT6WTwYP9rBcm0R-fjvpB5eoSyyv7kqvgQM",
+                    "short_id": "b499fe3d"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @SafeNet_Server | 10",
             "type": "vless",
             "server": "16.16.220.210",
@@ -482,6 +522,42 @@
                     "public_key": "90WvSEDjTWdVj1U5JPXphB6VZ4ojR42tZN7PuEeRqXM",
                     "short_id": "dc838e556e8a86bd"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "78.46.225.217",
+            "server_port": 443,
+            "uuid": "715f9ba2-23dc-4e0b-ae34-35500faeaac9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AZfZHX5fRg4dbfz0qyjH6sPo_YaHY-bEua5hhL7RTQE",
+                    "short_id": "27f6104f"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

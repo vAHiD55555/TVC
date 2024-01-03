@@ -123,7 +123,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
-                "TVClpzhirkzqf",
+                "TVCdfyfrfwiyg",
                 "🏳️XX | vless | @V2raysFree | 13",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -152,7 +152,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🏳️XX | vless | @MTConfig | 21",
                 "🇸🇪SE | vless | @V2RayTz | 17",
-                "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @DailyV2RY | 11",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @MehradLearn | 10",
                 "🇸🇪SE | vless | @SafeNet_Server | 9",
@@ -169,8 +169,6 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🏳️XX | vless | @FreakConfig | 9",
-                "🇹🇷TR | vless | @flyv2ray | 21",
-                "🇫🇮FI | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -205,7 +203,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
-                "TVClpzhirkzqf",
+                "TVCdfyfrfwiyg",
                 "🏳️XX | vless | @V2raysFree | 13",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -234,7 +232,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🏳️XX | vless | @MTConfig | 21",
                 "🇸🇪SE | vless | @V2RayTz | 17",
-                "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @DailyV2RY | 11",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @MehradLearn | 10",
                 "🇸🇪SE | vless | @SafeNet_Server | 9",
@@ -251,8 +249,6 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🏳️XX | vless | @FreakConfig | 9",
-                "🇹🇷TR | vless | @flyv2ray | 21",
-                "🇫🇮FI | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -821,7 +817,7 @@
             }
         },
         {
-            "tag": "TVClpzhirkzqf",
+            "tag": "TVCdfyfrfwiyg",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -1551,7 +1547,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 11",
             "type": "vless",
             "server": "104.25.70.57",
             "server_port": 443,
@@ -2012,78 +2008,6 @@
                     "public_key": "IbSV9OnRyp0C7t5HuUpapZ6Z3HEVd0m7P8D5Wb4olBM",
                     "short_id": "22e9d71e"
                 }
-            }
-        },
-        {
-            "tag": "🇹🇷TR | vless | @flyv2ray | 21",
-            "type": "vless",
-            "server": "tk.dwv2ray.site",
-            "server_port": 443,
-            "uuid": "76408ff4-d39d-44a7-9666-78b88fb4c18f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eSq2viks3QTjVd77cFKfenQfxAL2JBxoJX9xxblcsno",
-                    "short_id": "7b6e4dd3"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Dr.Phone",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "footlo.argha-v2pedia.monster",
-            "server_port": 443,
-            "uuid": "6ad624f4-c1e0-4911-e3fd-f0e9d797991b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tuyacn.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "muEtUEPnEMopCqdrhYWMzzwBsAfjZ_NV1m-AnO1byxk",
-                    "short_id": "da"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

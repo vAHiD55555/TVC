@@ -121,8 +121,10 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 14",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | ss | @forwardv2ray | 4",
-                "🇬🇧GB | ss | @kingofilter | 1"
+                "🇫🇷FR | ss | @forwardv2ray | 11",
+                "🇫🇷FR | ss | @forwardv2ray | 14",
+                "🇬🇧GB | ss | @kingofilter | 1",
+                "🇬🇧GB | ss | @kingofilter | 15"
             ]
         },
         {
@@ -144,8 +146,10 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 14",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | ss | @forwardv2ray | 4",
-                "🇬🇧GB | ss | @kingofilter | 1"
+                "🇫🇷FR | ss | @forwardv2ray | 11",
+                "🇫🇷FR | ss | @forwardv2ray | 14",
+                "🇬🇧GB | ss | @kingofilter | 1",
+                "🇬🇧GB | ss | @kingofilter | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -318,12 +322,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @forwardv2ray | 4",
+            "tag": "🇫🇷FR | ss | @forwardv2ray | 11",
             "type": "shadowsocks",
-            "server": "www.U_CONFINGVPN.network.ak1905.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "server_port": 443,
+            "server": "51.178.87.37",
+            "server_port": 804,
             "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
+            "password": "G!yBwPWH3Vao",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇫🇷FR | ss | @forwardv2ray | 14",
+            "type": "shadowsocks",
+            "server": "51.178.87.37",
+            "server_port": 810,
+            "method": "chacha20-ietf-poly1305",
+            "password": "G!yBwPWH3Vao",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -334,6 +348,16 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @kingofilter | 15",
+            "type": "shadowsocks",
+            "server": "series-a1.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA",
             "plugin": "",
             "plugin_opts": ""
         }

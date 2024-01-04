@@ -171,7 +171,7 @@
                 "🇩🇪DE | vless | @Capoit | 1",
                 "🏳️XX | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 19",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇸🇬SG | ss | @forwardv2ray | 18",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -255,7 +255,7 @@
                 "🇩🇪DE | vless | @Capoit | 1",
                 "🏳️XX | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 19",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇸🇬SG | ss | @forwardv2ray | 18",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -1721,7 +1721,7 @@
             "type": "vless",
             "server": "google.com",
             "server_port": 443,
-            "uuid": "2607915d-684a-4e77-b860-37664cdbc694",
+            "uuid": "270c18ac-d04d-455c-89c5-1877143f8b9b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1731,7 +1731,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "6877311213.yadakii.store",
+                "server_name": "5167603191.yadakii.store",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1741,7 +1741,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "48297845",
+                "service_name": "74002525",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -2115,35 +2115,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "www.unpkg.com",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
-            }
+            "tag": "🇸🇬SG | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "singapore.telegavpn.org",
+            "server_port": 16759,
+            "method": "chacha20-ietf-poly1305",
+            "password": "z07H1I5PlQPo8fHNtoS4iY",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇮🇷IR | vmess | @FAKEOFTVC | 1",

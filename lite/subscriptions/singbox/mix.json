@@ -151,12 +151,11 @@
                 "🏳️XX | vless | @MTConfig | 21",
                 "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇨🇷CR | vless | @VmessProtocol | 17",
-                "🇺🇸US | vless | @DailyV2RY | 9",
+                "🇺🇸US | vless | @DailyV2RY | 10",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
                 "🇸🇪SE | vless | @free1_vpn | 0",
@@ -168,10 +167,10 @@
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇩🇪DE | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 19",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
-                "🇨🇦CA | vless | @mehrosaboran | 8",
+                "🇨🇦CA | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🏳️XX | vless | @nofiltering2 | 12",
                 "🇨🇦CA | vless | @proxy_mtm | 14",
@@ -232,12 +231,11 @@
                 "🏳️XX | vless | @MTConfig | 21",
                 "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇨🇷CR | vless | @VmessProtocol | 17",
-                "🇺🇸US | vless | @DailyV2RY | 9",
+                "🇺🇸US | vless | @DailyV2RY | 10",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
                 "🇸🇪SE | vless | @free1_vpn | 0",
@@ -249,10 +247,10 @@
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇩🇪DE | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 19",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
-                "🇨🇦CA | vless | @mehrosaboran | 8",
+                "🇨🇦CA | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🏳️XX | vless | @nofiltering2 | 12",
                 "🇨🇦CA | vless | @proxy_mtm | 14",
@@ -1573,7 +1571,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 9",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 10",
             "type": "vless",
             "server": "198.41.202.5",
             "server_port": 80,
@@ -1665,23 +1663,6 @@
             "password": "0uG0FbGpAV",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
         },
         {
             "tag": "🇨🇷CR | vless | @proxystore11 | 14",
@@ -2015,11 +1996,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "104.16.216.241",
-            "server_port": 2096,
-            "uuid": "1c783a85-2e1e-497e-cebc-f4a9f55257d5",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2029,23 +2010,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telma2.lepingshop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@lepingshop--کانال تلگرام--------@telmavpn",
-                "headers": {
-                    "Host": "telma2.lepingshop.top"
-                }
             }
         },
         {
@@ -2097,7 +2061,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @mehrosaboran | 8",
+            "tag": "🇨🇦CA | vless | @mehrosaboran | 6",
             "type": "vless",
             "server": "172.67.188.213",
             "server_port": 443,

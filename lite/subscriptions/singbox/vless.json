@@ -407,9 +407,9 @@
         {
             "tag": "🇨🇦CA | vless | @melov2ray | 5",
             "type": "vless",
-            "server": "de.melov2ray.shop",
+            "server": "fin.melov2ray.shop",
             "server_port": 2083,
-            "uuid": "b5793f6d-5cec-4b92-abfe-e0fa3533ca45",
+            "uuid": "6f7301df-a440-4905-b4ba-4b4acce18f4d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -419,7 +419,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "De.Melov2ray.Shop",
+                "server_name": "FIn.Melov2ray.Shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -428,11 +428,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/melov2ray",
-                "headers": {
-                    "Host": "De.Melov2ray.Shop"
-                }
+                "type": "grpc",
+                "service_name": "@melov2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1563,9 +1563,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 11",
             "type": "vless",
-            "server": "w3.sylarsun.eu.org",
+            "server": "e.outlinekey.online",
             "server_port": 443,
-            "uuid": "89420825-e589-4735-bee1-6dc636fca343",
+            "uuid": "6141d9fd-07a7-4e28-af70-c2c6010a3e6d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1575,7 +1575,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "w3.sylarsun.eu.org",
+                "server_name": "uni.outlinekey.online",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1584,11 +1584,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "w3.sylarsun.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "@Outlinev2rayNG,@Outlinev2rayNG",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

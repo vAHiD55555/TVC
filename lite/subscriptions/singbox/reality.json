@@ -111,12 +111,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🏳️XX | vless | @MTConfig | 21",
                 "🇸🇪SE | vless | @V2RayTz | 16",
-                "🏳️XX | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 3",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇩🇪DE | vless | @Capoit | 3",
+                "🇩🇪DE | vless | @Capoit | 1",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
@@ -131,12 +131,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🏳️XX | vless | @MTConfig | 21",
                 "🇸🇪SE | vless | @V2RayTz | 16",
-                "🏳️XX | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇫🇮FI | vless | @v2rayng_vpnrog | 3",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇩🇪DE | vless | @Capoit | 3",
+                "🇩🇪DE | vless | @Capoit | 1",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
@@ -328,11 +328,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @VmessProtocol | 17",
             "type": "vless",
-            "server": "v2logy.ddns.net",
-            "server_port": 443,
-            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "server": "16.16.91.94",
+            "server_port": 8080,
+            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -342,7 +342,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "sourceforge.net",
+                "server_name": "coinmarketcap.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -351,16 +351,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
-                    "short_id": ""
+                    "public_key": "qiNL5Jz22C-BUqt7kC-tINl04tcC4QP0GHXmbyeCCAI",
+                    "short_id": "1db3"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -494,7 +487,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Capoit | 3",
+            "tag": "🇩🇪DE | vless | @Capoit | 1",
             "type": "vless",
             "server": "78.46.225.217",
             "server_port": 443,
@@ -517,7 +510,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "AZfZHX5fRg4dbfz0qyjH6sPo_YaHY-bEua5hhL7RTQE",
+                    "public_key": "jPwnK_T6xRab2iIs9ApfcZEzku2PHtntdLUrn0Oachc",
                     "short_id": "27f6104f"
                 }
             },

@@ -110,10 +110,10 @@
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 14",
+                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🏳️XX | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 8"
             ]
@@ -126,10 +126,10 @@
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 14",
+                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🏳️XX | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 8"
             ],
@@ -263,11 +263,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 14",
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "104.27.102.105",
-            "server_port": 8080,
-            "uuid": "Telegram-V2ray_alpha",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -277,13 +277,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -338,11 +331,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "104.16.216.241",
+            "server_port": 2096,
+            "uuid": "1c783a85-2e1e-497e-cebc-f4a9f55257d5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -352,6 +345,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telma2.lepingshop.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@lepingshop--کانال تلگرام--------@telmavpn",
+                "headers": {
+                    "Host": "telma2.lepingshop.top"
+                }
             }
         },
         {

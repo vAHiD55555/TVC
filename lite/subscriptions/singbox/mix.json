@@ -145,13 +145,13 @@
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🏳️XX | vless | @MTConfig | 21",
-                "🇨🇳CN | vless | @V2RayTz | 19",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vmess | @SafeNet_Server | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
-                "🇳🇱NL | vmess | @ConfigsHUB | 19",
+                "🏳️XX | vmess | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇭🇰HK | vmess | @yaney_01 | 11",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -218,13 +218,13 @@
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🏳️XX | vless | @MTConfig | 21",
-                "🇨🇳CN | vless | @V2RayTz | 19",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vmess | @SafeNet_Server | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
-                "🇳🇱NL | vmess | @ConfigsHUB | 19",
+                "🏳️XX | vmess | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇭🇰HK | vmess | @yaney_01 | 11",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -1359,11 +1359,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vless | @V2RayTz | 19",
+            "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "1-Join.V2RayTz.sbs",
-            "server_port": 2083,
-            "uuid": "d4bb4266-196b-4e7a-b725-9a8e13d782ef",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "644edbc5-61e2-4191-8db0-510166aa4a9a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1373,7 +1373,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "lightning6.liV2ray5.cfd",
+                "server_name": "tag.ArV2ray.host",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1382,11 +1382,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tag.ArV2ray.host"
+                }
             }
         },
         {
@@ -1497,11 +1497,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 19",
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "arqavani3vitesl6ilk.filterchy.cfd",
-            "server_port": 41337,
-            "uuid": "da8a61a0-883c-461d-9251-d6c94ae144e0",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,

@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇺🇸US | trojan | @V2rayCollectorDonate | 11","type":"trojan","server":"ironone.libertasiran.cloud","port":443,"udp":false,"password":"xaafTz903F","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ironone.libertasiran.cloud"}
+  - {"name":"🇺🇸US | trojan | @V2rayCollectorDonate | 12","type":"trojan","server":"ironone.libertasiran.cloud","port":443,"udp":false,"password":"xaafTz903F","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ironone.libertasiran.cloud"}
   - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 1","type":"trojan","server":"3.254.36.4","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 2","type":"trojan","server":"18.171.72.251","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 3","type":"trojan","server":"18.168.49.89","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
@@ -151,13 +151,14 @@ proxies:
   - {"name":"🇬🇧GB | trojan | @DirectVPN | 15","type":"trojan","server":"13.41.8.69","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇫🇷FR | trojan | @oneclickvpnkeys | 3","type":"trojan","server":"152.228.242.128","port":37024,"udp":false,"password":"VZlHU01v6p","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"box.mtpmio.sbs"}
   - {"name":"🇩🇪DE | trojan | @yaney_01 | 7","type":"trojan","server":"www.casperco.online","port":993,"udp":false,"password":"74811f39-8f69-4334-9e0f-a8a25d7413c1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇯🇵JP | trojan | @forwardv2ray | 9","type":"trojan","server":"in01.trojanyyds.xyz","port":443,"udp":false,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇺🇸US | trojan | @V2rayCollectorDonate | 11'
+      - '🇺🇸US | trojan | @V2rayCollectorDonate | 12'
       - '🇮🇪IE | trojan | @PrivateVPNs | 1'
       - '🇬🇧GB | trojan | @PrivateVPNs | 2'
       - '🇬🇧GB | trojan | @PrivateVPNs | 3'
@@ -190,13 +191,14 @@ proxy-groups:
       - '🇬🇧GB | trojan | @DirectVPN | 15'
       - '🇫🇷FR | trojan | @oneclickvpnkeys | 3'
       - '🇩🇪DE | trojan | @yaney_01 | 7'
+      - '🇯🇵JP | trojan | @forwardv2ray | 9'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇺🇸US | trojan | @V2rayCollectorDonate | 11'
+      - '🇺🇸US | trojan | @V2rayCollectorDonate | 12'
       - '🇮🇪IE | trojan | @PrivateVPNs | 1'
       - '🇬🇧GB | trojan | @PrivateVPNs | 2'
       - '🇬🇧GB | trojan | @PrivateVPNs | 3'
@@ -229,12 +231,13 @@ proxy-groups:
       - '🇬🇧GB | trojan | @DirectVPN | 15'
       - '🇫🇷FR | trojan | @oneclickvpnkeys | 3'
       - '🇩🇪DE | trojan | @yaney_01 | 7'
+      - '🇯🇵JP | trojan | @forwardv2ray | 9'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇺🇸US | trojan | @V2rayCollectorDonate | 11'
+      - '🇺🇸US | trojan | @V2rayCollectorDonate | 12'
       - '🇮🇪IE | trojan | @PrivateVPNs | 1'
       - '🇬🇧GB | trojan | @PrivateVPNs | 2'
       - '🇬🇧GB | trojan | @PrivateVPNs | 3'
@@ -267,6 +270,7 @@ proxy-groups:
       - '🇬🇧GB | trojan | @DirectVPN | 15'
       - '🇫🇷FR | trojan | @oneclickvpnkeys | 3'
       - '🇩🇪DE | trojan | @yaney_01 | 7'
+      - '🇯🇵JP | trojan | @forwardv2ray | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve

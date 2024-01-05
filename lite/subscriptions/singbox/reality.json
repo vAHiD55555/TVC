@@ -117,7 +117,6 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇩🇪DE | vless | @FreakConfig | 12",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @proxy_mtm | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -139,7 +138,6 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇩🇪DE | vless | @FreakConfig | 12",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @proxy_mtm | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -541,38 +539,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "51.75.86.63",
-            "server_port": 443,
-            "uuid": "974d4696-a900-4d44-b627-9833b8a7b27a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "flightradar24.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UDABcxpKzAYkuyE4pmST0OSzEUJpQNuSgYIKcgppeh8",
-                    "short_id": "d73382b02fa94fc2"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @kiava | 14",
             "type": "vless",
-            "server": "16.16.127.187",
+            "server": "16.16.138.253",
             "server_port": 8443,
             "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
             "flow": "xtls-rprx-vision",
@@ -593,7 +562,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "JW62LlQFh50HHYcoaLWE_GQ5ugqNve7OX7IeLcBeXyI",
+                    "public_key": "l25H5wRik9N4Gc9px39clJf6NW2k50A1FuNg-1E05WQ",
                     "short_id": "3c"
                 }
             }

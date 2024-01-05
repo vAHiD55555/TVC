@@ -118,31 +118,35 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 18","type":"trojan","server":"3.66.116.35","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
-  - {"name":"🇫🇷FR | trojan | @DirectVPN | 18","type":"trojan","server":"52.47.171.170","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 18","type":"trojan","server":"35.181.231.139","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @DirectVPN | 18","type":"trojan","server":"34.248.4.52","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @forwardv2ray | 19","type":"trojan","server":"3.76.169.10","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | trojan | @PrivateVPNs | 18'
-      - '🇫🇷FR | trojan | @DirectVPN | 18'
+      - '🇫🇷FR | trojan | @PrivateVPNs | 18'
+      - '🇮🇪IE | trojan | @DirectVPN | 18'
+      - '🇩🇪DE | trojan | @forwardv2ray | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | trojan | @PrivateVPNs | 18'
-      - '🇫🇷FR | trojan | @DirectVPN | 18'
+      - '🇫🇷FR | trojan | @PrivateVPNs | 18'
+      - '🇮🇪IE | trojan | @DirectVPN | 18'
+      - '🇩🇪DE | trojan | @forwardv2ray | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | trojan | @PrivateVPNs | 18'
-      - '🇫🇷FR | trojan | @DirectVPN | 18'
+      - '🇫🇷FR | trojan | @PrivateVPNs | 18'
+      - '🇮🇪IE | trojan | @DirectVPN | 18'
+      - '🇩🇪DE | trojan | @forwardv2ray | 19'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve

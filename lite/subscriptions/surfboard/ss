@@ -12,12 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇺🇸US | ss | @OutlineVpnOfficial | 17 = ss, www.outline.network.ak1994.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 2443, encrypt-method = aes-256-gcm, password = 9m6DuriBu+Zyyw2QKeXD507ZBdS4p9Lo02jTnOkWjTc=
-🇨🇳CN | ss | @forwardv2ray | 19 = ss, nc.t1.go002.xyz, 19531, encrypt-method = chacha20-ietf-poly1305, password = 8c6d36b8-f1f4-45d5-a4ad-b9ac9143e064
 🇩🇪DE | ss | @kingofilter | 18 = ss, passconf.xyz, 8080, encrypt-method = chacha20-ietf-poly1305, password = qGjmI8WQlF0tfhDbkLqGdN
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇳CN | ss | @forwardv2ray | 19,🇩🇪DE | ss | @kingofilter | 18
-URL-TEST = url-test,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇳CN | ss | @forwardv2ray | 19,🇩🇪DE | ss | @kingofilter | 18
-FALLBACK = fallback,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇳CN | ss | @forwardv2ray | 19,🇩🇪DE | ss | @kingofilter | 18
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @kingofilter | 18
+URL-TEST = url-test,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @kingofilter | 18
+FALLBACK = fallback,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @kingofilter | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | ss | @kingofilter | 18 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+🇺🇸US | ss | @V2rayCollectorDonate | 19 = ss, us4.doushimeng.com, 20802, encrypt-method = chacha20-ietf-poly1305, password = 78123cec-1e80-432d-ac93-8e3bda9ac77e
+🇯🇵JP | ss | @forwardv2ray | 14 = ss, 140.238.58.147, 21853, encrypt-method = chacha20-ietf-poly1305, password = 25841df9-a719-4011-baeb-bb5227754109
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | ss | @kingofilter | 18
-URL-TEST = url-test,🇬🇧GB | ss | @kingofilter | 18
-FALLBACK = fallback,🇬🇧GB | ss | @kingofilter | 18
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | ss | @V2rayCollectorDonate | 19,🇯🇵JP | ss | @forwardv2ray | 14
+URL-TEST = url-test,🇺🇸US | ss | @V2rayCollectorDonate | 19,🇯🇵JP | ss | @forwardv2ray | 14
+FALLBACK = fallback,🇺🇸US | ss | @V2rayCollectorDonate | 19,🇯🇵JP | ss | @forwardv2ray | 14
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

@@ -120,7 +120,7 @@
                 "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
-                "🇨🇦CA | vless | @DarkTeam_VPN | 20",
+                "🇨🇦CA | vless | @DarkTeam_VPN | 17",
                 "🇨🇦CA | vless | @V2raysFree | 15",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇨🇦CA | vless | @V2rayCollector | 1",
@@ -162,9 +162,9 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🏳️XX | vless | @Capoit | 3",
-                "🇺🇸US | vless | @FreakConfig | 9",
+                "🇨🇷CR | vless | @FreakConfig | 9",
                 "🇮🇷IR | vless | @flyv2ray | 14",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 13",
@@ -195,7 +195,7 @@
                 "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
-                "🇨🇦CA | vless | @DarkTeam_VPN | 20",
+                "🇨🇦CA | vless | @DarkTeam_VPN | 17",
                 "🇨🇦CA | vless | @V2raysFree | 15",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇨🇦CA | vless | @V2rayCollector | 1",
@@ -237,9 +237,9 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🏳️XX | vless | @Capoit | 3",
-                "🇺🇸US | vless | @FreakConfig | 9",
+                "🇨🇷CR | vless | @FreakConfig | 9",
                 "🇮🇷IR | vless | @flyv2ray | 14",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 13",
@@ -702,11 +702,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DarkTeam_VPN | 20",
+            "tag": "🇨🇦CA | vless | @DarkTeam_VPN | 17",
             "type": "vless",
-            "server": "104.16.45.12",
-            "server_port": 443,
-            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+            "server": "www.zula.ir",
+            "server_port": 8443,
+            "uuid": "f6ba58ec-d11d-4c98-8572-84936bd72aa3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -716,7 +716,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pages.20230619.love",
+                "server_name": "Fin.Melobigg.Site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -725,11 +725,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "pages.20230619.love"
-                }
+                "type": "grpc",
+                "service_name": "me",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1813,7 +1813,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 9",
+            "tag": "🇨🇷CR | vless | @FreakConfig | 9",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 8443,
@@ -1875,13 +1875,16 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "testkk.haplou.com",
-            "server_port": 48639,
-            "uuid": "89e6c026-10dd-409a-a075-33739f303262",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "104.237.128.72",
+            "server_port": 14432,
+            "uuid": "4c09b776-6f83-4bf2-f7f7-4e286dbbb6da",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",

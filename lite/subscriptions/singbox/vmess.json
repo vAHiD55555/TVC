@@ -113,7 +113,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🇫🇷FR | vmess | @forwardv2ray | 17",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3"
             ]
@@ -129,7 +128,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🇫🇷FR | vmess | @forwardv2ray | 17",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3"
             ],
@@ -335,23 +333,6 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "172.232.44.241",
-            "server_port": 8081,
-            "uuid": "13c67541-4a42-434d-b158-e4c5730b1d09",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇮🇷IR | vmess | @FAKEOFTVC | 2",
             "type": "vmess",
             "server": "ser52.gsmxssh.com",
@@ -386,7 +367,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?",
                 "headers": {
                     "Host": ""
                 }

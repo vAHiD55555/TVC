@@ -125,9 +125,9 @@
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
-                "🇺🇸US | vmess | @prrofile_purple | 170",
+                "🇨🇦CA | vmess | @prrofile_purple | 170",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 42",
-                "🇺🇸US | vmess | @v2ray_swhil | 4",
+                "🇨🇦CA | vmess | @v2ray_swhil | 4",
                 "🇨🇳CN | vmess | @DailyV2RY | 75",
                 "🇺🇸US | vmess | @yaney_01 | 0",
                 "🇻🇳VN | vmess | @yaney_01 | 1",
@@ -151,7 +151,8 @@
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 4",
+                "🇨🇦CA | vmess | @forwardv2ray | 4",
+                "🏳️XX | vmess | @forwardv2ray | 11",
                 "🇩🇰DK | vmess | @nofiltering2 | 6",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1",
@@ -182,9 +183,9 @@
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
-                "🇺🇸US | vmess | @prrofile_purple | 170",
+                "🇨🇦CA | vmess | @prrofile_purple | 170",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 42",
-                "🇺🇸US | vmess | @v2ray_swhil | 4",
+                "🇨🇦CA | vmess | @v2ray_swhil | 4",
                 "🇨🇳CN | vmess | @DailyV2RY | 75",
                 "🇺🇸US | vmess | @yaney_01 | 0",
                 "🇻🇳VN | vmess | @yaney_01 | 1",
@@ -208,7 +209,8 @@
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 4",
+                "🇨🇦CA | vmess | @forwardv2ray | 4",
+                "🏳️XX | vmess | @forwardv2ray | 11",
                 "🇩🇰DK | vmess | @nofiltering2 | 6",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1",
@@ -663,7 +665,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @prrofile_purple | 170",
+            "tag": "🇨🇦CA | vmess | @prrofile_purple | 170",
             "type": "vmess",
             "server": "104.27.102.105",
             "server_port": 8080,
@@ -711,7 +713,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2ray_swhil | 4",
+            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 4",
             "type": "vmess",
             "server": "104.27.102.105",
             "server_port": 8080,
@@ -1369,11 +1371,35 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 4",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 4",
             "type": "vmess",
-            "server": "188.114.97.7",
+            "server": "cdnjs.com",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 11",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
             "server_port": 443,
-            "uuid": "A89671E4-BEC4-4AA1-9F39-6BE735FA11FD",
+            "uuid": "EA2A2CA4-1C8A-4F4E-ABB5-684191349EC3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1386,7 +1412,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "kansas.gafn.online",
+                "server_name": "Dusseldorf.kotick.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1398,7 +1424,7 @@
                 "type": "ws",
                 "path": "\/speedtest",
                 "headers": {
-                    "Host": "kansas.gafn.online"
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },

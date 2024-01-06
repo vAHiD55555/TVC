@@ -112,7 +112,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇺🇸US | vless | @frev2ray | 5",
+                "🇨🇷CR | vless | @frev2ray | 5",
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇨🇷CR | vless | @azadi_az_inja_migzare | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇷CR | vless | @V2rayNGn | 24",
+                "🇺🇸US | vless | @V2rayNGn | 24",
                 "🇸🇪SE | vless | @prrofile_purple | 177",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
@@ -154,9 +154,10 @@
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🏳️XX | vless | @Capoit | 3",
-                "🇨🇷CR | vless | @FreakConfig | 9",
+                "🇺🇸US | vless | @FreakConfig | 9",
                 "🇮🇷IR | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -177,7 +178,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇺🇸US | vless | @frev2ray | 5",
+                "🇨🇷CR | vless | @frev2ray | 5",
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
@@ -191,7 +192,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇨🇷CR | vless | @azadi_az_inja_migzare | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇷CR | vless | @V2rayNGn | 24",
+                "🇺🇸US | vless | @V2rayNGn | 24",
                 "🇸🇪SE | vless | @prrofile_purple | 177",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
@@ -219,9 +220,10 @@
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🏳️XX | vless | @Capoit | 3",
-                "🇨🇷CR | vless | @FreakConfig | 9",
+                "🇺🇸US | vless | @FreakConfig | 9",
                 "🇮🇷IR | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -436,7 +438,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @frev2ray | 5",
+            "tag": "🇨🇷CR | vless | @frev2ray | 5",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 2095,
@@ -863,7 +865,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 24",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 24",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -1410,9 +1412,9 @@
         {
             "tag": "🇨🇦CA | vless | @SafeNet_Server | 13",
             "type": "vless",
-            "server": "edgu.pureboy.eu.org",
-            "server_port": 443,
-            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "da8d0369-0121-4d2b-9fe1-c071833604cf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1420,21 +1422,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "edgu.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "edgu.pureboy.eu.org"
+                    "Host": "tgju.org"
                 }
             }
         },
@@ -1649,7 +1641,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @FreakConfig | 9",
+            "tag": "🇺🇸US | vless | @FreakConfig | 9",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 8443,
@@ -1711,11 +1703,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "199.27.129.100",
-            "server_port": 2053,
-            "uuid": "63c25827-10dd-4dfc-8c63-e15a6e884bac",
+            "server": "173.245.58.31",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1723,21 +1715,32 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mtntntmeidjiedxcxwssd.dl-onlinedoctor.bio",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "173.245.58.31"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
+            "type": "vless",
+            "server": "104.21.59.125",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/backup",
+                "path": "\/",
                 "headers": {
-                    "Host": "mtntntmeidjiedxcxwssd.dl-onlinedoctor.bio"
+                    "Host": "104.21.59.125"
                 }
             }
         },

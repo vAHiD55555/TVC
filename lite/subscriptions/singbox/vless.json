@@ -156,7 +156,7 @@
                 "🏳️XX | vless | @Capoit | 3",
                 "🇺🇸US | vless | @FreakConfig | 9",
                 "🇮🇷IR | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 14",
@@ -222,7 +222,7 @@
                 "🏳️XX | vless | @Capoit | 3",
                 "🇺🇸US | vless | @FreakConfig | 9",
                 "🇮🇷IR | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 14",
@@ -1703,11 +1703,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "173.245.58.31",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "104.21.28.188",
+            "server_port": 2087,
+            "uuid": "c35aa3ef-b21a-43af-c820-1a3bc6498044",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1715,11 +1715,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "dovomi.nufilter.store",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
                 "headers": {
-                    "Host": "173.245.58.31"
+                    "Host": "dovomi.nufilter.store"
                 }
             }
         },

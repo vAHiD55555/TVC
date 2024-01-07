@@ -113,6 +113,7 @@
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇳🇱NL | vless | @v2rayng_vpnrog | 4",
                 "🏳️XX | vless | @Capital_NET | 52",
+                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇫🇮FI | vless | @proxy_mtm | 24",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -130,6 +131,7 @@
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇳🇱NL | vless | @v2rayng_vpnrog | 4",
                 "🏳️XX | vless | @Capital_NET | 52",
+                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇫🇮FI | vless | @proxy_mtm | 24",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -390,6 +392,35 @@
                     "enabled": true,
                     "public_key": "90WvSEDjTWdVj1U5JPXphB6VZ4ojR42tZN7PuEeRqXM",
                     "short_id": "dc838e556e8a86bd"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 16",
+            "type": "vless",
+            "server": "45.84.196.148",
+            "server_port": 8443,
+            "uuid": "9701c8b3-b2c0-4a70-b5af-da5cf5361a47",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SuZTEyms4vQtWwsT7PC6tP1HZFAStjxuzvnI1-xRogU",
+                    "short_id": "90462b6a"
                 }
             }
         },

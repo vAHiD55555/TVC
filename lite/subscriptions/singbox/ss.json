@@ -107,8 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 0",
-                "🇬🇧GB | ss | @proxy_mtm | 20"
+                "🇺🇸US | ss | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @proxy_mtm | 31"
             ]
         },
         {
@@ -116,8 +116,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 0",
-                "🇬🇧GB | ss | @proxy_mtm | 20"
+                "🇺🇸US | ss | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @proxy_mtm | 31"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -150,17 +150,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 0",
+            "tag": "🇺🇸US | ss | @forwardv2ray | 18",
             "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
+            "server": "38.68.134.202",
+            "server_port": 7306,
+            "method": "aes-256-gcm",
+            "password": "FoOiGlkAA9yPEGP",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @proxy_mtm | 20",
+            "tag": "🇬🇧GB | ss | @proxy_mtm | 31",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
             "server_port": 443,

@@ -110,9 +110,8 @@
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @v2ray_swhil | 17",
-                "🇬🇧GB | vmess | @ConfigsHUB | 16",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇨🇦CA | vmess | @Hope_Net | 12",
+                "🇫🇷FR | vmess | @Hope_Net | 13",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 3"
             ]
@@ -125,9 +124,8 @@
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @v2ray_swhil | 17",
-                "🇬🇧GB | vmess | @ConfigsHUB | 16",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇨🇦CA | vmess | @Hope_Net | 12",
+                "🇫🇷FR | vmess | @Hope_Net | 13",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 3"
             ],
@@ -251,23 +249,6 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @ConfigsHUB | 16",
-            "type": "vmess",
-            "server": "161.35.46.214",
-            "server_port": 12036,
-            "uuid": "707e998f-e696-486d-b17e-72b04cfca367",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇨🇳CN | vmess | @yaney_01 | 10",
             "type": "vmess",
             "server": "cm1.awslcn.info",
@@ -292,11 +273,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 12",
+            "tag": "🇫🇷FR | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "104.27.102.105",
-            "server_port": 8080,
-            "uuid": "Telegram-V2ray_alpha",
+            "server": "fr-full.privateip.net",
+            "server_port": 443,
+            "uuid": "04695962-ec9f-4589-b962-263e7b55664c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -307,11 +288,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "fr-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": ""
+                    "Host": "fr-full.privateip.net"
                 }
             }
         },

@@ -110,9 +110,9 @@
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇯🇵JP | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @forwardv2ray | 13",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ]
         },
@@ -124,9 +124,9 @@
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇯🇵JP | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @forwardv2ray | 13",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -239,11 +239,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 9",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "jp.takeshi.wiki",
-            "server_port": 80,
-            "uuid": "59517e0b-ae1c-41d3-9c44-c44cea6f7546",
+            "server": "172.67.160.99",
+            "server_port": 443,
+            "uuid": "a869c557-5c7d-426f-9039-0279c16352bc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -254,11 +254,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/takeshi.wiki",
+                "path": "\/vmessws",
                 "headers": {
-                    "Host": "jp.takeshi.wiki"
+                    "Host": ""
                 }
             }
         },
@@ -297,11 +307,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 18",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 13",
             "type": "vmess",
-            "server": "188.114.97.7",
-            "server_port": 443,
-            "uuid": "679EB815-53BB-4806-8240-8B7A8D771FE8",
+            "server": "15.204.245.168",
+            "server_port": 51574,
+            "uuid": "c0393889-0a0f-47d6-ba43-fe38a7f23d92",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -311,23 +321,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kansas.gafn.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "kansas.gafn.online"
-                }
             }
         },
         {

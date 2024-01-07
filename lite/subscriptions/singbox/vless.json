@@ -108,16 +108,16 @@
                 "URL-TEST",
                 "🇸🇬SG | vless | @EliV2ray | 16",
                 "🇫🇷FR | vless | @VlessConfig | 14",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 30",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 30",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @V2pedia | 6",
-                "🇨🇷CR | vless | @frev2ray | 6",
+                "🇺🇸US | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @ARv2ray | 14",
                 "🇨🇷CR | vless | @shh_proxy | 17",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇷CR | vless | @lightning6 | 17",
-                "🇺🇸US | vless | @V2rayNGmat | 1",
+                "🇨🇷CR | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
@@ -155,7 +155,8 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 8",
-                "🇺🇸US | vless | @flyv2ray | 12",
+                "🇨🇷CR | vless | @flyv2ray | 12",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 15",
@@ -173,16 +174,16 @@
             "outbounds": [
                 "🇸🇬SG | vless | @EliV2ray | 16",
                 "🇫🇷FR | vless | @VlessConfig | 14",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 30",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 30",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @V2pedia | 6",
-                "🇨🇷CR | vless | @frev2ray | 6",
+                "🇺🇸US | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @ARv2ray | 14",
                 "🇨🇷CR | vless | @shh_proxy | 17",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇷CR | vless | @lightning6 | 17",
-                "🇺🇸US | vless | @V2rayNGmat | 1",
+                "🇨🇷CR | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
@@ -220,7 +221,8 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 8",
-                "🇺🇸US | vless | @flyv2ray | 12",
+                "🇨🇷CR | vless | @flyv2ray | 12",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 15",
@@ -314,7 +316,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 30",
+            "tag": "🇨🇷CR | vless | @VPNCUSTOMIZE | 30",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -438,7 +440,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @frev2ray | 6",
+            "tag": "🇺🇸US | vless | @frev2ray | 6",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 2095,
@@ -586,7 +588,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 1",
+            "tag": "🇨🇷CR | vless | @V2rayNGmat | 1",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1660,7 +1662,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 12",
+            "tag": "🇨🇷CR | vless | @flyv2ray | 12",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1688,6 +1690,37 @@
                 "headers": {
                     "Host": "SHHPROXY.snappfoodd.site"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "[::ffff:681a:f50]",
+            "server_port": 8443,
+            "uuid": "215fe998-29ae-4e84-9471-2bdb211b1742",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free.foxnim.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@networknim",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

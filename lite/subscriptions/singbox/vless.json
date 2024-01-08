@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 23",
                 "🇨🇦CA | vless | @free_v2rayyy | 9",
                 "🇨🇷CR | vless | @lightning6 | 22",
-                "🇨🇷CR | vless | @V2rayNGmat | 1",
+                "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 23",
@@ -128,7 +128,7 @@
                 "🏳️XX | vless | @v2logy | 18",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
-                "🇨🇷CR | vless | @V2rayNGn | 25",
+                "🇺🇸US | vless | @V2rayNGn | 25",
                 "🇳🇱NL | vless | @prrofile_purple | 176",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
@@ -157,7 +157,6 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 5",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -186,7 +185,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 23",
                 "🇨🇦CA | vless | @free_v2rayyy | 9",
                 "🇨🇷CR | vless | @lightning6 | 22",
-                "🇨🇷CR | vless | @V2rayNGmat | 1",
+                "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 23",
@@ -194,7 +193,7 @@
                 "🏳️XX | vless | @v2logy | 18",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
-                "🇨🇷CR | vless | @V2rayNGn | 25",
+                "🇺🇸US | vless | @V2rayNGn | 25",
                 "🇳🇱NL | vless | @prrofile_purple | 176",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
@@ -223,7 +222,6 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 5",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -686,7 +684,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGmat | 1",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 1",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -919,7 +917,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 25",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 25",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -1480,9 +1478,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.18.202.212",
-            "server_port": 443,
-            "uuid": "a99cbf1e-031d-401e-ae97-0b3db53d0c52",
+            "server": "172.67.204.84",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1490,22 +1488,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "FreaV2rayng.VPNCUSTOMIZE.tech",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "‌@VPNCUSTOMIZE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.204.84"
+                }
             }
         },
         {
@@ -1731,37 +1719,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
-            "type": "vless",
-            "server": "104.21.59.125",
-            "server_port": 443,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mahi.kosnanatfilterchi.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mahi.kosnanatfilterchi.eu.org"
-                }
             }
         },
         {

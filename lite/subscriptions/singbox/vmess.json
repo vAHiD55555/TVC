@@ -109,11 +109,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
+                "🇸🇬SG | vmess | @ConfigsHUB | 18",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇫🇷FR | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 7",
+                "🏳️XX | vmess | @forwardv2ray | 17",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 3"
             ]
         },
@@ -124,11 +125,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
+                "🇸🇬SG | vmess | @ConfigsHUB | 18",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇫🇷FR | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 7",
+                "🏳️XX | vmess | @forwardv2ray | 17",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -210,11 +212,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 19",
+            "tag": "🇸🇬SG | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "206.238.236.36",
+            "server_port": 2086,
+            "uuid": "45f63e92-f782-4cac-84b8-e61cb5a5bfd0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -224,6 +226,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/adenc35.fixedlfoat.top\/linkws",
+                "headers": {
+                    "Host": "mysan2.jaquay22.workers.dev"
+                }
             }
         },
         {
@@ -340,6 +349,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

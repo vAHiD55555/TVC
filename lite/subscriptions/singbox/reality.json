@@ -119,8 +119,9 @@
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 14",
+                "🇫🇮FI | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 9",
+                "🇫🇮FI | vless | @proxy_mtm | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ]
@@ -142,8 +143,9 @@
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 14",
+                "🇫🇮FI | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 9",
+                "🇫🇮FI | vless | @proxy_mtm | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ],
@@ -594,11 +596,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 14",
+            "tag": "🇫🇮FI | vless | @mehrosaboran | 8",
             "type": "vless",
-            "server": "51.75.86.63",
+            "server": "37.27.4.17",
             "server_port": 443,
-            "uuid": "974d4696-a900-4d44-b627-9833b8a7b27a",
+            "uuid": "02aa594a-af2e-4b35-8a17-5986ce15c7b5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -608,18 +610,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "flightradar24.com",
+                "server_name": "www.forcespeed.fun",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "edge"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "UDABcxpKzAYkuyE4pmST0OSzEUJpQNuSgYIKcgppeh8",
-                    "short_id": "d73382b02fa94fc2"
+                    "public_key": "k3pNS9C17Yo-kZo0QGHyavoLAEwq6cNgCnAO70khbmg",
+                    "short_id": "483211d3"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -649,6 +658,42 @@
                     "public_key": "V6aOj8Lade9JQer_QiBOfyg2VPvCQRidgwt3OQcNX3M",
                     "short_id": "fe"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | @proxy_mtm | 10",
+            "type": "vless",
+            "server": "135.181.103.148",
+            "server_port": 443,
+            "uuid": "057a1dcd-86ac-45d6-a9b4-a8f3fa650d68",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.forcespeed.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zK0EUXkCYg-rLjpZaKhE-5ZgUjxrTsrmA5TSK0C2IA0",
+                    "short_id": "d9597abd"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

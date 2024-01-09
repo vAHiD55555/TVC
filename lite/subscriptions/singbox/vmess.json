@@ -293,9 +293,9 @@
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "ca2-full.privateip.net",
-            "server_port": 443,
-            "uuid": "faba8e04-77a3-46d2-bc1b-db29ecd6c318",
+            "server": "172.67.158.147",
+            "server_port": 2095,
+            "uuid": "417d27fb-cb93-3bd8-9bf7-71cd91319821",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -306,21 +306,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ca2-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/RACEVPN",
+                "path": "\/hgcefomn",
                 "headers": {
-                    "Host": "ca2-full.privateip.net"
+                    "Host": ""
                 }
             }
         },

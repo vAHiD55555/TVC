@@ -128,8 +128,8 @@
                 "🇨🇷CR | vless | @azadi_az_inja_migzare | 24",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
-                "🇨🇷CR | vless | @V2rayNGn | 23",
-                "🇩🇪DE | vless | @prrofile_purple | 166",
+                "🇺🇸US | vless | @V2rayNGn | 23",
+                "🇸🇪SE | vless | @prrofile_purple | 166",
                 "🇨🇷CR | vless | @ShadowSocks_s | 2",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🇨🇦CA | vless | @vmessorg | 18",
@@ -191,8 +191,8 @@
                 "🇨🇷CR | vless | @azadi_az_inja_migzare | 24",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
-                "🇨🇷CR | vless | @V2rayNGn | 23",
-                "🇩🇪DE | vless | @prrofile_purple | 166",
+                "🇺🇸US | vless | @V2rayNGn | 23",
+                "🇸🇪SE | vless | @prrofile_purple | 166",
                 "🇨🇷CR | vless | @ShadowSocks_s | 2",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🇨🇦CA | vless | @vmessorg | 18",
@@ -359,7 +359,7 @@
             "type": "vless",
             "server": "tel.ipV2.fun",
             "server_port": 2087,
-            "uuid": "313f6263-1860-47cf-a72d-7210c416e896",
+            "uuid": "24b1d7fc-7436-426c-ba8d-fc41565766f6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -911,7 +911,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 23",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 23",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -942,23 +942,31 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @prrofile_purple | 166",
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 166",
             "type": "vless",
-            "server": "172.104.148.48",
-            "server_port": 2052,
-            "uuid": "915aebc9-dd3c-456c-87b9-2b0cba0bd872",
-            "flow": "",
+            "server": "13.49.231.227",
+            "server_port": 5222,
+            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.104.148.48"
+            "tls": {
+                "enabled": true,
+                "server_name": "coinmarketcap.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "czZ3FHdhP1sXsHU3YOcIZukZXGq4tvaD6emtcBDyGAg",
+                    "short_id": "1db3"
                 }
             }
         },
@@ -1280,7 +1288,7 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "164-Join.V2RayTz.sbs",
+            "server": "166-Join.V2RayTz.sbs",
             "server_port": 2087,
             "uuid": "6c5db66b-4002-4e15-afb3-fad79fdbfa7f",
             "flow": "",

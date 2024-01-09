@@ -125,9 +125,9 @@
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇨🇷CR | vless | @servermomo | 15",
                 "🇨🇷CR | vless | @azadi_az_inja_migzare | 24",
-                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
-                "🇺🇸US | vless | @V2rayNGn | 23",
+                "🇨🇷CR | vless | @V2rayNGn | 23",
                 "🇬🇧GB | trojan | @PrivateVPNs | 15",
                 "🇮🇪IE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -149,6 +149,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇮🇷IR | vless | @lrnbymaa | 10",
@@ -167,7 +168,7 @@
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 8",
                 "🇺🇸US | vless | @flyv2ray | 14",
-                "🇫🇷FR | trojan | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 1",
                 "🇺🇸US | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -203,9 +204,9 @@
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇨🇷CR | vless | @servermomo | 15",
                 "🇨🇷CR | vless | @azadi_az_inja_migzare | 24",
-                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
-                "🇺🇸US | vless | @V2rayNGn | 23",
+                "🇨🇷CR | vless | @V2rayNGn | 23",
                 "🇬🇧GB | trojan | @PrivateVPNs | 15",
                 "🇮🇪IE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -227,6 +228,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇮🇷IR | vless | @lrnbymaa | 10",
@@ -245,7 +247,7 @@
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 8",
                 "🇺🇸US | vless | @flyv2ray | 14",
-                "🇫🇷FR | trojan | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 1",
                 "🇺🇸US | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -880,26 +882,33 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
-            "type": "vmess",
-            "server": "104.27.102.105",
-            "server_port": 8080,
-            "uuid": "Telegram-V2ray_alpha",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "104.18.189.219",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -935,7 +944,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 23",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 23",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -1474,6 +1483,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 17",
+            "type": "vless",
+            "server": "edgu.pureboy.eu.org",
+            "server_port": 443,
+            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "edgu.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "edgu.pureboy.eu.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 105",
             "type": "vless",
             "server": "vip.cdn2cdn.com",
@@ -1746,9 +1786,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 10",
             "type": "vless",
-            "server": "www.unpkg.com",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "172.67.172.214",
+            "server_port": 80,
+            "uuid": "0d4ae35f-6330-4122-b2be-03c5257b479a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1756,21 +1796,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/backup",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "172.67.172.214"
                 }
             }
         },
@@ -1952,11 +1982,13 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @forwardv2ray | 18",
-            "type": "trojan",
-            "server": "171-Join.V2RayTz.sbs",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 1",
+            "type": "vless",
+            "server": "All.MsV2ray.online",
+            "server_port": 2083,
+            "uuid": "-MsV2ray--MsV2ray-",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1964,12 +1996,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trj.rollingnext.co.uk",
+                "server_name": "de.MsV2ray.space",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "de.MsV2ray.space"
                 }
             }
         },

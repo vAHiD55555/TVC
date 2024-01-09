@@ -156,8 +156,8 @@
         {
             "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
             "type": "vmess",
-            "server": "104.27.102.105",
-            "server_port": 8080,
+            "server": "104.18.202.212",
+            "server_port": 80,
             "uuid": "Telegram-V2ray_alpha",
             "security": "auto",
             "alter_id": 0,
@@ -269,9 +269,9 @@
         {
             "tag": "🇨🇳CN | vmess | @yaney_01 | 10",
             "type": "vmess",
-            "server": "cm1.awslcn.info",
-            "server_port": 25258,
-            "uuid": "93ec7261-1c92-4149-848a-26b6fb9fc4ce",
+            "server": "120.233.43.29",
+            "server_port": 11019,
+            "uuid": "703e2cfe-23ce-391a-bc76-f46348254d38",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -281,13 +281,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {

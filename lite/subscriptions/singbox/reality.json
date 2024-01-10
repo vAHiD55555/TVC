@@ -108,8 +108,9 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🏳️XX | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 5"
@@ -121,8 +122,9 @@
             "outbounds": [
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🏳️XX | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 5"
@@ -220,11 +222,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @Capital_NET | 52",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "zhina.abiiidar.tech",
-            "server_port": 443,
-            "uuid": "9bf8930d-878a-420b-bbf5-44a9e4b5b86d",
+            "server": "304-Join.V2RayTz.sbs",
+            "server_port": 8443,
+            "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -234,7 +236,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.tradingview.com",
+                "server_name": "coinmarketcap.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -243,13 +245,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "90WvSEDjTWdVj1U5JPXphB6VZ4ojR42tZN7PuEeRqXM",
-                    "short_id": "dc838e556e8a86bd"
+                    "public_key": "TP8Eb3lxzPTbi__3V5oDDBiE-06KMrT10mBt0L4duGY",
+                    "short_id": "f450be"
                 }
             }
         },
         {
-            "tag": "🏳️XX | vless | @forwardv2ray | 18",
+            "tag": "🏳️XX | vless | @ConfigsHUB | 19",
             "type": "vless",
             "server": "v2logy.ddns.net",
             "server_port": 443,
@@ -282,6 +284,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @Capital_NET | 52",
+            "type": "vless",
+            "server": "zhina.abiiidar.tech",
+            "server_port": 443,
+            "uuid": "9bf8930d-878a-420b-bbf5-44a9e4b5b86d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tradingview.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "90WvSEDjTWdVj1U5JPXphB6VZ4ojR42tZN7PuEeRqXM",
+                    "short_id": "dc838e556e8a86bd"
+                }
             }
         },
         {

@@ -107,10 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇸🇪SE | vless | @prrofile_purple | 175",
-                "🇸🇪SE | vless | @customv2ray | 13",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🏳️XX | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 14",
+                "🇸🇪SE | vless | @VmessProtocol | 15",
+                "🇩🇪DE | vless | @fnet00 | 5",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -124,10 +124,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇸🇪SE | vless | @prrofile_purple | 175",
-                "🇸🇪SE | vless | @customv2ray | 13",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🏳️XX | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 14",
+                "🇸🇪SE | vless | @VmessProtocol | 15",
+                "🇩🇪DE | vless | @fnet00 | 5",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -192,64 +192,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @prrofile_purple | 175",
-            "type": "vless",
-            "server": "13.49.231.227",
-            "server_port": 5222,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "coinmarketcap.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "czZ3FHdhP1sXsHU3YOcIZukZXGq4tvaD6emtcBDyGAg",
-                    "short_id": "1db3"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @customv2ray | 13",
-            "type": "vless",
-            "server": "13.50.225.215",
-            "server_port": 443,
-            "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "coinmarketcap.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Y_EDAjYZVKJbTZ2VB6T6uP3vTQnCGXFU4DnBlvxWvhs",
-                    "short_id": "1db3"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @MTConfig | 21",
             "type": "vless",
             "server": "161.35.221.251",
@@ -286,9 +228,9 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2RayTz | 19",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 14",
             "type": "vless",
-            "server": "257-Join.V2RayTz.sbs",
+            "server": "271-Join.V2RayTz.sbs",
             "server_port": 443,
             "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
             "flow": "xtls-rprx-vision",
@@ -309,9 +251,74 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "OPRtliLgOJ848YoEtQsNlKnTRJYNnVBTmjV84nx_W2E",
+                    "public_key": "fHi6xdGZBoro7zfUToE1grSk6oeLz-eMc1DbUaK7SXQ",
                     "short_id": "f450be"
                 }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @VmessProtocol | 15",
+            "type": "vless",
+            "server": "13.53.136.161",
+            "server_port": 443,
+            "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "coinmarketcap.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3_S4RTy1XXteh7r3oEEyMGUzlNh9piAOrhx8WDHwuyQ",
+                    "short_id": "1db3"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @fnet00 | 5",
+            "type": "vless",
+            "server": "kamyarservers.camdvr.org",
+            "server_port": 443,
+            "uuid": "6f5d7ed2-cfdf-43a9-9b3e-4cb20d0afb29",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mihanyas.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "bl_WgZJU4-XnjnZ1HWu6tAWaz8rvdgy2pGmaFpOgcQ0",
+                    "short_id": "0960546b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@configMs",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

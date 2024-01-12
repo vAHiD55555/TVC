@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @XsV2ray | 4",
                 "🇫🇷FR | vless | @VlessConfig | 15",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 19",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 19",
                 "🏳️XX | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 6",
@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇺🇸US | vless | @proxyymeliii | 15",
+                "🇨🇷CR | vless | @proxyymeliii | 16",
                 "🏳️XX | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
@@ -166,6 +166,7 @@
                 "🇩🇪DE | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @FreakConfig | 9",
                 "🇫🇮FI | vless | @flyv2ray | 14",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇹🇼TW | vmess | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -182,7 +183,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @XsV2ray | 4",
                 "🇫🇷FR | vless | @VlessConfig | 15",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 19",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 19",
                 "🏳️XX | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 6",
@@ -218,7 +219,7 @@
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇺🇸US | vless | @proxyymeliii | 15",
+                "🇨🇷CR | vless | @proxyymeliii | 16",
                 "🏳️XX | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
@@ -240,6 +241,7 @@
                 "🇩🇪DE | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @FreakConfig | 9",
                 "🇫🇮FI | vless | @flyv2ray | 14",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇹🇼TW | vmess | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -332,7 +334,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 19",
+            "tag": "🇨🇷CR | vless | @VPNCUSTOMIZE | 19",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -1316,11 +1318,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxyymeliii | 15",
+            "tag": "🇨🇷CR | vless | @proxyymeliii | 16",
             "type": "vless",
-            "server": "V2ray.motorcycles",
-            "server_port": 2087,
-            "uuid": "fbf3597c-d447-480e-a159-210ee00fdb51",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 443,
+            "uuid": "18e7c6fc-7338-4e71-b395-b49089940984",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1330,7 +1332,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "SHHPROXY.snappfoodd.site",
+                "server_name": "SHHV2ray.snappfoodd.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1339,11 +1341,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SHHPROXY.snappfoodd.site"
-                }
+                "type": "grpc",
+                "service_name": "@Shh_Proxy,@Shh_Proxy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1962,6 +1964,40 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "0:0:0:0:0:ffff:a2fb:52bb",
+            "server_port": 443,
+            "uuid": "9cd0b784-88a2-49dc-9930-284f5c819139",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eae9697673669304.publcenem.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/elhm",
+                "headers": {
+                    "Host": "eae9697673669304.publcenem.shop"
+                }
             }
         },
         {

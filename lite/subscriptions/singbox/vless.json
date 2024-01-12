@@ -141,7 +141,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇨🇷CR | vless | @V2RayTz | 15",
-                "🇮🇷IR | vless | @DailyV2RY | 113",
+                "🇺🇸US | vless | @DailyV2RY | 114",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
@@ -151,8 +151,7 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 2",
-                "🇨🇷CR | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @flyv2ray | 13",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -199,7 +198,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇨🇷CR | vless | @V2RayTz | 15",
-                "🇮🇷IR | vless | @DailyV2RY | 113",
+                "🇺🇸US | vless | @DailyV2RY | 114",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
@@ -209,8 +208,7 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 2",
-                "🇨🇷CR | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @flyv2ray | 13",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -1243,11 +1241,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @DailyV2RY | 113",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 114",
             "type": "vless",
-            "server": "185.143.234.120",
-            "server_port": 2087,
-            "uuid": "57595f10-8c1e-403a-b328-64ad826c74fc",
+            "server": "all.aparat.lol",
+            "server_port": 443,
+            "uuid": "979c0e68-f0a7-4703-91a0-0678ce60e1f6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1257,7 +1255,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "app.snapp.ir",
+                "server_name": "SHHPROXY.snnapp.monster",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1267,9 +1265,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/sqhvhytcc",
+                "path": "\/",
                 "headers": {
-                    "Host": "app.snapp.ir"
+                    "Host": "SHHPROXY.snnapp.monster"
                 }
             }
         },
@@ -1551,7 +1549,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @flyv2ray | 13",
+            "tag": "🇺🇸US | vless | @flyv2ray | 13",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1578,27 +1576,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "SHHPROXY.snappfoodd.site"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "4join.bede.vmessorg.info",
-            "server_port": 80,
-            "uuid": "bcefd6ac-d259-4c99-a8a2-c94a1f1bb1bc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "4join.bede.vmessorg.info"
                 }
             }
         },

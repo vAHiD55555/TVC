@@ -108,8 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
-                "🇮🇷IR | vmess | @ShadowProxy66 | 21",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 7",
+                "🇩🇪DE | vmess | @ShadowProxy66 | 10",
+                "🇺🇸US | vmess | @ConfigsHUB | 2",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
                 "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -124,8 +125,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
-                "🇮🇷IR | vmess | @ShadowProxy66 | 21",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 7",
+                "🇩🇪DE | vmess | @ShadowProxy66 | 10",
+                "🇺🇸US | vmess | @ConfigsHUB | 2",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
                 "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -205,11 +207,35 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "49.13.193.50",
-            "server_port": 8880,
-            "uuid": "467146bd-5e88-4fc3-aa29-cd8f6a436f61",
+            "server": "komhfg.sbs",
+            "server_port": 36763,
+            "uuid": "bf4fdd06-b725-458c-984b-33468f4bc778",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 10",
+            "type": "vmess",
+            "server": "94.130.168.175",
+            "server_port": 52203,
+            "uuid": "0d3766e5-3a61-4a8b-bf34-7e48beab2e88",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -222,11 +248,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ShadowProxy66 | 21",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 2",
             "type": "vmess",
-            "server": "62.60.131.238",
-            "server_port": 12888,
-            "uuid": "66214d78-b33c-459a-a7b9-e50ab19d16b9",
+            "server": "104.224.52.104",
+            "server_port": 38632,
+            "uuid": "4bd467aa-ae27-43cc-b1fa-6666d54b0666",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -236,6 +262,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "testray1.zanylee.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/4jPzm2QK\/",
+                "headers": {
+                    "Host": "testray1.zanylee.uk"
+                }
             }
         },
         {

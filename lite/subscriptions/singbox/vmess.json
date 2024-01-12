@@ -108,15 +108,14 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 7",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @prrofile_purple | 167",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 10",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
-                "🇹🇼TW | vmess | @FAKEOFTVC | 5",
+                "🇹🇼TW | vmess | @FAKEOFTVC | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1"
             ]
         },
@@ -126,15 +125,14 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 7",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @prrofile_purple | 167",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 10",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
-                "🇹🇼TW | vmess | @FAKEOFTVC | 5",
+                "🇹🇼TW | vmess | @FAKEOFTVC | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -199,11 +197,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "komhfg.sbs",
-            "server_port": 36763,
-            "uuid": "bf4fdd06-b725-458c-984b-33468f4bc778",
+            "server": "217.160.45.31",
+            "server_port": 8880,
+            "uuid": "4e186678-fcca-4325-e4bc-b2916bdf6708",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -363,41 +361,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "hexsen.com",
-            "server_port": 443,
-            "uuid": "de04add9-5c68-8bab-950c-08cd5320df18",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sources-routines-switching-palmer.trycloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/argo-vmess",
-                "headers": {
-                    "Host": "sources-routines-switching-palmer.trycloudflare.com"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇼TW | vmess | @FAKEOFTVC | 5",
+            "tag": "🇹🇼TW | vmess | @FAKEOFTVC | 6",
             "type": "vmess",
             "server": "103.159.206.35",
             "server_port": 31945,

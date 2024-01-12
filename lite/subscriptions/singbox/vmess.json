@@ -108,10 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @prrofile_purple | 176",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 10",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -126,10 +125,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @prrofile_purple | 176",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 10",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -199,30 +197,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
-            "type": "vmess",
-            "server": "217.160.45.31",
-            "server_port": 8880,
-            "uuid": "4e186678-fcca-4325-e4bc-b2916bdf6708",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @prrofile_purple | 176",
             "type": "vmess",
             "server": "104.18.202.212",
@@ -264,11 +238,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "104.21.20.148",
-            "server_port": 2086,
-            "uuid": "Telegram-V2ray_alpha",
+            "server": "85.198.13.104",
+            "server_port": 43563,
+            "uuid": "71a36b5e-6ff9-4ed4-9437-27656b4f9ad1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -278,13 +252,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {

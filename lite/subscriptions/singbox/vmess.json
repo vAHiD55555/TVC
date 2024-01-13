@@ -117,8 +117,8 @@
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @forwardv2ray | 17",
-                "🇺🇸US | vmess | @eliya_chiter0 | 0",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 0",
                 "🇨🇦CA | vmess | @SINABIGO | 7"
             ]
         },
@@ -137,8 +137,8 @@
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @forwardv2ray | 17",
-                "🇺🇸US | vmess | @eliya_chiter0 | 0",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 0",
                 "🇨🇦CA | vmess | @SINABIGO | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -404,11 +404,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "173.245.58.250",
-            "server_port": 80,
-            "uuid": "eaglegolden",
+            "server": "mtn.cpionline.cc",
+            "server_port": 443,
+            "uuid": "251780c1-1501-43b3-be2a-d144a20d479a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -419,16 +419,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "hdfy5c1.foriran.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Nbs2DSTSkFWe4KVnk9AHQv",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 0",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 0",
             "type": "vmess",
             "server": "104.27.102.105",
             "server_port": 8080,

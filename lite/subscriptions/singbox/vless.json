@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @XsV2ray | 6",
                 "🇫🇷FR | vless | @VlessConfig | 15",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 14",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 14",
                 "🇩🇪DE | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 7",
@@ -147,6 +147,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @SafeNet_Server | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 10",
                 "🇳🇱NL | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 38",
@@ -155,6 +156,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇫🇮FI | vless | @flyv2ray | 15",
+                "🇮🇷IR | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇳🇱NL | vless | @mehrosaboran | 14",
@@ -174,7 +176,7 @@
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @XsV2ray | 6",
                 "🇫🇷FR | vless | @VlessConfig | 15",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 14",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 14",
                 "🇩🇪DE | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 7",
@@ -211,6 +213,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @SafeNet_Server | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 10",
                 "🇳🇱NL | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 38",
@@ -219,6 +222,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇫🇮FI | vless | @flyv2ray | 15",
+                "🇮🇷IR | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇳🇱NL | vless | @mehrosaboran | 14",
@@ -374,7 +378,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 14",
+            "tag": "🇨🇷CR | vless | @VPNCUSTOMIZE | 14",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 2053,
@@ -1401,6 +1405,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.21.64.117",
+            "server_port": 2053,
+            "uuid": "1ff43e16-a291-4657-9293-5ccc74dc0faa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Uk-HI-FILTERCHE.COUNTLEON.EU.ORG",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@x2rayn_vpn",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇷CR | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "proxystore11.kodaksho.eu.org",
@@ -1644,6 +1679,20 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "free.ownnpv.cc",
+            "server_port": 11777,
+            "uuid": "492b1651-044c-4f28-bf15-20daee42247b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

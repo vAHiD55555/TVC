@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧GB | ss | @servermomo | 5",
-                "🇸🇪SE | ss | @azadi_az_inja_migzare | 5",
+                "🇸🇪SE | ss | @azadi_az_inja_migzare | 7",
                 "🇺🇸US | ss | @VmessProtocol | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
@@ -125,6 +125,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
+                "🇬🇧GB | ss | @proxy_mtm | 1",
                 "🇬🇧GB | ss | @kingofilter | 10"
             ]
         },
@@ -133,7 +134,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧GB | ss | @servermomo | 5",
-                "🇸🇪SE | ss | @azadi_az_inja_migzare | 5",
+                "🇸🇪SE | ss | @azadi_az_inja_migzare | 7",
                 "🇺🇸US | ss | @VmessProtocol | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
@@ -151,6 +152,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
+                "🇬🇧GB | ss | @proxy_mtm | 1",
                 "🇬🇧GB | ss | @kingofilter | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -184,7 +186,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | ss | @azadi_az_inja_migzare | 5",
+            "tag": "🇸🇪SE | ss | @azadi_az_inja_migzare | 7",
             "type": "shadowsocks",
             "server": "172.232.129.44",
             "server_port": 1080,
@@ -355,6 +357,16 @@
         },
         {
             "tag": "🇬🇧GB | ss | @proxy_mtm | 0",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @proxy_mtm | 1",
             "type": "shadowsocks",
             "server": "51.142.142.155",
             "server_port": 5957,

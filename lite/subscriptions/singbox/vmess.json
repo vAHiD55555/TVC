@@ -116,6 +116,7 @@
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 0",
                 "🇨🇦CA | vmess | @SINABIGO | 7"
             ]
@@ -134,6 +135,7 @@
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 0",
                 "🇨🇦CA | vmess | @SINABIGO | 7"
             ],
@@ -379,6 +381,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "104.27.102.105",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },

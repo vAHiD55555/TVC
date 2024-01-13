@@ -111,9 +111,8 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @prrofile_purple | 175",
-                "🇮🇷IR | vmess | @ShadowProxy66 | 23",
+                "🇮🇷IR | vmess | @ShadowProxy66 | 42",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 11",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -131,9 +130,8 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @prrofile_purple | 175",
-                "🇮🇷IR | vmess | @ShadowProxy66 | 23",
+                "🇮🇷IR | vmess | @ShadowProxy66 | 42",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 11",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -271,7 +269,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ShadowProxy66 | 23",
+            "tag": "🇮🇷IR | vmess | @ShadowProxy66 | 42",
             "type": "vmess",
             "server": "81.12.27.4",
             "server_port": 20512,
@@ -302,40 +300,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 11",
-            "type": "vmess",
-            "server": "mehdi19.mehdimoghaddam.fun",
-            "server_port": 2096,
-            "uuid": "1207c544-8199-45b8-befe-23fdd03630c0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@forwardv2ray",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {

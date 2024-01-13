@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 29",
+                "🇺🇸US | vless | @lightning6 | 29",
                 "🇨🇷CR | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
@@ -128,7 +128,7 @@
                 "🏳️XX | vless | @azadi_az_inja_migzare | 6",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇨🇷CR | vless | @V2rayNGn | 18",
-                "🇨🇷CR | vless | @ShadowSocks_s | 5",
+                "🇺🇸US | vless | @ShadowSocks_s | 5",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🏳️XX | vless | @vmessorg | 9",
@@ -147,6 +147,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @SafeNet_Server | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 10",
                 "🇳🇱NL | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 38",
@@ -182,7 +183,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
-                "🇨🇷CR | vless | @lightning6 | 29",
+                "🇺🇸US | vless | @lightning6 | 29",
                 "🇨🇷CR | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
@@ -192,7 +193,7 @@
                 "🏳️XX | vless | @azadi_az_inja_migzare | 6",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇨🇷CR | vless | @V2rayNGn | 18",
-                "🇨🇷CR | vless | @ShadowSocks_s | 5",
+                "🇺🇸US | vless | @ShadowSocks_s | 5",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🏳️XX | vless | @vmessorg | 9",
@@ -211,6 +212,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @SafeNet_Server | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 10",
                 "🇳🇱NL | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 38",
@@ -632,7 +634,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 29",
+            "tag": "🇺🇸US | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -920,7 +922,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 5",
+            "tag": "🇺🇸US | vless | @ShadowSocks_s | 5",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -1405,6 +1407,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "172.66.44.158"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "www.unpkg.com",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },

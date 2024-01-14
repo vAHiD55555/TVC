@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @servermomo | 5",
-                "🇺🇸US | ss | @VmessProtocol | 5",
+                "🇬🇧GB | ss | @servermomo | 6",
+                "🇺🇸US | ss | @VmessProtocol | 7",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -123,17 +123,16 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @proxy_mtm | 18",
-                "🇬🇧GB | ss | @proxy_mtm | 19",
-                "🇬🇧GB | ss | @kingofilter | 10"
+                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @proxy_mtm | 12"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @servermomo | 5",
-                "🇺🇸US | ss | @VmessProtocol | 5",
+                "🇬🇧GB | ss | @servermomo | 6",
+                "🇺🇸US | ss | @VmessProtocol | 7",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -149,9 +148,8 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @proxy_mtm | 18",
-                "🇬🇧GB | ss | @proxy_mtm | 19",
-                "🇬🇧GB | ss | @kingofilter | 10"
+                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @proxy_mtm | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -174,7 +172,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @servermomo | 5",
+            "tag": "🇬🇧GB | ss | @servermomo | 6",
             "type": "shadowsocks",
             "server": "51.142.73.20",
             "server_port": 6961,
@@ -184,7 +182,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @VmessProtocol | 5",
+            "tag": "🇺🇸US | ss | @VmessProtocol | 7",
             "type": "shadowsocks",
             "server": "38.121.43.248",
             "server_port": 8882,
@@ -344,7 +342,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @proxy_mtm | 18",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
             "server_port": 443,
@@ -354,17 +352,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @proxy_mtm | 19",
-            "type": "shadowsocks",
-            "server": "51.142.142.155",
-            "server_port": 5957,
-            "method": "chacha20-ietf-poly1305",
-            "password": "rEFFUsg4pUiF5Olu5VeB3F",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @kingofilter | 10",
+            "tag": "🇬🇧GB | ss | @proxy_mtm | 12",
             "type": "shadowsocks",
             "server": "series-a2-me.samanehha.co",
             "server_port": 443,

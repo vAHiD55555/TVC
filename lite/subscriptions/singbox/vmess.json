@@ -108,13 +108,14 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 42",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇳🇱NL | vmess | @forwardv2ray | 17",
                 "🇩🇰DK | vmess | @nofiltering2 | 11",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 0",
                 "🇮🇷IR | vmess | @SINABIGO | 7"
@@ -126,13 +127,14 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 42",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇳🇱NL | vmess | @forwardv2ray | 17",
                 "🇩🇰DK | vmess | @nofiltering2 | 11",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 0",
                 "🇮🇷IR | vmess | @SINABIGO | 7"
@@ -192,6 +194,30 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+            "type": "vmess",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "562ae412-d7b5-4f1e-dd0d-82e073193b21",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/fa",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vmess | @ShadowProxy66 | 42",
             "type": "vmess",
             "server": "81.12.27.4",
@@ -223,30 +249,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "Azarbayjab1.v2.dev.cfd",
-            "server_port": 80,
-            "uuid": "de04add9-5c68-8bab-950c-08cd5320df18",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/argo-vmess?TM-AZARBAYJAB1 https:\/\/t.me\/Azarbayjab1",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -345,6 +347,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "188.114.97.7",
+            "server_port": 443,
+            "uuid": "A96CD938-B399-4635-8DD6-0D2F718B79A1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kansas.gafn.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "kansas.gafn.online"
                 }
             }
         },

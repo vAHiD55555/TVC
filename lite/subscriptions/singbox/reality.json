@@ -111,7 +111,7 @@
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 6",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 5",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @V2RayTz | 15",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 2",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -129,7 +129,7 @@
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 6",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 5",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @V2RayTz | 15",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 2",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -331,11 +331,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 15",
             "type": "vless",
-            "server": "mrz3.gsmvp.com",
-            "server_port": 8443,
-            "uuid": "a6bc744d-01e3-49d6-956b-b2fd8d712a6a",
+            "server": "436-Join.V2RayTz.sbs",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -345,18 +345,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.discordapp.com",
+                "server_name": "greenpepper.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
+                    "public_key": "ZzC-V_0G35Ji8mXAmr2vmlunnmZYbtaFsnDJ3TeClBM",
+                    "short_id": "fed3e52cd7"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

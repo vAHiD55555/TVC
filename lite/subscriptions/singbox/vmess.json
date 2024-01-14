@@ -108,13 +108,14 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 42",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇩🇰DK | vmess | @nofiltering2 | 11",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇮🇷IR | vmess | @SINABIGO | 9"
@@ -126,13 +127,14 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 42",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇩🇰DK | vmess | @nofiltering2 | 11",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇮🇷IR | vmess | @SINABIGO | 9"
@@ -192,7 +194,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
             "server": "104.27.62.243",
             "server_port": 443,
@@ -355,6 +357,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "us-n1.speedyyun.com",
+            "server_port": 25314,
+            "uuid": "783ea1c5-928f-4d4a-a091-ea8ae1988063",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/victorias",
+                "headers": {
+                    "Host": ""
                 }
             }
         },

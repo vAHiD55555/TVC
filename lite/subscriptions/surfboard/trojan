@@ -13,12 +13,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇫🇷FR | trojan | @PrivateVPNs | 18 = trojan, 15.188.99.91, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
 🇬🇧GB | trojan | @DirectVPN | 18 = trojan, 18.171.121.249, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
-🇨🇦CA | trojan | @VmessProtocol | 13 = trojan, cdn-13.cdn2cdn.com, 2083, password = qG9K8AGnn9XH5jUqeFu96g, udp-delay = true, skip-cert-verify = false, sni = cdn13.cdn2cdn.com, ws = false
-🇩🇪DE | trojan | @forwardv2ray | 19 = trojan, 54.93.86.18, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
+🇨🇦CA | trojan | @VmessProtocol | 14 = trojan, cdn-13.cdn2cdn.com, 2083, password = qG9K8AGnn9XH5jUqeFu96g, udp-delay = true, skip-cert-verify = false, sni = cdn13.cdn2cdn.com, ws = false
+🇨🇦CA | trojan | @forwardv2ray | 18 = trojan, de6.melobigg.site, 443, password = yjQi9IX5mu, udp-delay = true, skip-cert-verify = false, sni = de6.melobigg.site, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 18,🇬🇧GB | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @VmessProtocol | 13,🇩🇪DE | trojan | @forwardv2ray | 19
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 18,🇬🇧GB | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @VmessProtocol | 13,🇩🇪DE | trojan | @forwardv2ray | 19
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 18,🇬🇧GB | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @VmessProtocol | 13,🇩🇪DE | trojan | @forwardv2ray | 19
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 18,🇬🇧GB | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @VmessProtocol | 14,🇨🇦CA | trojan | @forwardv2ray | 18
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 18,🇬🇧GB | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @VmessProtocol | 14,🇨🇦CA | trojan | @forwardv2ray | 18
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 18,🇬🇧GB | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @VmessProtocol | 14,🇨🇦CA | trojan | @forwardv2ray | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

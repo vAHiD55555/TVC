@@ -116,9 +116,8 @@
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇦🇺AU | vmess | @forwardv2ray | 18",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 0",
-                "🇨🇦CA | vmess | @SINABIGO | 7"
+                "🇳🇱NL | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 0"
             ]
         },
         {
@@ -135,9 +134,8 @@
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇦🇺AU | vmess | @forwardv2ray | 18",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 0",
-                "🇨🇦CA | vmess | @SINABIGO | 7"
+                "🇳🇱NL | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -368,11 +366,11 @@
             }
         },
         {
-            "tag": "🇦🇺AU | vmess | @forwardv2ray | 18",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "91.108.240.202",
-            "server_port": 8080,
-            "uuid": "cd3a05bd-4b70-45e5-aaf8-f1077c4fc4d3",
+            "server": "free.faranet.space",
+            "server_port": 4524,
+            "uuid": "c120b307-93c5-4c1c-f652-5f86b2139b49",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -388,30 +386,6 @@
             "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 0",
             "type": "vmess",
             "server": "104.27.102.105",
-            "server_port": 8080,
-            "uuid": "Telegram-V2ray_alpha",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @SINABIGO | 7",
-            "type": "vmess",
-            "server": "104.27.102.150",
             "server_port": 8080,
             "uuid": "Telegram-V2ray_alpha",
             "security": "auto",

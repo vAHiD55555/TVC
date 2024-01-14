@@ -110,12 +110,12 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @forwardv2ray | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @FAKEOFTVC | 6",
                 "🇩🇰DK | vmess | @nofiltering2 | 11",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇮🇷IR | vmess | @SINABIGO | 9"
@@ -129,12 +129,12 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @forwardv2ray | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @FAKEOFTVC | 6",
                 "🇩🇰DK | vmess | @nofiltering2 | 11",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇮🇷IR | vmess | @SINABIGO | 9"
@@ -233,23 +233,6 @@
             "server": "79.143.84.117",
             "server_port": 25477,
             "uuid": "9b788fa7-9e35-4ed5-e0e9-7d788b26ec07",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -361,11 +344,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 9",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "173.245.59.209",
+            "server": "linde06.indiavideo.sbs",
             "server_port": 443,
-            "uuid": "8106b311-ac00-466e-a33b-481842096294",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -378,7 +361,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "comprehensive-poultry-patients-listing.trycloudflare.com",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -388,10 +371,44 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/whose",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "comprehensive-poultry-patients-listing.trycloudflare.com"
+                    "Host": "linde06.indiavideo.sbs"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @FAKEOFTVC | 6",
+            "type": "vmess",
+            "server": "104.17.4.149",
+            "server_port": 443,
+            "uuid": "dac50700-b222-11ee-9dfb-1239d0255272",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "us1.socifiles.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "vmgrpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

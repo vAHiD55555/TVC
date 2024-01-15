@@ -110,8 +110,9 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 5",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇸🇪SE | vless | @VmessProtocol | 13",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇩🇪DE | vless | @Capoit | 4",
+                "🇩🇪DE | vless | @Capoit | 3",
                 "🇩🇪DE | vless | @flyv2ray | 16",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -127,8 +128,9 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 5",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇸🇪SE | vless | @VmessProtocol | 13",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇩🇪DE | vless | @Capoit | 4",
+                "🇩🇪DE | vless | @Capoit | 3",
                 "🇩🇪DE | vless | @flyv2ray | 16",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -300,6 +302,35 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @VmessProtocol | 13",
+            "type": "vless",
+            "server": "16.16.167.175",
+            "server_port": 443,
+            "uuid": "dde00ef7-df93-4736-a806-4d1ceb55f4c2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "2a05-d016-63c-5c02-b8a7-17a7-ed8a-eea1.kiava.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "dUerNSk9wkTmc4EJQtU9ViIiUq7t7bwbI36q_dG7xhA",
+                    "short_id": "c6"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @Capital_NET | 52",
             "type": "vless",
             "server": "zhina.abiiidar.tech",
@@ -329,9 +360,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Capoit | 4",
+            "tag": "🇩🇪DE | vless | @Capoit | 3",
             "type": "vless",
-            "server": "49.13.49.240",
+            "server": "188.34.154.219",
             "server_port": 443,
             "uuid": "b79fcb6b-5da4-494b-9ecc-d65d3ebcf7fe",
             "flow": "xtls-rprx-vision",
@@ -343,7 +374,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "greenpepper.ir",
+                "server_name": "akniga.biz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -352,7 +383,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Srl2eMHE2z0k54qo6MSjd0sMvduiY-VKd9ubyXmJkg4",
+                    "public_key": "gnd39l1nb7AvsWB11yXeyv7s1vgWj5rXxcdd2qJ_LxY",
                     "short_id": "961777e2"
                 }
             },

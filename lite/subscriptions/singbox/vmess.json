@@ -111,10 +111,10 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🇩🇪DE | vmess | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @yaney_01 | 10",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -127,10 +127,10 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🇩🇪DE | vmess | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @yaney_01 | 10",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -256,23 +256,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 16",
-            "type": "vmess",
-            "server": "5.75.139.76",
-            "server_port": 8081,
-            "uuid": "354b7885-8b7a-4887-aed8-816eb77c1133",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @yaney_01 | 10",
             "type": "vmess",
             "server": "38.54.185.111",
@@ -344,6 +327,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "go.wumaojichang.com",
+            "server_port": 2086,
+            "uuid": "d17fc866-2858-4a92-a85a-30ae348d3818",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "go.wumaojichang.com"
                 }
             }
         },

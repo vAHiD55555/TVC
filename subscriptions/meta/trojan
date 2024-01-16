@@ -152,7 +152,6 @@ proxies:
   - {"name":"🇫🇷FR | trojan | @DirectVPN | 15","type":"trojan","server":"15.236.189.197","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇮🇷IR | trojan | @proxyymeliii | 1","type":"trojan","server":"87.107.102.224","port":2001,"udp":false,"password":"jWTq3OZkXs","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"milan.news-liqgroup1278.site"}
   - {"name":"🇩🇪DE | trojan | @FAKEOFTVC | 3","type":"trojan","server":"3.127.185.166","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🏳️XX | trojan | @FAKEOFTVC | 6","type":"trojan","server":"neat.oceanoflight.top","port":2083,"udp":false,"password":"87Z3xKp2eF","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"neat.oceanoflight.top"}
   - {"name":"🇺🇸US | trojan | @kingofilter | 3","type":"trojan","server":"104.17.186.227","port":443,"udp":false,"password":"Mahanvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"mahanvip.mahantu.top"}
 proxy-groups:
   - name: MANUAL
@@ -192,7 +191,6 @@ proxy-groups:
       - '🇫🇷FR | trojan | @DirectVPN | 15'
       - '🇮🇷IR | trojan | @proxyymeliii | 1'
       - '🇩🇪DE | trojan | @FAKEOFTVC | 3'
-      - '🏳️XX | trojan | @FAKEOFTVC | 6'
       - '🇺🇸US | trojan | @kingofilter | 3'
   - name: URL-TEST
     type: url-test
@@ -232,7 +230,6 @@ proxy-groups:
       - '🇫🇷FR | trojan | @DirectVPN | 15'
       - '🇮🇷IR | trojan | @proxyymeliii | 1'
       - '🇩🇪DE | trojan | @FAKEOFTVC | 3'
-      - '🏳️XX | trojan | @FAKEOFTVC | 6'
       - '🇺🇸US | trojan | @kingofilter | 3'
   - name: FALLBACK
     type: fallback
@@ -271,7 +268,6 @@ proxy-groups:
       - '🇫🇷FR | trojan | @DirectVPN | 15'
       - '🇮🇷IR | trojan | @proxyymeliii | 1'
       - '🇩🇪DE | trojan | @FAKEOFTVC | 3'
-      - '🏳️XX | trojan | @FAKEOFTVC | 6'
       - '🇺🇸US | trojan | @kingofilter | 3'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}

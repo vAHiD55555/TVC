@@ -111,7 +111,7 @@
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @XsV2ray | 8",
                 "🇫🇷FR | vless | @VlessConfig | 15",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 17",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇺🇸US | vless | @V2pedia | 7",
@@ -131,7 +131,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 12",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇷CR | vless | @V2rayNGn | 14",
+                "🇺🇸US | vless | @V2rayNGn | 14",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -172,7 +172,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇳🇱NL | vmess | @forwardv2ray | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -194,7 +193,7 @@
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @XsV2ray | 8",
                 "🇫🇷FR | vless | @VlessConfig | 15",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 17",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇺🇸US | vless | @V2pedia | 7",
@@ -214,7 +213,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 12",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇷CR | vless | @V2rayNGn | 14",
+                "🇺🇸US | vless | @V2rayNGn | 14",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -255,7 +254,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇳🇱NL | vmess | @forwardv2ray | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -433,7 +431,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 17",
+            "tag": "🇨🇷CR | vless | @VPNCUSTOMIZE | 17",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -1019,7 +1017,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 14",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 14",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -2055,40 +2053,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 4",
-            "type": "vmess",
-            "server": "188.114.97.7",
-            "server_port": 443,
-            "uuid": "50FC6DDB-DD6A-46A5-9098-806CAD8AA6C6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kansas.gafn.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "kansas.gafn.online"
-                }
             }
         },
         {

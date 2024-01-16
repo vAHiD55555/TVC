@@ -111,7 +111,7 @@
                 "🇩🇪DE | vless | @prrofile_purple | 169",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 6",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🏳️XX | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇩🇪DE | vless | @flyv2ray | 18",
@@ -130,7 +130,7 @@
                 "🇩🇪DE | vless | @prrofile_purple | 169",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 6",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🏳️XX | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇩🇪DE | vless | @flyv2ray | 18",
@@ -326,11 +326,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
+            "tag": "🏳️XX | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "my.learn-something.top",
+            "server": "v2logy.ddns.net",
             "server_port": 443,
-            "uuid": "ce704214-0e17-41ef-99ca-b64ce9ed9faf",
+            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -340,18 +340,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "my.learn-something.top",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "6dvnCKS-vXF5_QIdmKgv8cZkUR6ki-3snnHOgfZz2Vg",
-                    "short_id": "68c24997"
+                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
+                    "short_id": ""
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

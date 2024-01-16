@@ -109,12 +109,14 @@
                 "🇫🇮FI | vless | @ipV2Ray | 18",
                 "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
+                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 4",
                 "🇩🇪DE | vless | @flyv2ray | 17",
+                "🇩🇪DE | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 5",
-                "🇺🇸US | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ]
@@ -126,12 +128,14 @@
                 "🇫🇮FI | vless | @ipV2Ray | 18",
                 "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
+                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 4",
                 "🇩🇪DE | vless | @flyv2ray | 17",
+                "🇩🇪DE | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 5",
-                "🇺🇸US | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ],
@@ -261,6 +265,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "tun2.pyre.online",
+            "server_port": 2053,
+            "uuid": "8660f7bd-b15e-4ddf-aaa0-bcd8655f1287",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bahmanbroker.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "A9C3zGK_7uw7FcVEBxX8WNoA2DsJFYvplaSTS3D0WQY",
+                    "short_id": "053ce71dd4c2138d"
+                }
             }
         },
         {
@@ -401,6 +434,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @mehrosaboran | 12",
+            "type": "vless",
+            "server": "128.140.98.60",
+            "server_port": 443,
+            "uuid": "28ea8279-4f22-4d5f-9be6-b38344e9f22c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ipv2ray.v2rayservice.store",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "32EMnZZaoc-bC7H50p5GanAkyHkyGsud-PgxmTAyoyk",
+                    "short_id": "e989a0a0"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @kiava | 5",
             "type": "vless",
             "server": "13.50.13.108",
@@ -430,7 +499,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 23",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 23",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1403,

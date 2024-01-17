@@ -109,7 +109,7 @@
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇺🇦UA | vmess | @oneclickvpnkeys | 11",
                 "🏳️XX | vmess | @prrofile_purple | 182",
                 "🇺🇸US | vmess | @yaney_01 | 11",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
@@ -123,7 +123,7 @@
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇺🇦UA | vmess | @oneclickvpnkeys | 11",
                 "🏳️XX | vmess | @prrofile_purple | 182",
                 "🇺🇸US | vmess | @yaney_01 | 11",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
@@ -208,11 +208,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇺🇦UA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "us-west-anycast.lnaspiring.com",
-            "server_port": 80,
-            "uuid": "a0b63317-33b5-4197-8ea0-f11e96d19767",
+            "server": "45.137.155.195",
+            "server_port": 443,
+            "uuid": "49c76bcf-3a58-43df-b1d4-2bffe9ca03b5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -223,11 +223,14 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/geg\/44",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

@@ -107,8 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 9",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
                 "🏳️XX | vless | @Capital_NET | 52",
+                "🇦🇪AE | vless | @forwardv2ray | 17",
                 "🇦🇪AE | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -121,8 +122,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 9",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
                 "🏳️XX | vless | @Capital_NET | 52",
+                "🇦🇪AE | vless | @forwardv2ray | 17",
                 "🇦🇪AE | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -186,7 +188,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 9",
+            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
             "type": "vless",
             "server": "16.16.212.238",
             "server_port": 2083,
@@ -240,6 +242,35 @@
                     "enabled": true,
                     "public_key": "90WvSEDjTWdVj1U5JPXphB6VZ4ojR42tZN7PuEeRqXM",
                     "short_id": "dc838e556e8a86bd"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇪AE | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "uae.ipcloud.blog",
+            "server_port": 3737,
+            "uuid": "3a9396e9-e6d5-44b6-a385-a2255b655f86",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sni.ipcloud.blog",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
+                    "short_id": "3a622700e73c6642"
                 }
             }
         },

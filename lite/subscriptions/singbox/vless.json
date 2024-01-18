@@ -134,7 +134,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 23",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇺🇸US | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 14",
+                "🇺🇸US | vless | @V2rayNGn | 14",
                 "🇨🇦CA | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @UnlimitedDev | 4",
                 "🏳️XX | vless | @vmessorg | 0",
@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇮🇷IR | vless | @vless_vmess | 8",
-                "🇨🇦CA | vless | @V2RayTz | 8",
+                "🇺🇸US | vless | @V2RayTz | 0",
                 "🇨🇷CR | vless | @DailyV2RY | 137",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @MehradLearn | 12",
@@ -159,7 +159,6 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇳🇱NL | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -204,7 +203,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 23",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇺🇸US | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 14",
+                "🇺🇸US | vless | @V2rayNGn | 14",
                 "🇨🇦CA | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @UnlimitedDev | 4",
                 "🏳️XX | vless | @vmessorg | 0",
@@ -216,7 +215,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇮🇷IR | vless | @vless_vmess | 8",
-                "🇨🇦CA | vless | @V2RayTz | 8",
+                "🇺🇸US | vless | @V2RayTz | 0",
                 "🇨🇷CR | vless | @DailyV2RY | 137",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @MehradLearn | 12",
@@ -229,7 +228,6 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇳🇱NL | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -1075,7 +1073,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 14",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 14",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1354,11 +1352,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 8",
+            "tag": "🇺🇸US | vless | @V2RayTz | 0",
             "type": "vless",
-            "server": "104.18.203.232",
-            "server_port": 443,
-            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+            "server": "190.93.244.103",
+            "server_port": 8880,
+            "uuid": "d3b4d87a-a31c-4629-9400-c46233932fa1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1366,21 +1364,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Iran.ir.arvancode.eu.Org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/bShq2qgG8GnX8zqm\/",
+                "path": "\/@LIGHTNING6",
                 "headers": {
-                    "Host": "Iran.ir.arvancode.eu.Org"
+                    "Host": "190.93.244.103"
                 }
             }
         },
@@ -1711,27 +1699,6 @@
                 "path": "\/?ed",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "nim.webobin.site",
-            "server_port": 8080,
-            "uuid": "2180d14d-86f9-411e-a5c3-48bda809fa81",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "nim.webobin.site"
                 }
             }
         },

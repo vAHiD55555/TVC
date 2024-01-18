@@ -107,9 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
+                "🇩🇪DE | vless | @V2rayNGn | 13",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 11",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇦🇪AE | vless | @forwardv2ray | 17",
                 "🇦🇪AE | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -122,9 +122,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
+                "🇩🇪DE | vless | @V2rayNGn | 13",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 11",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇦🇪AE | vless | @forwardv2ray | 17",
                 "🇦🇪AE | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -188,7 +188,36 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
+            "tag": "🇩🇪DE | vless | @V2rayNGn | 13",
+            "type": "vless",
+            "server": "128.140.65.160",
+            "server_port": 443,
+            "uuid": "---VPNCUSTOMIZE---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mrtax.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8hrG5vdwXHrC1qWIQuDUNXgQ1jENJuZdLtfJDvfsDFA",
+                    "short_id": "aa875d0c"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 11",
             "type": "vless",
             "server": "16.16.212.238",
             "server_port": 2083,
@@ -246,35 +275,6 @@
             }
         },
         {
-            "tag": "🇦🇪AE | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "uae.ipcloud.blog",
-            "server_port": 3737,
-            "uuid": "3a9396e9-e6d5-44b6-a385-a2255b655f86",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sni.ipcloud.blog",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
-                }
-            }
-        },
-        {
             "tag": "🇦🇪AE | vless | @FAKEOFTVC | 5",
             "type": "vless",
             "server": "20.174.34.49",
@@ -313,7 +313,7 @@
         {
             "tag": "🇸🇪SE | vless | @kiava | 4",
             "type": "vless",
-            "server": "13.50.231.56",
+            "server": "16.16.208.95",
             "server_port": 443,
             "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
             "flow": "xtls-rprx-vision",
@@ -334,8 +334,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "hSJ9dxBiyK-r8AEJ31tQvOdEfADk8BthO-Y9N8C56Q4",
-                    "short_id": "249e"
+                    "public_key": "Pfm3gfHLKoAyxOVGgXn6YuOtQak4ncOvUv-Nb4OayS0",
+                    "short_id": "1db3"
                 }
             }
         },

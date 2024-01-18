@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
                 "🇨🇷CR | vless | @lightning6 | 27",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇬🇧GB | vless | @vpn_xw | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -188,7 +188,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
                 "🇨🇷CR | vless | @lightning6 | 27",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇬🇧GB | vless | @vpn_xw | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -691,7 +691,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
+            "tag": "🇨🇷CR | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1626,9 +1626,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "cxc--join.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "server": "104.20.156.248",
+            "server_port": 80,
+            "uuid": "-ArV2ray--ArV2ray--ArV2ray-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1636,21 +1636,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/@ArV2ray,@ArV2ray,@ArV2ray?ed",
                 "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
+                    "Host": "104.20.156.248"
                 }
             }
         },

@@ -133,7 +133,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 23",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇺🇸US | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 14",
+                "🇺🇸US | vless | @V2rayNGn | 14",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇮🇷IR | vless | @vless_vmess | 8",
                 "🇨🇷CR | vless | @V2RayTz | 18",
-                "🇺🇸US | vless | @DailyV2RY | 137",
+                "🇨🇷CR | vless | @DailyV2RY | 137",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @MehradLearn | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -168,6 +168,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇳🇱NL | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇮🇷IR | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -212,7 +213,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 23",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇺🇸US | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 14",
+                "🇺🇸US | vless | @V2rayNGn | 14",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -231,7 +232,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇮🇷IR | vless | @vless_vmess | 8",
                 "🇨🇷CR | vless | @V2RayTz | 18",
-                "🇺🇸US | vless | @DailyV2RY | 137",
+                "🇨🇷CR | vless | @DailyV2RY | 137",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @MehradLearn | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -247,6 +248,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇳🇱NL | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇮🇷IR | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -1062,7 +1064,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 14",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 14",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1488,7 +1490,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 137",
+            "tag": "🇨🇷CR | vless | @DailyV2RY | 137",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1916,6 +1918,37 @@
                 "path": "\/?ed",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "api.besttapsi.com",
+            "server_port": 3389,
+            "uuid": "a70b34dc-3a99-4906-b04f-436864bfea3a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api.besttapsi.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/KGijgX@RQ2fvry",
+                "headers": {
+                    "Host": "api.besttapsi.com"
                 }
             }
         },

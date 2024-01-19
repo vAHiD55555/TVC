@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇮🇷IR | vless | @vless_vmess | 8",
                 "🇨🇷CR | vless | @V2RayTz | 18",
-                "🇺🇸US | vless | @DailyV2RY | 148",
+                "🇨🇷CR | vless | @DailyV2RY | 148",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @proxystore11 | 13",
@@ -214,7 +214,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇮🇷IR | vless | @vless_vmess | 8",
                 "🇨🇷CR | vless | @V2RayTz | 18",
-                "🇺🇸US | vless | @DailyV2RY | 148",
+                "🇨🇷CR | vless | @DailyV2RY | 148",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @proxystore11 | 13",
@@ -990,9 +990,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 443,
-            "uuid": "7eb1733f-b192-41bc-af52-8ab96b5967af",
+            "server": "free.pandavpn.tech",
+            "server_port": 80,
+            "uuid": "6c752097-6099-42e7-afb5-9a2601f7d8f0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1000,21 +1000,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "sparrow.lionforpeople.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@FreedomSparrow\/?ed=1024",
+                "path": "\/Telegram channel : @pandavpntc",
                 "headers": {
-                    "Host": "sparrow.lionforpeople.site"
+                    "Host": "free.pandavpn.tech"
                 }
             }
         },
@@ -1340,7 +1330,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 148",
+            "tag": "🇨🇷CR | vless | @DailyV2RY | 148",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,

@@ -126,9 +126,10 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 14",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🏳️XX | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @proxy_mtm | 0",
-                "🇸🇪SE | ss | @proxy_mtm | 4"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 5",
+                "🇬🇧GB | ss | @forwardv2ray | 8",
+                "🇩🇪DE | ss | @forwardv2ray | 13"
             ]
         },
         {
@@ -155,9 +156,10 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 14",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🏳️XX | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @proxy_mtm | 0",
-                "🇸🇪SE | ss | @proxy_mtm | 4"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 5",
+                "🇬🇧GB | ss | @forwardv2ray | 8",
+                "🇩🇪DE | ss | @forwardv2ray | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -380,7 +382,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | ss | @OutlineVpnOfficial | 17",
+            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 2443,
@@ -390,7 +392,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @proxy_mtm | 0",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 5",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 8",
             "type": "shadowsocks",
             "server": "series-a2-me.samanehha.co",
             "server_port": 443,
@@ -400,12 +412,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | ss | @proxy_mtm | 4",
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 13",
             "type": "shadowsocks",
-            "server": "13.50.251.228.sslip.io",
-            "server_port": 80,
+            "server": "masting.xyz",
+            "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "C1t6teiHyOJ6nSuAKOGa8rVDAQKF0uT3zMOUXtVPlSU=",
+            "password": "XvK0ltH67Xhv9ht9RhYsFy",
             "plugin": "",
             "plugin_opts": ""
         }

@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇸🇪SE | ss | @forwardv2ray | 1",
                 "🇩🇪DE | ss | @FAKEOFTVC | 9"
             ]
         },
@@ -115,6 +116,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇸🇪SE | ss | @forwardv2ray | 1",
                 "🇩🇪DE | ss | @FAKEOFTVC | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -144,6 +146,16 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇸🇪SE | ss | @forwardv2ray | 1",
+            "type": "shadowsocks",
+            "server": "13.53.137.45.sslip.io",
+            "server_port": 80,
+            "method": "chacha20-ietf-poly1305",
+            "password": "C1t6teiHyOJ6nSuAKOGa8rVDAQKF0uT3zMOUXtVPlSU=",
             "plugin": "",
             "plugin_opts": ""
         },

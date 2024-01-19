@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 13",
                 "🇳🇱NL | vless | @v2rayngvpn | 9",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 5",
-                "🇺🇸US | vless | @ShadowProxy66 | 9",
+                "🇺🇸US | vless | @ShadowProxy66 | 15",
                 "🇨🇦CA | vless | @ServerNett | 12",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇷CR | vless | @proxyymeliii | 18",
@@ -156,16 +156,15 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 13",
                 "🇮🇷IR | vmess | @Hope_Net | 18",
-                "🇨🇦CA | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 44",
                 "🇦🇺AU | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 2",
-                "🇨🇦CA | vless | @FreakConfig | 12",
+                "🇨🇷CR | vless | @FreakConfig | 11",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -221,7 +220,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 13",
                 "🇳🇱NL | vless | @v2rayngvpn | 9",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 5",
-                "🇺🇸US | vless | @ShadowProxy66 | 9",
+                "🇺🇸US | vless | @ShadowProxy66 | 15",
                 "🇨🇦CA | vless | @ServerNett | 12",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇷CR | vless | @proxyymeliii | 18",
@@ -234,16 +233,15 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 13",
                 "🇮🇷IR | vmess | @Hope_Net | 18",
-                "🇨🇦CA | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 44",
                 "🇦🇺AU | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 2",
-                "🇨🇦CA | vless | @FreakConfig | 12",
+                "🇨🇷CR | vless | @FreakConfig | 11",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1248,7 +1246,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ShadowProxy66 | 9",
+            "tag": "🇺🇸US | vless | @ShadowProxy66 | 15",
             "type": "vless",
             "server": "173.245.58.31",
             "server_port": 80,
@@ -1562,37 +1560,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 13",
-            "type": "vless",
-            "server": "104.31.16.65",
-            "server_port": 2053,
-            "uuid": "848b67bb-9bd8-432f-a0c1-c25b4aa581b5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ch.RxV2ray.space",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ch.RxV2ray.space"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @polproxy | 44",
             "type": "vless",
             "server": "172.67.153.213",
@@ -1758,11 +1725,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 12",
+            "tag": "🇨🇷CR | vless | @FreakConfig | 11",
             "type": "vless",
-            "server": "172.67.204.84",
+            "server": "shhproxy.varzesh3-cnd.site",
             "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "uuid": "3c4b3411-f126-438d-9d2d-3de5e6b96724",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1774,7 +1741,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "172.67.204.84"
+                    "Host": "shhproxy.varzesh3-cnd.site"
                 }
             }
         },
@@ -1810,11 +1777,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "104.16.124.175",
-            "server_port": 8080,
-            "uuid": "76188154-b62c-4c8b-9d39-7aa396ab84fb",
+            "server": "edgu.pureboy.eu.org",
+            "server_port": 443,
+            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1822,11 +1789,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "edgu.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/dali",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.16.124.175"
+                    "Host": "edgu.pureboy.eu.org"
                 }
             }
         },

@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 4",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇷CR | vless | @NIM_VPN_ir | 6",
+                "🇺🇸US | vless | @NIM_VPN_ir | 6",
                 "🇺🇸US | vless | @XsV2ray | 13",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 15",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇮🇷IR | vless | @vless_vmess | 9",
                 "🇺🇸US | vless | @V2RayTz | 16",
-                "🇺🇸US | vless | @DailyV2RY | 166",
+                "🇨🇷CR | vless | @DailyV2RY | 166",
                 "🇺🇸US | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -163,7 +163,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇸🇬SG | vmess | @forwardv2ray | 18",
+                "🇫🇷FR | vless | @forwardv2ray | 3",
                 "🇳🇱NL | vmess | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -186,7 +186,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 4",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇷CR | vless | @NIM_VPN_ir | 6",
+                "🇺🇸US | vless | @NIM_VPN_ir | 6",
                 "🇺🇸US | vless | @XsV2ray | 13",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 15",
@@ -228,7 +228,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇮🇷IR | vless | @vless_vmess | 9",
                 "🇺🇸US | vless | @V2RayTz | 16",
-                "🇺🇸US | vless | @DailyV2RY | 166",
+                "🇨🇷CR | vless | @DailyV2RY | 166",
                 "🇺🇸US | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -241,7 +241,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇸🇬SG | vmess | @forwardv2ray | 18",
+                "🇫🇷FR | vless | @forwardv2ray | 3",
                 "🇳🇱NL | vmess | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -340,7 +340,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @NIM_VPN_ir | 6",
+            "tag": "🇺🇸US | vless | @NIM_VPN_ir | 6",
             "type": "vless",
             "server": "all.VPNCUSTOMIZE.cam",
             "server_port": 80,
@@ -1433,7 +1433,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 166",
+            "tag": "🇨🇷CR | vless | @DailyV2RY | 166",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1783,27 +1783,17 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "206.238.236.36",
-            "server_port": 2052,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇫🇷FR | vless | @forwardv2ray | 3",
+            "type": "vless",
+            "server": "57.128.16.152",
+            "server_port": 27725,
+            "uuid": "02b533fd-1554-4f9f-ae7c-567c9bdc7e71",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/afrhms16v.bestxray.buzz\/linkws",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {

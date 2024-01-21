@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | ss | @DeamNet_Proxy | 19",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇷🇺RU | ss | @forwardv2ray | 18",
                 "🇬🇧GB | ss | @proxy_mtm | 0"
@@ -115,6 +116,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | ss | @DeamNet_Proxy | 19",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇷🇺RU | ss | @forwardv2ray | 18",
                 "🇬🇧GB | ss | @proxy_mtm | 0"
@@ -140,6 +142,16 @@
             "type": "dns"
         },
         {
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 19",
+            "type": "shadowsocks",
+            "server": "205.134.180.143",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "R9Xc4dHXGv3c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
@@ -155,7 +167,7 @@
             "server": "vpn-ru.wwp.im",
             "server_port": 15174,
             "method": "chacha20-ietf-poly1305",
-            "password": "qpwRMU0QCNLesu3gWVtlcL",
+            "password": "4PW2yfhmrb7mJDZsZ6qLxn",
             "plugin": "",
             "plugin_opts": ""
         },

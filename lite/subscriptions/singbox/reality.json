@@ -109,8 +109,10 @@
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 30",
+                "🇸🇪SE | vless | @VmessProtocol | 13",
                 "🏳️XX | vless | @fnet00 | 14",
                 "🏳️XX | vless | @Capital_NET | 52",
+                "🇫🇮FI | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 2",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
@@ -124,8 +126,10 @@
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 30",
+                "🇸🇪SE | vless | @VmessProtocol | 13",
                 "🏳️XX | vless | @fnet00 | 14",
                 "🏳️XX | vless | @Capital_NET | 52",
+                "🇫🇮FI | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 2",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
@@ -253,6 +257,35 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @VmessProtocol | 13",
+            "type": "vless",
+            "server": "16.16.70.79",
+            "server_port": 2083,
+            "uuid": "23758119-cf33-4269-fb50-bc04930d356a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn.amazon.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "db7scON_ZqrQNXUjTWSygqXDcuih0ukP5c3On4iTj3k",
+                    "short_id": "214229"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @fnet00 | 14",
             "type": "vless",
             "server": "kamyarservers.camdvr.org",
@@ -314,6 +347,35 @@
                     "enabled": true,
                     "public_key": "90WvSEDjTWdVj1U5JPXphB6VZ4ojR42tZN7PuEeRqXM",
                     "short_id": "dc838e556e8a86bd"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "finland.notmmdg.com",
+            "server_port": 8443,
+            "uuid": "e15f76e9-870d-4237-b4f0-7d403fa9f31c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "notmmdg.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },

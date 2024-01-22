@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 4",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇺🇸US | vless | @NIM_VPN_ir | 12",
+                "🇨🇷CR | vless | @NIM_VPN_ir | 12",
                 "🇨🇷CR | vless | @XsV2ray | 15",
                 "🇬🇧GB | vless | @VlessConfig | 14",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 16",
@@ -132,7 +132,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 0",
                 "🇨🇦CA | vless | @V2rayNGn | 18",
                 "🇬🇧GB | trojan | @PrivateVPNs | 14",
-                "🇬🇧GB | trojan | @DirectVPN | 14",
+                "🇮🇪IE | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇯🇵JP | vmess | @DeamNet_Proxy | 18",
@@ -168,6 +168,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇺🇸US | vless | @FreakConfig | 7",
+                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🇨🇭CH | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -191,7 +192,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 4",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇺🇸US | vless | @NIM_VPN_ir | 12",
+                "🇨🇷CR | vless | @NIM_VPN_ir | 12",
                 "🇨🇷CR | vless | @XsV2ray | 15",
                 "🇬🇧GB | vless | @VlessConfig | 14",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 16",
@@ -215,7 +216,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 0",
                 "🇨🇦CA | vless | @V2rayNGn | 18",
                 "🇬🇧GB | trojan | @PrivateVPNs | 14",
-                "🇬🇧GB | trojan | @DirectVPN | 14",
+                "🇮🇪IE | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇯🇵JP | vmess | @DeamNet_Proxy | 18",
@@ -251,6 +252,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇺🇸US | vless | @FreakConfig | 7",
+                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🇨🇭CH | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -350,7 +352,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @NIM_VPN_ir | 12",
+            "tag": "🇨🇷CR | vless | @NIM_VPN_ir | 12",
             "type": "vless",
             "server": "all.VPNCUSTOMIZE.cam",
             "server_port": 80,
@@ -404,7 +406,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 14",
             "type": "vless",
-            "server": "18.171.43.244",
+            "server": "18.134.55.24",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -983,7 +985,7 @@
         {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 14",
             "type": "trojan",
-            "server": "18.133.111.81",
+            "server": "52.56.44.252",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1003,9 +1005,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @DirectVPN | 14",
+            "tag": "🇮🇪IE | trojan | @DirectVPN | 14",
             "type": "trojan",
-            "server": "18.169.174.246",
+            "server": "185.48.122.94",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1694,7 +1696,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "baaccab-acba-cbaa-cdba-cacaacbbbabc",
+            "uuid": "abcacab-cbaa-aabc-acbd-cbbaccbcbaaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1929,6 +1931,16 @@
                     "Host": "190.93.245.101"
                 }
             }
+        },
+        {
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇭CH | vmess | @FAKEOFTVC | 2",

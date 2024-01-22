@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @NIM_VPN_ir | 12",
                 "🇨🇷CR | vless | @XsV2ray | 15",
-                "🇫🇷FR | vless | @VlessConfig | 14",
+                "🇬🇧GB | vless | @VlessConfig | 14",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 16",
                 "🇨🇦CA | vless | @ipV2Ray | 14",
                 "🇨🇦CA | vless | @melov2ray | 7",
@@ -127,11 +127,11 @@
                 "🇨🇦CA | vless | @v2logy | 16",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @servermomo | 12",
-                "🇳🇱NL | vless | @azadi_az_inja_migzare | 16",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 0",
                 "🇨🇦CA | vless | @V2rayNGn | 18",
-                "🇫🇷FR | trojan | @PrivateVPNs | 14",
+                "🇬🇧GB | trojan | @PrivateVPNs | 14",
                 "🇬🇧GB | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -168,7 +168,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇺🇸US | vless | @FreakConfig | 7",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇭CH | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -194,7 +193,7 @@
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @NIM_VPN_ir | 12",
                 "🇨🇷CR | vless | @XsV2ray | 15",
-                "🇫🇷FR | vless | @VlessConfig | 14",
+                "🇬🇧GB | vless | @VlessConfig | 14",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 16",
                 "🇨🇦CA | vless | @ipV2Ray | 14",
                 "🇨🇦CA | vless | @melov2ray | 7",
@@ -211,11 +210,11 @@
                 "🇨🇦CA | vless | @v2logy | 16",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @servermomo | 12",
-                "🇳🇱NL | vless | @azadi_az_inja_migzare | 16",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 0",
                 "🇨🇦CA | vless | @V2rayNGn | 18",
-                "🇫🇷FR | trojan | @PrivateVPNs | 14",
+                "🇬🇧GB | trojan | @PrivateVPNs | 14",
                 "🇬🇧GB | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -252,7 +251,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇺🇸US | vless | @FreakConfig | 7",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇭CH | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -404,9 +402,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 14",
+            "tag": "🇬🇧GB | vless | @VlessConfig | 14",
             "type": "vless",
-            "server": "15.188.125.118",
+            "server": "18.171.43.244",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -881,12 +879,12 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @azadi_az_inja_migzare | 16",
+            "tag": "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
             "type": "vless",
-            "server": "internal-dns.linkpc.net",
-            "server_port": 2096,
-            "uuid": "HinaVPNmci",
-            "flow": "",
+            "server": "richard.dgi000.store",
+            "server_port": 45454,
+            "uuid": "Azadi-az-inja-migzare",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -895,19 +893,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "internal-dns.linkpc.net",
+                "server_name": "richard.dgi000.store",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@HinaVPN,@HinaVPN,@HinaVPN,@HinaVPN,@HinaVPN,@HinaVPN,@HinaVPN,@HinaVPN",
-                "headers": {
-                    "Host": "internal-dns.linkpc.net"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "x_c1xN7STkeMumpLPU32WDeZ0UacaiAlvyj1zXEwljk",
+                    "short_id": "3dae8e8d"
                 }
             }
         },
@@ -985,9 +981,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 14",
+            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 14",
             "type": "trojan",
-            "server": "13.36.156.228",
+            "server": "18.133.111.81",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1009,7 +1005,7 @@
         {
             "tag": "🇬🇧GB | trojan | @DirectVPN | 14",
             "type": "trojan",
-            "server": "18.169.42.168",
+            "server": "18.169.174.246",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1931,27 +1927,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "190.93.245.101"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "104.18.202.209",
-            "server_port": 8080,
-            "uuid": "VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?@vpnwedbaz-@vpnwedbaz-@vpnwedbaz",
-                "headers": {
-                    "Host": "104.18.202.209"
                 }
             }
         },

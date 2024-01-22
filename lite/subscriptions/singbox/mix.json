@@ -119,8 +119,8 @@
                 "🇨🇷CR | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇺🇸US | vless | @free_v2rayyy | 2",
-                "🇺🇸US | vless | @lightning6 | 35",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇨🇷CR | vless | @lightning6 | 35",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -168,7 +168,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇻🇳VN | trojan | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | tuic | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -203,8 +203,8 @@
                 "🇨🇷CR | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇺🇸US | vless | @free_v2rayyy | 2",
-                "🇺🇸US | vless | @lightning6 | 35",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇨🇷CR | vless | @lightning6 | 35",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -252,7 +252,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇻🇳VN | trojan | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | tuic | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -653,7 +653,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 35",
+            "tag": "🇨🇷CR | vless | @lightning6 | 35",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -674,7 +674,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGmat | 3",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -918,9 +918,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "parspack.com",
-            "server_port": 80,
-            "uuid": "c015b481-ea11-4573-a580-9b90ce13b029",
+            "server": "cTWCT.ARVANCOdE.EU.ORG",
+            "server_port": 2096,
+            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -928,11 +928,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPNCT.ARVANCODE.EU.ORG",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@OpenworldNetBot",
+                "path": "\/bShq2qgG8GnX8zqm\/",
                 "headers": {
-                    "Host": "parspack.com"
+                    "Host": "vPNCT.ARVANCODE.EU.ORG"
                 }
             }
         },
@@ -1641,7 +1651,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "abcbcaa-aacb-acab-dacb-cbbabcbcaaac",
+            "uuid": "abbacca-caba-acba-cdab-cbaacabaccbb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1888,15 +1898,34 @@
             }
         },
         {
-            "tag": "🇻🇳VN | trojan | @forwardv2ray | 16",
-            "type": "trojan",
-            "server": "103.154.63.16",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "instagram.vpn.ct.arvancode.eu.org",
             "server_port": 443,
-            "password": "5bae27f5-3b8e-48f3-b91f-30fc680ea78f",
+            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Iran.ir.arvancode.eu.Org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/bShq2qgG8GnX8zqm\/?ed",
+                "headers": {
+                    "Host": "Iran.ir.arvancode.eu.Org"
+                }
             }
         },
         {

@@ -150,7 +150,7 @@
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @VmessProtocol | 12",
-                "🇺🇸US | vless | @DailyV2RY | 144",
+                "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -165,8 +165,8 @@
                 "🇸🇪SE | vless | @Capital_NET | 51",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
-                "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @FreakConfig | 7",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇨🇭CH | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -232,7 +232,7 @@
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @VmessProtocol | 12",
-                "🇺🇸US | vless | @DailyV2RY | 144",
+                "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -247,8 +247,8 @@
                 "🇸🇪SE | vless | @Capital_NET | 51",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
-                "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @FreakConfig | 7",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇨🇭CH | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -1429,11 +1429,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 144",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 143",
             "type": "vless",
-            "server": "190.93.244.103",
-            "server_port": 8880,
-            "uuid": "4001a8b0-6885-4661-82ca-12cad9b05a9d",
+            "server": "who.int",
+            "server_port": 8443,
+            "uuid": "f5f4060a-a9aa-4637-d104-0858102dcd64",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1441,12 +1441,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "190.93.244.103"
+            "tls": {
+                "enabled": true,
+                "server_name": "Hm.se-se.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1612,7 +1622,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "baabcac-acba-acab-adbc-acaaacbccbbb",
+            "uuid": "aacbcab-baac-baac-adbc-accbababccba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1838,11 +1848,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 7",
+            "tag": "🇺🇸US | vless | @FreakConfig | 7",
             "type": "vless",
-            "server": "172.67.73.163",
-            "server_port": 80,
-            "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
+            "server": "190.93.245.101",
+            "server_port": 8080,
+            "uuid": "d2620727-c71f-41be-b45e-a61700c2f7e4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1854,40 +1864,19 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "172.67.73.163"
+                    "Host": "190.93.245.101"
                 }
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 2087,
-            "uuid": "b3153b96-0298-409b-9aa1-752e868351e8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gmV2raybo.shhproxyfree.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "gmV2raybo.shhproxyfree.com"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇭CH | vmess | @FAKEOFTVC | 2",

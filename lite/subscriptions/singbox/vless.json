@@ -144,7 +144,7 @@
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @VmessProtocol | 12",
-                "🇺🇸US | vless | @DailyV2RY | 144",
+                "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 7",
                 "🇨🇦CA | vless | @proxystore11 | 18",
@@ -155,8 +155,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 8",
                 "🇸🇪SE | vless | @Capital_NET | 51",
                 "🇨🇷CR | vless | @Capoit | 7",
-                "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -212,7 +211,7 @@
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @VmessProtocol | 12",
-                "🇺🇸US | vless | @DailyV2RY | 144",
+                "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 7",
                 "🇨🇦CA | vless | @proxystore11 | 18",
@@ -223,8 +222,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 8",
                 "🇸🇪SE | vless | @Capital_NET | 51",
                 "🇨🇷CR | vless | @Capoit | 7",
-                "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1277,11 +1275,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 144",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 143",
             "type": "vless",
-            "server": "190.93.244.103",
-            "server_port": 8880,
-            "uuid": "4001a8b0-6885-4661-82ca-12cad9b05a9d",
+            "server": "who.int",
+            "server_port": 8443,
+            "uuid": "f5f4060a-a9aa-4637-d104-0858102dcd64",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1289,12 +1287,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "190.93.244.103"
+            "tls": {
+                "enabled": true,
+                "server_name": "Hm.se-se.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1601,11 +1609,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 7",
+            "tag": "🇺🇸US | vless | @FreakConfig | 7",
             "type": "vless",
-            "server": "172.67.73.163",
-            "server_port": 80,
-            "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
+            "server": "190.93.245.101",
+            "server_port": 8080,
+            "uuid": "d2620727-c71f-41be-b45e-a61700c2f7e4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1617,38 +1625,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "172.67.73.163"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 2087,
-            "uuid": "b3153b96-0298-409b-9aa1-752e868351e8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gmV2raybo.shhproxyfree.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "gmV2raybo.shhproxyfree.com"
+                    "Host": "190.93.245.101"
                 }
             }
         },

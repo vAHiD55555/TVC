@@ -115,9 +115,10 @@
                 "🇵🇱PL | ss | @DeamNet_Proxy | 16",
                 "🇵🇱PL | ss | @DeamNet_Proxy | 17",
                 "🇵🇱PL | ss | @DeamNet_Proxy | 18",
-                "🇬🇧GB | ss | @proxyymeliii | 8",
-                "🇸🇪SE | ss | @VmessProtocol | 6",
+                "🇬🇧GB | ss | @proxyymeliii | 9",
+                "🏳️XX | ss | @VmessProtocol | 0",
                 "🇸🇪SE | ss | @VmessProtocol | 7",
+                "🇸🇪SE | ss | @VmessProtocol | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -133,7 +134,8 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 16",
+                "🇰🇷KR | ss | @forwardv2ray | 4",
+                "🇬🇧GB | ss | @proxy_mtm | 7",
                 "🇬🇧GB | ss | @ROMAX_VPN | 4",
                 "🇩🇪DE | ss | @ROMAX_VPN | 12"
             ]
@@ -151,9 +153,10 @@
                 "🇵🇱PL | ss | @DeamNet_Proxy | 16",
                 "🇵🇱PL | ss | @DeamNet_Proxy | 17",
                 "🇵🇱PL | ss | @DeamNet_Proxy | 18",
-                "🇬🇧GB | ss | @proxyymeliii | 8",
-                "🇸🇪SE | ss | @VmessProtocol | 6",
+                "🇬🇧GB | ss | @proxyymeliii | 9",
+                "🏳️XX | ss | @VmessProtocol | 0",
                 "🇸🇪SE | ss | @VmessProtocol | 7",
+                "🇸🇪SE | ss | @VmessProtocol | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -169,7 +172,8 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 16",
+                "🇰🇷KR | ss | @forwardv2ray | 4",
+                "🇬🇧GB | ss | @proxy_mtm | 7",
                 "🇬🇧GB | ss | @ROMAX_VPN | 4",
                 "🇩🇪DE | ss | @ROMAX_VPN | 12"
             ],
@@ -284,7 +288,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @proxyymeliii | 8",
+            "tag": "🇬🇧GB | ss | @proxyymeliii | 9",
             "type": "shadowsocks",
             "server": "series-a2.samanehha.co",
             "server_port": 443,
@@ -294,7 +298,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | ss | @VmessProtocol | 6",
+            "tag": "🏳️XX | ss | @VmessProtocol | 0",
+            "type": "shadowsocks",
+            "server": "[2a0d:c740:3c:1::4d56:7f45]",
+            "server_port": 47529,
+            "method": "aes-256-gcm",
+            "password": "@GetNetworkBot",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇸🇪SE | ss | @VmessProtocol | 7",
             "type": "shadowsocks",
             "server": "16.170.7.32",
             "server_port": 80,
@@ -304,7 +318,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | ss | @VmessProtocol | 7",
+            "tag": "🇸🇪SE | ss | @VmessProtocol | 8",
             "type": "shadowsocks",
             "server": "13.50.247.128",
             "server_port": 80,
@@ -464,7 +478,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 16",
+            "tag": "🇰🇷KR | ss | @forwardv2ray | 4",
+            "type": "shadowsocks",
+            "server": "158.180.95.197",
+            "server_port": 20352,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f52feeff-6d25-4731-aca9-7321be1c2e2a",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @proxy_mtm | 7",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
             "server_port": 443,

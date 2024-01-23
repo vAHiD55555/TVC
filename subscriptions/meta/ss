@@ -121,7 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇬🇧GB | ss | @servermomo | 12","type":"ss","server":"51.142.73.20","port":6961,"password":"tAoWzuKvNOPrsLc4fAEOno","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | ss | @V2rayCollectorDonate | 5","type":"ss","server":"69.164.199.254","port":80,"password":"OaVfKBcbfcY3TAiUAseoeB","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | @V2rayCollectorDonate | 6","type":"ss","server":"69.164.199.254","port":80,"password":"OaVfKBcbfcY3TAiUAseoeB","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @DeamNet_Proxy | 4","type":"ss","server":"38.68.134.9","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
   - {"name":"🇬🇧GB | ss | @DeamNet_Proxy | 5","type":"ss","server":"51.104.230.125","port":51348,"password":"uEDBUfL2Q0bVq432XXo5KE","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱PL | ss | @DeamNet_Proxy | 6","type":"ss","server":"54.36.174.181","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
@@ -148,8 +148,8 @@ proxies:
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 15","type":"ss","server":"212.113.106.243","port":12949,"password":"P2zxXPewlV3BlfqqYiSthvtLc","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 16","type":"ss","server":"www.outline.network.ak2003.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"zekdk0MRWVx1zFASC+HAcmCVBA+TljWabwoF57zjIZA=","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 17","type":"ss","server":"www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=","cipher":"aes-256-gcm"}
-  - {"name":"🇰🇷KR | ss | @forwardv2ray | 4","type":"ss","server":"158.180.95.197","port":20352,"password":"f52feeff-6d25-4731-aca9-7321be1c2e2a","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | ss | @proxy_mtm | 7","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @forwardv2ray | 7","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @forwardv2ray | 8","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @ROMAX_VPN | 4","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | @ROMAX_VPN | 12","type":"ss","server":"95.164.68.112","port":46478,"password":"KO4t1fiT0Op82Lg8x7USrT","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -159,7 +159,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇬🇧GB | ss | @servermomo | 12'
-      - '🇺🇸US | ss | @V2rayCollectorDonate | 5'
+      - '🇺🇸US | ss | @V2rayCollectorDonate | 6'
       - '🇺🇸US | ss | @DeamNet_Proxy | 4'
       - '🇬🇧GB | ss | @DeamNet_Proxy | 5'
       - '🇵🇱PL | ss | @DeamNet_Proxy | 6'
@@ -186,8 +186,8 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇰🇷KR | ss | @forwardv2ray | 4'
-      - '🇬🇧GB | ss | @proxy_mtm | 7'
+      - '🇬🇧GB | ss | @forwardv2ray | 7'
+      - '🇬🇧GB | ss | @forwardv2ray | 8'
       - '🇬🇧GB | ss | @ROMAX_VPN | 4'
       - '🇩🇪DE | ss | @ROMAX_VPN | 12'
   - name: URL-TEST
@@ -197,7 +197,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇬🇧GB | ss | @servermomo | 12'
-      - '🇺🇸US | ss | @V2rayCollectorDonate | 5'
+      - '🇺🇸US | ss | @V2rayCollectorDonate | 6'
       - '🇺🇸US | ss | @DeamNet_Proxy | 4'
       - '🇬🇧GB | ss | @DeamNet_Proxy | 5'
       - '🇵🇱PL | ss | @DeamNet_Proxy | 6'
@@ -224,8 +224,8 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇰🇷KR | ss | @forwardv2ray | 4'
-      - '🇬🇧GB | ss | @proxy_mtm | 7'
+      - '🇬🇧GB | ss | @forwardv2ray | 7'
+      - '🇬🇧GB | ss | @forwardv2ray | 8'
       - '🇬🇧GB | ss | @ROMAX_VPN | 4'
       - '🇩🇪DE | ss | @ROMAX_VPN | 12'
   - name: FALLBACK
@@ -234,7 +234,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇬🇧GB | ss | @servermomo | 12'
-      - '🇺🇸US | ss | @V2rayCollectorDonate | 5'
+      - '🇺🇸US | ss | @V2rayCollectorDonate | 6'
       - '🇺🇸US | ss | @DeamNet_Proxy | 4'
       - '🇬🇧GB | ss | @DeamNet_Proxy | 5'
       - '🇵🇱PL | ss | @DeamNet_Proxy | 6'
@@ -261,8 +261,8 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇰🇷KR | ss | @forwardv2ray | 4'
-      - '🇬🇧GB | ss | @proxy_mtm | 7'
+      - '🇬🇧GB | ss | @forwardv2ray | 7'
+      - '🇬🇧GB | ss | @forwardv2ray | 8'
       - '🇬🇧GB | ss | @ROMAX_VPN | 4'
       - '🇩🇪DE | ss | @ROMAX_VPN | 12'
 rule-providers:

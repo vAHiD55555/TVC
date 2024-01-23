@@ -109,9 +109,9 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @customv2ray | 13",
-                "🏳️XX | vmess | @ConfigsHUB | 16",
+                "🇦🇺AU | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vmess | @proxystore11 | 22",
-                "🇰🇷KR | vmess | @Hope_Net | 13",
+                "🇿🇦ZA | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 15"
@@ -124,9 +124,9 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @customv2ray | 13",
-                "🏳️XX | vmess | @ConfigsHUB | 16",
+                "🇦🇺AU | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vmess | @proxystore11 | 22",
-                "🇰🇷KR | vmess | @Hope_Net | 13",
+                "🇿🇦ZA | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 15"
@@ -220,11 +220,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 16",
+            "tag": "🇦🇺AU | vmess | @ConfigsHUB | 16",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "154.26.157.244",
+            "server_port": 80,
+            "uuid": "877aa2a8-5854-4cb2-9aba-4a1413a6b2de",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -234,6 +234,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/takeshi.wiki",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -261,11 +268,11 @@
             }
         },
         {
-            "tag": "🇰🇷KR | vmess | @Hope_Net | 13",
+            "tag": "🇿🇦ZA | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "45.154.14.201",
-            "server_port": 28514,
-            "uuid": "c119b176-7240-43f7-b26f-9b67d54e2b95",
+            "server": "129.151.164.152",
+            "server_port": 55600,
+            "uuid": "e30f8588-2555-48b8-c354-c8e63f57232d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -275,6 +282,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {

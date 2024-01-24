@@ -154,9 +154,8 @@
                 "🇮🇷IR | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
+                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @proxystore11 | 22",
-                "🇸🇬SG | vmess | @Hope_Net | 5",
                 "🏳️XX | vless | @fnet00 | 16",
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🇺🇸US | vless | @Outlinev2rayNG | 11",
@@ -177,8 +176,8 @@
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 36",
                 "🏳️XX | vless | @VpnSkyy | 4",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 15",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 9"
+                "🇺🇸US | vmess | @ROMAX_VPN | 15",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 9"
             ]
         },
         {
@@ -233,9 +232,8 @@
                 "🇮🇷IR | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
+                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @proxystore11 | 22",
-                "🇸🇬SG | vmess | @Hope_Net | 5",
                 "🏳️XX | vless | @fnet00 | 16",
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🇺🇸US | vless | @Outlinev2rayNG | 11",
@@ -256,8 +254,8 @@
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 36",
                 "🏳️XX | vless | @VpnSkyy | 4",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 15",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 9"
+                "🇺🇸US | vmess | @ROMAX_VPN | 15",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1502,11 +1500,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 15",
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "129.146.46.181",
-            "server_port": 52408,
-            "uuid": "a797ff7b-8161-40a6-d577-1b2c213b3885",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1524,30 +1522,6 @@
             "server": "104.16.148.117",
             "server_port": 8080,
             "uuid": "Telegram-V2ray_alpha",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | vmess | @Hope_Net | 5",
-            "type": "vmess",
-            "server": "45.76.144.158",
-            "server_port": 52445,
-            "uuid": "f3023754-1b95-40eb-bdf9-fc524302fb9a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2110,7 +2084,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 15",
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 15",
             "type": "vmess",
             "server": "discord.gg",
             "server_port": 443,
@@ -2144,7 +2118,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 9",
+            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 9",
             "type": "vless",
             "server": "172.67.170.33",
             "server_port": 2087,

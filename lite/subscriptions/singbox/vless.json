@@ -114,12 +114,12 @@
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 20",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 7",
-                "🇺🇸US | vless | @V2pedia | 12",
+                "🇨🇦CA | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 10",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇨🇦CA | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 35",
+                "🇨🇷CR | vless | @lightning6 | 35",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 19",
@@ -142,10 +142,9 @@
                 "🇫🇷FR | vless | @v2ray_swhil | 22",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 3",
-                "🇺🇸US | vless | @MTConfig | 18",
+                "🇨🇦CA | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @sinabigo | 7",
-                "🇺🇸US | vless | @MehradLearn | 13",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🏳️XX | vless | @fnet00 | 16",
@@ -156,6 +155,7 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇺🇸US | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 24",
+                "🇨🇷CR | vless | @forwardv2ray | 15",
                 "🇬🇧GB | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 17",
@@ -183,12 +183,12 @@
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 20",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 7",
-                "🇺🇸US | vless | @V2pedia | 12",
+                "🇨🇦CA | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 10",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇨🇦CA | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 35",
+                "🇨🇷CR | vless | @lightning6 | 35",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 19",
@@ -211,10 +211,9 @@
                 "🇫🇷FR | vless | @v2ray_swhil | 22",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 3",
-                "🇺🇸US | vless | @MTConfig | 18",
+                "🇨🇦CA | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @sinabigo | 7",
-                "🇺🇸US | vless | @MehradLearn | 13",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🏳️XX | vless | @fnet00 | 16",
@@ -225,6 +224,7 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇺🇸US | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 24",
+                "🇨🇷CR | vless | @forwardv2ray | 15",
                 "🇬🇧GB | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 17",
@@ -513,7 +513,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 12",
+            "tag": "🇨🇦CA | vless | @V2pedia | 12",
             "type": "vless",
             "server": "cltechip-mci.argha-v2pedia.monster",
             "server_port": 8443,
@@ -578,8 +578,8 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 13",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "-ArV2ray--ArV2ray--ArV2ray-",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -587,12 +587,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ArV2ray,@ArV2ray,@ArV2ray",
-                "headers": {
-                    "Host": "www.speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "tl.ArV2ray.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -638,7 +648,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 35",
+            "tag": "🇨🇷CR | vless | @lightning6 | 35",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1233,7 +1243,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @MTConfig | 18",
+            "tag": "🇨🇦CA | vless | @MTConfig | 18",
             "type": "vless",
             "server": "all.vipxali.cfd",
             "server_port": 2083,
@@ -1312,27 +1322,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @MehradLearn | 13",
-            "type": "vless",
-            "server": "198.41.202.5",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "198.41.202.5"
                 }
             }
         },
@@ -1623,6 +1612,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "104.31.16.160"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 15",
+            "type": "vless",
+            "server": "Vpnmasi.savagev2ray.site",
+            "server_port": 2083,
+            "uuid": "7fece30a-4d96-48e7-82c9-b1667988c87b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "all2.savagev2ray.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "all2.savagev2ray.site"
                 }
             }
         },

@@ -107,8 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | ss | @DeamNet_Proxy | 18",
-                "🇸🇪SE | ss | @VmessProtocol | 12",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇧🇬BG | ss | @forwardv2ray | 18"
             ]
         },
         {
@@ -116,8 +116,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | ss | @DeamNet_Proxy | 18",
-                "🇸🇪SE | ss | @VmessProtocol | 12",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇧🇬BG | ss | @forwardv2ray | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -150,22 +150,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | ss | @VmessProtocol | 12",
-            "type": "shadowsocks",
-            "server": "16.170.7.32",
-            "server_port": 80,
-            "method": "chacha20-ietf-poly1305",
-            "password": "UV20xs1WJTo706fjTJBJQuOPBrGr7pRbM0YNV4EVhXE=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇧🇬BG | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "213.183.63.189",
+            "server_port": 16325,
+            "method": "chacha20-ietf-poly1305",
+            "password": "lgTGrmtOtgcDduVPJ1LU5s",
             "plugin": "",
             "plugin_opts": ""
         }

@@ -125,7 +125,7 @@
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 19",
-                "🇨🇦CA | vless | @DarkTeam_VPN | 17",
+                "🇨🇦CA | vless | @DarkTeam_VPN | 14",
                 "🇨🇦CA | vless | @v2logy | 14",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 12",
@@ -161,7 +161,6 @@
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
@@ -169,7 +168,7 @@
                 "🇨🇦CA | vless | @nofiltering2 | 14",
                 "🇨🇷CR | vless | @proxy_mtm | 7",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
-                "🇺🇸US | vless | @kingofilter | 13",
+                "🇺🇸US | vless | @kingofilter | 12",
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
@@ -202,7 +201,7 @@
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 19",
-                "🇨🇦CA | vless | @DarkTeam_VPN | 17",
+                "🇨🇦CA | vless | @DarkTeam_VPN | 14",
                 "🇨🇦CA | vless | @v2logy | 14",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 12",
@@ -238,7 +237,6 @@
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
@@ -246,7 +244,7 @@
                 "🇨🇦CA | vless | @nofiltering2 | 14",
                 "🇨🇷CR | vless | @proxy_mtm | 7",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
-                "🇺🇸US | vless | @kingofilter | 13",
+                "🇺🇸US | vless | @kingofilter | 12",
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
@@ -840,11 +838,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DarkTeam_VPN | 17",
+            "tag": "🇨🇦CA | vless | @DarkTeam_VPN | 14",
             "type": "vless",
-            "server": "104.16.67.38",
-            "server_port": 2086,
-            "uuid": "23ca8a29-5605-4dbe-9be3-137772c16aec",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -852,11 +850,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "always-online1.lp-airdrop.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.16.67.38"
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
@@ -1805,27 +1813,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "pydar.banndedd.ir",
-            "server_port": 8080,
-            "uuid": "d56e5ed5-4d6e-4eb7-b0d5-0bfd75212365",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "pydar.banndedd.ir"
-                }
-            }
-        },
-        {
             "tag": "🇬🇧GB | vless | @FAKEOFTVC | 1",
             "type": "vless",
             "server": "146.19.230.94",
@@ -2019,7 +2006,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @kingofilter | 13",
+            "tag": "🇺🇸US | vless | @kingofilter | 12",
             "type": "vless",
             "server": "173.245.58.100",
             "server_port": 443,

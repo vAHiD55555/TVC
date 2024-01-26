@@ -159,7 +159,8 @@ proxies:
   - {"name":"🇨🇦CA | vless | @proxystore11 | 14","type":"vless","server":"172.67.195.20","port":80,"udp":false,"uuid":"e1a928be-e289-4aef-b92e-4106fabdf42f","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2048","headers":{"host":"mahi.kosnanatfilterchi.eu.org"}}}
   - {"name":"🇨🇦CA | vless | @polproxy | 29","type":"vless","server":"172.67.153.213","port":2087,"udp":false,"uuid":"60968315-97f0-4a31-8299-ec1ef57a8793","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"Dns2.Polproxy-Moien.site","grpc-opts":{"grpc-service-name":"@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,"}}
   - {"name":"🇨🇦CA | vless | @Capoit | 5","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"fdbad504-19b8-4eb5-9ec6-82272e0bd9f9","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"dm.CaDams.shop","grpc-opts":{"grpc-service-name":"@ipV2Ray"}}
-  - {"name":"🇺🇸US | vless | @flyv2ray | 24","type":"vless","server":"tel.VPNCUSTOMIZE.cam","port":8443,"udp":false,"uuid":"ee9d1723-e14e-417a-8534-0d470e80b142","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"20ns2-V2ray.Vpncustomize.Com","grpc-opts":{"grpc-service-name":"@VPNCUSTOMIZE,@VPNCUSTOMIZE"}}
+  - {"name":"🇨🇷CR | vless | @flyv2ray | 20","type":"vless","server":"shhproxy.varzesh3-cnd.site","port":2087,"udp":false,"uuid":"4898e947-7364-40fc-bc6d-969c74afc72a","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"gmV2raybo.shhproxyfree.com","ws-opts":{"path":"/","headers":{"host":"gmV2raybo.shhproxyfree.com"}}}
+  - {"name":"🇷🇺RU | vless | @forwardv2ray | 19","type":"vless","server":"45.67.230.190","port":80,"udp":false,"uuid":"23b58ffc-b754-42b6-868b-785f729c669e","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/"}}
   - {"name":"🇨🇦CA | vless | @https_config_injector | 14","type":"vless","server":"172.67.174.190","port":443,"udp":false,"uuid":"29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"w1.sylar8.eu.org","ws-opts":{"path":"/?ed=2048","headers":{"host":"w1.sylar8.eu.org"}}}
   - {"name":"🇸🇪SE | vless | @mehrosaboran | 16","type":"vless","server":"boon.joinbede.sbs","port":41559,"udp":true,"uuid":"705d1306-805a-46d0-a5e9-efa0d3d49912","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"greenpepper.ir","reality-opts":{"public-key":"nHoCVp3VqEAEmA4UZXzY7FUfFWwO6u2Zn4IfmUwCpgc","short-id":"1ec4a75f"}}
   - {"name":"🇸🇪SE | vless | @kiava | 5","type":"vless","server":"16.16.139.103","port":443,"udp":true,"uuid":"2c59ff33-916d-459b-a4c0-8b7432c4c3bb","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"coinmarketcap.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"rrxaevH9D_L-Pnhfzkp2ZymkrYxtsJjVDRaeNm4PNAc","short-id":"1db3"}}
@@ -213,7 +214,8 @@ proxy-groups:
       - '🇨🇦CA | vless | @proxystore11 | 14'
       - '🇨🇦CA | vless | @polproxy | 29'
       - '🇨🇦CA | vless | @Capoit | 5'
-      - '🇺🇸US | vless | @flyv2ray | 24'
+      - '🇨🇷CR | vless | @flyv2ray | 20'
+      - '🇷🇺RU | vless | @forwardv2ray | 19'
       - '🇨🇦CA | vless | @https_config_injector | 14'
       - '🇸🇪SE | vless | @mehrosaboran | 16'
       - '🇸🇪SE | vless | @kiava | 5'
@@ -267,7 +269,8 @@ proxy-groups:
       - '🇨🇦CA | vless | @proxystore11 | 14'
       - '🇨🇦CA | vless | @polproxy | 29'
       - '🇨🇦CA | vless | @Capoit | 5'
-      - '🇺🇸US | vless | @flyv2ray | 24'
+      - '🇨🇷CR | vless | @flyv2ray | 20'
+      - '🇷🇺RU | vless | @forwardv2ray | 19'
       - '🇨🇦CA | vless | @https_config_injector | 14'
       - '🇸🇪SE | vless | @mehrosaboran | 16'
       - '🇸🇪SE | vless | @kiava | 5'
@@ -320,7 +323,8 @@ proxy-groups:
       - '🇨🇦CA | vless | @proxystore11 | 14'
       - '🇨🇦CA | vless | @polproxy | 29'
       - '🇨🇦CA | vless | @Capoit | 5'
-      - '🇺🇸US | vless | @flyv2ray | 24'
+      - '🇨🇷CR | vless | @flyv2ray | 20'
+      - '🇷🇺RU | vless | @forwardv2ray | 19'
       - '🇨🇦CA | vless | @https_config_injector | 14'
       - '🇸🇪SE | vless | @mehrosaboran | 16'
       - '🇸🇪SE | vless | @kiava | 5'

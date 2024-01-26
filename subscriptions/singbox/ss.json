@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇧🇷BR | ss | @V2rayCollectorDonate | 5",
+                "🇿🇦ZA | ss | @V2rayCollectorDonate | 9",
+                "🇧🇷BR | ss | @V2rayCollectorDonate | 15",
                 "🇵🇱PL | ss | @DeamNet_Proxy | 5",
                 "🇺🇸US | ss | @DeamNet_Proxy | 6",
                 "🇺🇸US | ss | @DeamNet_Proxy | 9",
@@ -132,14 +133,16 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | ss | @forwardv2ray | 1"
+                "🇦🇹AT | ss | @forwardv2ray | 7",
+                "🇨🇦CA | ss | @forwardv2ray | 13"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇧🇷BR | ss | @V2rayCollectorDonate | 5",
+                "🇿🇦ZA | ss | @V2rayCollectorDonate | 9",
+                "🇧🇷BR | ss | @V2rayCollectorDonate | 15",
                 "🇵🇱PL | ss | @DeamNet_Proxy | 5",
                 "🇺🇸US | ss | @DeamNet_Proxy | 6",
                 "🇺🇸US | ss | @DeamNet_Proxy | 9",
@@ -165,7 +168,8 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | ss | @forwardv2ray | 1"
+                "🇦🇹AT | ss | @forwardv2ray | 7",
+                "🇨🇦CA | ss | @forwardv2ray | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -188,7 +192,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇧🇷BR | ss | @V2rayCollectorDonate | 5",
+            "tag": "🇿🇦ZA | ss | @V2rayCollectorDonate | 9",
+            "type": "shadowsocks",
+            "server": "129.232.129.156",
+            "server_port": 444,
+            "method": "chacha20-ietf-poly1305",
+            "password": "DiPietyory",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇧🇷BR | ss | @V2rayCollectorDonate | 15",
             "type": "shadowsocks",
             "server": "fell4.dogsvpn.top",
             "server_port": 7704,
@@ -448,12 +462,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @forwardv2ray | 1",
+            "tag": "🇦🇹AT | ss | @forwardv2ray | 7",
             "type": "shadowsocks",
-            "server": "74.119.194.192",
-            "server_port": 41743,
+            "server": "95.164.9.144",
+            "server_port": 2927,
             "method": "chacha20-ietf-poly1305",
-            "password": "KBnPIuBNoue5acFpQ28LHg",
+            "password": "ug4Fu79SEREdFGlt2sUyT4",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | ss | @forwardv2ray | 13",
+            "type": "shadowsocks",
+            "server": "toronto.telegavpn.org",
+            "server_port": 31024,
+            "method": "chacha20-ietf-poly1305",
+            "password": "RnPfEgv2OSXgNYKEWpc4VI",
             "plugin": "",
             "plugin_opts": ""
         }

@@ -148,6 +148,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 11",
+                "🇨🇦CA | vless | @DailyV2RY | 152",
                 "🇮🇷IR | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇺🇸US | vless | @proxystore11 | 15",
@@ -159,7 +160,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -223,6 +224,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 11",
+                "🇨🇦CA | vless | @DailyV2RY | 152",
                 "🇮🇷IR | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇺🇸US | vless | @proxystore11 | 15",
@@ -234,7 +236,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -1413,6 +1415,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 152",
+            "type": "vless",
+            "server": "ip.aminivip2023.site",
+            "server_port": 8443,
+            "uuid": "5977e9a7-3122-4103-a859-c456180feb97",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ri.aminivip2023.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2zed",
+                "headers": {
+                    "Host": "ri.aminivip2023.site"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @sinabigo | 6",
             "type": "vless",
             "server": "66.filmotv.lol",
@@ -1702,17 +1735,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 17",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "mygamenetplay.3utilities.com",
-            "server_port": 443,
-            "uuid": "b9fe20b4-1de8-4f00-a31f-355b1dc6d76d",
+            "server": "88.151.194.227",
+            "server_port": 35282,
+            "uuid": "607a53af-513d-40d9-a52e-9863770d4e5a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram:@bed0nemarz:@uciranir",
+                "headers": {
+                    "Host": "88.151.194.227"
+                }
             }
         },
         {

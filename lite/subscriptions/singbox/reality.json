@@ -107,8 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇩🇪DE | vless | @VmessProtocol | 11",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 7",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 8",
                 "🇫🇮FI | vless | @Capital_NET | 48",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -121,8 +120,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇩🇪DE | vless | @VmessProtocol | 11",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 7",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 8",
                 "🇫🇮FI | vless | @Capital_NET | 48",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -186,36 +184,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 11",
-            "type": "vless",
-            "server": "91.107.153.57",
-            "server_port": 41896,
-            "uuid": "8f172083-fb7f-40a4-b509-b0f007d7db4c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7dyMBOW0SokLK4EstrmTezP7Jj0SUe74R5Z6tFlz8TQ",
-                    "short_id": "b1e61a21"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 7",
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "167.71.33.74",
             "server_port": 8080,

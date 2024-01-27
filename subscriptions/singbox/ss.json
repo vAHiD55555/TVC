@@ -125,7 +125,9 @@
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 12",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 13",
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 14",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 15"
+                "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
+                "🇺🇸US | ss | @forwardv2ray | 7",
+                "🇸🇪SE | ss | @forwardv2ray | 13"
             ]
         },
         {
@@ -151,7 +153,9 @@
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 12",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 13",
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 14",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 15"
+                "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
+                "🇺🇸US | ss | @forwardv2ray | 7",
+                "🇸🇪SE | ss | @forwardv2ray | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -370,6 +374,26 @@
             "server_port": 12949,
             "method": "chacha20-ietf-poly1305",
             "password": "P2zxXPewlV3BlfqqYiSthvtLc",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | @forwardv2ray | 7",
+            "type": "shadowsocks",
+            "server": "passconf.xyz",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qGjmI8WQlF0tfhDbkLqGdN",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇸🇪SE | ss | @forwardv2ray | 13",
+            "type": "shadowsocks",
+            "server": "46.246.96.30",
+            "server_port": 31561,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ZC9RnXSUh0ymjBJuIyLAWJ",
             "plugin": "",
             "plugin_opts": ""
         }

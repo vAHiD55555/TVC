@@ -168,8 +168,8 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -180,13 +180,13 @@
                 "🇺🇸US | vless | @kingofilter | 13",
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 6",
+                "🇺🇦UA | vmess | @eliya_chiter0 | 5",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 48",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 8"
+                "🇺🇸US | vless | @ROMAX_VPN | 9"
             ]
         },
         {
@@ -255,8 +255,8 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -267,13 +267,13 @@
                 "🇺🇸US | vless | @kingofilter | 13",
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 6",
+                "🇺🇦UA | vmess | @eliya_chiter0 | 5",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 48",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 8"
+                "🇺🇸US | vless | @ROMAX_VPN | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -453,7 +453,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "18.170.104.155",
+            "server": "13.41.122.145",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -615,7 +615,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "863a88f1-fdb6-499b-ade9-dd713f63e605",
+            "uuid": "1d802c24-facd-46c3-9306-9974f0391272",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -625,7 +625,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tm.ArV2ray.shop",
+                "server_name": "www.ArV2ray.host",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1892,7 +1892,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 18",
+            "tag": "🇺🇸US | vless | @flyv2ray | 18",
             "type": "vless",
             "server": "172.67.204.84",
             "server_port": 80,
@@ -1913,11 +1913,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 14",
             "type": "vless",
-            "server": "88.151.194.227",
-            "server_port": 35282,
-            "uuid": "607a53af-513d-40d9-a52e-9863770d4e5a",
+            "server": "iranserver.com",
+            "server_port": 2096,
+            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1925,11 +1925,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpnct.arvancode.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram:@bed0nemarz:@uciranir",
+                "path": "\/bShq2qgG8GnX8zqm\/",
                 "headers": {
-                    "Host": "88.151.194.227"
+                    "Host": "vpnct.arvancode.eu.org"
                 }
             }
         },
@@ -2193,11 +2203,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 6",
+            "tag": "🇺🇦UA | vmess | @eliya_chiter0 | 5",
             "type": "vmess",
-            "server": "glweidf.cfd",
+            "server": "45.137.155.195",
             "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "uuid": "49c76bcf-3a58-43df-b1d4-2bffe9ca03b5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2210,19 +2220,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.cfd",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.cfd"
                 }
             }
         },
@@ -2335,7 +2338,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 8",
+            "tag": "🇺🇸US | vless | @ROMAX_VPN | 9",
             "type": "vless",
             "server": "iranserver.com",
             "server_port": 80,

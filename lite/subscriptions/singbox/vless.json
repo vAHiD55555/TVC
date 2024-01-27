@@ -159,8 +159,8 @@
                 "🇫🇮FI | vless | @Capital_NET | 48",
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -175,7 +175,7 @@
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 8"
+                "🇺🇸US | vless | @ROMAX_VPN | 9"
             ]
         },
         {
@@ -235,8 +235,8 @@
                 "🇫🇮FI | vless | @Capital_NET | 48",
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -251,7 +251,7 @@
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 8"
+                "🇺🇸US | vless | @ROMAX_VPN | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -431,7 +431,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "18.170.104.155",
+            "server": "13.41.122.145",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -593,7 +593,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "863a88f1-fdb6-499b-ade9-dd713f63e605",
+            "uuid": "1d802c24-facd-46c3-9306-9974f0391272",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -603,7 +603,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tm.ArV2ray.shop",
+                "server_name": "www.ArV2ray.host",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1714,7 +1714,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 18",
+            "tag": "🇺🇸US | vless | @flyv2ray | 18",
             "type": "vless",
             "server": "172.67.204.84",
             "server_port": 80,
@@ -1735,11 +1735,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 14",
             "type": "vless",
-            "server": "88.151.194.227",
-            "server_port": 35282,
-            "uuid": "607a53af-513d-40d9-a52e-9863770d4e5a",
+            "server": "iranserver.com",
+            "server_port": 2096,
+            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1747,11 +1747,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpnct.arvancode.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram:@bed0nemarz:@uciranir",
+                "path": "\/bShq2qgG8GnX8zqm\/",
                 "headers": {
-                    "Host": "88.151.194.227"
+                    "Host": "vpnct.arvancode.eu.org"
                 }
             }
         },
@@ -2100,7 +2110,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 8",
+            "tag": "🇺🇸US | vless | @ROMAX_VPN | 9",
             "type": "vless",
             "server": "iranserver.com",
             "server_port": 80,

@@ -110,10 +110,9 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇫🇷FR | vmess | @ShadowProxy66 | 63",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
-                "🇳🇱NL | vmess | @ConfigsHUB | 18",
                 "🇺🇦UA | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 5"
+                "🇺🇸US | vmess | @eliya_chiter0 | 4"
             ]
         },
         {
@@ -124,10 +123,9 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇫🇷FR | vmess | @ShadowProxy66 | 63",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
-                "🇳🇱NL | vmess | @ConfigsHUB | 18",
                 "🇺🇦UA | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 5"
+                "🇺🇸US | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -235,30 +233,6 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "188.114.96.3",
-            "server_port": 8080,
-            "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇦UA | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "45.137.155.195",
@@ -310,11 +284,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 5",
+            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 4",
             "type": "vmess",
-            "server": "172.67.1.143",
-            "server_port": 443,
-            "uuid": "251780c1-1501-43b3-be2a-d144a20d479a",
+            "server": "5.161.80.234",
+            "server_port": 8081,
+            "uuid": "852cb4c2-e786-4beb-abb6-76cbc56a29f0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -324,23 +298,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy5autoip.foriran.trade",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Nbs2DSTSkFWe4KVnk9AHQv",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         }
     ],

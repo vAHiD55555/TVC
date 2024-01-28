@@ -154,7 +154,7 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -165,7 +165,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 15",
@@ -235,7 +235,7 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -246,7 +246,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 15",
@@ -1525,24 +1525,20 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "104.17.212.43",
-            "server_port": 80,
-            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "212.224.86.31",
+            "server_port": 26372,
+            "uuid": "4c7e9203-a184-4fb4-8022-54ad5cf02e96",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.17.212.43"
-                }
             }
         },
         {
@@ -1783,20 +1779,34 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "212.224.86.31",
-            "server_port": 26372,
-            "uuid": "4c7e9203-a184-4fb4-8022-54ad5cf02e96",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "w1.sylar8.eu.org",
+            "server_port": 443,
+            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "w1.sylar8.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "w1.sylar8.eu.org"
+                }
             }
         },
         {

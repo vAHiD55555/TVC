@@ -112,6 +112,7 @@
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 9",
                 "🇺🇦UA | vmess | @ShadowProxy66 | 45",
                 "🇺🇸US | vmess | @DailyV2RY | 163",
+                "🇫🇮FI | vmess | @ConfigsHUB | 13",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6"
             ]
@@ -126,6 +127,7 @@
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 9",
                 "🇺🇦UA | vmess | @ShadowProxy66 | 45",
                 "🇺🇸US | vmess | @DailyV2RY | 163",
+                "🇫🇮FI | vmess | @ConfigsHUB | 13",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6"
             ],
@@ -152,9 +154,9 @@
         {
             "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
             "type": "vmess",
-            "server": "obdii.cfd",
+            "server": "104.21.15.36",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -167,7 +169,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -179,7 +181,7 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -257,6 +259,23 @@
             "server": "5.161.80.234",
             "server_port": 8081,
             "uuid": "852cb4c2-e786-4beb-abb6-76cbc56a29f0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vmess | @ConfigsHUB | 13",
+            "type": "vmess",
+            "server": "panelv2.mmdv3.site",
+            "server_port": 50186,
+            "uuid": "6def2a51-2ba6-4520-9b3c-a18d6796e82f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,

@@ -151,7 +151,7 @@
                 "🇨🇷CR | vless | @DailyV2RY | 164",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 13",
@@ -223,7 +223,7 @@
                 "🇨🇷CR | vless | @DailyV2RY | 164",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 13",
@@ -1498,11 +1498,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "joinbede.be.vmessorg.online",
-            "server_port": 8880,
-            "uuid": "448a7128-3f3d-40a1-9fcf-1f4ffaa08adf",
+            "server": "cdn.user.com",
+            "server_port": 80,
+            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1512,9 +1512,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg",
+                "path": "\/",
                 "headers": {
-                    "Host": "joinbede.be.vmessorg.online"
+                    "Host": "cdn.user.com"
                 }
             }
         },

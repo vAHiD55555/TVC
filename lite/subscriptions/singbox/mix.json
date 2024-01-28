@@ -160,7 +160,7 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🏳️XX | vmess | @Hope_Net | 2",
@@ -172,6 +172,7 @@
                 "🇺🇸US | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇷CR | vless | @flyv2ray | 15",
+                "🇵🇾PY | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -245,7 +246,7 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🏳️XX | vmess | @Hope_Net | 2",
@@ -257,6 +258,7 @@
                 "🇺🇸US | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇷CR | vless | @flyv2ray | 15",
+                "🇵🇾PY | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -1697,11 +1699,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "joinbede.be.vmessorg.online",
-            "server_port": 8880,
-            "uuid": "448a7128-3f3d-40a1-9fcf-1f4ffaa08adf",
+            "server": "cdn.user.com",
+            "server_port": 80,
+            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1711,9 +1713,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg",
+                "path": "\/",
                 "headers": {
-                    "Host": "joinbede.be.vmessorg.online"
+                    "Host": "cdn.user.com"
                 }
             }
         },
@@ -1987,6 +1989,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": "gmV2raybo.shhproxyfree.com"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇾PY | vmess | @forwardv2ray | 16",
+            "type": "vmess",
+            "server": "186.16.19.94",
+            "server_port": 443,
+            "uuid": "118287d2-e968-42e1-80d0-12fa2f5d38d6",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sahand.serveminecraft.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@forwardv2ray",
+                "headers": {
+                    "Host": "sahand.serveminecraft.net"
                 }
             }
         },

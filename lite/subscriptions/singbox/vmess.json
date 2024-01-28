@@ -113,7 +113,6 @@
                 "🇺🇦UA | vmess | @ShadowProxy66 | 45",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇭CH | vmess | @eliya_chiter0 | 2"
             ]
         },
@@ -128,7 +127,6 @@
                 "🇺🇦UA | vmess | @ShadowProxy66 | 45",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇭CH | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -274,30 +272,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "f0853ebc-0f17-4ff1-dfda-495f6cc5af79",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@vpn_whal",
-                "headers": {
-                    "Host": ""
                 }
             }
         },

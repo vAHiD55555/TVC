@@ -150,7 +150,7 @@
                 "🇺🇸US | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
-                "🇺🇸US | vmess | @DailyV2RY | 163",
+                "🇨🇷CR | vless | @DailyV2RY | 168",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -165,6 +165,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 16",
@@ -176,7 +177,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 61",
-                "🇺🇸US | vless | @V2FETCH | 8",
+                "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇬🇧GB | ss | @ROMAX_VPN | 8",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 4"
@@ -230,7 +231,7 @@
                 "🇺🇸US | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
-                "🇺🇸US | vmess | @DailyV2RY | 163",
+                "🇨🇷CR | vless | @DailyV2RY | 168",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -245,6 +246,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 16",
@@ -256,7 +258,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇺🇸US | tuic | @TUICity | 61",
-                "🇺🇸US | vless | @V2FETCH | 8",
+                "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇬🇧GB | ss | @ROMAX_VPN | 8",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 4"
@@ -1444,20 +1446,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 163",
-            "type": "vmess",
-            "server": "5.161.80.234",
-            "server_port": 8081,
-            "uuid": "852cb4c2-e786-4beb-abb6-76cbc56a29f0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇷CR | vless | @DailyV2RY | 168",
+            "type": "vless",
+            "server": "LIGHTNING6-joinbede.liV2ray.xyz",
+            "server_port": 8880,
+            "uuid": "82a87298-bd61-438e-a6e5-09ef63d31752",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6",
+                "headers": {
+                    "Host": "LIGHTNING6-joinbede.liV2ray.xyz"
+                }
             }
         },
         {
@@ -1774,6 +1780,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "49.13.72.241",
+            "server_port": 443,
+            "uuid": "ac4ca222-1c50-4f96-bd13-7a9498f8ea28",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pj7hhjVTqfsjNw7vIMQFwT6nzdbHLNAyUveeRhv5vw4",
+                    "short_id": "0960546b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Fnet00",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇺🇸US | tuic | @FAKEOFTVC | 2",
             "type": "tuic",
             "server": "107.173.15.52",
@@ -2032,7 +2074,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 8",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 8",
             "type": "vless",
             "server": "172.67.73.163",
             "server_port": 80,

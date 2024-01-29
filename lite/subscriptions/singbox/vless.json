@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇬🇧GB | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 10",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -216,7 +216,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇬🇧GB | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 10",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -1398,17 +1398,24 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "192.248.151.249",
+            "server": "tel.VPNCUSTOMIZE.cam",
             "server_port": 8080,
-            "uuid": "3c41365b-a875-44fc-ab55-6a00a8e13765",
+            "uuid": "7340f9b3-0907-445f-aaf9-304437af3153",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tel.VPNCUSTOMIZE.cam"
+                }
             }
         },
         {

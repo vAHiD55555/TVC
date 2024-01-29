@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 12",
+                "🇨🇦CA | vless | @EliV2ray | 14",
                 "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 12",
@@ -168,7 +168,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vmess | @forwardv2ray | 12",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 16",
@@ -189,7 +189,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 12",
+                "🇨🇦CA | vless | @EliV2ray | 14",
                 "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 12",
@@ -251,7 +251,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vmess | @forwardv2ray | 12",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 16",
@@ -288,7 +288,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 12",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 14",
             "type": "vless",
             "server": "eli.ELiV2.top",
             "server_port": 80,
@@ -1318,9 +1318,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
-            "server": "104.21.28.62",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "172.67.73.163",
+            "server_port": 80,
+            "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1328,21 +1328,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "172.67.73.163"
                 }
             }
         },
@@ -1895,24 +1885,20 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 12",
+            "type": "vmess",
+            "server": "holo.web.e1osux.adress.eyb30.com",
+            "server_port": 8880,
+            "uuid": "d60f9a4b-99fa-4a4c-b651-b94589b76568",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "zula.ir"
-                }
             }
         },
         {

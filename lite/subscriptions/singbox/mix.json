@@ -148,13 +148,13 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇺🇸US | vless | @MTConfig | 18",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇨🇷CR | vless | @DailyV2RY | 168",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 10",
@@ -165,7 +165,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇬🇧GB | vless | @forwardv2ray | 18",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 16",
@@ -229,13 +229,13 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇺🇸US | vless | @MTConfig | 18",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇨🇷CR | vless | @DailyV2RY | 168",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 10",
@@ -246,7 +246,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇬🇧GB | vless | @forwardv2ray | 18",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 16",
@@ -1394,11 +1394,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 17",
+            "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.22.51.162",
-            "server_port": 80,
-            "uuid": "-----WS-ipV2Ray-----",
+            "server": "190.93.246.225",
+            "server_port": 8880,
+            "uuid": "a4c67159-2586-4b09-985a-7e65556c4df9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1408,9 +1408,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ipV2Ray,@ipV2Ray",
+                "path": "\/@LIGHTNING6",
                 "headers": {
-                    "Host": "104.22.51.162"
+                    "Host": "190.93.246.225"
                 }
             }
         },
@@ -1519,17 +1519,30 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "192.248.151.249",
-            "server_port": 8080,
-            "uuid": "3c41365b-a875-44fc-ab55-6a00a8e13765",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "141.95.75.148",
+            "server_port": 443,
+            "uuid": "ce76d32e-3bc7-4a4f-bf2c-abddb893bed7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -1780,39 +1793,17 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "49.13.72.241",
-            "server_port": 443,
-            "uuid": "ac4ca222-1c50-4f96-bd13-7a9498f8ea28",
-            "flow": "xtls-rprx-vision",
+            "server": "192.248.151.249",
+            "server_port": 8080,
+            "uuid": "3c41365b-a875-44fc-ab55-6a00a8e13765",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pj7hhjVTqfsjNw7vIMQFwT6nzdbHLNAyUveeRhv5vw4",
-                    "short_id": "0960546b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Fnet00",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

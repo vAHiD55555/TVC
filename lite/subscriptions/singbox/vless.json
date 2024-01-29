@@ -147,7 +147,7 @@
                 "🇨🇷CR | vless | @DailyV2RY | 168",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇬🇧GB | vless | @ConfigsHUB | 11",
+                "🏳️XX | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 10",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -156,7 +156,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -167,7 +167,7 @@
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 4"
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 4"
             ]
         },
         {
@@ -215,7 +215,7 @@
                 "🇨🇷CR | vless | @DailyV2RY | 168",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇬🇧GB | vless | @ConfigsHUB | 11",
+                "🏳️XX | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 10",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -224,7 +224,7 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -235,7 +235,7 @@
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 4"
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1367,11 +1367,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 11",
+            "tag": "🏳️XX | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "192.248.151.249",
-            "server_port": 8080,
-            "uuid": "3c41365b-a875-44fc-ab55-6a00a8e13765",
+            "server": "kinsta.sjmek.ir",
+            "server_port": 5000,
+            "uuid": "e4a8946f-1dea-414d-8459-bd5c57b63521",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1537,7 +1537,7 @@
         {
             "tag": "🇨🇦CA | vless | @FreakConfig | 6",
             "type": "vless",
-            "server": "172.67.19.244",
+            "server": "172.67.73.163",
             "server_port": 80,
             "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
@@ -1549,9 +1549,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/TELEGRAM-PROXY_MTM",
+                "path": "\/path\/@FreakConfig",
                 "headers": {
-                    "Host": "172.67.19.244"
+                    "Host": "172.67.73.163"
                 }
             }
         },
@@ -1587,34 +1587,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "104.18.202.209",
-            "server_port": 443,
-            "uuid": "6fc70ad6-fd3d-4e48-92cf-f98b391917d0",
+            "server": "192.248.151.249",
+            "server_port": 8080,
+            "uuid": "3c41365b-a875-44fc-ab55-6a00a8e13765",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "MdVpnSec-V2rayNg-Free.snappfoodd.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "MdVpnSec-V2rayNg-Free.snappfoodd.site"
-                }
             }
         },
         {
@@ -1848,7 +1831,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 4",
+            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 4",
             "type": "vless",
             "server": "104.18.203.0",
             "server_port": 2096,

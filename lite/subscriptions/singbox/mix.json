@@ -152,9 +152,10 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 154",
                 "🇨🇦CA | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @MehradLearn | 14",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -164,7 +165,8 @@
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @FreakConfig | 6",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -231,9 +233,10 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 154",
                 "🇨🇦CA | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @MehradLearn | 14",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -243,7 +246,8 @@
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @FreakConfig | 6",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1481,6 +1485,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @MehradLearn | 14",
+            "type": "vless",
+            "server": "104.31.16.160",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.31.16.160"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @lrnbymaa | 11",
             "type": "vless",
             "server": "104.25.254.88",
@@ -1522,11 +1547,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.67.188.196",
-            "server_port": 443,
-            "uuid": "030ff4cf-6194-4177-90da-a49f46f9afce",
+            "server": "vps.mrhamiddev.ir",
+            "server_port": 17758,
+            "uuid": "93dc2bec-08c3-4364-82aa-824dc22b998c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1534,21 +1559,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "WoRKeR-WINTeR-BreEzE-4702.C6A6c6.wORkers.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/AgjOkU51bJ1hNmHL",
+                "path": "\/",
                 "headers": {
-                    "Host": "WoRKeR-WINTeR-BreEzE-4702.C6A6c6.wORkers.DeV"
+                    "Host": "vps.mrhamiddev.ir"
                 }
             }
         },
@@ -1772,11 +1787,32 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 6",
             "type": "vless",
-            "server": "k---join.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "X4Azadi",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@X4Azadi",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "tel.VPNCUSTOMIZE.cam",
+            "server_port": 8080,
+            "uuid": "VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1788,7 +1824,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "k---join.outline-vpn.cloud"
+                    "Host": "tel.VPNCUSTOMIZE.cam"
                 }
             }
         },

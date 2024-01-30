@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇺🇸US | vless | @prrofile_purple | 176",
-                "🇨🇷CR | vless | @ShadowSocks_s | 11",
+                "🇨🇷CR | vless | @ShadowSocks_s | 9",
                 "🇸🇪SE | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🇨🇦CA | vless | @vmessorg | 3",
@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 160",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
@@ -194,7 +194,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇺🇸US | vless | @prrofile_purple | 176",
-                "🇨🇷CR | vless | @ShadowSocks_s | 11",
+                "🇨🇷CR | vless | @ShadowSocks_s | 9",
                 "🇸🇪SE | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🇨🇦CA | vless | @vmessorg | 3",
@@ -213,7 +213,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 160",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
@@ -871,11 +871,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 11",
+            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 9",
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
             "server_port": 2087,
-            "uuid": "774d11eb-e6bf-4e5f-9ce6-263a598a3b1a",
+            "uuid": "05926aa9-3dc8-4474-84b7-d9be603ea6db",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1363,12 +1363,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.21.28.62",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
+            "server": "188.166.138.6",
+            "server_port": 25365,
+            "uuid": "4c9d21b7-17de-4270-958d-b0a0b3c6c7d4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1377,20 +1377,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NEzN9Gg0eRt3iD0yRJyJ0sjXoHbL0roPMGIMaVgciwA",
+                    "short_id": "d44a833e"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1530,9 +1535,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "germany.blueberrynetwork.icu",
-            "server_port": 2087,
-            "uuid": "2f4c1431-903f-4594-bac5-6698887640cd",
+            "server": "104.21.28.62",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1542,7 +1547,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "germany.blueberrynetwork.icu",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1552,9 +1557,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@BlueberryNetWork | @BlueberryNetWork | @BlueberryNetWork | @BlueberryNetWork | @BlueberryNetWork",
+                "path": "\/",
                 "headers": {
-                    "Host": "germany.blueberrynetwork.icu"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },

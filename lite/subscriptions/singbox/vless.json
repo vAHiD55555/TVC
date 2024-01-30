@@ -137,6 +137,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 11",
                 "🏳️XX | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
+                "🇨🇦CA | vless | @v2ray_swhil | 19",
                 "🇨🇷CR | vless | @proxyymeliii | 22",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇨🇷CR | vless | @v2ray1_ng | 3",
@@ -148,13 +149,14 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇨🇷CR | vless | @proxystore11 | 16",
+                "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇺🇸US | vless | @flyv2ray | 15",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -203,6 +205,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 11",
                 "🏳️XX | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
+                "🇨🇦CA | vless | @v2ray_swhil | 19",
                 "🇨🇷CR | vless | @proxyymeliii | 22",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇨🇷CR | vless | @v2ray1_ng | 3",
@@ -214,13 +217,14 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇨🇷CR | vless | @proxystore11 | 16",
+                "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇺🇸US | vless | @flyv2ray | 15",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1120,6 +1124,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 19",
+            "type": "vless",
+            "server": "edgu.pureboy.eu.org",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "edgu.pureboy.eu.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇷CR | vless | @proxyymeliii | 22",
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
@@ -1414,11 +1439,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxystore11 | 16",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 16",
             "type": "vless",
-            "server": "190.93.247.155",
+            "server": "canva.com",
             "server_port": 80,
-            "uuid": "e3e53b8e-5ee5-4f5d-b39d-7f7b7c2e09c2",
+            "uuid": "e4b00540-b78a-4195-86df-d1b7ed6701e2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1428,9 +1453,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT",
                 "headers": {
-                    "Host": "190.93.247.155"
+                    "Host": "canva.com"
                 }
             }
         },
@@ -1586,6 +1611,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "all.digiv2.online",
+            "server_port": 2087,
+            "uuid": "f922a88b-d4f5-4371-924e-c0335c990521",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "SpeedV2rayNg-ConneCtion.digiv2ray1.store",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DigiV",
+                "headers": {
+                    "Host": "SpeedV2rayNg-ConneCtion.digiv2ray1.store"
+                }
             }
         },
         {

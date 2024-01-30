@@ -110,7 +110,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇰🇷KR | vmess | @DeamNet_Proxy | 19",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 7",
-                "🇳🇱NL | vmess | @proxyymeliii | 22",
+                "🇸🇬SG | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -125,7 +125,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇰🇷KR | vmess | @DeamNet_Proxy | 19",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 7",
-                "🇳🇱NL | vmess | @proxyymeliii | 22",
+                "🇸🇬SG | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -220,11 +220,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @proxyymeliii | 22",
+            "tag": "🇸🇬SG | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "156.253.5.223",
-            "server_port": 25155,
-            "uuid": "eb678d2d-0760-415b-8e43-151c04a67b69",
+            "server": "128.199.128.214",
+            "server_port": 42338,
+            "uuid": "13e5d814-834b-473a-a87a-15459987f181",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -234,6 +234,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {

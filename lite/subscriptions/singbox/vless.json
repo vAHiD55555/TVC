@@ -153,14 +153,15 @@
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇺🇸US | vless | @Outlinev2rayNG | 5",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 4",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
-                "🇺🇸US | vless | @mehrosaboran | 14",
+                "🇺🇸US | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 12",
@@ -223,14 +224,15 @@
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇺🇸US | vless | @Outlinev2rayNG | 5",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 4",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
-                "🇺🇸US | vless | @mehrosaboran | 14",
+                "🇺🇸US | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 12",
@@ -1490,24 +1492,39 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 5",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 4",
             "type": "vless",
-            "server": "190.93.245.101",
-            "server_port": 80,
-            "uuid": "0163d4ca-7f61-4d1b-9bb7-df8ade020df6",
-            "flow": "",
+            "server": "13.49.231.106",
+            "server_port": 8080,
+            "uuid": "049f97b8-7180-4b67-d79d-9541ff116fe8",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "190.93.245.101"
+            "tls": {
+                "enabled": true,
+                "server_name": "*.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tj4NuuQRH5GMJqWUYRYsCPvhR4KCRQ58TqF7gqCf9lQ",
+                    "short_id": "21e3"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@kiava",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1630,6 +1647,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.21.59.51",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/path\/telegramproxy_mtm",
+                "headers": {
+                    "Host": "104.21.59.51"
+                }
+            }
+        },
+        {
             "tag": "🇬🇧GB | vless | @FAKEOFTVC | 2",
             "type": "vless",
             "server": "87.236.208.38",
@@ -1682,7 +1720,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 14",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 15",
             "type": "vless",
             "server": "173.245.58.31",
             "server_port": 2083,

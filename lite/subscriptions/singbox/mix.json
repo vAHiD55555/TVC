@@ -163,7 +163,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇻🇳VN | vmess | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 13",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 16",
@@ -242,7 +242,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇻🇳VN | vmess | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 13",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 16",
@@ -1723,28 +1723,14 @@
             }
         },
         {
-            "tag": "🇻🇳VN | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "skyht2.vpndata.vn",
-            "server_port": 80,
-            "uuid": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNDATA.VPN",
-                "headers": {
-                    "Host": "skyht2.vpndata.vn"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 13",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇬🇧GB | vless | @FAKEOFTVC | 4",

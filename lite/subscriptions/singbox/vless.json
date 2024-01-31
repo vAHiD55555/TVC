@@ -143,8 +143,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 16",
-                "🇨🇷CR | vless | @DailyV2RY | 161",
-                "🇨🇦CA | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @DailyV2RY | 161",
                 "🇨🇦CA | vless | @MehradLearn | 14",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇨🇦CA | vless | @proxystore11 | 15",
@@ -154,6 +153,7 @@
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇩🇪DE | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @flyv2ray | 13",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇩🇪DE | vless | @mehrosaboran | 14",
@@ -209,8 +209,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 16",
-                "🇨🇷CR | vless | @DailyV2RY | 161",
-                "🇨🇦CA | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @DailyV2RY | 161",
                 "🇨🇦CA | vless | @MehradLearn | 14",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇨🇦CA | vless | @proxystore11 | 15",
@@ -220,6 +219,7 @@
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇩🇪DE | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @flyv2ray | 13",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇩🇪DE | vless | @mehrosaboran | 14",
@@ -1183,8 +1183,8 @@
             "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "190.93.247.155",
-            "server_port": 80,
-            "uuid": "e74ba6a3-161e-4ad3-8ac3-323e10c7caf4",
+            "server_port": 2087,
+            "uuid": "29768127-c758-46b7-a303-fad1723a09d7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1192,11 +1192,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "gmV2raybo.shhproxyfree.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "190.93.247.155"
+                    "Host": "gmV2raybo.shhproxyfree.com"
                 }
             }
         },
@@ -1232,42 +1242,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DailyV2RY | 161",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 161",
             "type": "vless",
-            "server": "LIGHTNING6-joinbede.liV2ray.xyz",
-            "server_port": 2083,
-            "uuid": "6fb9b261-a020-486e-aba3-c1cb9fbf0a49",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "liV2raya.xn--mgbg0fka44dhgc.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @sinabigo | 5",
-            "type": "vless",
-            "server": "ELi.ELiV2.top",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "X4Azadi",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1277,9 +1256,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@X4Azadi",
                 "headers": {
-                    "Host": "ELi.ELiV2.top"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1509,6 +1488,35 @@
                 "path": "\/",
                 "headers": {
                     "Host": "shhproxy.varzesh3-cnd.site"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "cloud.ns.g01e.nochofscu.sbs",
+            "server_port": 10443,
+            "uuid": "cc6bfed8-7010-4eab-a8e7-89793ade0815",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "n8tbatLDMMjIgL42OziDdK-lQGi3M1hFz4xVtmOjuTE",
+                    "short_id": "93a1f0fa"
                 }
             }
         },

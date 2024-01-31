@@ -109,6 +109,7 @@
                 "🇮🇷IR | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @v2_team | 18",
+                "🇨🇦CA | vless | @NIM_VPN_ir | 13",
                 "🇬🇧GB | vless | @VlessConfig | 15",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 25",
                 "🇫🇮FI | vless | @ipV2Ray | 18",
@@ -126,6 +127,7 @@
                 "🇬🇧GB | vless | @v2logy | 13",
                 "🇺🇸US | vless | @servermomo | 8",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 8",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @prrofile_purple | 176",
                 "🇺🇸US | vless | @customv2ray | 8",
@@ -157,7 +159,6 @@
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -179,6 +180,7 @@
                 "🇮🇷IR | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @v2_team | 18",
+                "🇨🇦CA | vless | @NIM_VPN_ir | 13",
                 "🇬🇧GB | vless | @VlessConfig | 15",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 25",
                 "🇫🇮FI | vless | @ipV2Ray | 18",
@@ -196,6 +198,7 @@
                 "🇬🇧GB | vless | @v2logy | 13",
                 "🇺🇸US | vless | @servermomo | 8",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 8",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @prrofile_purple | 176",
                 "🇺🇸US | vless | @customv2ray | 8",
@@ -227,7 +230,6 @@
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -342,6 +344,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 13",
+            "type": "vless",
+            "server": "104.24.176.7",
+            "server_port": 80,
+            "uuid": "f7732359-149b-41ac-a5c2-02afc820ef61",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/NIM_VPN_ir",
+                "headers": {
+                    "Host": "104.24.176.7"
+                }
             }
         },
         {
@@ -843,6 +866,37 @@
                 "path": "\/@X4Azadi",
                 "headers": {
                     "Host": "lol.ps"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "xc.npv-tun.cfd",
+            "server_port": 2096,
+            "uuid": "8dbbe670-4b1d-4cef-bf61-3ffcb9141a8e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "off.npv-tun.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Bissell",
+                "headers": {
+                    "Host": "off.npv-tun.cfd"
                 }
             }
         },
@@ -1615,27 +1669,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | @FAKEOFTVC | 1",
-            "type": "vless",
-            "server": "87.236.208.38",
-            "server_port": 8880,
-            "uuid": "95e573cb-105c-42e5-a353-8aed544d31a8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "87.236.208.38"
                 }
             }
         },

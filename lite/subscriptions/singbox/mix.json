@@ -129,7 +129,7 @@
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇬🇧GB | trojan | @PrivateVPNs | 15",
-                "🇬🇧GB | trojan | @DirectVPN | 15",
+                "🇮🇪IE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇵🇹PT | vmess | @DeamNet_Proxy | 18",
@@ -168,7 +168,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇸🇪SE | vless | @forwardv2ray | 16",
+                "🇳🇱NL | vmess | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -212,7 +212,7 @@
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇬🇧GB | trojan | @PrivateVPNs | 15",
-                "🇬🇧GB | trojan | @DirectVPN | 15",
+                "🇮🇪IE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇵🇹PT | vmess | @DeamNet_Proxy | 18",
@@ -251,7 +251,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇸🇪SE | vless | @forwardv2ray | 16",
+                "🇳🇱NL | vmess | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -373,7 +373,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "18.175.10.48",
+            "server": "18.168.132.25",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -935,9 +935,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @DirectVPN | 15",
+            "tag": "🇮🇪IE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "35.176.146.84",
+            "server": "52.48.172.240",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1873,13 +1873,16 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "16.16.112.114",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 15",
+            "type": "vmess",
+            "server": "188.114.97.7",
+            "server_port": 443,
+            "uuid": "4c957ef8-985c-406e-a099-7c34f57cada9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1887,7 +1890,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "server_name": "kansas.gafn.online",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1897,9 +1900,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                    "Host": "kansas.gafn.online"
                 }
             }
         },

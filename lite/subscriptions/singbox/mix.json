@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 31",
+                "🇨🇷CR | vless | @lightning6 | 31",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 21",
@@ -152,7 +152,6 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 167",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | vless | @ConfigsHUB | 11",
@@ -161,13 +160,13 @@
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 3",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 4",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇷CR | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -199,7 +198,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 31",
+                "🇨🇷CR | vless | @lightning6 | 31",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 21",
@@ -233,7 +232,6 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 167",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | vless | @ConfigsHUB | 11",
@@ -242,13 +240,13 @@
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 3",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 4",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇷CR | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -621,7 +619,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 31",
+            "tag": "🇨🇷CR | vless | @lightning6 | 31",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1494,37 +1492,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @MehradLearn | 12",
-            "type": "vless",
-            "server": "172.64.80.150",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @lrnbymaa | 11",
             "type": "vless",
             "server": "pydar.banndedd.ir",
@@ -1684,7 +1651,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 3",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 4",
             "type": "vless",
             "server": "pydar.banndedd.ir",
             "server_port": 8080,
@@ -1848,13 +1815,16 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 15",
+            "type": "vmess",
+            "server": "104.21.25.98",
             "server_port": 80,
-            "uuid": "46c8f836-5b3e-4cea-b805-92546a8b59e5",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "e2e25aa2-aab9-486c-9ab4-495bcbcea4d8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1862,9 +1832,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "shhproxy.varzesh3-cnd.site"
+                    "Host": ""
                 }
             }
         },

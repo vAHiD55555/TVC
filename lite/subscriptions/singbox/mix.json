@@ -165,7 +165,7 @@
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 11",
-                "🇸🇪SE | ss | @forwardv2ray | 17",
+                "🇮🇷IR | vless | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -245,7 +245,7 @@
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 11",
-                "🇸🇪SE | ss | @forwardv2ray | 17",
+                "🇮🇷IR | vless | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -1788,14 +1788,18 @@
             }
         },
         {
-            "tag": "🇸🇪SE | ss | @forwardv2ray | 17",
-            "type": "shadowsocks",
-            "server": "51.20.12.127",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "zffHmSPWE3V9oceZ6gZaekKf4N\/Q5\/AeNsRH9NMbFiA=",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "37.152.191.143",
+            "server_port": 46441,
+            "uuid": "5579d280-f69a-4447-a13c-ab56c6947495",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇬🇧GB | vless | @FAKEOFTVC | 4",

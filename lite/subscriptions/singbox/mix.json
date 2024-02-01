@@ -106,9 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇦CA | vless | @NIM_VPN_ir | 13",
                 "🇬🇧GB | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @ARv2ray | 14",
@@ -150,7 +148,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 16",
-                "🇨🇷CR | vless | @DailyV2RY | 167",
+                "🇺🇸US | vless | @DailyV2RY | 167",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -164,8 +162,8 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇺🇸US | vless | @flyv2ray | 11",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @flyv2ray | 12",
+                "🇳🇱NL | vmess | @forwardv2ray | 16",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -186,9 +184,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇦CA | vless | @NIM_VPN_ir | 13",
                 "🇬🇧GB | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @ARv2ray | 14",
@@ -230,7 +226,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 16",
-                "🇨🇷CR | vless | @DailyV2RY | 167",
+                "🇺🇸US | vless | @DailyV2RY | 167",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -244,8 +240,8 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇺🇸US | vless | @flyv2ray | 11",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @flyv2ray | 12",
+                "🇳🇱NL | vmess | @forwardv2ray | 16",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -282,37 +278,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 11",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "Parsashonam-0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "same-jones-huntington-ll.trycloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Parsashonam",
-                "headers": {
-                    "Host": "same-jones-huntington-ll.trycloudflare.com"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @v2_team | 18",
             "type": "vless",
             "server": "join.v2team.cfd",
@@ -341,27 +306,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 13",
-            "type": "vless",
-            "server": "104.24.176.7",
-            "server_port": 80,
-            "uuid": "f7732359-149b-41ac-a5c2-02afc820ef61",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/NIM_VPN_ir",
-                "headers": {
-                    "Host": "104.24.176.7"
-                }
             }
         },
         {
@@ -1441,7 +1385,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DailyV2RY | 167",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 167",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1767,7 +1711,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 11",
+            "tag": "🇺🇸US | vless | @flyv2ray | 12",
             "type": "vless",
             "server": "tel.VPNCUSTOMIZE.cam",
             "server_port": 8080,
@@ -1788,17 +1732,37 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "37.152.191.143",
-            "server_port": 46441,
-            "uuid": "5579d280-f69a-4447-a13c-ab56c6947495",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 16",
+            "type": "vmess",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
+                }
             }
         },
         {
@@ -1857,8 +1821,8 @@
             "tag": "🇨🇷CR | vless | @mehrosaboran | 15",
             "type": "vless",
             "server": "190.93.246.225",
-            "server_port": 8880,
-            "uuid": "7dee9736-d32f-4ac9-f22a-831b81a0b101",
+            "server_port": 2083,
+            "uuid": "7a821e26-8705-4d7b-b2d2-43e889ae260c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1866,12 +1830,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@LIGHTNING6",
-                "headers": {
-                    "Host": "190.93.246.225"
+            "tls": {
+                "enabled": true,
+                "server_name": "liV2rayf.xn--mgbg0fka44dhgc.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@LIGHTNING6",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

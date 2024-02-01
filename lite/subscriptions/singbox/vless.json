@@ -143,9 +143,10 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 17",
-                "🇨🇷CR | vless | @DailyV2RY | 166",
+                "🇺🇸US | vless | @DailyV2RY | 166",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
+                "🇳🇱NL | vless | @proxystore11 | 15",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -154,7 +155,7 @@
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇦CA | vless | @mehrosaboran | 17",
@@ -209,9 +210,10 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇺🇸US | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 17",
-                "🇨🇷CR | vless | @DailyV2RY | 166",
+                "🇺🇸US | vless | @DailyV2RY | 166",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
+                "🇳🇱NL | vless | @proxystore11 | 15",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -220,7 +222,7 @@
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇦CA | vless | @mehrosaboran | 17",
@@ -308,7 +310,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.169.121.156",
+            "server": "18.171.83.16",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1249,7 +1251,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DailyV2RY | 166",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 166",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1328,6 +1330,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "pydar.banndedd.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @proxystore11 | 15",
+            "type": "vless",
+            "server": "188.114.96.18",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@v2ray_alpha\/",
+                "headers": {
+                    "Host": "188.114.96.18"
                 }
             }
         },
@@ -1555,31 +1578,23 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "45.147.7.37",
-            "server_port": 8443,
-            "uuid": "f1f45277-b3d2-47d3-af25-e9adc6c4721e",
-            "flow": "xtls-rprx-vision",
+            "server": "bia-to2.unlimiteddev.site",
+            "server_port": 8880,
+            "uuid": "6c0135ef-ced8-49ea-8e87-d62aad8bb550",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OPlajrHBqpFR1y7xG98-XLLU16an6m_Udo_dayCrDS0",
-                    "short_id": "3ee3bcf8"
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "bia-to2.unlimiteddev.site"
                 }
             }
         },

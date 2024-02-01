@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | ss | @V2rayCollectorDonate | 19",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | ss | @forwardv2ray | 19",
                 "🇬🇧GB | ss | @ROMAX_VPN | 10"
             ]
         },
@@ -115,8 +115,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | ss | @V2rayCollectorDonate | 19",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | ss | @forwardv2ray | 19",
                 "🇬🇧GB | ss | @ROMAX_VPN | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -140,22 +140,22 @@
             "type": "dns"
         },
         {
+            "tag": "🇨🇦CA | ss | @V2rayCollectorDonate | 19",
+            "type": "shadowsocks",
+            "server": "158.69.0.27",
+            "server_port": 1080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "KVcdcsJT6f0OWL5sEyM38A",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇸🇪SE | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "13.51.158.92",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "OSB+87jeqAmLnZZ8hdrjstUjGSpMPLB4BB\/N8tzG9iU=",
             "plugin": "",
             "plugin_opts": ""
         },

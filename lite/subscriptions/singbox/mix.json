@@ -132,7 +132,7 @@
                 "🇵🇭PH | vmess | @DeamNet_Proxy | 19",
                 "🇬🇷GR | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @prrofile_purple | 175",
-                "🇨🇷CR | vless | @ShadowSocks_s | 13",
+                "🇨🇷CR | vless | @ShadowSocks_s | 15",
                 "🇺🇸US | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 6",
@@ -166,9 +166,10 @@
                 "🇳🇱NL | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇸🇪SE | ss | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
-                "🇨🇦CA | vless | @mehrosaboran | 13",
+                "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 16",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -212,7 +213,7 @@
                 "🇵🇭PH | vmess | @DeamNet_Proxy | 19",
                 "🇬🇷GR | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @prrofile_purple | 175",
-                "🇨🇷CR | vless | @ShadowSocks_s | 13",
+                "🇨🇷CR | vless | @ShadowSocks_s | 15",
                 "🇺🇸US | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 6",
@@ -246,9 +247,10 @@
                 "🇳🇱NL | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇸🇪SE | ss | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
-                "🇨🇦CA | vless | @mehrosaboran | 13",
+                "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 16",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -951,7 +953,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 13",
+            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 15",
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
             "server_port": 2087,
@@ -1804,6 +1806,16 @@
             }
         },
         {
+            "tag": "🇸🇪SE | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "16.170.244.81",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "IOYIcrCdFGYAPKTK2aokXO0\/13HySddIO7glG5YQcxY=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇩🇪DE | vless | @FAKEOFTVC | 4",
             "type": "vless",
             "server": "49.13.135.58",
@@ -1864,11 +1876,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @mehrosaboran | 13",
+            "tag": "🇨🇦CA | vless | @mehrosaboran | 14",
             "type": "vless",
-            "server": "104.21.51.208",
-            "server_port": 80,
-            "uuid": "-----WS-ipV2Ray-----",
+            "server": "172.67.186.42",
+            "server_port": 8443,
+            "uuid": "Tel-VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1876,12 +1888,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.51.208"
+            "tls": {
+                "enabled": true,
+                "server_name": "20ns2-V2ray.Vpncustomize.Com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

@@ -111,7 +111,6 @@
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 22",
                 "🇨🇦CA | vless | @ipV2Ray | 18",
-                "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -128,7 +127,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 17",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 15",
+                "🇬🇧GB | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🏳️XX | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
@@ -169,13 +168,13 @@
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
-                "🇨🇦CA | vless | @nofiltering2 | 15",
-                "🏳️XX | ss | @proxy_mtm | 31",
+                "🇨🇦CA | vmess | @nofiltering2 | 13",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
+                "🇺🇸US | tuic | @TUICity | 76",
                 "🏳️XX | vmess | @SINABIGO | 6",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -192,7 +191,6 @@
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 22",
                 "🇨🇦CA | vless | @ipV2Ray | 18",
-                "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -209,7 +207,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 17",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 15",
+                "🇬🇧GB | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🏳️XX | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
@@ -250,13 +248,13 @@
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
-                "🇨🇦CA | vless | @nofiltering2 | 15",
-                "🏳️XX | ss | @proxy_mtm | 31",
+                "🇨🇦CA | vmess | @nofiltering2 | 13",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
+                "🇺🇸US | tuic | @TUICity | 76",
                 "🏳️XX | vmess | @SINABIGO | 6",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -338,7 +336,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.38.237.58",
+            "server": "13.37.10.254",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -423,37 +421,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @melov2ray | 8",
-            "type": "vless",
-            "server": "fin.melov2ray.shop",
-            "server_port": 8443,
-            "uuid": "a4717e29-e4ce-4614-86c0-1341c4e913a6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "FIn.Melov2ray.Shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -887,7 +854,7 @@
         {
             "tag": "🇫🇷FR | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "15.237.239.151",
+            "server": "13.39.251.230",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -907,9 +874,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 15",
+            "tag": "🇬🇧GB | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "13.36.248.36",
+            "server": "18.134.216.106",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1140,9 +1107,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
-            "server": "k---join.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "cxc--join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1150,11 +1117,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "always-online1.lp-airdrop.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "k---join.outline-vpn.cloud"
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
@@ -1923,13 +1900,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @nofiltering2 | 15",
-            "type": "vless",
-            "server": "104.24.16.243",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 13",
+            "type": "vmess",
+            "server": "glweidf.cfd",
             "server_port": 443,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1937,7 +1917,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mahi.kosnanatfilterchi.eu.org",
+                "server_name": "glweidf.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1947,21 +1927,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "mahi.kosnanatfilterchi.eu.org"
+                    "Host": "glweidf.cfd"
                 }
             }
-        },
-        {
-            "tag": "🏳️XX | ss | @proxy_mtm | 31",
-            "type": "shadowsocks",
-            "server": "[0:0:0:0:0:ffff:0d30:2cc1]",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "CdlZIHkPi6PW7w8LE5JcHINBG8KeGYtxvoJpUCTU7tk=",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -2095,6 +2065,29 @@
                     "public_key": "oSBCQtFYo78mD4BFlVVx6J6ykyXUQRoiOtfLdDnkGzI",
                     "short_id": "289ce33d"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | tuic | @TUICity | 76",
+            "type": "tuic",
+            "server": "64.110.25.10",
+            "server_port": 11227,
+            "uuid": "764b539f-2d3c-4772-9731-5ebf6984af98",
+            "password": "dongtaiwang.com",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "zero_rtt_handshake": false,
+            "heartbeat": "10s",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "disable_sni": false,
+                "server_name": "bing.com",
+                "insecure": true,
+                "alpn": [
+                    "h3",
+                    "spdy\/3.1"
+                ]
             }
         },
         {

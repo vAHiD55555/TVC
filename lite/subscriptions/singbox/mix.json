@@ -132,7 +132,7 @@
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇵🇹PT | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @prrofile_purple | 176",
-                "🇨🇷CR | vless | @ShadowSocks_s | 17",
+                "🇨🇷CR | vless | @ShadowSocks_s | 15",
                 "🇨🇷CR | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 7",
@@ -142,6 +142,8 @@
                 "🇫🇷FR | vmess | @ShadowProxy66 | 31",
                 "🇨🇦CA | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+                "🇩🇪DE | vless | @v2ray_swhil | 17",
                 "🇨🇷CR | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇨🇦CA | vmess | @v2ray1_ng | 8",
@@ -163,12 +165,11 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 5",
-                "🇬🇧GB | ss | @proxy_mtm | 1",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 10",
@@ -211,7 +212,7 @@
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇵🇹PT | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @prrofile_purple | 176",
-                "🇨🇷CR | vless | @ShadowSocks_s | 17",
+                "🇨🇷CR | vless | @ShadowSocks_s | 15",
                 "🇨🇷CR | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 7",
@@ -221,6 +222,8 @@
                 "🇫🇷FR | vmess | @ShadowProxy66 | 31",
                 "🇨🇦CA | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+                "🇩🇪DE | vless | @v2ray_swhil | 17",
                 "🇨🇷CR | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇨🇦CA | vmess | @v2ray1_ng | 8",
@@ -242,12 +245,11 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 5",
-                "🇬🇧GB | ss | @proxy_mtm | 1",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 10",
@@ -971,11 +973,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 17",
+            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 15",
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
             "server_port": 2087,
-            "uuid": "774d11eb-e6bf-4e5f-9ce6-263a598a3b1a",
+            "uuid": "05926aa9-3dc8-4474-84b7-d9be603ea6db",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1239,6 +1241,59 @@
                 "headers": {
                     "Host": "963C1F6A-8485-443a-a386-4E6D34A64dc8.MRvi.ONline"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+            "type": "vmess",
+            "server": "81.12.27.108",
+            "server_port": 16767,
+            "uuid": "d30a1c51-d37c-4cb8-bee6-8f5cd746f9d7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2ray_swhil | 17",
+            "type": "vless",
+            "server": "german.mmdtitaniom.com",
+            "server_port": 443,
+            "uuid": "c6446acb-5a26-4b24-bc82-812baff26c3a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xtsHef5EMKqwwpP3cJTyrMKM9SyaPb19ORaZQ_GMmSA",
+                    "short_id": "fd7bb3af"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@TITANIOM_OFFICIAL,@TITANIOM_OFFICIlAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1767,11 +1822,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 14",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "104.31.16.160",
+            "server": "speedtest.org",
             "server_port": 80,
-            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "uuid": "157fc603-fbd5-4ee8-ac61-17b5346bd98c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1781,9 +1836,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/NIM_VPN_ir",
                 "headers": {
-                    "Host": "104.31.16.160"
+                    "Host": "speedtest.org"
                 }
             }
         },
@@ -1906,16 +1961,6 @@
                     "short_id": "36465b56"
                 }
             }
-        },
-        {
-            "tag": "🇬🇧GB | ss | @proxy_mtm | 1",
-            "type": "shadowsocks",
-            "server": "series-a1.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇹🇷TR | vless | @vpn_go67 | 23",

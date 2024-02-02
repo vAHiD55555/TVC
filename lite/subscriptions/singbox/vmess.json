@@ -108,9 +108,8 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 6",
-                "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 1",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
@@ -124,9 +123,8 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 6",
-                "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 1",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
@@ -195,30 +193,6 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "hrgdvpn.flycdnedc55.vip",
-            "server_port": 80,
-            "uuid": "00a1da14-d55f-5f75-e346-79b985e1a723",
-            "security": "auto",
-            "alter_id": 32,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/opt\/video\/images",
-                "headers": {
-                    "Host": "hrgdvpn.flycdnedc55.vip"
-                }
-            }
-        },
-        {
             "tag": "🇭🇰HK | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "74.119.193.64",
@@ -253,7 +227,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 1",
             "type": "vmess",
             "server": "81.12.27.108",
             "server_port": 16767,

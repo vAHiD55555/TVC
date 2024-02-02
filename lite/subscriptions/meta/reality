@@ -121,6 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇩🇪DE | vless | @v2ray1_ng | 8","type":"vless","server":"78.47.198.99","port":443,"udp":true,"uuid":"cb00ef4a-fcf7-484a-8c49-6a2422ed84e6","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"*.google.com","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"msTPLgzvYs8r_Nww-HHQG5Cbj8VEwYjwsFVCuwdSZk8","short-id":"9d2b63ad"}}
+  - {"name":"🇩🇪DE | vless | @forwardv2ray | 19","type":"vless","server":"49.13.170.61","port":2087,"udp":true,"uuid":"9b28c890-296d-411d-a323-2f411e751f00","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"dash.cloudflare.com","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"KuZOpuz0L4H-VNikILS8NP9oA6Ra9uTGEZLHH0FODFM","short-id":"83cdb009"}}
   - {"name":"🇩🇪DE | vless | @FAKEOFTVC | 6","type":"vless","server":"49.13.135.58","port":443,"udp":true,"uuid":"18e82ee0-3b88-48d1-9292-484c8051f690","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"github.io","flow":"xtls-rprx-vision","reality-opts":{"public-key":"X5WLfJ82KCpBanu2EwML11CwJUM2NczTonML5hHwW2o","short-id":"b5b39d420f404069"}}
 proxy-groups:
   - name: MANUAL
@@ -129,6 +130,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇩🇪DE | vless | @v2ray1_ng | 8'
+      - '🇩🇪DE | vless | @forwardv2ray | 19'
       - '🇩🇪DE | vless | @FAKEOFTVC | 6'
   - name: URL-TEST
     type: url-test
@@ -137,6 +139,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇩🇪DE | vless | @v2ray1_ng | 8'
+      - '🇩🇪DE | vless | @forwardv2ray | 19'
       - '🇩🇪DE | vless | @FAKEOFTVC | 6'
   - name: FALLBACK
     type: fallback
@@ -144,6 +147,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇩🇪DE | vless | @v2ray1_ng | 8'
+      - '🇩🇪DE | vless | @forwardv2ray | 19'
       - '🇩🇪DE | vless | @FAKEOFTVC | 6'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}

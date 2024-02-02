@@ -127,7 +127,7 @@ proxies:
   - {"name":"🇫🇷FR | vmess | @ShadowProxy66 | 31","type":"vmess","server":"141.94.86.92","port":"10050","cipher":"auto","uuid":"9b3b40c1-3b11-4094-8553-a02f2e01f24c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 17","type":"ss","server":"www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
-  - {"name":"🏳️XX | ss | @forwardv2ray | 18","type":"ss","server":"[0000:0000:0000:0000:0000:ffff:10aa:fcc1]","port":8080,"password":"FGjVMugsSdonhMd4HxqJo7e0xckqXKlDlF/Ap991gXA=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | vmess | @forwardv2ray | 16","type":"vmess","server":"yox.wqasersrewqa.xyz","port":"2083","cipher":"auto","uuid":"46b2092e-8ef0-4885-aaea-e6c13b75eb60","alterId":"0","tls":true,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -143,7 +143,7 @@ proxy-groups:
       - '🇫🇷FR | vmess | @ShadowProxy66 | 31'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🏳️XX | ss | @forwardv2ray | 18'
+      - '🇩🇪DE | vmess | @forwardv2ray | 16'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -159,7 +159,7 @@ proxy-groups:
       - '🇫🇷FR | vmess | @ShadowProxy66 | 31'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🏳️XX | ss | @forwardv2ray | 18'
+      - '🇩🇪DE | vmess | @forwardv2ray | 16'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -174,7 +174,7 @@ proxy-groups:
       - '🇫🇷FR | vmess | @ShadowProxy66 | 31'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🏳️XX | ss | @forwardv2ray | 18'
+      - '🇩🇪DE | vmess | @forwardv2ray | 16'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve

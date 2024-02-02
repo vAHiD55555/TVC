@@ -118,7 +118,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 1",
-                "🇺🇸US | vless | @lightning6 | 28",
+                "🇨🇷CR | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 9",
@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇧🇬BG | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -184,7 +184,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 1",
-                "🇺🇸US | vless | @lightning6 | 28",
+                "🇨🇷CR | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 9",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇧🇬BG | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -596,7 +596,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 28",
+            "tag": "🇨🇷CR | vless | @lightning6 | 28",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1595,11 +1595,11 @@
             }
         },
         {
-            "tag": "🇧🇬BG | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "migmig.persiancatshop.fun",
-            "server_port": 443,
-            "uuid": "e515da68-25aa-4ab1-b335-66c2221f293c",
+            "server": "104.31.16.160",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1607,22 +1607,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "blogs.persiancatshop.fun",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "AHYdlDzG2ThvmOvP",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.31.16.160"
+                }
             }
         },
         {

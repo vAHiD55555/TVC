@@ -114,6 +114,7 @@
                 "🇨🇦CA | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
+                "🇨🇷CR | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 1",
@@ -129,9 +130,9 @@
                 "🇨🇷CR | vless | @ShadowSocks_s | 15",
                 "🇨🇷CR | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
-                "🇨🇦CA | vless | @vmessorg | 6",
+                "🇨🇦CA | vless | @vmessorg | 7",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
-                "🇳🇱NL | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🏳️XX | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
@@ -140,7 +141,7 @@
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @MTConfig | 18",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 124",
                 "🇺🇸US | vless | @sinabigo | 5",
@@ -154,7 +155,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 14",
-                "🇺🇸US | vless | @mehrosaboran | 12",
+                "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇷CR | vless | @proxy_mtm | 6",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -178,6 +179,7 @@
                 "🇨🇦CA | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇨🇦CA | vless | @ARv2ray | 13",
+                "🇨🇷CR | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 1",
@@ -193,9 +195,9 @@
                 "🇨🇷CR | vless | @ShadowSocks_s | 15",
                 "🇨🇷CR | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
-                "🇨🇦CA | vless | @vmessorg | 6",
+                "🇨🇦CA | vless | @vmessorg | 7",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
-                "🇳🇱NL | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🏳️XX | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
@@ -204,7 +206,7 @@
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @MTConfig | 18",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 124",
                 "🇺🇸US | vless | @sinabigo | 5",
@@ -218,7 +220,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 14",
-                "🇺🇸US | vless | @mehrosaboran | 12",
+                "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇨🇷CR | vless | @proxy_mtm | 6",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -485,6 +487,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @shh_proxy | 23",
+            "type": "vless",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 2087,
+            "uuid": "29768127-c758-46b7-a303-fad1723a09d7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gmV2raybo.shhproxyfree.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "gmV2raybo.shhproxyfree.com"
+                }
             }
         },
         {
@@ -883,11 +916,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 6",
+            "tag": "🇨🇦CA | vless | @vmessorg | 7",
             "type": "vless",
             "server": "joinbede.vmessorg.online",
             "server_port": 8880,
-            "uuid": "448a7128-3f3d-40a1-9fcf-1f4ffaa08adf",
+            "uuid": "9a110677-5dc1-4922-a71c-8b76dfb24eec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -940,11 +973,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @v2rayngvpn | 13",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "188.114.97.2",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "104.20.2.1",
+            "server_port": 80,
+            "uuid": "47175d8e-3e95-4ca2-85af-b889083f96de",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -952,21 +985,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/fuck_yes!",
+                "path": "\/backup",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "104.20.2.1"
                 }
             }
         },
@@ -1006,7 +1029,7 @@
             "type": "vless",
             "server": "joinsevernett.numalla.top",
             "server_port": 2053,
-            "uuid": "f43dd3fe-4654-4b99-864f-27008061d576",
+            "uuid": "d9378449-433e-4aa3-a6c5-79af50560ebf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1187,11 +1210,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
+            "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.18.203.232",
-            "server_port": 443,
-            "uuid": "7ff1f7f6-63d7-436e-9dc8-546fceec4a25",
+            "server": "190.93.247.155",
+            "server_port": 2087,
+            "uuid": "b1f0593c-c099-45ec-b7b7-566b1d74ca3c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1201,7 +1224,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.ArV2ray.host",
+                "server_name": "gmV2raybo.shhproxyfree.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1210,11 +1233,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "gmV2raybo.shhproxyfree.com"
+                }
             }
         },
         {
@@ -1541,7 +1564,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 12",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 13",
             "type": "vless",
             "server": "198.41.202.5",
             "server_port": 80,

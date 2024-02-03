@@ -107,7 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | ss | @DeamNet_Proxy | 19",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 15"
+                "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
+                "🇨🇳CN | ss | @forwardv2ray | 17"
             ]
         },
         {
@@ -115,7 +116,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | ss | @DeamNet_Proxy | 19",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 15"
+                "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
+                "🇨🇳CN | ss | @forwardv2ray | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -154,6 +156,16 @@
             "server_port": 12949,
             "method": "chacha20-ietf-poly1305",
             "password": "P2zxXPewlV3BlfqqYiSthvtLc",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇳CN | ss | @forwardv2ray | 17",
+            "type": "shadowsocks",
+            "server": "sj6hn4kq43eqwkk1.zozazutenoga.shop",
+            "server_port": 20108,
+            "method": "chacha20-ietf-poly1305",
+            "password": "b572175b-0cdf-48b9-a2d1-4d3a3f4506f3",
             "plugin": "",
             "plugin_opts": ""
         }

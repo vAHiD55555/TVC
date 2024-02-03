@@ -156,6 +156,7 @@
                 "🇬🇧GB | vless | @VmessProtocol | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 130",
                 "🇺🇸US | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -167,6 +168,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇷CR | vless | @flyv2ray | 14",
+                "🇫🇮FI | vmess | @forwardv2ray | 16",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -235,6 +237,7 @@
                 "🇬🇧GB | vless | @VmessProtocol | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 130",
                 "🇺🇸US | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -246,6 +249,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇷CR | vless | @flyv2ray | 14",
+                "🇫🇮FI | vmess | @forwardv2ray | 16",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -1559,6 +1563,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @MehradLearn | 7",
+            "type": "vless",
+            "server": "iranserver.com",
+            "server_port": 2096,
+            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpnct.arvancode.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/bShq2qgG8GnX8zqm\/",
+                "headers": {
+                    "Host": "vpnct.arvancode.eu.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @lrnbymaa | 13",
             "type": "vless",
             "server": "pydar.banndedd.ir",
@@ -1815,6 +1850,23 @@
                 "headers": {
                     "Host": "gmV2raybo.shhproxyfree.com"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vmess | @forwardv2ray | 16",
+            "type": "vmess",
+            "server": "65.109.203.219",
+            "server_port": 34088,
+            "uuid": "2793c564-4aff-4af6-aef9-e484639ebda9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

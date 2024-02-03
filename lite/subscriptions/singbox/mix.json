@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇮🇷IR | vmess | @V2rayng_Fast | 1",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 2",
                 "🇩🇪DE | vless | @v2ray_swhil | 19",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇬🇧GB | vless | @v2ray1_ng | 5",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇺🇸US | vless | @IRN_VPN | 1",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇸🇪SE | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 3",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -227,7 +227,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇮🇷IR | vmess | @V2rayng_Fast | 1",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 2",
                 "🇩🇪DE | vless | @v2ray_swhil | 19",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇬🇧GB | vless | @v2ray1_ng | 5",
@@ -249,7 +249,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇺🇸US | vless | @IRN_VPN | 1",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇸🇪SE | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 3",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -971,7 +971,7 @@
         {
             "tag": "🇬🇧GB | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "13.42.139.200",
+            "server": "3.10.44.212",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1362,7 +1362,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 1",
+            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 2",
             "type": "vmess",
             "server": "81.12.27.108",
             "server_port": 16767,
@@ -1914,11 +1914,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 17",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 3",
             "type": "vless",
-            "server": "13.49.85.188",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "server": "161.35.67.177",
+            "server_port": 443,
+            "uuid": "---Telegram-Parsashonam--1-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1926,21 +1926,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
+                "path": "\/Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam,Telegram:@Parsashonam",
                 "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                    "Host": "161.35.67.177"
                 }
             }
         },

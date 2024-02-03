@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 19",
-                "🇳🇱NL | vless | @DailyV2RY | 111",
+                "🇨🇦CA | vless | @DailyV2RY | 114",
                 "🇺🇸US | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
@@ -227,7 +227,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 19",
-                "🇳🇱NL | vless | @DailyV2RY | 111",
+                "🇨🇦CA | vless | @DailyV2RY | 114",
                 "🇺🇸US | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
@@ -487,9 +487,9 @@
         {
             "tag": "🇨🇦CA | vless | @ARv2ray | 14",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "7ff1f7f6-63d7-436e-9dc8-546fceec4a25",
+            "server": "check-host.net",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -497,22 +497,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.ArV2ray.host",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@ArV2ray,@ArV2ray,@ArV2ray",
+                "headers": {
+                    "Host": "check-host.net"
+                }
             }
         },
         {
@@ -1297,8 +1287,8 @@
             "tag": "🇩🇪DE | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "128.140.82.200",
-            "server_port": 80,
-            "uuid": "f06f69ce-5145-4a21-a08c-814dead20e19",
+            "server_port": 8880,
+            "uuid": "8dbf3599-da71-4899-b8a9-82e6e0fd5a75",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1346,12 +1336,12 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @DailyV2RY | 111",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 114",
             "type": "vless",
-            "server": "185.39.18.77",
-            "server_port": 443,
-            "uuid": "etZgxHJS6cpk1ZGjXt9WuE",
-            "flow": "xtls-rprx-vision",
+            "server": "mobileshopmci.mahanmrz.top",
+            "server_port": 2087,
+            "uuid": "0e411407-6e1b-478e-bac7-c570cb3f9d6f",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1360,18 +1350,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "microsoft.com",
+                "server_name": "mobileshop.mahanmrz.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uR_iiQ5thhk8Zj2gazpySDUpkyjAKcICMmgPqzhKrRg",
-                    "short_id": "f2552204f500c521"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "mobileshop.mahanmrz.top",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1709,7 +1701,7 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.31.16.168",
+            "server": "104.31.16.160",
             "server_port": 80,
             "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
             "flow": "",
@@ -1723,7 +1715,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.31.16.168"
+                    "Host": "104.31.16.160"
                 }
             }
         },
@@ -1761,7 +1753,7 @@
         {
             "tag": "🇨🇦CA | vless | @https_config_injector | 14",
             "type": "vless",
-            "server": "104.17.66.67",
+            "server": "www.speedtest.net",
             "server_port": 443,
             "uuid": "config-injectorV2",
             "flow": "",

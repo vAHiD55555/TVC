@@ -121,7 +121,6 @@
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 16",
-                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇨🇷CR | vless | @customv2ray | 13",
@@ -151,7 +150,6 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 10",
@@ -159,6 +157,7 @@
                 "🇨🇦CA | vless | @nofiltering2 | 5",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @kingofilter | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -186,7 +185,6 @@
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 16",
-                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 15",
                 "🇨🇷CR | vless | @customv2ray | 13",
@@ -216,7 +214,6 @@
                 "🏳️XX | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇳🇱NL | vless | @mehrosaboran | 10",
@@ -224,6 +221,7 @@
                 "🇨🇦CA | vless | @nofiltering2 | 5",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
+                "🇨🇦CA | vless | @kingofilter | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 8",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -669,20 +667,6 @@
                 "headers": {
                     "Host": "104.24.185.135"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "80.71.149.205",
-            "server_port": 8443,
-            "uuid": "583efb0a-0909-4a10-a0fd-a9e65d7f7dfe",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1411,37 +1395,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "join60.numalla.top",
-            "server_port": 2053,
-            "uuid": "59013ef6-4630-4240-ae3a-450b1a468ae1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join60.numalla.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @FAKEOFTVC | 4",
             "type": "vless",
             "server": "my.lamashop.site",
@@ -1652,6 +1605,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @kingofilter | 10",
+            "type": "vless",
+            "server": "edgu.pureboy.eu.org",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "edgu.pureboy.eu.org"
+                }
             }
         },
         {

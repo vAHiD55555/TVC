@@ -120,6 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
+  - {"name":"🇮🇷IR | vmess | @V2rayCollectorDonate | 19","type":"vmess","server":"78.109.198.37","port":"2053","cipher":"auto","uuid":"fd017802-8fd9-4880-b351-ebe5e6c3285a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧GB | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @mftizi | 19","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":"8880","cipher":"auto","uuid":"ae16d5a4-9a22-4177-8884-77aa3b309d30","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/bYdJ7Vc2We","headers":{"host":"us6gzxQRrE4.fzbqfrse.xyz"}}}
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 5","type":"vmess","server":"server12.beheshtbaneh.com","port":"8880","cipher":"auto","uuid":"39c03e6d-9efd-4e5a-8851-cd4ed0ec303c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"server12.beheshtbaneh.com"}}}
@@ -131,6 +132,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇮🇷IR | vmess | @V2rayCollectorDonate | 19'
       - '🇬🇧GB | vmess | @v2ray_outlineir | 0'
       - '🇨🇦CA | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 5'
@@ -142,6 +144,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇮🇷IR | vmess | @V2rayCollectorDonate | 19'
       - '🇬🇧GB | vmess | @v2ray_outlineir | 0'
       - '🇨🇦CA | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 5'
@@ -152,6 +155,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇮🇷IR | vmess | @V2rayCollectorDonate | 19'
       - '🇬🇧GB | vmess | @v2ray_outlineir | 0'
       - '🇨🇦CA | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 5'

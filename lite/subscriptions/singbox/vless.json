@@ -133,7 +133,6 @@
                 "🏳️XX | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 30",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇫🇮FI | vless | @proxyymeliii | 15",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 5",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -149,8 +148,8 @@
                 "🇮🇷IR | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
                 "🇨🇷CR | vless | @Capoit | 5",
-                "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇳🇱NL | vless | @forwardv2ray | 19",
+                "🇬🇧GB | vless | @flyv2ray | 15",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -198,7 +197,6 @@
                 "🏳️XX | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 30",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇫🇮FI | vless | @proxyymeliii | 15",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 5",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -214,8 +212,8 @@
                 "🇮🇷IR | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
                 "🇨🇷CR | vless | @Capoit | 5",
-                "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇳🇱NL | vless | @forwardv2ray | 19",
+                "🇬🇧GB | vless | @flyv2ray | 15",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -965,35 +963,6 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @proxyymeliii | 15",
-            "type": "vless",
-            "server": "37.27.44.176",
-            "server_port": 443,
-            "uuid": "26d9ff4d-5fdb-43d8-8ed4-44b4d1d167ea",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7Z43zHWUVIR0N-vR-yF6h9exfw03q5Lj-ajN3_FxVRA",
-                    "short_id": "214c"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @MsV2ray | 17",
             "type": "vless",
             "server": "All.MsV2ray.online",
@@ -1360,30 +1329,23 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @flyv2ray | 15",
+            "tag": "🇬🇧GB | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 80,
-            "uuid": "5ad24d24-cfde-478b-9ef6-c14020dbcf8f",
+            "server": "95.179.228.222",
+            "server_port": 45408,
+            "uuid": "c59dd5d6-7f6f-4c3b-84cc-c4b1d1c91f5b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "shhproxy.varzesh3-cnd.site"
-                }
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @forwardv2ray | 19",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "188.114.97.3",
+            "server": "141.101.115.235",
             "server_port": 80,
             "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
             "flow": "",
@@ -1397,7 +1359,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "188.114.97.3"
+                    "Host": "141.101.115.235"
                 }
             }
         },

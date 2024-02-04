@@ -106,34 +106,36 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | vmess | @V2rayCollectorDonate | 19",
-                "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+                "🏳️XX | vmess | @azadi_az_inja_migzare | 18",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
+                "🇬🇧GB | vmess | @v2ray_outlineir | 0",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vmess | @prrofile_purple | 186",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 2",
-                "🇺🇸US | vmess | @v2ray_swhil | 23",
+                "🇨🇦CA | vmess | @v2ray_swhil | 23",
                 "🏳️XX | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @eliya_chiter0 | 9"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 9"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | vmess | @V2rayCollectorDonate | 19",
-                "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+                "🏳️XX | vmess | @azadi_az_inja_migzare | 18",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
+                "🇬🇧GB | vmess | @v2ray_outlineir | 0",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vmess | @prrofile_purple | 186",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 2",
-                "🇺🇸US | vmess | @v2ray_swhil | 23",
+                "🇨🇦CA | vmess | @v2ray_swhil | 23",
                 "🏳️XX | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @eliya_chiter0 | 9"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -156,7 +158,31 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | vmess | @V2rayCollectorDonate | 19",
+            "tag": "🏳️XX | vmess | @azadi_az_inja_migzare | 18",
+            "type": "vmess",
+            "server": "iranzamin.24-7.ro",
+            "server_port": 23346,
+            "uuid": "b487ac26-00cb-4b73-ae13-bdacc693280c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/public",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 80,
@@ -180,7 +206,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
+            "tag": "🇬🇧GB | vmess | @v2ray_outlineir | 0",
             "type": "vmess",
             "server": "146.59.147.250",
             "server_port": 29776,
@@ -197,7 +223,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 8880,
@@ -221,7 +247,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
             "server": "104.18.202.250",
             "server_port": 8080,
@@ -245,7 +271,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "server12.beheshtbaneh.com",
             "server_port": 8880,
@@ -303,7 +329,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2ray_swhil | 23",
+            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 23",
             "type": "vmess",
             "server": "172.67.167.220",
             "server_port": 2087,
@@ -378,7 +404,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 9",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 9",
             "type": "vmess",
             "server": "172.67.196.112",
             "server_port": 443,

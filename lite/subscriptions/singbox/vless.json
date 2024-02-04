@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 114",
                 "🏳️XX | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @MehradLearn | 7",
+                "🇨🇦CA | vless | @MehradLearn | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vless | @fnet00 | 13",
@@ -204,7 +204,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 114",
                 "🏳️XX | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @MehradLearn | 7",
+                "🇨🇦CA | vless | @MehradLearn | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vless | @fnet00 | 13",
@@ -304,7 +304,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.36.80.93",
+            "server": "15.237.221.237",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -813,9 +813,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 17",
             "type": "vless",
-            "server": "172.67.170.103",
+            "server": "172.67.71.160",
             "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -825,7 +825,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
+                "server_name": "always-online1.lp-airdrop.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -837,7 +837,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
@@ -1152,11 +1152,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @MehradLearn | 7",
+            "tag": "🇨🇦CA | vless | @MehradLearn | 5",
             "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 2096,
-            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+            "server": "www.speedtest.net",
+            "server_port": 2082,
+            "uuid": "f102e207-722d-448a-8fe9-fe398d334f38",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1164,21 +1164,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnct.arvancode.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/bShq2qgG8GnX8zqm\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "vpnct.arvancode.eu.org"
+                    "Host": "www.speedtest.net"
                 }
             }
         },

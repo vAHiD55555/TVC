@@ -121,8 +121,8 @@ dns:
 
 proxies:
   - {"name":"🇫🇮FI | vless | @EliV2ray | 24","type":"vless","server":"65.109.203.49","port":10974,"udp":true,"uuid":"94fd9e77-1804-4d25-a8e1-c5b5ba514063","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"Chir","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"QbLsx0oV7dQVz4wXbm1ggmEVQ_bQKqiWHXa1sjsntGM","short-id":"9c55cb07"}}
-  - {"name":"🇨🇦CA | vless | @NIM_VPN_ir | 11","type":"vless","server":"104.24.176.7","port":8443,"udp":false,"uuid":"66be07b7-4401-4eeb-ae3f-fb9d62a4e025","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"ihxth.cheetahmh45.shop","grpc-opts":{"grpc-service-name":"@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir"}}
-  - {"name":"🇬🇧GB | vless | @VlessConfig | 18","type":"vless","server":"18.133.113.28","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"🇨🇦CA | vless | @NIM_VPN_ir | 10","type":"vless","server":"104.24.176.7","port":8443,"udp":false,"uuid":"2155c682-f6f1-4ba9-8a89-5c97f2cb0f37","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"ihxth.cheetahmh45.shop","grpc-opts":{"grpc-service-name":"@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir"}}
+  - {"name":"🇮🇪IE | vless | @VlessConfig | 18","type":"vless","server":"99.81.179.94","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇩🇪DE | vless | @ipV2Ray | 15","type":"vless","server":"78.47.198.99","port":443,"udp":true,"uuid":"717dc04f-b838-4999-a006-2199eab5c714","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"*.google.com","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"oQC3BbnZ1yNgRHXF1z3B_zEwv1tIClsHDVzDXOHY5xw","short-id":"c2bd6f04"}}
   - {"name":"🇨🇦CA | vless | @melov2ray | 7","type":"vless","server":"fin.melov2ray.shop","port":443,"udp":false,"uuid":"4c53d8ca-1df3-421c-af61-9bdaf2c99bec","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"FIn.Melov2ray.Shop","grpc-opts":{"grpc-service-name":"@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray"}}
   - {"name":"🇺🇸US | vless | @Lockey_vpn | 12","type":"vless","server":"173.245.58.31","port":80,"udp":false,"uuid":"e1a928be-e289-4aef-b92e-4106fabdf42f","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2048","headers":{"host":"mahi.kosnanatfilterchi.eu.org"}}}
@@ -174,8 +174,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇮FI | vless | @EliV2ray | 24'
-      - '🇨🇦CA | vless | @NIM_VPN_ir | 11'
-      - '🇬🇧GB | vless | @VlessConfig | 18'
+      - '🇨🇦CA | vless | @NIM_VPN_ir | 10'
+      - '🇮🇪IE | vless | @VlessConfig | 18'
       - '🇩🇪DE | vless | @ipV2Ray | 15'
       - '🇨🇦CA | vless | @melov2ray | 7'
       - '🇺🇸US | vless | @Lockey_vpn | 12'
@@ -227,8 +227,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇮FI | vless | @EliV2ray | 24'
-      - '🇨🇦CA | vless | @NIM_VPN_ir | 11'
-      - '🇬🇧GB | vless | @VlessConfig | 18'
+      - '🇨🇦CA | vless | @NIM_VPN_ir | 10'
+      - '🇮🇪IE | vless | @VlessConfig | 18'
       - '🇩🇪DE | vless | @ipV2Ray | 15'
       - '🇨🇦CA | vless | @melov2ray | 7'
       - '🇺🇸US | vless | @Lockey_vpn | 12'
@@ -279,8 +279,8 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇮FI | vless | @EliV2ray | 24'
-      - '🇨🇦CA | vless | @NIM_VPN_ir | 11'
-      - '🇬🇧GB | vless | @VlessConfig | 18'
+      - '🇨🇦CA | vless | @NIM_VPN_ir | 10'
+      - '🇮🇪IE | vless | @VlessConfig | 18'
       - '🇩🇪DE | vless | @ipV2Ray | 15'
       - '🇨🇦CA | vless | @melov2ray | 7'
       - '🇺🇸US | vless | @Lockey_vpn | 12'

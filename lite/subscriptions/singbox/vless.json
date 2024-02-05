@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @vmessorg | 7",
                 "🇳🇱NL | vless | @v2rayngvpn | 14",
@@ -143,12 +143,13 @@
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🏳️XX | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 12",
-                "🏳️XX | vless | @Outlinev2rayNG | 10",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🏳️XX | vless | @Capoit | 6",
+                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🏳️XX | vless | @flyv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
-                "🇨🇦CA | vless | @https_config_injector | 15",
+                "🇺🇸US | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇩🇪DE | vless | @nofiltering2 | 6",
@@ -184,7 +185,7 @@
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @vmessorg | 7",
                 "🇳🇱NL | vless | @v2rayngvpn | 14",
@@ -203,12 +204,13 @@
                 "🇨🇷CR | vless | @proxystore11 | 15",
                 "🏳️XX | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 12",
-                "🏳️XX | vless | @Outlinev2rayNG | 10",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🏳️XX | vless | @Capoit | 6",
+                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🏳️XX | vless | @flyv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
-                "🇨🇦CA | vless | @https_config_injector | 15",
+                "🇺🇸US | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇩🇪DE | vless | @nofiltering2 | 6",
@@ -743,7 +745,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 15",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 15",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1208,7 +1210,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @Outlinev2rayNG | 10",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 10",
             "type": "vless",
             "server": "oskbsl.ps4lavazemjanebi.ir",
             "server_port": 8443,
@@ -1284,6 +1286,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
+            "type": "vless",
+            "server": "104.31.16.168",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.31.16.168"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @flyv2ray | 16",
             "type": "vless",
             "server": "V2RAXX",
@@ -1327,7 +1350,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @https_config_injector | 15",
+            "tag": "🇺🇸US | vless | @https_config_injector | 15",
             "type": "vless",
             "server": "104.21.28.62",
             "server_port": 443,

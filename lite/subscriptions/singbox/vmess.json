@@ -109,10 +109,9 @@
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇮🇹IT | vmess | @oneclickvpnkeys | 6",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 4",
                 "🇨🇦CA | vmess | @v2ray_swhil | 24",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇺🇦UA | vmess | @proxystore11 | 14",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ]
@@ -124,10 +123,9 @@
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇮🇹IT | vmess | @oneclickvpnkeys | 6",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 4",
                 "🇨🇦CA | vmess | @v2ray_swhil | 24",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇺🇦UA | vmess | @proxystore11 | 14",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ],
@@ -220,40 +218,6 @@
             }
         },
         {
-            "tag": "🇮🇹IT | vmess | @oneclickvpnkeys | 6",
-            "type": "vmess",
-            "server": "45.82.101.5",
-            "server_port": 443,
-            "uuid": "726a0a65-04fd-4531-a96b-5510537737fc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "saber.serveirc.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@forwardv2ray",
-                "headers": {
-                    "Host": "saber.serveirc.com"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 4",
             "type": "vmess",
             "server": "81.12.27.108",
@@ -305,11 +269,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
+            "tag": "🇺🇦UA | vmess | @proxystore11 | 14",
             "type": "vmess",
-            "server": "server2.beheshtbaneh.com",
-            "server_port": 8880,
-            "uuid": "8420ee38-4cf6-4d79-a9ec-2731207cf83a",
+            "server": "45.137.155.195",
+            "server_port": 443,
+            "uuid": "49c76bcf-3a58-43df-b1d4-2bffe9ca03b5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -320,11 +284,14 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

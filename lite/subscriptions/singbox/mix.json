@@ -123,9 +123,9 @@
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇫🇮FI | ss | @azadi_az_inja_migzare | 12",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇬🇧GB | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -142,7 +142,7 @@
                 "🇨🇦CA | vmess | @v2ray_swhil | 24",
                 "🇫🇮FI | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @MsV2ray | 17",
-                "🇩🇪DE | vless | @v2ray1_ng | 4",
+                "🇩🇪DE | vless | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇳🇱NL | vless | @V2RayTz | 15",
@@ -200,9 +200,9 @@
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇫🇮FI | ss | @azadi_az_inja_migzare | 12",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 15",
+                "🇺🇸US | vless | @V2rayNGn | 15",
                 "🇬🇧GB | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -219,7 +219,7 @@
                 "🇨🇦CA | vmess | @v2ray_swhil | 24",
                 "🇫🇮FI | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @MsV2ray | 17",
-                "🇩🇪DE | vless | @v2ray1_ng | 4",
+                "🇩🇪DE | vless | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇳🇱NL | vless | @V2RayTz | 15",
@@ -737,23 +737,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "3e9910cf-26fb-4b8f-bc8e-5a1fd221b1da",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
+            "type": "vmess",
+            "server": "104.16.28.80",
+            "server_port": 443,
+            "uuid": "7c93426d-97e3-4fe6-83eb-572c0d321a0a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "s6.sqamazon.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/gsmxserver",
+                "path": "\/xmI6QnR7BkkEDjMYBIlRVO",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "s6.sqamazon.com"
                 }
             }
         },
@@ -779,7 +792,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 15",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 15",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -990,9 +1003,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
             "type": "vless",
-            "server": "172.67.170.103",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "104.31.16.160",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1000,21 +1013,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "104.31.16.160"
                 }
             }
         },
@@ -1193,11 +1196,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray1_ng | 4",
+            "tag": "🇩🇪DE | vless | @v2ray1_ng | 6",
             "type": "vless",
-            "server": "128.140.36.96",
+            "server": "23.88.47.9",
             "server_port": 443,
-            "uuid": "9cfc941b-d243-4dc4-8989-40716165027a",
+            "uuid": "5f8c9ef2-d6a5-4ef2-bc68-eeef97f6b6af",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1207,7 +1210,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.dibagroup.com",
+                "server_name": "*.hetzner.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1216,8 +1219,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "zPiAq35Bvh5g1oVxW8tyzPC5vV064awAqKOwTeo6h0E",
-                    "short_id": "cf6c26b3"
+                    "public_key": "9o7f3Rkn6BUL_emZVS6yMoVu8OoTozpOKlkc7JaUSQ8",
+                    "short_id": "1fefa3a0"
                 }
             },
             "transport": {

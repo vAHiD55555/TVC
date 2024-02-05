@@ -123,7 +123,6 @@
                 "🇨🇦CA | vless | @DarkTeam_VPN | 6",
                 "🇨🇦CA | vless | @v2logy | 12",
                 "🇫🇷FR | vless | @azadi_az_inja_migzare | 10",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇫🇷FR | trojan | @PrivateVPNs | 14",
@@ -140,7 +139,7 @@
                 "🇩🇪DE | vless | @ShadowProxy66 | 50",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
-                "🇨🇷CR | vless | @proxyymeliii | 17",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -158,7 +157,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇫🇷FR | ss | @forwardv2ray | 17",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🏳️XX | vless | @mehrosaboran | 12",
@@ -196,7 +194,6 @@
                 "🇨🇦CA | vless | @DarkTeam_VPN | 6",
                 "🇨🇦CA | vless | @v2logy | 12",
                 "🇫🇷FR | vless | @azadi_az_inja_migzare | 10",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇫🇷FR | trojan | @PrivateVPNs | 14",
@@ -213,7 +210,7 @@
                 "🇩🇪DE | vless | @ShadowProxy66 | 50",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
-                "🇨🇷CR | vless | @proxyymeliii | 17",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -231,7 +228,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇫🇷FR | ss | @forwardv2ray | 17",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🏳️XX | vless | @mehrosaboran | 12",
@@ -755,27 +751,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "104.24.185.135",
-            "server_port": 2052,
-            "uuid": "a1125af5-d48f-4bfd-88d9-dbefa600261a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/www.filimo.com",
-                "headers": {
-                    "Host": "104.24.185.135"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
             "type": "vless",
             "server": "CDN.user.com",
@@ -1139,11 +1114,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxyymeliii | 17",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 16",
             "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 2087,
-            "uuid": "d7e39b66-d989-4d8d-9c89-82d75ba10ec2",
+            "server": "pydar.banndedd.ir",
+            "server_port": 8080,
+            "uuid": "10de7f16-8253-4000-a89c-735d0b78b73e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1151,21 +1126,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "gmV2raybo.shhproxyfree.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "gmV2raybo.shhproxyfree.com"
+                    "Host": "pydar.banndedd.ir"
                 }
             }
         },
@@ -1564,16 +1529,6 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
-        },
-        {
-            "tag": "🇫🇷FR | ss | @forwardv2ray | 17",
-            "type": "shadowsocks",
-            "server": "149.202.82.172",
-            "server_port": 7307,
-            "method": "aes-256-gcm",
-            "password": "FoOiGlkAA9yPEGP",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇳🇱NL | vless | @FAKEOFTVC | 3",

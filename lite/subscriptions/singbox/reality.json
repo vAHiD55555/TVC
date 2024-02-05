@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | vless | @NIM_VPN_ir | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 13",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇩🇪DE | vless | @V2RayTz | 17",
@@ -119,6 +120,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | vless | @NIM_VPN_ir | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 13",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇩🇪DE | vless | @V2RayTz | 17",
@@ -146,6 +148,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | vless | @NIM_VPN_ir | 7",
+            "type": "vless",
+            "server": "167.235.194.0",
+            "server_port": 20832,
+            "uuid": "3709d9c3-0287-498a-8663-c476db86a6a3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ng6XQkeYA7Omk3Gbsj2famKYasixtk8mFpifFBRv8Qo",
+                    "short_id": "914deebd"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE | vless | @ipV2Ray | 13",

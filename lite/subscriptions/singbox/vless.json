@@ -134,7 +134,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇩🇪DE | vless | @ShadowProxy66 | 50",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇨🇦CA | vless | @proxyymeliii | 16",
+                "🇨🇷CR | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -154,7 +154,7 @@
                 "🏳️XX | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 11",
+                "🇨🇦CA | vless | @kingofilter | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 2",
@@ -195,7 +195,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇩🇪DE | vless | @ShadowProxy66 | 50",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇨🇦CA | vless | @proxyymeliii | 16",
+                "🇨🇷CR | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -215,7 +215,7 @@
                 "🏳️XX | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 11",
+                "🇨🇦CA | vless | @kingofilter | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 2",
@@ -1003,11 +1003,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 16",
+            "tag": "🇨🇷CR | vless | @proxyymeliii | 17",
             "type": "vless",
-            "server": "pydar.banndedd.ir",
-            "server_port": 8080,
-            "uuid": "10de7f16-8253-4000-a89c-735d0b78b73e",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 2087,
+            "uuid": "d7e39b66-d989-4d8d-9c89-82d75ba10ec2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1015,11 +1015,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "gmV2raybo.shhproxyfree.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "pydar.banndedd.ir"
+                    "Host": "gmV2raybo.shhproxyfree.com"
                 }
             }
         },
@@ -1483,9 +1493,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @kingofilter | 11",
+            "tag": "🇨🇦CA | vless | @kingofilter | 10",
             "type": "vless",
-            "server": "104.19.174.72",
+            "server": "jp.xiaoshus.com",
             "server_port": 443,
             "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
             "flow": "",
@@ -1507,7 +1517,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/KINGOFILTER\/",
                 "headers": {
                     "Host": "pages.20230619.love"
                 }

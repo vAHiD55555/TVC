@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @free_v2rayyy | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 24",
-                "🇨🇦CA | vless | @DarkTeam_VPN | 6",
+                "🇨🇦CA | vless | @DarkTeam_VPN | 3",
                 "🇨🇦CA | vless | @v2logy | 12",
                 "🇫🇷FR | vless | @azadi_az_inja_migzare | 10",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -130,7 +130,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇩🇪DE | ss | @DeamNet_Proxy | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -158,10 +157,10 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇿🇦ZA | vmess | @forwardv2ray | 10",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
-                "🏳️XX | vless | @mehrosaboran | 12",
+                "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 10",
@@ -194,7 +193,7 @@
                 "🇨🇦CA | vless | @free_v2rayyy | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 24",
-                "🇨🇦CA | vless | @DarkTeam_VPN | 6",
+                "🇨🇦CA | vless | @DarkTeam_VPN | 3",
                 "🇨🇦CA | vless | @v2logy | 12",
                 "🇫🇷FR | vless | @azadi_az_inja_migzare | 10",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -203,7 +202,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇩🇪DE | ss | @DeamNet_Proxy | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -231,10 +229,10 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇿🇦ZA | vmess | @forwardv2ray | 10",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
-                "🏳️XX | vless | @mehrosaboran | 12",
+                "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 10",
@@ -703,11 +701,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DarkTeam_VPN | 6",
+            "tag": "🇨🇦CA | vless | @DarkTeam_VPN | 3",
             "type": "vless",
-            "server": "104.16.30.181",
+            "server": "upload.ir",
             "server_port": 80,
-            "uuid": "6cc5b6b6-b3d2-4c60-8197-5defdc8d6aa1",
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -719,7 +717,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.16.30.181"
+                    "Host": "upload.ir"
                 }
             }
         },
@@ -904,16 +902,6 @@
                 "protocol": "smux",
                 "max_streams": 32
             }
-        },
-        {
-            "tag": "🇩🇪DE | ss | @DeamNet_Proxy | 19",
-            "type": "shadowsocks",
-            "server": "145.239.1.100",
-            "server_port": 8888,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
@@ -1549,39 +1537,27 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "fbbvssss.v2pedia.xyz",
-            "server_port": 8443,
-            "uuid": "8b2f1fc5-9d1c-4304-9c1d-91806eef4629",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇿🇦ZA | vmess | @forwardv2ray | 10",
+            "type": "vmess",
+            "server": "5.188.133.10",
+            "server_port": 80,
+            "uuid": "5efa4cc9-ad97-4f61-9b4f-40f9e91fb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pubmed.ncbi.nlm.nih.gov",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1XVNWscPjgvJ1uh9Tvk30Gh8dRlDL93jQEu2hk8YrRY",
-                    "short_id": "268ede"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@forwardv2ray",
+                "headers": {
+                    "Host": "kosar36.sytes.net"
+                }
             }
         },
         {
@@ -1620,17 +1596,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @mehrosaboran | 12",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 11",
             "type": "vless",
-            "server": "best2.channeltest.site",
-            "server_port": 9999,
-            "uuid": "0144c95a-236d-4868-9519-d1198bd090ec",
+            "server": "198.41.202.5",
+            "server_port": 80,
+            "uuid": "DIGIV2RAY-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DigiV",
+                "headers": {
+                    "Host": "198.41.202.5"
+                }
             }
         },
         {

@@ -112,6 +112,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
+                "🇨🇦CA | vless | @melov2ray | 9",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 14",
@@ -129,8 +130,8 @@
                 "🇨🇷CR | vless | @ShadowSocks_s | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 8",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
-                "🇨🇦CA | vless | @v2rayngvpn | 15",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
+                "🇨🇦CA | vless | @v2rayngvpn | 16",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇳🇱NL | vless | @ShadowProxy66 | 42",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
@@ -176,6 +177,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
+                "🇨🇦CA | vless | @melov2ray | 9",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 14",
@@ -193,8 +195,8 @@
                 "🇨🇷CR | vless | @ShadowSocks_s | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 8",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
-                "🇨🇦CA | vless | @v2rayngvpn | 15",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
+                "🇨🇦CA | vless | @v2rayngvpn | 16",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇳🇱NL | vless | @ShadowProxy66 | 42",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
@@ -408,6 +410,37 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @melov2ray | 9",
+            "type": "vless",
+            "server": "fin.melov2ray.shop",
+            "server_port": 443,
+            "uuid": "4bc2a0ee-c612-4da1-b3fa-92f38ec7f5a7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "FIn.Melov2ray.Shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -689,9 +722,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "mci.obsernet.top",
-            "server_port": 80,
-            "uuid": "bbadcd91-0446-4b36-8ce9-954b7b04d835",
+            "server": "panel5.obsernet.top",
+            "server_port": 2053,
+            "uuid": "fc7a9548-fd36-41f1-8c32-bb6bbba84e90",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -699,11 +732,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "panel5.obsernet.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "mci.obsernet.top"
+                    "Host": "panel5.obsernet.top"
                 }
             }
         },
@@ -854,7 +897,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
             "type": "vless",
             "server": "172.64.89.170",
             "server_port": 443,
@@ -885,7 +928,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 15",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 16",
             "type": "vless",
             "server": "104.24.185.135",
             "server_port": 8880,

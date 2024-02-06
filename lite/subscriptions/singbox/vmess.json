@@ -112,7 +112,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @FAKEOFTVC | 4"
+                "🇺🇸US | vmess | @forwardv2ray | 17"
             ]
         },
         {
@@ -125,7 +125,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @FAKEOFTVC | 4"
+                "🇺🇸US | vmess | @forwardv2ray | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -291,11 +291,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @FAKEOFTVC | 4",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "81.12.27.108",
-            "server_port": 16767,
-            "uuid": "d30a1c51-d37c-4cb8-bee6-8f5cd746f9d7",
+            "server": "198.41.202.5",
+            "server_port": 443,
+            "uuid": "b08d4314-0b33-43bc-956a-0a1d90100725",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -305,6 +305,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mehrosaboran.joinbede.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "mehrosaboran.joinbede.sbs",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         }
     ],

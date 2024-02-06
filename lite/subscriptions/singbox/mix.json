@@ -157,7 +157,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇿🇦ZA | vmess | @forwardv2ray | 10",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -229,7 +229,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇿🇦ZA | vmess | @forwardv2ray | 10",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -1537,26 +1537,33 @@
             }
         },
         {
-            "tag": "🇿🇦ZA | vmess | @forwardv2ray | 10",
-            "type": "vmess",
-            "server": "5.188.133.10",
-            "server_port": 80,
-            "uuid": "5efa4cc9-ad97-4f61-9b4f-40f9e91fb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "edgu.pureboy.eu.org",
+            "server_port": 443,
+            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "edgu.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@forwardv2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "kosar36.sytes.net"
+                    "Host": "edgu.pureboy.eu.org"
                 }
             }
         },

@@ -125,6 +125,7 @@
                 "🇨🇦CA | vless | @v2logy | 12",
                 "🇳🇱NL | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 10",
+                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇨🇷CR | vless | @prrofile_purple | 180",
@@ -154,6 +155,7 @@
                 "🇫🇮FI | vless | @Capoit | 3",
                 "🇨🇷CR | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -193,6 +195,7 @@
                 "🇨🇦CA | vless | @v2logy | 12",
                 "🇳🇱NL | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 10",
+                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇨🇷CR | vless | @prrofile_purple | 180",
@@ -222,6 +225,7 @@
                 "🇫🇮FI | vless | @Capoit | 3",
                 "🇨🇷CR | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -768,6 +772,20 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "GER.VOID-SHOP.SITE",
+            "server_port": 21259,
+            "uuid": "14e93220-bf39-4b11-917c-a35ecf92a92a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
             "type": "vless",
             "server": "CDN.user.com",
@@ -1181,8 +1199,8 @@
             "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "190.93.247.155",
-            "server_port": 2083,
-            "uuid": "4a1d9221-5bc7-4f37-cdeb-8d9e363889ec",
+            "server_port": 8880,
+            "uuid": "bb952b51-81eb-4bd4-ee4d-ca7058db075d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1190,22 +1208,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "liV2raye.xn--mgbg0fka44dhgc.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@LIGHTNING6",
+                "headers": {
+                    "Host": "190.93.247.155"
+                }
             }
         },
         {
@@ -1296,7 +1304,7 @@
             "type": "vless",
             "server": "pydar.banndedd.ir",
             "server_port": 8080,
-            "uuid": "e217bc4d-0dde-4601-b896-004894552f8e",
+            "uuid": "8b478210-114d-4f30-b25d-97d5312c4a93",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1512,6 +1520,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "172.67.204.84",
+            "server_port": 2095,
+            "uuid": "0fe4ea2c-9353-4b48-9f91-0c2fd1724c1e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/父亲",
+                "headers": {
+                    "Host": "172.67.204.84"
+                }
             }
         },
         {

@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 14",
                 "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 8",
                 "🇫🇷FR | vless | @VlessConfig | 17",
@@ -124,9 +125,8 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
-                "🇳🇱NL | vless | @prrofile_purple | 181",
+                "🇨🇷CR | vless | @prrofile_purple | 171",
                 "🇨🇷CR | vless | @ShadowSocks_s | 9",
-                "🇩🇪DE | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
@@ -151,7 +151,7 @@
                 "🇫🇮FI | vless | @Capoit | 1",
                 "🏳️XX | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇷CR | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @flyv2ray | 12",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🇨🇷CR | vless | @nofiltering2 | 1",
@@ -170,6 +170,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 14",
                 "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 8",
                 "🇫🇷FR | vless | @VlessConfig | 17",
@@ -188,9 +189,8 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
-                "🇳🇱NL | vless | @prrofile_purple | 181",
+                "🇨🇷CR | vless | @prrofile_purple | 171",
                 "🇨🇷CR | vless | @ShadowSocks_s | 9",
-                "🇩🇪DE | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
@@ -215,7 +215,7 @@
                 "🇫🇮FI | vless | @Capoit | 1",
                 "🏳️XX | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇷CR | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @flyv2ray | 12",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🇨🇷CR | vless | @nofiltering2 | 1",
@@ -248,6 +248,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 14",
+            "type": "vless",
+            "server": "172.67.170.16",
+            "server_port": 80,
+            "uuid": "7a68c736-245e-4a13-8a84-4968c0419654",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.170.16"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 8",
@@ -302,7 +323,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "35.181.78.126",
+            "server": "15.236.241.179",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -739,11 +760,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @prrofile_purple | 181",
+            "tag": "🇨🇷CR | vless | @prrofile_purple | 171",
             "type": "vless",
-            "server": "188.114.96.18",
+            "server": "shhproxy.varzesh3-cnd.site",
             "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "uuid": "39cafa46-bbb8-441c-a1b0-b74793597061",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -755,7 +776,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "188.114.96.18"
+                    "Host": "shhproxy.varzesh3-cnd.site"
                 }
             }
         },
@@ -785,42 +806,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @customv2ray | 13",
-            "type": "vless",
-            "server": "reryretjetjethe.ryeunegerwgbnwerghwrhrw.erhente.rovamask.top",
-            "server_port": 443,
-            "uuid": "bb5490a2-883d-47a6-e418-badade93ccba",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RtItUBzRjrYg054MeFKTBv4fpsN358uECTGeNTyNex0",
-                    "short_id": "315b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "\/\/\/v2raymask",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1166,8 +1151,8 @@
             "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "190.93.247.155",
-            "server_port": 80,
-            "uuid": "9337a984-1939-416e-b6f6-5c139df54403",
+            "server_port": 443,
+            "uuid": "-DIGIV2RAY-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1175,12 +1160,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "190.93.247.155"
+            "tls": {
+                "enabled": true,
+                "server_name": "ConneCtion-Ir-021.digiv2ray1.store",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Digiv2ray , @Digiv2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1449,11 +1444,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @flyv2ray | 12",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 12",
             "type": "vless",
-            "server": "tel.VPNCUSTOMIZE.cam",
-            "server_port": 8443,
-            "uuid": "VPNCUSTOMIZE-VPNCUSTOMIZE",
+            "server": "gh.popprime.shop",
+            "server_port": 2083,
+            "uuid": "82e9bdf4-ed87-4925-8b23-95336e5dec43",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1463,7 +1458,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gr-V2rayng.vpncustomize.com",
+                "server_name": "server1.popprime.shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1472,11 +1467,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "server1.popprime.shop"
+                }
             }
         },
         {

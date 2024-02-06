@@ -124,6 +124,7 @@
                 "🇨🇦CA | vless | @DarkTeam_VPN | 3",
                 "🇨🇦CA | vless | @v2logy | 12",
                 "🇫🇷FR | vless | @azadi_az_inja_migzare | 10",
+                "🇫🇷FR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇫🇷FR | trojan | @PrivateVPNs | 14",
@@ -157,7 +158,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | ss | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -196,6 +196,7 @@
                 "🇨🇦CA | vless | @DarkTeam_VPN | 3",
                 "🇨🇦CA | vless | @v2logy | 12",
                 "🇫🇷FR | vless | @azadi_az_inja_migzare | 10",
+                "🇫🇷FR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇫🇷FR | trojan | @PrivateVPNs | 14",
@@ -229,7 +230,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | ss | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -771,6 +771,20 @@
                 "headers": {
                     "Host": "217.69.5.224"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "x.pubgji.eu.org",
+            "server_port": 8080,
+            "uuid": "8e38b8ba-c2a8-4fd6-af83-30aa7e890616",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1535,16 +1549,6 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
-        },
-        {
-            "tag": "🇨🇦CA | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "134.195.196.178",
-            "server_port": 808,
-            "method": "chacha20-ietf-poly1305",
-            "password": "G!yBwPWH3Vao",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇳🇱NL | vless | @FAKEOFTVC | 3",

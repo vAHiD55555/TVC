@@ -119,7 +119,6 @@
                 "🇨🇷CR | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 8",
-                "🇨🇦CA | vless | @DarkTeam_VPN | 3",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
                 "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
@@ -127,8 +126,8 @@
                 "🇨🇷CR | vless | @V2rayNGn | 14",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🏳️XX | vless | @vmessorg | 8",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
+                "🇺🇸US | vless | @vmessorg | 8",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 47",
@@ -180,7 +179,6 @@
                 "🇨🇷CR | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 8",
-                "🇨🇦CA | vless | @DarkTeam_VPN | 3",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
                 "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
@@ -188,8 +186,8 @@
                 "🇨🇷CR | vless | @V2rayNGn | 14",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🏳️XX | vless | @vmessorg | 8",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
+                "🇺🇸US | vless | @vmessorg | 8",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 47",
@@ -597,27 +595,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DarkTeam_VPN | 3",
-            "type": "vless",
-            "server": "upload.ir",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "upload.ir"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @v2logy | 11",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -788,7 +765,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @vmessorg | 8",
+            "tag": "🇺🇸US | vless | @vmessorg | 8",
             "type": "vless",
             "server": "joinbede.vmessorg.online",
             "server_port": 8880,
@@ -809,11 +786,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
             "type": "vless",
-            "server": "mci---join.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "a75789e4-7c1c-4450-80fe-f0bd5a7b0515",
+            "server": "edgu.pureboy.eu.org",
+            "server_port": 443,
+            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -821,11 +798,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "edgu.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "mci---join.outline-vpn.cloud"
+                    "Host": "edgu.pureboy.eu.org"
                 }
             }
         },

@@ -109,7 +109,8 @@
                 "🏳️XX | ss | @V2rayCollectorDonate | 19",
                 "🇩🇪DE | ss | @DeamNet_Proxy | 19",
                 "🇬🇧GB | ss | @VmessProtocol | 18",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇺🇸US | ss | @forwardv2ray | 19"
             ]
         },
         {
@@ -119,7 +120,8 @@
                 "🏳️XX | ss | @V2rayCollectorDonate | 19",
                 "🇩🇪DE | ss | @DeamNet_Proxy | 19",
                 "🇬🇧GB | ss | @VmessProtocol | 18",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇺🇸US | ss | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -178,6 +180,16 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | @forwardv2ray | 19",
+            "type": "shadowsocks",
+            "server": "passconf.xyz",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qGjmI8WQlF0tfhDbkLqGdN",
             "plugin": "",
             "plugin_opts": ""
         }

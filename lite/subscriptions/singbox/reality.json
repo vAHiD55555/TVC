@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -116,7 +115,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -140,35 +138,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🏳️XX | vless | @FAKEOFTVC | 5",
-            "type": "vless",
-            "server": "uim-98com.bezanimikhori.shop",
-            "server_port": 8080,
-            "uuid": "c63c592e-cc01-443c-8993-9dd1b8225193",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "DISCORD.COM",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TLeFrY6G_LSZy8wcsppX2CgJntiaiT-AjB7iRTbvBEw",
-                    "short_id": "da70e9a6"
-                }
-            }
         },
         {
             "tag": "🇸🇪SE | vless | @kiava | 7",

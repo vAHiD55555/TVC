@@ -152,7 +152,6 @@
                 "🇬🇧GB | ss | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🏳️XX | vless | @MehradLearn | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
@@ -166,7 +165,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 8",
-                "🏳️XX | vmess | @forwardv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -174,6 +172,7 @@
                 "🇨🇷CR | vless | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇮🇷IR | vless | @kingofilter | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 3",
@@ -233,7 +232,6 @@
                 "🇬🇧GB | ss | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🏳️XX | vless | @MehradLearn | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
@@ -247,7 +245,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 8",
-                "🏳️XX | vmess | @forwardv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -255,6 +252,7 @@
                 "🇨🇷CR | vless | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇮🇷IR | vless | @kingofilter | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 3",
@@ -1418,27 +1416,6 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @MehradLearn | 1",
-            "type": "vless",
-            "server": "mag.zhaal.ir",
-            "server_port": 2086,
-            "uuid": "0895c839-54e8-4522-cfa0-d1a5b1b34827",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mag.zhaal.ir"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @lrnbymaa | 12",
             "type": "vless",
             "server": "pydar.banndedd.ir",
@@ -1763,40 +1740,6 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 16",
-            "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "52d58286-c88b-481a-9b0b-b1ce00e2c279",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Dusseldorf.kotick.site"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @FAKEOFTVC | 5",
             "type": "vless",
             "server": "uim-98com.bezanimikhori.shop",
@@ -1982,6 +1925,20 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @kingofilter | 8",
+            "type": "vless",
+            "server": "test2.vpremiumservice.shop",
+            "server_port": 9652,
+            "uuid": "35ac26b9-3b10-4b2e-845d-c59c02fa6aea",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

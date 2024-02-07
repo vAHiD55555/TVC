@@ -144,13 +144,14 @@
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇨🇷CR | vless | @DailyV2RY | 151",
                 "🇨🇦CA | vless | @sinabigo | 3",
+                "🏳️XX | vless | @MehradLearn | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 13",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 3",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 10",
                 "🇫🇮FI | vless | @Capoit | 5",
-                "🇨🇦CA | vless | @FreakConfig | 2",
+                "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 7",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
@@ -210,13 +211,14 @@
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇨🇷CR | vless | @DailyV2RY | 151",
                 "🇨🇦CA | vless | @sinabigo | 3",
+                "🏳️XX | vless | @MehradLearn | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 13",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 3",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 10",
                 "🇫🇮FI | vless | @Capoit | 5",
-                "🇨🇦CA | vless | @FreakConfig | 2",
+                "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 7",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
@@ -1239,6 +1241,27 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @MehradLearn | 2",
+            "type": "vless",
+            "server": "mag.zhaal.ir",
+            "server_port": 2086,
+            "uuid": "0895c839-54e8-4522-cfa0-d1a5b1b34827",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mag.zhaal.ir"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @lrnbymaa | 12",
             "type": "vless",
             "server": "pydar.banndedd.ir",
@@ -1410,7 +1433,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 2",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 3",
             "type": "vless",
             "server": "104.21.74.214",
             "server_port": 80,

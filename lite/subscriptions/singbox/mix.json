@@ -117,7 +117,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 15",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇷CR | vless | @lightning6 | 27",
+                "🇺🇸US | vless | @lightning6 | 27",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 24",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 3",
@@ -156,7 +156,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🇺🇸US | vmess | @Hope_Net | 16",
+                "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vless | @polproxy | 13",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 3",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 10",
@@ -164,7 +164,8 @@
                 "🇫🇮FI | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @flyv2ray | 8",
+                "🇨🇦CA | vless | @flyv2ray | 7",
+                "🇳🇱NL | vmess | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -197,7 +198,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 15",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇷CR | vless | @lightning6 | 27",
+                "🇺🇸US | vless | @lightning6 | 27",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 24",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 3",
@@ -236,7 +237,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🇺🇸US | vmess | @Hope_Net | 16",
+                "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vless | @polproxy | 13",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 3",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 10",
@@ -244,7 +245,8 @@
                 "🇫🇮FI | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @flyv2ray | 8",
+                "🇨🇦CA | vless | @flyv2ray | 7",
+                "🇳🇱NL | vmess | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -596,7 +598,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 27",
+            "tag": "🇺🇸US | vless | @lightning6 | 27",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1490,13 +1492,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 16",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "server_port": 80,
-            "uuid": "f61203bd-f386-4d12-9853-cc829d6b7c9d",
+            "server": "jahfkjha.cfd",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1505,11 +1507,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "ca2.xv2ray.net"
+                    "Host": "jahfkjha.cfd"
                 }
             }
         },
@@ -1709,11 +1721,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 8",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 7",
             "type": "vless",
-            "server": "panel5.obsernet.top",
-            "server_port": 2053,
-            "uuid": "fc7a9548-fd36-41f1-8c32-bb6bbba84e90",
+            "server": "CDN1.SIGMA-HOSTER.STORE",
+            "server_port": 2096,
+            "uuid": "1f3c0387-5862-4138-9c96-8db2fdaede96",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1723,7 +1735,41 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "panel5.obsernet.top",
+                "server_name": "CLOUD.SIGMA-HOSTER.STORE",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "SIGMA",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "188.114.97.7",
+            "server_port": 443,
+            "uuid": "107620b9-0a6a-49bf-940a-25c17c361b66",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kansas.gafn.online",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1733,9 +1779,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "panel5.obsernet.top"
+                    "Host": "kansas.gafn.online"
                 }
             }
         },

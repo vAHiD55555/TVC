@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇩🇪DE | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 7"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ]
         },
         {
@@ -122,12 +122,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇩🇪DE | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 7"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -184,30 +184,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "47.254.17.235",
-            "server_port": 80,
-            "uuid": "2caa5a0e-519b-4503-80d4-5363193e5018",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Ogl9djGbo2NTAt3Ovj1NvwjJ",
-                "headers": {
-                    "Host": "47.254.17.235"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 0",
             "type": "vmess",
             "server": "62.60.132.187",
@@ -249,11 +225,28 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "23.88.122.107",
+            "server_port": 12707,
+            "uuid": "4b8b2641-be43-434d-8f38-639d7cf247f8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🏳️XX | vmess | @Hope_Net | 18",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "cbbaaac-abac-caab-bdac-cbaabcbabacc",
+            "uuid": "ababacc-aabc-caab-bcda-babccaabcabc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -290,7 +283,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 7",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 8",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,

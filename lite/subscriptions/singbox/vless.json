@@ -149,6 +149,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 8",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇩🇪DE | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -210,6 +211,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 8",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇩🇪DE | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -1320,6 +1322,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "tel.VPNCUSTOMIZE.cam"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.16.123.175",
+            "server_port": 8080,
+            "uuid": "4dd6004c-c710-485c-a70f-3bed83e8540c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Arthas_vpn",
+                "headers": {
+                    "Host": "104.16.123.175"
                 }
             }
         },

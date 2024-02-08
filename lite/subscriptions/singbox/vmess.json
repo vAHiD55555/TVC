@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ]
@@ -125,7 +125,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ],
@@ -249,11 +249,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 18",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "cbbaaca-aacb-abca-bcad-babaacccabcb",
+            "server": "food.zhaal.ir",
+            "server_port": 8880,
+            "uuid": "0d1bf26a-ce97-4707-a270-7f4d2ae37334",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -263,6 +263,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {

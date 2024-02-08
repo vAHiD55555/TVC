@@ -120,27 +120,31 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪DE | vless | @EliV2ray | 17","type":"vless","server":"128.140.101.103","port":2087,"udp":true,"uuid":"e4527384-4f20-4378-95dc-403996f12588","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"dash.cloudflare.com","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"GicA8fPbS9LksttApqa8gzOstomRFncKNoYGLCOqQF8","short-id":"fc805835"}}
+  - {"name":"🇬🇧GB | vless | @V2rayCollectorDonate | 19","type":"vless","server":"198.244.211.128","port":26660,"udp":true,"uuid":"b0bd8f69-f1bb-463b-9871-9c7430d061a3","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"ea.com","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"HtcttM7t1OcuHNAtwnKH6XRmHyromTAy2yLapp9vamM","short-id":"00bfc73e"}}
+  - {"name":"🏳️XX | vless | @forwardv2ray | 19","type":"vless","server":"v2logy.ddns.net","port":443,"udp":true,"uuid":"72859c41-15ac-4621-bfdf-ac4c3ac33ad4","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"sourceforge.net","grpc-opts":{"grpc-service-name":"Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,"},"reality-opts":{"public-key":"k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4"}}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | vless | @EliV2ray | 17'
+      - '🇬🇧GB | vless | @V2rayCollectorDonate | 19'
+      - '🏳️XX | vless | @forwardv2ray | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | vless | @EliV2ray | 17'
+      - '🇬🇧GB | vless | @V2rayCollectorDonate | 19'
+      - '🏳️XX | vless | @forwardv2ray | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | vless | @EliV2ray | 17'
+      - '🇬🇧GB | vless | @V2rayCollectorDonate | 19'
+      - '🏳️XX | vless | @forwardv2ray | 19'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

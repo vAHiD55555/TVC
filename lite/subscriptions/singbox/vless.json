@@ -149,7 +149,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 8",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇩🇪DE | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -211,7 +210,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 8",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇩🇪DE | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -1322,27 +1320,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "tel.VPNCUSTOMIZE.cam"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "Vpn-MikeyMCI.sytes.net",
-            "server_port": 80,
-            "uuid": "c5b18d30-f02d-4d74-9ac2-7d7e12ba2360",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
-                "headers": {
-                    "Host": "Vpn-MikeyMCI.sytes.net"
                 }
             }
         },

@@ -134,7 +134,7 @@
                 "🇨🇷CR | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
-                "🇺🇸US | vless | @vmessorg | 8",
+                "🏳️XX | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 9",
@@ -149,7 +149,7 @@
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇸🇪SE | ss | @VmessProtocol | 15",
-                "🇩🇪DE | vless | @DailyV2RY | 96",
+                "🇨🇦CA | vless | @DailyV2RY | 98",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -167,7 +167,8 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇺🇸US | vless | @FAKEOFTVC | 7",
+                "🇨🇷CR | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -217,7 +218,7 @@
                 "🇨🇷CR | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
-                "🇺🇸US | vless | @vmessorg | 8",
+                "🏳️XX | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 9",
@@ -232,7 +233,7 @@
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇸🇪SE | ss | @VmessProtocol | 15",
-                "🇩🇪DE | vless | @DailyV2RY | 96",
+                "🇨🇦CA | vless | @DailyV2RY | 98",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -250,7 +251,8 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇺🇸US | vless | @FAKEOFTVC | 7",
+                "🇨🇷CR | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -1017,7 +1019,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 8",
+            "tag": "🏳️XX | vless | @vmessorg | 8",
             "type": "vless",
             "server": "joinbede.vmessorg.online",
             "server_port": 8880,
@@ -1367,12 +1369,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 96",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 98",
             "type": "vless",
-            "server": "80.71.157.172",
-            "server_port": 443,
-            "uuid": "893d3c03-5817-4e3f-9fc6-b6f6481d5068",
-            "flow": "xtls-rprx-vision",
+            "server": "172.67.75.172",
+            "server_port": 8443,
+            "uuid": "a28d5f6c-66a8-4d07-be9f-4414088aef59",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1381,12 +1383,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "80.71.157.172",
+                "server_name": "0204ouk1.mmad.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "0204ouk1.mmad.sbs"
                 }
             }
         },
@@ -1753,7 +1762,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 7",
+            "tag": "🇨🇷CR | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "190.93.246.137",
+            "server_port": 2096,
+            "uuid": "12009e57-6fd8-46d6-94af-539514a7e7c7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "s5678543.shargh.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "s5678543.shargh.shop"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 7",
             "type": "vless",
             "server": "104.31.16.160",
             "server_port": 80,

@@ -113,9 +113,8 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 29",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 13",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @forwardv2ray | 19",
+                "🇩🇪DE | vmess | @forwardv2ray | 17",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 7"
             ]
         },
@@ -130,9 +129,8 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 29",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 13",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @forwardv2ray | 19",
+                "🇩🇪DE | vmess | @forwardv2ray | 17",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -296,40 +294,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 13",
-            "type": "vmess",
-            "server": "172.67.161.77",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
@@ -354,11 +318,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 19",
+            "tag": "🇩🇪DE | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "23.88.122.107",
-            "server_port": 12707,
-            "uuid": "4b8b2641-be43-434d-8f38-639d7cf247f8",
+            "server": "209.38.208.73",
+            "server_port": 2086,
+            "uuid": "1abc186e-fc0f-43e4-9839-4f23cccd77e7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -368,6 +332,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {

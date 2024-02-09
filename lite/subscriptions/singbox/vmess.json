@@ -110,7 +110,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇮🇷IR | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 11",
                 "🏳️XX | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇮🇹IT | vmess | @eliya_chiter0 | 8"
@@ -124,7 +124,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇮🇷IR | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 11",
                 "🏳️XX | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇮🇹IT | vmess | @eliya_chiter0 | 8"
@@ -235,11 +235,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 11",
             "type": "vmess",
-            "server": "78.39.51.7",
-            "server_port": 38208,
-            "uuid": "d6634a1a-4d5a-4704-ba26-7ff28012b793",
+            "server": "janett.click",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -249,6 +249,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "janett.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "janett.click"
+                }
             }
         },
         {

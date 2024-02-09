@@ -117,7 +117,7 @@
                 "🇨🇷CR | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 11",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vless | @fnet00 | 12",
@@ -165,7 +165,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🏳️XX | vmess | @forwardv2ray | 18",
+                "🇩🇪DE | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -199,7 +199,7 @@
                 "🇨🇷CR | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 11",
@@ -234,7 +234,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vless | @fnet00 | 12",
@@ -247,7 +247,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🏳️XX | vmess | @forwardv2ray | 18",
+                "🇩🇪DE | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -580,7 +580,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 29",
+            "tag": "🇨🇷CR | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1427,23 +1427,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "104.21.64.117",
-            "server_port": 8080,
-            "uuid": "b00b62d3-80a2-40f4-92f2-f93f6cbbc96e",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 13",
+            "type": "vmess",
+            "server": "172.67.161.77",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@x2rayn_vpnCDN?ed=2090",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "104.21.64.117"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -1717,11 +1730,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
+            "tag": "🇩🇪DE | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "8db0c63a-a8ef-4bfb-ba1e-831f1404f0c0",
+            "server": "23.88.122.107",
+            "server_port": 12707,
+            "uuid": "4b8b2641-be43-434d-8f38-639d7cf247f8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1731,23 +1744,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Dusseldorf.kotick.site"
-                }
             }
         },
         {

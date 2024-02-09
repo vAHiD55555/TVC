@@ -114,7 +114,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 7"
             ]
         },
@@ -130,7 +130,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -318,11 +318,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "104.18.202.250",
-            "server_port": 2082,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "8db0c63a-a8ef-4bfb-ba1e-831f1404f0c0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -333,11 +333,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/nina.bond\/linkvws",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "104.18.202.250"
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },

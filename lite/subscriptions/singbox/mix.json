@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -158,7 +158,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
-                "🇮🇷IR | vmess | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -218,7 +218,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -230,7 +230,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
-                "🇮🇷IR | vmess | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -1272,17 +1272,32 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 16",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "109.122.199.64",
-            "server_port": 31903,
-            "uuid": "1d348642-97de-4242-b6c4-c428b4579082",
-            "flow": "",
+            "server": "128.140.97.199",
+            "server_port": 52606,
+            "uuid": "bbcac1db-e11c-4e8e-8421-442b910d2231",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oC_KW2uWbqYBPZ33Ywhkr0N-n2rYDecWwQj87asCl2Y",
+                    "short_id": "f6159ff1"
+                }
             }
         },
         {
@@ -1529,21 +1544,14 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "youngx.melatmobile.com",
-            "server_port": 13397,
-            "uuid": "efecba3f-50ca-4cef-b5b7-afe600d3955f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "51.140.140.186",
+            "server_port": 22610,
+            "method": "chacha20-ietf-poly1305",
+            "password": "vFGVQ8fYiM6mB93w3j0Frm",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 4",

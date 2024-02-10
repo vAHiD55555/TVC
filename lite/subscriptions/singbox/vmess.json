@@ -110,7 +110,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇩🇪DE | vmess | @ConfigsHUB | 18",
+                "🇳🇱NL | vmess | @ConfigsHUB | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 10"
             ]
@@ -123,7 +123,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇩🇪DE | vmess | @ConfigsHUB | 18",
+                "🇳🇱NL | vmess | @ConfigsHUB | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 10"
             ],
@@ -223,11 +223,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 18",
+            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 17",
             "type": "vmess",
-            "server": "49.12.109.46",
-            "server_port": 8081,
-            "uuid": "9ebfbe92-13f8-46f4-b26a-5f21ab4bc464",
+            "server": "mci--join.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -237,6 +237,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {

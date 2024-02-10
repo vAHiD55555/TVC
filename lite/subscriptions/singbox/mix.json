@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 16",
+                "🇨🇦CA | vless | @EliV2ray | 12",
                 "🇳🇱NL | vless | @NIM_VPN_ir | 10",
                 "🇨🇦CA | vless | @XsV2ray | 17",
                 "🇫🇷FR | vless | @VlessConfig | 14",
@@ -128,7 +128,6 @@
                 "🇫🇷FR | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 19",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 8",
                 "🏳️XX | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
@@ -145,7 +144,7 @@
                 "🇺🇸US | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -157,7 +156,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
-                "🇳🇱NL | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -177,7 +176,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 16",
+                "🇨🇦CA | vless | @EliV2ray | 12",
                 "🇳🇱NL | vless | @NIM_VPN_ir | 10",
                 "🇨🇦CA | vless | @XsV2ray | 17",
                 "🇫🇷FR | vless | @VlessConfig | 14",
@@ -199,7 +198,6 @@
                 "🇫🇷FR | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 19",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 8",
                 "🏳️XX | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
@@ -216,7 +214,7 @@
                 "🇺🇸US | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -228,7 +226,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
-                "🇳🇱NL | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -264,11 +262,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 16",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 12",
             "type": "vless",
-            "server": "104.22.41.69",
-            "server_port": 8080,
-            "uuid": "1732c28e-9328-4246-bed6-de522bb6e102",
+            "server": "104.18.200.200",
+            "server_port": 2086,
+            "uuid": "073c769d-9a23-4333-bc97-7f3535a475d3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -280,7 +278,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.22.41.69"
+                    "Host": "104.18.200.200"
                 }
             }
         },
@@ -853,16 +851,6 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 19",
-            "type": "shadowsocks",
-            "server": "wxwctxxx.arvancode.eu.org",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇹🇼TW | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
             "server": "118.167.68.3",
@@ -1218,11 +1206,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "104.16.14.140",
-            "server_port": 2083,
-            "uuid": "db701871-ca88-4d0f-b15d-14f8d82fb8b0",
+            "server": "104.21.29.72",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1232,7 +1220,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "special-funicular.pages.dev",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1242,9 +1230,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "path": "\/path\/telegram@v2ray_alpha\/",
                 "headers": {
-                    "Host": "special-funicular.pages.dev"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -1492,23 +1480,36 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "join---to.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "8955.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "join---to.outline-vpn.cloud"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },

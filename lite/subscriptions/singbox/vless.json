@@ -115,7 +115,7 @@
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇨🇦CA | vless | @ARv2ray | 10",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
-                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @free_v2rayyy | 3",
                 "🇺🇸US | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
@@ -139,6 +139,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
+                "🇳🇱NL | vless | @ConfigsHUB | 8",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -149,7 +150,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
-                "🇨🇷CR | vless | @https_config_injector | 13",
+                "🇺🇸US | vless | @https_config_injector | 13",
                 "🇸🇬SG | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -174,7 +175,7 @@
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇨🇦CA | vless | @ARv2ray | 10",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
-                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @free_v2rayyy | 3",
                 "🇺🇸US | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
@@ -198,6 +199,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
+                "🇳🇱NL | vless | @ConfigsHUB | 8",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -208,7 +210,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
-                "🇨🇷CR | vless | @https_config_injector | 13",
+                "🇺🇸US | vless | @https_config_injector | 13",
                 "🇸🇬SG | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -482,11 +484,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 3",
             "type": "vless",
-            "server": "tph.mrlsd.cloud",
-            "server_port": 2096,
-            "uuid": "c095694e-6f0b-4a2c-8470-3140cf741776",
+            "server": "lol.ps",
+            "server_port": 443,
+            "uuid": "For-Freedom",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -496,7 +498,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pokfh.mrlsd.cloud",
+                "server_name": "apps.x4azadi.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -506,9 +508,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/X4azadi?ed",
                 "headers": {
-                    "Host": "pokfh.mrlsd.cloud"
+                    "Host": "apps.x4azadi.com"
                 }
             }
         },
@@ -1134,6 +1136,27 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vless | @ConfigsHUB | 8",
+            "type": "vless",
+            "server": "join---to.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "join---to.outline-vpn.cloud"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 15",
             "type": "vless",
             "server": "104.17.45.62",
@@ -1367,7 +1390,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @https_config_injector | 13",
+            "tag": "🇺🇸US | vless | @https_config_injector | 13",
             "type": "vless",
             "server": "190.93.247.155",
             "server_port": 8080,

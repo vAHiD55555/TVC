@@ -106,8 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | ss | @DeamNet_Proxy | 18",
                 "🇬🇧GB | ss | @VmessProtocol | 15",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🏳️XX | ss | @OutlineVpnOfficial | 17",
                 "🇷🇺RU | ss | @ROMAX_VPN | 14"
             ]
         },
@@ -115,8 +116,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | ss | @DeamNet_Proxy | 18",
                 "🇬🇧GB | ss | @VmessProtocol | 15",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🏳️XX | ss | @OutlineVpnOfficial | 17",
                 "🇷🇺RU | ss | @ROMAX_VPN | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -140,6 +142,16 @@
             "type": "dns"
         },
         {
+            "tag": "🇩🇪DE | ss | @DeamNet_Proxy | 18",
+            "type": "shadowsocks",
+            "server": "145.239.1.100",
+            "server_port": 8882,
+            "method": "aes-256-gcm",
+            "password": "kDWvXYZoTBcGkC4",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇬🇧GB | ss | @VmessProtocol | 15",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
@@ -150,7 +162,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+            "tag": "🏳️XX | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 2443,

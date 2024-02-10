@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇮🇷IR | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -158,7 +158,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -218,7 +218,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇮🇷IR | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -230,7 +230,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇷CR | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -1272,24 +1272,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "104.24.172.7",
-            "server_port": 8080,
-            "uuid": "3e0a648b-a69a-4d0b-8582-03208971cb64",
+            "server": "109.122.199.64",
+            "server_port": 31903,
+            "uuid": "1d348642-97de-4242-b6c4-c428b4579082",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
-                "headers": {
-                    "Host": "104.24.172.7"
-                }
             }
         },
         {
@@ -1536,34 +1529,20 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "k6.maduss.site",
-            "server_port": 443,
-            "uuid": "79121e8c-a66a-490d-b94a-e5d25159777e",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "youngx.melatmobile.com",
+            "server_port": 13397,
+            "uuid": "efecba3f-50ca-4cef-b5b7-afe600d3955f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "k6.maduss.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "k6.maduss.site"
-                }
             }
         },
         {

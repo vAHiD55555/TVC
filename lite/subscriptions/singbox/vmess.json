@@ -107,12 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇭🇰HK | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇳CN | vmess | @forwardv2ray | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ]
         },
@@ -121,12 +119,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇭🇰HK | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇳CN | vmess | @forwardv2ray | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -167,7 +163,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 18",
+            "tag": "🇭🇰HK | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "38.147.191.185",
             "server_port": 10241,
@@ -184,7 +180,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
             "server": "cloudflare.alipay.ovh",
             "server_port": 80,
@@ -232,40 +228,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 16",
-            "type": "vmess",
-            "server": "amir.greenblue.top.greenblue.top",
-            "server_port": 8443,
-            "uuid": "express_v2ray",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "api39.animationkidsart.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": "api39.animationkidsart.ir"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
@@ -287,23 +249,6 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | vmess | @forwardv2ray | 14",
-            "type": "vmess",
-            "server": "183.236.48.169",
-            "server_port": 1002,
-            "uuid": "229ccd44-c56c-3947-88de-849dd70c180d",
-            "security": "auto",
-            "alter_id": 2,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {

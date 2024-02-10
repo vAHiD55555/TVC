@@ -116,7 +116,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 10",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 12",
@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇳🇱NL | vless | @ConfigsHUB | 8",
+                "🇨🇦CA | vmess | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
@@ -160,9 +160,9 @@
                 "🇮🇷IR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
-                "🇺🇸US | vless | @https_config_injector | 13",
+                "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇸🇬SG | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -191,7 +191,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 10",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 12",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇳🇱NL | vless | @ConfigsHUB | 8",
+                "🇨🇦CA | vmess | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
@@ -235,9 +235,9 @@
                 "🇮🇷IR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
-                "🇺🇸US | vless | @https_config_injector | 13",
+                "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇸🇬SG | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -545,7 +545,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 26",
+            "tag": "🇨🇷CR | vless | @lightning6 | 26",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1317,23 +1317,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | vless | @ConfigsHUB | 8",
-            "type": "vless",
-            "server": "join---to.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 11",
+            "type": "vmess",
+            "server": "hbzgrftrq1.site",
+            "server_port": 443,
+            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hbzgrftrq1.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/kwhmvws",
                 "headers": {
-                    "Host": "join---to.outline-vpn.cloud"
+                    "Host": "hbzgrftrq1.site"
                 }
             }
         },
@@ -1620,36 +1633,23 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "188.114.97.7",
-            "server_port": 443,
-            "uuid": "3abb5db1-c880-4fa9-8b7a-651bbd8c1b13",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.31.16.160",
+            "server_port": 80,
+            "uuid": "30bacb3e-a515-42bc-9e0b-5241f32e8080",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "kansas.gafn.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/speedtest",
+                "path": "\/",
                 "headers": {
-                    "Host": "kansas.gafn.online"
+                    "Host": "104.31.16.160"
                 }
             }
         },
@@ -1675,7 +1675,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @https_config_injector | 13",
+            "tag": "🇨🇷CR | vless | @https_config_injector | 13",
             "type": "vless",
             "server": "190.93.247.155",
             "server_port": 8080,

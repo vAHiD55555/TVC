@@ -109,9 +109,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 11",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ]
         },
@@ -122,9 +122,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 11",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -206,6 +206,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 11",
+            "type": "vmess",
+            "server": "hbzgrftrq1.site",
+            "server_port": 443,
+            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hbzgrftrq1.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/kwhmvws",
+                "headers": {
+                    "Host": "hbzgrftrq1.site"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "172.67.211.98",
@@ -260,40 +294,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "188.114.97.7",
-            "server_port": 443,
-            "uuid": "3abb5db1-c880-4fa9-8b7a-651bbd8c1b13",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kansas.gafn.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "kansas.gafn.online"
                 }
             }
         },

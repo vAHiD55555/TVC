@@ -106,9 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @VmessProtocol | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | ss | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🇷🇺RU | ss | @ROMAX_VPN | 14"
             ]
         },
@@ -116,9 +115,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @VmessProtocol | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | ss | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🇷🇺RU | ss | @ROMAX_VPN | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -142,16 +140,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @VmessProtocol | 15",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
@@ -162,12 +150,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | ss | @forwardv2ray | 19",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
             "type": "shadowsocks",
-            "server": "16.170.206.74",
-            "server_port": 8080,
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "oXTLmUcHFIZtdaf6w0c02jSl2JR3xVF5YZlLPJ\/Cueo=",
+            "password": "2LVVFxxHJSBMdGdl",
             "plugin": "",
             "plugin_opts": ""
         },

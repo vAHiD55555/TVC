@@ -107,11 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 6",
-                "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇩🇪DE | vmess | @ConfigsHUB | 13",
+                "🇭🇰HK | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇺🇸US | vmess | @proxyymeliii | 18",
+                "🇺🇸US | vmess | @Cov2ray | 0",
+                "🇷🇺RU | vmess | @ConfigsHUB | 14",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ]
@@ -121,11 +121,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 6",
-                "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇩🇪DE | vmess | @ConfigsHUB | 13",
+                "🇭🇰HK | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇺🇸US | vmess | @proxyymeliii | 18",
+                "🇺🇸US | vmess | @Cov2ray | 0",
+                "🇷🇺RU | vmess | @ConfigsHUB | 14",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ],
@@ -167,7 +167,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 18",
+            "tag": "🇭🇰HK | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "38.147.191.185",
             "server_port": 10241,
@@ -184,31 +184,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "172.67.229.38",
-            "server_port": 2086,
-            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/IOebhLMhl1CTbFHbL95myfRX2",
-                "headers": {
-                    "Host": "172.67.229.38"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "cloudflare.alipay.ovh",
             "server_port": 80,
@@ -232,7 +208,24 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @Cov2ray | 0",
+            "tag": "🇺🇸US | vmess | @proxyymeliii | 18",
+            "type": "vmess",
+            "server": "51.81.149.151",
+            "server_port": 27978,
+            "uuid": "9fd11110-625d-4a96-9e3a-09062613a098",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @Cov2ray | 0",
             "type": "vmess",
             "server": "188.114.96.11",
             "server_port": 80,
@@ -256,11 +249,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 13",
+            "tag": "🇷🇺RU | vmess | @ConfigsHUB | 14",
             "type": "vmess",
-            "server": "49.12.109.46",
-            "server_port": 8081,
-            "uuid": "9ebfbe92-13f8-46f4-b26a-5f21ab4bc464",
+            "server": "45.144.2.113",
+            "server_port": 80,
+            "uuid": "1cb996c8-e5bf-40d2-9a3c-149b3b721c5f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -270,6 +263,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {

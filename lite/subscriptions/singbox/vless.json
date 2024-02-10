@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇷CR | vless | @V2RayTz | 11",
-                "🇨🇦CA | vless | @DailyV2RY | 125",
+                "🇩🇪DE | vless | @DailyV2RY | 123",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇨🇦CA | vless | @proxystore11 | 15",
@@ -148,7 +148,7 @@
                 "🇮🇷IR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
                 "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇸🇬SG | vless | @mehrosaboran | 14",
@@ -196,7 +196,7 @@
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇷CR | vless | @V2RayTz | 11",
-                "🇨🇦CA | vless | @DailyV2RY | 125",
+                "🇩🇪DE | vless | @DailyV2RY | 123",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇨🇦CA | vless | @proxystore11 | 15",
@@ -208,7 +208,7 @@
                 "🇮🇷IR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
                 "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇸🇬SG | vless | @mehrosaboran | 14",
@@ -1053,12 +1053,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 125",
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 123",
             "type": "vless",
-            "server": "medium.com",
+            "server": "v2ti.fun",
             "server_port": 443,
-            "uuid": "49ac899d-76ac-4189-fbd1-5880ef54dfe1",
-            "flow": "",
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1067,20 +1067,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nns.bestmoonlive.com",
+                "server_name": "asemooni.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xH7abqCI9aYGthLZjbpkGuznvYb0BANH8hDMNgdiVxk",
+                    "short_id": "c98b4712"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "nns.bestmoonlive.com"
-                }
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1348,11 +1353,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "104.31.16.160",
-            "server_port": 80,
-            "uuid": "30bacb3e-a515-42bc-9e0b-5241f32e8080",
+            "server": "68.183.9.196",
+            "server_port": 7392,
+            "uuid": "6ee6380f-32ca-4916-a001-77478550179b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1361,11 +1366,11 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.31.16.160"
-                }
+                "type": "grpc",
+                "service_name": "7392vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

@@ -110,6 +110,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇳🇱NL | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @forwardv2ray | 18",
@@ -124,6 +125,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇳🇱NL | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @forwardv2ray | 18",
@@ -225,6 +227,30 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "mci--join.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "127.0.0.1",
@@ -268,9 +294,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "iranserver.com",
+            "server": "104.21.44.64",
             "server_port": 443,
-            "uuid": "e8bdec3c-f2c7-469a-b6cc-a38cfea5aa19",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -283,7 +309,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dk1-vmess.sshmax.xyz",
+                "server_name": "kellie.makeup",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -293,9 +319,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "dk1-vmess.sshmax.xyz"
+                    "Host": "kellie.makeup"
                 }
             }
         },

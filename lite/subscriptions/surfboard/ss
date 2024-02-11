@@ -11,12 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇩🇪DE | ss | @V2rayCollectorDonate | 19 = ss, cdn.servemp3.com, 443, encrypt-method = chacha20-ietf-poly1305, password = Hu/3IhqlBkJjoTD9TH2fs/nk3aPa8L1vKtyydPcNit4=
 🇦🇹AT | ss | @OutlineVpnOfficial | 15 = ss, 212.113.106.243, 12949, encrypt-method = chacha20-ietf-poly1305, password = P2zxXPewlV3BlfqqYiSthvtLc
-🇸🇪SE | ss | @forwardv2ray | 18 = ss, 51.20.32.89, 8080, encrypt-method = chacha20-ietf-poly1305, password = mUsL2UYRde/IPK4kgddPLC5sJgycz3GF45QF5guG74M=
+🇸🇪SE | ss | @forwardv2ray | 5 = ss, 13.48.57.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = B9EGI5mf58ZTX/7poyxWdv3/ptpBcZO6i+PlNCWn5sg=
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇸🇪SE | ss | @forwardv2ray | 18
-URL-TEST = url-test,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇸🇪SE | ss | @forwardv2ray | 18
-FALLBACK = fallback,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇸🇪SE | ss | @forwardv2ray | 18
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | ss | @V2rayCollectorDonate | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇸🇪SE | ss | @forwardv2ray | 5
+URL-TEST = url-test,🇩🇪DE | ss | @V2rayCollectorDonate | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇸🇪SE | ss | @forwardv2ray | 5
+FALLBACK = fallback,🇩🇪DE | ss | @V2rayCollectorDonate | 19,🇦🇹AT | ss | @OutlineVpnOfficial | 15,🇸🇪SE | ss | @forwardv2ray | 5
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

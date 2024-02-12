@@ -108,10 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇮🇷IR | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇧🇬BG | vmess | @Hope_Net | 5",
+                "🇧🇬BG | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ]
@@ -122,10 +122,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇮🇷IR | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇧🇬BG | vmess | @Hope_Net | 5",
+                "🇧🇬BG | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ],
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
-            "server": "s0.drvpn.wtf",
-            "server_port": 8080,
-            "uuid": "dd9f48c6-eec1-4f25-96af-77eb134cf361",
+            "server": "151.101.131.10",
+            "server_port": 80,
+            "uuid": "97d5d17f-1a55-4074-8207-192873e362ed",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -198,6 +198,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/aries",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -249,7 +256,7 @@
             }
         },
         {
-            "tag": "🇧🇬BG | vmess | @Hope_Net | 5",
+            "tag": "🇧🇬BG | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "147.78.140.4",
             "server_port": 443,

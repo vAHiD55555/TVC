@@ -140,19 +140,17 @@
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇷CR | vless | @V2RayTz | 16",
-                "🏳️XX | vless | @DailyV2RY | 144",
+                "🇨🇦CA | vless | @DailyV2RY | 148",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇳🇱NL | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 6",
                 "🇳🇱NL | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
-                "🇨🇦CA | vless | @mehrosaboran | 23",
+                "🇺🇸US | vless | @mehrosaboran | 21",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇷CR | vless | @GozargahVPN | 10",
@@ -202,19 +200,17 @@
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇷CR | vless | @V2RayTz | 16",
-                "🏳️XX | vless | @DailyV2RY | 144",
+                "🇨🇦CA | vless | @DailyV2RY | 148",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇳🇱NL | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 6",
                 "🇳🇱NL | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
-                "🇨🇦CA | vless | @mehrosaboran | 23",
+                "🇺🇸US | vless | @mehrosaboran | 21",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇷CR | vless | @GozargahVPN | 10",
@@ -735,9 +731,9 @@
         {
             "tag": "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "87.107.146.242",
-            "server_port": 10768,
-            "uuid": "cec53b74-fbf2-4b6f-9652-86fb15f348a2",
+            "server": "87.107.164.151",
+            "server_port": 48599,
+            "uuid": "51e62a71-494c-484a-b442-2b9375e1ede5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -749,7 +745,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "87.107.146.242"
+                    "Host": "87.107.164.151"
                 }
             }
         },
@@ -1146,11 +1142,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 144",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 148",
             "type": "vless",
-            "server": "join-zedmodeon.servehalflife.com",
-            "server_port": 2095,
-            "uuid": "0bdb1407-0554-4834-97cd-ba3487af59b5",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "69d9c179-5e81-479b-9d2a-6d4e8c429321",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1158,12 +1154,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-JOINZEDMODEON-@ZEDMODEON",
-                "headers": {
-                    "Host": "join-zedmodeon.servehalflife.com"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ArV2ray.host",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1215,27 +1221,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "donald.pydri.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "172.67.26.210",
-            "server_port": 2052,
-            "uuid": "2f80bd03-a821-4a7d-a45a-53f132df2c60",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.26.210"
                 }
             }
         },
@@ -1386,20 +1371,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "164.92.105.70",
-            "server_port": 45353,
-            "uuid": "1931399e-faea-42b8-841e-7646238fc934",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @FAKEOFTVC | 0",
             "type": "vless",
             "server": "dv2rv46.daniyf.online",
@@ -1421,9 +1392,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @mehrosaboran | 23",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 21",
             "type": "vless",
-            "server": "104.31.16.136",
+            "server": "198.41.202.5",
             "server_port": 443,
             "uuid": "-DIGIV2RAY-",
             "flow": "",
@@ -1435,7 +1406,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "104.31.16.136",
+                "server_name": "198.41.202.5",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {

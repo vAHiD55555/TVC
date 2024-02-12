@@ -110,8 +110,10 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇷🇺RU | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 4",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ]
         },
@@ -123,8 +125,10 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇷🇺RU | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 4",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -230,6 +234,23 @@
             }
         },
         {
+            "tag": "🇷🇺RU | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "147.45.76.222",
+            "server_port": 8081,
+            "uuid": "ef5f443e-d259-46f1-872a-92bd4ee78962",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "104.20.231.30",
@@ -274,6 +295,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 4",
+            "type": "vmess",
+            "server": "s2.animationkidsart.ir",
+            "server_port": 443,
+            "uuid": "b4ae5e3b-43a9-4306-b09f-081ed4c75e75",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "napi3.animationkidsart.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/dcsfsrafawfwegarga2r3r2344",
+                "headers": {
+                    "Host": "napi3.animationkidsart.ir"
                 }
             }
         },

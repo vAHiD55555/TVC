@@ -149,11 +149,11 @@
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇸🇪SE | ss | @VmessProtocol | 13",
-                "🏳️XX | vless | @DailyV2RY | 144",
+                "🇨🇦CA | vless | @DailyV2RY | 148",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇷🇺RU | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
@@ -163,9 +163,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 4",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
-                "🇨🇦CA | vless | @mehrosaboran | 23",
+                "🇺🇸US | vless | @mehrosaboran | 21",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇸🇪SE | ss | @kingofilter | 9",
@@ -228,11 +228,11 @@
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇸🇪SE | ss | @VmessProtocol | 13",
-                "🏳️XX | vless | @DailyV2RY | 144",
+                "🇨🇦CA | vless | @DailyV2RY | 148",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇷🇺RU | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
@@ -242,9 +242,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 4",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
-                "🇨🇦CA | vless | @mehrosaboran | 23",
+                "🇺🇸US | vless | @mehrosaboran | 21",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇸🇪SE | ss | @kingofilter | 9",
@@ -769,9 +769,9 @@
         {
             "tag": "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "87.107.146.242",
-            "server_port": 10768,
-            "uuid": "cec53b74-fbf2-4b6f-9652-86fb15f348a2",
+            "server": "87.107.164.151",
+            "server_port": 48599,
+            "uuid": "51e62a71-494c-484a-b442-2b9375e1ede5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -783,7 +783,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "87.107.146.242"
+                    "Host": "87.107.164.151"
                 }
             }
         },
@@ -1355,11 +1355,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 144",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 148",
             "type": "vless",
-            "server": "join-zedmodeon.servehalflife.com",
-            "server_port": 2095,
-            "uuid": "0bdb1407-0554-4834-97cd-ba3487af59b5",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "69d9c179-5e81-479b-9d2a-6d4e8c429321",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1367,12 +1367,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-JOINZEDMODEON-@ZEDMODEON",
-                "headers": {
-                    "Host": "join-zedmodeon.servehalflife.com"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ArV2ray.host",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1438,24 +1448,20 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "172.67.26.210",
-            "server_port": 2052,
-            "uuid": "2f80bd03-a821-4a7d-a45a-53f132df2c60",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇷🇺RU | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "147.45.76.222",
+            "server_port": 8081,
+            "uuid": "ef5f443e-d259-46f1-872a-92bd4ee78962",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.26.210"
-                }
             }
         },
         {
@@ -1665,17 +1671,37 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "164.92.105.70",
-            "server_port": 45353,
-            "uuid": "1931399e-faea-42b8-841e-7646238fc934",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 4",
+            "type": "vmess",
+            "server": "s2.animationkidsart.ir",
+            "server_port": 443,
+            "uuid": "b4ae5e3b-43a9-4306-b09f-081ed4c75e75",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "napi3.animationkidsart.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/dcsfsrafawfwegarga2r3r2344",
+                "headers": {
+                    "Host": "napi3.animationkidsart.ir"
+                }
             }
         },
         {
@@ -1700,9 +1726,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @mehrosaboran | 23",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 21",
             "type": "vless",
-            "server": "104.31.16.136",
+            "server": "198.41.202.5",
             "server_port": 443,
             "uuid": "-DIGIV2RAY-",
             "flow": "",
@@ -1714,7 +1740,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "104.31.16.136",
+                "server_name": "198.41.202.5",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {

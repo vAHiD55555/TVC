@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇷🇺RU | vmess | @ConfigsHUB | 16",
+                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 4",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ]
         },
@@ -123,12 +123,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇷🇺RU | vmess | @ConfigsHUB | 16",
+                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 4",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -186,6 +186,30 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "104.18.202.232",
+            "server_port": 80,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/IOebhLMhl1CTbFHbL95myfRX2",
+                "headers": {
+                    "Host": "104.18.202.232"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 0",
             "type": "vmess",
             "server": "discord.gg",
@@ -234,11 +258,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vmess | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 15",
             "type": "vmess",
-            "server": "147.45.76.222",
-            "server_port": 8081,
-            "uuid": "ef5f443e-d259-46f1-872a-92bd4ee78962",
+            "server": "zula.ir",
+            "server_port": 2087,
+            "uuid": "744e6667-f2ec-49b1-9819-9f7c7bc8f6e5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -248,6 +272,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nl3.arvcloud.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "nl3.arvcloud.ir"
+                }
             }
         },
         {
@@ -295,40 +336,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 4",
-            "type": "vmess",
-            "server": "s2.animationkidsart.ir",
-            "server_port": 443,
-            "uuid": "b4ae5e3b-43a9-4306-b09f-081ed4c75e75",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "napi3.animationkidsart.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/dcsfsrafawfwegarga2r3r2344",
-                "headers": {
-                    "Host": "napi3.animationkidsart.ir"
                 }
             }
         },

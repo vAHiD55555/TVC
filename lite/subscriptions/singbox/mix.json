@@ -152,9 +152,9 @@
                 "🇸🇬SG | vless | @VmessProtocol | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 155",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🏳️XX | vless | @lrnbymaa | 5",
+                "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 1",
@@ -166,7 +166,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇬🇧GB | ss | @forwardv2ray | 16",
+                "🇨🇦CA | trojan | @forwardv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -235,9 +235,9 @@
                 "🇸🇬SG | vless | @VmessProtocol | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 155",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🏳️XX | vless | @lrnbymaa | 5",
+                "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 1",
@@ -249,7 +249,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇬🇧GB | ss | @forwardv2ray | 16",
+                "🇨🇦CA | trojan | @forwardv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -1494,7 +1494,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @lrnbymaa | 5",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 5",
             "type": "vless",
             "server": "donald.pydri.ir",
             "server_port": 8080,
@@ -1525,20 +1525,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "31.14.118.236",
-            "server_port": 20880,
-            "uuid": "ddf60541-5e24-46f9-b571-e2234bdf369a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "104.19.101.129",
+            "server_port": 2052,
+            "uuid": "c2bbdca3-cfbe-4f04-ae83-06b09981ce93",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.19.101.129"
+                }
             }
         },
         {
@@ -1793,14 +1797,33 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 16",
-            "type": "shadowsocks",
-            "server": "52.142.190.10",
-            "server_port": 59784,
-            "method": "chacha20-ietf-poly1305",
-            "password": "bRBRWwzekRHSjioEXFxkov",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | trojan | @forwardv2ray | 16",
+            "type": "trojan",
+            "server": "b2n.ir",
+            "server_port": 443,
+            "password": "hwiyBDgN65hGmiwxPcfMUA",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnttr212.reservedns.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cdnttr212.reservedns.com"
+                }
+            }
         },
         {
             "tag": "🏳️XX | vless | @FAKEOFTVC | 0",

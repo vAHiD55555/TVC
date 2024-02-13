@@ -112,9 +112,9 @@
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇮🇷IR | vmess | @ConfigsHUB | 16",
                 "🇸🇬SG | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 2"
             ]
         },
@@ -128,9 +128,9 @@
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇮🇷IR | vmess | @ConfigsHUB | 16",
                 "🇸🇬SG | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -287,6 +287,23 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "31.14.118.236",
+            "server_port": 20880,
+            "uuid": "2fcea718-9a59-42e2-817b-cfb828486498",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇸🇬SG | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "sg2-full.privateip.net",
@@ -341,40 +358,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "gur.gov.ua",
-            "server_port": 443,
-            "uuid": "5a2e6709-2da1-47d2-b962-96dac13a9b4f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "atl.sxmzkfyy.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/btvyrzAW\/",
-                "headers": {
-                    "Host": "atl.sxmzkfyy.com"
                 }
             }
         },

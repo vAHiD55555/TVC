@@ -116,9 +116,9 @@
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇳🇱NL | vless | @shh_proxy | 24",
-                "🇨🇦CA | vless | @Lockey_vpn | 7",
+                "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇷CR | vless | @lightning6 | 26",
+                "🇺🇸US | vless | @lightning6 | 26",
                 "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 17",
@@ -130,7 +130,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 7",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🇺🇸US | vless | @vmessorg | 8",
+                "🏳️XX | vless | @vmessorg | 6",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 35",
@@ -144,11 +144,10 @@
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🏳️XX | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 5",
                 "🇳🇱NL | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 14",
-                "🇨🇷CR | vless | @v2rayng_vpnrog | 10",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
@@ -184,9 +183,9 @@
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇳🇱NL | vless | @shh_proxy | 24",
-                "🇨🇦CA | vless | @Lockey_vpn | 7",
+                "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇷CR | vless | @lightning6 | 26",
+                "🇺🇸US | vless | @lightning6 | 26",
                 "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 17",
@@ -198,7 +197,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 7",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🇺🇸US | vless | @vmessorg | 8",
+                "🏳️XX | vless | @vmessorg | 6",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 35",
@@ -212,11 +211,10 @@
                 "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🏳️XX | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 5",
                 "🇳🇱NL | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 14",
-                "🇨🇷CR | vless | @v2rayng_vpnrog | 10",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
@@ -558,11 +556,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 7",
+            "tag": "🇨🇦CA | vless | @Lockey_vpn | 8",
             "type": "vless",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "server": "104.21.59.125",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -570,21 +568,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
+                    "Host": "104.21.59.125"
                 }
             }
         },
@@ -620,7 +608,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 26",
+            "tag": "🇺🇸US | vless | @lightning6 | 26",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -942,11 +930,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 8",
+            "tag": "🏳️XX | vless | @vmessorg | 6",
             "type": "vless",
-            "server": "joinbede.vmessorg.online",
+            "server": "join_bede.vmessorg.site",
             "server_port": 8880,
-            "uuid": "c18b7d6d-425a-4eb6-9fb2-7170268eaa56",
+            "uuid": "203c6b5f-c34c-42c9-83b4-a4d16d7f3b13",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -958,7 +946,7 @@
                 "type": "ws",
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg",
                 "headers": {
-                    "Host": "joinbede.vmessorg.online"
+                    "Host": "join_bede.vmessorg.site"
                 }
             }
         },
@@ -1284,27 +1272,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 5",
-            "type": "vless",
-            "server": "www.unpkg.com",
-            "server_port": 2052,
-            "uuid": "33ea7db6-6c28-445d-a568-03702faadbba",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "www.unpkg.com"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | vless | @proxystore11 | 15",
             "type": "vless",
             "server": "188.114.96.0",
@@ -1371,7 +1338,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @v2rayng_vpnrog | 10",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 10",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,

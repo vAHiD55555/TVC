@@ -152,12 +152,12 @@
                 "🇸🇬SG | vless | @VmessProtocol | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🏳️XX | vless | @lrnbymaa | 5",
+                "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | trojan | @ConfigsHUB | 17",
+                "🇨🇦CA | trojan | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🏳️XX | vmess | @Hope_Net | 1",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 9",
                 "🇳🇱NL | vless | @v2rayng_vpnrog | 9",
@@ -166,7 +166,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇸🇪SE | ss | @forwardv2ray | 17",
+                "🇸🇬SG | ss | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -235,12 +235,12 @@
                 "🇸🇬SG | vless | @VmessProtocol | 13",
                 "🇨🇦CA | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🏳️XX | vless | @lrnbymaa | 5",
+                "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇸🇪SE | trojan | @ConfigsHUB | 17",
+                "🇨🇦CA | trojan | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🏳️XX | vmess | @Hope_Net | 1",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 9",
                 "🇳🇱NL | vless | @v2rayng_vpnrog | 9",
@@ -249,7 +249,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇸🇪SE | ss | @forwardv2ray | 17",
+                "🇸🇬SG | ss | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -1494,7 +1494,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @lrnbymaa | 5",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 5",
             "type": "vless",
             "server": "donald.pydri.ir",
             "server_port": 8080,
@@ -1525,15 +1525,32 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | trojan | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | trojan | @ConfigsHUB | 17",
             "type": "trojan",
-            "server": "ru-full.privateip.net",
+            "server": "b2n.ir",
             "server_port": 443,
-            "password": "a6711b97-5e8e-4e7d-8b42-845dd31c265b",
+            "password": "hwiyBDgN65hGmiwxPcfMUA",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnttr212.reservedns.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cdnttr212.reservedns.com"
+                }
             }
         },
         {
@@ -1570,7 +1587,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 1",
+            "tag": "🏳️XX | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -1788,12 +1805,12 @@
             }
         },
         {
-            "tag": "🇸🇪SE | ss | @forwardv2ray | 17",
+            "tag": "🇸🇬SG | ss | @forwardv2ray | 19",
             "type": "shadowsocks",
-            "server": "16.171.129.203",
-            "server_port": 8080,
+            "server": "188.166.229.30",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "Vve+ZfrJOcLmj++8iMjmkkQqMBkkkB0iFQrfoXkKbwU=",
+            "password": "WsiN47z2ODdOJHxNL7KuJZ",
             "plugin": "",
             "plugin_opts": ""
         },

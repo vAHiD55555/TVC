@@ -111,9 +111,9 @@
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇷🇺RU | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇷🇺RU | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 2"
             ]
         },
@@ -126,9 +126,9 @@
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇷🇺RU | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇷🇺RU | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -268,23 +268,6 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "45.142.122.142",
-            "server_port": 8081,
-            "uuid": "96cd2a06-eb9a-4f9a-8140-ff1f4e31cd4c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "172.66.45.41",
@@ -340,6 +323,23 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "45.142.122.142",
+            "server_port": 8081,
+            "uuid": "96cd2a06-eb9a-4f9a-8140-ff1f4e31cd4c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

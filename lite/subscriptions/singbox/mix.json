@@ -140,7 +140,7 @@
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇳🇱NL | vless | @ShadowProxy66 | 18",
                 "🇨🇦CA | vless | @ServerNett | 15",
-                "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇨🇦CA | vless | @Qv2rayDONATED | 14",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 4",
                 "🇨🇦CA | vless | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @MsV2ray | 14",
@@ -154,7 +154,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇳🇱NL | vless | @proxystore11 | 11",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🏳️XX | vmess | @Hope_Net | 15",
+                "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
@@ -163,7 +163,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇹🇼TW | vmess | @forwardv2ray | 17",
+                "🇬🇧GB | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 16",
@@ -220,7 +220,7 @@
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇳🇱NL | vless | @ShadowProxy66 | 18",
                 "🇨🇦CA | vless | @ServerNett | 15",
-                "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇨🇦CA | vless | @Qv2rayDONATED | 14",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 4",
                 "🇨🇦CA | vless | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @MsV2ray | 14",
@@ -234,7 +234,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇳🇱NL | vless | @proxystore11 | 11",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🏳️XX | vmess | @Hope_Net | 15",
+                "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
@@ -243,7 +243,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇹🇼TW | vmess | @forwardv2ray | 17",
+                "🇬🇧GB | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 16",
@@ -1169,7 +1169,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+            "tag": "🇨🇦CA | vless | @Qv2rayDONATED | 14",
             "type": "vless",
             "server": "104.18.190.52",
             "server_port": 443,
@@ -1490,11 +1490,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 15",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "accaabb-aabc-aacb-abcd-ababcacacbbc",
+            "server": "162.159.200.7",
+            "server_port": 80,
+            "uuid": "384648b3-bcc5-401e-b145-dc91f57ee5e6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1504,6 +1504,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1718,16 +1725,13 @@
             }
         },
         {
-            "tag": "🇹🇼TW | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "nb24.ntbq.dynu.net",
-            "server_port": 4443,
-            "uuid": "1cc969d3-1df8-4794-a5cc-9231fe0e4710",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "irancell3----join.outline-vpn.cloud",
+            "server_port": 26475,
+            "uuid": "4534d7c9-c5dd-490a-9f14-75245f58ae01",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",

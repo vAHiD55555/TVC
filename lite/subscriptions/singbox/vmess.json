@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 3",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇫🇮FI | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1"
             ]
@@ -125,7 +125,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 3",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇫🇮FI | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1"
             ],
@@ -256,11 +256,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "hi.mmdv3.site",
-            "server_port": 26150,
-            "uuid": "7d33408c-96ca-4de5-a731-810dda9b280b",
+            "server": "104.20.231.30",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -270,6 +270,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {

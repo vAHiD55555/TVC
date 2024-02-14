@@ -115,7 +115,7 @@
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🏳️XX | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇾CY | vmess | @forwardv2ray | 18",
+                "🇹🇼TW | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @kingofilter | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3"
             ]
@@ -133,7 +133,7 @@
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🏳️XX | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇾CY | vmess | @forwardv2ray | 18",
+                "🇹🇼TW | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @kingofilter | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3"
             ],
@@ -353,11 +353,11 @@
             }
         },
         {
-            "tag": "🇨🇾CY | vmess | @forwardv2ray | 18",
+            "tag": "🇹🇼TW | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "195.85.59.50",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "server": "nb24.ntbq.dynu.net",
+            "server_port": 4443,
+            "uuid": "1cc969d3-1df8-4794-a5cc-9231fe0e4710",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -367,23 +367,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "d396-flower-d396.megare7260.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/glweidf.sbs\/linkws",
-                "headers": {
-                    "Host": "d396-flower-d396.megare7260.workers.dev"
-                }
             }
         },
         {

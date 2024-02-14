@@ -112,9 +112,8 @@
                 "🇨🇦CA | vmess | @V2rayng_Fast | 3",
                 "🇳🇱NL | vmess | @v2ray1_ng | 3",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
                 "🇬🇧GB | vmess | @proxystore11 | 13",
-                "🇨🇦CA | vmess | @Hope_Net | 16",
+                "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1"
@@ -130,9 +129,8 @@
                 "🇨🇦CA | vmess | @V2rayng_Fast | 3",
                 "🇳🇱NL | vmess | @v2ray1_ng | 3",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
                 "🇬🇧GB | vmess | @proxystore11 | 13",
-                "🇨🇦CA | vmess | @Hope_Net | 16",
+                "🏳️XX | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1"
@@ -288,30 +286,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 16",
-            "type": "vmess",
-            "server": "198.41.202.5",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇬🇧GB | vmess | @proxystore11 | 13",
             "type": "vmess",
             "server": "172.99.190.12",
@@ -329,11 +303,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 16",
+            "tag": "🏳️XX | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "104.21.6.75",
-            "server_port": 443,
-            "uuid": "1477c801-1f2f-4db2-8683-cff2b1151ebe",
+            "server": "channel.iran-mehr14.ir",
+            "server_port": 8080,
+            "uuid": "c4bb3b21-81b7-4a0c-8f0d-36d6b865c926",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -344,22 +318,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "frmgrpc.mainssh.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "vmessgrpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/RL842FfWrFLaTjhd",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -389,9 +353,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "104.18.15.148",
-            "server_port": 80,
-            "uuid": "384648b3-bcc5-401e-b145-dc91f57ee5e6",
+            "server": "mci.ir-varzesh-ma.nl",
+            "server_port": 2053,
+            "uuid": "25a0552b-4ad9-43a7-a0c8-5024cdcedb6f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -402,11 +366,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mci.ir-varzesh-ma.nl",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "mci.ir-varzesh-ma.nl"
                 }
             }
         },

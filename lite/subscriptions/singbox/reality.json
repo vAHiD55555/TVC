@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🏳️XX | vless | @frev2ray | 1",
+                "🇺🇸US | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -120,6 +121,7 @@
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🏳️XX | vless | @frev2ray | 1",
+                "🇺🇸US | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -212,6 +214,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "\/\/\/v2raymask",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "164.90.144.213",
+            "server_port": 443,
+            "uuid": "1156d4f5-2782-4eaa-a94a-19fd60cb7471",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.feat.agency",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nHbSnSCCS5A-lJoUpeUhg5pMHsaEpDIAAUGHkY0I3G8",
+                    "short_id": "6b43158a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

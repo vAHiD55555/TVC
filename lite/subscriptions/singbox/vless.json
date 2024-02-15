@@ -140,17 +140,16 @@
                 "🇮🇷IR | vless | @vless_vmess | 6",
                 "🇳🇱NL | vless | @V2RayTz | 16",
                 "🏳️XX | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 89",
+                "🇨🇦CA | vless | @DailyV2RY | 86",
                 "🇨🇷CR | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vless | @polproxy | 12",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 8",
+                "🇨🇷CR | vless | @Outlinev2rayNG | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🏳️XX | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -201,17 +200,16 @@
                 "🇮🇷IR | vless | @vless_vmess | 6",
                 "🇳🇱NL | vless | @V2RayTz | 16",
                 "🏳️XX | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 89",
+                "🇨🇦CA | vless | @DailyV2RY | 86",
                 "🇨🇷CR | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vless | @polproxy | 12",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 8",
+                "🇨🇷CR | vless | @Outlinev2rayNG | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🏳️XX | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -343,7 +341,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "52.16.58.82",
+            "server": "3.255.42.234",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1175,11 +1173,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 89",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 86",
             "type": "vless",
-            "server": "198.41.216.223",
+            "server": "server3.mobileberooz-e41.workers.dev",
             "server_port": 80,
-            "uuid": "121b82a9-49be-407e-a1c3-2866c87f2e05",
+            "uuid": "0c1823f5-e8b1-4cfe-8f8b-441f8dd42fd2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1189,9 +1187,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-JOINZEDMODEON-@ZEDMODEON@ZEDMODEON-ZEDMODEON-JOINZEDMODEON-@ZEDMODEON",
+                "path": "\/",
                 "headers": {
-                    "Host": "198.41.216.223"
+                    "Host": "server3.mobileberooz-e41.workers.dev"
                 }
             }
         },
@@ -1290,11 +1288,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 8",
+            "tag": "🇨🇷CR | vless | @Outlinev2rayNG | 8",
             "type": "vless",
-            "server": "worker.hameddomain.cloud",
-            "server_port": 443,
-            "uuid": "2b3d4bda-6f6e-4abc-940b-8fbdca4b15a5",
+            "server": "LIGHTNING6-joinbede.liV2ray.xyz",
+            "server_port": 2083,
+            "uuid": "56f19062-ec7e-4b4a-b4d4-a14fe749f4c3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1304,7 +1302,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "worker.hameddomain.cloud",
+                "server_name": "LIGHTNING6-joinbede.liV2ray.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1313,11 +1311,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/EA7",
-                "headers": {
-                    "Host": "worker.hameddomain.cloud"
-                }
+                "type": "grpc",
+                "service_name": "@LIGHTNING6,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1415,27 +1413,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 4",
-            "type": "vless",
-            "server": "cargeek.ir",
-            "server_port": 2095,
-            "uuid": "dbe804b8-de3f-447a-a004-2667d3db071b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/MeW1NhSmoXNZ5DnDtIYiuDZo",
-                "headers": {
-                    "Host": "cargeek.ir"
-                }
             }
         },
         {

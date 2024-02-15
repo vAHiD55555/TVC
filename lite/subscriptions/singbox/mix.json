@@ -146,13 +146,13 @@
                 "🇺🇸US | vless | @proxyymeliii | 21",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇳🇱NL | vmess | @v2ray1_ng | 4",
-                "🇮🇷IR | vless | @vless_vmess | 5",
+                "🇮🇷IR | vless | @vless_vmess | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇨🇦CA | vless | @V2RayTz | 17",
-                "🇸🇬SG | vless | @VmessProtocol | 14",
+                "🇺🇸US | ss | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 95",
                 "🇨🇷CR | vless | @sinabigo | 3",
-                "🏳️XX | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
@@ -164,6 +164,7 @@
                 "🏳️XX | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 8",
@@ -174,7 +175,6 @@
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
-                "🇺🇸US | tuic | @TUICity | 55",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TVCminer | 17"
@@ -224,13 +224,13 @@
                 "🇺🇸US | vless | @proxyymeliii | 21",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇳🇱NL | vmess | @v2ray1_ng | 4",
-                "🇮🇷IR | vless | @vless_vmess | 5",
+                "🇮🇷IR | vless | @vless_vmess | 6",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇨🇦CA | vless | @V2RayTz | 17",
-                "🇸🇬SG | vless | @VmessProtocol | 14",
+                "🇺🇸US | ss | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 95",
                 "🇨🇷CR | vless | @sinabigo | 3",
-                "🏳️XX | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
@@ -242,6 +242,7 @@
                 "🏳️XX | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 8",
@@ -252,7 +253,6 @@
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
-                "🇺🇸US | tuic | @TUICity | 55",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TVCminer | 17"
@@ -1301,11 +1301,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @vless_vmess | 5",
+            "tag": "🇮🇷IR | vless | @vless_vmess | 6",
             "type": "vless",
-            "server": "l14.darklord.life",
+            "server": "l36.darklord.life",
             "server_port": 443,
-            "uuid": "bd39454f-d797-9846-5c66-71923dd03ed7",
+            "uuid": "c96fc55a-2e6e-d73f-956c-a04835ff148b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1370,35 +1370,14 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @VmessProtocol | 14",
-            "type": "vless",
-            "server": "8.222.137.192",
-            "server_port": 2083,
-            "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cfed.tgzdyz2.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "cfed.tgzdyz2.top"
-                }
-            }
+            "tag": "🇺🇸US | ss | @VmessProtocol | 15",
+            "type": "shadowsocks",
+            "server": "104.167.197.23",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "afa22bb1050134b8",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 95",
@@ -1443,7 +1422,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @lrnbymaa | 6",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 6",
             "type": "vless",
             "server": "donald.pydri.ir",
             "server_port": 8080,
@@ -1712,6 +1691,42 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "v2logy.ddns.net",
+            "server_port": 443,
+            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
             "type": "vless",
             "server": "cargeek.ir",
@@ -1944,29 +1959,6 @@
                     "public_key": "oSBCQtFYo78mD4BFlVVx6J6ykyXUQRoiOtfLdDnkGzI",
                     "short_id": "289ce33d"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | tuic | @TUICity | 55",
-            "type": "tuic",
-            "server": "64.110.25.10",
-            "server_port": 11227,
-            "uuid": "764b539f-2d3c-4772-9731-5ebf6984af98",
-            "password": "dongtaiwang.com",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "zero_rtt_handshake": false,
-            "heartbeat": "10s",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "disable_sni": false,
-                "server_name": "bing.com",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy\/3.1"
-                ]
             }
         },
         {

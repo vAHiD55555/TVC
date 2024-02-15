@@ -158,13 +158,13 @@
                 "🏳️XX | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
-                "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
@@ -239,13 +239,13 @@
                 "🏳️XX | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
-                "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
@@ -1571,7 +1571,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 11",
             "type": "vless",
             "server": "all.deragv2ray.net",
             "server_port": 2083,
@@ -1730,23 +1730,36 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "mtn----join.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "a93eacd2-2852-4d84-9355-fd1e6477dccc",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "172.66.45.41",
+            "server_port": 2096,
+            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "warp-sub.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/urnxewzvh.site:443\/kwhmvws",
                 "headers": {
-                    "Host": "mtn----join.outline-vpn.cloud"
+                    "Host": "warp-sub.pages.dev"
                 }
             }
         },

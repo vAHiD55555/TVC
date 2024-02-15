@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 7",
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇷CR | vless | @lightning6 | 29",
+                "🇺🇸US | vless | @lightning6 | 29",
                 "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 18",
@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 6",
                 "🇨🇦CA | vless | @V2RayTz | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 95",
+                "🇨🇦CA | vless | @DailyV2RY | 89",
                 "🇨🇷CR | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 8",
@@ -149,7 +149,6 @@
                 "🏳️XX | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -179,7 +178,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 7",
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇷CR | vless | @lightning6 | 29",
+                "🇺🇸US | vless | @lightning6 | 29",
                 "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 18",
@@ -200,7 +199,7 @@
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 6",
                 "🇨🇦CA | vless | @V2RayTz | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 95",
+                "🇨🇦CA | vless | @DailyV2RY | 89",
                 "🇨🇷CR | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 8",
@@ -210,7 +209,6 @@
                 "🏳️XX | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -579,7 +577,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 29",
+            "tag": "🇺🇸US | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1146,11 +1144,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 95",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 89",
             "type": "vless",
-            "server": "104.22.51.162",
+            "server": "198.41.216.223",
             "server_port": 80,
-            "uuid": "d1b936c5-64c1-4b64-ab94-e16a08809ef3",
+            "uuid": "121b82a9-49be-407e-a1c3-2866c87f2e05",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1160,9 +1158,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/=@GHALAGYANN,@GHALAGYANN,@GHALAGYANN,@GHALAGYANN,@GHALAGYANN,@GHALAGYANN",
+                "path": "\/@ZEDMODEON-ZEDMODEON-JOINZEDMODEON-@ZEDMODEON@ZEDMODEON-ZEDMODEON-JOINZEDMODEON-@ZEDMODEON",
                 "headers": {
-                    "Host": "104.22.51.162"
+                    "Host": "198.41.216.223"
                 }
             }
         },
@@ -1386,27 +1384,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 11",
-            "type": "vless",
-            "server": "104.16.23.29",
-            "server_port": 2052,
-            "uuid": "85f227b9-0180-4ade-a25a-f2c9be8b8277",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.16.23.29"
-                }
             }
         },
         {

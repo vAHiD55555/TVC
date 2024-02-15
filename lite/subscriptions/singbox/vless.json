@@ -112,7 +112,6 @@
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 18",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @V2pedia | 14",
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 10",
@@ -135,7 +134,7 @@
                 "🇳🇱NL | vless | @ShadowProxy66 | 18",
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 21",
+                "🇨🇦CA | vless | @proxyymeliii | 22",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 6",
                 "🇩🇪DE | vless | @V2RayTz | 5",
@@ -175,7 +174,6 @@
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 18",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @V2pedia | 14",
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 10",
@@ -198,7 +196,7 @@
                 "🇳🇱NL | vless | @ShadowProxy66 | 18",
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 21",
+                "🇨🇦CA | vless | @proxyymeliii | 22",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 6",
                 "🇩🇪DE | vless | @V2RayTz | 5",
@@ -409,27 +407,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @melov2ray | 11",
-            "type": "vless",
-            "server": "iP.mEloV2raY.shOp",
-            "server_port": 443,
-            "uuid": "ec462bab-2281-4624-aaa5-a00549dcb74c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/melov2ray",
-                "headers": {
-                    "Host": "iP.mEloV2raY.shOp"
-                }
             }
         },
         {
@@ -1060,11 +1037,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 21",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 22",
             "type": "vless",
-            "server": "104.31.16.160",
-            "server_port": 80,
-            "uuid": "30bacb3e-a515-42bc-9e0b-5241f32e8080",
+            "server": "donald.pydri.ir",
+            "server_port": 8080,
+            "uuid": "6f9ee9f0-50ce-4010-be22-8f2217e3a33b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1076,7 +1053,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.31.16.160"
+                    "Host": "donald.pydri.ir"
                 }
             }
         },

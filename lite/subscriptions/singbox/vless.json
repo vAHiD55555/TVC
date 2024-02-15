@@ -150,9 +150,10 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
-                "🇨🇦CA | vless | @mehrosaboran | 15",
+                "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🇩🇪DE | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -214,9 +215,10 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
-                "🇨🇦CA | vless | @mehrosaboran | 15",
+                "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🇩🇪DE | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1425,6 +1427,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
+            "type": "vless",
+            "server": "mtn----join.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "a93eacd2-2852-4d84-9355-fd1e6477dccc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mtn----join.outline-vpn.cloud"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 0",
             "type": "vless",
             "server": "cargeek.ir",
@@ -1477,11 +1500,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @mehrosaboran | 15",
+            "tag": "🇨🇦CA | vless | @mehrosaboran | 12",
             "type": "vless",
             "server": "104.31.16.136",
             "server_port": 2083,
-            "uuid": "7cb0f413-fe87-4dcb-af35-cca23d5e0013",
+            "uuid": "56f19062-ec7e-4b4a-b4d4-a14fe749f4c3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {

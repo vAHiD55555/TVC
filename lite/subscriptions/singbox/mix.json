@@ -151,7 +151,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 5",
                 "🇸🇬SG | vless | @VmessProtocol | 14",
                 "🇳🇱NL | vless | @DailyV2RY | 95",
-                "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🏳️XX | vless | @lrnbymaa | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇳🇱NL | vless | @proxystore11 | 11",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
@@ -164,14 +164,14 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🏳️XX | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇩🇪DE | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇷CR | vless | @kingofilter | 7",
+                "🇨🇦CA | vmess | @kingofilter | 6",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
@@ -232,7 +232,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 5",
                 "🇸🇬SG | vless | @VmessProtocol | 14",
                 "🇳🇱NL | vless | @DailyV2RY | 95",
-                "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🏳️XX | vless | @lrnbymaa | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇳🇱NL | vless | @proxystore11 | 11",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
@@ -245,14 +245,14 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🏳️XX | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇩🇪DE | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇷CR | vless | @kingofilter | 7",
+                "🇨🇦CA | vmess | @kingofilter | 6",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
@@ -1433,7 +1433,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 6",
+            "tag": "🏳️XX | vless | @lrnbymaa | 6",
             "type": "vless",
             "server": "donald.pydri.ir",
             "server_port": 8080,
@@ -1501,7 +1501,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "cabacab-acba-abac-adcb-cabccacbbaba",
+            "uuid": "acbacab-caba-cbaa-acbd-cacbbaaccbab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1725,16 +1725,13 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "9695c6ad-bc58-4a7f-9be9-485e5c5e7118",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "usa.mmdgogoli.top",
+            "server_port": 2096,
+            "uuid": "fafcd6a9-07b2-4185-a4e8-a2e5abf8035c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1742,20 +1739,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Dusseldorf.kotick.site"
-                }
+                "type": "grpc",
+                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1928,13 +1930,16 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @kingofilter | 7",
-            "type": "vless",
-            "server": "190.93.246.137",
-            "server_port": 2082,
-            "uuid": "6fa72141-76ea-4f30-af46-1cd927159f05",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @kingofilter | 6",
+            "type": "vmess",
+            "server": "104.20.231.30",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1944,7 +1949,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "190.93.246.137"
+                    "Host": ""
                 }
             }
         },

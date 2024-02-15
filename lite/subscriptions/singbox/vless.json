@@ -141,7 +141,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 5",
                 "🇸🇬SG | vless | @VmessProtocol | 14",
                 "🇳🇱NL | vless | @DailyV2RY | 95",
-                "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🏳️XX | vless | @lrnbymaa | 6",
                 "🇳🇱NL | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
@@ -150,13 +150,13 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇩🇪DE | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇷CR | vless | @kingofilter | 7",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -205,7 +205,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 5",
                 "🇸🇬SG | vless | @VmessProtocol | 14",
                 "🇳🇱NL | vless | @DailyV2RY | 95",
-                "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🏳️XX | vless | @lrnbymaa | 6",
                 "🇳🇱NL | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
@@ -214,13 +214,13 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇩🇪DE | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇷CR | vless | @kingofilter | 7",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -1191,7 +1191,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 6",
+            "tag": "🏳️XX | vless | @lrnbymaa | 6",
             "type": "vless",
             "server": "donald.pydri.ir",
             "server_port": 8080,
@@ -1420,6 +1420,42 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "usa.mmdgogoli.top",
+            "server_port": 2096,
+            "uuid": "fafcd6a9-07b2-4185-a4e8-a2e5abf8035c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 0",
             "type": "vless",
             "server": "cargeek.ir",
@@ -1586,27 +1622,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vless | @kingofilter | 7",
-            "type": "vless",
-            "server": "190.93.246.137",
-            "server_port": 2082,
-            "uuid": "6fa72141-76ea-4f30-af46-1cd927159f05",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "190.93.246.137"
-                }
             }
         },
         {

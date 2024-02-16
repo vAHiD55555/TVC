@@ -110,6 +110,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+                "🇮🇷IR | vmess | @proxyymeliii | 20",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇨🇦CA | vmess | @proxystore11 | 6",
                 "🏳️XX | vmess | @Hope_Net | 17",
@@ -125,6 +126,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+                "🇮🇷IR | vmess | @proxyymeliii | 20",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇨🇦CA | vmess | @proxystore11 | 6",
                 "🏳️XX | vmess | @Hope_Net | 17",
@@ -254,6 +256,30 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vmess | @proxyymeliii | 20",
+            "type": "vmess",
+            "server": "svt63.iranvipnet.com",
+            "server_port": 11705,
+            "uuid": "36ace384-bb81-45e1-946d-81a59c10a493",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | vmess | @Cov2ray | 0",
             "type": "vmess",
             "server": "188.114.96.11",
@@ -316,7 +342,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "abaccba-abac-acab-badc-abbbccbaacca",
+            "uuid": "bbacaca-baca-abca-adbc-ccbabccbaaab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,

@@ -165,7 +165,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇸🇬SG | vmess | @forwardv2ray | 17",
+                "🏳️XX | vmess | @forwardv2ray | 10",
                 "🇨🇦CA | ss | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -244,7 +244,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇸🇬SG | vmess | @forwardv2ray | 17",
+                "🏳️XX | vmess | @forwardv2ray | 10",
                 "🇨🇦CA | ss | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1526,7 +1526,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "acabacb-abca-abac-dbca-abaacaccbcbb",
+            "uuid": "acacbba-bcaa-abac-dbac-aaccaaccbbbb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1719,11 +1719,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vmess | @forwardv2ray | 17",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 10",
             "type": "vmess",
-            "server": "207.148.127.143",
-            "server_port": 55361,
-            "uuid": "46c5f3db-1551-4a9c-f71b-c16e73e28d8e",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "abaacbc-bcaa-caab-bcad-cabacbacacbb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1733,13 +1733,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/UltraVpn",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {

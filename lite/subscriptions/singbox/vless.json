@@ -136,9 +136,10 @@
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 14",
+                "🇺🇸US | vless | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 5",
-                "🇨🇦CA | vless | @V2RayTz | 10",
+                "🇨🇦CA | vless | @V2RayTz | 12",
                 "🇨🇦CA | vless | @DailyV2RY | 88",
                 "🇨🇷CR | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 7",
@@ -147,11 +148,10 @@
                 "🇮🇷IR | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
-                "🇨🇦CA | vless | @Capoit | 1",
                 "🇩🇪DE | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 7",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇨🇳CN | vless | @mehrosaboran | 4",
+                "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇨🇦CA | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 10",
@@ -197,9 +197,10 @@
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 14",
+                "🇺🇸US | vless | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 5",
-                "🇨🇦CA | vless | @V2RayTz | 10",
+                "🇨🇦CA | vless | @V2RayTz | 12",
                 "🇨🇦CA | vless | @DailyV2RY | 88",
                 "🇨🇷CR | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 7",
@@ -208,11 +209,10 @@
                 "🇮🇷IR | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
-                "🇨🇦CA | vless | @Capoit | 1",
                 "🇩🇪DE | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 7",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇨🇳CN | vless | @mehrosaboran | 4",
+                "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇨🇦CA | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 10",
@@ -621,7 +621,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
-            "uuid": "909d3cb4-dd78-4545-c06e-68717d8317f1",
+            "uuid": "0f9dea5d-dbfc-4798-fb6d-86c63186c193",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1087,6 +1087,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | @proxyymeliii | 20",
+            "type": "vless",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 2087,
+            "uuid": "36e74ae5-be07-4035-a7bb-527f50a0fe88",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @MsV2ray | 14",
             "type": "vless",
             "server": "All.MsV2ray.online",
@@ -1122,11 +1153,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 10",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 12",
             "type": "vless",
-            "server": "172.64.80.150",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "server": "64.68.192.76",
+            "server_port": 8443,
+            "uuid": "VPNCUSTOMIZE-VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1136,7 +1167,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
+                "server_name": "vpncustomize2V2ray.xn--4oq36ed28d.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1146,9 +1177,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ws-@VPNCUSTOMIZE-@VPNCUSTOMIZE",
                 "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
+                    "Host": "vpncustomize2V2ray.xn--4oq36ed28d.org"
                 }
             }
         },
@@ -1366,27 +1397,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 1",
-            "type": "vless",
-            "server": "eli.ELiV2.top",
-            "server_port": 80,
-            "uuid": "aabc3ef9-6968-4311-81b8-8cd0414c1904",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/zahedan.eu.org\/",
-                "headers": {
-                    "Host": "eli.ELiV2.top"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @FreakConfig | 5",
             "type": "vless",
             "server": "49.13.149.114",
@@ -1475,7 +1485,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vless | @mehrosaboran | 4",
+            "tag": "🇨🇳CN | vless | @mehrosaboran | 9",
             "type": "vless",
             "server": "cdnv2.mrsitedesigner.store",
             "server_port": 2053,

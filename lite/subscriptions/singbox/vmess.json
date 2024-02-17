@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇷🇺RU | vmess | @DeamNet_Proxy | 18",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 7",
                 "🇳🇱NL | vmess | @V2rayng_Fast | 0",
                 "🏳️XX | vmess | @Hope_Net | 19",
@@ -123,7 +122,6 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇷🇺RU | vmess | @DeamNet_Proxy | 18",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 7",
                 "🇳🇱NL | vmess | @V2rayng_Fast | 0",
                 "🏳️XX | vmess | @Hope_Net | 19",
@@ -186,40 +184,6 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "185.221.160.163",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "worker-mute-bar-1719.nifotok993.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/afrhms16v.bestxray.buzz\/linkws",
-                "headers": {
-                    "Host": "worker-mute-bar-1719.nifotok993.workers.dev"
-                }
-            }
-        },
-        {
             "tag": "🇬🇧GB | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
             "server": "172.99.190.12",
@@ -265,7 +229,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "abcaabc-baca-baac-bcad-bbbacbacccaa",
+            "uuid": "abcbaac-caba-acab-dbca-cccaabbbacba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,

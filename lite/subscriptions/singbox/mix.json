@@ -125,12 +125,14 @@
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @v2logy | 12",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 34",
                 "🇫🇷FR | trojan | @PrivateVPNs | 17",
                 "🇨🇦CA | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇬🇧GB | ss | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vless | @prrofile_purple | 171",
                 "🇨🇦CA | vless | @UnlimitedDev | 4",
@@ -165,9 +167,9 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇩🇪DE | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 9",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇨🇷CR | vless | @mehrosaboran | 7",
+                "🇨🇷CR | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vmess | @kingofilter | 9",
@@ -206,12 +208,14 @@
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @v2logy | 12",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 34",
                 "🇫🇷FR | trojan | @PrivateVPNs | 17",
                 "🇨🇦CA | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇬🇧GB | ss | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vless | @prrofile_purple | 171",
                 "🇨🇦CA | vless | @UnlimitedDev | 4",
@@ -246,9 +250,9 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇩🇪DE | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 9",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇨🇷CR | vless | @mehrosaboran | 7",
+                "🇨🇷CR | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vmess | @kingofilter | 9",
@@ -363,7 +367,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "15.237.170.87",
+            "server": "13.36.60.170",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -801,6 +805,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "ip.1alphaomega.org",
+            "server_port": 2096,
+            "uuid": "b278c3ee-cc4a-4dd5-b79c-56423e962898",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fi.1alphaomega.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/wss8000",
+                "headers": {
+                    "Host": "fi.1alphaomega.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
             "type": "vless",
             "server": "CDN.user.com",
@@ -931,6 +966,16 @@
             }
         },
         {
+            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 19",
+            "type": "shadowsocks",
+            "server": "jseyu.arvancode.eu.org",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
             "server": "warp-sub.pages.dev",
@@ -1021,7 +1066,7 @@
             "type": "vless",
             "server": "join_bede.vmessorg.site",
             "server_port": 8880,
-            "uuid": "915b376b-234a-486c-9d76-856e53d269fd",
+            "uuid": "2455aaf2-6a46-4fe9-a699-fc50b5603687",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1526,7 +1571,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "abacacb-baac-baca-abdc-acaacbaccbbb",
+            "uuid": "caaacbb-bcaa-caba-bdac-bbcaccbbaaac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1784,35 +1829,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "104.18.202.209",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 9",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
             "server_port": 443,
-            "uuid": "c1091252-21d7-4b97-aeb3-240c120918bd",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dl.spikevpn.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@spikevpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @https_config_injector | 12",
@@ -1846,7 +1870,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @mehrosaboran | 7",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 8",
             "type": "vless",
             "server": "190.93.247.155",
             "server_port": 2083,

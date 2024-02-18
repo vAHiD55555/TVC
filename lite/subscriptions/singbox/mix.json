@@ -116,12 +116,12 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 21",
+                "🇨🇷CR | vless | @lightning6 | 21",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇫🇮FI | vless | @v2logy | 13",
                 "🏳️XX | vless | @V2rayCollector | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 18",
@@ -164,9 +164,9 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇺🇸US | vless | @flyv2ray | 9",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇨🇷CR | vless | @mehrosaboran | 13",
+                "🇨🇷CR | vless | @mehrosaboran | 14",
                 "🇨🇦CA | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🇸🇪SE | ss | @proxy_mtm | 0",
@@ -199,12 +199,12 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 21",
+                "🇨🇷CR | vless | @lightning6 | 21",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇫🇮FI | vless | @v2logy | 13",
                 "🏳️XX | vless | @V2rayCollector | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 18",
@@ -247,9 +247,9 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇺🇸US | vless | @flyv2ray | 9",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇨🇷CR | vless | @mehrosaboran | 13",
+                "🇨🇷CR | vless | @mehrosaboran | 14",
                 "🇨🇦CA | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🇸🇪SE | ss | @proxy_mtm | 0",
@@ -578,7 +578,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 21",
+            "tag": "🇨🇷CR | vless | @lightning6 | 21",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -721,13 +721,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
+            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
+            "type": "vmess",
             "server": "discord.com",
             "server_port": 443,
-            "uuid": "20bb38f0-aab8-49d1-8785-e0923eccbca6",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "b92a0371-737e-4083-a9d1-735a69b008f5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -735,7 +738,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "xxx.moshavere.group",
+                "server_name": "xxxx.moshavere.group",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -744,11 +747,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "storage_46896",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/images_46553",
+                "headers": {
+                    "Host": "xxxx.moshavere.group"
+                }
             }
         },
         {
@@ -1523,7 +1526,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "caacbba-abca-cbaa-bcda-acabcbcaacbb",
+            "uuid": "cabacba-baac-baac-adbc-abaaccbbbcac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1786,34 +1789,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "maz.maznet.cfd",
-            "server_port": 2083,
-            "uuid": "3818b1f5-c8d9-4180-9ff7-32c206bc9755",
+            "server": "104.26.14.148",
+            "server_port": 80,
+            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join20.maznet.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
-                "headers": {
-                    "Host": "join20.maznet.cfd"
-                }
             }
         },
         {
@@ -1848,7 +1834,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @mehrosaboran | 13",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 14",
             "type": "vless",
             "server": "www.tozedmodeon.store",
             "server_port": 2096,

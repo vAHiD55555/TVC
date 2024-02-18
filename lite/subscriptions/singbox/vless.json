@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | @NIM_VPN_ir | 6",
                 "🇳🇱NL | vless | @XsV2ray | 17",
                 "🇸🇪SE | vless | @VlessConfig | 16",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
@@ -117,7 +116,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 20",
+                "🇨🇷CR | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -132,7 +131,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 0",
                 "🇨🇦CA | vless | @v2rayngvpn | 19",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
-                "🇨🇦CA | vless | @ShadowProxy66 | 45",
+                "🇳🇱NL | vless | @ShadowProxy66 | 44",
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 17",
@@ -142,7 +141,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 100",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 7",
-                "🏳️XX | vless | @proxystore11 | 6",
+                "🏳️XX | vless | @proxystore11 | 8",
                 "🏳️XX | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 2",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 15",
@@ -171,7 +170,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | @NIM_VPN_ir | 6",
                 "🇳🇱NL | vless | @XsV2ray | 17",
                 "🇸🇪SE | vless | @VlessConfig | 16",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
@@ -182,7 +180,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 20",
+                "🇨🇷CR | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -197,7 +195,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 0",
                 "🇨🇦CA | vless | @v2rayngvpn | 19",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
-                "🇨🇦CA | vless | @ShadowProxy66 | 45",
+                "🇳🇱NL | vless | @ShadowProxy66 | 44",
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 17",
@@ -207,7 +205,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 100",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 7",
-                "🏳️XX | vless | @proxystore11 | 6",
+                "🏳️XX | vless | @proxystore11 | 8",
                 "🏳️XX | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 2",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 15",
@@ -252,20 +250,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | vless | @NIM_VPN_ir | 6",
-            "type": "vless",
-            "server": "ch1222.puzzlemobile.info",
-            "server_port": 33210,
-            "uuid": "e9cd3752-e21a-4a03-b8e3-683a0d7cec1e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇳🇱NL | vless | @XsV2ray | 17",
             "type": "vless",
             "server": "164.90.192.144",
@@ -289,7 +273,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "51.20.36.209",
+            "server": "51.21.112.95",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -546,7 +530,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 20",
+            "tag": "🇨🇷CR | vless | @lightning6 | 20",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -939,11 +923,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 45",
+            "tag": "🇳🇱NL | vless | @ShadowProxy66 | 44",
             "type": "vless",
-            "server": "104.16.32.40",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "server": "188.114.97.2",
+            "server_port": 80,
+            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -951,21 +935,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "baipiao406.stunning-bassoon.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "baipiao406.stunning-bassoon.pages.dev"
+                    "Host": "188.114.97.2"
                 }
             }
         },
@@ -1175,7 +1149,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @proxystore11 | 6",
+            "tag": "🏳️XX | vless | @proxystore11 | 8",
             "type": "vless",
             "server": "[2a01:4f9:c010:6fb9::2e]",
             "server_port": 443,

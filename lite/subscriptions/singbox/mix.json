@@ -130,7 +130,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 14",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇮🇳IN | vmess | @oneclickvpnkeys | 10",
@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇺🇸US | vless | @v2ray1_ng | 10",
-                "🇮🇷IR | vless | @vless_vmess | 5",
+                "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 93",
                 "🇨🇦CA | vless | @sinabigo | 2",
@@ -167,7 +167,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇺🇸US | ss | @forwardv2ray | 18",
+                "🇪🇸ES | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 14",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇮🇳IN | vmess | @oneclickvpnkeys | 10",
@@ -232,7 +232,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇺🇸US | vless | @v2ray1_ng | 10",
-                "🇮🇷IR | vless | @vless_vmess | 5",
+                "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 93",
                 "🇨🇦CA | vless | @sinabigo | 2",
@@ -252,7 +252,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇺🇸US | ss | @forwardv2ray | 18",
+                "🇪🇸ES | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -921,9 +921,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 14",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "15.237.79.99",
+            "server": "13.49.87.212",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1335,11 +1335,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @vless_vmess | 5",
+            "tag": "🇮🇷IR | vless | @vless_vmess | 4",
             "type": "vless",
-            "server": "l14.darklord.life",
+            "server": "l21.darklord.life",
             "server_port": 443,
-            "uuid": "05e56cd6-0247-d65a-71c1-9654d57562bb",
+            "uuid": "742d4a5a-27fc-ddba-76ae-ffa52ae2df03",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1813,14 +1813,18 @@
             }
         },
         {
-            "tag": "🇺🇸US | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "us5.dart-vpn.com",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Ms96ocgN4v7egLXx1wgw9J",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇪🇸ES | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "65.20.104.127",
+            "server_port": 48493,
+            "uuid": "4b1ca9d9-0088-4e56-a4cb-e5e77e9411ed",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @https_config_injector | 12",

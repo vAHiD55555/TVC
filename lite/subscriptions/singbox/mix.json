@@ -117,10 +117,10 @@
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇩🇪DE | vless | @ARv2ray | 10",
                 "🇺🇸US | vless | @shh_proxy | 19",
-                "🇨🇦CA | vless | @Lockey_vpn | 6",
+                "🇨🇦CA | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 23",
+                "🇺🇸US | vless | @lightning6 | 23",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇫🇮FI | vless | @v2logy | 12",
@@ -150,11 +150,11 @@
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 82",
+                "🇨🇦CA | vless | @DailyV2RY | 79",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vless | @proxystore11 | 5",
+                "🇨🇷CR | vless | @proxystore11 | 5",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 0",
                 "🏳️XX | vmess | @Hope_Net | 19",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 8",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -203,10 +203,10 @@
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇩🇪DE | vless | @ARv2ray | 10",
                 "🇺🇸US | vless | @shh_proxy | 19",
-                "🇨🇦CA | vless | @Lockey_vpn | 6",
+                "🇨🇦CA | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 23",
+                "🇺🇸US | vless | @lightning6 | 23",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇫🇮FI | vless | @v2logy | 12",
@@ -236,11 +236,11 @@
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 82",
+                "🇨🇦CA | vless | @DailyV2RY | 79",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vless | @proxystore11 | 5",
+                "🇨🇷CR | vless | @proxystore11 | 5",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 0",
                 "🏳️XX | vmess | @Hope_Net | 19",
@@ -254,7 +254,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 8",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -593,11 +593,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 6",
+            "tag": "🇨🇦CA | vless | @Lockey_vpn | 5",
             "type": "vless",
-            "server": "172.64.89.170",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "dd0a72c9-9030-441b-9622-e5dc9d409614",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -605,21 +605,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/http",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -676,7 +666,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 23",
+            "tag": "🇺🇸US | vless | @lightning6 | 23",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1431,11 +1421,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 82",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 79",
             "type": "vless",
-            "server": "ip.aminivip2023.site",
-            "server_port": 8443,
-            "uuid": "cc6fbc0c-9ab7-480c-b4c6-19a5ea74f056",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "e1df189a-91df-4200-d9c0-a6dca9b7e904",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1443,21 +1433,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ri.aminivip2023.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/V2zed",
+                "path": "\/",
                 "headers": {
-                    "Host": "ri.aminivip2023.site"
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -1514,7 +1494,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 5",
+            "tag": "🇨🇷CR | vless | @proxystore11 | 5",
             "type": "vless",
             "server": "mtn.adminwp.eu.org",
             "server_port": 2096,
@@ -1852,16 +1832,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "104.21.228.22",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 8",
+            "type": "vless",
+            "server": "104.21.224.8",
             "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "e28bb3f8-e64a-4419-9496-33c46220354b",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1869,9 +1846,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/youtube-由零開始",
                 "headers": {
-                    "Host": "104.21.228.22"
+                    "Host": "104.21.224.8"
                 }
             }
         },

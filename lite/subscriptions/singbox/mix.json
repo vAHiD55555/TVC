@@ -150,13 +150,13 @@
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 93",
-                "🇨🇦CA | vless | @sinabigo | 3",
+                "🇨🇦CA | vless | @sinabigo | 2",
                 "🏳️XX | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 8",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 11",
+                "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 2",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
@@ -167,7 +167,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇺🇸US | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -235,13 +235,13 @@
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 93",
-                "🇨🇦CA | vless | @sinabigo | 3",
+                "🇨🇦CA | vless | @sinabigo | 2",
                 "🏳️XX | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 8",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 11",
+                "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 2",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
@@ -252,7 +252,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇺🇸US | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -1401,11 +1401,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 3",
+            "tag": "🇨🇦CA | vless | @sinabigo | 2",
             "type": "vless",
-            "server": "172.67.163.103",
-            "server_port": 80,
-            "uuid": "aabd5f60-b4d3-46ef-8145-2b0cf8026a75",
+            "server": "104.16.32.40",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1413,11 +1413,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "baipiao406.stunning-bassoon.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "172.67.163.103"
+                    "Host": "baipiao406.stunning-bassoon.pages.dev"
                 }
             }
         },
@@ -1535,11 +1545,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 11",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "accabba-acba-acab-bcad-cbbcaacbabca",
+            "server": "104.16.77.74",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1549,6 +1559,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1796,25 +1813,14 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "185.233.13.157",
-            "server_port": 80,
-            "uuid": "2aa1ef7e-d8e9-4b7c-ea93-01e33872476c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/,Turk",
-                "headers": {
-                    "Host": "185.233.13.157"
-                }
-            }
+            "tag": "🇺🇸US | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "us5.dart-vpn.com",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Ms96ocgN4v7egLXx1wgw9J",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @https_config_injector | 12",

@@ -107,8 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇷🇺RU | ss | @proxy_mtm | 0",
-                "🇺🇸US | ss | @ROMAX_VPN | 5"
+                "🇺🇸US | ss | @forwardv2ray | 17",
+                "🇷🇺RU | ss | @proxy_mtm | 0"
             ]
         },
         {
@@ -116,8 +116,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇷🇺RU | ss | @proxy_mtm | 0",
-                "🇺🇸US | ss | @ROMAX_VPN | 5"
+                "🇺🇸US | ss | @forwardv2ray | 17",
+                "🇷🇺RU | ss | @proxy_mtm | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -150,22 +150,22 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇺🇸US | ss | @forwardv2ray | 17",
+            "type": "shadowsocks",
+            "server": "45.8.146.32",
+            "server_port": 50370,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4sZ69FNmAPosCBiD6MUryB",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇷🇺RU | ss | @proxy_mtm | 0",
             "type": "shadowsocks",
             "server": "109.107.189.185",
             "server_port": 17397,
             "method": "chacha20-ietf-poly1305",
             "password": "lrJVYHCiZA3VdRckEWQnSg",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | ss | @ROMAX_VPN | 5",
-            "type": "shadowsocks",
-            "server": "45.8.146.32",
-            "server_port": 50370,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4sZ69FNmAPosCBiD6MUryB",
             "plugin": "",
             "plugin_opts": ""
         }

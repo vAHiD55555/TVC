@@ -137,9 +137,8 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 36",
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇮🇷IR | vless | @proxyymeliii | 17",
+                "🇮🇷IR | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 14",
-                "🇺🇸US | vless | @v2ray1_ng | 10",
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
@@ -156,7 +155,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇨🇦CA | vless | @forwardv2ray | 8",
+                "🇨🇷CR | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -206,9 +205,8 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 36",
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇮🇷IR | vless | @proxyymeliii | 17",
+                "🇮🇷IR | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 14",
-                "🇺🇸US | vless | @v2ray1_ng | 10",
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇨🇷CR | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
@@ -225,7 +223,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇨🇦CA | vless | @forwardv2ray | 8",
+                "🇨🇷CR | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -1097,11 +1095,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 17",
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 19",
             "type": "vless",
-            "server": "www.ebrahim.cfd",
-            "server_port": 17224,
-            "uuid": "388eb643-73c9-433c-cc13-30012108dde0",
+            "server": "193.134.100.233",
+            "server_port": 443,
+            "uuid": "4d68a5be-30a6-43cc-a7f8-f49dca92ffb2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1129,20 +1127,6 @@
                 "headers": {
                     "Host": "All.MsV2ray.online"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @v2ray1_ng | 10",
-            "type": "vless",
-            "server": "141.101.113.110",
-            "server_port": 80,
-            "uuid": "aabc3ef9-6968-4311-81b8-8cd0414c1904",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1536,11 +1520,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 8",
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "104.21.224.8",
-            "server_port": 80,
-            "uuid": "e28bb3f8-e64a-4419-9496-33c46220354b",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "ce9ee8ce-ed32-4f25-b549-c9de110a3b3d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1548,12 +1532,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/youtube-由零開始",
-                "headers": {
-                    "Host": "104.21.224.8"
+            "tls": {
+                "enabled": true,
+                "server_name": "Punisher-V2rayCnc.radiotehran.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@puni_shop_v2rayNG،@puni_shop_v2rayNG",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

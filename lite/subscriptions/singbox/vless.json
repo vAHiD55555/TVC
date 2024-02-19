@@ -152,6 +152,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
+                "🇬🇧GB | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -218,6 +219,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
+                "🇬🇧GB | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -1484,6 +1486,27 @@
                 "path": "\/SvnTeam",
                 "headers": {
                     "Host": "95.179.216.171"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "91.193.58.2",
+            "server_port": 80,
+            "uuid": "5c5ebf80-4b8c-4541-b0e5-2d2ea9473f18",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ExpressVPN_420 \" @ExpressVPN_420",
+                "headers": {
+                    "Host": "91.193.58.2"
                 }
             }
         },

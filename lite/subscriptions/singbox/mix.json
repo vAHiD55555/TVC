@@ -129,10 +129,10 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 14",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🏳️XX | vless | @vmessorg | 6",
@@ -164,7 +164,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
-                "🇳🇱NL | vmess | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -212,10 +212,10 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 14",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🏳️XX | vless | @vmessorg | 6",
@@ -247,7 +247,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
-                "🇳🇱NL | vmess | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -907,9 +907,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 14",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "13.39.144.16",
+            "server": "13.48.179.241",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -963,10 +963,10 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
             "server": "warp-sub.pages.dev",
-            "server_port": 2083,
+            "server_port": 443,
             "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
             "security": "auto",
             "alter_id": 0,
@@ -1792,16 +1792,13 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "madn.madjelicc.com",
-            "server_port": 2083,
-            "uuid": "34dd99ed-77ba-4275-83bd-fe0cdf6fc23d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "91.193.58.2",
+            "server_port": 80,
+            "uuid": "5c5ebf80-4b8c-4541-b0e5-2d2ea9473f18",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1809,9 +1806,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@ExpressVPN_420 \" @ExpressVPN_420",
                 "headers": {
-                    "Host": ""
+                    "Host": "91.193.58.2"
                 }
             }
         },

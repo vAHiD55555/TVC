@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 79",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🏳️XX | vless | @lrnbymaa | 6",
-                "🏳️XX | vless | @proxystore11 | 9",
+                "🏳️XX | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 2",
                 "🏳️XX | vless | @Outlinev2rayNG | 15",
@@ -156,6 +156,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
+                "🇬🇧GB | vless | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -216,7 +217,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 79",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🏳️XX | vless | @lrnbymaa | 6",
-                "🏳️XX | vless | @proxystore11 | 9",
+                "🏳️XX | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 2",
                 "🏳️XX | vless | @Outlinev2rayNG | 15",
@@ -226,6 +227,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
+                "🇬🇧GB | vless | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -965,9 +967,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 18",
             "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 80,
-            "uuid": "22e4b21b-003e-4f47-bc54-8397cbe35b11",
+            "server": "104.21.74.214",
+            "server_port": 2095,
+            "uuid": "c9ec22e7-b467-42ed-bb85-cbb2631d29b8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -979,7 +981,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "shhproxy.varzesh3-cnd.site"
+                    "Host": "104.21.74.214"
                 }
             }
         },
@@ -1292,7 +1294,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @proxystore11 | 9",
+            "tag": "🏳️XX | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "[2a01:4f9:c010:6fb9::2e]",
             "server_port": 443,
@@ -1545,6 +1547,20 @@
                 "headers": {
                     "Host": "discord.gg"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 11",
+            "type": "vless",
+            "server": "78.141.193.246",
+            "server_port": 52898,
+            "uuid": "e4ec2e0e-2eb4-4ac1-b24d-1a8e2904a6bb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

@@ -133,7 +133,6 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 3",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 5",
-                "🇨🇦CA | vless | @ShadowProxy66 | 42",
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vless | @proxyymeliii | 18",
@@ -157,7 +156,7 @@
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
-                "🇨🇦CA | vless | @proxy_mtm | 12",
+                "🇨🇦CA | vless | @proxy_mtm | 13",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇫🇷FR | vless | @SvnTeam | 3",
@@ -200,7 +199,6 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 3",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 5",
-                "🇨🇦CA | vless | @ShadowProxy66 | 42",
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vless | @proxyymeliii | 18",
@@ -224,7 +222,7 @@
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
-                "🇨🇦CA | vless | @proxy_mtm | 12",
+                "🇨🇦CA | vless | @proxy_mtm | 13",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇫🇷FR | vless | @SvnTeam | 3",
@@ -997,37 +995,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 42",
-            "type": "vless",
-            "server": "104.25.255.25",
-            "server_port": 443,
-            "uuid": "b0080418-ecc7-4b21-a395-c1a057bc3f87",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xn--hgb3a0cs.irquran.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "xn--hgb3a0cs.irquran.shop"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @ServerNett | 16",
             "type": "vless",
             "server": "join344.numalla.top",
@@ -1635,7 +1602,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 12",
+            "tag": "🇨🇦CA | vless | @proxy_mtm | 13",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 8080,

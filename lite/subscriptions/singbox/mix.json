@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 19",
+                "🇺🇸US | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | trojan | @v2ray_swhil | 21",
+                "🇨🇦CA | vmess | @v2ray_swhil | 19",
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇫🇷FR | vless | @v2ray1_ng | 9",
@@ -170,7 +170,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🏳️XX | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 19",
+                "🇺🇸US | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -234,7 +234,7 @@
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | trojan | @v2ray_swhil | 21",
+                "🇨🇦CA | vmess | @v2ray_swhil | 19",
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇫🇷FR | vless | @v2ray1_ng | 9",
@@ -258,7 +258,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🏳️XX | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -672,7 +672,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 19",
+            "tag": "🇺🇸US | vless | @lightning6 | 19",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1326,11 +1326,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @v2ray_swhil | 21",
-            "type": "trojan",
-            "server": "hongkong.followerpanell.ir",
-            "server_port": 8443,
-            "password": "e40c26851093180",
+            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 19",
+            "type": "vmess",
+            "server": "vip2323.cfd",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1338,7 +1343,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hongkong.followerpanell.ir",
+                "server_name": "vip2323.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1347,11 +1352,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "162.159.1.94",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "vip2323.cfd"
+                }
             }
         },
         {
@@ -1452,7 +1457,7 @@
         {
             "tag": "🇨🇷CR | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "190.93.246.241",
+            "server": "190.93.247.155",
             "server_port": 2083,
             "uuid": "ea1d5678-5aec-4b8d-c0df-24b602efff8c",
             "flow": "",
@@ -1464,7 +1469,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "liV2rayf.xn--mgbg0fka44dhgc.com",
+                "server_name": "liV2raye.xn--mgbg0fka44dhgc.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1919,17 +1924,34 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "best1.channeltest.site",
-            "server_port": 11641,
-            "uuid": "2f0d929a-5dc0-4fe6-a0fc-44a251045832",
+            "server": "104.21.38.247",
+            "server_port": 2053,
+            "uuid": "cf7d8d2e-f812-4c1c-aae1-385f4f591b6d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "j00in.golestan-vpn.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws",
+                "headers": {
+                    "Host": "j00in.golestan-vpn.link"
+                }
             }
         },
         {

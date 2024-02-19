@@ -135,7 +135,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
-                "🏳️XX | vless | @vmessorg | 6",
+                "🏳️XX | vless | @vmessorg | 7",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 3",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 5",
@@ -164,7 +164,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
-                "🇬🇧GB | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -218,7 +218,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
-                "🏳️XX | vless | @vmessorg | 6",
+                "🏳️XX | vless | @vmessorg | 7",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 3",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 5",
@@ -247,7 +247,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
-                "🇬🇧GB | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -1032,7 +1032,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @vmessorg | 6",
+            "tag": "🏳️XX | vless | @vmessorg | 7",
             "type": "vless",
             "server": "join_bede.vmessorg.site",
             "server_port": 8880,
@@ -1792,13 +1792,16 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "91.193.58.2",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "cfcdn3.sanfencdn9.com",
             "server_port": 80,
-            "uuid": "5c5ebf80-4b8c-4541-b0e5-2d2ea9473f18",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1806,9 +1809,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ExpressVPN_420 \" @ExpressVPN_420",
+                "path": "\/video\/ibCT6z55",
                 "headers": {
-                    "Host": "91.193.58.2"
+                    "Host": "cfcdn3.sanfencdn9.com"
                 }
             }
         },

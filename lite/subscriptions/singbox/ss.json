@@ -106,9 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 19",
+                "🇫🇷FR | ss | @DeamNet_Proxy | 19",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇹🇷TR | ss | @forwardv2ray | 16",
                 "🇬🇧GB | ss | @kingofilter | 4",
                 "🏳️XX | ss | @ROMAX_VPN | 6"
             ]
@@ -117,9 +116,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @DeamNet_Proxy | 19",
+                "🇫🇷FR | ss | @DeamNet_Proxy | 19",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇹🇷TR | ss | @forwardv2ray | 16",
                 "🇬🇧GB | ss | @kingofilter | 4",
                 "🏳️XX | ss | @ROMAX_VPN | 6"
             ],
@@ -144,12 +142,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 19",
+            "tag": "🇫🇷FR | ss | @DeamNet_Proxy | 19",
             "type": "shadowsocks",
-            "server": "46.250.237.91",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "EaD2XSJgkVNjZsrrqelQ1s",
+            "server": "149.202.82.172",
+            "server_port": 2376,
+            "method": "aes-256-gcm",
+            "password": "faBAoD54k87UJG7",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -160,16 +158,6 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇹🇷TR | ss | @forwardv2ray | 16",
-            "type": "shadowsocks",
-            "server": "62.133.63.205",
-            "server_port": 5614,
-            "method": "chacha20-ietf-poly1305",
-            "password": "3--VIGPSL7RrGE5KkA-9Sg",
             "plugin": "",
             "plugin_opts": ""
         },

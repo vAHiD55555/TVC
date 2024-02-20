@@ -151,7 +151,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇺🇸US | vless | @mehrosaboran | 22",
                 "🏳️XX | vless | @kiava | 5",
@@ -216,7 +216,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇺🇸US | vless | @mehrosaboran | 22",
                 "🏳️XX | vless | @kiava | 5",
@@ -1445,11 +1445,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "www.unpkg.com",
-            "server_port": 2052,
-            "uuid": "24c97e9f-22e1-4369-a730-fccb5051df56",
+            "server": "18.157.215.92",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1457,11 +1457,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
-                    "Host": "www.unpkg.com"
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },

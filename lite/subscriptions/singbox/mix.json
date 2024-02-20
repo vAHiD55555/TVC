@@ -119,7 +119,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 20",
+                "🇺🇸US | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -164,7 +164,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 14",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🏳️XX | vless | @kiava | 5",
@@ -202,7 +202,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 20",
+                "🇺🇸US | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -247,7 +247,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 14",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🏳️XX | vless | @kiava | 5",
@@ -659,7 +659,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 20",
+            "tag": "🇺🇸US | vless | @lightning6 | 20",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1803,13 +1803,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 14",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Parsashonam-3",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 2095,
+            "uuid": "5a9fe287-8d3a-4ed7-b47e-143a46c3bf0e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1819,7 +1822,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": ""
                 }
             }
         },

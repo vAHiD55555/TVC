@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 41",
-                "🇨🇦CA | vless | @prrofile_purple | 169",
+                "🇩🇪DE | vless | @prrofile_purple | 168",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🏳️XX | vless | @vmessorg | 7",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 3",
@@ -148,7 +148,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🏳️XX | vless | @FreakConfig | 3",
-                "🇫🇷FR | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇷CR | vless | @mehrosaboran | 17",
                 "🏳️XX | vless | @kiava | 5",
@@ -186,7 +186,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 41",
-                "🇨🇦CA | vless | @prrofile_purple | 169",
+                "🇩🇪DE | vless | @prrofile_purple | 168",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🏳️XX | vless | @vmessorg | 7",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 3",
@@ -210,7 +210,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🏳️XX | vless | @FreakConfig | 3",
-                "🇫🇷FR | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇷CR | vless | @mehrosaboran | 17",
                 "🏳️XX | vless | @kiava | 5",
@@ -762,24 +762,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 169",
+            "tag": "🇩🇪DE | vless | @prrofile_purple | 168",
             "type": "vless",
-            "server": "mtn.VPNPROSEC.com",
-            "server_port": 8080,
-            "uuid": "SVNTEAMe",
+            "server": "217.114.212.18",
+            "server_port": 47700,
+            "uuid": "c788162a-9748-41a9-bd7c-8e6af706b78a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mtn.VPNPROSEC.com"
-                }
             }
         },
         {
@@ -1395,12 +1388,12 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @forwardv2ray | 19",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "95.179.217.33",
-            "server_port": 45712,
-            "uuid": "69a75a84-31ab-46c4-8e42-fc4c6d320ba1",
-            "flow": "xtls-rprx-vision",
+            "server": "LIGHTNING6-joinbede.liV2ray.xyz",
+            "server_port": 2083,
+            "uuid": "52a2cc13-998a-4e8d-ab0b-c7dc4f84666f",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1409,18 +1402,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.discordapp.com",
+                "server_name": "LIGHTNING6-joinbede.liV2ray.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RsbT8HImgysmMNJaDi3x4yyrUdWpfk3EJEDVYQPvZRw",
-                    "short_id": "d55861e7"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@LIGHTNING6,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

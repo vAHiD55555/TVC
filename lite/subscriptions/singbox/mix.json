@@ -113,7 +113,6 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 10",
-                "🇨🇦CA | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
@@ -126,7 +125,7 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 39",
-                "🇩🇪DE | trojan | @PrivateVPNs | 18",
+                "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
@@ -152,7 +151,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🏳️XX | vless | @lrnbymaa | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @proxystore11 | 15",
+                "🏳️XX | vless | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 8",
@@ -164,7 +163,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🏳️XX | vless | @FreakConfig | 3",
                 "🇬🇧GB | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 12",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 21",
                 "🏳️XX | vless | @kiava | 5",
@@ -197,7 +196,6 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 10",
-                "🇨🇦CA | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
@@ -210,7 +208,7 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 39",
-                "🇩🇪DE | trojan | @PrivateVPNs | 18",
+                "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
@@ -236,7 +234,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🏳️XX | vless | @lrnbymaa | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @proxystore11 | 15",
+                "🏳️XX | vless | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 8",
@@ -248,7 +246,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🏳️XX | vless | @FreakConfig | 3",
                 "🇬🇧GB | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 12",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 21",
                 "🏳️XX | vless | @kiava | 5",
@@ -497,37 +495,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @shh_proxy | 24",
-            "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 2087,
-            "uuid": "8720e7ef-bd66-4ccd-90a2-ec6b83a53295",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org"
-                }
             }
         },
         {
@@ -856,9 +823,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 18",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "3.66.37.185",
+            "server": "13.37.72.69",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1379,9 +1346,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 13",
             "type": "vless",
-            "server": "162.159.136.234",
-            "server_port": 8080,
-            "uuid": "b0080196-b98e-4d17-ae14-86cd1693234d",
+            "server": "104.21.20.148",
+            "server_port": 8880,
+            "uuid": "f451c7bd-83e4-44a9-8c5a-809ca9df12b2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1391,9 +1358,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/join--ServerNett--ServerNett?ed=1048",
+                "path": "\/Telegram:@UnlimitedDev?ed",
                 "headers": {
-                    "Host": "162.159.136.234"
+                    "Host": "104.21.20.148"
                 }
             }
         },
@@ -1505,34 +1472,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 15",
+            "tag": "🏳️XX | vless | @proxystore11 | 15",
             "type": "vless",
-            "server": "discord.com",
-            "server_port": 8443,
-            "uuid": "f809b3f9-b973-4a6b-8dcf-284ec29eec06",
+            "server": "[2a03:b0c0:2:d0::b7c:e001]",
+            "server_port": 15317,
+            "uuid": "f932c50c-f36f-4cd5-8fcd-cbf92f8d3b66",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Proxystore11",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1829,23 +1779,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 12",
             "type": "vless",
-            "server": "Discord.gg",
-            "server_port": 8080,
-            "uuid": "SVNTEAM",
-            "flow": "",
+            "server": "51.195.148.69",
+            "server_port": 6639,
+            "uuid": "02e490ca-6a99-4bf8-ba42-15cca3f20e6e",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/SVNTEAM-SVNTEAM?ed=1048",
-                "headers": {
-                    "Host": "Discord.gg"
+            "tls": {
+                "enabled": true,
+                "server_name": "presshill.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lA6wn3tUYgfJZkRzS29e1hJo38UXrL5ko6v6oQFIzB0",
+                    "short_id": "62f886757cb2e45e"
                 }
             }
         },

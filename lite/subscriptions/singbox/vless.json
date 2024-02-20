@@ -139,7 +139,7 @@
                 "🇫🇷FR | vless | @v2ray1_ng | 10",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇬🇧GB | vless | @V2RayTz | 17",
-                "🇨🇦CA | vless | @DailyV2RY | 68",
+                "🏳️XX | vless | @DailyV2RY | 68",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🏳️XX | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 12",
@@ -150,7 +150,6 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 7",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -204,7 +203,7 @@
                 "🇫🇷FR | vless | @v2ray1_ng | 10",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇬🇧GB | vless | @V2RayTz | 17",
-                "🇨🇦CA | vless | @DailyV2RY | 68",
+                "🏳️XX | vless | @DailyV2RY | 68",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🏳️XX | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @proxystore11 | 12",
@@ -215,7 +214,6 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 7",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -1140,7 +1138,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 68",
+            "tag": "🏳️XX | vless | @DailyV2RY | 68",
             "type": "vless",
             "server": "cdn.dobarhost.ir",
             "server_port": 2086,
@@ -1430,27 +1428,6 @@
                 "path": "\/?ed",
                 "headers": {
                     "Host": "w1.sylar8.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 7",
-            "type": "vless",
-            "server": "162.159.136.234",
-            "server_port": 8880,
-            "uuid": "9f16b25d-a769-434f-9350-04683a78bff3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/join--ServerNett--ServerNett?ed=1048",
-                "headers": {
-                    "Host": "162.159.136.234"
                 }
             }
         },

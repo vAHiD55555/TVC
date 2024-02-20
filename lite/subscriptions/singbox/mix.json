@@ -127,7 +127,7 @@
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🏳️XX | ss | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 37",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -149,7 +149,7 @@
                 "🇫🇷FR | vless | @v2ray1_ng | 10",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇬🇧GB | vless | @V2RayTz | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 68",
+                "🏳️XX | vless | @DailyV2RY | 68",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🏳️XX | vless | @lrnbymaa | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -165,7 +165,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
-                "🇮🇷IR | vless | @forwardv2ray | 17",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -211,7 +211,7 @@
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🏳️XX | ss | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 37",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -233,7 +233,7 @@
                 "🇫🇷FR | vless | @v2ray1_ng | 10",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇬🇧GB | vless | @V2RayTz | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 68",
+                "🏳️XX | vless | @DailyV2RY | 68",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🏳️XX | vless | @lrnbymaa | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -249,7 +249,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
-                "🇮🇷IR | vless | @forwardv2ray | 17",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -856,7 +856,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 37",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 37",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1419,7 +1419,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 68",
+            "tag": "🏳️XX | vless | @DailyV2RY | 68",
             "type": "vless",
             "server": "cdn.dobarhost.ir",
             "server_port": 2086,
@@ -1826,17 +1826,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 17",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "lion.vpn.anubisservice.net",
-            "server_port": 43880,
-            "uuid": "94a8ac6d-e51a-453c-9329-37ca34c395cb",
+            "server": "190.93.245.137",
+            "server_port": 2087,
+            "uuid": "987b4e0f-1761-45aa-80f6-3e74046b4918",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org"
+                }
             }
         },
         {

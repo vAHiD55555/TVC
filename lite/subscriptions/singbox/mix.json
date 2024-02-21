@@ -152,17 +152,16 @@
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 3",
-                "🇨🇦CA | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 3",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vless | @Capoit | 1",
+                "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🏳️XX | vless | @https_config_injector | 9",
-                "🇺🇸US | vless | @mehrosaboran | 22",
+                "🇨🇷CR | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -230,17 +229,16 @@
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @free1_vpn | 3",
-                "🇨🇦CA | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 3",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vless | @Capoit | 1",
+                "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🏳️XX | vless | @https_config_injector | 9",
-                "🇺🇸US | vless | @mehrosaboran | 22",
+                "🇨🇷CR | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1466,37 +1464,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 7",
-            "type": "vless",
-            "server": "104.22.51.162",
-            "server_port": 443,
-            "uuid": "8b5fcc34-698b-45fe-9499-87da75257a08",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kamy.CaUmaz.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Fnet00",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @polproxy | 3",
             "type": "vless",
             "server": "104.16.32.40",
@@ -1623,11 +1590,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 1",
+            "tag": "🇨🇦CA | vless | @Capoit | 3",
             "type": "vless",
-            "server": "104.24.0.11",
-            "server_port": 2083,
-            "uuid": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
+            "server": "104.18.202.209",
+            "server_port": 443,
+            "uuid": "90cd4a77-141a-43c9-991b-08263cfe9c10",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1637,7 +1604,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "guq22.oXNETWoRks.liNK",
+                "server_name": "cmliu-edgetunnel.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1647,9 +1614,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless-ws\/",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "guq22.oXNETWoRks.liNK"
+                    "Host": "cmliu-edgetunnel.pages.dev"
                 }
             }
         },
@@ -1675,11 +1642,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
             "type": "vless",
-            "server": "18.157.215.92",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "server": "104.18.16.149",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1689,7 +1656,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "server_name": "always-online1.lp-airdrop.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1699,9 +1666,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
@@ -1720,9 +1687,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 22",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 25",
             "type": "vless",
-            "server": "69.84.182.0",
+            "server": "190.93.246.241",
             "server_port": 2083,
             "uuid": "2ea77325-b4e3-454d-ab8d-b301c9a1ee2f",
             "flow": "",
@@ -1734,7 +1701,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "69.84.182.0",
+                "server_name": "190.93.246.241",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {

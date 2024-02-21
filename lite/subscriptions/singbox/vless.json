@@ -144,12 +144,13 @@
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 2",
-                "🇨🇦CA | vless | @polproxy | 3",
+                "🇨🇦CA | vless | @polproxy | 4",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 29",
@@ -209,12 +210,13 @@
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 2",
-                "🇨🇦CA | vless | @polproxy | 3",
+                "🇨🇦CA | vless | @polproxy | 4",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 29",
@@ -1084,9 +1086,9 @@
         {
             "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "190.93.246.225",
-            "server_port": 2083,
-            "uuid": "a3e4f3c3-84ac-4f1d-f022-b775c1874c3e",
+            "server": "190.93.247.155",
+            "server_port": 8880,
+            "uuid": "fddc172c-c28b-4fbd-b5e4-d163f1959b0d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1094,22 +1096,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "liV2rayb.xn--mgbg0fka44dhgc.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6, @LIGHTNING6",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "headers": {
+                    "Host": "190.93.247.155"
+                }
             }
         },
         {
@@ -1284,7 +1276,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @polproxy | 3",
+            "tag": "🇨🇦CA | vless | @polproxy | 4",
             "type": "vless",
             "server": "104.16.32.40",
             "server_port": 2087,
@@ -1444,6 +1436,27 @@
                 "path": "\/@Vpn_Gaming,@Vpn_Gaming,@Vpn_Gaming",
                 "headers": {
                     "Host": "free.jd-vpn.shop"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "SVNTEAMs",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SVNTEAM?ed",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },

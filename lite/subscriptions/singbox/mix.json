@@ -121,10 +121,11 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
+                "🇨🇦CA | vless | @v2logy | 9",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 38",
+                "🇨🇷CR | vless | @V2rayNGn | 38",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -168,7 +169,7 @@
                 "🇺🇸US | vless | @mehrosaboran | 34",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
-                "🇷🇺RU | ss | @proxy_mtm | 6",
+                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | ss | @kingofilter | 5",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -203,10 +204,11 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
+                "🇨🇦CA | vless | @v2logy | 9",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 38",
+                "🇨🇷CR | vless | @V2rayNGn | 38",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -250,7 +252,7 @@
                 "🇺🇸US | vless | @mehrosaboran | 34",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
-                "🇷🇺RU | ss | @proxy_mtm | 6",
+                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | ss | @kingofilter | 5",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -694,6 +696,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2logy | 9",
+            "type": "vless",
+            "server": "172.67.170.103",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
             "tag": "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
             "type": "vless",
             "server": "51.195.148.69",
@@ -775,7 +808,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 38",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 38",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1749,9 +1782,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "104.18.16.149",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1759,11 +1792,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "always-online1.lp-airdrop.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
@@ -1834,7 +1877,7 @@
             "type": "vless",
             "server": "198.41.202.5",
             "server_port": 2083,
-            "uuid": "242a9daf-b8aa-4b6e-f636-fba22a2f5324",
+            "uuid": "df5c5b57-3be9-4831-a3f7-7ac4b13a84e5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1913,14 +1956,25 @@
             }
         },
         {
-            "tag": "🇷🇺RU | ss | @proxy_mtm | 6",
-            "type": "shadowsocks",
-            "server": "176.32.39.154",
-            "server_port": 64726,
-            "method": "chacha20-ietf-poly1305",
-            "password": "leobXyVllD7ASdCGRhX6V2",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @proxy_mtm | 2",
+            "type": "vless",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "b6b1702a-5a9c-4255-853a-ceb6cbca6c66",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm,Telegram:@proxy_mtm",
+                "headers": {
+                    "Host": "discord.gg"
+                }
+            }
         },
         {
             "tag": "🏳️XX | vless | @vpn_go67 | 23",

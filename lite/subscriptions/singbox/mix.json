@@ -117,11 +117,12 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 2",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 9",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
@@ -131,7 +132,6 @@
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇩🇪DE | ss | @DeamNet_Proxy | 17",
                 "🇦🇪AE | vmess | @oneclickvpnkeys | 11",
                 "🇫🇮FI | vless | @prrofile_purple | 179",
                 "🇬🇧GB | vless | @customv2ray | 10",
@@ -164,7 +164,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇹🇼TW | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 29",
@@ -201,11 +201,12 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 2",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 9",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
@@ -215,7 +216,6 @@
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇩🇪DE | ss | @DeamNet_Proxy | 17",
                 "🇦🇪AE | vmess | @oneclickvpnkeys | 11",
                 "🇫🇮FI | vless | @prrofile_purple | 179",
                 "🇬🇧GB | vless | @customv2ray | 10",
@@ -248,7 +248,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇹🇼TW | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 29",
@@ -584,7 +584,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 23",
+            "tag": "🇨🇷CR | vless | @lightning6 | 23",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -709,6 +709,37 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 2",
+            "type": "vless",
+            "server": "telegram-falcunargo.falcunar.uk.eu.org",
+            "server_port": 8443,
+            "uuid": "041f479a-63f5-4af1-a492-8cbff5797b8a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo.falcunar.uk.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "telegram-falcunargo.falcunar.uk.eu.org"
+                }
             }
         },
         {
@@ -931,16 +962,6 @@
                 "protocol": "smux",
                 "max_streams": 32
             }
-        },
-        {
-            "tag": "🇩🇪DE | ss | @DeamNet_Proxy | 17",
-            "type": "shadowsocks",
-            "server": "145.239.1.100",
-            "server_port": 8009,
-            "method": "aes-256-gcm",
-            "password": "XKFKl2rULjIp74",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇦🇪AE | vmess | @oneclickvpnkeys | 11",
@@ -1776,13 +1797,16 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "192.248.190.48",
-            "server_port": 8080,
-            "uuid": "2582908c-83ad-4ca2-a305-6b6856e836ae",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇹🇼TW | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "nb24.ntbq.dynu.net",
+            "server_port": 4443,
+            "uuid": "1cc969d3-1df8-4794-a5cc-9231fe0e4710",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",

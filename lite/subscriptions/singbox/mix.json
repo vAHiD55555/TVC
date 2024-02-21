@@ -127,12 +127,11 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 38",
+                "🇺🇸US | vless | @V2rayNGn | 38",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 14",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇦🇪AE | vmess | @oneclickvpnkeys | 11",
                 "🇫🇮FI | vless | @prrofile_purple | 179",
                 "🇬🇧GB | vless | @customv2ray | 10",
@@ -165,7 +164,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇳🇱NL | vmess | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 29",
@@ -212,12 +211,11 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 38",
+                "🇺🇸US | vless | @V2rayNGn | 38",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 14",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇦🇪AE | vmess | @oneclickvpnkeys | 11",
                 "🇫🇮FI | vless | @prrofile_purple | 179",
                 "🇬🇧GB | vless | @customv2ray | 10",
@@ -250,7 +248,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇳🇱NL | vmess | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 29",
@@ -857,7 +855,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 38",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 38",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -910,9 +908,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 14",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "13.38.181.185",
+            "server": "51.21.97.28",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -963,40 +961,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "gov.uk",
-            "server_port": 443,
-            "uuid": "77848824-93b7-4b89-ffd0-e91afff406ce",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gov.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/77848824",
-                "headers": {
-                    "Host": "gov.uk"
-                }
             }
         },
         {
@@ -1833,36 +1797,23 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 15",
-            "type": "vmess",
-            "server": "142.93.130.99",
-            "server_port": 443,
-            "uuid": "f0aec29d-9f86-4887-88d5-11a69044ec42",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "Parsashonam-4",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "www.speedtest.net"
                 }
             }
         },

@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @v2logy | 10",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 39",
+                "🇺🇸US | vless | @V2rayNGn | 39",
                 "🇩🇪DE | vless | @prrofile_purple | 178",
                 "🇬🇧GB | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
@@ -137,9 +137,9 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇮🇷IR | vless | @vless_vmess | 3",
+                "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 99",
+                "🏳️XX | vless | @DailyV2RY | 102",
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 3",
@@ -186,7 +186,7 @@
                 "🇨🇦CA | vless | @v2logy | 10",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 39",
+                "🇺🇸US | vless | @V2rayNGn | 39",
                 "🇩🇪DE | vless | @prrofile_purple | 178",
                 "🇬🇧GB | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
@@ -199,9 +199,9 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇮🇷IR | vless | @vless_vmess | 3",
+                "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 99",
+                "🏳️XX | vless | @DailyV2RY | 102",
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 3",
@@ -762,7 +762,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 39",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 39",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1078,11 +1078,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @vless_vmess | 3",
+            "tag": "🇮🇷IR | vless | @vless_vmess | 2",
             "type": "vless",
-            "server": "l21.darklord.life",
+            "server": "z2.darklord.life",
             "server_port": 443,
-            "uuid": "a81bb96d-39c9-6220-0c5b-9fa3db53d809",
+            "uuid": "1cc913d3-fa5c-f2d6-d199-3793aa8d6837",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1123,34 +1123,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 99",
+            "tag": "🏳️XX | vless | @DailyV2RY | 102",
             "type": "vless",
-            "server": "medium.com",
-            "server_port": 443,
-            "uuid": "01cd3584-e311-4acb-c04c-d706f53486f1",
+            "server": "[2a01:4f9:c011:8b23::1]",
+            "server_port": 38818,
+            "uuid": "79369fa6-626c-4c42-a180-d4e399dce3b2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sdfsdtryh.bestmoonlive.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "sdfsdtryh.bestmoonlive.com"
-                }
             }
         },
         {
@@ -1177,7 +1160,7 @@
         {
             "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
-            "server": "172.67.183.26",
+            "server": "172.67.182.110",
             "server_port": 443,
             "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
@@ -1199,7 +1182,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
                 }
@@ -1355,9 +1338,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Parsashonam-3",
+            "server": "104.18.203.232",
+            "server_port": 443,
+            "uuid": "8d3b0538-feb1-4f62-895e-e44b85ccdecf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1365,12 +1348,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "www.speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "tel.ArV2ray.host",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

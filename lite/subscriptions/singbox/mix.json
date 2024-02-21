@@ -122,7 +122,6 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 2",
-                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 9",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
@@ -164,7 +163,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 29",
@@ -172,7 +171,6 @@
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇬🇧GB | ss | @kingofilter | 5",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇫🇷FR | vless | @SvnTeam | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
@@ -206,7 +204,6 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 2",
-                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 9",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
@@ -248,7 +245,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 29",
@@ -256,7 +253,6 @@
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇬🇧GB | ss | @kingofilter | 5",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇫🇷FR | vless | @SvnTeam | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
@@ -709,37 +705,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 2",
-            "type": "vless",
-            "server": "telegram-falcunargo.falcunar.uk.eu.org",
-            "server_port": 8443,
-            "uuid": "041f479a-63f5-4af1-a492-8cbff5797b8a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-falcunargo.falcunar.uk.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "telegram-falcunargo.falcunar.uk.eu.org"
-                }
             }
         },
         {
@@ -1797,25 +1762,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Parsashonam-4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "51.11.104.69",
+            "server_port": 16550,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qFqqKf78FuMHnBqoxeWz4R",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 0",
@@ -2018,16 +1972,6 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
-        },
-        {
-            "tag": "🇬🇧GB | ss | @kingofilter | 5",
-            "type": "shadowsocks",
-            "server": "51.11.104.69",
-            "server_port": 16550,
-            "method": "chacha20-ietf-poly1305",
-            "password": "qFqqKf78FuMHnBqoxeWz4R",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇬🇧GB | vless | @freeconfigv2 | 14",

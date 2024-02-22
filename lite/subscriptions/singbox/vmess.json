@@ -112,10 +112,8 @@
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 33",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
-                "🇨🇦CA | vmess | @DailyV2RY | 102",
                 "🇺🇸US | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
         },
@@ -129,10 +127,8 @@
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 33",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
-                "🇨🇦CA | vmess | @DailyV2RY | 102",
                 "🇺🇸US | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -306,40 +302,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DailyV2RY | 102",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @yaney_01 | 7",
             "type": "vmess",
             "server": "104.248.223.120",
@@ -385,30 +347,6 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "18.157.74.57",
-            "server_port": 8080,
-            "uuid": "ebc094d7-efda-48fc-bc8f-32292a3e2742",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "kiava",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

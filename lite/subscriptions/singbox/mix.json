@@ -125,9 +125,8 @@
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 9",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 38",
+                "🇨🇷CR | vless | @V2rayNGn | 38",
                 "🇬🇧GB | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -150,7 +149,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vmess | @DailyV2RY | 102",
+                "🇨🇷CR | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -158,12 +157,12 @@
                 "🇺🇸US | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 4",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 13",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 28",
@@ -208,9 +207,8 @@
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 9",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 38",
+                "🇨🇷CR | vless | @V2rayNGn | 38",
                 "🇬🇧GB | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -233,7 +231,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vmess | @DailyV2RY | 102",
+                "🇨🇷CR | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -241,12 +239,12 @@
                 "🇺🇸US | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 4",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 13",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 28",
@@ -801,37 +799,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
-            "type": "vless",
-            "server": "172.67.68.191",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "baipiao343.stunning-bassoon.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@SINABIGO\/",
-                "headers": {
-                    "Host": "baipiao343.stunning-bassoon.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
             "type": "vless",
             "server": "CDN.user.com",
@@ -853,7 +820,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 38",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 38",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1438,36 +1405,23 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DailyV2RY | 102",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇷CR | vless | @DailyV2RY | 107",
+            "type": "vless",
+            "server": "www.legendaryking.link",
+            "server_port": 8080,
+            "uuid": "b54ae54c-4c54-4bf0-923c-6330cd7a163b",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "www.legendaryking.link"
                 }
             }
         },
@@ -1651,11 +1605,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @Outlinev2rayNG | 13",
+            "tag": "🇳🇱NL | vless | @Outlinev2rayNG | 12",
             "type": "vless",
-            "server": "85.9.105.53",
-            "server_port": 1010,
-            "uuid": "6aff1619-a0e3-4ef4-9238-058761764ce5",
+            "server": "95.179.158.232",
+            "server_port": 15163,
+            "uuid": "4c43ae02-8ac7-4532-967c-390908200ed0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1770,27 +1724,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "18.157.74.57",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "joinbede3.vmessorg.site",
             "server_port": 8080,
-            "uuid": "ebc094d7-efda-48fc-bc8f-32292a3e2742",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "22ea866c-3b37-4928-a2cd-9597d19a2c6f",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "kiava",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg",
+                "headers": {
+                    "Host": "joinbede3.vmessorg.site"
+                }
             }
         },
         {

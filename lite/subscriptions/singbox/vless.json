@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇫🇷FR | vless | @NIM_VPN_ir | 4",
-                "🇬🇧GB | vless | @VlessConfig | 18",
+                "🇮🇪IE | vless | @VlessConfig | 18",
                 "🏳️XX | vless | @VPNCUSTOMIZE | 3",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇨🇦CA | vless | @forwardv2ray | 3",
+                "🇳🇱NL | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 24",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -172,7 +172,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇫🇷FR | vless | @NIM_VPN_ir | 4",
-                "🇬🇧GB | vless | @VlessConfig | 18",
+                "🇮🇪IE | vless | @VlessConfig | 18",
                 "🏳️XX | vless | @VPNCUSTOMIZE | 3",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -214,7 +214,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇨🇦CA | vless | @forwardv2ray | 3",
+                "🇳🇱NL | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 24",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -300,9 +300,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @VlessConfig | 18",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.132.82.191",
+            "server": "54.73.237.250",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1129,7 +1129,7 @@
             "type": "vless",
             "server": "162.159.134.234",
             "server_port": 80,
-            "uuid": "bb7fbefa-e8d8-4b59-b89f-efca9e9fbdbb",
+            "uuid": "b6b1702a-5a9c-4255-853a-ceb6cbca6c66",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1434,24 +1434,39 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 3",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "813095d6-07d1-41e8-addd-6f0504d5ed51",
-            "flow": "",
+            "server": "165.232.94.24",
+            "server_port": 443,
+            "uuid": "db342b2e-c973-4e58-870b-1c68d1370bfe",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "discord.gg"
+            "tls": {
+                "enabled": true,
+                "server_name": "*‌.brainsyrup.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rnmMHzLC7nr4Hxwu4JnFSYCem_QRLLVfUde170i8jCo",
+                    "short_id": "ccbf78a1"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

@@ -106,12 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷IR | vmess | @V2rayCollectorDonate | 22",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇦🇪AE | vmess | @oneclickvpnkeys | 12",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 33",
-                "🇺🇸US | vmess | @V2rayng_Fast | 2",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
                 "🇺🇸US | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -122,12 +121,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷IR | vmess | @V2rayCollectorDonate | 22",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇦🇪AE | vmess | @oneclickvpnkeys | 12",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 33",
-                "🇺🇸US | vmess | @V2rayng_Fast | 2",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
                 "🇺🇸US | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -152,23 +150,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @V2rayCollectorDonate | 22",
-            "type": "vmess",
-            "server": "185.212.194.45",
-            "server_port": 8083,
-            "uuid": "4e37a627-c739-4c03-bcdf-f70b25da30df",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
         },
         {
             "tag": "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -205,11 +186,11 @@
             }
         },
         {
-            "tag": "🇦🇪AE | vmess | @oneclickvpnkeys | 12",
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "94.140.0.253",
-            "server_port": 2095,
-            "uuid": "9e60582c-8d80-4dec-8103-d4195cced20c",
+            "server": "38.54.13.212",
+            "server_port": 23026,
+            "uuid": "ef4d0930-3788-4410-9305-fae4ba652ede",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -222,7 +203,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ef4d0930",
                 "headers": {
                     "Host": ""
                 }
@@ -253,7 +234,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @V2rayng_Fast | 2",
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 2",
             "type": "vmess",
             "server": "maggiy.shop",
             "server_port": 443,

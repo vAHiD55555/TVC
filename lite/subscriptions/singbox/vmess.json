@@ -109,7 +109,7 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
-                "🇨🇿CZ | vmess | @ShadowProxy66 | 33",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 28",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
                 "🇺🇸US | vmess | @yaney_01 | 7",
@@ -125,7 +125,7 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
-                "🇨🇿CZ | vmess | @ShadowProxy66 | 33",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 28",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
                 "🇺🇸US | vmess | @yaney_01 | 7",
@@ -212,11 +212,11 @@
             }
         },
         {
-            "tag": "🇨🇿CZ | vmess | @ShadowProxy66 | 33",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 28",
             "type": "vmess",
-            "server": "94.131.97.127",
-            "server_port": 80,
-            "uuid": "3669d547-ee0c-477d-8e47-c4400965db74",
+            "server": "172.67.196.112",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -227,11 +227,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kellie.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "kellie.makeup"
                 }
             }
         },

@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -135,6 +135,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -150,6 +151,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 28",
@@ -182,7 +184,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -200,6 +202,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -215,6 +218,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 28",
@@ -546,7 +550,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 23",
+            "tag": "🇨🇷CR | vless | @lightning6 | 23",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1030,6 +1034,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 18",
+            "type": "vless",
+            "server": "172.67.219.62",
+            "server_port": 2053,
+            "uuid": "f754c706-9dde-4a14-bb39-b87a76a9bd3b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "transaction-ab16e623c3de703011ca4ec38867a5aba33039caaac980b3d25c501a86485619.mitsonic.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "transaction-ab16e623c3de703011ca4ec38867a5aba33039caaac980b3d25c501a86485619.mitsonic.com"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxyymeliii | 17",
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
@@ -1428,6 +1463,37 @@
                 "headers": {
                     "Host": "free.jd-vpn.shop"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "www.visa.com",
+            "server_port": 2096,
+            "uuid": "4c4e7f28-0023-4a3c-bbac-744f76805551",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.visa.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@zedmodeon",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

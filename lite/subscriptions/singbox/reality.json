@@ -112,9 +112,9 @@
                 "🏳️XX | vless | @azadi_az_inja_migzare | 5",
                 "🇩🇪DE | vless | @VmessProtocol | 17",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇸🇬SG | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 3",
-                "🏳️XX | vless | @vpn_go67 | 23"
+                "🏳️XX | vless | @vpn_go67 | 23",
+                "🇮🇷IR | vless | @TVCminer | 17"
             ]
         },
         {
@@ -127,9 +127,9 @@
                 "🏳️XX | vless | @azadi_az_inja_migzare | 5",
                 "🇩🇪DE | vless | @VmessProtocol | 17",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇸🇬SG | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 3",
-                "🏳️XX | vless | @vpn_go67 | 23"
+                "🏳️XX | vless | @vpn_go67 | 23",
+                "🇮🇷IR | vless | @TVCminer | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -354,35 +354,6 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "54.255.178.212",
-            "server_port": 10013,
-            "uuid": "A7547235-E23F-44A7-9B66-C9D72F769698",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "s0.awsstatic.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM",
-                    "short_id": "01fc5e98a68e5e7b"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @kiava | 3",
             "type": "vless",
             "server": "13.53.71.181",
@@ -445,6 +416,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @TVCminer | 17",
+            "type": "vless",
+            "server": "85.9.96.131",
+            "server_port": 2087,
+            "uuid": "352f8151-f56f-4858-a855-b338e3053e6d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2-t9uUzRV61JYk2SuEzWmNuKgh_lG5IteIJ_pHPcPWM",
+                    "short_id": "21e8adbf"
+                }
             }
         }
     ],

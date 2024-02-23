@@ -162,7 +162,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🏳️XX | vless | @forwardv2ray | 16",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -242,7 +242,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🏳️XX | vless | @forwardv2ray | 16",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -1689,17 +1689,39 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @forwardv2ray | 16",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "n48GevQOxPT2ZBsRM8MXCHrv  Tii8gBybAeLbd2OV0GZfahY8I3gK6WqsT4gxoStFaw4C5ICsQub9ejSBaZMYtU8YIHyWfESdk1jkj3Mvn0abA40zWFX5zT2NruBKWcg4h04Lg79ISwwVZ936jczbXEqgyuZaKIJwc5x2asVh4cAWUgPOL243senwie4frsxa0LRV qxpTzSfdTczLG6G9MU wnfofi1LuvE NI WltmUDfzf3f4R1bVId2saCRoRz4HeZergraTMfhp9EbZ871vgW",
-            "server_port": 0,
-            "uuid": "",
-            "flow": "",
+            "server": "188.34.194.108",
+            "server_port": 443,
+            "uuid": "cb00ef4a-fcf7-484a-8c49-6a2422ed84e6",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "W6ol7KU4fjV1mBS2aG_xs8emIKsqF8y6Ufva-2MRa20",
+                    "short_id": "9d2b63ad"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

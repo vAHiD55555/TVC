@@ -112,6 +112,7 @@
                 "🏳️XX | vless | @azadi_az_inja_migzare | 5",
                 "🇩🇪DE | vless | @VmessProtocol | 17",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇸🇬SG | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
@@ -126,6 +127,7 @@
                 "🏳️XX | vless | @azadi_az_inja_migzare | 5",
                 "🇩🇪DE | vless | @VmessProtocol | 17",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇸🇬SG | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
@@ -348,6 +350,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "54.255.178.212",
+            "server_port": 10013,
+            "uuid": "A7547235-E23F-44A7-9B66-C9D72F769698",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "s0.awsstatic.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM",
+                    "short_id": "01fc5e98a68e5e7b"
                 }
             }
         },

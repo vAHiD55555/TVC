@@ -162,10 +162,10 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇬🇧GB | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇩🇪DE | vless | @mehrosaboran | 15",
+                "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @proxy_mtm | 11",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -241,10 +241,10 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇬🇧GB | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇩🇪DE | vless | @mehrosaboran | 15",
+                "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @proxy_mtm | 11",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1686,14 +1686,25 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "iranserver.com",
+            "server_port": 80,
+            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2ray_God=Telegram\/",
+                "headers": {
+                    "Host": "iranserver.com"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vmess | @FAKEOFTVC | 2",
@@ -1761,7 +1772,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @mehrosaboran | 15",
+            "tag": "🇩🇪DE | vless | @mehrosaboran | 16",
             "type": "vless",
             "server": "5.75.225.4",
             "server_port": 443,

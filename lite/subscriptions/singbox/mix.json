@@ -124,9 +124,9 @@
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 4",
-                "🇩🇪DE | trojan | @V2rayCollectorDonate | 23",
+                "🇩🇪DE | trojan | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 37",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -162,7 +162,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇸🇬SG | vmess | @forwardv2ray | 14",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -204,9 +204,9 @@
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 4",
-                "🇩🇪DE | trojan | @V2rayCollectorDonate | 23",
+                "🇩🇪DE | trojan | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 37",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -242,7 +242,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇸🇬SG | vmess | @forwardv2ray | 14",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -781,7 +781,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @V2rayCollectorDonate | 23",
+            "tag": "🇩🇪DE | trojan | @V2rayCollectorDonate | 22",
             "type": "trojan",
             "server": "callmesir.rezashopparivate.sbs",
             "server_port": 443,
@@ -831,7 +831,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 37",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 37",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1689,13 +1689,16 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "157.90.161.70",
-            "server_port": 443,
-            "uuid": "39cf82ce-290a-433a-bb42-b0bacdb3444d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇸🇬SG | vmess | @forwardv2ray | 14",
+            "type": "vmess",
+            "server": "146.190.99.160",
+            "server_port": 34847,
+            "uuid": "fd14b450-8028-48b1-b03c-e080eda5d484",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1703,25 +1706,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.hetzner.com",
+                "server_name": "m.zoom.us",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "aWV-bNNZsIZUUrWIN2eLzN9snTl3P_KcCH-l66AfFWs",
-                    "short_id": "79872b68"
+                    "fingerprint": "chrome"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/SLT\/HUTCH",
+                "headers": {
+                    "Host": "m.zoom.us"
+                }
             }
         },
         {

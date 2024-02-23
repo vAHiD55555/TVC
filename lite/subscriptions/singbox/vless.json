@@ -140,7 +140,7 @@
                 "🇬🇧GB | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
-                "🇳🇱NL | vless | @proxyymeliii | 16",
+                "🇺🇸US | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -156,10 +156,10 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇬🇧GB | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇷CR | vless | @forwardv2ray | 17",
+                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇺🇸US | vless | @mehrosaboran | 14",
+                "🇨🇷CR | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -210,7 +210,7 @@
                 "🇬🇧GB | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
-                "🇳🇱NL | vless | @proxyymeliii | 16",
+                "🇺🇸US | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -226,10 +226,10 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇬🇧GB | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇷CR | vless | @forwardv2ray | 17",
+                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇺🇸US | vless | @mehrosaboran | 14",
+                "🇨🇷CR | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
@@ -352,7 +352,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "52.214.224.29",
+            "server": "34.241.97.97",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1165,17 +1165,24 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @proxyymeliii | 16",
+            "tag": "🇺🇸US | vless | @proxyymeliii | 18",
             "type": "vless",
-            "server": "95.179.158.232",
-            "server_port": 15163,
-            "uuid": "4c43ae02-8ac7-4532-967c-390908200ed0",
+            "server": "172.64.143.61",
+            "server_port": 80,
+            "uuid": "7bcecb9a-8903-4eb2-bae7-f395bce8642e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.64.143.61"
+                }
             }
         },
         {
@@ -1531,12 +1538,12 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 17",
+            "tag": "🇫🇮FI | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 443,
-            "uuid": "b3a98430-9257-4fde-a513-0717b79d90dd",
-            "flow": "",
+            "server": "Finland.titaniom.com",
+            "server_port": 2087,
+            "uuid": "fafcd6a9-07b2-4185-a4e8-a2e5abf8035c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1545,17 +1552,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Punisher-V2rayCnc.radiotehran.org",
+                "server_name": "greenpepper.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@puni_shop_v2rayNG،@puni_shop_v2rayNG",
+                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1624,11 +1636,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 14",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 14",
             "type": "vless",
-            "server": "205.233.181.195",
-            "server_port": 2083,
-            "uuid": "6d57ff9d-9298-456b-d1ff-08221b34bed8",
+            "server": "190.93.246.241",
+            "server_port": 8880,
+            "uuid": "9a6090f0-4c80-448e-f4d3-18527868e4c2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1636,22 +1648,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "205.233.181.195",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "headers": {
+                    "Host": "190.93.246.241"
+                }
             }
         },
         {

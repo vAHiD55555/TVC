@@ -162,7 +162,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇸🇬SG | vmess | @forwardv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -242,7 +242,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇸🇬SG | vmess | @forwardv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -1689,16 +1689,13 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vmess | @forwardv2ray | 14",
-            "type": "vmess",
-            "server": "146.190.99.160",
-            "server_port": 34847,
-            "uuid": "fd14b450-8028-48b1-b03c-e080eda5d484",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.20.19.145",
+            "server_port": 2053,
+            "uuid": "7da383f5-e626-4f8a-8db9-00e736e9de26",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1706,7 +1703,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "m.zoom.us",
+                "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1716,9 +1713,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/SLT\/HUTCH",
+                "path": "\/@UCIRANIR-@UCIRANIR\/Microsoft?ed=2047",
                 "headers": {
-                    "Host": "m.zoom.us"
+                    "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev"
                 }
             }
         },

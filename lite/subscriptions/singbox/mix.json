@@ -142,11 +142,10 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 4",
+                "🇩🇪DE | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇺🇸US | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🏳️XX | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @DailyV2RY | 111",
@@ -163,7 +162,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇬🇧GB | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
@@ -222,11 +220,10 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 4",
+                "🇩🇪DE | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇺🇸US | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🏳️XX | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @DailyV2RY | 111",
@@ -243,7 +240,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇬🇧GB | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
@@ -1238,11 +1234,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 4",
+            "tag": "🇩🇪DE | vmess | @V2rayng_Fast | 3",
             "type": "vmess",
-            "server": "hms182.glweidf.sbs",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "server": "154.197.75.98",
+            "server_port": 2095,
+            "uuid": "eaa63ca0-8fd0-40a5-9157-d5aead104fcd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1253,21 +1249,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": ""
                 }
             }
         },
@@ -1331,37 +1317,6 @@
                 "path": "\/@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray",
                 "headers": {
                     "Host": "All.MsV2ray.online"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 12",
-            "type": "vless",
-            "server": "104.16.32.40",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "baipiao406.stunning-bassoon.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "baipiao406.stunning-bassoon.pages.dev"
                 }
             }
         },
@@ -1722,16 +1677,6 @@
                     "Host": "discord.gg"
                 }
             }
-        },
-        {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vmess | @FAKEOFTVC | 2",

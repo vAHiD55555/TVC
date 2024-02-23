@@ -106,18 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | ss | @proxyymeliii | 20",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🏳️XX | ss | @ROMAX_VPN | 5"
+                "🏳️XX | ss | @ROMAX_VPN | 6"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | ss | @proxyymeliii | 20",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🏳️XX | ss | @ROMAX_VPN | 5"
+                "🏳️XX | ss | @ROMAX_VPN | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,16 +138,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | ss | @proxyymeliii | 20",
-            "type": "shadowsocks",
-            "server": "18.184.7.178",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "7kxZc4xumaXvGy1v\/DR\/YP6tcOJmfdi3MkkjeIWNtf0=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
@@ -160,7 +148,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | ss | @ROMAX_VPN | 5",
+            "tag": "🏳️XX | ss | @ROMAX_VPN | 6",
             "type": "shadowsocks",
             "server": "[::ffff:1285:d01c]",
             "server_port": 443,

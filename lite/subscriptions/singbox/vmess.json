@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 3",
+                "🇨🇴CO | vmess | @DeamNet_Proxy | 16",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
@@ -121,7 +122,8 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 3",
+                "🇨🇴CO | vmess | @DeamNet_Proxy | 16",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
@@ -189,7 +191,41 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 3",
+            "tag": "🇨🇴CO | vmess | @DeamNet_Proxy | 16",
+            "type": "vmess",
+            "server": "91.195.110.215",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "late-wave-1d0a.lesijo3430.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "late-wave-1d0a.lesijo3430.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 4",
             "type": "vmess",
             "server": "hms182.glweidf.sbs",
             "server_port": 443,

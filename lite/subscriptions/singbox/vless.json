@@ -125,9 +125,9 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 5",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 32",
+                "🇺🇸US | vless | @V2rayNGn | 32",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
@@ -153,7 +153,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇬🇧GB | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇩🇪DE | vless | @forwardv2ray | 12",
+                "🇳🇱NL | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -192,9 +192,9 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 5",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 32",
+                "🇺🇸US | vless | @V2rayNGn | 32",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
@@ -220,7 +220,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇬🇧GB | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇩🇪DE | vless | @forwardv2ray | 12",
+                "🇳🇱NL | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -783,11 +783,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 22",
             "type": "vless",
-            "server": "web.bbv2ry.pics",
+            "server": "103.35.191.195",
             "server_port": 443,
-            "uuid": "82a86893-a8bb-4a2a-abe8-8e96bc68b215",
+            "uuid": "d30bcb49-fca5-4b17-9863-3f9e8a9a1557",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -795,21 +795,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Skyy.bbv2ry.pics",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "Skyy.bbv2ry.pics"
+                    "Host": "103.35.191.195"
                 }
             }
         },
@@ -835,7 +825,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 32",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 32",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1481,11 +1471,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 12",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "5.75.225.4",
+            "server": "188.166.108.132",
             "server_port": 443,
-            "uuid": "5ab6708e-b949-4381-946a-2a80f664aaa8",
+            "uuid": "7cd8fafc-bf13-42b8-af9d-e9ddf8fd7b8f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1495,7 +1485,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.hetzner.com",
+                "server_name": "*.dnschecker.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1504,8 +1494,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "AVh9z3yAsgz2E7o7UOWUIRcOMKgcrXJjchCIUwaviDQ",
-                    "short_id": "3eb1d20a"
+                    "public_key": "P0MLEcNkBAKBpNnqosSzDHY9HAtkZWr_0JED3Y3yFXM",
+                    "short_id": "4513bf26"
                 }
             },
             "transport": {

@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @vpn_xw | 3",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇬🇧GB | vless | @V2RayTz | 16",
-                "🇬🇧GB | vless | @DailyV2RY | 103",
+                "🇨🇦CA | vless | @DailyV2RY | 102",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇮🇷IR | vless | @proxystore11 | 15",
@@ -152,6 +152,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -182,7 +183,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @vpn_xw | 3",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -205,7 +206,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇬🇧GB | vless | @V2RayTz | 16",
-                "🇬🇧GB | vless | @DailyV2RY | 103",
+                "🇨🇦CA | vless | @DailyV2RY | 102",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 4",
                 "🇮🇷IR | vless | @proxystore11 | 15",
@@ -217,6 +218,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -558,7 +560,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 26",
+            "tag": "🇨🇷CR | vless | @lightning6 | 26",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1133,11 +1135,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @DailyV2RY | 103",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 102",
             "type": "vless",
-            "server": "91.193.58.1",
-            "server_port": 8080,
-            "uuid": "c26dd1fe-0e9a-4d84-914e-a235f2f95a01",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "39ea487b-2d8a-4da0-8798-c89cc6932e8d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1149,7 +1151,7 @@
                 "type": "ws",
                 "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
-                    "Host": "91.193.58.1"
+                    "Host": "discord.gg"
                 }
             }
         },
@@ -1433,6 +1435,42 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "157.90.161.70",
+            "server_port": 443,
+            "uuid": "39cf82ce-290a-433a-bb42-b0bacdb3444d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.hetzner.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aWV-bNNZsIZUUrWIN2eLzN9snTl3P_KcCH-l66AfFWs",
+                    "short_id": "79872b68"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

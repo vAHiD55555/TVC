@@ -124,9 +124,8 @@
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 4",
-                "🇩🇪DE | trojan | @V2rayCollectorDonate | 22",
-                "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 37",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -134,7 +133,6 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vless | @prrofile_purple | 183",
                 "🇨🇦CA | vless | @customv2ray | 9",
-                "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🏳️XX | vless | @vmessorg | 10",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 4",
                 "🇨🇦CA | vless | @v2rayngvpn | 11",
@@ -161,7 +159,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -203,9 +201,8 @@
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 4",
-                "🇩🇪DE | trojan | @V2rayCollectorDonate | 22",
-                "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 37",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -213,7 +210,6 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vless | @prrofile_purple | 183",
                 "🇨🇦CA | vless | @customv2ray | 9",
-                "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🏳️XX | vless | @vmessorg | 10",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 4",
                 "🇨🇦CA | vless | @v2rayngvpn | 11",
@@ -240,7 +236,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -779,11 +775,16 @@
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @V2rayCollectorDonate | 22",
-            "type": "trojan",
-            "server": "callmesir.rezashopparivate.sbs",
+            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
+            "type": "vmess",
+            "server": "104.21.44.64",
             "server_port": 443,
-            "password": "202fef2a-eff2-4815-bf05-cadcad4b7863",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -791,7 +792,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "callmesir.rezashopparivate.sbs",
+                "server_name": "kellie.makeup",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -800,36 +801,15 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "LCO6O6yZYFEZeti7lBHSnX",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
-            "type": "vless",
-            "server": "CDN.user.com",
-            "server_port": 80,
-            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "CDN.user.com"
+                    "Host": "kellie.makeup"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 37",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 37",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -993,27 +973,6 @@
                 "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
                     "Host": "162.159.134.234"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 10",
-            "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 8880,
-            "uuid": "26c4f33b-cca9-463c-ac7b-9f47f0765c5d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev",
-                "headers": {
-                    "Host": "iranserver.com"
                 }
             }
         },
@@ -1656,14 +1615,35 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "51.142.171.150",
-            "server_port": 49499,
-            "method": "chacha20-ietf-poly1305",
-            "password": "kTjlLxrncKx4i2HIjxfA3M",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "mtn--join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
+            }
         },
         {
             "tag": "🏳️XX | vless | @FAKEOFTVC | 2",

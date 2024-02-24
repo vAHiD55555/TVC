@@ -136,7 +136,7 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "TVCwwrilwhaqr",
+                "TVCdquwwnqhvz",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇩🇪DE | vless | @V2RayTz | 18",
@@ -151,7 +151,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇬🇧GB | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 8",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -164,7 +164,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 1",
-                "🇮🇷IR | vless | @TVCminer | 18"
+                "🇮🇷IR | vless | @TVCminer | 19"
             ]
         },
         {
@@ -201,7 +201,7 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "TVCwwrilwhaqr",
+                "TVCdquwwnqhvz",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇩🇪DE | vless | @V2RayTz | 18",
@@ -216,7 +216,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇬🇧GB | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 8",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -229,7 +229,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 1",
-                "🇮🇷IR | vless | @TVCminer | 18"
+                "🇮🇷IR | vless | @TVCminer | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1068,7 +1068,7 @@
             }
         },
         {
-            "tag": "TVCwwrilwhaqr",
+            "tag": "TVCdquwwnqhvz",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -1428,24 +1428,39 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 8",
             "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 80,
-            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
-            "flow": "",
+            "server": "104.248.194.223",
+            "server_port": 443,
+            "uuid": "452bca02-e219-4978-831e-4926388b576c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@V2ray_God=Telegram\/",
-                "headers": {
-                    "Host": "iranserver.com"
+            "tls": {
+                "enabled": true,
+                "server_name": "*.housepets.space",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IizwPX5xVViOal5eU9u-Nkd7OZbnsLhQtclLWklAezI",
+                    "short_id": "189f1252"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1770,11 +1785,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @TVCminer | 18",
+            "tag": "🇮🇷IR | vless | @TVCminer | 19",
             "type": "vless",
-            "server": "193.151.145.79",
-            "server_port": 2082,
-            "uuid": "c52afe6f-e38f-434b-99f3-075873e4a417",
+            "server": "45.92.93.134",
+            "server_port": 17478,
+            "uuid": "a1d48220-62bc-4d32-9d93-27c78826ad01",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1784,9 +1799,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/custom_config",
+                "path": "\/",
                 "headers": {
-                    "Host": "193.151.145.79"
+                    "Host": "45.92.93.134"
                 }
             }
         }

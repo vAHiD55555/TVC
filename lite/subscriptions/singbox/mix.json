@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 32",
                 "🇬🇧GB | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 15",
+                "🇬🇧GB | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 115",
+                "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇮🇷IR | vless | @lrnbymaa | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -162,7 +162,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇬🇧GB | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 13",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -207,7 +207,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 32",
                 "🇬🇧GB | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 15",
+                "🇬🇧GB | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 115",
+                "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇮🇷IR | vless | @lrnbymaa | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -241,7 +241,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇬🇧GB | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 13",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -881,9 +881,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 15",
+            "tag": "🇬🇧GB | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "15.236.13.247",
+            "server": "13.43.158.58",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1337,11 +1337,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 115",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 112",
             "type": "vless",
-            "server": "smartfinancialcentre.net",
-            "server_port": 8443,
-            "uuid": "8d4cdaf6-9b99-4a02-dca5-f67eadefa737",
+            "server": "104.31.16.162",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1351,7 +1351,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "life.baba.pics",
+                "server_name": "always-online1.lp-airdrop.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1361,9 +1361,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@MikasaVPN\/",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "life.baba.pics"
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
@@ -1691,16 +1691,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "hkcft01.xqc.best",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 13",
+            "type": "vless",
+            "server": "mtn--join.outline-vpn.cloud",
             "server_port": 443,
-            "uuid": "0f2e03ab-1916-4386-9dcf-2499512a929e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1708,7 +1705,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "d2p3s81qynueox.cloudfront.net",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1718,9 +1715,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/stream",
+                "path": "\/",
                 "headers": {
-                    "Host": "d2p3s81qynueox.cloudfront.net"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },

@@ -129,11 +129,12 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 8",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 29",
+                "🇨🇷CR | vless | @V2rayNGn | 29",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🏳️XX | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -212,11 +213,12 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 8",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 29",
+                "🇨🇷CR | vless | @V2rayNGn | 29",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🏳️XX | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -855,8 +857,8 @@
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 24",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "Parsashonam-5",
+            "server_port": 8080,
+            "uuid": "Parsashonam-7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -864,21 +866,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mail.offch.blog",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/?@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1",
                 "headers": {
-                    "Host": "mail.offch.blog"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -904,7 +896,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 29",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1016,6 +1008,40 @@
                 "path": "\/video\/34kKXbLM",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "inna.cfd",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "inna.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "inna.cfd"
                 }
             }
         },

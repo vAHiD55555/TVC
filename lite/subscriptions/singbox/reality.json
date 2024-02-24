@@ -111,7 +111,7 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇳🇱NL | vless | @Outlinev2rayNG | 18",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @mehrosaboran | 16",
+                "🇫🇮FI | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @proxy_mtm | 12",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -126,7 +126,7 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇳🇱NL | vless | @Outlinev2rayNG | 18",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @mehrosaboran | 16",
+                "🇫🇮FI | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @proxy_mtm | 12",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -325,11 +325,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @mehrosaboran | 16",
+            "tag": "🇫🇮FI | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "5.75.225.4",
-            "server_port": 443,
-            "uuid": "5ab6708e-b949-4381-946a-2a80f664aaa8",
+            "server": "Finland.titaniom.com",
+            "server_port": 2087,
+            "uuid": "fafcd6a9-07b2-4185-a4e8-a2e5abf8035c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -339,7 +339,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.hetzner.com",
+                "server_name": "greenpepper.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -348,13 +348,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "AVh9z3yAsgz2E7o7UOWUIRcOMKgcrXJjchCIUwaviDQ",
-                    "short_id": "3eb1d20a"
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ipV2Ray",
+                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

@@ -106,14 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vmess | @v2ray_outlineir | 0",
+                "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 18",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 7",
+                "🇸🇬SG | vmess | @oneclickvpnkeys | 8",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 3",
                 "🇷🇺RU | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇦UA | vmess | @forwardv2ray | 17",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
@@ -122,14 +121,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vmess | @v2ray_outlineir | 0",
+                "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 18",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 7",
+                "🇸🇬SG | vmess | @oneclickvpnkeys | 8",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 3",
                 "🇷🇺RU | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇦UA | vmess | @forwardv2ray | 17",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
@@ -154,7 +152,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
+            "tag": "🇬🇧GB | vmess | @v2ray_outlineir | 0",
             "type": "vmess",
             "server": "146.59.147.250",
             "server_port": 29776,
@@ -195,11 +193,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇸🇬SG | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "199.15.76.35",
-            "server_port": 443,
-            "uuid": "0987ff95-91ef-40ef-b6cb-a44ac6b1990a",
+            "server": "sg3.socifiles.com",
+            "server_port": 80,
+            "uuid": "6a88afe0-d02b-11ee-85c0-1239d0255272",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -210,21 +208,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "doxinjiapo.5201314.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/0987ff95",
+                "path": "\/vmws",
                 "headers": {
-                    "Host": "doxinjiapo.5201314.cfd"
+                    "Host": ""
                 }
             }
         },
@@ -331,33 +319,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇦UA | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "45.137.155.195",
-            "server_port": 443,
-            "uuid": "49c76bcf-3a58-43df-b1d4-2bffe9ca03b5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },

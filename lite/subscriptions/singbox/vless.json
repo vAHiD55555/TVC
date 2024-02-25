@@ -125,6 +125,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 8",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 29",
                 "🇩🇪DE | vless | @prrofile_purple | 185",
@@ -145,7 +146,7 @@
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🏳️XX | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -155,7 +156,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇬🇧GB | vless | @flyv2ray | 15",
-                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -165,7 +165,6 @@
                 "🇨🇦CA | vless | @IBv2ray | 5",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇬🇧GB | vless | @ROMAX_VPN | 4",
                 "🇫🇮FI | vless | @TVCminer | 19"
             ]
         },
@@ -192,6 +191,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 8",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 29",
                 "🇩🇪DE | vless | @prrofile_purple | 185",
@@ -212,7 +212,7 @@
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🏳️XX | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -222,7 +222,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇬🇧GB | vless | @flyv2ray | 15",
-                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -232,7 +231,6 @@
                 "🇨🇦CA | vless | @IBv2ray | 5",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇬🇧GB | vless | @ROMAX_VPN | 4",
                 "🇫🇮FI | vless | @TVCminer | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -783,6 +781,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
+            "type": "vless",
+            "server": "104.18.7.235",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "29dE1d066eE81AB0a41a69F5b65d6CDbe7081da53e.ioYNar.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/",
+                "headers": {
+                    "Host": "29dE1d066eE81AB0a41a69F5b65d6CDbe7081da53e.ioYNar.ir"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
             "type": "vless",
             "server": "CDN.user.com",
@@ -1292,7 +1321,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @lrnbymaa | 2",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 2",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1543,42 +1572,6 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "104.248.194.223",
-            "server_port": 443,
-            "uuid": "452bca02-e219-4978-831e-4926388b576c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.housepets.space",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IizwPX5xVViOal5eU9u-Nkd7OZbnsLhQtclLWklAezI",
-                    "short_id": "189f1252"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 2",
             "type": "vless",
             "server": "u.today",
@@ -1809,27 +1802,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | @ROMAX_VPN | 4",
-            "type": "vless",
-            "server": "91.193.58.1",
-            "server_port": 80,
-            "uuid": "0e0e7306-8dee-4c2a-bb2b-3825d10d553b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "91.193.58.1"
-                }
             }
         },
         {

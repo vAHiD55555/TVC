@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -129,7 +129,7 @@
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
                 "🏳️XX | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 29",
+                "🇨🇷CR | vless | @V2rayNGn | 29",
                 "🏳️XX | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
@@ -157,6 +157,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇬🇧GB | vless | @proxy_mtm | 5",
@@ -186,7 +187,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -197,7 +198,7 @@
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
                 "🏳️XX | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 29",
+                "🇨🇷CR | vless | @V2rayNGn | 29",
                 "🏳️XX | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
@@ -225,6 +226,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇬🇧GB | vless | @proxy_mtm | 5",
@@ -585,7 +587,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 29",
+            "tag": "🇨🇷CR | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -850,7 +852,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 29",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1563,6 +1565,27 @@
                 "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "162.159.135.234",
+            "server_port": 80,
+            "uuid": "5e691eea-0939-41e4-bcf9-a97cdf32725c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/join--ServerNett--ServerNett?ed=1048",
+                "headers": {
+                    "Host": "162.159.135.234"
                 }
             }
         },

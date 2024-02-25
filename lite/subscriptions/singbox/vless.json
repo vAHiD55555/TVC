@@ -122,10 +122,10 @@
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 17",
-                "🇮🇪IE | vless | @DarkTeam_VPN | 0",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇯🇵JP | vless | @azadi_az_inja_migzare | 9",
+                "🇬🇧GB | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 29",
                 "🇨🇦CA | vless | @prrofile_purple | 186",
@@ -139,7 +139,7 @@
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vless | @v2ray_swhil | 20",
-                "🇩🇪DE | vless | @proxyymeliii | 18",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 18",
@@ -190,10 +190,10 @@
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 17",
-                "🇮🇪IE | vless | @DarkTeam_VPN | 0",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇯🇵JP | vless | @azadi_az_inja_migzare | 9",
+                "🇬🇧GB | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 29",
                 "🇨🇦CA | vless | @prrofile_purple | 186",
@@ -207,7 +207,7 @@
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vless | @v2ray_swhil | 20",
-                "🇩🇪DE | vless | @proxyymeliii | 18",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 18",
@@ -697,27 +697,6 @@
             }
         },
         {
-            "tag": "🇮🇪IE | vless | @DarkTeam_VPN | 0",
-            "type": "vless",
-            "server": "partoshop.zarddigi.top",
-            "server_port": 27896,
-            "uuid": "f41f6c29-bb86-47c5-a4fb-b4ec17b24dba",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "partoshop.zarddigi.top"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "discordapp.com",
@@ -801,6 +780,20 @@
                     "public_key": "dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM",
                     "short_id": "01fc5e98a68e5e7b"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @V2rayCollectorDonate | 22",
+            "type": "vless",
+            "server": "209.38.160.227",
+            "server_port": 5000,
+            "uuid": "37c22f02-018f-4045-b94e-0b9832783ec0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1127,11 +1120,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @proxyymeliii | 18",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 16",
             "type": "vless",
-            "server": "154.197.75.98",
-            "server_port": 80,
-            "uuid": "3b8fa18e-e245-49b9-b355-405ec86f0755",
+            "server": "maz.maznet.cfd",
+            "server_port": 2083,
+            "uuid": "18d472ea-c6a3-4913-b7d7-487495d6e74c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1139,11 +1132,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "join20.maznet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
                 "headers": {
-                    "Host": "154.197.75.98"
+                    "Host": "join20.maznet.cfd"
                 }
             }
         },

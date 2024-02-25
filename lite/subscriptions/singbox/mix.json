@@ -129,7 +129,7 @@
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
                 "🏳️XX | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 29",
+                "🇨🇷CR | vless | @V2rayNGn | 29",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -168,7 +168,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇩🇪DE | ss | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -214,7 +214,7 @@
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
                 "🏳️XX | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 29",
+                "🇨🇷CR | vless | @V2rayNGn | 29",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -253,7 +253,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇩🇪DE | ss | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -884,7 +884,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 29",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1870,14 +1870,25 @@
             }
         },
         {
-            "tag": "🇩🇪DE | ss | @forwardv2ray | 17",
-            "type": "shadowsocks",
-            "server": "3.70.18.104",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "L5zNUWvgDoexyYVq5EPqj\/X4D7WaWbQOpFX7G+mUub8=",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "162.159.133.234",
+            "server_port": 8880,
+            "uuid": "d50a5119-c938-4150-a61b-cbf7ddbd99ff",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/join--ServerNett--ServerNett?ed=1048",
+                "headers": {
+                    "Host": "162.159.133.234"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE | vmess | @FAKEOFTVC | 2",

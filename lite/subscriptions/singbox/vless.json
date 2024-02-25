@@ -134,18 +134,18 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 4",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
-                "🇨🇦CA | vless | @ShadowProxy66 | 33",
+                "🇨🇦CA | vless | @ShadowProxy66 | 39",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇳🇱NL | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇬🇧GB | vless | @V2RayTz | 17",
+                "🇬🇧GB | vless | @V2RayTz | 18",
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @DailyV2RY | 122",
-                "🇨🇦CA | vless | @sinabigo | 2",
-                "🏳️XX | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @sinabigo | 3",
+                "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 10",
@@ -155,6 +155,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @mehrosaboran | 18",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -200,18 +201,18 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 4",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
-                "🇨🇦CA | vless | @ShadowProxy66 | 33",
+                "🇨🇦CA | vless | @ShadowProxy66 | 39",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇳🇱NL | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇬🇧GB | vless | @V2RayTz | 17",
+                "🇬🇧GB | vless | @V2RayTz | 18",
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @DailyV2RY | 122",
-                "🇨🇦CA | vless | @sinabigo | 2",
-                "🏳️XX | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @sinabigo | 3",
+                "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 10",
@@ -221,6 +222,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @mehrosaboran | 18",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -397,8 +399,8 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 12",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "e7577795-4738-40ed-8816-7c05c083d57c",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -406,22 +408,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.v2oti.Com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -1015,7 +1007,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 33",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 39",
             "type": "vless",
             "server": "104.18.16.149",
             "server_port": 443,
@@ -1178,7 +1170,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @V2RayTz | 17",
+            "tag": "🇬🇧GB | vless | @V2RayTz | 18",
             "type": "vless",
             "server": "91.193.58.1",
             "server_port": 8080,
@@ -1249,7 +1241,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 2",
+            "tag": "🇨🇦CA | vless | @sinabigo | 3",
             "type": "vless",
             "server": "104.31.16.73",
             "server_port": 443,
@@ -1280,7 +1272,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @lrnbymaa | 2",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 2",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1537,6 +1529,37 @@
                 "path": "\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/",
                 "headers": {
                     "Host": "8B1694e170eb3ee4aDdb9E92aB75a6D435c982.ioYNar.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "162.159.135.79",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "test57.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "headers": {
+                    "Host": "test57.pages.dev"
                 }
             }
         },

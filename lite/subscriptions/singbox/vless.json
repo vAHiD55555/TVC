@@ -138,14 +138,15 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 49",
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @proxyymeliii | 18",
+                "🇺🇸US | vless | @v2ray_swhil | 20",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @lrnbymaa | 2",
+                "🏳️XX | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -155,7 +156,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -206,14 +207,15 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 49",
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @proxyymeliii | 18",
+                "🇺🇸US | vless | @v2ray_swhil | 20",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @lrnbymaa | 2",
+                "🏳️XX | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -223,7 +225,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -422,8 +424,8 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 12",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "8630b8ea-bc43-4e7a-be79-6ff4e49f01df",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -431,22 +433,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.AGH9731.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -1091,11 +1083,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @proxyymeliii | 18",
+            "tag": "🇺🇸US | vless | @v2ray_swhil | 20",
             "type": "vless",
-            "server": "154.197.75.98",
-            "server_port": 80,
-            "uuid": "3b8fa18e-e245-49b9-b355-405ec86f0755",
+            "server": "172.64.111.9",
+            "server_port": 443,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1103,11 +1095,52 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "edge.020770.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
                 "headers": {
-                    "Host": "154.197.75.98"
+                    "Host": "edge.020770.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 16",
+            "type": "vless",
+            "server": "maz.maznet.cfd",
+            "server_port": 2083,
+            "uuid": "18d472ea-c6a3-4913-b7d7-487495d6e74c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join20.maznet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "headers": {
+                    "Host": "join20.maznet.cfd"
                 }
             }
         },
@@ -1254,7 +1287,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 2",
+            "tag": "🏳️XX | vless | @lrnbymaa | 2",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1498,11 +1531,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "discord.com",
+            "server": "162.159.196.138",
             "server_port": 443,
-            "uuid": "Venom-Servers",
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1512,7 +1545,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fs1.snowborn.ir",
+                "server_name": "baipiao406.stunning-bassoon.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1521,11 +1554,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/path\/telegram@v2ray_alpha\/",
+                "headers": {
+                    "Host": "baipiao406.stunning-bassoon.pages.dev"
+                }
             }
         },
         {

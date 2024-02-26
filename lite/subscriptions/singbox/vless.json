@@ -135,7 +135,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 14",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vless | @ShadowProxy66 | 49",
+                "🇱🇺LU | vless | @ShadowProxy66 | 40",
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vless | @v2ray_swhil | 20",
@@ -157,6 +157,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
@@ -204,7 +205,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 14",
                 "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vless | @ShadowProxy66 | 49",
+                "🇱🇺LU | vless | @ShadowProxy66 | 40",
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vless | @v2ray_swhil | 20",
@@ -226,6 +227,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
@@ -1025,12 +1027,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 49",
+            "tag": "🇱🇺LU | vless | @ShadowProxy66 | 40",
             "type": "vless",
-            "server": "104.18.16.149",
+            "server": "107.189.28.186",
             "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
-            "flow": "",
+            "uuid": "0f57a21f-e7bd-41a1-9a64-37ade75714b5",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1039,20 +1041,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
+                "server_name": "*.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "C9XTLtWUS7bxjXafKZ3z_Qgg-jjfMPoAamMhLBmciCw",
+                    "short_id": "b2d438a1"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
-                }
+                "type": "grpc",
+                "service_name": "channelV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1597,6 +1604,27 @@
                 "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "190.93.247.247",
+            "server_port": 8880,
+            "uuid": "686ef628-4f70-4cdc-8156-fae1afa81377",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/j?ed=1048",
+                "headers": {
+                    "Host": "190.93.247.247"
                 }
             }
         },

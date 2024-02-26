@@ -129,7 +129,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 28",
                 "🇸🇪SE | trojan | @PrivateVPNs | 17",
-                "🇸🇪SE | trojan | @DirectVPN | 16",
+                "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇮🇷IR | vmess | @oneclickvpnkeys | 7",
@@ -140,7 +140,6 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 12",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vless | @ShadowProxy66 | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇬🇧GB | vless | @v2ray_swhil | 21",
@@ -152,7 +151,6 @@
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🏳️XX | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -166,7 +164,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
@@ -212,7 +210,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 28",
                 "🇸🇪SE | trojan | @PrivateVPNs | 17",
-                "🇸🇪SE | trojan | @DirectVPN | 16",
+                "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇮🇷IR | vmess | @oneclickvpnkeys | 7",
@@ -223,7 +221,6 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 12",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vless | @ShadowProxy66 | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇬🇧GB | vless | @v2ray_swhil | 21",
@@ -235,7 +232,6 @@
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🏳️XX | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | vmess | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -249,7 +245,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
@@ -905,7 +901,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 16",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 17",
             "type": "trojan",
             "server": "13.48.93.56",
             "server_port": 22222,
@@ -1165,37 +1161,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 15",
-            "type": "vless",
-            "server": "162.159.135.79",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "test57.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
-                "headers": {
-                    "Host": "test57.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @Qv2rayDONATED | 6",
             "type": "vless",
             "server": "104.18.190.52",
@@ -1433,23 +1398,6 @@
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 14",
-            "type": "vmess",
-            "server": "104.248.143.118",
-            "server_port": 3389,
-            "uuid": "9c050a86-d612-48f1-ec32-e573df08a1b7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @proxystore11 | 17",
@@ -1792,11 +1740,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "wer3.taxgeniez.info",
-            "server_port": 8080,
-            "uuid": "5f2bcfcb-43a0-4de3-9306-8020b9ff0c13",
+            "server": "free--join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1804,11 +1752,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "always-online1.lp-airdrop.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "wer3.taxgeniez.info"
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },

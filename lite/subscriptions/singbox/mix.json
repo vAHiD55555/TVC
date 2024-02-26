@@ -131,7 +131,7 @@
                 "🇫🇷FR | trojan | @PrivateVPNs | 14",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @prrofile_purple | 186",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🏳️XX | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -167,7 +167,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇩🇪DE | ss | @forwardv2ray | 19",
+                "🇧🇿BZ | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
@@ -214,7 +214,7 @@
                 "🇫🇷FR | trojan | @PrivateVPNs | 14",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @prrofile_purple | 186",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -235,7 +235,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🏳️XX | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -250,7 +250,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇩🇪DE | ss | @forwardv2ray | 19",
+                "🇧🇿BZ | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
@@ -401,7 +401,7 @@
             "type": "vless",
             "server": "de.melov2ray.shop",
             "server_port": 2083,
-            "uuid": "070a13d8-9987-41f1-aa77-4d0a336b2a55",
+            "uuid": "24bf41e4-5b0b-41bd-b6f7-7f68a2d7818e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -957,7 +957,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 18",
+            "tag": "🇺🇸US | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -1492,7 +1492,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @lrnbymaa | 2",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 2",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1856,14 +1856,25 @@
             }
         },
         {
-            "tag": "🇩🇪DE | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "3.79.46.25",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "vvZV1xetiU3+ROBMQzMkM+zsrPasaTnJ9Bxqk7+dsIQ=",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇧🇿BZ | vless | @forwardv2ray | 16",
+            "type": "vless",
+            "server": "45.131.208.149",
+            "server_port": 80,
+            "uuid": "--DIGIV2RAY-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Digiv2ray",
+                "headers": {
+                    "Host": "45.131.208.149"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 1",

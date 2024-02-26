@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🏳️XX | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇹🇷TR | vless | @fnet00 | 8",
@@ -158,6 +158,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇧🇿BZ | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
@@ -217,7 +218,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🏳️XX | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇹🇷TR | vless | @fnet00 | 8",
@@ -228,6 +229,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇧🇿BZ | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
@@ -375,7 +377,7 @@
             "type": "vless",
             "server": "de.melov2ray.shop",
             "server_port": 2083,
-            "uuid": "070a13d8-9987-41f1-aa77-4d0a336b2a55",
+            "uuid": "24bf41e4-5b0b-41bd-b6f7-7f68a2d7818e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1347,7 +1349,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @lrnbymaa | 2",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 2",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1625,6 +1627,27 @@
                 "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇧🇿BZ | vless | @forwardv2ray | 16",
+            "type": "vless",
+            "server": "45.131.208.149",
+            "server_port": 80,
+            "uuid": "--DIGIV2RAY-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Digiv2ray",
+                "headers": {
+                    "Host": "45.131.208.149"
                 }
             }
         },

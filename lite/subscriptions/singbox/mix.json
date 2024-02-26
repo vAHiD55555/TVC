@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
-                "🏳️XX | vmess | @proxyymeliii | 14",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -168,7 +168,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 15",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
@@ -183,7 +183,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇸🇪SE | ss | @ROMAX_VPN | 4",
-                "🇫🇮FI | vless | @TVCminer | 18"
+                "🇮🇷IR | vless | @TVCminer | 19"
             ]
         },
         {
@@ -229,7 +229,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
-                "🏳️XX | vmess | @proxyymeliii | 14",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -252,7 +252,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 15",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
@@ -267,7 +267,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇸🇪SE | ss | @ROMAX_VPN | 4",
-                "🇫🇮FI | vless | @TVCminer | 18"
+                "🇮🇷IR | vless | @TVCminer | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1300,20 +1300,34 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @proxyymeliii | 14",
-            "type": "vmess",
-            "server": "shirt.mintstore.store",
-            "server_port": 8081,
-            "uuid": "9f1b2512-9146-4a43-b277-ee2e0a5e926b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 16",
+            "type": "vless",
+            "server": "maz.maznet.cfd",
+            "server_port": 2083,
+            "uuid": "18d472ea-c6a3-4913-b7d7-487495d6e74c",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join20.maznet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "headers": {
+                    "Host": "join20.maznet.cfd"
+                }
             }
         },
         {
@@ -1861,11 +1875,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "104.21.42.56",
+            "server": "our-channel-is-V2ray_God-in-telegram-mc.azaronline.org",
             "server_port": 80,
-            "uuid": "baadfec3-75bd-4df0-ad6b-2ecdfdfe9d52",
+            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1875,9 +1889,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram channel : @pandavpntc",
+                "path": "\/@V2ray_God=Telegram\/",
                 "headers": {
-                    "Host": "104.21.42.56"
+                    "Host": "our-channel-is-V2ray_God-in-telegram-mc.azaronline.org"
                 }
             }
         },
@@ -2235,11 +2249,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | vless | @TVCminer | 18",
+            "tag": "🇮🇷IR | vless | @TVCminer | 19",
             "type": "vless",
-            "server": "iran-2.tonworldnews.com",
-            "server_port": 443,
-            "uuid": "55dc2be5-7d3c-4ab7-bd72-66de46c2ed41",
+            "server": "bestshopxx.channeltest.site",
+            "server_port": 2087,
+            "uuid": "v2ray_best_iran_1x",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2249,7 +2263,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "iran-2.tonworldnews.com",
+                "server_name": "bestshopxx.channeltest.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2258,11 +2272,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/WxEarwDxw2Q0WqnjOk",
-                "headers": {
-                    "Host": "iran-2.tonworldnews.com"
-                }
+                "type": "grpc",
+                "service_name": "v2ray_bes_iran",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         }
     ],

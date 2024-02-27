@@ -109,10 +109,11 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @DailyV2RY | 134",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇩🇪DE | vmess | @kingofilter | 9",
                 "🇬🇧GB | vmess | @eliya_chiter0 | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -125,10 +126,11 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @DailyV2RY | 134",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇩🇪DE | vmess | @kingofilter | 9",
                 "🇬🇧GB | vmess | @eliya_chiter0 | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -205,40 +207,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 11",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @DailyV2RY | 134",
             "type": "vmess",
             "server": "172.67.196.112",
@@ -269,6 +237,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kellie.makeup"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "172.67.174.63",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nina.bond",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nina.bond"
                 }
             }
         },
@@ -327,6 +329,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "nexload.ir",
+            "server_port": 80,
+            "uuid": "17ae8dc2-042a-4132-b494-b2f71be0abcc",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
                 }
             }
         },

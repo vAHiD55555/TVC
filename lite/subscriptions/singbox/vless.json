@@ -146,7 +146,7 @@
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🏳️XX | vless | @lrnbymaa | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇬🇧GB | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -156,9 +156,10 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
-                "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇺🇸US | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 9",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
-                "🇨🇦CA | vless | @https_config_injector | 18",
+                "🇺🇸US | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @proxy_mtm | 7",
@@ -215,7 +216,7 @@
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🏳️XX | vless | @lrnbymaa | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇬🇧GB | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -225,9 +226,10 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
-                "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇺🇸US | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 9",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
-                "🇨🇦CA | vless | @https_config_injector | 18",
+                "🇺🇸US | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @proxy_mtm | 7",
@@ -1331,11 +1333,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Parsashonam-9",
+            "server": "91.193.58.1",
+            "server_port": 8880,
+            "uuid": "d00ced52-9f4a-47c8-a83a-edc73c89ec8c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1345,9 +1347,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "91.193.58.1"
                 }
             }
         },
@@ -1592,7 +1594,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 18",
+            "tag": "🇺🇸US | vless | @flyv2ray | 18",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 8080,
@@ -1607,6 +1609,27 @@
             "transport": {
                 "type": "ws",
                 "path": "\/join--ServerNett--ServerNett?ed=1048",
+                "headers": {
+                    "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 9",
+            "type": "vless",
+            "server": "discord.gg",
+            "server_port": 2095,
+            "uuid": "78943e0c-83bb-4af7-8727-bc2a213eb30d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/join--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON?ed=1048",
                 "headers": {
                     "Host": "discord.gg"
                 }
@@ -1644,7 +1667,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @https_config_injector | 18",
+            "tag": "🇺🇸US | vless | @https_config_injector | 18",
             "type": "vless",
             "server": "172.67.174.190",
             "server_port": 443,

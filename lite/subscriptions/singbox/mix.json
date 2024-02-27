@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 15",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 13",
-                "🇨🇦CA | vless | @v2rayngvpn | 14",
+                "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ShadowProxy66 | 22",
                 "🇬🇧GB | vless | @ServerNett | 21",
@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 122",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | trojan | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -169,7 +169,7 @@
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇮🇷IR | vless | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 20",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 15",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 13",
-                "🇨🇦CA | vless | @v2rayngvpn | 14",
+                "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ShadowProxy66 | 22",
                 "🇬🇧GB | vless | @ServerNett | 21",
@@ -240,7 +240,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 122",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | trojan | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -255,7 +255,7 @@
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇮🇷IR | vless | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 20",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
@@ -1186,11 +1186,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "104.19.101.140",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "Telegram--SVNTEAM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1198,21 +1198,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "baipiao406.stunning-bassoon.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/SVNTEAM",
                 "headers": {
-                    "Host": "baipiao406.stunning-bassoon.pages.dev"
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -1541,11 +1531,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | trojan | @ConfigsHUB | 19",
-            "type": "trojan",
-            "server": "18.153.197.202",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "for-irancell.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1553,12 +1545,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
+                "server_name": "baipiao55.stunning-bassoon.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "baipiao55.stunning-bassoon.pages.dev"
                 }
             }
         },
@@ -1937,25 +1936,14 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "185.143.233.1",
-            "server_port": 80,
-            "uuid": "169d4fb3-a564-4db5-8865-09e8e0853c24",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.143.233.1"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "51.143.138.95",
+            "server_port": 13288,
+            "method": "chacha20-ietf-poly1305",
+            "password": "XFt4a7C3cE7qMz7weyyEGI",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 1",

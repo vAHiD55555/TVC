@@ -111,12 +111,9 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 8",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @v2ray1_ng | 11",
-                "🇮🇷IR | vmess | @ConfigsHUB | 17",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇫🇷FR | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vmess | @kingofilter | 9",
-                "🇬🇧GB | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
         },
@@ -129,12 +126,9 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 8",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @v2ray1_ng | 11",
-                "🇮🇷IR | vmess | @ConfigsHUB | 17",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇫🇷FR | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vmess | @kingofilter | 9",
-                "🇬🇧GB | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -260,40 +254,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "snappfood.ir",
-            "server_port": 443,
-            "uuid": "9b305c81-8e33-4145-a6fe-b9848c6a166a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tr.fastosos.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/api",
-                "headers": {
-                    "Host": "tr.fastosos.com"
-                }
-            }
-        },
-        {
             "tag": "🇭🇰HK | vmess | @yaney_01 | 8",
             "type": "vmess",
             "server": "vivi-softbank-zz1.ddnsll.xyz",
@@ -352,45 +312,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "162.19.25.207",
-            "server_port": 44513,
-            "uuid": "4552bdb6-e008-43ac-926d-c6c6c5a6fc76",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇩🇪DE | vmess | @kingofilter | 9",
             "type": "vmess",
             "server": "64.226.85.44",
             "server_port": 24735,
             "uuid": "e3dbd740-9f2c-4092-ae27-b176abd874a3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vmess | @eliya_chiter0 | 5",
-            "type": "vmess",
-            "server": "209.38.160.224",
-            "server_port": 39571,
-            "uuid": "b02c2ec8-c4cb-4afc-9e5d-c81a0bede7bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,

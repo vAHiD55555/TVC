@@ -124,12 +124,11 @@
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 26",
-                "🇮🇷IR | vless | @prrofile_purple | 174",
+                "🇺🇸US | vless | @prrofile_purple | 165",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 17",
@@ -139,12 +138,12 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 22",
                 "🇬🇧GB | vless | @ServerNett | 24",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇬🇧GB | vless | @v2ray_swhil | 21",
+                "🇬🇧GB | vless | @v2ray_swhil | 20",
                 "🇩🇪DE | vless | @proxyymeliii | 16",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 130",
-                "🇺🇸US | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -157,6 +156,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @https_config_injector | 21",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -192,12 +192,11 @@
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 26",
-                "🇮🇷IR | vless | @prrofile_purple | 174",
+                "🇺🇸US | vless | @prrofile_purple | 165",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 17",
@@ -207,12 +206,12 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 22",
                 "🇬🇧GB | vless | @ServerNett | 24",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇬🇧GB | vless | @v2ray_swhil | 21",
+                "🇬🇧GB | vless | @v2ray_swhil | 20",
                 "🇩🇪DE | vless | @proxyymeliii | 16",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 130",
-                "🇺🇸US | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -225,6 +224,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @https_config_injector | 21",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -752,27 +752,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 1",
-            "type": "vless",
-            "server": "discordapp.com",
-            "server_port": 80,
-            "uuid": "---DIGIV2RAY--",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Digiv2ray",
-                "headers": {
-                    "Host": "discordapp.com"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @v2logy | 8",
             "type": "vless",
             "server": "116.202.103.212",
@@ -892,17 +871,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @prrofile_purple | 174",
+            "tag": "🇺🇸US | vless | @prrofile_purple | 165",
             "type": "vless",
-            "server": "185.58.241.132",
-            "server_port": 55042,
-            "uuid": "a7910fca-5da1-4429-832e-0d372fe0dd82",
+            "server": "172.64.111.9",
+            "server_port": 443,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "edge.020770.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
+                "headers": {
+                    "Host": "edge.020770.xyz"
+                }
             }
         },
         {
@@ -1135,7 +1131,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @v2ray_swhil | 21",
+            "tag": "🇬🇧GB | vless | @v2ray_swhil | 20",
             "type": "vless",
             "server": "91.193.58.4",
             "server_port": 80,
@@ -1233,11 +1229,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @sinabigo | 4",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.64.111.9",
+            "server": "cxc--join.outline-vpn.cloud",
             "server_port": 443,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1247,7 +1243,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "edge.020770.xyz",
+                "server_name": "always-online1.lp-airdrop.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1257,9 +1253,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "edge.020770.xyz"
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
@@ -1580,6 +1576,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 11",
+            "type": "vless",
+            "server": "Vpn-MikeyMci.myftp.org",
+            "server_port": 80,
+            "uuid": "8d2b892e-3af7-4078-a079-3faa785fa1f8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
+                "headers": {
+                    "Host": "Vpn-MikeyMci.myftp.org"
                 }
             }
         },

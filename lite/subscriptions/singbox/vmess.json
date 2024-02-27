@@ -112,7 +112,6 @@
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇩🇪DE | vmess | @kingofilter | 9",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -128,7 +127,6 @@
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇩🇪DE | vmess | @kingofilter | 9",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -276,30 +274,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "35.237.192.220",
-            "server_port": 39345,
-            "uuid": "b69a2285-273c-4190-ba9c-c8702ea5bc8d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
                 }
             }
         },

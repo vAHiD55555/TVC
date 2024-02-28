@@ -148,12 +148,12 @@
                 "🇺🇸US | vless | @proxyymeliii | 13",
                 "🇦🇺AU | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇨🇦CA | vless | @V2RayTz | 14",
+                "🇺🇸US | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 156",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -231,12 +231,12 @@
                 "🇺🇸US | vless | @proxyymeliii | 13",
                 "🇦🇺AU | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇨🇦CA | vless | @V2RayTz | 14",
+                "🇺🇸US | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 156",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -1385,24 +1385,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 14",
+            "tag": "🇺🇸US | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 80,
-            "uuid": "e949e611-06bf-4d33-9e7a-db0413ecfa7e",
+            "server": "79.99.29.245",
+            "server_port": 8880,
+            "uuid": "c2f2fd49-df0b-4265-b96b-a26c0c58cb14",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.18.202.232"
-                }
             }
         },
         {
@@ -1492,17 +1485,27 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "sarebani203.irangozar.pw",
-            "server_port": 20203,
-            "uuid": "82e6cfcb-7265-4a5f-a401-5c3544ada843",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "cfcdn3.sanfencdn9.com",
+            "server_port": 80,
+            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/ibCT6z55",
+                "headers": {
+                    "Host": "cfcdn3.sanfencdn9.com"
+                }
             }
         },
         {
@@ -1863,9 +1866,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "Vpn-MikeyMci.myftp.org",
-            "server_port": 80,
-            "uuid": "8d2b892e-3af7-4078-a079-3faa785fa1f8",
+            "server": "162.159.8.55",
+            "server_port": 443,
+            "uuid": "dfb18c6f-731a-4898-a1c4-cc36c6055a90",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1873,11 +1876,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "w2.sylarsun.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "Vpn-MikeyMci.myftp.org"
+                    "Host": "w2.sylarsun.eu.org"
                 }
             }
         },

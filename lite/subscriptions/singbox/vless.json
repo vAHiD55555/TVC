@@ -125,6 +125,7 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @v2logy | 8",
+                "🏳️XX | vless | @azadi_az_inja_migzare | 6",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 29",
@@ -141,11 +142,11 @@
                 "🇺🇸US | vless | @proxyymeliii | 13",
                 "🇦🇺AU | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇺🇸US | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 156",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇯🇵JP | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -157,7 +158,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -194,6 +195,7 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @v2logy | 8",
+                "🏳️XX | vless | @azadi_az_inja_migzare | 6",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 29",
@@ -210,11 +212,11 @@
                 "🇺🇸US | vless | @proxyymeliii | 13",
                 "🇦🇺AU | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇺🇸US | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 156",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇯🇵JP | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -226,7 +228,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -773,6 +775,37 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @azadi_az_inja_migzare | 6",
+            "type": "vless",
+            "server": "v2raylucifer.wagnervpn.com",
+            "server_port": 2096,
+            "uuid": "12db81c2-1478-4e52-8c4a-d38890ce1afc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v2raylucifer.wagnervpn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "www.speedtest.net",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
@@ -1197,17 +1230,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2RayTz | 19",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "79.99.29.245",
-            "server_port": 8880,
-            "uuid": "c2f2fd49-df0b-4265-b96b-a26c0c58cb14",
+            "server": "104.18.203.232",
+            "server_port": 8080,
+            "uuid": "Parsashonam-11",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.18.203.232"
+                }
             }
         },
         {
@@ -1287,12 +1327,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇯🇵JP | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "tel-falcunargo-germany.falcunar.uk.eu.org",
-            "server_port": 8443,
-            "uuid": "091f900a-63f5-4af1-a442-8cbff5797b8a",
-            "flow": "",
+            "server": "52.192.251.232",
+            "server_port": 20009,
+            "uuid": "90f1fa90-75f7-4691-b5b7-a8e4a84d66d9",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1301,19 +1341,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tel-falcunargo-germany.falcunar.uk.eu.org",
+                "server_name": "www.timeto.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "tel-falcunargo-germany.falcunar.uk.eu.org"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Wt9cTNEcGKp6Qy2n050o5U3sDCEK1C-iuzQFYSzXknU",
+                    "short_id": "4a3749e4"
                 }
             }
         },
@@ -1625,11 +1663,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 13",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "162.159.130.234",
-            "server_port": 2053,
-            "uuid": "69fd11c0-853f-4608-ba8a-529402142638",
+            "server": "162.159.135.234",
+            "server_port": 80,
+            "uuid": "7b9d2d3a-c010-4075-9dc6-00e75182d224",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1637,22 +1675,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "xx.1lagvpn13.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "chaneltelgram:@v2rray1_ng",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon",
+                "headers": {
+                    "Host": "162.159.135.234"
+                }
             }
         },
         {

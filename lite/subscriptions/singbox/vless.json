@@ -144,7 +144,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 145",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -157,6 +157,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 22",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -211,7 +212,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 145",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -224,6 +225,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 22",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -331,7 +333,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "51.44.2.83",
+            "server": "15.236.215.76",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -972,15 +974,32 @@
         {
             "tag": "🇬🇧GB | vless | @v2rayngvpn | 9",
             "type": "vless",
-            "server": "209.38.160.224",
-            "server_port": 36235,
-            "uuid": "766cc5f7-da26-4a59-a316-60594f105c98",
+            "server": "subijonam.saramarina.com",
+            "server_port": 443,
+            "uuid": "2aada2d3-d537-49fc-a46a-f320a0e2f204",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "subijonam.saramarina.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/kKjv5KoPDQ5tLrt",
+                "headers": {
+                    "Host": "subijonam.saramarina.com"
+                }
             }
         },
         {
@@ -1228,11 +1247,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "srvx.fxnxs.com",
-            "server_port": 80,
-            "uuid": "b5e5efbf-0e18-5209-8fcf-3a25eb3dc4c3",
+            "server": "172.67.183.26",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1240,11 +1259,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/\/",
                 "headers": {
-                    "Host": "srvx.fxnxs.com"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -1575,6 +1604,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "Parsashonam-9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },

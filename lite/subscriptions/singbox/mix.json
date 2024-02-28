@@ -119,7 +119,7 @@
                 "🇩🇪DE | vless | @shh_proxy | 27",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 29",
+                "🇺🇸US | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -143,14 +143,14 @@
                 "🇬🇧GB | vless | @ServerNett | 26",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @v2ray_swhil | 23",
+                "🇬🇧GB | vless | @v2ray_swhil | 25",
                 "🇬🇧GB | vless | @proxyymeliii | 18",
                 "🇬🇧GB | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -197,7 +197,7 @@
                 "🇩🇪DE | vless | @shh_proxy | 27",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 29",
+                "🇺🇸US | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -221,14 +221,14 @@
                 "🇬🇧GB | vless | @ServerNett | 26",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @v2ray_swhil | 23",
+                "🇬🇧GB | vless | @v2ray_swhil | 25",
                 "🇬🇧GB | vless | @proxyymeliii | 18",
                 "🇬🇧GB | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -624,7 +624,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 29",
+            "tag": "🇺🇸US | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1244,36 +1244,23 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 23",
-            "type": "vmess",
-            "server": "172.67.158.126",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇬🇧GB | vless | @v2ray_swhil | 25",
+            "type": "vless",
+            "server": "91.193.58.4",
+            "server_port": 80,
+            "uuid": "VPNCUSTOMIZE---VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/VPNCUSTOMIZE-VPNCUSTOMIZE?ed=1048",
                 "headers": {
-                    "Host": "nelly.homes"
+                    "Host": "91.193.58.4"
                 }
             }
         },
@@ -1394,12 +1381,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "185.213.164.162",
-            "server_port": 80,
-            "uuid": "169d4fb3-a564-4db5-8865-09e8e0853c24",
-            "flow": "xtls-rprx-vision",
+            "server": "162.159.130.234",
+            "server_port": 2053,
+            "uuid": "69fd11c0-853f-4608-ba8a-529402142638",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1408,18 +1395,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.digikala.com",
+                "server_name": "xx.1lagvpn13.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "K4rl3rABpQbUBfL_qylcKDIvE9DuYuMfg524Pp3JCT4",
-                    "short_id": ""
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "chaneltelgram:@v2rray1_ng",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

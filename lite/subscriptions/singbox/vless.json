@@ -144,7 +144,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
-                "🇩🇪DE | vless | @DailyV2RY | 163",
+                "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -157,7 +157,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -213,7 +212,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
-                "🇩🇪DE | vless | @DailyV2RY | 163",
+                "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -226,7 +225,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1271,11 +1269,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 163",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 166",
             "type": "vless",
-            "server": "154.197.75.98",
-            "server_port": 80,
-            "uuid": "9da9c2db-1a15-4f30-9763-3e1dffb14653",
+            "server": "1.cfco.pp.ua",
+            "server_port": 2087,
+            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1283,11 +1281,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.20230619.love",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram@SINABIGO\/",
                 "headers": {
-                    "Host": "154.197.75.98"
+                    "Host": "pages.20230619.love"
                 }
             }
         },
@@ -1626,37 +1634,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "154.197.75.98"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "104.18.18.114",
-            "server_port": 2083,
-            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.20230619.love",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram🇨🇳@wangcai_8\/",
-                "headers": {
-                    "Host": "pages.20230619.love"
                 }
             }
         },

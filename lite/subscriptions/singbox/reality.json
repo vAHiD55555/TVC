@@ -110,9 +110,9 @@
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇮🇷IR | vless | @proxyymeliii | 17",
-                "🇫🇮FI | vless | @DailyV2RY | 100",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇬🇧GB | vless | @forwardv2ray | 16",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -126,9 +126,9 @@
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇮🇷IR | vless | @proxyymeliii | 17",
-                "🇫🇮FI | vless | @DailyV2RY | 100",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇬🇧GB | vless | @forwardv2ray | 16",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -291,35 +291,6 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @DailyV2RY | 100",
-            "type": "vless",
-            "server": "45.144.235.59",
-            "server_port": 18380,
-            "uuid": "ea76dee5-d575-48be-be3f-2a8be3df0bdb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telewebion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ftmSPTmVjDeRz8PYj_O9aUi5ToIlFRYhIvi-nFoqQF8",
-                    "short_id": "6429e7da"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @free1_vpn | 0",
             "type": "vless",
             "server": "164.92.250.121",
@@ -381,6 +352,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 16",
+            "type": "vless",
+            "server": "144.126.234.182",
+            "server_port": 51697,
+            "uuid": "22f3cbcc-55b5-4d71-a3ca-9d6f3287aace",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3KmWh8OPrAr-gBXyVdyS4IaB8DKUTtdIpbv5qvN15RY",
+                    "short_id": "c2abcb19"
                 }
             }
         },

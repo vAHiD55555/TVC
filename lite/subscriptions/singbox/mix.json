@@ -147,12 +147,12 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vmess | @v2ray_swhil | 26",
                 "🇮🇷IR | vless | @vless_vmess | 1",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇫🇮FI | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -167,7 +167,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vless | @forwardv2ray | 18",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -230,12 +230,12 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vmess | @v2ray_swhil | 26",
                 "🇮🇷IR | vless | @vless_vmess | 1",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇫🇮FI | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -250,7 +250,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vless | @forwardv2ray | 18",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1306,11 +1306,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 17",
             "type": "vless",
-            "server": "23.227.60.130",
-            "server_port": 2095,
-            "uuid": "65c462e3-1c45-4485-83f5-85d8c4f9e87d",
+            "server": "104.18.202.232",
+            "server_port": 2087,
+            "uuid": "8054253e-4288-4ca6-916d-f40277304739",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1318,12 +1318,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
-                "headers": {
-                    "Host": "23.227.60.130"
+            "tls": {
+                "enabled": true,
+                "server_name": "mn.moienmusic.space",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1403,13 +1413,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "65.108.52.226",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "kristin.makeup",
             "server_port": 443,
-            "uuid": "587c2cd4-e2c5-4e4c-ac23-eb38192cd02f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1417,25 +1430,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.hetzner.com",
+                "server_name": "kristin.makeup",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5To2hd8dONrepW48wI6V1hbYePWOjYHgMXiR9Gq9tF4",
-                    "short_id": "ca837ff5"
+                    "fingerprint": "chrome"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kristin.makeup"
+                }
             }
         },
         {
@@ -1812,24 +1820,17 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "78.47.96.56",
-            "server_port": 8080,
-            "uuid": "5f2bcfcb-43a0-4de3-9306-8020b9ff0c13",
+            "server": "185.58.241.110",
+            "server_port": 2610,
+            "uuid": "1d65a069-bb89-4fd8-9d8e-95c3b8714752",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "78.47.96.56"
-                }
             }
         },
         {

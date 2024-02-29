@@ -135,12 +135,12 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 9",
-                "🇺🇸US | vless | @prrofile_purple | 182",
+                "🇨🇷CR | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 22",
                 "🇨🇦CA | vless | @vmessorg | 19",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 5",
-                "🇨🇦CA | vless | @v2rayngvpn | 9",
+                "🇩🇪DE | vless | @v2rayngvpn | 7",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 36",
                 "🇬🇧GB | vless | @ServerNett | 26",
@@ -152,7 +152,6 @@
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -219,12 +218,12 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 9",
-                "🇺🇸US | vless | @prrofile_purple | 182",
+                "🇨🇷CR | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 22",
                 "🇨🇦CA | vless | @vmessorg | 19",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 5",
-                "🇨🇦CA | vless | @v2rayngvpn | 9",
+                "🇩🇪DE | vless | @v2rayngvpn | 7",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 36",
                 "🇬🇧GB | vless | @ServerNett | 26",
@@ -236,7 +235,6 @@
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -1025,7 +1023,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @prrofile_purple | 182",
+            "tag": "🇨🇷CR | vless | @prrofile_purple | 182",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1140,24 +1138,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 9",
+            "tag": "🇩🇪DE | vless | @v2rayngvpn | 7",
             "type": "vless",
-            "server": "bia-to2.unlimiteddev.site",
-            "server_port": 80,
-            "uuid": "78ab97d0-85ea-4f05-935c-468c396f0596",
+            "server": "195.201.222.249",
+            "server_port": 443,
+            "uuid": "fd3ebc4f-8e22-4a22-98fc-65e277f28d88",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
-                "headers": {
-                    "Host": "bia-to2.unlimiteddev.site"
-                }
             }
         },
         {
@@ -1423,27 +1414,6 @@
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "discordapp.com",
-            "server_port": 80,
-            "uuid": "----DIGIV2RAY---",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Digiv2ray",
-                "headers": {
-                    "Host": "discordapp.com"
-                }
-            }
         },
         {
             "tag": "🇬🇧GB | vless | @proxystore11 | 11",
@@ -1821,9 +1791,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "kristin.makeup",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "nexload.ir",
+            "server_port": 80,
+            "uuid": "17ae8dc2-042a-4132-b494-b2f71be0abcc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1834,21 +1804,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "kristin.makeup",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "kristin.makeup"
+                    "Host": ""
                 }
             }
         },

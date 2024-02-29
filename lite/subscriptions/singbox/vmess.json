@@ -287,9 +287,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "kristin.makeup",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "nexload.ir",
+            "server_port": 80,
+            "uuid": "17ae8dc2-042a-4132-b494-b2f71be0abcc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -300,21 +300,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "kristin.makeup",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "kristin.makeup"
+                    "Host": ""
                 }
             }
         },

@@ -152,7 +152,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -167,7 +167,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -236,7 +235,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -251,7 +250,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1425,11 +1423,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
             "type": "vmess",
-            "server": "warp-sub.pages.dev",
-            "server_port": 2083,
-            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "server": "104.17.25.1",
+            "server_port": 80,
+            "uuid": "83c19463-f966-4adb-a7d8-b127825ffab2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1440,21 +1438,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/urnxewzvh.site:443\/kwhmvws",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "104.17.25.1"
                 }
             }
         },
@@ -1828,40 +1816,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "154.197.75.98"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "104.21.33.32",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nelly.homes"
                 }
             }
         },

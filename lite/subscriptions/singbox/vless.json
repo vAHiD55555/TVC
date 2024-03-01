@@ -143,8 +143,9 @@
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 109",
+                "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -212,8 +213,9 @@
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 109",
+                "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -1187,11 +1189,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 109",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 107",
             "type": "vless",
-            "server": "iranserver.com",
+            "server": "www.Speedtest.net",
             "server_port": 80,
-            "uuid": "78ab97d0-85ea-4f05-935c-468c396f0596",
+            "uuid": "42a8faf9-d1f9-4fef-fbb0-694412ed496c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1201,9 +1203,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
                 "headers": {
-                    "Host": "iranserver.com"
+                    "Host": "www.Speedtest.net"
                 }
             }
         },
@@ -1235,6 +1237,37 @@
                 "path": "\/Telegram@SINABIGO\/",
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "104.16.30.14",
+            "server_port": 443,
+            "uuid": "4cc278b5-74b7-5d49-8f78-a412058cdbc3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "satoshi.mom",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "headers": {
+                    "Host": "satoshi.mom"
                 }
             }
         },

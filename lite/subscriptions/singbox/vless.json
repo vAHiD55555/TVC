@@ -130,7 +130,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇬🇧GB | vless | @V2rayNGn | 24",
-                "🇨🇷CR | vless | @prrofile_purple | 182",
+                "🇺🇸US | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 22",
                 "🇨🇦CA | vless | @vmessorg | 19",
@@ -139,12 +139,12 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 36",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 107",
+                "🇳🇱NL | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇳🇱NL | vless | @ConfigsHUB | 19",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -199,7 +199,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇬🇧GB | vless | @V2rayNGn | 24",
-                "🇨🇷CR | vless | @prrofile_purple | 182",
+                "🇺🇸US | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 22",
                 "🇨🇦CA | vless | @vmessorg | 19",
@@ -208,12 +208,12 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 36",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 107",
+                "🇳🇱NL | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇳🇱NL | vless | @ConfigsHUB | 19",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -890,7 +890,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @prrofile_purple | 182",
+            "tag": "🇺🇸US | vless | @prrofile_purple | 182",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1114,27 +1114,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 16",
-            "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 8080,
-            "uuid": "V2rayCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@VPNCUSTOMIZE",
-                "headers": {
-                    "Host": "www.Speedtest.Net"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷IR | vless | @vless_vmess | 1",
             "type": "vless",
             "server": "l8.darklord.life",
@@ -1184,23 +1163,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 107",
+            "tag": "🇳🇱NL | vless | @DailyV2RY | 107",
             "type": "vless",
-            "server": "www.Speedtest.net",
-            "server_port": 80,
-            "uuid": "42a8faf9-d1f9-4fef-fbb0-694412ed496c",
-            "flow": "",
+            "server": "77.246.99.239",
+            "server_port": 443,
+            "uuid": "95889265-c183-4b99-a4ab-648245c05c89",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
-                "headers": {
-                    "Host": "www.Speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "canva.heydasip.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oIXlVQLyObtIYcvEtVGXrathqaxBQd0keGCIrP_KHk8",
+                    "short_id": "b3c1fd20"
                 }
             }
         },
@@ -1232,6 +1219,27 @@
                 "path": "\/Telegram@SINABIGO\/",
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "167.99.17.149",
+            "server_port": 80,
+            "uuid": "V2darkOrg",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2darkOrg",
+                "headers": {
+                    "Host": "167.99.17.149"
                 }
             }
         },

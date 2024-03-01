@@ -111,7 +111,6 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @v2ray1_ng | 6",
                 "🇳🇱NL | vless | @DailyV2RY | 107",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -127,7 +126,6 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @v2ray1_ng | 6",
                 "🇳🇱NL | vless | @DailyV2RY | 107",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -324,42 +322,6 @@
                     "public_key": "oIXlVQLyObtIYcvEtVGXrathqaxBQd0keGCIrP_KHk8",
                     "short_id": "b3c1fd20"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "5.75.225.4",
-            "server_port": 443,
-            "uuid": "b72392f9-e9bc-4f36-a112-916d32e5f389",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.hetzner.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AVh9z3yAsgz2E7o7UOWUIRcOMKgcrXJjchCIUwaviDQ",
-                    "short_id": "3eb1d20a"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

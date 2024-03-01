@@ -130,7 +130,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇬🇧GB | vless | @V2rayNGn | 26",
                 "🇸🇪SE | trojan | @PrivateVPNs | 17",
-                "🇸🇪SE | trojan | @DirectVPN | 17",
+                "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 8",
@@ -167,12 +167,13 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇩🇪DE | vless | @kingofilter | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vmess | @FoXrayIran | 1",
@@ -211,7 +212,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇬🇧GB | vless | @V2rayNGn | 26",
                 "🇸🇪SE | trojan | @PrivateVPNs | 17",
-                "🇸🇪SE | trojan | @DirectVPN | 17",
+                "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 8",
@@ -248,12 +249,13 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇩🇪DE | vless | @kingofilter | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vmess | @FoXrayIran | 1",
@@ -328,7 +330,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "13.48.110.166",
+            "server": "51.21.11.159",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -875,7 +877,7 @@
         {
             "tag": "🇸🇪SE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "16.171.86.53",
+            "server": "13.50.24.156",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -895,9 +897,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 17",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "51.21.89.155",
+            "server": "35.156.250.252",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1277,7 +1279,7 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "185.146.173.22",
+            "server": "185.146.173.21",
             "server_port": 8880,
             "uuid": "42712eb9-7f36-4d49-8df0-0e99836480cf",
             "flow": "",
@@ -1367,9 +1369,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "ufo1.bestgameir.ir",
-            "server_port": 2083,
-            "uuid": "90c392b7-f567-47d4-b584-dc1caf5bfb28",
+            "server": "panelsw.gamebestir.ir",
+            "server_port": 8443,
+            "uuid": "48536f00-298b-409a-bad1-4aaaad2ff312",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1379,7 +1381,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ufo1.bestgameir.ir",
+                "server_name": "panelsw.gamebestir.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1391,7 +1393,7 @@
                 "type": "ws",
                 "path": "\/ws",
                 "headers": {
-                    "Host": "ufo1.bestgameir.ir"
+                    "Host": "panelsw.gamebestir.ir"
                 }
             }
         },
@@ -1785,11 +1787,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "104.19.101.140",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "server": "discord.gg",
+            "server_port": 2096,
+            "uuid": "ca920952-661f-42cf-99e4-14445744fe8a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1799,7 +1801,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "baipiao406.stunning-bassoon.pages.dev",
+                "server_name": "vyaprsomofood.atkfood.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1809,9 +1811,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/see",
                 "headers": {
-                    "Host": "baipiao406.stunning-bassoon.pages.dev"
+                    "Host": "vyaprsomofood.atkfood.com"
                 }
             }
         },
@@ -1953,6 +1955,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @kingofilter | 8",
+            "type": "vless",
+            "server": "154.197.75.98",
+            "server_port": 80,
+            "uuid": "c7601c29-b2b1-4a6b-bfbb-f7e364d162a2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "154.197.75.98"
+                }
             }
         },
         {

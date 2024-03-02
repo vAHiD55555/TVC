@@ -143,6 +143,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇩🇪DE | vless | @ConfigsHUB | 10",
                 "🇺🇸US | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -153,7 +154,6 @@
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇺🇸US | vless | @forwardv2ray | 8",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 14",
@@ -164,7 +164,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🏳️XX | vless | @TVCminer | 18"
+                "🇨🇴CO | vless | @TVCminer | 17"
             ]
         },
         {
@@ -208,6 +208,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇩🇪DE | vless | @ConfigsHUB | 10",
                 "🇺🇸US | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -218,7 +219,6 @@
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇺🇸US | vless | @forwardv2ray | 8",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 14",
@@ -229,7 +229,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🏳️XX | vless | @TVCminer | 18"
+                "🇨🇴CO | vless | @TVCminer | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -296,7 +296,7 @@
         {
             "tag": "🇺🇸US | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "54.224.213.70",
+            "server": "44.221.164.99",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1199,6 +1199,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "68.183.79.172",
+            "server_port": 443,
+            "uuid": "ebec51cf-e819-412c-b242-d00b9084c41f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.darawd.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Po2J6iG_e4sGaBTxC2PGjW25gw5GwQIimL__f2gahm0",
+                    "short_id": "3daa83c7"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | @proxystore11 | 12",
             "type": "vless",
             "server": "172.67.84.80",
@@ -1472,37 +1508,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 8",
-            "type": "vless",
-            "server": "panelfw.liongame1.ir",
-            "server_port": 2083,
-            "uuid": "8b2215cc-aeb4-40a7-8113-393b77721b09",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "panelfw.liongame1.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "panelfw.liongame1.ir"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
             "type": "vless",
             "server": "discord.gg",
@@ -1734,17 +1739,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @TVCminer | 18",
+            "tag": "🇨🇴CO | vless | @TVCminer | 17",
             "type": "vless",
-            "server": "[2a01:4f8:1c1b:2b78::1]",
-            "server_port": 27628,
-            "uuid": "eb89b927-109e-46d3-a40c-b4f7feb6dccd",
+            "server": "91.195.110.217",
+            "server_port": 80,
+            "uuid": "3ebc00d8-feed-4120-9a42-a936bcdde273",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/connect\/de\/",
+                "headers": {
+                    "Host": "91.195.110.217"
+                }
             }
         }
     ],

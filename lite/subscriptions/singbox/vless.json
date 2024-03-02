@@ -112,7 +112,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 17",
                 "🇩🇪DE | vless | @ipV2Ray | 13",
-                "🇨🇦CA | vless | @melov2ray | 1",
+                "🇺🇸US | vless | @melov2ray | 1",
                 "🇩🇪DE | vless | @frev2ray | 9",
                 "🇺🇸US | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 26",
@@ -141,6 +141,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
+                "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -153,7 +154,7 @@
                 "🏳️XX | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
@@ -176,7 +177,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 17",
                 "🇩🇪DE | vless | @ipV2Ray | 13",
-                "🇨🇦CA | vless | @melov2ray | 1",
+                "🇺🇸US | vless | @melov2ray | 1",
                 "🇩🇪DE | vless | @frev2ray | 9",
                 "🇺🇸US | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 26",
@@ -205,6 +206,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
+                "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -217,7 +219,7 @@
                 "🏳️XX | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
@@ -409,7 +411,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 1",
+            "tag": "🇺🇸US | vless | @melov2ray | 1",
             "type": "vless",
             "server": "de.melov2ray.shop",
             "server_port": 2083,
@@ -1121,6 +1123,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 125",
+            "type": "vless",
+            "server": "104.16.20.145",
+            "server_port": 80,
+            "uuid": "78ab97d0-85ea-4f05-935c-468c396f0596",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "104.16.20.145"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
             "server": "104.31.16.73",
@@ -1459,11 +1482,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
             "type": "vless",
-            "server": "st-gb-1.brocdn.com",
-            "server_port": 443,
-            "uuid": "e8d6b46a-d61a-11ee-aaa8-00505603e70d",
+            "server": "www.Speedtest.net",
+            "server_port": 80,
+            "uuid": "51e25fae-6db3-48f8-ee11-3ca400393641",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1471,21 +1494,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "st-gb-1.brocdn.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/websocket",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
                 "headers": {
-                    "Host": "st-gb-1.brocdn.com"
+                    "Host": "www.Speedtest.net"
                 }
             }
         },

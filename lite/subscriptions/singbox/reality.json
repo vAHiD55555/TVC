@@ -112,8 +112,9 @@
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @free1_vpn | 2",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 16",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇬🇧GB | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @mehrosaboran | 11",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @TVCminer | 16"
@@ -129,8 +130,9 @@
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @free1_vpn | 2",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 16",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇬🇧GB | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @mehrosaboran | 11",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @TVCminer | 16"
@@ -372,6 +374,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 16",
+            "type": "vless",
+            "server": "142.93.166.107",
+            "server_port": 443,
+            "uuid": "e82351c5-c339-4d48-b90d-3524c5547912",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.partyverleih-glauberg.de",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LD8y7bs5T8tNSLcB83NQXpo0_LfHk76WWykNwXJRG3I",
+                    "short_id": "304a9854"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
@@ -401,11 +439,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @forwardv2ray | 17",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "144.126.234.182",
-            "server_port": 51697,
-            "uuid": "22f3cbcc-55b5-4d71-a3ca-9d6f3287aace",
+            "server": "riflvpn.rifl.tech",
+            "server_port": 56408,
+            "uuid": "34c16b75-b73e-4d82-b2be-d7f50a43aece",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -415,18 +453,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.sourceforge.net",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "3KmWh8OPrAr-gBXyVdyS4IaB8DKUTtdIpbv5qvN15RY",
-                    "short_id": "c2abcb19"
+                    "public_key": "MdQsCkbcpakU03Wf3YQJfcBBr4jGw_G9T21CrB_qekU",
+                    "short_id": "43abc944"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "f",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

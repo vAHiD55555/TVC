@@ -126,13 +126,12 @@
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇬🇧GB | vless | @V2rayNGn | 21",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 23",
-                "🇨🇦CA | vless | @vmessorg | 21",
                 "🇦🇱AL | vless | @v2rayNG_Matsuri | 11",
                 "🇨🇦CA | vless | @v2rayngvpn | 8",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
@@ -146,6 +145,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -191,13 +191,12 @@
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇬🇧GB | vless | @V2rayNGn | 21",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 23",
-                "🇨🇦CA | vless | @vmessorg | 21",
                 "🇦🇱AL | vless | @v2rayNG_Matsuri | 11",
                 "🇨🇦CA | vless | @v2rayngvpn | 8",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
@@ -211,6 +210,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -778,7 +778,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -910,27 +910,6 @@
                 "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
                 "headers": {
                     "Host": "bia-to2.unlimiteddev.site"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @vmessorg | 21",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "efdee8af-7ca2-46fc-822b-d653de5cc442",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@vmessorg",
-                "headers": {
-                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1241,6 +1220,27 @@
                 "path": "\/Telegram@SINABIGO\/",
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "162.159.135.234",
+            "server_port": 80,
+            "uuid": "b8d210c4-e391-4c3c-b1fa-e808d07d6982",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/join--ServerNett--ServerNett?ed=1048",
+                "headers": {
+                    "Host": "162.159.135.234"
                 }
             }
         },

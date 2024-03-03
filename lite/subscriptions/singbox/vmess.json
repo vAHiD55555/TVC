@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇩🇪DE | vmess | @ConfigsHUB | 18",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇳IN | vmess | @forwardv2ray | 17",
-                "🇨🇦CA | vmess | @FoXrayIran | 1"
+                "🇺🇿UZ | vmess | @forwardv2ray | 17"
             ]
         },
         {
@@ -122,12 +122,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇩🇪DE | vmess | @ConfigsHUB | 18",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇳IN | vmess | @forwardv2ray | 17",
-                "🇨🇦CA | vmess | @FoXrayIran | 1"
+                "🇺🇿UZ | vmess | @forwardv2ray | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -181,6 +181,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "185.135.9.208",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "worker-divine-hat-02d6.savofir317.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/nina.bond\/linkvws",
+                "headers": {
+                    "Host": "worker-divine-hat-02d6.savofir317.workers.dev"
+                }
             }
         },
         {
@@ -276,10 +310,10 @@
             }
         },
         {
-            "tag": "🇮🇳IN | vmess | @forwardv2ray | 17",
+            "tag": "🇺🇿UZ | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "202.78.162.6",
-            "server_port": 443,
+            "server": "37.110.209.228",
+            "server_port": 80,
             "uuid": "47a7d8c1-5710-4718-870c-ea14298483cf",
             "security": "auto",
             "alter_id": 0,
@@ -291,43 +325,9 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pop.serveminecraft.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/@forwardv2ray",
-                "headers": {
-                    "Host": "pop.serveminecraft.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @FoXrayIran | 1",
-            "type": "vmess",
-            "server": "tl.iranray.online",
-            "server_port": 8080,
-            "uuid": "b3c20911-126d-4c30-bd32-10152bf0b593",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
                 "headers": {
                     "Host": ""
                 }

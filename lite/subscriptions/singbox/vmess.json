@@ -110,6 +110,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -124,6 +125,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -238,6 +240,30 @@
                 "path": "\/afrhms07.xfixedfloat.cfd\/linkws",
                 "headers": {
                     "Host": "7wih-darkness-f0af.jivegoh116.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "fastly.alipay.ovh",
+            "server_port": 80,
+            "uuid": "041f0d5b-c647-4a8d-8e4e-fa7f3526a490",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/aries",
+                "headers": {
+                    "Host": ""
                 }
             }
         },

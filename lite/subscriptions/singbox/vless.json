@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 10",
+                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
@@ -151,6 +151,7 @@
                 "🇺🇸US | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -167,7 +168,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 10",
+                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
@@ -212,6 +213,7 @@
                 "🇺🇸US | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -244,7 +246,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 10",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 13",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 2083,
@@ -1373,6 +1375,37 @@
                 "path": "\/@VPNCUSTOMIZE",
                 "headers": {
                     "Host": "154.197.75.80"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "172.67.183.26",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },

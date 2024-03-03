@@ -110,6 +110,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -123,6 +124,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -233,33 +235,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 6",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 0",
             "type": "vmess",
-            "server": "v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "server_port": 80,
-            "uuid": "f61203bd-f386-4d12-9853-cc829d6b7c9d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "104.21.33.32",
+            "server": "auth.speedtest.net",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -287,6 +265,54 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "nelly.homes"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @v2Line | 6",
+            "type": "vmess",
+            "server": "v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server_port": 80,
+            "uuid": "f61203bd-f386-4d12-9853-cc829d6b7c9d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "s1c.v2.v001sss.xyz",
+            "server_port": 2082,
+            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },

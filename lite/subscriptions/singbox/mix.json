@@ -116,13 +116,13 @@
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 26",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 33",
                 "🇨🇦CA | vless | @V2rayNGmat | 4",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇺🇸US | vless | @DigiV2ray | 21",
+                "🇨🇦CA | vless | @DigiV2ray | 21",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
@@ -154,10 +154,11 @@
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇬🇧GB | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
@@ -196,13 +197,13 @@
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 26",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇩🇪DE | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 33",
                 "🇨🇦CA | vless | @V2rayNGmat | 4",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇺🇸US | vless | @DigiV2ray | 21",
+                "🇨🇦CA | vless | @DigiV2ray | 21",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
@@ -234,10 +235,11 @@
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇬🇧GB | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
@@ -542,7 +544,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -694,7 +696,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DigiV2ray | 21",
+            "tag": "🇨🇦CA | vless | @DigiV2ray | 21",
             "type": "vless",
             "server": "discordapp.com",
             "server_port": 80,
@@ -1417,11 +1419,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "49.13.63.141",
-            "server_port": 8080,
-            "uuid": "5f2bcfcb-43a0-4de3-9306-8020b9ff0c13",
+            "server": "172.64.89.170",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1429,11 +1431,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "49.13.63.141"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -1509,6 +1521,40 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "auth.speedtest.net",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nelly.homes"
+                }
             }
         },
         {
@@ -1769,9 +1815,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "104.21.33.32",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "s1c.v2.v001sss.xyz",
+            "server_port": 2082,
+            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1782,21 +1828,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "nelly.homes"
+                    "Host": ""
                 }
             }
         },

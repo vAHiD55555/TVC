@@ -114,7 +114,6 @@
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇻🇳VN | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ]
         },
@@ -130,7 +129,6 @@
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇻🇳VN | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -334,30 +332,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇻🇳VN | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "skyht2.vpndata.vn",
-            "server_port": 80,
-            "uuid": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNDATA.VPN",
-                "headers": {
-                    "Host": "skyht2.vpndata.vn"
                 }
             }
         },

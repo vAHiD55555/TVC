@@ -112,7 +112,8 @@
                 "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @frev2ray | 10",
                 "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇩🇪DE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
@@ -136,14 +137,14 @@
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 28",
-                "🇨🇦CA | vless | @proxyymeliii | 16",
+                "🇨🇦CA | vless | @proxyymeliii | 15",
                 "🇺🇸US | vless | @v2ray1_ng | 14",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @DailyV2RY | 142",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 15",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇫🇮FI | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -154,7 +155,7 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 24",
                 "🇩🇪DE | vless | @mehrosaboran | 7",
@@ -178,7 +179,8 @@
                 "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @frev2ray | 10",
                 "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇩🇪DE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
@@ -202,14 +204,14 @@
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 28",
-                "🇨🇦CA | vless | @proxyymeliii | 16",
+                "🇨🇦CA | vless | @proxyymeliii | 15",
                 "🇺🇸US | vless | @v2ray1_ng | 14",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @DailyV2RY | 142",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 15",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇫🇮FI | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -220,7 +222,7 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 24",
                 "🇩🇪DE | vless | @mehrosaboran | 7",
@@ -415,7 +417,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 3",
+            "tag": "🇨🇦CA | vless | @melov2ray | 3",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -432,6 +434,27 @@
                 "path": "\/melov2ray",
                 "headers": {
                     "Host": "chat.openai.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @frev2ray | 10",
+            "type": "vless",
+            "server": "www.Speedtest.Net",
+            "server_port": 80,
+            "uuid": "V2rayCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@VPNCUSTOMIZE",
+                "headers": {
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
@@ -1001,7 +1024,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 16",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 15",
             "type": "vless",
             "server": "cdnjs.com",
             "server_port": 443,
@@ -1174,11 +1197,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 17",
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2086,
-            "uuid": "28b156a7-75f8-4458-a368-383eb3de20d7",
+            "server": "65.109.199.8",
+            "server_port": 49446,
+            "uuid": "ded11308-5825-4e04-80ad-1916c58047af",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1187,11 +1210,11 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "ws",
-                "path": "\/FOX_VPN66",
-                "headers": {
-                    "Host": "zula.ir"
-                }
+                "type": "grpc",
+                "service_name": "Telegram",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1468,11 +1491,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "check-host.net",
-            "server_port": 8443,
-            "uuid": "8f527f90-fbe1-4dda-ee1d-b4a88ba9599e",
+            "server": "64.227.120.84",
+            "server_port": 2057,
+            "uuid": "c3dd913b-3263-4d07-de2c-e1734429f899",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1482,7 +1505,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "g5.kanal-tel-nufilter.site",
+                "server_name": "g6.kanal-tel-nufilter.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {

@@ -132,7 +132,7 @@
                 "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 9",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vless | @prrofile_purple | 179",
                 "🇺🇸US | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 25",
@@ -150,7 +150,7 @@
                 "🇺🇸US | vless | @sinabigo | 3",
                 "🇺🇸US | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇰🇷KR | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 2",
@@ -165,6 +165,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇫🇷FR | trojan | @forwardv2ray | 17",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 24",
                 "🇨🇷CR | vless | @mehrosaboran | 8",
@@ -174,7 +175,7 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇺🇸US | vless | @FoXrayIran | 0",
+                "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇺🇸US | tuic | @TUICity | 15",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
@@ -210,7 +211,7 @@
                 "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 9",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vless | @prrofile_purple | 179",
                 "🇺🇸US | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 25",
@@ -228,7 +229,7 @@
                 "🇺🇸US | vless | @sinabigo | 3",
                 "🇺🇸US | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇰🇷KR | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 2",
@@ -243,6 +244,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇫🇷FR | trojan | @forwardv2ray | 17",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 24",
                 "🇨🇷CR | vless | @mehrosaboran | 8",
@@ -252,7 +254,7 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇺🇸US | vless | @FoXrayIran | 0",
+                "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇺🇸US | tuic | @TUICity | 15",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
@@ -894,11 +896,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 12",
             "type": "vmess",
-            "server": "172.99.190.12",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "CA.plsback.top",
+            "server_port": 35318,
+            "uuid": "6129eda5-99da-4c07-ddb0-0c830ee89bb3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -908,6 +910,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -1331,11 +1343,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "tag": "🇰🇷KR | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "Mester_V2ray",
+            "server": "193.123.232.127",
+            "server_port": 31137,
+            "uuid": "86cb9a9b-dc2e-45d6-b35d-7ce1daa32a15",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1343,11 +1355,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "dns68.shift.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "dns68.shift.cloudns.org"
                 }
             }
         },
@@ -1724,6 +1746,28 @@
             }
         },
         {
+            "tag": "🇫🇷FR | trojan | @forwardv2ray | 17",
+            "type": "trojan",
+            "server": "45.32.148.182",
+            "server_port": 443,
+            "password": "wkmY1R4EcP",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "z-v2-002805.kailib.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @FAKEOFTVC | 2",
             "type": "vless",
             "server": "dehgan.rezashop.online",
@@ -1962,7 +2006,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FoXrayIran | 0",
+            "tag": "🇨🇦CA | vless | @FoXrayIran | 0",
             "type": "vless",
             "server": "c1.shoplandtr.xyz",
             "server_port": 2096,

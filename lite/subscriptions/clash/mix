@@ -131,7 +131,6 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 8","type":"vmess","server":"cfcdn2.sanfencdn9.com","port":2052,"cipher":"aes-128-gcm","uuid":"d0a3e08a-d26f-45bd-ba3c-6387f9182633","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/c9efxRCi","headers":{"host":"7nAi74jJsg1.yofnhkfc.xyz"}}}
   - {"name":"🇨🇦CA | vmess | @fnet00 | 3","type":"vmess","server":"167.114.98.162","port":"8081","cipher":"auto","uuid":"67c63963-9e52-49df-a16b-8545387be5d2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
-  - {"name":"🇬🇧GB | ss | @forwardv2ray | 17","type":"ss","server":"51.143.138.178","port":33028,"password":"LQBrLz4luy9e1qg5S7NWHM","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | vmess | @eliya_chiter0 | 3","type":"vmess","server":"104.21.30.254","port":"443","cipher":"auto","uuid":"6d9911b0-4e14-44fb-8883-52d14f550cca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"be2-vmess.sshmax.xyz"}}}
 proxy-groups:
   - name: MANUAL
@@ -152,7 +151,6 @@ proxy-groups:
       - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🇨🇦CA | vmess | @fnet00 | 3'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇬🇧GB | ss | @forwardv2ray | 17'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 3'
   - name: URL-TEST
     type: url-test
@@ -173,7 +171,6 @@ proxy-groups:
       - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🇨🇦CA | vmess | @fnet00 | 3'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇬🇧GB | ss | @forwardv2ray | 17'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 3'
   - name: FALLBACK
     type: fallback
@@ -193,7 +190,6 @@ proxy-groups:
       - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🇨🇦CA | vmess | @fnet00 | 3'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇬🇧GB | ss | @forwardv2ray | 17'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

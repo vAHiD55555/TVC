@@ -112,8 +112,9 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 20",
+                "🇨🇦CA | vless | @frev2ray | 10",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
@@ -139,7 +140,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 25",
                 "🇨🇦CA | vless | @vmessorg | 23",
-                "🇬🇧GB | vless | @v2rayNG_Matsuri | 9",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
                 "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇺🇸US | vmess | @ShadowProxy66 | 14",
@@ -152,7 +153,7 @@
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 0",
@@ -190,8 +191,9 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 20",
+                "🇨🇦CA | vless | @frev2ray | 10",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
@@ -217,7 +219,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 25",
                 "🇨🇦CA | vless | @vmessorg | 23",
-                "🇬🇧GB | vless | @v2rayNG_Matsuri | 9",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
                 "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇺🇸US | vmess | @ShadowProxy66 | 14",
@@ -230,7 +232,7 @@
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 0",
@@ -449,7 +451,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 3",
+            "tag": "🇨🇦CA | vless | @melov2ray | 3",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -487,6 +489,27 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "104.18.203.232"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @frev2ray | 10",
+            "type": "vless",
+            "server": "www.Speedtest.Net",
+            "server_port": 80,
+            "uuid": "V2rayCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@VPNCUSTOMIZE",
+                "headers": {
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
@@ -1095,12 +1118,12 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @v2rayNG_Matsuri | 9",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
             "type": "vless",
-            "server": "143.47.241.46",
-            "server_port": 16097,
-            "uuid": "378387d5-4370-4e38-9661-25796e8630ba",
-            "flow": "xtls-rprx-vision",
+            "server": "for-irancell.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1109,17 +1132,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.amazon.com",
+                "server_name": "baipiao55.stunning-bassoon.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qMH_7IYKzR0mOLN35mnQijwzN8IiWdudhryTHaQzWS0",
-                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "baipiao55.stunning-bassoon.pages.dev"
                 }
             }
         },
@@ -1417,11 +1442,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "maz.maznet.cfd",
-            "server_port": 2083,
-            "uuid": "d100d4a6-a599-4029-8ae5-4753971e2628",
+            "server": "104.18.203.232",
+            "server_port": 2095,
+            "uuid": "f38ef965-f6ae-402c-ab2c-1d42ae49bc9b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1429,21 +1454,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "join20.maznet.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "path": "\/",
                 "headers": {
-                    "Host": "join20.maznet.cfd"
+                    "Host": "104.18.203.232"
                 }
             }
         },

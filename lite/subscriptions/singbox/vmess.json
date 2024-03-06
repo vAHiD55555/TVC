@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
@@ -124,7 +124,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
@@ -188,11 +188,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "by.funhub.cc",
-            "server_port": 8443,
-            "uuid": "b33155f0-7429-4f1c-97c4-a9ba24a3b1cf",
+            "server": "asdad.cxzntq.tech",
+            "server_port": 2052,
+            "uuid": "a72196df-d41a-4bc7-89a7-b2d173106eb2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -203,21 +203,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "by.funhub.cc",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/by",
+                "path": "\/apopop",
                 "headers": {
-                    "Host": "by.funhub.cc"
+                    "Host": ""
                 }
             }
         },

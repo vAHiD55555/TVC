@@ -145,7 +145,7 @@
                 "🇳🇱NL | vless | @DailyV2RY | 141",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇺🇸US | vless | @forwardv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 7",
@@ -213,7 +213,7 @@
                 "🇳🇱NL | vless | @DailyV2RY | 141",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇺🇸US | vless | @forwardv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 7",
@@ -1298,11 +1298,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "216.205.52.121",
-            "server_port": 2053,
-            "uuid": "ec2e8ff7-e794-4ac4-9585-7ad28f188269",
+            "server": "104.18.202.232",
+            "server_port": 8080,
+            "uuid": "00832579-b508-4a21-a982-12e480e6a482",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1310,21 +1310,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ec2e8ffV2ray7-e794-4ac4-9585-7ad28f188269btoche.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "ec2e8ffV2ray7-e794-4ac4-9585-7ad28f188269btoche.pages.dev"
+                    "Host": "104.18.202.232"
                 }
             }
         },
@@ -1388,9 +1378,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "check-host.net",
-            "server_port": 80,
-            "uuid": "f8ac1bbf-5e43-41e3-fff1-adb6fbdc5444",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "Parsashonam-16",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1400,9 +1390,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "path": "\/",
                 "headers": {
-                    "Host": "check-host.net"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1561,11 +1551,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 14",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "w3.sylarsun.eu.org",
-            "server_port": 443,
-            "uuid": "89420825-e589-4735-bee1-6dc636fca343",
+            "server": "selinc--3--3--3--selinc.eubda.workers.dev",
+            "server_port": 2083,
+            "uuid": "c57db8e2-555e-4c48-b262-ec20b4ae6a50",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1575,7 +1565,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "w3.sylarsun.eu.org",
+                "server_name": "selinc--3--3--3--selinc.eubda.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1585,9 +1575,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/@V2rayN5",
+                "path": "\/vless-ws\/",
                 "headers": {
-                    "Host": "w3.sylarsun.eu.org"
+                    "Host": "selinc--3--3--3--selinc.eubda.workers.dev"
                 }
             }
         },

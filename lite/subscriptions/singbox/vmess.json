@@ -113,6 +113,7 @@
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇮🇳IN | vmess | @v2Line | 5",
+                "🇸🇬SG | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 4"
             ]
@@ -128,6 +129,7 @@
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇮🇳IN | vmess | @v2Line | 5",
+                "🇸🇬SG | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 4"
             ],
@@ -308,6 +310,33 @@
                 "path": "\/RACEVPN",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "66.42.55.85",
+            "server_port": 443,
+            "uuid": "0e0f8e06-3ae6-4889-9bf8-6d744b57369f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

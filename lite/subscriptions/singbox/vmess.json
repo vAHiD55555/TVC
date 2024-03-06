@@ -108,12 +108,14 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
+                "🇩🇪DE | vmess | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 3"
             ]
         },
@@ -123,12 +125,14 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
+                "🇩🇪DE | vmess | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -186,6 +190,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "172.67.68.246",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip2323.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "vip2323.cfd"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 28",
             "type": "vmess",
             "server": "195.201.2.27",
@@ -234,6 +272,23 @@
                 "headers": {
                     "Host": "kittiy.sbs"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "91.107.191.183",
+            "server_port": 8081,
+            "uuid": "2b45abf1-0330-4ef8-8e2c-9f2e063a9278",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -329,13 +384,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "join4.vmessprotocol.sbs",
-            "server_port": 2086,
-            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "server": "172.67.215.202",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -344,11 +399,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "octavi.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/IOebhLMhl1CTbFHbL95myfRX2",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "octavi.cfd"
                 }
             }
         },

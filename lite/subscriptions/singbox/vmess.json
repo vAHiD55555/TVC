@@ -111,9 +111,9 @@
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇮🇷IR | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇮🇳IN | vmess | @v2Line | 5",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 4"
             ]
@@ -127,9 +127,9 @@
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇮🇷IR | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇮🇳IN | vmess | @v2Line | 5",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 4"
             ],
@@ -263,11 +263,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @Hope_Net | 6",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "85.133.199.40",
-            "server_port": 12770,
-            "uuid": "4e6d3bc1-4ac1-4d40-b6a8-12fec89ba5f6",
+            "server": "cdnjs.com",
+            "server_port": 443,
+            "uuid": "52701795-3c3b-46b4-b7cf-c5978b3a4cf2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -277,6 +277,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hdfyc5.achaemenidempireofpersia.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "sNpuhb8v1rEIIYTVEagC5V7fI",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -314,11 +331,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "4d7307e7-e037-4353-8a8d-1ec0e8b87891",
+            "server": "cfcdn3.sanfencdn9.com",
+            "server_port": 80,
+            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -329,21 +346,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "fr1-vmess.sshmax.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/video\/ibCT6z55",
                 "headers": {
-                    "Host": "fr1-vmess.sshmax.xyz"
+                    "Host": "cfcdn3.sanfencdn9.com"
                 }
             }
         },

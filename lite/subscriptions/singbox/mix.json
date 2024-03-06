@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @Parsashonam | 13",
+                "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @v2_team | 13",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 4",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -145,13 +145,12 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vless | @v2ray_swhil | 33",
                 "🇮🇷IR | vless | @proxyymeliii | 15",
-                "🇺🇸US | vmess | @v2ray1_ng | 5",
+                "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇮🇷IR | vmess | @Hope_Net | 6",
@@ -164,7 +163,7 @@
                 "🇮🇳IN | vmess | @v2Line | 5",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇹🇷TR | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 21",
                 "🇸🇪SE | vless | @mehrosaboran | 10",
@@ -186,7 +185,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @Parsashonam | 13",
+                "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @v2_team | 13",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 4",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -225,13 +224,12 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vless | @v2ray_swhil | 33",
                 "🇮🇷IR | vless | @proxyymeliii | 15",
-                "🇺🇸US | vmess | @v2ray1_ng | 5",
+                "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇮🇷IR | vmess | @Hope_Net | 6",
@@ -244,7 +242,7 @@
                 "🇮🇳IN | vmess | @v2Line | 5",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇹🇷TR | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 21",
                 "🇸🇪SE | vless | @mehrosaboran | 10",
@@ -282,11 +280,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 13",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 11",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "Parsashonam-12",
+            "uuid": "Parsashonam-13",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1268,16 +1266,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2ray1_ng | 5",
-            "type": "vmess",
-            "server": "198.41.202.5",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 2",
+            "type": "vless",
+            "server": "172.67.71.160",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1285,7 +1280,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "kittiy.sbs",
+                "server_name": "always-online1.lp-airdrop.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1295,9 +1290,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "kittiy.sbs"
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
@@ -1414,27 +1409,6 @@
             "password": "Y6R9pAtvxxzmGC",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "mci.shhproxy.site",
-            "server_port": 80,
-            "uuid": "4a585194-3b9b-454a-9789-d3f23d95468f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mci.shhproxy.site"
-                }
-            }
         },
         {
             "tag": "🇺🇸US | vmess | @yaney_01 | 5",
@@ -1754,34 +1728,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 2096,
-            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+            "server": "157.90.148.109",
+            "server_port": 443,
+            "uuid": "34dc43d7-ee19-4536-bb37-aa56178cbab4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnct.arvancode.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@SINABIGO\/",
-                "headers": {
-                    "Host": "vpnct.arvancode.eu.org"
-                }
             }
         },
         {

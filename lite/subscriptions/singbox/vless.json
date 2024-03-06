@@ -121,7 +121,7 @@
                 "🇩🇪DE | vless | @shh_proxy | 18",
                 "🇨🇦CA | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 6",
+                "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @vpn_xw | 4",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -146,7 +146,7 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇩🇪DE | vless | @free1_vpn | 0",
-                "🇨🇦CA | vless | @fnet00 | 2",
+                "🇺🇸US | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 4",
@@ -155,7 +155,6 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🏳️XX | vless | @forwardv2ray | 14",
                 "🇮🇷IR | vless | @FAKEOFTVC | 3",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇺🇸US | vless | @mehrosaboran | 5",
@@ -188,7 +187,7 @@
                 "🇩🇪DE | vless | @shh_proxy | 18",
                 "🇨🇦CA | vless | @Lockey_vpn | 10",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 6",
+                "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @vpn_xw | 4",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -213,7 +212,7 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇩🇪DE | vless | @free1_vpn | 0",
-                "🇨🇦CA | vless | @fnet00 | 2",
+                "🇺🇸US | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 4",
@@ -222,7 +221,6 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🏳️XX | vless | @forwardv2ray | 14",
                 "🇮🇷IR | vless | @FAKEOFTVC | 3",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇺🇸US | vless | @mehrosaboran | 5",
@@ -671,7 +669,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 6",
+            "tag": "🇺🇸US | vless | @free_v2rayyy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1328,7 +1326,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 2",
+            "tag": "🇺🇸US | vless | @fnet00 | 2",
             "type": "vless",
             "server": "w1.sylar8.eu.org",
             "server_port": 443,
@@ -1552,42 +1550,6 @@
                 "headers": {
                     "Host": "Mci.shhproxy.site"
                 }
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @forwardv2ray | 14",
-            "type": "vless",
-            "server": "v2logy.ddns.net",
-            "server_port": 443,
-            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

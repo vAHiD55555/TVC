@@ -111,9 +111,8 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
-                "🇩🇪DE | vmess | @ConfigsHUB | 14",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @kingofilter | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 3"
@@ -128,9 +127,8 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
-                "🇩🇪DE | vmess | @ConfigsHUB | 14",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @kingofilter | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 3"
@@ -265,23 +263,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 14",
-            "type": "vmess",
-            "server": "91.107.191.183",
-            "server_port": 8081,
-            "uuid": "2b45abf1-0330-4ef8-8e2c-9f2e063a9278",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "34.168.188.131",
@@ -306,11 +287,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "172.67.164.207",
-            "server_port": 8443,
-            "uuid": "fc0a3f44-adf4-4fd2-8023-46d4aa528892",
+            "server": "172.67.152.200",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -323,7 +304,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.baraye-azadi-info.com",
+                "server_name": "meroiy.icu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -333,9 +314,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/download",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "cdn.baraye-azadi-info.com"
+                    "Host": "meroiy.icu"
                 }
             }
         },

@@ -107,11 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇩🇪DE | vmess | @mftizi | 18",
+                "🇨🇳CN | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @v2ray1_ng | 2",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇮🇳IN | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 4"
@@ -122,11 +122,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇩🇪DE | vmess | @mftizi | 18",
+                "🇨🇳CN | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @v2ray1_ng | 2",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇮🇳IN | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 4"
@@ -169,7 +169,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @mftizi | 18",
+            "tag": "🇨🇳CN | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "gz.daxun.cyou",
             "server_port": 38011,
@@ -261,11 +261,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "us5.socifiles.com",
-            "server_port": 80,
-            "uuid": "d143ad00-dc04-11ee-907e-1239d0255272",
+            "server": "172.67.152.214",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -276,11 +276,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "meroiy.icu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "meroiy.icu"
                 }
             }
         },

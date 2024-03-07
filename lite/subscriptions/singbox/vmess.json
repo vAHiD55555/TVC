@@ -109,9 +109,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 32",
-                "🇫🇷FR | vmess | @proxyymeliii | 15",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇮🇳IN | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 4"
@@ -124,9 +123,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 32",
-                "🇫🇷FR | vmess | @proxyymeliii | 15",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇮🇳IN | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 4"
@@ -203,23 +201,6 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @proxyymeliii | 15",
-            "type": "vmess",
-            "server": "46.226.166.88",
-            "server_port": 5042,
-            "uuid": "2525600f-c794-4517-acc7-13ac608a596e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "34.168.188.131",
@@ -244,11 +225,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vmess | @Hope_Net | 9",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "66.42.55.85",
+            "server": "104.26.8.202",
             "server_port": 443,
-            "uuid": "0e0f8e06-3ae6-4889-9bf8-6d744b57369f",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -261,12 +242,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "vip2323.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "vip2323.cfd"
                 }
             }
         },

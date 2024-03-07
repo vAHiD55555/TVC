@@ -123,10 +123,10 @@
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
                 "🇨🇦CA | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇦CA | vless | @DigiV2ray | 22",
-                "🇨🇦CA | vless | @proxy_kafee | 1",
+                "🇺🇸US | vless | @DigiV2ray | 22",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -143,6 +143,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -186,10 +187,10 @@
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
                 "🇨🇦CA | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇦CA | vless | @DigiV2ray | 22",
-                "🇨🇦CA | vless | @proxy_kafee | 1",
+                "🇺🇸US | vless | @DigiV2ray | 22",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -206,6 +207,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -676,7 +678,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DigiV2ray | 22",
+            "tag": "🇺🇸US | vless | @DigiV2ray | 22",
             "type": "vless",
             "server": "discordapp.com",
             "server_port": 80,
@@ -697,11 +699,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 1",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 2",
             "type": "vless",
-            "server": "iranserver.com",
+            "server": "Check-host.net",
             "server_port": 443,
-            "uuid": "ad365744-1e25-454f-c9ad-52c255ce0cd5",
+            "uuid": "952cf989-6ef9-4e66-881b-7ed2ddb4fb3d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -711,7 +713,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "joker1.kanal-tel-nufilter.site",
+                "server_name": "joki.kanal-tel-nufilter.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -764,7 +766,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
+            "tag": "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
             "type": "vless",
             "server": "v2raymhcn.wagnervpn.com",
             "server_port": 2096,
@@ -1215,6 +1217,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Mci.shhproxy.site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "Www.Speedtest.net",
+            "server_port": 8880,
+            "uuid": "ef8028e3-bc85-4b0c-8f64-6d1c0a59efc9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "Www.Speedtest.net"
                 }
             }
         },

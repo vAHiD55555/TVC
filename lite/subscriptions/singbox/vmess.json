@@ -107,10 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 18",
+                "🇩🇪DE | vmess | @mftizi | 18",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇮🇳IN | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1"
             ]
@@ -120,10 +120,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 18",
+                "🇩🇪DE | vmess | @mftizi | 18",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇮🇳IN | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1"
             ],
@@ -165,7 +165,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 18",
+            "tag": "🇩🇪DE | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "gz.daxun.cyou",
             "server_port": 38011,
@@ -230,13 +230,13 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
+            "server": "hms08.gwdef.sbs",
             "server_port": 443,
-            "uuid": "b829e687-72af-4de0-95ee-15d2074aa3d4",
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -247,7 +247,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
+                "server_name": "gwdef.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -257,9 +257,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/speedtest",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "Dusseldorf.kotick.site"
+                    "Host": "gwdef.sbs"
                 }
             }
         },

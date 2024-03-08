@@ -112,8 +112,8 @@
                 "🇭🇰HK | vmess | @yaney_01 | 5",
                 "🇩🇪DE | vmess | @Hope_Net | 3",
                 "🇮🇳IN | vmess | @v2Line | 6",
-                "🇮🇶IQ | vmess | @forwardv2ray | 8",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇩🇪DE | vmess | @kingofilter | 8",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ]
@@ -128,8 +128,8 @@
                 "🇭🇰HK | vmess | @yaney_01 | 5",
                 "🇩🇪DE | vmess | @Hope_Net | 3",
                 "🇮🇳IN | vmess | @v2Line | 6",
-                "🇮🇶IQ | vmess | @forwardv2ray | 8",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇩🇪DE | vmess | @kingofilter | 8",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ],
@@ -304,11 +304,11 @@
             }
         },
         {
-            "tag": "🇮🇶IQ | vmess | @forwardv2ray | 8",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "109.230.114.2",
-            "server_port": 80,
-            "uuid": "5e529016-d961-438e-9a99-0dcc5c0df208",
+            "server": "104.21.75.244",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -319,16 +319,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "janett.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@forwardv2ray",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "janett.click"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
+            "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,

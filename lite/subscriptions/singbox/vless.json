@@ -118,7 +118,7 @@
                 "🇬🇧GB | vless | @shh_proxy | 29",
                 "🇬🇧GB | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 4",
+                "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @vpn_xw | 0",
@@ -134,7 +134,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 33",
-                "🇺🇸US | vless | @v2rayNG_Matsuri | 11",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 63",
                 "🇬🇧GB | vless | @ServerNett | 22",
@@ -142,7 +142,7 @@
                 "🇬🇧GB | vless | @v2ray_swhil | 35",
                 "🇮🇷IR | vless | @proxyymeliii | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
-                "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇺🇦UA | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
@@ -183,7 +183,7 @@
                 "🇬🇧GB | vless | @shh_proxy | 29",
                 "🇬🇧GB | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 4",
+                "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @vpn_xw | 0",
@@ -199,7 +199,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 33",
-                "🇺🇸US | vless | @v2rayNG_Matsuri | 11",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 63",
                 "🇬🇧GB | vless | @ServerNett | 22",
@@ -207,7 +207,7 @@
                 "🇬🇧GB | vless | @v2ray_swhil | 35",
                 "🇮🇷IR | vless | @proxyymeliii | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
-                "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇺🇦UA | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 2",
@@ -582,7 +582,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 4",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 4",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -989,7 +989,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayNG_Matsuri | 11",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
             "type": "vless",
             "server": "w2.sylarsun.eu.org",
             "server_port": 443,
@@ -1215,11 +1215,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 18",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 17",
             "type": "vless",
             "server": "104.18.203.232",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "server_port": 80,
+            "uuid": "---DIGiV2RAY----",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1227,22 +1227,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "s1.agh9731.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Digiv2ray-",
+                "headers": {
+                    "Host": "104.18.203.232"
+                }
             }
         },
         {

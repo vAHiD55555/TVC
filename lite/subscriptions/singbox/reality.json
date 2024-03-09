@@ -111,6 +111,7 @@
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🇧🇪BE | vless | @v2rayngvpn | 11",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇧🇪BE | vless | @forwardv2ray | 14",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
         },
@@ -123,6 +124,7 @@
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🇧🇪BE | vless | @v2rayngvpn | 11",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇧🇪BE | vless | @forwardv2ray | 14",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -301,6 +303,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇧🇪BE | vless | @forwardv2ray | 14",
+            "type": "vless",
+            "server": "5.135.21.191",
+            "server_port": 8880,
+            "uuid": "0824dad3-c662-4fc2-9c4f-4566bb19f196",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "canva.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JYX6QCdjl0yIzfE_TMjJAnD0zyuroMhT2fj3oAzlTWc",
+                    "short_id": "8b62ab46"
                 }
             }
         },

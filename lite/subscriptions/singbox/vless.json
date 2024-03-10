@@ -117,14 +117,14 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇬🇧GB | vless | @shh_proxy | 26",
                 "🇬🇧GB | vless | @Lockey_vpn | 13",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇮🇷IR | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 30",
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 24",
-                "🇨🇦CA | vless | @proxy_kafee | 4",
+                "🇺🇸US | vless | @proxy_kafee | 4",
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 9",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
+                "🏳️XX | vless | @Outlinev2rayNG | 18",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 4",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 5",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -181,14 +181,14 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇬🇧GB | vless | @shh_proxy | 26",
                 "🇬🇧GB | vless | @Lockey_vpn | 13",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇮🇷IR | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 30",
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 24",
-                "🇨🇦CA | vless | @proxy_kafee | 4",
+                "🇺🇸US | vless | @proxy_kafee | 4",
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -211,7 +211,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 9",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
+                "🏳️XX | vless | @Outlinev2rayNG | 18",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 4",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 5",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -477,7 +477,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "s1.agh9731.ir",
+                "server_name": "s2.agh9731.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -544,7 +544,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -700,7 +700,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 4",
+            "tag": "🇺🇸US | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -960,9 +960,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 15",
             "type": "vless",
-            "server": "Www.Speedtest.net",
-            "server_port": 8880,
-            "uuid": "608ab2e1-ae73-426a-c72a-90cecdba7482",
+            "server": "162.159.8.55",
+            "server_port": 443,
+            "uuid": "dfb18c6f-731a-4898-a1c4-cc36c6055a90",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -970,11 +970,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "w2.sylarsun.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "path": "\/Path\/Telegram@V2ray_alpha\/?ed",
                 "headers": {
-                    "Host": "Www.Speedtest.net"
+                    "Host": "w2.sylarsun.eu.org"
                 }
             }
         },
@@ -1299,11 +1309,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 18",
+            "tag": "🏳️XX | vless | @Outlinev2rayNG | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "----DIGiV2RAY----",
+            "server": "[::ffff:6819:735]",
+            "server_port": 443,
+            "uuid": "3536ce67-8df1-445f-b9c2-66e55873fc88",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1311,12 +1321,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Digiv2ray-",
-                "headers": {
-                    "Host": "www.speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "denew1.atgolden.monster",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Hamid",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

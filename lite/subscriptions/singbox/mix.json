@@ -123,8 +123,8 @@
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇺🇸US | vless | @proxy_kafee | 4",
+                "🇨🇦CA | vless | @DigiV2ray | 24",
+                "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -163,7 +163,7 @@
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 13",
                 "🇺🇸US | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 0",
@@ -200,8 +200,8 @@
                 "🇦🇱AL | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇺🇸US | vless | @proxy_kafee | 4",
+                "🇨🇦CA | vless | @DigiV2ray | 24",
+                "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -240,7 +240,7 @@
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 13",
                 "🇺🇸US | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 0",
@@ -705,11 +705,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DigiV2ray | 23",
+            "tag": "🇨🇦CA | vless | @DigiV2ray | 24",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "-DIGIV2RAY",
+            "uuid": "-DIGiV2RAY-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -726,7 +726,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxy_kafee | 4",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -1697,36 +1697,23 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 15",
-            "type": "vmess",
-            "server": "iranserver.com",
-            "server_port": 443,
-            "uuid": "abc844f7-524c-4b14-84b8-b9a22bd479cc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 13",
+            "type": "vless",
+            "server": "Check-host.net",
+            "server_port": 8880,
+            "uuid": "29d5cd08-3ce6-42a6-e52b-e20aa7c31c15",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "no2-vmess.sshmax.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
                 "headers": {
-                    "Host": "no2-vmess.sshmax.xyz"
+                    "Host": "Check-host.net"
                 }
             }
         },

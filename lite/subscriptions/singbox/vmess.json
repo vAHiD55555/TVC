@@ -111,7 +111,7 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 97",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
-                "🏳️XX | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 6"
@@ -126,7 +126,7 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 97",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
-                "🏳️XX | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 6"
@@ -261,11 +261,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "bbacaac-caba-bcaa-cabd-aababbacbccc",
+            "server": "206.168.190.218",
+            "server_port": 8443,
+            "uuid": "7e348dc0-df7b-11ee-b235-205c6d5f5d78",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -275,6 +275,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ba24.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2RayyNGvpn",
+                "headers": {
+                    "Host": "ba24.ir"
+                }
             }
         },
         {

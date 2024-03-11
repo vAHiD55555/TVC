@@ -127,6 +127,7 @@ proxies:
   - {"name":"🇬🇧GB | ss | @VmessProtocol | 10","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇬SG | ss | @OutlineVpnOfficial | 18","type":"ss","server":"sg-ss.ipracevpn.com","port":2443,"password":"DvMeY/S8c3hsSQqrL1aWblaHscEVQ03l5lFgneMx56c=","cipher":"aes-256-gcm"}
   - {"name":"🇨🇳CN | vmess | @yaney_01 | 3","type":"vmess","server":"dotu-usv1.03p4fad6vd.com","port":"11028","cipher":"auto","uuid":"565aa5e6-15ff-3f58-b134-4ac80c744d48","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 6","type":"vmess","server":"206.168.190.218","port":"8443","cipher":"auto","uuid":"7e348dc0-df7b-11ee-b235-205c6d5f5d78","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@V2RayyNGvpn","headers":{"host":"ba24.ir"}}}
   - {"name":"🇨🇦CA | vmess | @v2Line | 6","type":"vmess","server":"ca-full.privateip.net","port":"443","cipher":"auto","uuid":"e472d68b-3a7c-4087-9915-f7323ab0bac7","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":""}}}
   - {"name":"🇱🇹LT | vmess | @eliya_chiter0 | 6","type":"vmess","server":"lt2-vmess.sshmax.xyz","port":"80","cipher":"auto","uuid":"a23a9cde-e563-4461-9b45-7843e7c28d00","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"lt2-vmess.sshmax.xyz"}}}
 proxy-groups:
@@ -144,6 +145,7 @@ proxy-groups:
       - '🇬🇧GB | ss | @VmessProtocol | 10'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 18'
       - '🇨🇳CN | vmess | @yaney_01 | 3'
+      - '🇺🇸US | vmess | @Hope_Net | 6'
       - '🇨🇦CA | vmess | @v2Line | 6'
       - '🇱🇹LT | vmess | @eliya_chiter0 | 6'
   - name: URL-TEST
@@ -161,6 +163,7 @@ proxy-groups:
       - '🇬🇧GB | ss | @VmessProtocol | 10'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 18'
       - '🇨🇳CN | vmess | @yaney_01 | 3'
+      - '🇺🇸US | vmess | @Hope_Net | 6'
       - '🇨🇦CA | vmess | @v2Line | 6'
       - '🇱🇹LT | vmess | @eliya_chiter0 | 6'
   - name: FALLBACK
@@ -177,6 +180,7 @@ proxy-groups:
       - '🇬🇧GB | ss | @VmessProtocol | 10'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 18'
       - '🇨🇳CN | vmess | @yaney_01 | 3'
+      - '🇺🇸US | vmess | @Hope_Net | 6'
       - '🇨🇦CA | vmess | @v2Line | 6'
       - '🇱🇹LT | vmess | @eliya_chiter0 | 6'
 rules:

@@ -111,10 +111,10 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
                 "🇩🇪DE | vmess | @prrofile_purple | 183",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🇫🇷FR | vmess | @Hope_Net | 4",
+                "🇫🇷FR | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @forwardv2ray | 2",
-                "🇨🇦CA | vmess | @nofiltering2 | 3",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5"
             ]
         },
@@ -127,10 +127,10 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
                 "🇩🇪DE | vmess | @prrofile_purple | 183",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🇫🇷FR | vmess | @Hope_Net | 4",
+                "🇫🇷FR | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @forwardv2ray | 2",
-                "🇨🇦CA | vmess | @nofiltering2 | 3",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -270,7 +270,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @Hope_Net | 4",
+            "tag": "🇫🇷FR | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "141.94.237.81",
             "server_port": 8443,
@@ -331,11 +331,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @forwardv2ray | 2",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "31.47.42.43",
-            "server_port": 56200,
-            "uuid": "c062685a-b4d8-4dde-bcc5-eb1b88887623",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "251780c1-1501-43b3-be2a-d144a20d479a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -345,10 +345,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hdfy5c3.foriran.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Nbs2DSTSkFWe4KVnk9AHQv",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 3",
+            "tag": "🇺🇸US | vmess | @nofiltering2 | 3",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,

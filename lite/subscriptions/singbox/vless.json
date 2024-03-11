@@ -158,7 +158,8 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇺🇸US | vless | @FAKEOFTVC | 3",
+                "🇳🇱NL | vless | @forwardv2ray | 14",
+                "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -227,7 +228,8 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇺🇸US | vless | @FAKEOFTVC | 3",
+                "🇳🇱NL | vless | @forwardv2ray | 14",
+                "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1605,7 +1607,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 3",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 14",
+            "type": "vless",
+            "server": "188.114.97.46",
+            "server_port": 443,
+            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "w1.sylar8.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/freecodes",
+                "headers": {
+                    "Host": "w1.sylar8.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
             "type": "vless",
             "server": "web.thebestvv2.xyz",
             "server_port": 2053,

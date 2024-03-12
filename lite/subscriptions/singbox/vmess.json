@@ -109,9 +109,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇪🇪EE | vmess | @oneclickvpnkeys | 11",
+                "🇳🇱NL | vmess | @v2ray1_ng | 16",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇪🇪EE | vmess | @v2Line | 6",
+                "🇳🇱NL | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 6"
             ]
@@ -123,9 +125,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇪🇪EE | vmess | @oneclickvpnkeys | 11",
+                "🇳🇱NL | vmess | @v2ray1_ng | 16",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇪🇪EE | vmess | @v2Line | 6",
+                "🇳🇱NL | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 6"
             ],
@@ -208,6 +212,30 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vmess | @v2ray1_ng | 16",
+            "type": "vmess",
+            "server": "bemyfortunes.com",
+            "server_port": 2095,
+            "uuid": "@v2ray_every_12_hours",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?@v2ray_every_12_hoursed=2048",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇨🇳CN | vmess | @yaney_01 | 3",
             "type": "vmess",
             "server": "dotu-usv1.03p4fad6vd.com",
@@ -279,6 +307,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ee1.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "eu-2.hihu.net",
+            "server_port": 80,
+            "uuid": "62225aa0-dece-11ee-b031-205c6d5f5d78",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/e9z0df63",
+                "headers": {
+                    "Host": ""
                 }
             }
         },

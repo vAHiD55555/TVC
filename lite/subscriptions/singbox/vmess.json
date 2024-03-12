@@ -110,8 +110,9 @@
                 "🇰🇷KR | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
-                "🇺🇸US | vmess | @Hope_Net | 13",
+                "🏳️XX | vmess | @Hope_Net | 13",
                 "🇪🇪EE | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 17",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 5",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
@@ -125,8 +126,9 @@
                 "🇰🇷KR | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
-                "🇺🇸US | vmess | @Hope_Net | 13",
+                "🏳️XX | vmess | @Hope_Net | 13",
                 "🇪🇪EE | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 17",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 5",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
@@ -244,11 +246,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 13",
+            "tag": "🏳️XX | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "1208.ssfree.ru",
+            "server": "mci.mosi.mosipro.ml",
             "server_port": 443,
-            "uuid": "6ae22516-dfc0-11ee-8ba4-00163e49219e",
+            "uuid": "d61ec1a6-bdcc-4be2-a7b6-adae5dc2aa52",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -261,7 +263,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "Dusseldorf.kotick.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -271,9 +273,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/search",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": ""
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
@@ -298,6 +300,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ee1.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "172.67.130.140",
+            "server_port": 2082,
+            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.130.140"
                 }
             }
         },

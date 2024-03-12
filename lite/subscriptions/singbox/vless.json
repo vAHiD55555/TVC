@@ -116,8 +116,8 @@
                 "🇨🇦CA | vless | @V2pedia | 21",
                 "🇩🇪DE | vless | @frev2ray | 14",
                 "🇨🇦CA | vless | @ARv2ray | 13",
-                "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -137,7 +137,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 32",
-                "🇸🇪SE | vless | @proxyymeliii | 12",
+                "🇨🇦CA | vless | @proxyymeliii | 11",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @sinabigo | 8",
@@ -151,7 +151,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇷CR | vless | @forwardv2ray | 17",
+                "🇬🇧GB | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -178,8 +178,8 @@
                 "🇨🇦CA | vless | @V2pedia | 21",
                 "🇩🇪DE | vless | @frev2ray | 14",
                 "🇨🇦CA | vless | @ARv2ray | 13",
-                "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -199,7 +199,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 32",
-                "🇸🇪SE | vless | @proxyymeliii | 12",
+                "🇨🇦CA | vless | @proxyymeliii | 11",
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @sinabigo | 8",
@@ -213,7 +213,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇷CR | vless | @forwardv2ray | 17",
+                "🇬🇧GB | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -521,7 +521,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -552,7 +552,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 5",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1080,11 +1080,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 12",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 11",
             "type": "vless",
-            "server": "Join.ShhProxy.Site",
-            "server_port": 443,
-            "uuid": "22499e8c-6480-4f7f-b50b-91e629199327",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "dcdfdcdd-e92f-47ae-8e7a-594c3bab8e34",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1092,21 +1092,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "shhproxy-free.xn--85-pv2cl2k5x3fipr.org.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "shhproxy-free.xn--85-pv2cl2k5x3fipr.org."
+                    "Host": "discord.gg"
                 }
             }
         },
@@ -1445,12 +1435,12 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 17",
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "190.93.247.247",
+            "server": "64.227.44.75",
             "server_port": 443,
-            "uuid": "Parsashonam-22",
-            "flow": "",
+            "uuid": "9aab567d-c1b9-4a33-9e7c-bba600ac5796",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1459,20 +1449,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mail.offch.blog",
+                "server_name": "dash.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "O5_bdsbHUkQNlWyJ0le3nijjlowhqrhSskVKiulLRwY",
+                    "short_id": "02a37375"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mail.offch.blog"
-                }
+                "type": "grpc",
+                "service_name": "@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl-@vpnowl",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

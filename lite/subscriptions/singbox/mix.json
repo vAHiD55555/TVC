@@ -164,14 +164,14 @@
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇨🇷CR | vless | @IRN_VPN | 1",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇫🇷FR | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 8",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇺🇸US | tuic | @TUICity | 19",
@@ -242,14 +242,14 @@
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇨🇷CR | vless | @IRN_VPN | 1",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇫🇷FR | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 8",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇺🇸US | tuic | @TUICity | 19",
@@ -1731,13 +1731,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "104.21.28.62",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
             "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "0965bf43-24fc-4466-bba6-6c5a7416fa2b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1745,7 +1748,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
+                "server_name": "Dusseldorf.kotick.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1755,9 +1758,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
@@ -1909,7 +1912,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
+            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,

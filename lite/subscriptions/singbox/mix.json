@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
                 "🇺🇸US | vless | @v2rayngvpn | 15",
-                "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
+                "🇺🇸US | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 32",
                 "🇨🇦CA | vless | @proxyymeliii | 13",
@@ -164,7 +164,7 @@
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇨🇷CR | vless | @IRN_VPN | 1",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇫🇷FR | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -173,7 +173,7 @@
                 "🇨🇦CA | vless | @kingofilter | 8",
                 "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇦CA | vless | @FoXrayIran | 0",
+                "🇺🇸US | vless | @FoXrayIran | 0",
                 "🇺🇸US | tuic | @TUICity | 19",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -218,7 +218,7 @@
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
                 "🇺🇸US | vless | @v2rayngvpn | 15",
-                "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
+                "🇺🇸US | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 32",
                 "🇨🇦CA | vless | @proxyymeliii | 13",
@@ -242,7 +242,7 @@
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇨🇷CR | vless | @IRN_VPN | 1",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇫🇷FR | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -251,7 +251,7 @@
                 "🇨🇦CA | vless | @kingofilter | 8",
                 "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇦CA | vless | @FoXrayIran | 0",
+                "🇺🇸US | vless | @FoXrayIran | 0",
                 "🇺🇸US | tuic | @TUICity | 19",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -1151,7 +1151,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
+            "tag": "🇺🇸US | vless | @FalconPolV2rayNG | 8",
             "type": "vless",
             "server": "3k.pureboy.eu.org",
             "server_port": 443,
@@ -1741,11 +1741,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
             "type": "vless",
-            "server": "104.21.28.62",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "104.18.200.203",
+            "server_port": 2086,
+            "uuid": "22460f3c-1e4f-4999-9032-22d1220a6345",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1753,21 +1753,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "104.18.200.203"
                 }
             }
         },
@@ -1964,7 +1954,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FoXrayIran | 0",
+            "tag": "🇺🇸US | vless | @FoXrayIran | 0",
             "type": "vless",
             "server": "c1.shoplandtr.xyz",
             "server_port": 2096,

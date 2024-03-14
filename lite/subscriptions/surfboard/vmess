@@ -12,11 +12,10 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | vmess | @ShadowProxy66 | 14 = vmess, 104.21.24.72, 80, username = 5120d7e0-5ba9-4164-b61b-0f8fefabab34, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"no1.xv2ray.net", skip-cert-verify = true, tfo = false
-🇺🇸US | vmess | @forwardv2ray | 4 = vmess, 129.146.113.254, 43121, username = d53b39e2-925e-45b6-9389-46b9fa95878b, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇺🇸US | vmess | @forwardv2ray | 4
-URL-TEST = url-test,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇺🇸US | vmess | @forwardv2ray | 4
-FALLBACK = fallback,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇺🇸US | vmess | @forwardv2ray | 4
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @ShadowProxy66 | 14
+URL-TEST = url-test,🇨🇦CA | vmess | @ShadowProxy66 | 14
+FALLBACK = fallback,🇨🇦CA | vmess | @ShadowProxy66 | 14
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

@@ -107,9 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 13",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
                 "🇹🇷TR | vless | @vless_vmess | 1",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🏳️XX | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @TVCminer | 1"
             ]
@@ -119,9 +121,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 13",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
                 "🇹🇷TR | vless | @vless_vmess | 1",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🏳️XX | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @TVCminer | 1"
             ],
@@ -176,6 +180,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
+            "type": "vless",
+            "server": "35.156.202.181",
+            "server_port": 2082,
+            "uuid": "87c86835-d800-40d1-8903-6676869884d6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "af0bgH4-m3NbjsyY0k1ffXn3bE3rrcK2lZNo5vmJxHQ",
+                    "short_id": "6d1a3ecd"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "kiava",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -272,6 +312,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "salam.sharkv2r.com",
+            "server_port": 2053,
+            "uuid": "20c1dd2c-5352-4975-b71b-1ad5b5593417",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },

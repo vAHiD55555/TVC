@@ -156,7 +156,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 17",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇩🇪DE | vless | @mehrosaboran | 14",
                 "🇩🇪DE | vless | @kiava | 2",
@@ -224,7 +224,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 17",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇩🇪DE | vless | @mehrosaboran | 14",
                 "🇩🇪DE | vless | @kiava | 2",
@@ -1563,17 +1563,32 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "78.47.241.161",
-            "server_port": 17391,
-            "uuid": "29ab736a-8789-4942-8178-d96fabaf60b8",
-            "flow": "",
+            "server": "allrevolt.r8volt.com",
+            "server_port": 8443,
+            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maps.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
+                    "short_id": "bfde1c85a6a4112a"
+                }
             }
         },
         {

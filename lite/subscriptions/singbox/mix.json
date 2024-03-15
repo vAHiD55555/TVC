@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇺🇦UA | vless | @vpn_xw | 1",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇩🇪DE | vless | @flyv2ray | 15",
-                "🇺🇸US | vmess | @forwardv2ray | 15",
+                "🇩🇪DE | ss | @forwardv2ray | 13",
                 "🇷🇴RO | vless | @FAKEOFTVC | 10",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -201,7 +201,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇺🇦UA | vless | @vpn_xw | 1",
@@ -251,7 +251,7 @@
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇩🇪DE | vless | @flyv2ray | 15",
-                "🇺🇸US | vmess | @forwardv2ray | 15",
+                "🇩🇪DE | ss | @forwardv2ray | 13",
                 "🇷🇴RO | vless | @FAKEOFTVC | 10",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -608,7 +608,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1851,38 +1851,14 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 15",
-            "type": "vmess",
-            "server": "172.67.168.34",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "marien.motorcycles",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "marien.motorcycles"
-                }
-            }
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 13",
+            "type": "shadowsocks",
+            "server": "3.77.155.174",
+            "server_port": 2082,
+            "method": "chacha20-ietf-poly1305",
+            "password": "lbQ1lEmO8jVwoi6bgeKng7I8WVxR5h8bRRtzq4nwi\/U=",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇷🇴RO | vless | @FAKEOFTVC | 10",

@@ -112,7 +112,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
-                "🇨🇦CA | vless | @melov2ray | 4",
+                "🇺🇸US | vless | @melov2ray | 4",
                 "🇨🇦CA | vless | @V2pedia | 25",
                 "🇨🇦CA | vless | @frev2ray | 16",
                 "🇨🇦CA | vless | @ARv2ray | 14",
@@ -124,7 +124,6 @@
                 "🇺🇦UA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇺🇸US | vless | @proxy_kafee | 7",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
@@ -132,7 +131,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 24",
                 "🇨🇦CA | vless | @prrofile_purple | 174",
-                "🇺🇸US | vless | @customv2ray | 9",
+                "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 30",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
@@ -155,7 +154,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇩🇪DE | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇷🇴RO | vless | @FAKEOFTVC | 10",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -179,7 +178,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
-                "🇨🇦CA | vless | @melov2ray | 4",
+                "🇺🇸US | vless | @melov2ray | 4",
                 "🇨🇦CA | vless | @V2pedia | 25",
                 "🇨🇦CA | vless | @frev2ray | 16",
                 "🇨🇦CA | vless | @ARv2ray | 14",
@@ -191,7 +190,6 @@
                 "🇺🇦UA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇺🇸US | vless | @proxy_kafee | 7",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
@@ -199,7 +197,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 24",
                 "🇨🇦CA | vless | @prrofile_purple | 174",
-                "🇺🇸US | vless | @customv2ray | 9",
+                "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 30",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
@@ -222,7 +220,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇩🇪DE | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇷🇴RO | vless | @FAKEOFTVC | 10",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -420,7 +418,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 4",
+            "tag": "🇺🇸US | vless | @melov2ray | 4",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -735,37 +733,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxy_kafee | 7",
-            "type": "vless",
-            "server": "visa.com",
-            "server_port": 8443,
-            "uuid": "0417a448-e5d9-46a5-a60e-32062a61efab",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tel-falcunargo-nl2.falcunar.uk.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "tel-falcunargo-nl2.falcunar.uk.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @v2logy | 7",
             "type": "vless",
             "server": "dn.sonicup.lol",
@@ -943,7 +910,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @customv2ray | 9",
+            "tag": "🇨🇦CA | vless | @customv2ray | 9",
             "type": "vless",
             "server": "w2.sylarsun.eu.org",
             "server_port": 443,
@@ -1236,7 +1203,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "sj.agh9731.ir",
+                "server_name": "su.agh9731.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1567,7 +1534,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 14",
             "type": "vless",
             "server": "162.159.135.79",
             "server_port": 443,

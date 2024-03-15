@@ -143,7 +143,6 @@
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
-                "🇨🇦CA | vless | @DailyV2RY | 133",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇨🇦CA | vless | @proxystore11 | 10",
@@ -155,7 +154,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇸🇪SE | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 17",
                 "🇳🇱NL | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇩🇪DE | vless | @kiava | 2",
@@ -210,7 +209,6 @@
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
-                "🇨🇦CA | vless | @DailyV2RY | 133",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇨🇦CA | vless | @proxystore11 | 10",
@@ -222,7 +220,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇸🇪SE | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 17",
                 "🇳🇱NL | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇩🇪DE | vless | @kiava | 2",
@@ -339,7 +337,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "15.188.131.174",
+            "server": "13.38.255.69",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1225,37 +1223,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 133",
-            "type": "vless",
-            "server": "speedtest.org",
-            "server_port": 443,
-            "uuid": "0dd1347e-e342-456c-b802-779b859cca42",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "638458630910225495.aaradiantaa3.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/GQhthws",
-                "headers": {
-                    "Host": "638458630910225495.aaradiantaa3.com"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
             "server": "akfjw807r23raskodfjsf.pages.dev",
@@ -1543,23 +1510,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "www.Speedtest.net",
-            "server_port": 2052,
-            "uuid": "f3bb01c4-98a9-4e9d-f5be-597cda8e1dfc",
-            "flow": "",
+            "server": "allrevolt.r8volt.com",
+            "server_port": 443,
+            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
-                "headers": {
-                    "Host": "www.Speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "vu.nl",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Pk--Og6oefYaJlSVLEleq267EVt6NaNRIc0PR-4K9nk",
+                    "short_id": "77895d125b69cf7c"
                 }
             }
         },

@@ -107,14 +107,14 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 42",
+                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 50",
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇳🇱NL | vmess | @forwardv2ray | 15",
-                "🇺🇸US | vmess | @nofiltering2 | 1"
+                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇳🇱NL | vmess | @eliya_chiter0 | 1"
             ]
         },
         {
@@ -122,14 +122,14 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 42",
+                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 50",
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇳🇱NL | vmess | @forwardv2ray | 15",
-                "🇺🇸US | vmess | @nofiltering2 | 1"
+                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇳🇱NL | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -169,7 +169,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 18",
+            "tag": "🇨🇦CA | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "www.coldstone.club",
             "server_port": 8080,
@@ -193,7 +193,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 42",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 50",
             "type": "vmess",
             "server": "104.21.24.72",
             "server_port": 80,
@@ -299,40 +299,6 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 15",
-            "type": "vmess",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "172.67.196.110",
@@ -363,6 +329,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kellie.makeup"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vmess | @eliya_chiter0 | 1",
+            "type": "vmess",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         }

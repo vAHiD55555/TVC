@@ -113,10 +113,10 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 24",
                 "🇫🇮FI | vless | @ipV2Ray | 16",
-                "🇺🇸US | vless | @melov2ray | 6",
+                "🇨🇦CA | vless | @melov2ray | 6",
                 "🇨🇦CA | vless | @V2pedia | 25",
-                "🇨🇦CA | vless | @frev2ray | 16",
-                "🇩🇪DE | vless | @ARv2ray | 13",
+                "🇨🇦CA | vless | @frev2ray | 18",
+                "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
@@ -124,7 +124,6 @@
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇮🇷IR | vless | @proxy_kafee | 3",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
@@ -171,7 +170,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇧🇭BH | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -198,10 +197,10 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 24",
                 "🇫🇮FI | vless | @ipV2Ray | 16",
-                "🇺🇸US | vless | @melov2ray | 6",
+                "🇨🇦CA | vless | @melov2ray | 6",
                 "🇨🇦CA | vless | @V2pedia | 25",
-                "🇨🇦CA | vless | @frev2ray | 16",
-                "🇩🇪DE | vless | @ARv2ray | 13",
+                "🇨🇦CA | vless | @frev2ray | 18",
+                "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
@@ -209,7 +208,6 @@
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇮🇷IR | vless | @proxy_kafee | 3",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
@@ -256,7 +254,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇧🇭BH | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -480,7 +478,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 6",
+            "tag": "🇨🇦CA | vless | @melov2ray | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -532,7 +530,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @frev2ray | 16",
+            "tag": "🇨🇦CA | vless | @frev2ray | 18",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 80,
@@ -553,12 +551,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 13",
+            "tag": "🇨🇦CA | vless | @ARv2ray | 13",
             "type": "vless",
-            "server": "116.203.14.36",
+            "server": "check-host.net",
             "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -567,17 +565,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ftp.debian.org",
+                "server_name": "si.agh9731.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7OfU0IJewJpkFzK7AhofMDTOnjUlvc2R2BGhmkwR63w",
-                    "short_id": "2c43d820"
+                    "fingerprint": "chrome"
                 }
             },
             "transport": {
@@ -766,20 +759,6 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @proxy_kafee | 3",
-            "type": "vless",
-            "server": "185.58.241.132",
-            "server_port": 58212,
-            "uuid": "00ba7011-33e3-462e-b1d9-0991b7cd34a6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1987,14 +1966,18 @@
             }
         },
         {
-            "tag": "🇧🇭BH | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "5f34383b-03a7-4089-ba5e-70e67cfb8718",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇷🇴RO | vless | @FAKEOFTVC | 11",

@@ -112,7 +112,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 12",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 16",
-                "🇨🇦CA | vless | @melov2ray | 6",
+                "🇺🇸US | vless | @melov2ray | 6",
                 "🇨🇦CA | vless | @frev2ray | 19",
                 "🇫🇮FI | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 23",
@@ -168,14 +168,14 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇧🇭BH | ss | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @forwardv2ray | 17",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 7",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 0",
+                "🇺🇸US | vmess | @eliya_chiter0 | 0",
                 "🇺🇸US | tuic | @TUICity | 17",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -194,7 +194,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 12",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 16",
-                "🇨🇦CA | vless | @melov2ray | 6",
+                "🇺🇸US | vless | @melov2ray | 6",
                 "🇨🇦CA | vless | @frev2ray | 19",
                 "🇫🇮FI | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 23",
@@ -250,14 +250,14 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇧🇭BH | ss | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @forwardv2ray | 17",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 7",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 0",
+                "🇺🇸US | vmess | @eliya_chiter0 | 0",
                 "🇺🇸US | tuic | @TUICity | 17",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -450,7 +450,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 6",
+            "tag": "🇺🇸US | vless | @melov2ray | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1865,14 +1865,28 @@
             }
         },
         {
-            "tag": "🇧🇭BH | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "162.159.137.249",
+            "server_port": 8080,
+            "uuid": "028c8131-9e3e-4836-94ac-ea7f24d4d05a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm",
+                "headers": {
+                    "Host": "162.159.137.249"
+                }
+            }
         },
         {
             "tag": "🇷🇴RO | vless | @FAKEOFTVC | 11",
@@ -2002,7 +2016,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 0",
+            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 0",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,

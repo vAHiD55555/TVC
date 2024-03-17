@@ -114,7 +114,6 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🇦🇪AE | vmess | @Hope_Net | 3",
                 "🇵🇱PL | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 0"
             ]
         },
@@ -130,7 +129,6 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🇦🇪AE | vmess | @Hope_Net | 3",
                 "🇵🇱PL | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -348,40 +346,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
-            "type": "vmess",
-            "server": "507.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "muriel.makeup",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "muriel.makeup"
                 }
             }
         },

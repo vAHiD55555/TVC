@@ -112,7 +112,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 12",
                 "🇬🇧GB | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 16",
-                "🇨🇦CA | vless | @melov2ray | 8",
+                "🇺🇸US | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 23",
@@ -166,7 +166,7 @@
                 "🇩🇪DE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇦🇪AE | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 9",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -193,7 +193,7 @@
                 "🇨🇦CA | vless | @XsV2ray | 12",
                 "🇬🇧GB | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 16",
-                "🇨🇦CA | vless | @melov2ray | 8",
+                "🇺🇸US | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 23",
@@ -247,7 +247,7 @@
                 "🇩🇪DE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇦🇪AE | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 9",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -448,7 +448,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 8",
+            "tag": "🇺🇸US | vless | @melov2ray | 8",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -849,7 +849,7 @@
         {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 16",
             "type": "trojan",
-            "server": "18.168.184.124",
+            "server": "13.43.105.161",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -871,7 +871,7 @@
         {
             "tag": "🇬🇧GB | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "18.134.1.103",
+            "server": "35.179.72.238",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1832,14 +1832,25 @@
             }
         },
         {
-            "tag": "🇦🇪AE | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "series-a2.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "Vpn-MikeyMci.myftp.org",
+            "server_port": 8080,
+            "uuid": "4b0155d1-deb4-46c5-b100-4af6fbeb6e76",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
+                "headers": {
+                    "Host": "Vpn-MikeyMci.myftp.org"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE | vless | @FAKEOFTVC | 9",

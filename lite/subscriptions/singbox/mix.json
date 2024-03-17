@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 13",
-                "🇨🇦CA | vless | @DailyV2RY | 173",
+                "🇺🇸US | vless | @DailyV2RY | 173",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
@@ -161,8 +161,8 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
-                "🇺🇸US | vless | @FAKEOFTVC | 9",
+                "🇳🇱NL | vless | @forwardv2ray | 17",
+                "🇺🇸US | vless | @FAKEOFTVC | 8",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇬🇧GB | ss | @proxy_mtm | 1",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 13",
-                "🇨🇦CA | vless | @DailyV2RY | 173",
+                "🇺🇸US | vless | @DailyV2RY | 173",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
@@ -237,8 +237,8 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
-                "🇺🇸US | vless | @FAKEOFTVC | 9",
+                "🇳🇱NL | vless | @forwardv2ray | 17",
+                "🇺🇸US | vless | @FAKEOFTVC | 8",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇬🇧GB | ss | @proxy_mtm | 1",
@@ -1271,7 +1271,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 173",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 173",
             "type": "vless",
             "server": "www.you.com",
             "server_port": 8080,
@@ -1685,16 +1685,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "104.21.15.212",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "allrevolt.r8volt.com",
+            "server_port": 8443,
+            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1702,24 +1699,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.sbs",
+                "server_name": "maps.google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
+                    "short_id": "bfde1c85a6a4112a"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 9",
+            "tag": "🇺🇸US | vless | @FAKEOFTVC | 8",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 2053,

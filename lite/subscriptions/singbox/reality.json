@@ -109,9 +109,9 @@
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
-                "🇩🇪DE | vless | @proxyymeliii | 16",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇳🇱NL | vless | @forwardv2ray | 16",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
         },
@@ -122,9 +122,9 @@
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
-                "🇩🇪DE | vless | @proxyymeliii | 16",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇳🇱NL | vless | @forwardv2ray | 16",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -249,35 +249,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @proxyymeliii | 16",
-            "type": "vless",
-            "server": "3primeshop.getway.tech",
-            "server_port": 2095,
-            "uuid": "5ca65294-d704-4ad7-a623-da28da359f52",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GU_Z5mQ0yKBH_OlmZ8GJB4P_wJ2x7p9PB2JNQyo5408",
-                    "short_id": "c936d4c9"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @fnet00 | 2",
             "type": "vless",
             "server": "91.107.199.96",
@@ -339,6 +310,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 16",
+            "type": "vless",
+            "server": "185.142.238.222",
+            "server_port": 8443,
+            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maps.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
+                    "short_id": "bfde1c85a6a4112a"
                 }
             }
         },

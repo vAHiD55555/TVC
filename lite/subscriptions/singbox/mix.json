@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇺🇸US | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 10",
                 "🇮🇷IR | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
@@ -163,8 +163,8 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇮🇷IR | vless | @forwardv2ray | 19",
-                "🇷🇴RO | vless | @FAKEOFTVC | 1",
+                "🇬🇧GB | trojan | @forwardv2ray | 12",
+                "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -176,7 +176,7 @@
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇹🇷TR | ss | @ROMAX_VPN | 9",
                 "🇮🇷IR | vless | @TIKTOK_PROXY | 4",
-                "🇺🇸US | vless | @TVCminer | 12"
+                "🇨🇦CA | vless | @TVCminer | 12"
             ]
         },
         {
@@ -186,7 +186,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇺🇸US | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 10",
                 "🇮🇷IR | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
@@ -240,8 +240,8 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇮🇷IR | vless | @forwardv2ray | 19",
-                "🇷🇴RO | vless | @FAKEOFTVC | 1",
+                "🇬🇧GB | trojan | @forwardv2ray | 12",
+                "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -253,7 +253,7 @@
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇹🇷TR | ss | @ROMAX_VPN | 9",
                 "🇮🇷IR | vless | @TIKTOK_PROXY | 4",
-                "🇺🇸US | vless | @TVCminer | 12"
+                "🇨🇦CA | vless | @TVCminer | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -364,7 +364,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 10",
+            "tag": "🇨🇦CA | vless | @melov2ray | 10",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1734,25 +1734,33 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "gost.xxxdomain.shop",
-            "server_port": 2083,
-            "uuid": "6d968cf7-a23f-4cf8-cd13-df0ba89bc226",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇬🇧GB | trojan | @forwardv2ray | 12",
+            "type": "trojan",
+            "server": "35.179.99.56",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
-            "tag": "🇷🇴RO | vless | @FAKEOFTVC | 1",
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 0",
             "type": "vless",
-            "server": "ariossh.top",
-            "server_port": 80,
-            "uuid": "0d4ec37c-5a94-47e9-9ed5-3f3eedb563c3",
+            "server": "canva.com",
+            "server_port": 2096,
+            "uuid": "a1b26961-32ed-4d91-9d7a-128ba87e78b9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1760,9 +1768,19 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "blog1.farzamv2.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "grpc",
-                "service_name": "wpadmin",
+                "service_name": "@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF@IP_CF",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1989,7 +2007,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TVCminer | 12",
+            "tag": "🇨🇦CA | vless | @TVCminer | 12",
             "type": "vless",
             "server": "steel.footballlovernews.com",
             "server_port": 443,

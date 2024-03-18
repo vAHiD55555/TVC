@@ -124,12 +124,12 @@
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
                 "🇺🇸US | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
-                "🇨🇦CA | vless | @vmessorg | 34",
+                "🇨🇦CA | vless | @vmessorg | 35",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
@@ -151,8 +151,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇮🇷IR | vless | @Capoit | 7",
-                "🇨🇦CA | vless | @FreakConfig | 0",
-                "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @FreakConfig | 1",
+                "🇸🇪SE | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @FAKEOFTVC | 7",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -188,12 +189,12 @@
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
                 "🇺🇸US | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
-                "🇨🇦CA | vless | @vmessorg | 34",
+                "🇨🇦CA | vless | @vmessorg | 35",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
@@ -215,8 +216,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇮🇷IR | vless | @Capoit | 7",
-                "🇨🇦CA | vless | @FreakConfig | 0",
-                "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @FreakConfig | 1",
+                "🇸🇪SE | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @FAKEOFTVC | 7",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -273,7 +275,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.39.139.99",
+            "server": "15.188.233.92",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -693,7 +695,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -821,7 +823,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 34",
+            "tag": "🇨🇦CA | vless | @vmessorg | 35",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1407,7 +1409,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 0",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 1",
             "type": "vless",
             "server": "104.31.16.65",
             "server_port": 443,
@@ -1438,11 +1440,32 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 14",
+            "tag": "🇸🇪SE | vless | @flyv2ray | 13",
             "type": "vless",
-            "server": "parspack.com",
+            "server": "Join.ShhProxy.Site",
+            "server_port": 80,
+            "uuid": "eb590590-4714-4393-8611-605318f12342",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Join.ShhProxy.Site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "104.26.14.16",
             "server_port": 443,
-            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "uuid": "b4414a88-aeba-4fe4-ae85-3df934280be8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1452,7 +1475,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Bia.alLhub.Ltd",
+                "server_name": "bPB.NirEvIl.Ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1462,9 +1485,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/R0NjCirtlYnmg-Nc",
                 "headers": {
-                    "Host": "Bia.alLhub.Ltd"
+                    "Host": "bPB.NirEvIl.Ir"
                 }
             }
         },

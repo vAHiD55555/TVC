@@ -124,9 +124,10 @@
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
+                "🇮🇷IR | vless | @prrofile_purple | 165",
                 "🇺🇸US | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 35",
@@ -153,7 +154,6 @@
                 "🇮🇷IR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @FAKEOFTVC | 7",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -189,9 +189,10 @@
                 "🇨🇦CA | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
+                "🇮🇷IR | vless | @prrofile_purple | 165",
                 "🇺🇸US | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 35",
@@ -218,7 +219,6 @@
                 "🇮🇷IR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @FAKEOFTVC | 7",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -695,7 +695,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -768,6 +768,20 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @prrofile_purple | 165",
+            "type": "vless",
+            "server": "31.47.45.101",
+            "server_port": 50480,
+            "uuid": "77daa194-4af5-4300-af9b-f40bcc781b90",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1457,37 +1471,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "104.26.14.16",
-            "server_port": 443,
-            "uuid": "b4414a88-aeba-4fe4-ae85-3df934280be8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bPB.NirEvIl.Ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/R0NjCirtlYnmg-Nc",
-                "headers": {
-                    "Host": "bPB.NirEvIl.Ir"
                 }
             }
         },

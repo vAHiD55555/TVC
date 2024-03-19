@@ -109,8 +109,10 @@
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
+                "🇳🇱NL | vless | @DailyV2RY | 159",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
         },
@@ -121,8 +123,10 @@
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
+                "🇳🇱NL | vless | @DailyV2RY | 159",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -247,6 +251,35 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vless | @DailyV2RY | 159",
+            "type": "vless",
+            "server": "185.142.238.222",
+            "server_port": 8443,
+            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maps.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
+                    "short_id": "bfde1c85a6a4112a"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @fnet00 | 2",
             "type": "vless",
             "server": "91.107.199.96",
@@ -309,6 +342,42 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "503.quickvpn.shop",
+            "server_port": 567,
+            "uuid": "8aea43f9-77a8-4089-9402-428f623cc6f7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kodular.io",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L-3BNMN89itwyzSnsv4WihvszKdDONmUN9ewQYDMN1Y",
+                    "short_id": "a63e2394f0e08731"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "kodular.io"
+                ],
+                "path": "\/"
             }
         },
         {

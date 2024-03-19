@@ -109,13 +109,13 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 12",
+                "🇺🇸US | vless | @melov2ray | 12",
                 "🇮🇷IR | vless | @frev2ray | 19",
-                "🇨🇦CA | vless | @ARv2ray | 18",
+                "🇨🇷CR | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 4",
+                "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 28",
                 "🇸🇦SA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -166,7 +166,7 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 8",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -179,7 +179,7 @@
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇹🇷TR | ss | @ROMAX_VPN | 9",
                 "🇮🇷IR | vless | @TIKTOK_PROXY | 4",
-                "🇺🇸US | vless | @TVCminer | 12"
+                "🇨🇦CA | vless | @TVCminer | 12"
             ]
         },
         {
@@ -189,13 +189,13 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 12",
+                "🇺🇸US | vless | @melov2ray | 12",
                 "🇮🇷IR | vless | @frev2ray | 19",
-                "🇨🇦CA | vless | @ARv2ray | 18",
+                "🇨🇷CR | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 4",
+                "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 28",
                 "🇸🇦SA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -246,7 +246,7 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 8",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -259,7 +259,7 @@
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇹🇷TR | ss | @ROMAX_VPN | 9",
                 "🇮🇷IR | vless | @TIKTOK_PROXY | 4",
-                "🇺🇸US | vless | @TVCminer | 12"
+                "🇨🇦CA | vless | @TVCminer | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -370,7 +370,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 12",
+            "tag": "🇺🇸US | vless | @melov2ray | 12",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -415,10 +415,10 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 18",
+            "tag": "🇨🇷CR | vless | @ARv2ray | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
+            "server": "190.93.247.247",
+            "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -427,12 +427,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "www.speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "gs.agh9731.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -519,7 +529,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 4",
+            "tag": "🇺🇸US | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 443,
@@ -806,7 +816,7 @@
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "54.170.8.190",
+            "server": "52.17.85.93",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1876,33 +1886,26 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 8",
-            "type": "vless",
-            "server": "172.67.56.140",
-            "server_port": 443,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "162.159.152.2",
+            "server_port": 80,
+            "uuid": "9814e858-69d5-4fff-95e7-6453437ad4c8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "edge.020770.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1?ed",
+                "path": "\/sba-vm",
                 "headers": {
-                    "Host": "edge.020770.xyz"
+                    "Host": ""
                 }
             }
         },
@@ -2158,7 +2161,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TVCminer | 12",
+            "tag": "🇨🇦CA | vless | @TVCminer | 12",
             "type": "vless",
             "server": "steel.footballlovernews.com",
             "server_port": 443,

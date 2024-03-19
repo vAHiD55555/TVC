@@ -114,6 +114,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇵🇱PL | vmess | @v2Line | 9",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @SINABIGO | 2"
             ]
         },
@@ -129,6 +130,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇵🇱PL | vmess | @v2Line | 9",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @SINABIGO | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -361,6 +363,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "162.159.152.2",
+            "server_port": 80,
+            "uuid": "9814e858-69d5-4fff-95e7-6453437ad4c8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/sba-vm",
                 "headers": {
                     "Host": ""
                 }

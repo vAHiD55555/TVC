@@ -165,7 +165,7 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -244,7 +244,7 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -1794,39 +1794,27 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "503.quickvpn.shop",
-            "server_port": 567,
-            "uuid": "8aea43f9-77a8-4089-9402-428f623cc6f7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "162.159.130.208",
+            "server_port": 8080,
+            "uuid": "55021a7c-bd6c-418e-be95-ceac8ba27b45",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "kodular.io",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "L-3BNMN89itwyzSnsv4WihvszKdDONmUN9ewQYDMN1Y",
-                    "short_id": "a63e2394f0e08731"
-                }
-            },
             "transport": {
-                "type": "http",
-                "host": [
-                    "kodular.io"
-                ],
-                "path": "\/"
+                "type": "ws",
+                "path": "\/55021a7c-bd6c-418e-be95-ceac8ba27b45-vm",
+                "headers": {
+                    "Host": "162.159.130.208"
+                }
             }
         },
         {

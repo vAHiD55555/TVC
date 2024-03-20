@@ -171,7 +171,7 @@ proxies:
   - {"name":"🇨🇦CA | vless | @V2FETCH | 6","type":"vless","server":"k---join.outline-vpn.cloud","port":80,"udp":false,"uuid":"e1a928be-e289-4aef-b92e-4106fabdf42f","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2048","headers":{"host":"mahi.kosnanatfilterchi.eu.org"}}}
   - {"name":"🏳️XX | vless | @VpnSkyy | 7","type":"vless","server":"sky1.bbv2ry.pics","port":443,"udp":false,"uuid":"18c680fc-f921-484c-85d3-ec191f7cc983","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇮🇷IR | vless | @ROMAX_VPN | 8","type":"vless","server":"195.88.208.210","port":36165,"udp":false,"uuid":"672b9eb0-2dd1-438a-b98f-f3f3cbdea480","tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇨🇦CA | vless | @TVCminer | 12","type":"vless","server":"steel.footballlovernews.com","port":443,"udp":false,"uuid":"ec880e3c-2817-4b89-9887-ccc1fb7e3a52","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"steel.footballlovernews.com","ws-opts":{"path":"/steel"}}
+  - {"name":"🇺🇸US | vless | @TVCminer | 12","type":"vless","server":"steel.footballlovernews.com","port":443,"udp":false,"uuid":"ec880e3c-2817-4b89-9887-ccc1fb7e3a52","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"steel.footballlovernews.com","ws-opts":{"path":"/steel"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -229,7 +229,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @V2FETCH | 6'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇮🇷IR | vless | @ROMAX_VPN | 8'
-      - '🇨🇦CA | vless | @TVCminer | 12'
+      - '🇺🇸US | vless | @TVCminer | 12'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -287,7 +287,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @V2FETCH | 6'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇮🇷IR | vless | @ROMAX_VPN | 8'
-      - '🇨🇦CA | vless | @TVCminer | 12'
+      - '🇺🇸US | vless | @TVCminer | 12'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -344,7 +344,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @V2FETCH | 6'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇮🇷IR | vless | @ROMAX_VPN | 8'
-      - '🇨🇦CA | vless | @TVCminer | 12'
+      - '🇺🇸US | vless | @TVCminer | 12'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

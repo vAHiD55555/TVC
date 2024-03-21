@@ -113,6 +113,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
+                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇸🇪SE | vmess | @SINABIGO | 0",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
@@ -128,6 +129,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
+                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇸🇪SE | vmess | @SINABIGO | 0",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
@@ -305,6 +307,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "html.cdn-tgju.org",
+            "server_port": 2083,
+            "uuid": "f7b15bca-0ae8-46d8-e50a-01c67dda9b30",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "html.cdn-tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/tws",
+                "headers": {
+                    "Host": "html.cdn-tgju.org"
                 }
             }
         },

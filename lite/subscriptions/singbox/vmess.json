@@ -113,7 +113,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇩🇪DE | vmess | @forwardv2ray | 15"
+                "🏳️XX | vmess | @forwardv2ray | 19"
             ]
         },
         {
@@ -127,7 +127,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇩🇪DE | vmess | @forwardv2ray | 15"
+                "🏳️XX | vmess | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -324,11 +324,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 15",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "164.92.178.232",
-            "server_port": 8080,
-            "uuid": "69b13dec-2642-49b7-c6fb-e205a54463a0",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "c97e216c-3f6f-4e4a-bdb3-b81615d98ff5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -339,11 +339,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": ""
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         }

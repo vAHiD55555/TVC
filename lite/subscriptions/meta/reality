@@ -120,7 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮FI | vless | @ipV2Ray | 19","type":"vless","server":"95.216.171.190","port":443,"udp":true,"uuid":"8868424f-35a6-4886-a9df-20f67704919c","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"*.hetzner.com","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"X9SHLp1_m3IChdlflR17axS_JnNH3Eo47GmuF_5eAV8","short-id":"f01aead4"}}
+  - {"name":"🇫🇮FI | vless | @ipV2Ray | 18","type":"vless","server":"95.216.171.190","port":443,"udp":true,"uuid":"8868424f-35a6-4886-a9df-20f67704919c","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"*.hetzner.com","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"pyuWfUv6DN3jepoynXlvrcqNtDbcrGPxYdx7ag9BWVw","short-id":"f01aead4"}}
   - {"name":"🇳🇱NL | vless | @FalconPolV2rayNG | 9","type":"vless","server":"104.248.194.223","port":443,"udp":true,"uuid":"01b6b661-4ab1-482f-a881-1ae895bc24e5","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"*.housepets.space","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"IizwPX5xVViOal5eU9u-Nkd7OZbnsLhQtclLWklAezI","short-id":"189f1252"}}
   - {"name":"🇩🇪DE | vless | @v2ray1_ng | 10","type":"vless","server":"91.107.241.174","port":443,"udp":true,"uuid":"bca25977-36a0-4e5b-9d26-696196688f19","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"*.hetzner.com","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"jno8xemUZGAh5Su7rPcxJeq7OUwg-ruZdIDkd6B60n0","short-id":"61b87877"}}
   - {"name":"🏳️XX | vless | @V2RayTz | 19","type":"vless","server":"[2a01:4f9:c010:6fb9::51]","port":443,"udp":true,"uuid":"2cc2c64a-f1ff-44d4-ac05-4037adc9a3e2","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"gsmarena.com","grpc-opts":{"grpc-service-name":"@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN"},"reality-opts":{"public-key":"AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw","short-id":"32d7a82d"}}
@@ -134,7 +134,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇫🇮FI | vless | @ipV2Ray | 19'
+      - '🇫🇮FI | vless | @ipV2Ray | 18'
       - '🇳🇱NL | vless | @FalconPolV2rayNG | 9'
       - '🇩🇪DE | vless | @v2ray1_ng | 10'
       - '🏳️XX | vless | @V2RayTz | 19'
@@ -148,7 +148,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇫🇮FI | vless | @ipV2Ray | 19'
+      - '🇫🇮FI | vless | @ipV2Ray | 18'
       - '🇳🇱NL | vless | @FalconPolV2rayNG | 9'
       - '🇩🇪DE | vless | @v2ray1_ng | 10'
       - '🏳️XX | vless | @V2RayTz | 19'
@@ -161,7 +161,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇫🇮FI | vless | @ipV2Ray | 19'
+      - '🇫🇮FI | vless | @ipV2Ray | 18'
       - '🇳🇱NL | vless | @FalconPolV2rayNG | 9'
       - '🇩🇪DE | vless | @v2ray1_ng | 10'
       - '🏳️XX | vless | @V2RayTz | 19'

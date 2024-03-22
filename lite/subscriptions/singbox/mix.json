@@ -110,11 +110,11 @@
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 2",
-                "🇺🇸US | vless | @XsV2ray | 15",
+                "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 16",
                 "🏳️XX | vless | @VPNCUSTOMIZE | 20",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 14",
+                "🇺🇸US | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇷🇺RU | vless | @shh_proxy | 23",
@@ -162,7 +162,7 @@
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 17",
@@ -187,11 +187,11 @@
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 2",
-                "🇺🇸US | vless | @XsV2ray | 15",
+                "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 16",
                 "🏳️XX | vless | @VPNCUSTOMIZE | 20",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 14",
+                "🇺🇸US | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇷🇺RU | vless | @shh_proxy | 23",
@@ -239,7 +239,7 @@
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 17",
@@ -390,7 +390,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @XsV2ray | 15",
+            "tag": "🇨🇦CA | vless | @XsV2ray | 15",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 443,
@@ -502,7 +502,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 14",
+            "tag": "🇺🇸US | vless | @melov2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1707,11 +1707,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.24.37.148",
+            "server": "hagh.pages.dev",
             "server_port": 443,
-            "uuid": "a663bbab-4e9e-4080-b8ab-edd59fe1fdce",
+            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1721,7 +1721,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "max-allnet.hiroman5445.ir",
+                "server_name": "Hagh.PaGes.DEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1730,11 +1730,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "DvVRTw2k71qNhriZyCPvusI",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Hagh.PaGes.DEv"
+                }
             }
         },
         {

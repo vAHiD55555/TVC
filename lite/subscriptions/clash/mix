@@ -118,7 +118,6 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇮🇷IR | vmess | @azadi_az_inja_migzare | 2","type":"vmess","server":"85.9.105.222","port":"443","cipher":"auto","uuid":"19b8ef18-6e52-4a03-9801-14231b24342d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/files/","headers":{"host":"ger_tor.ir.speed-azad4.top"}}}
   - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 17","type":"trojan","server":"3.248.57.179","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇬🇧GB | trojan | @DirectVPN | 17","type":"trojan","server":"13.41.161.85","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -134,7 +133,6 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇮🇷IR | vmess | @azadi_az_inja_migzare | 2'
       - '🇮🇪IE | trojan | @PrivateVPNs | 17'
       - '🇬🇧GB | trojan | @DirectVPN | 17'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
@@ -150,7 +148,6 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇮🇷IR | vmess | @azadi_az_inja_migzare | 2'
       - '🇮🇪IE | trojan | @PrivateVPNs | 17'
       - '🇬🇧GB | trojan | @DirectVPN | 17'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
@@ -165,7 +162,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇮🇷IR | vmess | @azadi_az_inja_migzare | 2'
       - '🇮🇪IE | trojan | @PrivateVPNs | 17'
       - '🇬🇧GB | trojan | @DirectVPN | 17'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'

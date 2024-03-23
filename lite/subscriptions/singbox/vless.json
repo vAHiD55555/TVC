@@ -113,22 +113,23 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 22",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇺🇸US | vless | @melov2ray | 16",
+                "🇨🇦CA | vless | @melov2ray | 16",
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
+                "🇺🇸US | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 26",
                 "🇩🇪DE | vless | @prrofile_purple | 167",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
@@ -179,22 +180,23 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 22",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇺🇸US | vless | @melov2ray | 16",
+                "🇨🇦CA | vless | @melov2ray | 16",
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
+                "🇺🇸US | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 26",
                 "🇩🇪DE | vless | @prrofile_purple | 167",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
@@ -466,7 +468,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 16",
+            "tag": "🇨🇦CA | vless | @melov2ray | 16",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -630,7 +632,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
+            "tag": "🇺🇸US | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 443,
@@ -723,6 +725,37 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @proxy_kafee | 4",
+            "type": "vless",
+            "server": "visa.com",
+            "server_port": 8443,
+            "uuid": "e85b96b9-7f21-46f3-8b7b-104e964e9b75",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join-sho-falcunargo-nl.falcunar.uk.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "join-sho-falcunargo-nl.falcunar.uk.eu.org"
                 }
             }
         },
@@ -855,7 +888,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 13",
+            "tag": "🇺🇸US | vless | @customv2ray | 13",
             "type": "vless",
             "server": "thorianite.toptechnonews.com",
             "server_port": 443,

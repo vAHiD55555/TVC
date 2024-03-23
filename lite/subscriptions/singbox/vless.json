@@ -118,8 +118,8 @@
                 "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
@@ -154,7 +154,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -184,8 +183,8 @@
                 "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
@@ -220,7 +219,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -599,7 +597,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -630,7 +628,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 5",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 443,
@@ -1536,37 +1534,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "00-join.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "edge.020770.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
-                "headers": {
-                    "Host": "edge.020770.xyz"
                 }
             }
         },

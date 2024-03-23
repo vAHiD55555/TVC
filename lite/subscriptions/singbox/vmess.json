@@ -108,15 +108,16 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
-                "🇵🇱PL | vmess | @oneclickvpnkeys | 13",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
                 "🇺🇸US | vmess | @customv2ray | 12",
-                "🇩🇪DE | vmess | @ShadowProxy66 | 68",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 41",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇮🇷IR | vmess | @Hope_Net | 6",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 11"
             ]
         },
         {
@@ -125,15 +126,16 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
-                "🇵🇱PL | vmess | @oneclickvpnkeys | 13",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
                 "🇺🇸US | vmess | @customv2ray | 12",
-                "🇩🇪DE | vmess | @ShadowProxy66 | 68",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 41",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇮🇷IR | vmess | @Hope_Net | 6",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -197,7 +199,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -231,11 +233,11 @@
             }
         },
         {
-            "tag": "🇵🇱PL | vmess | @oneclickvpnkeys | 13",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 12",
             "type": "vmess",
-            "server": "146.59.17.58",
-            "server_port": 12960,
-            "uuid": "48a86563-63c5-4218-e887-d752f801ae82",
+            "server": "172.67.152.200",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -245,6 +247,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "meroiy.icu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "meroiy.icu"
+                }
             }
         },
         {
@@ -299,11 +318,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 68",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 41",
             "type": "vmess",
-            "server": "45.45.152.12",
-            "server_port": 8099,
-            "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+            "server": "104.21.90.218",
+            "server_port": 2086,
+            "uuid": "e690ff9e-1676-4be3-d136-dcae586cb1e7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -313,6 +332,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -392,6 +418,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 11",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "-bia--vpn--whal-",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@vpn_whal",
                 "headers": {
                     "Host": ""
                 }

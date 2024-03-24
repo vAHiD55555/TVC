@@ -118,7 +118,7 @@
                 "🇩🇪DE | vless | @ARv2ray | 19",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -142,7 +142,6 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 89",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 12",
@@ -152,9 +151,8 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 3",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @FreakConfig | 4",
+                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -184,7 +182,7 @@
                 "🇩🇪DE | vless | @ARv2ray | 19",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -208,7 +206,6 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 89",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 12",
@@ -218,9 +215,8 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 3",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @FreakConfig | 4",
+                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -611,7 +607,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1246,37 +1242,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 89",
-            "type": "vless",
-            "server": "162.159.135.79",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "test39.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@SINABIGO\/",
-                "headers": {
-                    "Host": "test39.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @sinabigo | 3",
             "type": "vless",
             "server": "skdjfsklhfgd7fgy493toksjfog.pages.dev",
@@ -1532,11 +1497,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
             "type": "vless",
-            "server": "104.21.51.208",
+            "server": "parspack.com",
             "server_port": 443,
-            "uuid": "ffffffff-eeae-4311-b37c-b2a67847fed2",
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1546,7 +1511,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "watashi.free.de.mnhacker.eu.org",
+                "server_name": "Bia.alLhub.Ltd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1558,7 +1523,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "watashi.free.de.mnhacker.eu.org"
+                    "Host": "Bia.alLhub.Ltd"
                 }
             }
         },
@@ -1568,27 +1533,6 @@
             "server": "discord.gg",
             "server_port": 80,
             "uuid": "76c53f1d-682b-4789-bbcc-d18a947d9088",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "discord.gg"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "SVNTEAMs",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {

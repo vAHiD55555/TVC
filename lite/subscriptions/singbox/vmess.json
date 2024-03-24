@@ -113,7 +113,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇵🇱PL | vmess | @v2Line | 10"
             ]
         },
@@ -128,7 +128,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇵🇱PL | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -326,11 +326,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "500.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "149.28.236.44",
+            "server_port": 47507,
+            "uuid": "dd37f6da-0bed-4344-a88a-1744dcacc26b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -340,23 +340,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "janett.click",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "janett.click"
-                }
             }
         },
         {

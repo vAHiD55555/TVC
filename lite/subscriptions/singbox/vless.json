@@ -141,7 +141,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 14",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇬🇧GB | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 107",
+                "🇺🇸US | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 12",
@@ -153,7 +153,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -207,7 +206,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 14",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇬🇧GB | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 107",
+                "🇺🇸US | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 12",
@@ -219,7 +218,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1225,7 +1223,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 107",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 107",
             "type": "vless",
             "server": "Zula.Ir.",
             "server_port": 8443,
@@ -1575,42 +1573,6 @@
                 "headers": {
                     "Host": "discord.gg"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "503.quickvpn.shop",
-            "server_port": 567,
-            "uuid": "8aea43f9-77a8-4089-9402-428f623cc6f7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kodular.io",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "L-3BNMN89itwyzSnsv4WihvszKdDONmUN9ewQYDMN1Y",
-                    "short_id": "a63e2394f0e08731"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "kodular.io"
-                ],
-                "path": "\/"
             }
         },
         {

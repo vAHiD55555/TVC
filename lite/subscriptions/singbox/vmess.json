@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 55",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
@@ -115,8 +115,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 17",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
-                "🇭🇰HK | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 19"
+                "🇭🇰HK | vmess | @v2Line | 10"
             ]
         },
         {
@@ -124,7 +123,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 55",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
@@ -132,8 +131,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 17",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
-                "🇭🇰HK | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 19"
+                "🇭🇰HK | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -173,7 +171,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🇺🇸US | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 80,
@@ -332,7 +330,7 @@
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "104.21.231.39",
+            "server": "104.21.226.10",
             "server_port": 80,
             "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
             "security": "auto",
@@ -347,9 +345,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/&Telegram🇨🇳 @WangCai08",
+                "path": "\/&Telegram🇨🇳",
                 "headers": {
-                    "Host": "104.21.231.39"
+                    "Host": ""
                 }
             }
         },
@@ -408,40 +406,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "meroiy.icu",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "meroiy.icu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "meroiy.icu"
                 }
             }
         }

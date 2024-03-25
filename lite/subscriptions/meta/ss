@@ -121,7 +121,8 @@ dns:
 
 proxies:
   - {"name":"🇸🇬SG | ss | @OutlineVpnOfficial | 17","type":"ss","server":"91.192.81.21","port":8388,"password":"1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪AE | ss | @forwardv2ray | 18","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @forwardv2ray | 18","type":"ss","server":"94.131.111.32","port":8388,"password":"NGQzMzQz","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪AE | ss | @FAKEOFTVC | 1","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇪AE | ss | @proxy_mtm | 5","type":"ss","server":"java.ct.arvancode.eu.org","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -130,7 +131,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 17'
-      - '🇦🇪AE | ss | @forwardv2ray | 18'
+      - '🇩🇪DE | ss | @forwardv2ray | 18'
+      - '🇦🇪AE | ss | @FAKEOFTVC | 1'
       - '🇦🇪AE | ss | @proxy_mtm | 5'
   - name: URL-TEST
     type: url-test
@@ -139,7 +141,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 17'
-      - '🇦🇪AE | ss | @forwardv2ray | 18'
+      - '🇩🇪DE | ss | @forwardv2ray | 18'
+      - '🇦🇪AE | ss | @FAKEOFTVC | 1'
       - '🇦🇪AE | ss | @proxy_mtm | 5'
   - name: FALLBACK
     type: fallback
@@ -147,7 +150,8 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 17'
-      - '🇦🇪AE | ss | @forwardv2ray | 18'
+      - '🇩🇪DE | ss | @forwardv2ray | 18'
+      - '🇦🇪AE | ss | @FAKEOFTVC | 1'
       - '🇦🇪AE | ss | @proxy_mtm | 5'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}

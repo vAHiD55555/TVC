@@ -113,7 +113,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 18",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 25",
                 "🇨🇷CR | vless | @ipV2Ray | 13",
-                "🇺🇸US | vless | @melov2ray | 18",
+                "🇨🇦CA | vless | @melov2ray | 18",
                 "🇨🇦CA | vless | @V2pedia | 30",
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇷🇺RU | vless | @shh_proxy | 23",
@@ -131,7 +131,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 29",
                 "🇨🇦CA | vless | @prrofile_purple | 173",
-                "🇨🇦CA | vless | @customv2ray | 11",
+                "🇮🇷IR | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
@@ -155,7 +155,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇩🇪DE | vless | @forwardv2ray | 10",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -181,7 +181,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 18",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 25",
                 "🇨🇷CR | vless | @ipV2Ray | 13",
-                "🇺🇸US | vless | @melov2ray | 18",
+                "🇨🇦CA | vless | @melov2ray | 18",
                 "🇨🇦CA | vless | @V2pedia | 30",
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇷🇺RU | vless | @shh_proxy | 23",
@@ -199,7 +199,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 29",
                 "🇨🇦CA | vless | @prrofile_purple | 173",
-                "🇨🇦CA | vless | @customv2ray | 11",
+                "🇮🇷IR | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
@@ -223,7 +223,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇩🇪DE | vless | @forwardv2ray | 10",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -465,7 +465,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 18",
+            "tag": "🇨🇦CA | vless | @melov2ray | 18",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -946,34 +946,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 11",
+            "tag": "🇮🇷IR | vless | @customv2ray | 9",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "server": "46.102.136.69",
+            "server_port": 57803,
+            "uuid": "27b08a01-7056-473d-8917-0db091da8a89",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Bia.alLhub.Ltd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Bia.alLhub.Ltd"
-                }
             }
         },
         {
@@ -1622,12 +1605,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 10",
             "type": "vless",
-            "server": "162.159.135.79",
-            "server_port": 443,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-            "flow": "",
+            "server": "503.quickvpn.shop",
+            "server_port": 567,
+            "uuid": "8aea43f9-77a8-4089-9402-428f623cc6f7",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1636,20 +1619,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "edge.020770.xyz",
+                "server_name": "kodular.io",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L-3BNMN89itwyzSnsv4WihvszKdDONmUN9ewQYDMN1Y",
+                    "short_id": "a63e2394f0e08731"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
-                "headers": {
-                    "Host": "edge.020770.xyz"
-                }
+                "type": "http",
+                "host": [
+                    "kodular.io"
+                ],
+                "path": "\/"
             }
         },
         {

@@ -113,7 +113,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 18",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 20",
                 "🇨🇦CA | vless | @ipV2Ray | 11",
-                "🇺🇸US | vless | @V2pedia | 26",
+                "🇨🇦CA | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇷🇺RU | vless | @shh_proxy | 24",
                 "🇨🇷CR | vless | @Lockey_vpn | 14",
@@ -125,7 +125,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -165,7 +165,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 10",
-                "🇦🇹AT | ss | @forwardv2ray | 16",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🇦🇪AE | ss | @FAKEOFTVC | 1",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -192,7 +192,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 18",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 20",
                 "🇨🇦CA | vless | @ipV2Ray | 11",
-                "🇺🇸US | vless | @V2pedia | 26",
+                "🇨🇦CA | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇷🇺RU | vless | @shh_proxy | 24",
                 "🇨🇷CR | vless | @Lockey_vpn | 14",
@@ -204,7 +204,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -244,7 +244,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 10",
-                "🇦🇹AT | ss | @forwardv2ray | 16",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🇦🇪AE | ss | @FAKEOFTVC | 1",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -487,7 +487,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 26",
+            "tag": "🇨🇦CA | vless | @V2pedia | 26",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8443,
@@ -785,7 +785,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1787,14 +1787,18 @@
             }
         },
         {
-            "tag": "🇦🇹AT | ss | @forwardv2ray | 16",
-            "type": "shadowsocks",
-            "server": "vienna.telegavpn.com",
-            "server_port": 61992,
-            "method": "chacha20-ietf-poly1305",
-            "password": "jPc8vCwmaTgxKR90l53SPu",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "85.133.250.66",
+            "server_port": 444,
+            "uuid": "fe7bc80b-8c54-4b72-eaf1-a19fb9ccc911",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇦🇪AE | ss | @FAKEOFTVC | 1",

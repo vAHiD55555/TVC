@@ -113,7 +113,7 @@
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 20",
                 "🇨🇦CA | vless | @ipV2Ray | 11",
-                "🇨🇦CA | vless | @melov2ray | 15",
+                "🇺🇸US | vless | @melov2ray | 15",
                 "🇺🇸US | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇷🇺RU | vless | @shh_proxy | 24",
@@ -150,11 +150,13 @@
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 40",
                 "🇳🇱NL | vless | @Outlinev2rayNG | 15",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
+                "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 9",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -179,7 +181,7 @@
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 20",
                 "🇨🇦CA | vless | @ipV2Ray | 11",
-                "🇨🇦CA | vless | @melov2ray | 15",
+                "🇺🇸US | vless | @melov2ray | 15",
                 "🇺🇸US | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇷🇺RU | vless | @shh_proxy | 24",
@@ -216,11 +218,13 @@
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 40",
                 "🇳🇱NL | vless | @Outlinev2rayNG | 15",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
+                "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 9",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -461,7 +465,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 15",
+            "tag": "🇺🇸US | vless | @melov2ray | 15",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1434,7 +1438,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
             "type": "vless",
             "server": "tgju.org",
             "server_port": 2083,
@@ -1536,6 +1540,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 6",
+            "type": "vless",
+            "server": "162.159.135.79",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "test30.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "test30.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @flyv2ray | 9",
             "type": "vless",
             "server": "00-join.outline-vpn.cloud",
@@ -1563,6 +1598,37 @@
                 "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1?ed",
                 "headers": {
                     "Host": "edge.020770.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "freee.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "w1.sylar8.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "w1.sylar8.eu.org"
                 }
             }
         },

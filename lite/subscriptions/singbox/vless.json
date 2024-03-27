@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @v2ray_swhil | 23",
+                "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇮🇷IR | vless | @proxyymeliii | 11",
                 "🇨🇷CR | vless | @MsV2ray | 5",
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
@@ -151,11 +151,12 @@
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇷CR | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -206,7 +207,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @v2ray_swhil | 23",
+                "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇮🇷IR | vless | @proxyymeliii | 11",
                 "🇨🇷CR | vless | @MsV2ray | 5",
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
@@ -218,11 +219,12 @@
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇷CR | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -1108,11 +1110,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 23",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 21",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 443,
-            "uuid": "cb211e44-7725-4ddc-b52e-6a0059162fde",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "---DIGiV2RAY----",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1120,21 +1122,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "moZ.soft98.deDYn.io",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Digiv2ray-",
                 "headers": {
-                    "Host": "moZ.soft98.deDYn.io"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1438,7 +1430,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
             "type": "vless",
             "server": "tgju.org",
             "server_port": 2083,
@@ -1557,6 +1549,27 @@
                 "path": "\/ZEDMODEON-ZEDMODEON-ZEDMODEON",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "V2darkOrg",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2darkOrg?ed=1048",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },

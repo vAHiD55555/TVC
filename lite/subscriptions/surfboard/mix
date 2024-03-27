@@ -17,12 +17,12 @@ DIRECT = direct
 🇩🇪DE | vmess | @oneclickvpnkeys | 12 = vmess, 80.71.157.105, 80, username = b656b441-2cfd-44b8-9b2e-646e9925f8f6, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇩🇪DE | ss | @OutlineVpnOfficial | 13 = ss, 217.182.198.219, 2375, encrypt-method = aes-256-gcm, password = faBAoD54k87UJG7
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
-🇩🇪DE | ss | @forwardv2ray | 19 = ss, 3.73.78.182, 2087, encrypt-method = chacha20-ietf-poly1305, password = I0JjQbBo/97VsbsAdIeOoM+4ruccPjPJxuyvHBCBjOc=
+🇺🇸US | vmess | @forwardv2ray | 19 = vmess, houdezaiwu.cycmpr.com, 43215, username = a0b3595c-2cc8-4b39-8f6a-7250f1c0038f, ws = true, tls = 1, vmess-aead = true, ws-path = /a0b3595c, ws-headers = Host:"houdezaiwu.cycmpr.com", skip-cert-verify = true, tfo = false
 🇫🇮FI | ss | @proxy_mtm | 0 = ss, 185.77.217.121, 443, encrypt-method = chacha20-ietf-poly1305, password = X7eoEBrARWsBUiVfchVEdH
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 18,🇩🇪DE | trojan | @DirectVPN | 18,🇨🇿CZ | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 12,🇩🇪DE | ss | @OutlineVpnOfficial | 13,🇨🇦CA | vmess | @yaney_01 | 1,🇩🇪DE | ss | @forwardv2ray | 19,🇫🇮FI | ss | @proxy_mtm | 0
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 18,🇩🇪DE | trojan | @DirectVPN | 18,🇨🇿CZ | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 12,🇩🇪DE | ss | @OutlineVpnOfficial | 13,🇨🇦CA | vmess | @yaney_01 | 1,🇩🇪DE | ss | @forwardv2ray | 19,🇫🇮FI | ss | @proxy_mtm | 0
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 18,🇩🇪DE | trojan | @DirectVPN | 18,🇨🇿CZ | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 12,🇩🇪DE | ss | @OutlineVpnOfficial | 13,🇨🇦CA | vmess | @yaney_01 | 1,🇩🇪DE | ss | @forwardv2ray | 19,🇫🇮FI | ss | @proxy_mtm | 0
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 18,🇩🇪DE | trojan | @DirectVPN | 18,🇨🇿CZ | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 12,🇩🇪DE | ss | @OutlineVpnOfficial | 13,🇨🇦CA | vmess | @yaney_01 | 1,🇺🇸US | vmess | @forwardv2ray | 19,🇫🇮FI | ss | @proxy_mtm | 0
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 18,🇩🇪DE | trojan | @DirectVPN | 18,🇨🇿CZ | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 12,🇩🇪DE | ss | @OutlineVpnOfficial | 13,🇨🇦CA | vmess | @yaney_01 | 1,🇺🇸US | vmess | @forwardv2ray | 19,🇫🇮FI | ss | @proxy_mtm | 0
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 18,🇩🇪DE | trojan | @DirectVPN | 18,🇨🇿CZ | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 12,🇩🇪DE | ss | @OutlineVpnOfficial | 13,🇨🇦CA | vmess | @yaney_01 | 1,🇺🇸US | vmess | @forwardv2ray | 19,🇫🇮FI | ss | @proxy_mtm | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

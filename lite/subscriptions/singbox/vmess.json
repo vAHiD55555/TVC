@@ -109,11 +109,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇿CZ | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 12",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 15",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 31",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇺🇸US | vmess | @v2Line | 10"
+                "🇺🇸US | vmess | @v2Line | 10",
+                "🇺🇸US | vmess | @forwardv2ray | 19"
             ]
         },
         {
@@ -123,11 +124,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇿CZ | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 12",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 15",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 31",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇺🇸US | vmess | @v2Line | 10"
+                "🇺🇸US | vmess | @v2Line | 10",
+                "🇺🇸US | vmess | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -215,7 +217,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 15",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 31",
             "type": "vmess",
             "server": "104.21.90.218",
             "server_port": 2086,
@@ -334,6 +336,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kittiy.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "houdezaiwu.cycmpr.com",
+            "server_port": 43215,
+            "uuid": "a0b3595c-2cc8-4b39-8f6a-7250f1c0038f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "houdezaiwu.cycmpr.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/a0b3595c",
+                "headers": {
+                    "Host": "houdezaiwu.cycmpr.com"
                 }
             }
         }

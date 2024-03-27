@@ -113,7 +113,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇷🇺RU | vless | @shh_proxy | 26",
@@ -142,7 +142,7 @@
                 "🇺🇸US | vless | @vmessorg | 35",
                 "🇮🇷IR | vless | @v2rayngvpn | 9",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 15",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 31",
                 "🇨🇦CA | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 2",
@@ -167,7 +167,7 @@
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇩🇪DE | ss | @forwardv2ray | 19",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇨🇷CR | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -193,7 +193,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇷🇺RU | vless | @shh_proxy | 26",
@@ -222,7 +222,7 @@
                 "🇺🇸US | vless | @vmessorg | 35",
                 "🇮🇷IR | vless | @v2rayngvpn | 9",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 15",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 31",
                 "🇨🇦CA | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 2",
@@ -247,7 +247,7 @@
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇩🇪DE | ss | @forwardv2ray | 19",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇨🇷CR | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -479,7 +479,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 12",
+            "tag": "🇨🇦CA | vless | @melov2ray | 12",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1181,7 +1181,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 15",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 31",
             "type": "vmess",
             "server": "104.21.90.218",
             "server_port": 2086,
@@ -1812,14 +1812,38 @@
             }
         },
         {
-            "tag": "🇩🇪DE | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "3.73.78.182",
-            "server_port": 2087,
-            "method": "chacha20-ietf-poly1305",
-            "password": "I0JjQbBo\/97VsbsAdIeOoM+4ruccPjPJxuyvHBCBjOc=",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "houdezaiwu.cycmpr.com",
+            "server_port": 43215,
+            "uuid": "a0b3595c-2cc8-4b39-8f6a-7250f1c0038f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "houdezaiwu.cycmpr.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/a0b3595c",
+                "headers": {
+                    "Host": "houdezaiwu.cycmpr.com"
+                }
+            }
         },
         {
             "tag": "🇨🇷CR | vless | @FAKEOFTVC | 2",

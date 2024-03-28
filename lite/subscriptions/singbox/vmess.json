@@ -114,7 +114,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 19"
+                "🇨🇦CA | vmess | @FAKEOFTVC | 2"
             ]
         },
         {
@@ -129,7 +129,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 19"
+                "🇨🇦CA | vmess | @FAKEOFTVC | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -350,11 +350,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vmess | @FAKEOFTVC | 2",
             "type": "vmess",
-            "server": "backend.app-browser.org",
-            "server_port": 2087,
-            "uuid": "520a5f45-d354-42f4-a658-18dbc3754645",
+            "server": "googlecloud.onflashdrive.app",
+            "server_port": 443,
+            "uuid": "956b4ae0-59da-44b0-adf8-3f6f3bed3471",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -367,7 +367,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "backend.app-browser.org",
+                "server_name": "server1.googlecloud.onflashdrive.app",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -377,9 +377,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/fws",
+                "path": "\/",
                 "headers": {
-                    "Host": "backend.app-browser.org"
+                    "Host": "server1.googlecloud.onflashdrive.app"
                 }
             }
         }

@@ -115,7 +115,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 8"
+                "🇨🇦CA | vmess | @forwardv2ray | 19"
             ]
         },
         {
@@ -131,7 +131,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 8"
+                "🇨🇦CA | vmess | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -369,9 +369,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 8",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "fragment---join.outline-vpn.cloud",
+            "server": "104.16.216.241",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -386,7 +386,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vip2323.cfd",
+                "server_name": "nelly.homes",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -398,7 +398,7 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "vip2323.cfd"
+                    "Host": "nelly.homes"
                 }
             }
         }

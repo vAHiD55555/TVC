@@ -11,13 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪DE | trojan | @PrivateVPNs | 18 = trojan, 18.193.212.108, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇮🇪IE | trojan | @DirectVPN | 18 = trojan, 52.211.35.65, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇹🇼TW | trojan | @forwardv2ray | 16 = trojan, b22.ntbq.dynu.net, 19489, password = 7170dcdc-7866-4bb6-957d-a5aa046e7c0f, udp-delay = true, skip-cert-verify = false, sni = b22.ntbq.dynu.net, ws = false
+🇩🇪DE | trojan | @PrivateVPNs | 18 = trojan, 3.121.197.222, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇨🇦CA | trojan | @DirectVPN | 18 = trojan, 15.157.105.198, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇹🇼TW | trojan | @forwardv2ray | 16
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇹🇼TW | trojan | @forwardv2ray | 16
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇹🇼TW | trojan | @forwardv2ray | 16
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18
+URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18
+FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

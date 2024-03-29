@@ -125,13 +125,13 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 9",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 6",
                 "🇨🇦CA | vless | @prrofile_purple | 178",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 33",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 11",
@@ -155,9 +155,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 16",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇸🇪SE | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
-                "🇨🇦CA | vless | @mehrosaboran | 8",
+                "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @kingofilter | 1",
@@ -193,13 +193,13 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 9",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 6",
                 "🇨🇦CA | vless | @prrofile_purple | 178",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 33",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 11",
@@ -223,9 +223,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 16",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇸🇪SE | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
-                "🇨🇦CA | vless | @mehrosaboran | 8",
+                "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @kingofilter | 1",
@@ -763,7 +763,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -939,7 +939,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 13",
+            "tag": "🇺🇸US | vless | @customv2ray | 13",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -1558,11 +1558,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 8880,
-            "uuid": "19913550-f35d-4bb4-8295-0cf9e90efa77",
+            "server": "104.21.28.62",
+            "server_port": 443,
+            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1570,11 +1570,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "edgu.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "edgu.pureboy.eu.org"
                 }
             }
         },
@@ -1600,11 +1610,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @mehrosaboran | 8",
+            "tag": "🇨🇳CN | vless | @mehrosaboran | 9",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "-DIGiV2RAY--",
+            "server": "103.184.44.4",
+            "server_port": 8880,
+            "uuid": "cd1e6903-9093-4b2a-bb41-4170c733798d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1614,9 +1624,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "103.184.44.4"
                 }
             }
         },

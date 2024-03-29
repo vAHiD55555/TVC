@@ -168,7 +168,7 @@
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇧🇭BH | ss | @forwardv2ray | 14",
+                "🇨🇦CA | vmess | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇳🇱NL | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -180,7 +180,8 @@
                 "🇸🇪SE | vless | @SvnTeam | 64",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
-                "🏳️XX | vless | @VpnSkyy | 7"
+                "🏳️XX | vless | @VpnSkyy | 7",
+                "🇧🇿BZ | vless | @TVCminer | 23"
             ]
         },
         {
@@ -249,7 +250,7 @@
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇧🇭BH | ss | @forwardv2ray | 14",
+                "🇨🇦CA | vmess | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇳🇱NL | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -261,7 +262,8 @@
                 "🇸🇪SE | vless | @SvnTeam | 64",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
-                "🏳️XX | vless | @VpnSkyy | 7"
+                "🏳️XX | vless | @VpnSkyy | 7",
+                "🇧🇿BZ | vless | @TVCminer | 23"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1861,14 +1863,38 @@
             }
         },
         {
-            "tag": "🇧🇭BH | ss | @forwardv2ray | 14",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 11",
+            "type": "vmess",
+            "server": "104.21.15.212",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "2LVVFxxHJSBMdGdl",
-            "plugin": "",
-            "plugin_opts": ""
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 1",
@@ -2162,6 +2188,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇧🇿BZ | vless | @TVCminer | 23",
+            "type": "vless",
+            "server": "45.131.211.228",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "45.131.211.228"
+                }
             }
         }
     ],

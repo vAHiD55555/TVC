@@ -168,7 +168,8 @@
                 "🇸🇪SE | vless | @SvnTeam | 64",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
-                "🏳️XX | vless | @VpnSkyy | 7"
+                "🏳️XX | vless | @VpnSkyy | 7",
+                "🇧🇿BZ | vless | @TVCminer | 23"
             ]
         },
         {
@@ -237,7 +238,8 @@
                 "🇸🇪SE | vless | @SvnTeam | 64",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 4",
-                "🏳️XX | vless | @VpnSkyy | 7"
+                "🏳️XX | vless | @VpnSkyy | 7",
+                "🇧🇿BZ | vless | @TVCminer | 23"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1893,6 +1895,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇧🇿BZ | vless | @TVCminer | 23",
+            "type": "vless",
+            "server": "45.131.211.228",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "45.131.211.228"
+                }
             }
         }
     ],

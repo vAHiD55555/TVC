@@ -113,7 +113,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 16",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 12",
+                "🇺🇸US | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 26",
@@ -142,7 +142,6 @@
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
                 "🇮🇷IR | vless | @proxyymeliii | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
-                "🇺🇸US | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 12",
                 "🇮🇷IR | vless | @DailyV2RY | 118",
@@ -151,12 +150,13 @@
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
+                "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇳🇱NL | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -183,7 +183,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 16",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 12",
+                "🇺🇸US | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 26",
@@ -212,7 +212,6 @@
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
                 "🇮🇷IR | vless | @proxyymeliii | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
-                "🇺🇸US | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 12",
                 "🇮🇷IR | vless | @DailyV2RY | 118",
@@ -221,12 +220,13 @@
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
+                "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇳🇱NL | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -449,7 +449,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 12",
+            "tag": "🇺🇸US | vless | @melov2ray | 12",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1193,37 +1193,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vless_vmess | 12",
-            "type": "vless",
-            "server": "visa.com",
-            "server_port": 8443,
-            "uuid": "e85b96b9-7f21-46f3-8b7b-104e964e9b75",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-sho-falcunargo-nl.falcunar.uk.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "join-sho-falcunargo-nl.falcunar.uk.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "185.146.173.59",
@@ -1440,11 +1409,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 13",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "hagh.pages.dev",
-            "server_port": 443,
-            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
+            "server": "dl.vds-server.ir",
+            "server_port": 2052,
+            "uuid": "b97cdd0e-bba9-4391-b265-b72f80b670db",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1452,21 +1421,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Hagh.PaGes.DEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "Hagh.PaGes.DEv"
+                    "Host": "dl.vds-server.ir"
                 }
             }
         },
@@ -1601,6 +1560,20 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "lion2.lionviip.xyz",
+            "server_port": 38620,
+            "uuid": "e7e633cf-61c8-4b93-a859-bce193e18205",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

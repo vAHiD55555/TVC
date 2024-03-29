@@ -136,7 +136,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇵🇱PL | vmess | @oneclickvpnkeys | 11",
-                "🇨🇦CA | vless | @prrofile_purple | 176",
+                "🇺🇸US | vless | @prrofile_purple | 176",
                 "🇮🇷IR | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 33",
@@ -168,7 +168,7 @@
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 11",
+                "🇫🇷FR | ss | @forwardv2ray | 13",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇳🇱NL | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -218,7 +218,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇵🇱PL | vmess | @oneclickvpnkeys | 11",
-                "🇨🇦CA | vless | @prrofile_purple | 176",
+                "🇺🇸US | vless | @prrofile_purple | 176",
                 "🇮🇷IR | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 33",
@@ -250,7 +250,7 @@
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 11",
+                "🇫🇷FR | ss | @forwardv2ray | 13",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇳🇱NL | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -1069,7 +1069,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 176",
+            "tag": "🇺🇸US | vless | @prrofile_purple | 176",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1863,38 +1863,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 11",
-            "type": "vmess",
-            "server": "104.21.15.212",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
-                }
-            }
+            "tag": "🇫🇷FR | ss | @forwardv2ray | 13",
+            "type": "shadowsocks",
+            "server": "paris.telegavpn.com",
+            "server_port": 9802,
+            "method": "chacha20-ietf-poly1305",
+            "password": "5qSt7yr9BA1p891Ne28Zoj",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 1",

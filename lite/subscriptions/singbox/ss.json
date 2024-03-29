@@ -106,16 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | ss | @OutlineVpnOfficial | 16",
-                "🇬🇧GB | ss | @forwardv2ray | 18"
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 16"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | ss | @OutlineVpnOfficial | 16",
-                "🇬🇧GB | ss | @forwardv2ray | 18"
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 16"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -144,16 +142,6 @@
             "server_port": 807,
             "method": "chacha20-ietf-poly1305",
             "password": "G!yBwPWH3Vao",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "51.145.19.84",
-            "server_port": 9870,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Ft74n7KapPt4h3qzy7Xvxi",
             "plugin": "",
             "plugin_opts": ""
         }

@@ -109,13 +109,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 14",
-                "🇵🇱PL | vmess | @oneclickvpnkeys | 14",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 14",
                 "🇩🇪DE | vmess | @prrofile_purple | 177",
                 "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 18"
+                "🇨🇦CA | vmess | @v2Line | 10"
             ]
         },
         {
@@ -125,13 +124,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 14",
-                "🇵🇱PL | vmess | @oneclickvpnkeys | 14",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 14",
                 "🇩🇪DE | vmess | @prrofile_purple | 177",
                 "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 18"
+                "🇨🇦CA | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -222,11 +220,11 @@
             }
         },
         {
-            "tag": "🇵🇱PL | vmess | @oneclickvpnkeys | 14",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 14",
             "type": "vmess",
-            "server": "146.59.17.58",
-            "server_port": 12960,
-            "uuid": "48a86563-63c5-4218-e887-d752f801ae82",
+            "server": "ftp-localcdn.kiava-cloud.us.to",
+            "server_port": 443,
+            "uuid": "36cc4baf-8abf-4b98-91bb-79a5cd12ad29",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -236,6 +234,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp-localcdn.kiava-cloud.us.to",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkiava",
+                "headers": {
+                    "Host": "ftp-localcdn.kiava-cloud.us.to"
+                }
             }
         },
         {
@@ -351,40 +366,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "janett.click"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "hms082.gwdef.sbs",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
                 }
             }
         }

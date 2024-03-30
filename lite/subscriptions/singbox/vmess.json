@@ -112,8 +112,7 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 65",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10",
-                "🇭🇰HK | vmess | @forwardv2ray | 18"
+                "🇨🇦CA | vmess | @v2Line | 10"
             ]
         },
         {
@@ -126,8 +125,7 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 65",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10",
-                "🇭🇰HK | vmess | @forwardv2ray | 18"
+                "🇨🇦CA | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -313,30 +311,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "janett.click"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "47.76.35.246",
-            "server_port": 24101,
-            "uuid": "2fbf5c4d-4748-4064-d02e-af9e5c6be060",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
                 }
             }
         }

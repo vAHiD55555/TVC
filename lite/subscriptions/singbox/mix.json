@@ -112,7 +112,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 17",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 12",
+                "🇺🇸US | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 24",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 16",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 10",
+                "🇫🇮FI | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -193,7 +193,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 17",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 12",
+                "🇺🇸US | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 24",
@@ -249,7 +249,7 @@
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 16",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 10",
+                "🇫🇮FI | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -440,7 +440,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 12",
+            "tag": "🇺🇸US | vless | @melov2ray | 12",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1884,38 +1884,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 10",
-            "type": "vmess",
-            "server": "104.21.75.244",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "janett.click",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "janett.click"
-                }
-            }
+            "tag": "🇫🇮FI | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "vpn-b.wwp.im",
+            "server_port": 47146,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qM1DbUcROQ4CeDjcCEX4oJ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 2",

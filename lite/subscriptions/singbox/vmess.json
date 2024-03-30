@@ -115,7 +115,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🏳️XX | vmess | @forwardv2ray | 17"
+                "🇨🇦CA | vmess | @forwardv2ray | 19"
             ]
         },
         {
@@ -131,7 +131,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🏳️XX | vmess | @forwardv2ray | 17"
+                "🇨🇦CA | vmess | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -372,11 +372,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "9d5a31a3-c72d-409d-900a-d41210fa4e06",
+            "server": "cfcdn1.sanfencdn9.com",
+            "server_port": 2082,
+            "uuid": "67d8b1b9-1c9f-4a8b-8ddc-0b9ec2db2d6c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -387,21 +387,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/speedtest",
+                "path": "\/video\/CuTy87zAzV\/",
                 "headers": {
-                    "Host": "Dusseldorf.kotick.site"
+                    "Host": "cfcdn1.sanfencdn9.com"
                 }
             }
         }

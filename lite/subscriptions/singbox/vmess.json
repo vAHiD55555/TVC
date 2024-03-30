@@ -374,9 +374,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "104.21.75.244",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "backend.app-browser.org",
+            "server_port": 2087,
+            "uuid": "520a5f45-d354-42f4-a658-18dbc3754645",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -389,7 +389,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "janett.click",
+                "server_name": "backend.app-browser.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -399,9 +399,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/fws",
                 "headers": {
-                    "Host": "janett.click"
+                    "Host": "backend.app-browser.org"
                 }
             }
         }

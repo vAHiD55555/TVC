@@ -112,7 +112,7 @@
                 "🇬🇧GB | vless | @NIM_VPN_ir | 7",
                 "🇫🇷FR | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 12",
+                "🇺🇸US | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 24",
@@ -144,10 +144,10 @@
                 "🇨🇷CR | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
-                "🇸🇪SE | vless | @DailyV2RY | 162",
+                "🇨🇷CR | vless | @DailyV2RY | 161",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇮🇷IR | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇮🇷IR | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -181,7 +181,7 @@
                 "🇬🇧GB | vless | @NIM_VPN_ir | 7",
                 "🇫🇷FR | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 12",
+                "🇺🇸US | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 24",
@@ -213,10 +213,10 @@
                 "🇨🇷CR | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
-                "🇸🇪SE | vless | @DailyV2RY | 162",
+                "🇨🇷CR | vless | @DailyV2RY | 161",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇮🇷IR | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇮🇷IR | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -416,7 +416,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 12",
+            "tag": "🇺🇸US | vless | @melov2ray | 12",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1240,11 +1240,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 162",
+            "tag": "🇨🇷CR | vless | @DailyV2RY | 161",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 2082,
-            "uuid": "f83d36c1-07a8-4f3e-c7d3-eac6896e2478",
+            "server": "190.93.246.241",
+            "server_port": 2053,
+            "uuid": "33c41da4-d771-43bc-bf39-9f558bf010b4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1252,11 +1252,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mtnedjkqlaofrdCdfrgtGR.bazaars.pro",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "mtnedjkqlaofrdCdfrgtGR.bazaars.pro"
                 }
             }
         },
@@ -1306,7 +1316,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
+            "tag": "🇺🇸US | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,

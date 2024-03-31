@@ -112,7 +112,7 @@
                 "🇨🇦CA | vless | @NIM_VPN_ir | 5",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
-                "🇨🇦CA | vless | @melov2ray | 14",
+                "🇺🇸US | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @V2pedia | 24",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 22",
@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 0",
                 "🇬🇧GB | vmess | @ShadowProxy66 | 67",
-                "🇺🇸US | vless | @ServerNett | 6",
+                "🇨🇦CA | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 11",
                 "🇸🇪SE | vless | @v2ray1_ng | 6",
@@ -166,9 +166,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
-                "🇺🇸US | vless | @FAKEOFTVC | 3",
-                "🇺🇸US | vless | @mehrosaboran | 6",
+                "🇸🇪SE | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @FAKEOFTVC | 3",
+                "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @kingofilter | 1",
@@ -191,7 +191,7 @@
                 "🇨🇦CA | vless | @NIM_VPN_ir | 5",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
-                "🇨🇦CA | vless | @melov2ray | 14",
+                "🇺🇸US | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @V2pedia | 24",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 22",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 0",
                 "🇬🇧GB | vmess | @ShadowProxy66 | 67",
-                "🇺🇸US | vless | @ServerNett | 6",
+                "🇨🇦CA | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 11",
                 "🇸🇪SE | vless | @v2ray1_ng | 6",
@@ -245,9 +245,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
-                "🇺🇸US | vless | @FAKEOFTVC | 3",
-                "🇺🇸US | vless | @mehrosaboran | 6",
+                "🇸🇪SE | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @FAKEOFTVC | 3",
+                "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @kingofilter | 1",
@@ -446,7 +446,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 14",
+            "tag": "🇺🇸US | vless | @melov2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1222,7 +1222,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ServerNett | 6",
+            "tag": "🇨🇦CA | vless | @ServerNett | 6",
             "type": "vless",
             "server": "check-host.net",
             "server_port": 8443,
@@ -1791,11 +1791,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "free.sharkv2r.com",
-            "server_port": 2087,
-            "uuid": "------Evay_vpn------",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "SVNTEAMm",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1803,26 +1803,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "free.sharkv2r.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 3",
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
             "type": "vless",
             "server": "104.31.16.94",
             "server_port": 80,
@@ -1843,7 +1833,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 6",
+            "tag": "🇳🇱NL | vless | @mehrosaboran | 6",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 8880,

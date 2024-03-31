@@ -13,11 +13,10 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇩🇪DE | ss | @VmessProtocol | 15 = ss, 3.127.145.66, 2087, encrypt-method = chacha20-ietf-poly1305, password = ZBMv8ME+6NyoFNl1/aieDcpKb4sTaWpLaopaJ3IlKn4=
 🇨🇦CA | ss | @OutlineVpnOfficial | 18 = ss, 134.195.196.178, 807, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
-🇫🇷FR | ss | @forwardv2ray | 18 = ss, paris.telegavpn.com, 9802, encrypt-method = chacha20-ietf-poly1305, password = h8kW7TxCZwepOf2pV21H79
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | ss | @VmessProtocol | 15,🇨🇦CA | ss | @OutlineVpnOfficial | 18,🇫🇷FR | ss | @forwardv2ray | 18
-URL-TEST = url-test,🇩🇪DE | ss | @VmessProtocol | 15,🇨🇦CA | ss | @OutlineVpnOfficial | 18,🇫🇷FR | ss | @forwardv2ray | 18
-FALLBACK = fallback,🇩🇪DE | ss | @VmessProtocol | 15,🇨🇦CA | ss | @OutlineVpnOfficial | 18,🇫🇷FR | ss | @forwardv2ray | 18
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | ss | @VmessProtocol | 15,🇨🇦CA | ss | @OutlineVpnOfficial | 18
+URL-TEST = url-test,🇩🇪DE | ss | @VmessProtocol | 15,🇨🇦CA | ss | @OutlineVpnOfficial | 18
+FALLBACK = fallback,🇩🇪DE | ss | @VmessProtocol | 15,🇨🇦CA | ss | @OutlineVpnOfficial | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

@@ -184,9 +184,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
             "type": "vmess",
-            "server": "104.16.216.241",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "162.159.200.5",
+            "server_port": 80,
+            "uuid": "002cdc9f-63ae-4b3f-8720-3b3f760b487d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -197,21 +197,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "nelly.homes"
+                    "Host": ""
                 }
             }
         },

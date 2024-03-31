@@ -11,13 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇸🇬SG | ss | @DeamNet_Proxy | 18 = ss, zf-ljyyds-sg1.8top.top, 39775, encrypt-method = chacha20-ietf-poly1305, password = 31b95cde-8695-47eb-b431-0362f0139afa
 🇩🇪DE | ss | @VmessProtocol | 15 = ss, 3.68.104.129, 2082, encrypt-method = chacha20-ietf-poly1305, password = gXxAW3ufNkp4ed4v59JrbXdim7G4iZ9bPszA0o9f2Jc=
 🇫🇮FI | ss | @OutlineVpnOfficial | 18 = ss, 95.164.113.64, 7150, encrypt-method = chacha20-ietf-poly1305, password = btzmpL7aOs7YbcLS4In6YX
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇬SG | ss | @DeamNet_Proxy | 18,🇩🇪DE | ss | @VmessProtocol | 15,🇫🇮FI | ss | @OutlineVpnOfficial | 18
-URL-TEST = url-test,🇸🇬SG | ss | @DeamNet_Proxy | 18,🇩🇪DE | ss | @VmessProtocol | 15,🇫🇮FI | ss | @OutlineVpnOfficial | 18
-FALLBACK = fallback,🇸🇬SG | ss | @DeamNet_Proxy | 18,🇩🇪DE | ss | @VmessProtocol | 15,🇫🇮FI | ss | @OutlineVpnOfficial | 18
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | ss | @VmessProtocol | 15,🇫🇮FI | ss | @OutlineVpnOfficial | 18
+URL-TEST = url-test,🇩🇪DE | ss | @VmessProtocol | 15,🇫🇮FI | ss | @OutlineVpnOfficial | 18
+FALLBACK = fallback,🇩🇪DE | ss | @VmessProtocol | 15,🇫🇮FI | ss | @OutlineVpnOfficial | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

@@ -137,9 +137,9 @@
                 "🇫🇷FR | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vless | @prrofile_purple | 179",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 34",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇳🇱NL | vless | @vless_vmess | 8",
                 "🇨🇷CR | vless | @MTConfig | 18",
-                "🇺🇸US | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇳🇱NL | vless | @DailyV2RY | 160",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
@@ -167,7 +167,7 @@
                 "🇺🇸US | vless | @Capoit | 18",
                 "🇺🇸US | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 15",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -218,9 +218,9 @@
                 "🇫🇷FR | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vless | @prrofile_purple | 179",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 34",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇳🇱NL | vless | @vless_vmess | 8",
                 "🇨🇷CR | vless | @MTConfig | 18",
-                "🇺🇸US | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇳🇱NL | vless | @DailyV2RY | 160",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
@@ -248,7 +248,7 @@
                 "🇺🇸US | vless | @Capoit | 18",
                 "🇺🇸US | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 15",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -1078,11 +1078,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "194.195.245.204",
-            "server_port": 18100,
-            "uuid": "1d98567647cd11ee8469f23c93ff01cb",
+            "server": "172.67.168.34",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1092,6 +1092,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "marien.motorcycles",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "marien.motorcycles"
+                }
             }
         },
         {
@@ -1109,7 +1126,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 13",
+            "tag": "🇺🇸US | vless | @customv2ray | 13",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -1184,9 +1201,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
-            "server": "162.159.130.234",
-            "server_port": 443,
-            "uuid": "5d8569a9-a8cb-4c5e-9ea9-cc40de873a35",
+            "server": "104.25.254.88",
+            "server_port": 2095,
+            "uuid": "57569bb2-ed01-45b2-a3e6-6acfb1b2288c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1194,21 +1211,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "filTer-1tg.pAges.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Alpha_v2ray_fazayi",
+                "path": "\/eliv2ray-niceOne,eliv2ray-niceOne,eliv2ray-niceOne?ed=2095",
                 "headers": {
-                    "Host": "filTer-1tg.pAges.DeV"
+                    "Host": "104.25.254.88"
                 }
             }
         },
@@ -1463,9 +1470,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2RayTz | 19",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "172.66.213.38",
+            "server": "162.159.130.234",
             "server_port": 80,
             "uuid": "2b96633d-e6e3-4070-a069-7930408837b9",
             "flow": "",
@@ -1477,9 +1484,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Shh_Proxy , @Shh_Proxy",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.66.213.38"
+                    "Host": "162.159.130.234"
                 }
             }
         },
@@ -1836,16 +1843,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "104.21.30.254",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "91.107.135.198",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "6aa0c96d-06b4-4618-f656-7b196c79ef9e",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1853,7 +1857,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nina.bond",
+                "server_name": "1.8.savarkaraan.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1862,11 +1866,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nina.bond"
-                }
+                "type": "grpc",
+                "service_name": "Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

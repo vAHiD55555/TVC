@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 3",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @V2rayCollector | 9",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
@@ -156,11 +156,10 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇦🇪AE | vless | @Capoit | 7",
                 "🇺🇸US | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
-                "🇨🇦CA | vless | @FAKEOFTVC | 2",
+                "🇫🇮FI | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @kingofilter | 1",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
@@ -197,7 +196,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 3",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @V2rayCollector | 9",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
@@ -226,11 +225,10 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇦🇪AE | vless | @Capoit | 7",
                 "🇺🇸US | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
-                "🇨🇦CA | vless | @FAKEOFTVC | 2",
+                "🇫🇮FI | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @kingofilter | 1",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
@@ -809,7 +807,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1592,12 +1590,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇫🇮FI | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.20.19.145",
-            "server_port": 2053,
-            "uuid": "7da383f5-e626-4f8a-8db9-00e736e9de26",
-            "flow": "",
+            "server": "65.109.201.178",
+            "server_port": 15065,
+            "uuid": "5b3cfb17-c355-4a51-cf30-150b310b5110",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1606,24 +1604,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@UCIRANIR-@UCIRANIR\/Microsoft?ed=2047",
-                "headers": {
-                    "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_q7brUwH3QFQcWMqHUYnwEHeinkAkFFG26bQQmt-v0U",
+                    "short_id": "eaf5dc"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 2",
+            "tag": "🇺🇸US | vless | @FAKEOFTVC | 2",
             "type": "vless",
             "server": "Join-Telegram-Channel-Disvpn.onflashdrive.app",
             "server_port": 8443,
@@ -1691,37 +1687,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 2",
-            "type": "vless",
-            "server": "172.66.47.201",
-            "server_port": 443,
-            "uuid": "989c4f14-a0fb-4375-ba5d-082fb7167b70",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "AzAdNetByFt65433GhgFR5677JGFR557774ThyYT8766wWqW346678UUJj.pAGeS.deV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@proxy_mtm\/",
-                "headers": {
-                    "Host": "AzAdNetByFt65433GhgFR5677JGFR557774ThyYT8766wWqW346678UUJj.pAGeS.deV"
-                }
             }
         },
         {

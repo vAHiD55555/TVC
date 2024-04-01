@@ -112,8 +112,9 @@
                 "🇵🇱PL | vmess | @prrofile_purple | 178",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 11"
+                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @v2Line | 11",
+                "🏳️XX | vmess | @forwardv2ray | 18"
             ]
         },
         {
@@ -126,8 +127,9 @@
                 "🇵🇱PL | vmess | @prrofile_purple | 178",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 11"
+                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @v2Line | 11",
+                "🏳️XX | vmess | @forwardv2ray | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -283,11 +285,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "136.0.8.85",
-            "server_port": 45603,
-            "uuid": "5fb7da30-9b7d-4e99-cbf6-124e5165b786",
+            "server": "104.21.235.39",
+            "server_port": 80,
+            "uuid": "f4c98b50-e614-11ee-b430-205c6d5f5d78",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -335,6 +337,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/linkvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "mizban.arzonhost.ir",
+            "server_port": 2086,
+            "uuid": "e690ff9e-1676-4be3-d136-dcae586cb1e7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }

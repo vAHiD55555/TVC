@@ -128,7 +128,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 3",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
-                "🇺🇸US | vless | @V2rayCollector | 9",
+                "🇨🇦CA | vless | @V2rayCollector | 9",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -156,7 +156,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vless | @proxystore11 | 8",
+                "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -168,7 +168,7 @@
                 "🇺🇸US | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 15",
-                "🇰🇿KZ | ss | @forwardv2ray | 13",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -210,7 +210,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 3",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
-                "🇺🇸US | vless | @V2rayCollector | 9",
+                "🇨🇦CA | vless | @V2rayCollector | 9",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -238,7 +238,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vless | @proxystore11 | 8",
+                "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -250,7 +250,7 @@
                 "🇺🇸US | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 15",
-                "🇰🇿KZ | ss | @forwardv2ray | 13",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -864,7 +864,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollector | 9",
+            "tag": "🇨🇦CA | vless | @V2rayCollector | 9",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1534,7 +1534,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 8",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 8",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1856,14 +1856,35 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | ss | @forwardv2ray | 13",
-            "type": "shadowsocks",
-            "server": "kz.telegavpn.com",
-            "server_port": 35152,
-            "method": "chacha20-ietf-poly1305",
-            "password": "5tlI6OrOA1NO9EUeOW7pkz",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "188.114.98.224",
+            "server_port": 443,
+            "uuid": "acba8460-6c85-4d67-8f74-5a51da5e8393",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "max-allnet.hiroman5445.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "DvVRTw2k71qNhriZyCPvusI",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇺🇸US | vless | @FAKEOFTVC | 2",

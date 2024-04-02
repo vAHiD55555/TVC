@@ -139,8 +139,8 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 29",
-                "🇸🇪SE | vless | @proxyymeliii | 12",
+                "🇨🇦CA | vless | @v2ray_swhil | 32",
+                "🇸🇪SE | vless | @proxyymeliii | 13",
                 "🇳🇱NL | vless | @vless_vmess | 9",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 18",
@@ -207,8 +207,8 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 29",
-                "🇸🇪SE | vless | @proxyymeliii | 12",
+                "🇨🇦CA | vless | @v2ray_swhil | 32",
+                "🇸🇪SE | vless | @proxyymeliii | 13",
                 "🇳🇱NL | vless | @vless_vmess | 9",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 18",
@@ -1015,9 +1015,9 @@
         {
             "tag": "🇮🇷IR | vless | @v2rayngvpn | 15",
             "type": "vless",
-            "server": "37.32.29.122",
-            "server_port": 8080,
-            "uuid": "8a0f958d-81f4-4b6b-ab05-e866c7b716fd",
+            "server": "94.182.149.136",
+            "server_port": 32933,
+            "uuid": "e5318225-a3fd-4c1a-9791-67e6f4ebf8b3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1110,43 +1110,28 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 29",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 32",
             "type": "vless",
-            "server": "tataloo.mmdgogoli.top",
-            "server_port": 2096,
-            "uuid": "1bd02898-157f-4a11-8975-bc5c85efdd49",
-            "flow": "xtls-rprx-vision",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "---DIGiV2RAY----",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "tataloo.mmdgogoli.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1uusCeZdH1ll6FZk2PBdAGxsoIrq-WQ-0IePOQ3P4g4",
-                    "short_id": ""
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Digiv2ray-",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 12",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 13",
             "type": "vless",
             "server": "185.146.173.96",
             "server_port": 8880,
@@ -1551,9 +1536,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "172.66.44.197",
-            "server_port": 443,
-            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
+            "server": "free.sharkv2r.com",
+            "server_port": 2087,
+            "uuid": "------EVAY_VPN------",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1563,7 +1548,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Hagh.PaGes.DEv",
+                "server_name": "free.sharkv2r.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1572,11 +1557,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Hagh.PaGes.DEv"
-                }
+                "type": "grpc",
+                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

@@ -109,12 +109,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🏳️XX | vmess | @customv2ray | 15",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇫🇮FI | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇨🇦CA | vmess | @forwardv2ray | 15",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
@@ -126,12 +124,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🏳️XX | vmess | @customv2ray | 15",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇫🇮FI | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇨🇦CA | vmess | @forwardv2ray | 15",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
@@ -231,30 +227,6 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @customv2ray | 15",
-            "type": "vmess",
-            "server": "admin.arzonhost.ir",
-            "server_port": 2086,
-            "uuid": "7d93e992-48cf-42d4-84f8-75768e815a4c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 26",
             "type": "vmess",
             "server": "23.27.124.203",
@@ -296,11 +268,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "95.216.205.109",
-            "server_port": 11359,
-            "uuid": "8f24fd40-9cac-49a9-8a1b-b4c35a1236ad",
+            "server": "66.135.28.252",
+            "server_port": 41414,
+            "uuid": "06709c48-9843-4940-a536-cdf909285efc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -343,40 +315,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 15",
-            "type": "vmess",
-            "server": "auth.speedtest.net",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nelly.homes"
                 }
             }
         },

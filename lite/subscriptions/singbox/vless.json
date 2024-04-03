@@ -110,10 +110,10 @@
                 "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 9",
-                "🇸🇪SE | vless | @VlessConfig | 19",
+                "🇩🇪DE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 7",
-                "🇺🇸US | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 30",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 19",
@@ -156,13 +156,14 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @kingofilter | 1",
-                "🇩🇪DE | vless | @GozargahVPN | 11",
+                "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇸🇪SE | vless | @SvnTeam | 62",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -180,10 +181,10 @@
                 "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 9",
-                "🇸🇪SE | vless | @VlessConfig | 19",
+                "🇩🇪DE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 7",
-                "🇺🇸US | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 30",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 19",
@@ -226,13 +227,14 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @kingofilter | 1",
-                "🇩🇪DE | vless | @GozargahVPN | 11",
+                "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇸🇪SE | vless | @SvnTeam | 62",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -356,9 +358,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VlessConfig | 19",
+            "tag": "🇩🇪DE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "13.49.144.165",
+            "server": "18.198.196.96",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -449,7 +451,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 10",
+            "tag": "🇨🇦CA | vless | @melov2ray | 10",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1584,6 +1586,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "172.67.20.220",
+            "server_port": 2096,
+            "uuid": "77a571fb-4fd2-4b37-8596-2b7d9728bb5c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpnxw.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "vpnxw.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @FAKEOFTVC | 1",
             "type": "vless",
             "server": "novin.aryanett.link",
@@ -1736,7 +1769,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @GozargahVPN | 11",
+            "tag": "🇩🇪DE | vless | @GozargahVPN | 12",
             "type": "vless",
             "server": "45.32.157.52",
             "server_port": 443,

@@ -112,16 +112,16 @@
                 "🇹🇷TR | vless | @NIM_VPN_ir | 10",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 7",
-                "🇺🇸US | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 30",
                 "🇨🇦CA | vless | @frev2ray | 4",
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🏳️XX | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 36",
-                "🇨🇦CA | vless | @V2rayNGmat | 9",
+                "🇺🇸US | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 4",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
@@ -166,7 +166,7 @@
                 "🇬🇧GB | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
+                "🇨🇷CR | vmess | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -195,16 +195,16 @@
                 "🇹🇷TR | vless | @NIM_VPN_ir | 10",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 7",
-                "🇺🇸US | vless | @melov2ray | 10",
+                "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 30",
                 "🇨🇦CA | vless | @frev2ray | 4",
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🏳️XX | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 36",
-                "🇨🇦CA | vless | @V2rayNGmat | 9",
+                "🇺🇸US | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 4",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
@@ -249,7 +249,7 @@
                 "🇬🇧GB | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
+                "🇨🇷CR | vmess | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -474,7 +474,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 10",
+            "tag": "🇨🇦CA | vless | @melov2ray | 10",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -623,7 +623,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -699,7 +699,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 9",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 9",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 2096,
@@ -1831,11 +1831,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 18",
+            "tag": "🇨🇷CR | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "57.129.29.20",
-            "server_port": 34669,
-            "uuid": "5335d979-82d7-4843-803d-f9558fd77df9",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1845,6 +1845,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "marien.motorcycles",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "marien.motorcycles"
+                }
             }
         },
         {

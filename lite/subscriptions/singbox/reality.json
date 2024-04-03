@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇹🇷TR | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
@@ -119,6 +120,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇹🇷TR | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
@@ -172,6 +174,42 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "213.217.31.43",
+            "server_port": 8080,
+            "uuid": "8d002366-cecc-4bf6-b353-ca3a68a1731c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mrfbA_MYn7EoNJrtyJp6OjpSxYH-dA78HduJ5UeHiCc",
+                    "short_id": "40aee5a0"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet@BugFreeNet",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

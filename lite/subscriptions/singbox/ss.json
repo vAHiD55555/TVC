@@ -107,7 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 14"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 14",
+                "🇧🇭BH | ss | @forwardv2ray | 17",
+                "🇬🇧GB | ss | @FAKEOFTVC | 0",
+                "🏳️XX | ss | @ROMAX_VPN | 7"
             ]
         },
         {
@@ -115,7 +118,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 14"
+                "🇺🇸US | ss | @OutlineVpnOfficial | 14",
+                "🇧🇭BH | ss | @forwardv2ray | 17",
+                "🇬🇧GB | ss | @FAKEOFTVC | 0",
+                "🏳️XX | ss | @ROMAX_VPN | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -154,6 +160,36 @@
             "server_port": 8882,
             "method": "aes-256-gcm",
             "password": "kDWvXYZoTBcGkC4",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇧🇭BH | ss | @forwardv2ray | 17",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "2LVVFxxHJSBMdGdl",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @FAKEOFTVC | 0",
+            "type": "shadowsocks",
+            "server": "51.140.37.163",
+            "server_port": 34417,
+            "method": "chacha20-ietf-poly1305",
+            "password": "OZ2VmWR9pI74zoLstexAee",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🏳️XX | ss | @ROMAX_VPN | 7",
+            "type": "shadowsocks",
+            "server": "[2a12:5940:5237::2]",
+            "server_port": 7261,
+            "method": "chacha20-ietf-poly1305",
+            "password": "pZvwP17Nlz2z6jsYnVgZgf",
             "plugin": "",
             "plugin_opts": ""
         }

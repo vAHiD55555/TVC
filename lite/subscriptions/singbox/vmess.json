@@ -106,11 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | vmess | @azadi_az_inja_migzare | 0",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 1",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇾CY | vmess | @DeamNet_Proxy | 17",
-                "🇮🇷IR | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -122,11 +123,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | vmess | @azadi_az_inja_migzare | 0",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 1",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇾CY | vmess | @DeamNet_Proxy | 17",
-                "🇮🇷IR | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -154,7 +156,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | vmess | @azadi_az_inja_migzare | 0",
+            "tag": "🇺🇸US | vmess | @azadi_az_inja_migzare | 1",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 8443,
@@ -256,11 +258,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "80.249.112.233",
-            "server_port": 13088,
-            "uuid": "fa591bce-94b8-4ff3-a11d-f32892ca7bcc",
+            "server": "localcdn-file.kiava-cloud.us.to",
+            "server_port": 443,
+            "uuid": "183bc5f8-68d5-4088-ab5f-4ab26a9c79f6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -270,6 +272,57 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "localcdn-file.kiava-cloud.us.to",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkfile",
+                "headers": {
+                    "Host": "localcdn-file.kiava-cloud.us.to"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "pop3-localcdn.kiava-cloud.us.to",
+            "server_port": 443,
+            "uuid": "8609aac4-dc99-4a8d-f304-715bec779289",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pop3-localcdn.kiava-cloud.us.to",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkfile",
+                "headers": {
+                    "Host": "pop3-localcdn.kiava-cloud.us.to"
+                }
             }
         },
         {

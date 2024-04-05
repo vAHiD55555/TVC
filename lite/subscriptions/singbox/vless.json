@@ -119,7 +119,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇫🇮FI | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇺🇸US | vless | @vpn_xw | 0",
@@ -144,12 +144,13 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇺🇸US | vless | @v2ray1_ng | 4",
+                "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 116",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
@@ -188,7 +189,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇫🇮FI | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇺🇸US | vless | @vpn_xw | 0",
@@ -213,12 +214,13 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇺🇸US | vless | @v2ray1_ng | 4",
+                "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 116",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
@@ -596,7 +598,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1235,7 +1237,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2ray1_ng | 4",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 4",
             "type": "vless",
             "server": "www.discord.com",
             "server_port": 8443,
@@ -1353,7 +1355,38 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "104.18.107.13",
+            "server_port": 443,
+            "uuid": "d674009a-4a87-4180-a8fe-9a54f66bd7c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn.restia.love",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "vpn.restia.love"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,

@@ -144,18 +144,18 @@
                 "🇩🇪DE | vless | @v2ray_swhil | 25",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 12",
+                "🇺🇸US | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
-                "🇺🇸US | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 19",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -219,18 +219,18 @@
                 "🇩🇪DE | vless | @v2ray_swhil | 25",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 12",
+                "🇺🇸US | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
-                "🇺🇸US | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 19",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -1245,7 +1245,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 12",
+            "tag": "🇺🇸US | vless | @v2ray1_ng | 12",
             "type": "vless",
             "server": "www.discord.com",
             "server_port": 8443,
@@ -1425,11 +1425,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "bia-to2.unlimiteddev.site",
-            "server_port": 8443,
-            "uuid": "f0719911-2e64-47bc-ac2c-18f6d3f2eb75",
+            "server": "dnschecker.org",
+            "server_port": 443,
+            "uuid": "71545c06-17e2-45eb-8994-5915ca868980",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1439,7 +1439,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
+                "server_name": "dm.irandtehran.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1448,11 +1448,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
-                }
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1539,11 +1539,32 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 18",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 19",
             "type": "vless",
-            "server": "172.66.213.38",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "176c56b3-a0a1-49bc-b9d1-59a6843b85ba",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
+            "type": "vless",
+            "server": "104.21.10.94",
             "server_port": 443,
-            "uuid": "487cf22f-2d07-48da-9527-9a978fca1fe9",
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1553,7 +1574,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ShhProxyFreViP.xn--85-pv2cl2k5x3fipr.org.",
+                "server_name": "baipiao406.stunning-bassoon.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1565,38 +1586,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "ShhProxyFreViP.xn--85-pv2cl2k5x3fipr.org."
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
-            "type": "vless",
-            "server": "162.159.135.79",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "test39.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@proxy_mtm\/",
-                "headers": {
-                    "Host": "test39.pages.dev"
+                    "Host": "baipiao406.stunning-bassoon.pages.dev"
                 }
             }
         },

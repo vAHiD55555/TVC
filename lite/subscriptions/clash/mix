@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 19","type":"trojan","server":"13.43.161.158","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 19","type":"trojan","server":"34.247.61.232","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇬🇧GB | trojan | @DirectVPN | 19","type":"trojan","server":"18.135.30.192","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇸IS | vmess | @DeamNet_Proxy | 18","type":"vmess","server":"is3-vmess.sshmax.xyz","port":"80","cipher":"auto","uuid":"a8d33442-de64-4980-a779-540c1eedbc25","alterId":-1,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"is3-vmess.sshmax.xyz"}}}
@@ -135,7 +135,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇬🇧GB | trojan | @PrivateVPNs | 19'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 19'
       - '🇬🇧GB | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇮🇸IS | vmess | @DeamNet_Proxy | 18'
@@ -152,7 +152,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇬🇧GB | trojan | @PrivateVPNs | 19'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 19'
       - '🇬🇧GB | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇮🇸IS | vmess | @DeamNet_Proxy | 18'
@@ -168,7 +168,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇬🇧GB | trojan | @PrivateVPNs | 19'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 19'
       - '🇬🇧GB | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇮🇸IS | vmess | @DeamNet_Proxy | 18'

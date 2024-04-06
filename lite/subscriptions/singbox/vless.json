@@ -150,7 +150,6 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 118",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇳🇱NL | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
@@ -220,7 +219,6 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 118",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇳🇱NL | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
@@ -1392,37 +1390,6 @@
                 "path": "\/Path\/Telegram@sinabigo\/",
                 "headers": {
                     "Host": "w1.sylar8.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "188.114.98.220",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "test57.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/freecodes",
-                "headers": {
-                    "Host": "test57.pages.dev"
                 }
             }
         },

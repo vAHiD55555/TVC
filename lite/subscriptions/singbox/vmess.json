@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @DeamNet_Proxy | 18",
+                "🇻🇳VN | vmess | @DeamNet_Proxy | 18",
                 "🇮🇷IR | vmess | @proxyymeliii | 16",
                 "🇨🇷CR | vmess | @v2ray1_ng | 4",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -125,9 +126,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @DeamNet_Proxy | 18",
+                "🇻🇳VN | vmess | @DeamNet_Proxy | 18",
                 "🇮🇷IR | vmess | @proxyymeliii | 16",
                 "🇨🇷CR | vmess | @v2ray1_ng | 4",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -197,13 +199,13 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @DeamNet_Proxy | 18",
+            "tag": "🇻🇳VN | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "185.218.126.248",
+            "server": "103.75.185.221",
             "server_port": 80,
-            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+            "uuid": "9e5999ba-870a-46b1-8500-37c640371ec6",
             "security": "auto",
-            "alter_id": -1,
+            "alter_id": 2,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -214,9 +216,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/v1893298323Py",
+                "path": "\/bs",
                 "headers": {
-                    "Host": "185.218.126.248"
+                    "Host": "103.75.185.221"
                 }
             }
         },
@@ -276,6 +278,23 @@
                 "headers": {
                     "Host": "marien.motorcycles"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "136.0.8.222",
+            "server_port": 41441,
+            "uuid": "d74ab79f-8547-464b-a5d0-d0256593c245",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

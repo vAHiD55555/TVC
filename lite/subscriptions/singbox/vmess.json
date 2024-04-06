@@ -114,7 +114,7 @@
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 7"
+                "🇺🇸US | vmess | @OpenSSTPVpn | 6"
             ]
         },
         {
@@ -129,7 +129,7 @@
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 7"
+                "🇺🇸US | vmess | @OpenSSTPVpn | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -370,9 +370,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @OpenSSTPVpn | 7",
+            "tag": "🇺🇸US | vmess | @OpenSSTPVpn | 6",
             "type": "vmess",
-            "server": "104.16.217.241",
+            "server": "173.245.58.5",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -387,7 +387,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nelly.homes",
+                "server_name": "worker-flat-hat-00f2.ravapim426.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -397,9 +397,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/kellie.makeup\/linkvws",
                 "headers": {
-                    "Host": "nelly.homes"
+                    "Host": "worker-flat-hat-00f2.ravapim426.workers.dev"
                 }
             }
         }

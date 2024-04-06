@@ -106,11 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇺🇸US | vless | @NIM_VPN_ir | 8",
-                "🇺🇸US | vless | @VlessConfig | 19",
+                "🇨🇦CA | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
                 "🇨🇦CA | vless | @melov2ray | 10",
@@ -150,7 +149,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @ConfigsHUB | 18",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -176,11 +175,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇺🇸US | vless | @NIM_VPN_ir | 8",
-                "🇺🇸US | vless | @VlessConfig | 19",
+                "🇨🇦CA | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
                 "🇨🇦CA | vless | @melov2ray | 10",
@@ -220,7 +218,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @ConfigsHUB | 18",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -260,37 +258,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 13",
-            "type": "vless",
-            "server": "prs.bitplatform.cloud",
-            "server_port": 443,
-            "uuid": "8a052c65-bdf6-485a-c1d7-cb2b23f15dfa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "germany-frankfurt.bitplatform.cloud",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "germany-frankfurt.bitplatform.cloud"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 16",
@@ -376,9 +343,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VlessConfig | 19",
+            "tag": "🇨🇦CA | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "18.233.119.121",
+            "server": "15.157.152.239",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1396,9 +1363,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "mci2.VPNPROSEC.com",
-            "server_port": 80,
-            "uuid": "SVNTEAMm",
+            "server": "tgju.org",
+            "server_port": 8443,
+            "uuid": "b01e3f02-d51b-43d8-af76-227a20fb0d0a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1406,16 +1373,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "1.irancloudflare.cab",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
+                "path": "\/",
                 "headers": {
-                    "Host": "mci2.VPNPROSEC.com"
+                    "Host": "1.irancloudflare.cab"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
+            "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,

@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇳🇱NL | vless | @proxy_kafee | 0",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 23",
                 "🇨🇦CA | vless | @proxyymeliii | 14",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 3",
+                "🇺🇸US | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
@@ -157,6 +157,7 @@
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇮🇷IR | vmess | @Hope_Net | 19",
@@ -211,7 +212,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇳🇱NL | vless | @proxy_kafee | 0",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
@@ -233,7 +234,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 23",
                 "🇨🇦CA | vless | @proxyymeliii | 14",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 3",
+                "🇺🇸US | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
@@ -241,6 +242,7 @@
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇮🇷IR | vmess | @Hope_Net | 19",
@@ -837,7 +839,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1380,7 +1382,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 3",
+            "tag": "🇺🇸US | vless | @v2ray1_ng | 3",
             "type": "vless",
             "server": "www.discord.com",
             "server_port": 8443,
@@ -1554,6 +1556,37 @@
             "password": "kDWvXYZoTBcGkC4",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "104.21.19.124",
+            "server_port": 2087,
+            "uuid": "------EVAY_VPN------",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free.sharkv2r.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @proxystore11 | 13",

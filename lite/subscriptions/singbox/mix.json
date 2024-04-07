@@ -159,7 +159,7 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇲🇴MO | vmess | @Hope_Net | 18",
+                "🇨🇷CR | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
@@ -243,7 +243,7 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇲🇴MO | vmess | @Hope_Net | 18",
+                "🇨🇷CR | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
@@ -1537,9 +1537,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.21.19.124",
-            "server_port": 2087,
-            "uuid": "------EVAY_VPN------",
+            "server": "st-gb-1.brocdn.com",
+            "server_port": 443,
+            "uuid": "32f09b70-d2f7-11ee-abda-00505603e70d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1549,7 +1549,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "free.sharkv2r.com",
+                "server_name": "st-gb-1.brocdn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1558,11 +1558,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "st-gb-1.brocdn.com"
+                }
             }
         },
         {
@@ -1631,11 +1631,11 @@
             }
         },
         {
-            "tag": "🇲🇴MO | vmess | @Hope_Net | 18",
+            "tag": "🇨🇷CR | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "27.109.160.174",
-            "server_port": 54866,
-            "uuid": "be77618a-737e-4260-cc87-e405073f91dc",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1646,11 +1646,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "marien.motorcycles",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/免费节点分享TG频道@WSBVPN",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "marien.motorcycles"
                 }
             }
         },

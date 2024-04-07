@@ -1406,9 +1406,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.21.19.124",
-            "server_port": 2087,
-            "uuid": "------EVAY_VPN------",
+            "server": "st-gb-1.brocdn.com",
+            "server_port": 443,
+            "uuid": "32f09b70-d2f7-11ee-abda-00505603e70d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1418,7 +1418,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "free.sharkv2r.com",
+                "server_name": "st-gb-1.brocdn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1427,11 +1427,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "st-gb-1.brocdn.com"
+                }
             }
         },
         {

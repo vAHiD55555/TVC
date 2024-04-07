@@ -144,18 +144,17 @@
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 30",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vmess | @v2ray_swhil | 27",
                 "🇸🇪SE | vless | @proxyymeliii | 14",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 9",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇷CR | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -228,18 +227,17 @@
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 30",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vmess | @v2ray_swhil | 27",
                 "🇸🇪SE | vless | @proxyymeliii | 14",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 9",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇷CR | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -954,7 +952,7 @@
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "18.189.25.100",
+            "server": "54.189.90.248",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1149,8 +1147,8 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
             "type": "vless",
-            "server": "104.18.82.174",
-            "server_port": 8443,
+            "server": "104.18.41.190",
+            "server_port": 443,
             "uuid": "d674009a-4a87-4180-a8fe-9a54f66bd7c9",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1261,40 +1259,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 27",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nelly.homes"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @proxyymeliii | 14",
             "type": "vless",
             "server": "185.146.173.59",
@@ -1399,11 +1363,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.25.138.178",
-            "server_port": 8443,
-            "uuid": "36baf464-0f7f-4116-9dd8-893a3ab7c9e3",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1411,21 +1375,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1523,11 +1477,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "visa.com",
-            "server_port": 8443,
-            "uuid": "023215ec-bdfd-4dd7-ba08-41514d1f71c5",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1537,7 +1491,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "emirates-telegram.falcunargo3.onflashdrive.app",
+                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1547,9 +1501,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/Telegram@SINABIGO\/",
                 "headers": {
-                    "Host": "emirates-telegram.falcunargo3.onflashdrive.app"
+                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
                 }
             }
         },

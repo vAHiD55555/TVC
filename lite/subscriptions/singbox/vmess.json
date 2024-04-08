@@ -109,7 +109,6 @@
                 "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -127,7 +126,6 @@
                 "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -229,40 +227,6 @@
                 "path": "\/video\/u4eCZTxW",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 9",
-            "type": "vmess",
-            "server": "ftp-localcdn.kiava-cloud.us.to",
-            "server_port": 443,
-            "uuid": "3bf8b347-be40-480b-c9c3-4d6e951e208f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp-localcdn.kiava-cloud.us.to",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/app",
-                "headers": {
-                    "Host": "ftp-localcdn.kiava-cloud.us.to"
                 }
             }
         },

@@ -133,7 +133,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
-                "🇨🇦CA | vless | @v2rayngvpn | 13",
+                "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇨🇦CA | vless | @ServerNett | 29",
@@ -145,14 +145,15 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 135",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 11",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇸🇪SE | vless | @Capoit | 11",
+                "🇺🇸US | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @mehrosaboran | 6",
@@ -201,7 +202,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
-                "🇨🇦CA | vless | @v2rayngvpn | 13",
+                "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇨🇦CA | vless | @ServerNett | 29",
@@ -213,14 +214,15 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 135",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 11",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇸🇪SE | vless | @Capoit | 11",
+                "🇺🇸US | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @mehrosaboran | 6",
@@ -957,24 +959,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 13",
+            "tag": "🇮🇷IR | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "23.227.60.186",
-            "server_port": 80,
-            "uuid": "394fa9dc-368f-46f7-98c8-b541a4b63510",
+            "server": "85.133.151.234",
+            "server_port": 2070,
+            "uuid": "561ee527-3d37-4762-a953-048998257003",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@HAJIMAMADVPN",
-                "headers": {
-                    "Host": "23.227.60.186"
-                }
             }
         },
         {
@@ -1272,7 +1267,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@SINABIGO\/",
+                "headers": {
+                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
@@ -1446,11 +1472,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 11",
+            "tag": "🇸🇪SE | vless | @Capoit | 11",
             "type": "vless",
-            "server": "Join.V2rayOfficial.Site",
-            "server_port": 443,
-            "uuid": "V2rAY_OffiCiAl",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "--DIGiV2RAY---",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1458,26 +1484,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.kellekcollection.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2ray_official,@V2ray_official,@V2ray_official,@V2ray_official,@V2ray_official",
+                "path": "\/Digiv2ray-",
                 "headers": {
-                    "Host": "cdn.kellekcollection.com"
+                    "Host": "185.146.173.59"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
+            "tag": "🇺🇸US | vless | @FreakConfig | 5",
             "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,

@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
@@ -126,7 +125,6 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
@@ -189,40 +187,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "172.67.1.143",
-            "server_port": 443,
-            "uuid": "251780c1-1501-43b3-be2a-d144a20d479a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy5autoip.foriran.trade",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Nbs2DSTSkFWe4KVnk9AHQv",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -320,9 +284,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "51.81.59.229",
-            "server_port": 13541,
-            "uuid": "280a2198-b720-4544-93b2-782880e74143",
+            "server": "207.246.108.107",
+            "server_port": 40193,
+            "uuid": "10979bca-b26b-42ae-801c-b2efbd1bf8b8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,

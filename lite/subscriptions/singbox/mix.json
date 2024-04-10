@@ -126,7 +126,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 7",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
+                "🇳🇱NL | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 17",
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
@@ -146,14 +146,14 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇩🇪DE | vless | @proxyymeliii | 13",
-                "🇨🇦CA | vless | @v2ray1_ng | 8",
+                "🇨🇦CA | vless | @v2ray1_ng | 7",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 156",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -211,7 +211,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 7",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
+                "🇳🇱NL | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 17",
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
@@ -231,14 +231,14 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇩🇪DE | vless | @proxyymeliii | 13",
-                "🇨🇦CA | vless | @v2ray1_ng | 8",
+                "🇨🇦CA | vless | @v2ray1_ng | 7",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 156",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -821,11 +821,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
+            "tag": "🇳🇱NL | vless | @azadi_az_inja_migzare | 0",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "188.114.96.1",
             "server_port": 2083,
-            "uuid": "b217b5b1-514d-4c56-b04a-789fc7bcf9d6",
+            "uuid": "9c4c77d3-298b-40b5-95e0-0a69f832765e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -835,7 +835,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "freeinternetforeveryone.segaro.tech",
+                "server_name": "majidrezarahnavard.pardazesh.tech",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1313,34 +1313,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 8",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 7",
             "type": "vless",
-            "server": "172.67.202.198",
-            "server_port": 8443,
-            "uuid": "9f3ad877-70ce-432f-bf9d-823090a6aa0a",
+            "server": "104.22.33.78",
+            "server_port": 443,
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zu3-G6Cd-servEr.OnfLashDRiVE.app",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@V2ray1_ng",
-                "headers": {
-                    "Host": "zu3-G6Cd-servEr.OnfLashDRiVE.app"
-                }
             }
         },
         {
@@ -1479,16 +1462,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "172.67.131.108",
-            "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "Www.ZULA.iR",
+            "server_port": 8443,
+            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1496,7 +1476,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.cfd",
+                "server_name": "uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1506,9 +1486,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/🔥Join-Sho-@Free_V2rng🔥",
                 "headers": {
-                    "Host": "glweidf.cfd"
+                    "Host": "uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv"
                 }
             }
         },

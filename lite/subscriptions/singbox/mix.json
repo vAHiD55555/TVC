@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇳🇱NL | vless | @ConfigsHUB | 19",
+                "🇧🇪BE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -237,7 +237,7 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇳🇱NL | vless | @ConfigsHUB | 19",
+                "🇧🇪BE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1462,11 +1462,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | vless | @ConfigsHUB | 19",
+            "tag": "🇧🇪BE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.97.43",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "server": "be2-vless.sshmax.xyz",
+            "server_port": 80,
+            "uuid": "43b27197-7a7e-4fe3-bc57-a6241ef738a3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1474,21 +1474,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "test57.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/freecodes",
+                "path": "\/vless",
                 "headers": {
-                    "Host": "test57.pages.dev"
+                    "Host": "be2-vless.sshmax.xyz"
                 }
             }
         },

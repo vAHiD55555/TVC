@@ -111,7 +111,8 @@
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
-                "🇮🇷IR | vmess | @v2ray1_ng | 12",
+                "🇮🇷IR | vmess | @v2ray1_ng | 13",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -130,7 +131,8 @@
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
-                "🇮🇷IR | vmess | @v2ray1_ng | 12",
+                "🇮🇷IR | vmess | @v2ray1_ng | 13",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -276,7 +278,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 12",
+            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 13",
             "type": "vmess",
             "server": "79.175.151.112",
             "server_port": 58271,
@@ -296,6 +298,40 @@
                 "path": "\/rohv2ray",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "auth.speedtest.net",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nelly.homes"
                 }
             }
         },

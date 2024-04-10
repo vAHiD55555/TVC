@@ -293,9 +293,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "23.94.104.164",
-            "server_port": 60222,
-            "uuid": "84134d90-e4fe-4a86-c8d6-4d7bedb3c333",
+            "server": "205.234.233.68",
+            "server_port": 445,
+            "uuid": "ff982b62-2d2e-4ebe-befc-6e3d5177857c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -305,13 +305,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {

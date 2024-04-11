@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 21",
+                "🇨🇦CA | vless | @Parsashonam | 19",
                 "🇨🇦CA | vless | @v2_team | 5",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 11",
                 "🇺🇸US | vless | @VlessConfig | 19",
@@ -116,7 +117,7 @@
                 "🇩🇪DE | vless | @V2pedia | 37",
                 "🇨🇦CA | vless | @frev2ray | 12",
                 "🇸🇪SE | vless | @ARv2ray | 16",
-                "🇨🇦CA | vless | @shh_proxy | 21",
+                "🇨🇦CA | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
@@ -142,12 +143,13 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 26",
                 "🇸🇪SE | vless | @proxyymeliii | 12",
-                "🇺🇸US | vless | @vless_vmess | 10",
-                "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇺🇸US | vless | @DailyV2RY | 156",
+                "🇨🇦CA | vless | @vless_vmess | 10",
+                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @DailyV2RY | 154",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
@@ -178,6 +180,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 21",
+                "🇨🇦CA | vless | @Parsashonam | 19",
                 "🇨🇦CA | vless | @v2_team | 5",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 11",
                 "🇺🇸US | vless | @VlessConfig | 19",
@@ -187,7 +190,7 @@
                 "🇩🇪DE | vless | @V2pedia | 37",
                 "🇨🇦CA | vless | @frev2ray | 12",
                 "🇸🇪SE | vless | @ARv2ray | 16",
-                "🇨🇦CA | vless | @shh_proxy | 21",
+                "🇨🇦CA | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
@@ -213,12 +216,13 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 26",
                 "🇸🇪SE | vless | @proxyymeliii | 12",
-                "🇺🇸US | vless | @vless_vmess | 10",
-                "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇺🇸US | vless | @DailyV2RY | 156",
+                "🇨🇦CA | vless | @vless_vmess | 10",
+                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @DailyV2RY | 154",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
@@ -295,6 +299,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @Parsashonam | 19",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "Parsashonam-33",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @v2_team | 5",
             "type": "vless",
             "server": "join.v2team.cfd",
@@ -357,7 +382,7 @@
         {
             "tag": "🇺🇸US | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "44.223.120.23",
+            "server": "44.219.226.238",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -508,7 +533,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @shh_proxy | 21",
+            "tag": "🇨🇦CA | vless | @shh_proxy | 23",
             "type": "vless",
             "server": "Join.ShhProxy.Site",
             "server_port": 443,
@@ -1210,7 +1235,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vless_vmess | 10",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 10",
             "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,
@@ -1241,11 +1266,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "185.146.173.59",
-            "server_port": 8880,
-            "uuid": "edfd9352-7931-4fc4-9fbe-e6573157e2ff",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1255,18 +1280,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "185.146.173.59"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 156",
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 154",
             "type": "vless",
-            "server": "visa.com",
-            "server_port": 8443,
-            "uuid": "f5e85419-1b46-4a49-87a6-bf868caac62a",
+            "server": "185.146.173.59",
+            "server_port": 8880,
+            "uuid": "30647250-6002-463e-8bd3-9d48306de4e2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1274,21 +1299,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "shah67.servernet.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/join--severnett",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "shah67.servernet.cfd"
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1345,7 +1360,21 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 13",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "51.75.153.247",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,

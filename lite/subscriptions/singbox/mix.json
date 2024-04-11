@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @frev2ray | 12",
                 "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 10",
@@ -148,12 +148,12 @@
                 "🇨🇷CR | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇨🇦CA | vless | @V2RayTz | 16",
-                "🇨🇼CW | vless | @DailyV2RY | 150",
+                "🏳️XX | vless | @DailyV2RY | 151",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇭🇰HK | vmess | @Hope_Net | 19",
@@ -201,7 +201,7 @@
                 "🇨🇦CA | vless | @frev2ray | 12",
                 "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 10",
@@ -232,12 +232,12 @@
                 "🇨🇷CR | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇨🇦CA | vless | @V2RayTz | 16",
-                "🇨🇼CW | vless | @DailyV2RY | 150",
+                "🏳️XX | vless | @DailyV2RY | 151",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇭🇰HK | vmess | @Hope_Net | 19",
@@ -557,7 +557,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1374,24 +1374,39 @@
             }
         },
         {
-            "tag": "🇨🇼CW | vless | @DailyV2RY | 150",
+            "tag": "🏳️XX | vless | @DailyV2RY | 151",
             "type": "vless",
-            "server": "casinozer1.eu.",
-            "server_port": 2095,
-            "uuid": "4c30c910-90fe-47d4-9adf-e4b493c0a7d4",
-            "flow": "",
+            "server": "[2a00:b703:fff1:215::1]",
+            "server_port": 25365,
+            "uuid": "67d50c2d-bf60-45fd-9690-2041b09d6d6f",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/ZEDMODEON-ZEDMODEON-@ZEDMODEON-JOIN-ZEDMODEON",
-                "headers": {
-                    "Host": "casinozer1.eu."
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Krfw2Ag6_YlmVcMGrGkznbzmuEETbIQgaQlU4gqQ5xQ",
+                    "short_id": "6bd487e5"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1459,9 +1474,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "23.227.60.7",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "server": "Www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "0ef304b9-65fa-496c-b08d-437ff328aaf3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1471,7 +1486,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "test43.pages.dev",
+                "server_name": "h.protoeinpaitakht.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1481,14 +1496,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za",
                 "headers": {
-                    "Host": "test43.pages.dev"
+                    "Host": "h.protoeinpaitakht.com"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
+            "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,

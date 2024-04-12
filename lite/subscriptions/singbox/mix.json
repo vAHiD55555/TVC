@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 29",
-                "🇨🇦CA | vless | @V2rayNGmat | 12",
+                "🇺🇸US | vless | @V2rayNGmat | 12",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 1",
@@ -154,11 +154,11 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | trojan | @ConfigsHUB | 14",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇻🇳VN | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 28",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
@@ -179,7 +179,7 @@
                 "🇺🇸US | vmess | @eliya_chiter0 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 3",
+                "🇺🇸US | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3",
@@ -202,7 +202,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 29",
-                "🇨🇦CA | vless | @V2rayNGmat | 12",
+                "🇺🇸US | vless | @V2rayNGmat | 12",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 1",
@@ -239,11 +239,11 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | trojan | @ConfigsHUB | 14",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇻🇳VN | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 28",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
@@ -264,7 +264,7 @@
                 "🇺🇸US | vmess | @eliya_chiter0 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 3",
+                "🇺🇸US | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3",
@@ -579,7 +579,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 12",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 12",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 2096,
@@ -1512,24 +1512,23 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | trojan | @ConfigsHUB | 14",
-            "type": "trojan",
-            "server": "13.41.83.28",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "aabc3ef9-6968-4311-81b8-8cd0414c1904",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-V2ray_Alpha\/",
+                "headers": {
+                    "Host": "discord.gg"
                 }
             }
         },
@@ -1630,11 +1629,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇻🇳VN | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "5.161.192.172",
-            "server_port": 33764,
-            "uuid": "f96e9397-08be-4227-e26a-f3a55a3976de",
+            "server": "103.173.254.106",
+            "server_port": 1850,
+            "uuid": "c6c1f641-651f-4781-b9e2-c4e4858a619a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1644,6 +1643,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/zh-cn",
+                "headers": {
+                    "Host": "www.microsoft.com"
+                }
             }
         },
         {
@@ -2215,7 +2231,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 3",
+            "tag": "🇺🇸US | vless | @V2FETCH | 3",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,

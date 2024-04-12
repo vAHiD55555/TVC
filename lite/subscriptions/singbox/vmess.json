@@ -111,7 +111,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇻🇳VN | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 3",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -128,7 +128,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇻🇳VN | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 3",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -282,11 +282,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇻🇳VN | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "5.161.192.172",
-            "server_port": 33764,
-            "uuid": "f96e9397-08be-4227-e26a-f3a55a3976de",
+            "server": "103.173.254.106",
+            "server_port": 1850,
+            "uuid": "c6c1f641-651f-4781-b9e2-c4e4858a619a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -296,6 +296,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/zh-cn",
+                "headers": {
+                    "Host": "www.microsoft.com"
+                }
             }
         },
         {

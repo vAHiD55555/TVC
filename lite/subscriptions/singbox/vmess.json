@@ -115,7 +115,8 @@
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇵🇱PL | vmess | @eliya_chiter0 | 2"
+                "🇵🇱PL | vmess | @eliya_chiter0 | 2",
+                "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ]
         },
         {
@@ -131,7 +132,8 @@
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇵🇱PL | vmess | @eliya_chiter0 | 2"
+                "🇵🇱PL | vmess | @eliya_chiter0 | 2",
+                "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -403,6 +405,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 6",
+            "type": "vmess",
+            "server": "iran-011-join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kittiy.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kittiy.sbs"
+                }
             }
         }
     ],

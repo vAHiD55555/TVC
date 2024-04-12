@@ -115,14 +115,15 @@
                 "🇨🇦CA | vless | @frev2ray | 15",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 12",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
+                "🇮🇷IR | vless | @DarkTeam_VPN | 1",
                 "🇨🇦CA | vless | @proxy_kafee | 14",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -145,7 +146,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 28",
@@ -184,14 +185,15 @@
                 "🇨🇦CA | vless | @frev2ray | 15",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 12",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
+                "🇮🇷IR | vless | @DarkTeam_VPN | 1",
                 "🇨🇦CA | vless | @proxy_kafee | 14",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -214,7 +216,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 28",
@@ -502,7 +504,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -630,6 +632,27 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vless | @DarkTeam_VPN | 1",
+            "type": "vless",
+            "server": "Nh.turboo-server.pro",
+            "server_port": 443,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Nh.turboo-server.pro"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxy_kafee | 14",
             "type": "vless",
             "server": "104.18.202.232",
@@ -682,7 +705,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1303,11 +1326,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "--DIGiV2RAY--",
+            "server": "172.66.44.163",
+            "server_port": 443,
+            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1315,11 +1338,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ghazal7799.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "ghazal7799.pages.dev"
                 }
             }
         },

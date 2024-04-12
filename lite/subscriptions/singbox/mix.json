@@ -149,12 +149,12 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇸🇪SE | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇺🇸US | ss | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -179,7 +179,7 @@
                 "🇺🇸US | vmess | @eliya_chiter0 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 3",
+                "🇨🇦CA | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3",
@@ -234,12 +234,12 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇸🇪SE | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇺🇸US | ss | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -264,7 +264,7 @@
                 "🇺🇸US | vmess | @eliya_chiter0 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 3",
+                "🇨🇦CA | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3",
@@ -1409,25 +1409,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 15",
-            "type": "vless",
-            "server": "ppl.arzonhost.ir",
-            "server_port": 2082,
-            "uuid": "0f0f7cc8-edcd-436d-bf9d-f7bfdb6ed9ca",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ppl.arzonhost.ir"
-                }
-            }
+            "tag": "🇺🇸US | ss | @VmessProtocol | 16",
+            "type": "shadowsocks",
+            "server": "104.167.197.23",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "3fbeb668f48414f6",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 146",
@@ -1523,16 +1512,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "cfcdn3.sanfencdn9.com",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "104.24.177.7",
             "server_port": 80,
-            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "aabc3ef9-6968-4311-81b8-8cd0414c1904",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1540,9 +1526,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/ibCT6z55",
+                "path": "\/Path\/\/",
                 "headers": {
-                    "Host": "cfcdn3.sanfencdn9.com"
+                    "Host": "104.24.177.7"
                 }
             }
         },
@@ -1645,9 +1631,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "108.61.84.6",
-            "server_port": 15937,
-            "uuid": "ef239c2f-9105-4cf9-c99c-b70d25982390",
+            "server": "5.161.192.172",
+            "server_port": 33764,
+            "uuid": "f96e9397-08be-4227-e26a-f3a55a3976de",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2228,7 +2214,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 3",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 3",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,

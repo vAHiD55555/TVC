@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
+                "🇸🇪SE | vless | @NIM_VPN_ir | 11",
                 "🇺🇸US | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 11",
                 "🇨🇦CA | vless | @ipV2Ray | 15",
@@ -132,7 +133,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 27",
-                "🇨🇦CA | vless | @v2rayngvpn | 15",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 22",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -140,8 +141,8 @@
                 "🇨🇦CA | vless | @proxyymeliii | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 12",
-                "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @V2RayTz | 18",
+                "🏳️XX | vless | @VmessProtocol | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 155",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
@@ -157,7 +158,7 @@
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vless | @proxy_mtm | 3",
+                "🇨🇦CA | vless | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 0",
                 "🇨🇦CA | vless | @GozargahVPN | 13",
@@ -177,6 +178,7 @@
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
+                "🇸🇪SE | vless | @NIM_VPN_ir | 11",
                 "🇺🇸US | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 11",
                 "🇨🇦CA | vless | @ipV2Ray | 15",
@@ -201,7 +203,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 27",
-                "🇨🇦CA | vless | @v2rayngvpn | 15",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 22",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -209,8 +211,8 @@
                 "🇨🇦CA | vless | @proxyymeliii | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 12",
-                "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @V2RayTz | 18",
+                "🏳️XX | vless | @VmessProtocol | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 155",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
@@ -226,7 +228,7 @@
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vless | @proxy_mtm | 3",
+                "🇨🇦CA | vless | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 0",
                 "🇨🇦CA | vless | @GozargahVPN | 13",
@@ -309,6 +311,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @NIM_VPN_ir | 11",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
             }
         },
         {
@@ -940,11 +963,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 15",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
             "type": "vless",
-            "server": "172.66.44.124",
-            "server_port": 443,
-            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
+            "server": "104.21.32.238",
+            "server_port": 80,
+            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -952,21 +975,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Telegram-ZTV2RAY.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=@Alpha_v2ray_fazayi,@Alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@Alpha_v2ray_fazayi",
                 "headers": {
-                    "Host": "Telegram-ZTV2RAY.pages.dev"
+                    "Host": "104.21.32.238"
                 }
             }
         },
@@ -1178,11 +1191,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "--DIGiV2RAY--",
+            "server": "104.22.13.192",
+            "server_port": 443,
+            "uuid": "f0509feb-fdbb-4109-a805-944617d57549",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1190,16 +1203,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ShhProxy-Free.xn--85-pv2cl2k5x3fipr.org.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "ShhProxy-Free.xn--85-pv2cl2k5x3fipr.org."
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
+            "tag": "🏳️XX | vless | @VmessProtocol | 16",
             "type": "vless",
             "server": "ppl.arzonhost.ir",
             "server_port": 2082,
@@ -1274,9 +1297,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.66.44.124",
-            "server_port": 443,
-            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "7d261f78-eb0c-4489-a50a-3b719ea7374f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1284,21 +1307,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Telegram-ZTV2RAY.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/--@TV_v2ray--@TV_v2ray--@TV_v2ray--@TV_v2ray--@TV_v2ray--@TV_v2ray--\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "Telegram-ZTV2RAY.pages.dev"
+                    "Host": "discord.gg"
                 }
             }
         },
@@ -1638,11 +1651,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 3",
+            "tag": "🇨🇦CA | vless | @proxy_mtm | 1",
             "type": "vless",
-            "server": "dnschecker.org",
-            "server_port": 443,
-            "uuid": "27f657a4-a8c7-4d3c-be32-3fd2dd58aa01",
+            "server": "104.18.202.232",
+            "server_port": 80,
+            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1650,22 +1663,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "dm.irandtehran.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Telegram-channel-proxy_mtm",
+                "headers": {
+                    "Host": "104.18.202.232"
+                }
             }
         },
         {

@@ -114,9 +114,9 @@
                 "🇨🇦CA | vless | @frev2ray | 15",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 29",
-                "🇺🇸US | vless | @V2rayNGmat | 12",
+                "🇨🇦CA | vless | @V2rayNGmat | 12",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 1",
@@ -143,7 +143,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇺🇸US | vless | @ConfigsHUB | 11",
+                "🇸🇪SE | vless | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 28",
@@ -181,9 +181,9 @@
                 "🇨🇦CA | vless | @frev2ray | 15",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 29",
-                "🇺🇸US | vless | @V2rayNGmat | 12",
+                "🇨🇦CA | vless | @V2rayNGmat | 12",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 1",
@@ -210,7 +210,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇺🇸US | vless | @ConfigsHUB | 11",
+                "🇸🇪SE | vless | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 28",
@@ -467,7 +467,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -512,7 +512,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 12",
+            "tag": "🇨🇦CA | vless | @V2rayNGmat | 12",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 2096,
@@ -1227,11 +1227,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 11",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "162.159.129.96",
-            "server_port": 443,
-            "uuid": "73b6dbd5-a27a-4c76-9ad1-42a82380dddb",
+            "server": "185.146.173.59",
+            "server_port": 2052,
+            "uuid": "284fd6b7-8e4a-4fd6-b96a-0a9b806bac65",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1239,21 +1239,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "cf.yuanwangokk.dynv6.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram_@warphiddify\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "cf.yuanwangokk.dynv6.net"
+                    "Host": "185.146.173.59"
                 }
             }
         },

@@ -155,11 +155,11 @@
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
-                "🇨🇳CN | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 20",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 5",
@@ -167,12 +167,11 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vless | @Capoit | 8",
-                "🇨🇦CA | vless | @FreakConfig | 6",
+                "🇺🇸US | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 12",
                 "🇦🇪AE | ss | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 0",
@@ -240,11 +239,11 @@
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
-                "🇨🇳CN | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 20",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 5",
@@ -252,12 +251,11 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vless | @Capoit | 8",
-                "🇨🇦CA | vless | @FreakConfig | 6",
+                "🇺🇸US | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 12",
                 "🇦🇪AE | ss | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 0",
@@ -1522,17 +1520,37 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "104.25.39.206",
-            "server_port": 8880,
-            "uuid": "30a28c3a-d026-433d-86b8-d43bf4ee3519",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "104.21.83.108",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/link",
+                "headers": {
+                    "Host": "hms02.fxiaomi.sbs"
+                }
             }
         },
         {
@@ -1625,13 +1643,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "39.103.165.178",
-            "server_port": 52033,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "64.176.219.18",
+            "server_port": 50706,
+            "uuid": "a98f5505-8bb1-4d92-e435-21906d9ab89a",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1830,7 +1848,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 6",
+            "tag": "🇺🇸US | vless | @FreakConfig | 6",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 443,
@@ -1956,40 +1974,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
-            "type": "vmess",
-            "server": "104.21.83.108",
-            "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms02.fxiaomi.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/link",
-                "headers": {
-                    "Host": "hms02.fxiaomi.sbs"
-                }
             }
         },
         {

@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 14",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 7",
+                "🇨🇦CA | vless | @proxy_kafee | 8",
                 "🇨🇦CA | vless | @v2logy | 10",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇷🇺RU | vless | @azadi_az_inja_migzare | 0",
@@ -150,12 +150,12 @@
                 "🇸🇪SE | vless | @MsV2ray | 10",
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇳🇱NL | vless | @vless_vmess | 13",
-                "🏳️XX | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
-                "🇳🇱NL | vless | @ConfigsHUB | 10",
+                "🇨🇦CA | vless | @ConfigsHUB | 9",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 14",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 7",
+                "🇨🇦CA | vless | @proxy_kafee | 8",
                 "🇨🇦CA | vless | @v2logy | 10",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇷🇺RU | vless | @azadi_az_inja_migzare | 0",
@@ -235,12 +235,12 @@
                 "🇸🇪SE | vless | @MsV2ray | 10",
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇳🇱NL | vless | @vless_vmess | 13",
-                "🏳️XX | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
-                "🇳🇱NL | vless | @ConfigsHUB | 10",
+                "🇨🇦CA | vless | @ConfigsHUB | 9",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -398,7 +398,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "3.76.153.83",
+            "server": "35.157.45.64",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -754,7 +754,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 7",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 8",
             "type": "vless",
             "server": "104.18.202.232",
             "server_port": 80,
@@ -1425,7 +1425,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @VmessProtocol | 16",
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
             "type": "vless",
             "server": "ppl.arzonhost.ir",
             "server_port": 2082,
@@ -1522,11 +1522,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | vless | @ConfigsHUB | 10",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 9",
             "type": "vless",
-            "server": "188.114.97.12",
+            "server": "www.zula.ir",
             "server_port": 443,
-            "uuid": "3f435429-081a-41e0-8e77-f21e8a51fbbf",
+            "uuid": "6a1b12e6-88b8-4370-a6a5-360182bb7c68",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1536,7 +1536,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "VirgInIaVpn.PaGes.DeV",
+                "server_name": "help.melov2ray.shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1545,11 +1545,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "VirgInIaVpn.PaGes.DeV"
-                }
+                "type": "grpc",
+                "service_name": "melov2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

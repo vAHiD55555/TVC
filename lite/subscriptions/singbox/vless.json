@@ -109,9 +109,8 @@
                 "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇨🇦CA | vless | @Parsashonam | 7",
                 "🇨🇦CA | vless | @v2_team | 7",
-                "🇨🇦CA | vless | @NIM_VPN_ir | 11",
+                "🇸🇪SE | vless | @NIM_VPN_ir | 12",
                 "🇫🇷FR | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇨🇦CA | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 42",
@@ -147,10 +146,9 @@
                 "🇳🇱NL | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🏳️XX | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 20",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
@@ -183,9 +181,8 @@
                 "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇨🇦CA | vless | @Parsashonam | 7",
                 "🇨🇦CA | vless | @v2_team | 7",
-                "🇨🇦CA | vless | @NIM_VPN_ir | 11",
+                "🇸🇪SE | vless | @NIM_VPN_ir | 12",
                 "🇫🇷FR | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇨🇦CA | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 42",
@@ -221,10 +218,9 @@
                 "🇳🇱NL | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🏳️XX | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 20",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
@@ -343,11 +339,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 11",
+            "tag": "🇸🇪SE | vless | @NIM_VPN_ir | 12",
             "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 443,
-            "uuid": "10815631-26f9-4db8-97d4-db626c2d83a5",
+            "server": "Join-VPNCUSTOMIZE.V2ray.motorcycles.",
+            "server_port": 80,
+            "uuid": "VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -355,21 +351,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "german33.bafixdomin.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/qqw",
+                "path": "\/",
                 "headers": {
-                    "Host": "german33.bafixdomin.com"
+                    "Host": "Join-VPNCUSTOMIZE.V2ray.motorcycles."
                 }
             }
         },
@@ -401,27 +387,6 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
-            "type": "vless",
-            "server": "Join-VPNCUSTOMIZE.V2ray.motorcycles.",
-            "server_port": 80,
-            "uuid": "VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Join-VPNCUSTOMIZE.V2ray.motorcycles."
                 }
             }
         },
@@ -1328,37 +1293,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 130",
-            "type": "vless",
-            "server": "172.66.46.250",
-            "server_port": 443,
-            "uuid": "436e7428-381d-404e-ad67-915e98ce357d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "43b35ef5.aminitiger.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "43b35ef5.aminitiger.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @sinabigo | 8",
             "type": "vless",
             "server": "178.63.150.70",
@@ -1394,11 +1328,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "speedtest.org",
+            "server": "3883e5df.joinmahdiserver.pages.dev",
             "server_port": 443,
-            "uuid": "1d86846c-5a27-43c8-8981-57bb75c82195",
+            "uuid": "e5f8bdd5-6df1-4686-80b9-b8b13ffa5bd4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1408,7 +1342,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "qqqqu.mmsorri.info",
+                "server_name": "3883e5df.joinmahdiserver.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1418,9 +1352,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/paradise",
+                "path": "\/--@Mester_V2ray--@Mester_V2ray--@Mester_V2ray--@Mester_V2ray--@Mester_V2ray--@Mester_V2ray--\/",
                 "headers": {
-                    "Host": "qqqqu.mmsorri.info"
+                    "Host": "3883e5df.joinmahdiserver.pages.dev"
                 }
             }
         },

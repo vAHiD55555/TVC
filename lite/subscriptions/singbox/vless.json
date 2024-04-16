@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 1",
-                "🇮🇷IR | vless | @proxyymeliii | 17",
+                "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 141",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇮🇷IR | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -171,7 +171,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 4",
-                "🇸🇪SE | vless | @TVCminer | 3"
+                "🇸🇪SE | vless | @TVCminer | 7"
             ]
         },
         {
@@ -214,7 +214,7 @@
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 1",
-                "🇮🇷IR | vless | @proxyymeliii | 17",
+                "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 141",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇮🇷IR | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -243,7 +243,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 4",
-                "🇸🇪SE | vless | @TVCminer | 3"
+                "🇸🇪SE | vless | @TVCminer | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -860,9 +860,9 @@
         {
             "tag": "🇸🇪SE | vless | @V2rayNGn | 15",
             "type": "vless",
-            "server": "185.146.173.96",
+            "server": "185.146.173.59",
             "server_port": 8880,
-            "uuid": "d5e37f09-78ac-460e-aab8-197bcad93119",
+            "uuid": "c537c99e-8b08-423e-a3f2-d115eaf6e1ee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -874,7 +874,7 @@
                 "type": "ws",
                 "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "185.146.173.96"
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1211,11 +1211,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 17",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 17",
             "type": "vless",
-            "server": "svt55.topnetvip.com",
-            "server_port": 12624,
-            "uuid": "485d6ae6-3e95-4364-87e9-2f0f52e66fa4",
+            "server": "43b35ef5.aminitiger.pages.dev",
+            "server_port": 443,
+            "uuid": "436e7428-381d-404e-ad67-915e98ce357d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1223,11 +1223,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "43b35ef5.aminitiger.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "svt55.topnetvip.com"
+                    "Host": "43b35ef5.aminitiger.pages.dev"
                 }
             }
         },
@@ -1399,11 +1409,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "Join-VPNCUSTOMIZE.V2ray.motorcycles",
-            "server_port": 80,
-            "uuid": "a0ff1c34-ccf7-4c9b-a197-024d9b07165c",
+            "server": "172.66.44.181",
+            "server_port": 443,
+            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1411,11 +1421,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpnmarket-8bm.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=1024",
+                "path": "\/",
                 "headers": {
-                    "Host": "Join-VPNCUSTOMIZE.V2ray.motorcycles"
+                    "Host": "vpnmarket-8bm.pages.dev"
                 }
             }
         },
@@ -1968,7 +1988,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @TVCminer | 3",
+            "tag": "🇸🇪SE | vless | @TVCminer | 7",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,

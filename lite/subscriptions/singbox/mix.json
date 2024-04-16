@@ -149,13 +149,13 @@
                 "🇸🇪SE | vless | @MsV2ray | 10",
                 "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @vless_vmess | 9",
-                "🇸🇪SE | vless | @V2RayTz | 15",
+                "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 13",
-                "🇺🇸US | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
@@ -233,13 +233,13 @@
                 "🇸🇪SE | vless | @MsV2ray | 10",
                 "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @vless_vmess | 9",
-                "🇸🇪SE | vless | @V2RayTz | 15",
+                "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 13",
-                "🇺🇸US | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
@@ -1403,11 +1403,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 15",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray",
+            "server_port": 8880,
+            "uuid": "5b048b80-5c96-4c55-994f-988b980f3c15",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1417,7 +1417,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray?Telegram=@V2RayTz,@V2RayTz",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
                     "Host": "185.146.173.59"
                 }
@@ -1538,20 +1538,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "38.75.137.27",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "discord.org",
+            "server_port": 8080,
+            "uuid": "ed8143e3-7a23-454d-a34c-d0faaf0aba4d",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "headers": {
+                    "Host": "discord.org"
+                }
             }
         },
         {
@@ -1852,9 +1856,9 @@
         {
             "tag": "🇨🇦CA | vless | @FreakConfig | 5",
             "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 443,
-            "uuid": "436e7428-381d-404e-ad67-915e98ce357d",
+            "server": "104.24.177.7",
+            "server_port": 2052,
+            "uuid": "284fd6b7-8e4a-4fd6-b96a-0a9b806bac65",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1862,21 +1866,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "43b35ef5.aminitiger.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "43b35ef5.aminitiger.pages.dev"
+                    "Host": "104.24.177.7"
                 }
             }
         },

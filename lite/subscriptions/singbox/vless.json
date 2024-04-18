@@ -145,10 +145,10 @@
                 "🇮🇷IR | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇫🇷FR | vless | @DailyV2RY | 117",
+                "🇨🇦CA | vless | @DailyV2RY | 117",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -214,10 +214,10 @@
                 "🇮🇷IR | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇫🇷FR | vless | @DailyV2RY | 117",
+                "🇨🇦CA | vless | @DailyV2RY | 117",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -1248,11 +1248,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @DailyV2RY | 117",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 117",
             "type": "vless",
-            "server": "173.245.49.216",
-            "server_port": 2096,
-            "uuid": "2cd43f95-7f19-4a94-acae-aa5ca0825724",
+            "server": "zula.ir",
+            "server_port": 8443,
+            "uuid": "27f5b343-c0e7-4c56-8482-f616a7867c96",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1262,7 +1262,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "korosh.orewasanji.fun",
+                "server_name": "Mapv.richscale.app",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1271,11 +1271,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "korosh",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/hi",
+                "headers": {
+                    "Host": "Mapv.richscale.app"
+                }
             }
         },
         {
@@ -1331,11 +1331,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "2f2d6273-ce88-405c-88e3-8a1812b2222a",
+            "server": "AstroVPN-official.AstroVPN-official.workers.dev",
+            "server_port": 443,
+            "uuid": "5ec4d807-5052-4525-b535-1ea99e494adb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1343,12 +1343,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "lt.ArV2ray.host",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1385,9 +1395,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "confingland-uae.pages.dev",
+            "server": "104.18.158.102",
             "server_port": 443,
-            "uuid": "3554d65d-738b-474c-80ea-ebf1e26f5a08",
+            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1397,7 +1407,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "confingland-uae.pages.Dev",
+                "server_name": "sALAm-wOrD.pagEs.deV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1407,9 +1417,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/QJXZLKrI0afqLBAA",
+                "path": "\/@my_proxii",
                 "headers": {
-                    "Host": "confingland-uae.pages.Dev"
+                    "Host": "sALAm-wOrD.pagEs.deV"
                 }
             }
         },

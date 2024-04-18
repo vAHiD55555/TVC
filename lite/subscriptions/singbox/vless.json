@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
-                "🇨🇦CA | vless | @v2rayngvpn | 11",
+                "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 31",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -147,12 +147,11 @@
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇷🇺RU | vless | @DailyV2RY | 129",
+                "🇨🇦CA | vless | @DailyV2RY | 120",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -207,7 +206,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
-                "🇨🇦CA | vless | @v2rayngvpn | 11",
+                "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 31",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -218,12 +217,11 @@
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇷🇺RU | vless | @DailyV2RY | 129",
+                "🇨🇦CA | vless | @DailyV2RY | 120",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -1026,11 +1024,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 11",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "172.66.44.181",
-            "server_port": 443,
-            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
+            "server": "104.18.158.102",
+            "server_port": 80,
+            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1038,21 +1036,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnmarket-8bm.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@my_proxii",
                 "headers": {
-                    "Host": "vpnmarket-8bm.pages.dev"
+                    "Host": "104.18.158.102"
                 }
             }
         },
@@ -1300,11 +1288,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vless | @DailyV2RY | 129",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 120",
             "type": "vless",
-            "server": "185.148.105.52",
-            "server_port": 80,
-            "uuid": "a96baa55-9a02-4cd1-9118-e70c22c0d612",
+            "server": "104.18.1.84",
+            "server_port": 443,
+            "uuid": "aa9e4f20-f7f3-46cc-96f3-897116755cf3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1312,11 +1300,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "worker-jolly-block-2e78.gamal32324.workers.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/Telegram@SiNABiGO\/",
                 "headers": {
-                    "Host": "185.148.105.52"
+                    "Host": "worker-jolly-block-2e78.gamal32324.workers.Dev"
                 }
             }
         },
@@ -1373,11 +1371,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "8b155a5b.joinmahdiserver-o00.pages.dev",
-            "server_port": 443,
-            "uuid": "aa114e98-541e-4cf4-ab1b-a75911dae52a",
+            "server": "104.19.204.138",
+            "server_port": 2083,
+            "uuid": "7fd7c15d-95cd-4f5c-bf59-f21e5eb27580",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1387,7 +1385,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "8b155a5b.joinmahdiserver-o00.pages.dev",
+                "server_name": "3k.dabee.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1397,9 +1395,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/【TG：@juzibaipiao】定时更新节点",
                 "headers": {
-                    "Host": "8b155a5b.joinmahdiserver-o00.pages.dev"
+                    "Host": "3k.dabee.top"
                 }
             }
         },
@@ -1432,27 +1430,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
-            "type": "vless",
-            "server": "104.18.158.102",
-            "server_port": 80,
-            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@my_proxii",
-                "headers": {
-                    "Host": "104.18.158.102"
-                }
             }
         },
         {

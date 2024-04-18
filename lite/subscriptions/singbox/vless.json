@@ -145,14 +145,14 @@
                 "🇸🇪SE | vless | @MsV2ray | 10",
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @sinabigo | 5",
+                "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇸🇪SE | vless | @Capoit | 15",
+                "🇨🇷CR | vless | @Capoit | 15",
                 "🏳️XX | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
@@ -211,14 +211,14 @@
                 "🇸🇪SE | vless | @MsV2ray | 10",
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @sinabigo | 5",
+                "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇸🇪SE | vless | @Capoit | 15",
+                "🇨🇷CR | vless | @Capoit | 15",
                 "🏳️XX | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
@@ -857,7 +857,7 @@
             "type": "vless",
             "server": "185.146.173.96",
             "server_port": 8880,
-            "uuid": "a34471e3-175d-4155-bd5d-ce3ac79cd43a",
+            "uuid": "65709a5a-1b0b-470a-b017-72880cdb061d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -876,9 +876,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outline_Vpn | 18",
             "type": "vless",
-            "server": "104.24.177.7",
-            "server_port": 80,
-            "uuid": "aabc3ef9-6968-4311-81b8-8cd0414c1904",
+            "server": "43b35ef5.aminitiger.pages.dev",
+            "server_port": 443,
+            "uuid": "436e7428-381d-404e-ad67-915e98ce357d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -886,11 +886,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "43b35ef5.aminitiger.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.24.177.7"
+                    "Host": "43b35ef5.aminitiger.pages.dev"
                 }
             }
         },
@@ -1262,34 +1272,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 5",
+            "tag": "🇮🇷IR | vless | @sinabigo | 4",
             "type": "vless",
-            "server": "104.31.16.162",
-            "server_port": 2083,
-            "uuid": "ffffffff-17ad-45e7-aaa1-f2baaa08e930",
+            "server": "46.36.100.38",
+            "server_port": 12557,
+            "uuid": "8291c021-c278-423f-9b2d-76a2a490064e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "watashi.free.jppublic.moh539.link",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@SINABIGO\/",
-                "headers": {
-                    "Host": "watashi.free.jppublic.moh539.link"
-                }
             }
         },
         {
@@ -1450,11 +1443,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Capoit | 15",
+            "tag": "🇨🇷CR | vless | @Capoit | 15",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 8880,
-            "uuid": "8633281f-e5cc-4118-aae6-6f14bd44f1cf",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "34462e1f-28f5-4db7-8020-ca15aa1e72fc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1462,11 +1455,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "join-telegram-chanell-disvpn.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/daily_configs",
+                "path": "\/Telegram: @DisVpn",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "join-telegram-chanell-disvpn.pages.dev"
                 }
             }
         },

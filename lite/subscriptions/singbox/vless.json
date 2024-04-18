@@ -140,13 +140,13 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 3",
-                "🇸🇪SE | vless | @proxyymeliii | 17",
+                "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇮🇷IR | vless | @v2ray1_ng | 9",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
-                "🇩🇪DE | vless | @DailyV2RY | 124",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -154,7 +154,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 14",
                 "🏳️XX | vless | @FreakConfig | 3",
-                "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 3",
@@ -207,13 +207,13 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 3",
-                "🇸🇪SE | vless | @proxyymeliii | 17",
+                "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇮🇷IR | vless | @v2ray1_ng | 9",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
-                "🇩🇪DE | vless | @DailyV2RY | 124",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -221,7 +221,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 14",
                 "🏳️XX | vless | @FreakConfig | 3",
-                "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 3",
@@ -1146,11 +1146,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 17",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 16",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 8880,
-            "uuid": "f4a4aa04-226c-44ef-a59a-da89f6596c9d",
+            "uuid": "d7071b92-2e1d-41cc-acff-4f54c2b4de39",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1216,20 +1216,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 124",
-            "type": "vless",
-            "server": "bo2.bia2bax.shop",
-            "server_port": 47529,
-            "uuid": "a56cfe14-a514-49ca-adea-f65f2b28417b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @sinabigo | 5",
             "type": "vless",
             "server": "104.31.16.162",
@@ -1278,6 +1264,27 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "mc.votirm.fun",
+            "server_port": 80,
+            "uuid": "2d8fd288-ed20-47d4-be86-ae19b4c9424e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mc.votirm.fun"
                 }
             }
         },
@@ -1467,7 +1474,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 17",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 18",
             "type": "vless",
             "server": "172.66.47.87",
             "server_port": 443,

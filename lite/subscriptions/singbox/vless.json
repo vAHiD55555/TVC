@@ -138,12 +138,10 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
                 "🇸🇪SE | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
-                "🇨🇦CA | vless | @ShadowProxy66 | 31",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 3",
                 "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 9",
-                "🇮🇷IR | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇫🇷FR | vless | @DailyV2RY | 117",
@@ -166,9 +164,9 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 5",
+                "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
             ]
         },
@@ -208,12 +206,10 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
                 "🇸🇪SE | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
-                "🇨🇦CA | vless | @ShadowProxy66 | 31",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 3",
                 "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 9",
-                "🇮🇷IR | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇫🇷FR | vless | @DailyV2RY | 117",
@@ -236,9 +232,9 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 5",
+                "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -358,7 +354,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "18.132.177.79",
+            "server": "3.11.29.109",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -905,9 +901,9 @@
         {
             "tag": "🇨🇦CA | vless | @prrofile_purple | 184",
             "type": "vless",
-            "server": "104.22.33.78",
-            "server_port": 443,
-            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "server": "23.227.60.186",
+            "server_port": 80,
+            "uuid": "394fa9dc-368f-46f7-98c8-b541a4b63510",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -915,21 +911,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Bia.alLhub.Ltd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram-channel-proxy_mtm\/",
+                "path": "\/@HAJIMAMADVPN",
                 "headers": {
-                    "Host": "Bia.alLhub.Ltd"
+                    "Host": "23.227.60.186"
                 }
             }
         },
@@ -1090,27 +1076,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 31",
-            "type": "vless",
-            "server": "104.18.202.231",
-            "server_port": 80,
-            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.18.202.231"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @Qv2rayDONATED | 7",
             "type": "vless",
             "server": "104.16.188.173",
@@ -1212,20 +1177,6 @@
                 "headers": {
                     "Host": "Back.MsV2ray.online"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @v2ray1_ng | 9",
-            "type": "vless",
-            "server": "79.175.177.111",
-            "server_port": 24669,
-            "uuid": "c5d89dde-0cc3-4c98-b053-95fffd5be364",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1366,15 +1317,32 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "1bdf3e45.mahdiserver-3kd.pages.dev",
-            "server_port": 443,
-            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
+            "server": "Tgju.org",
+            "server_port": 2053,
+            "uuid": "45f0a166-288e-41cf-bea5-9f518c837770",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lan.protoeinpaitakht.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za",
+                "headers": {
+                    "Host": "lan.protoeinpaitakht.com"
+                }
             }
         },
         {
@@ -1833,7 +1801,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
@@ -1878,7 +1846,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ROMAX_VPN | 5",
+            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 5",
             "type": "vless",
             "server": "172.66.213.38",
             "server_port": 2082,

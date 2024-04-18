@@ -134,7 +134,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇫🇷FR | trojan | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇩🇪DE | vless | @prrofile_purple | 194",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -156,12 +156,10 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -217,7 +215,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇫🇷FR | trojan | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇩🇪DE | vless | @prrofile_purple | 194",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -239,12 +237,10 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -979,16 +975,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
-            "type": "vmess",
-            "server": "172.67.222.164",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇫🇷FR | trojan | @oneclickvpnkeys | 7",
+            "type": "trojan",
+            "server": "fr01.freeflyingcloud.xyz",
+            "server_port": 30502,
+            "password": "f43b33be-ab17-4247-bde6-ffe4eaf1030a",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -996,19 +987,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "novia.makeup",
+                "server_name": "fr01.freeflyingcloud.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "novia.makeup"
                 }
             }
         },
@@ -1552,37 +1536,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "104.25.107.32",
-            "server_port": 443,
-            "uuid": "4b68508e-456d-4949-96b5-113300640c05",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "1eE61c3F.WYVERNFrEE.pAGES.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/powerdbyWyvern?ed=2560",
-                "headers": {
-                    "Host": "1eE61c3F.WYVERNFrEE.pAGES.DEV"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷IR | vmess | @proxystore11 | 13",
             "type": "vmess",
             "server": "vip.soheilsat.com",
@@ -1696,27 +1649,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
-            "type": "vless",
-            "server": "104.16.60.8",
-            "server_port": 80,
-            "uuid": "a61eb3a2-1adb-48cb-ab46-ce225769de16",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/users",
-                "headers": {
-                    "Host": "104.16.60.8"
-                }
             }
         },
         {

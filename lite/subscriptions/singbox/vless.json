@@ -136,6 +136,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 32",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 31",
@@ -145,11 +146,12 @@
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇸🇪SE | vless | @v2ray1_ng | 17",
                 "🇮🇷IR | vless | @vless_vmess | 7",
-                "🇺🇸US | vless | @V2RayTz | 11",
+                "🇨🇦CA | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 138",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -166,7 +168,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
@@ -206,6 +208,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 32",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 31",
@@ -215,11 +218,12 @@
                 "🇸🇪SE | vless | @MsV2ray | 9",
                 "🇸🇪SE | vless | @v2ray1_ng | 17",
                 "🇮🇷IR | vless | @vless_vmess | 7",
-                "🇺🇸US | vless | @V2RayTz | 11",
+                "🇨🇦CA | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 138",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -236,7 +240,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
@@ -1014,6 +1018,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 8443,
+            "uuid": "b01e3f02-d51b-43d8-af76-227a20fb0d0a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "1.irancloudflare.cab",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "1.irancloudflare.cab"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
             "server": "172.64.35.226",
@@ -1236,7 +1271,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2RayTz | 11",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 11",
             "type": "vless",
             "server": "104.20.254.143",
             "server_port": 80,
@@ -1347,6 +1382,37 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "172.66.213.38",
+            "server_port": 8443,
+            "uuid": "24------EVAY_VPN------",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pop.loveiran01.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "headers": {
+                    "Host": "pop.loveiran01.com"
                 }
             }
         },
@@ -1796,7 +1862,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,

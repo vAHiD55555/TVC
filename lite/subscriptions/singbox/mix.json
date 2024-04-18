@@ -180,7 +180,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
@@ -264,7 +264,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
@@ -1534,9 +1534,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.66.213.38",
-            "server_port": 8443,
-            "uuid": "24------EVAY_VPN------",
+            "server": "Tgju.org",
+            "server_port": 2096,
+            "uuid": "c669f31b-8f73-45c9-872d-b83665563d64",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1546,7 +1546,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pop.loveiran01.com",
+                "server_name": "Lan.protoeinpaitakht.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1555,11 +1555,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "headers": {
-                    "Host": "pop.loveiran01.com"
-                }
+                "type": "grpc",
+                "service_name": "@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -2171,7 +2171,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,

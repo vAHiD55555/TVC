@@ -128,7 +128,7 @@
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 1",
+                "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
@@ -156,7 +156,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇭🇰HK | vmess | @ConfigsHUB | 5",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 17",
@@ -213,7 +213,7 @@
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 1",
+                "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
@@ -241,7 +241,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇭🇰HK | vmess | @ConfigsHUB | 5",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 17",
@@ -850,11 +850,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 3",
             "type": "vless",
-            "server": "speedtest.org",
-            "server_port": 443,
-            "uuid": "1d86846c-5a27-43c8-8981-57bb75c82195",
+            "server": "iranserver.com",
+            "server_port": 2083,
+            "uuid": "8b099988-2d6c-47ed-b134-0e5d7d037088",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -864,7 +864,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "polo.gdorri.info",
+                "server_name": "v6a.bestvipbotirr.online",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -873,11 +873,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/paradise",
-                "headers": {
-                    "Host": "polo.gdorri.info"
-                }
+                "type": "grpc",
+                "service_name": "@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1528,13 +1528,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "185.146.173.59",
+            "tag": "🇭🇰HK | vmess | @ConfigsHUB | 5",
+            "type": "vmess",
+            "server": "kagoya.hkss.online",
             "server_port": 443,
-            "uuid": "31------ISVvpn------",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "4664e760-f5f3-3cc2-8bb3-04f85aa7febb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1542,19 +1545,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "debug-motorcycle-rubber-le.trycloudflare.com",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/id-ISVvpn",
-                "headers": {
-                    "Host": "debug-motorcycle-rubber-le.trycloudflare.com"
                 }
             }
         },

@@ -145,10 +145,10 @@
                 "🇬🇧GB | vless | @v2ray1_ng | 8",
                 "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 83",
+                "🇬🇧GB | vless | @DailyV2RY | 86",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
@@ -156,7 +156,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇷CR | vless | @Capoit | 15",
                 "🏳️XX | vless | @FreakConfig | 4",
-                "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇨🇼CW | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
@@ -214,10 +213,10 @@
                 "🇬🇧GB | vless | @v2ray1_ng | 8",
                 "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 83",
+                "🇬🇧GB | vless | @DailyV2RY | 86",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
@@ -225,7 +224,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇷CR | vless | @Capoit | 15",
                 "🏳️XX | vless | @FreakConfig | 4",
-                "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇨🇼CW | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
@@ -366,7 +364,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "3.127.10.159",
+            "server": "52.59.111.131",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1258,24 +1256,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 83",
+            "tag": "🇬🇧GB | vless | @DailyV2RY | 86",
             "type": "vless",
-            "server": "198.41.199.166",
-            "server_port": 80,
-            "uuid": "c7fa416f-a162-4a16-a0c6-25cec7e009eb",
+            "server": "chos7.irancoo.click",
+            "server_port": 52547,
+            "uuid": "c1a96bd9-84ea-456d-9263-7815cb61ade5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/backup",
-                "headers": {
-                    "Host": "198.41.199.166"
-                }
             }
         },
         {
@@ -1314,11 +1305,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 17",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "rxopu1289.q.rxteam.ir",
-            "server_port": 57081,
-            "uuid": "662ad6b6-b1df-4376-98bb-679aeb645352",
+            "server": "Back.MsV2ray.online",
+            "server_port": 2095,
+            "uuid": "-MsV2ray-MsV2ray-MsV2ray-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1326,14 +1317,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "rxopu1289.q.rxteam.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/MsV2ray-MsV2ray-MsV2ray-MsV2ray",
+                "headers": {
+                    "Host": "Back.MsV2ray.online"
                 }
             }
         },
@@ -1529,27 +1517,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "[::ffff:b992:ad3b]"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 18",
-            "type": "vless",
-            "server": "Back.MsV2ray.online",
-            "server_port": 2095,
-            "uuid": "-MsV2ray-MsV2ray-MsV2ray-",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/MsV2ray-MsV2ray-MsV2ray-MsV2ray",
-                "headers": {
-                    "Host": "Back.MsV2ray.online"
                 }
             }
         },

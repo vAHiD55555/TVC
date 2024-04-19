@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
-                "🇸🇪SE | vless | @lightning6 | 22",
+                "🇸🇪SE | vless | @lightning6 | 21",
                 "🇨🇦CA | vless | @V2rayNGmat | 13",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
@@ -134,7 +134,7 @@
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 11",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -158,7 +158,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 9",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇳🇱NL | vmess | @Hope_Net | 9",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
-                "🇸🇪SE | vless | @lightning6 | 22",
+                "🇸🇪SE | vless | @lightning6 | 21",
                 "🇨🇦CA | vless | @V2rayNGmat | 13",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
@@ -221,7 +221,7 @@
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 11",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -245,7 +245,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 9",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇳🇱NL | vmess | @Hope_Net | 9",
@@ -446,7 +446,7 @@
             "type": "vless",
             "server": "dnschecker.org",
             "server_port": 443,
-            "uuid": "f3563049-f464-44d6-a736-f06641381326",
+            "uuid": "8155390c-1b27-4249-81a4-4a663832313c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -664,11 +664,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lightning6 | 22",
+            "tag": "🇸🇪SE | vless | @lightning6 | 21",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "00a7d24f-d61a-4179-bbfb-f54346e7e416",
+            "uuid": "dadc9927-28d1-4506-bf13-c1392bddd6db",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -981,11 +981,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "admin.arzonhost.ir",
-            "server_port": 2086,
-            "uuid": "7d93e992-48cf-42d4-84f8-75768e815a4c",
+            "server": "65.109.199.41",
+            "server_port": 4176,
+            "uuid": "207a228e-343a-42a7-fc9e-3decc4c70de9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -995,13 +995,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1559,11 +1552,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 9",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "-----DIGiV2RAY-----",
+            "server": "AstroVPN-official.astrovpn-official.workers.dev",
+            "server_port": 443,
+            "uuid": "1d86846c-5a27-43c8-8981-57bb75c82195",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1571,11 +1564,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "polo.gdorri.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/paradise",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "polo.gdorri.info"
                 }
             }
         },

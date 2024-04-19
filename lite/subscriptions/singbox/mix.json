@@ -154,11 +154,11 @@
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 104",
+                "🇨🇦CA | vless | @DailyV2RY | 102",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 14",
-                "🇨🇷CR | vless | @ConfigsHUB | 19",
+                "🇮🇪IE | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇳🇱NL | vmess | @Hope_Net | 17",
@@ -241,11 +241,11 @@
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 104",
+                "🇨🇦CA | vless | @DailyV2RY | 102",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 14",
-                "🇨🇷CR | vless | @ConfigsHUB | 19",
+                "🇮🇪IE | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇳🇱NL | vmess | @Hope_Net | 17",
@@ -392,7 +392,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "54.73.220.67",
+            "server": "34.245.243.223",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -898,7 +898,7 @@
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "54.220.163.199",
+            "server": "34.254.84.147",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -920,7 +920,7 @@
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.130.63.147",
+            "server": "18.218.42.143",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1503,11 +1503,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 104",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 102",
             "type": "vless",
-            "server": "104.22.2.79",
+            "server": "zula.ir",
             "server_port": 443,
-            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
+            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1517,7 +1517,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "HETZNER-D.pages.DEV",
+                "server_name": "polo.gdorri.info",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1529,7 +1529,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "HETZNER-D.pages.DEV"
+                    "Host": "polo.gdorri.info"
                 }
             }
         },
@@ -1579,13 +1579,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 443,
-            "uuid": "0d0245cd-8412-4a32-b52c-ef810651e635",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇪IE | trojan | @ConfigsHUB | 19",
+            "type": "trojan",
+            "server": "52.214.128.107",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1593,20 +1591,13 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "digi--v2raycncfs.RadioTeHran.oRG",
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Digiv2ray,@Digiv2ray,@Digiv2ray,@Digiv2ray,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

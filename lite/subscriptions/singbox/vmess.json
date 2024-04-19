@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @DeamNet_Proxy | 15",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 3",
                 "🇺🇸US | vmess | @ConfigsHUB | 10",
@@ -124,7 +123,6 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @DeamNet_Proxy | 15",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 3",
                 "🇺🇸US | vmess | @ConfigsHUB | 10",
@@ -191,30 +189,6 @@
                 "path": "\/debian",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | vmess | @DeamNet_Proxy | 15",
-            "type": "vmess",
-            "server": "182.16.1.194",
-            "server_port": 80,
-            "uuid": "00a1da14-d55f-5f75-e346-79b985e1a723",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/opt\/video\/images",
-                "headers": {
-                    "Host": "182.16.1.194"
                 }
             }
         },
@@ -289,9 +263,9 @@
         {
             "tag": "🇺🇸US | vmess | @ConfigsHUB | 10",
             "type": "vmess",
-            "server": "2.58.87.221",
-            "server_port": 46628,
-            "uuid": "f6ba9e5a-711c-496f-be60-ac5464dec2b8",
+            "server": "151.101.3.10",
+            "server_port": 80,
+            "uuid": "d39a347a-00c9-4f91-9255-7f536c07c5a8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -301,6 +275,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/aries?ed=2560",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {

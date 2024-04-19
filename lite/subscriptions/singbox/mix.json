@@ -149,14 +149,14 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @MsV2ray | 10",
-                "🇨🇦CA | vless | @v2ray1_ng | 9",
+                "🇬🇧GB | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇸🇪SE | vless | @ConfigsHUB | 14",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 17",
@@ -234,14 +234,14 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @MsV2ray | 10",
-                "🇨🇦CA | vless | @v2ray1_ng | 9",
+                "🇬🇧GB | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇸🇪SE | vless | @ConfigsHUB | 14",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 17",
@@ -1379,11 +1379,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 9",
+            "tag": "🇬🇧GB | vless | @v2ray1_ng | 8",
             "type": "vless",
-            "server": "104.18.158.102",
+            "server": "51.77.110.53",
             "server_port": 80,
-            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
+            "uuid": "afb24434-5378-4b85-ad09-690656e9e94d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1393,9 +1393,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@my_proxii",
+                "path": "\/?-------@v2ray1_ng--@v2ray1_ng--@v2ray1_ng--@v2ray1_ng--@v2ray1_ng--@v2ray1_ng--@v2ray1_ng--@v2ray1_ng--@v2ray1_ng--@v2ray1_ng--@v2ray1_ng--@v2ray1_ng--@v2ray1_ng--@v2ray1_ng",
                 "headers": {
-                    "Host": "104.18.158.102"
+                    "Host": "51.77.110.53"
                 }
             }
         },
@@ -1528,11 +1528,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 14",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
             "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "8d2d4598-bc43-4758-8e00-0e92b9abad33",
+            "server_port": 443,
+            "uuid": "31------ISVvpn------",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1540,11 +1540,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "debug-motorcycle-rubber-le.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/id-ISVvpn",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "debug-motorcycle-rubber-le.trycloudflare.com"
                 }
             }
         },

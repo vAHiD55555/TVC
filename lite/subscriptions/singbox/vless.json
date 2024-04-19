@@ -146,10 +146,9 @@
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇷🇺RU | vless | @V2RayTz | 15",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
-                "🇬🇧GB | vless | @DailyV2RY | 86",
+                "🇬🇧GB | vless | @DailyV2RY | 97",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -167,7 +166,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 5",
+                "🇺🇸US | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
             ]
         },
@@ -215,10 +214,9 @@
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇷🇺RU | vless | @V2RayTz | 15",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
-                "🇬🇧GB | vless | @DailyV2RY | 86",
+                "🇬🇧GB | vless | @DailyV2RY | 97",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -236,7 +234,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 5",
+                "🇺🇸US | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -356,7 +354,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "13.37.176.194",
+            "server": "13.38.221.155",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -799,9 +797,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "Join.ShhProxy.Site",
+            "server": "web.bbv2ry.pics",
             "server_port": 443,
-            "uuid": "f36b76da-6c4a-44c9-b6ad-4dbd374c7227",
+            "uuid": "afd60049-2835-442e-aeec-71a6f1bc9090",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -811,7 +809,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ShhProxyFreViP.xn--85-pv2cl2k5x3fipr.org.",
+                "server_name": "Sky2.bbv2ry.pics",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -823,7 +821,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "ShhProxyFreViP.xn--85-pv2cl2k5x3fipr.org."
+                    "Host": "Sky2.bbv2ry.pics"
                 }
             }
         },
@@ -1279,7 +1277,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @DailyV2RY | 86",
+            "tag": "🇬🇧GB | vless | @DailyV2RY | 97",
             "type": "vless",
             "server": "chos7.irancoo.click",
             "server_port": 52547,
@@ -1324,37 +1322,6 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "steel.footballlovernews.com",
-            "server_port": 443,
-            "uuid": "ec880e3c-2817-4b89-9887-ccc1fb7e3a52",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "steel.footballlovernews.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/steel",
-                "headers": {
-                    "Host": "steel.footballlovernews.com"
                 }
             }
         },
@@ -1845,7 +1812,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 5",
+            "tag": "🇺🇸US | vless | @ROMAX_VPN | 5",
             "type": "vless",
             "server": "172.66.213.38",
             "server_port": 2082,

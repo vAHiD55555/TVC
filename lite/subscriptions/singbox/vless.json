@@ -129,7 +129,7 @@
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
-                "🇸🇪SE | vless | @V2rayNGn | 14",
+                "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -149,6 +149,7 @@
                 "🇬🇧GB | vless | @DailyV2RY | 97",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -197,7 +198,7 @@
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
-                "🇸🇪SE | vless | @V2rayNGn | 14",
+                "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -217,6 +218,7 @@
                 "🇬🇧GB | vless | @DailyV2RY | 97",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -847,11 +849,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2rayNGn | 14",
+            "tag": "🇸🇪SE | vless | @V2rayNGn | 13",
             "type": "vless",
-            "server": "185.146.173.96",
+            "server": "185.146.173.59",
             "server_port": 8880,
-            "uuid": "65709a5a-1b0b-470a-b017-72880cdb061d",
+            "uuid": "d7071b92-2e1d-41cc-acff-4f54c2b4de39",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -863,7 +865,7 @@
                 "type": "ws",
                 "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "185.146.173.96"
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1322,6 +1324,37 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.17.42.10",
+            "server_port": 443,
+            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "HETZNER-D.pages.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "HETZNER-D.pages.DEV"
                 }
             }
         },

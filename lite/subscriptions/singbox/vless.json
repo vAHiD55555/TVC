@@ -131,7 +131,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
-                "🇨🇦CA | vless | @prrofile_purple | 184",
+                "🇨🇦CA | vless | @prrofile_purple | 194",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 34",
@@ -150,13 +150,13 @@
                 "🇨🇷CR | vless | @DailyV2RY | 104",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇨🇷CR | vless | @Capoit | 15",
+                "🇩🇪DE | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇨🇼CW | vless | @mehrosaboran | 6",
@@ -167,7 +167,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
@@ -202,7 +202,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
-                "🇨🇦CA | vless | @prrofile_purple | 184",
+                "🇨🇦CA | vless | @prrofile_purple | 194",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 34",
@@ -221,13 +221,13 @@
                 "🇨🇷CR | vless | @DailyV2RY | 104",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇨🇷CR | vless | @Capoit | 15",
+                "🇩🇪DE | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇨🇼CW | vless | @mehrosaboran | 6",
@@ -238,7 +238,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
@@ -885,11 +885,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 184",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 194",
             "type": "vless",
-            "server": "162.159.135.79",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "server": "23.227.60.186",
+            "server_port": 80,
+            "uuid": "394fa9dc-368f-46f7-98c8-b541a4b63510",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -897,21 +897,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "test30.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@proxy_mtm\/",
+                "path": "\/@HAJIMAMADVPN",
                 "headers": {
-                    "Host": "test30.pages.dev"
+                    "Host": "23.227.60.186"
                 }
             }
         },
@@ -1002,9 +992,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "172.66.47.75",
+            "server": "172.66.47.87",
             "server_port": 443,
-            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
+            "uuid": "896ea6fd-0754-430d-b5b3-4b4ad487617d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1014,7 +1004,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vpnmarket-8bm.pages.dev",
+                "server_name": "4d9061a7.joinmahdiserver-7tw.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1026,7 +1016,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "vpnmarket-8bm.pages.dev"
+                    "Host": "4d9061a7.joinmahdiserver-7tw.pages.dev"
                 }
             }
         },
@@ -1350,11 +1340,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "30af6e27.joinmahdiserver-dg2.pages.dev",
-            "server_port": 443,
-            "uuid": "8c0936af-0c0b-445f-a5e6-1de0216183e5",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "-----DIGiV2RAY-----",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1362,21 +1352,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "30af6e27.joinmahdiserver-dg2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Digiv2ray-",
                 "headers": {
-                    "Host": "30af6e27.joinmahdiserver-dg2.pages.dev"
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1524,11 +1504,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @Capoit | 15",
+            "tag": "🇩🇪DE | vless | @Capoit | 4",
             "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 443,
-            "uuid": "34462e1f-28f5-4db7-8020-ca15aa1e72fc",
+            "server": "154.197.75.80",
+            "server_port": 8880,
+            "uuid": "7adf4c7e-6e67-43aa-b390-1fef91a83bfe",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1536,21 +1516,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-telegram-chanell-disvpn.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram: @DisVpn",
+                "path": "\/daily_configs",
                 "headers": {
-                    "Host": "join-telegram-chanell-disvpn.pages.dev"
+                    "Host": "154.197.75.80"
                 }
             }
         },
@@ -1588,9 +1558,9 @@
         {
             "tag": "🇨🇦CA | vless | @flyv2ray | 18",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "104.18.158.102",
             "server_port": 443,
-            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1600,7 +1570,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bPb.rAdicaLIzatioN.IR",
+                "server_name": "sALAm-wOrD.pagEs.deV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1612,7 +1582,7 @@
                 "type": "ws",
                 "path": "\/Telegram-V2ray_Alpha\/",
                 "headers": {
-                    "Host": "bPb.rAdicaLIzatioN.IR"
+                    "Host": "sALAm-wOrD.pagEs.deV"
                 }
             }
         },
@@ -1853,7 +1823,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,

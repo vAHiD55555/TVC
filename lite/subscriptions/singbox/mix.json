@@ -156,10 +156,10 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇹🇷TR | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -241,10 +241,10 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇹🇷TR | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -1528,34 +1528,20 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "172.64.229.28",
-            "server_port": 8443,
-            "uuid": "86cb9a9b-dc2e-45d6-b35d-7ce1daa32a15",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇹🇷TR | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "154.53.164.40",
+            "server_port": 54503,
+            "uuid": "a3ec8a6e-bd2d-43d7-f056-97042778e4ec",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dns68.shift.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_Alpha\/",
-                "headers": {
-                    "Host": "dns68.shift.cloudns.org"
-                }
             }
         },
         {
@@ -1614,11 +1600,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "199.247.3.99",
-            "server_port": 2548,
-            "uuid": "b1dc771f-6f4c-471c-daeb-a704713bb2dd",
+            "server": "38.102.234.247",
+            "server_port": 20928,
+            "uuid": "399b2ab0-26f6-4df9-b738-113821d5556c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1628,6 +1614,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {

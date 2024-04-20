@@ -156,7 +156,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇯🇵JP | vmess | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -166,9 +166,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @Capoit | 7",
-                "🇺🇸US | vless | @FreakConfig | 4",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
-                "🇺🇸US | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇼CW | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
@@ -241,7 +241,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇯🇵JP | vmess | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -251,9 +251,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @Capoit | 7",
-                "🇺🇸US | vless | @FreakConfig | 4",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
-                "🇺🇸US | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇼CW | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
@@ -1528,20 +1528,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇯🇵JP | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "167.179.111.237",
-            "server_port": 14935,
-            "uuid": "e961894f-8e90-472f-98d3-09402e4be453",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "-----DIGIV2RAY-----",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Digiv2ray-",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
             }
         },
         {
@@ -1777,7 +1781,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 4",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -1839,7 +1843,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 16",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 16",
             "type": "vless",
             "server": "104.25.107.32",
             "server_port": 443,

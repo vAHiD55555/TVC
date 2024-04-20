@@ -125,7 +125,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 8",
+                "🇨🇦CA | vless | @proxy_kafee | 13",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -151,7 +151,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 98",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -165,7 +165,7 @@
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇺🇸US | vless | @GozargahVPN | 14",
+                "🇺🇸US | vless | @GozargahVPN | 15",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -200,7 +200,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 8",
+                "🇨🇦CA | vless | @proxy_kafee | 13",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -226,7 +226,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 98",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -240,7 +240,7 @@
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇺🇸US | vless | @GozargahVPN | 14",
+                "🇺🇸US | vless | @GozargahVPN | 15",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -747,7 +747,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 8",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 13",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -1406,11 +1406,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "9052b030.joinmahdiserver-90p.pages.dev",
-            "server_port": 443,
-            "uuid": "79473718-0451-41c3-a0a2-9f6d21c99f75",
+            "server": "ZuLa.ir",
+            "server_port": 2096,
+            "uuid": "a482e443-c3ce-48b4-bc24-74fea03de250",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1420,7 +1420,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "9052b030.joinmahdiserver-90p.pages.dev",
+                "server_name": "ZuLa.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1429,11 +1429,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "9052b030.joinmahdiserver-90p.pages.dev"
-                }
+                "type": "grpc",
+                "service_name": "TELEGRAM:",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1818,7 +1818,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @GozargahVPN | 14",
+            "tag": "🇺🇸US | vless | @GozargahVPN | 15",
             "type": "vless",
             "server": "my.GozargahVPN.top",
             "server_port": 443,

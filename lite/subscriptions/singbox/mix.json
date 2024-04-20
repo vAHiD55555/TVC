@@ -153,10 +153,10 @@
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇸🇪SE | vless | @DailyV2RY | 98",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇳🇱NL | vmess | @Hope_Net | 19",
@@ -238,10 +238,10 @@
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇸🇪SE | vless | @DailyV2RY | 98",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇳🇱NL | vmess | @Hope_Net | 19",
@@ -1483,6 +1483,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 98",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "-----DIGiV2RAY-----",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Digiv2ray-",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @sinabigo | 5",
             "type": "vless",
             "server": "46.36.100.38",
@@ -1518,21 +1539,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-            "type": "shadowsocks",
-            "server": "94.228.165.234",
-            "server_port": 15214,
-            "method": "chacha20-ietf-poly1305",
-            "password": "DmMQUmI7pgQDnrWqLXC00L",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 2096,
-            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
+            "server": "www.speedtest.net",
+            "server_port": 2053,
+            "uuid": "25d0ee2d-4190-52be-b892-45811c6ba210",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1542,7 +1553,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV",
+                "server_name": "folani.iiipok.worKers.dEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1552,9 +1563,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-FreeVirGoolNet\/",
+                "path": "\/vless-ws\/",
                 "headers": {
-                    "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
+                    "Host": "folani.iiipok.worKers.dEV"
                 }
             }
         },

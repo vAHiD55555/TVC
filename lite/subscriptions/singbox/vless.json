@@ -147,13 +147,12 @@
                 "🇮🇷IR | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @V2RayTz | 11",
                 "🇩🇪DE | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 102",
+                "🇨🇦CA | vless | @DailyV2RY | 96",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -161,7 +160,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇼CW | vless | @mehrosaboran | 8",
+                "🇨🇷CR | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -222,13 +221,12 @@
                 "🇮🇷IR | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @V2RayTz | 11",
                 "🇩🇪DE | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 102",
+                "🇨🇦CA | vless | @DailyV2RY | 96",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -236,7 +234,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇼CW | vless | @mehrosaboran | 8",
+                "🇨🇷CR | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1310,11 +1308,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 102",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 96",
             "type": "vless",
-            "server": "198.41.199.166",
-            "server_port": 80,
-            "uuid": "c7fa416f-a162-4a16-a0c6-25cec7e009eb",
+            "server": "172.66.46.254",
+            "server_port": 443,
+            "uuid": "287da188-b495-4a96-8e4e-309e8513b9a7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1322,11 +1320,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "e5a2bf01.expressvpnfree021.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/backup",
+                "path": "\/",
                 "headers": {
-                    "Host": "198.41.199.166"
+                    "Host": "e5a2bf01.expressvpnfree021.pages.dev"
                 }
             }
         },
@@ -1366,11 +1374,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "104.25.221.166",
-            "server_port": 443,
-            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
+            "server": "www.speedtest.net",
+            "server_port": 2083,
+            "uuid": "-u3erVpn-u3erVpn-u3erVpn-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1380,7 +1388,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "academivpn1-bo7.pages.dev",
+                "server_name": "mahan11.aminho3ien.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1390,9 +1398,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/u3erVpn-u3erVpn-u3erVpn-u3erVpn",
                 "headers": {
-                    "Host": "academivpn1-bo7.pages.dev"
+                    "Host": "mahan11.aminho3ien.ir"
                 }
             }
         },
@@ -1446,37 +1454,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
-            "type": "vless",
-            "server": "172.66.46.254",
-            "server_port": 443,
-            "uuid": "287da188-b495-4a96-8e4e-309e8513b9a7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "e5a2bf01.expressvpnfree021.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "e5a2bf01.expressvpnfree021.pages.dev"
-                }
             }
         },
         {
@@ -1685,11 +1662,11 @@
             }
         },
         {
-            "tag": "🇨🇼CW | vless | @mehrosaboran | 8",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 7",
             "type": "vless",
-            "server": "88.216.66.126",
-            "server_port": 8880,
-            "uuid": "84f5e7c8-5bf1-4754-9692-e7764832bcae",
+            "server": "190.93.247.247",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1699,9 +1676,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6, @LIGHTNING6, @LIGHTNING6",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "88.216.66.126"
+                    "Host": "190.93.247.247"
                 }
             }
         },

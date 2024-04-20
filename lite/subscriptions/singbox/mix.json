@@ -134,9 +134,9 @@
                 "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇳🇱NL | vmess | @oneclickvpnkeys | 11",
+                "🇹🇷TR | vmess | @oneclickvpnkeys | 11",
                 "🇸🇪SE | vless | @Outline_Vpn | 18",
-                "🇨🇦CA | vmess | @prrofile_purple | 185",
+                "🇮🇷IR | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
@@ -146,6 +146,7 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
                 "🏳️XX | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vless | @v2ray_swhil | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @MsV2ray | 10",
@@ -154,10 +155,10 @@
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 108",
-                "🇮🇷IR | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 13",
-                "🇮🇷IR | vmess | @ConfigsHUB | 11",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 16",
@@ -219,9 +220,9 @@
                 "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇳🇱NL | vmess | @oneclickvpnkeys | 11",
+                "🇹🇷TR | vmess | @oneclickvpnkeys | 11",
                 "🇸🇪SE | vless | @Outline_Vpn | 18",
-                "🇨🇦CA | vmess | @prrofile_purple | 185",
+                "🇮🇷IR | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
@@ -231,6 +232,7 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
                 "🏳️XX | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vless | @v2ray_swhil | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @MsV2ray | 10",
@@ -239,10 +241,10 @@
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 108",
-                "🇮🇷IR | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 13",
-                "🇮🇷IR | vmess | @ConfigsHUB | 11",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 16",
@@ -983,11 +985,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇹🇷TR | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "188.114.96.6",
-            "server_port": 443,
-            "uuid": "5b0a489e-e9eb-41b1-902e-d4acad667ba6",
+            "server": "154.53.164.40",
+            "server_port": 54503,
+            "uuid": "a3ec8a6e-bd2d-43d7-f056-97042778e4ec",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -997,23 +999,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "accessories8.freeairlaines.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "argo",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1038,36 +1023,23 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @prrofile_purple | 185",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇮🇷IR | vless | @prrofile_purple | 195",
+            "type": "vless",
+            "server": "188.212.97.47",
+            "server_port": 4002,
+            "uuid": "58820474-3eef-42e4-9c13-44f3efcaedd1",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "188.212.97.47"
                 }
             }
         },
@@ -1324,6 +1296,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @v2ray_swhil | 6",
             "type": "vless",
             "server": "172.66.46.249",
@@ -1520,17 +1526,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @sinabigo | 5",
+            "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
-            "server": "46.36.100.38",
-            "server_port": 12557,
-            "uuid": "8291c021-c278-423f-9b2d-76a2a490064e",
+            "server": "104.16.96.231",
+            "server_port": 2096,
+            "uuid": "ffffffff-17ad-45e7-aaa1-f2baaa08e930",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "watashi.free.jppublic.moh539.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@SiNABiGO\/",
+                "headers": {
+                    "Host": "watashi.free.jppublic.moh539.link"
+                }
             }
         },
         {
@@ -1565,20 +1588,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 11",
-            "type": "vmess",
-            "server": "185.215.231.228",
-            "server_port": 2052,
-            "uuid": "8cbd429f-d797-4b1f-a28c-962218aa8b02",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "unlikelier.toptechnonews.com",
+            "server_port": 443,
+            "uuid": "b867aa62-33f4-452a-a175-98b84fad295b",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "unlikelier.toptechnonews.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/nimws",
+                "headers": {
+                    "Host": "unlikelier.toptechnonews.com"
+                }
             }
         },
         {

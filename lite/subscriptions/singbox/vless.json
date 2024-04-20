@@ -131,6 +131,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇸🇪SE | vless | @Outline_Vpn | 18",
+                "🇮🇷IR | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
@@ -147,8 +148,9 @@
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 108",
-                "🇮🇷IR | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 7",
@@ -202,6 +204,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇸🇪SE | vless | @Outline_Vpn | 18",
+                "🇮🇷IR | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
@@ -218,8 +221,9 @@
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 108",
-                "🇮🇷IR | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 7",
@@ -898,6 +902,27 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vless | @prrofile_purple | 195",
+            "type": "vless",
+            "server": "188.212.97.47",
+            "server_port": 4002,
+            "uuid": "58820474-3eef-42e4-9c13-44f3efcaedd1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "188.212.97.47"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @customv2ray | 12",
             "type": "vless",
             "server": "speedtest.org",
@@ -1312,17 +1337,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @sinabigo | 5",
+            "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
-            "server": "46.36.100.38",
-            "server_port": 12557,
-            "uuid": "8291c021-c278-423f-9b2d-76a2a490064e",
+            "server": "104.16.96.231",
+            "server_port": 2096,
+            "uuid": "ffffffff-17ad-45e7-aaa1-f2baaa08e930",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "watashi.free.jppublic.moh539.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@SiNABiGO\/",
+                "headers": {
+                    "Host": "watashi.free.jppublic.moh539.link"
+                }
             }
         },
         {
@@ -1343,6 +1385,37 @@
                 "path": "\/Telegram-ipV2Ray",
                 "headers": {
                     "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "unlikelier.toptechnonews.com",
+            "server_port": 443,
+            "uuid": "b867aa62-33f4-452a-a175-98b84fad295b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "unlikelier.toptechnonews.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/nimws",
+                "headers": {
+                    "Host": "unlikelier.toptechnonews.com"
                 }
             }
         },

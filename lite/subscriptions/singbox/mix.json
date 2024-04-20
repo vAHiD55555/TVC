@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
-                "🇭🇰HK | vmess | @ConfigsHUB | 7",
+                "🇩🇪DE | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 18",
@@ -235,7 +235,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
-                "🇭🇰HK | vmess | @ConfigsHUB | 7",
+                "🇩🇪DE | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 18",
@@ -1455,11 +1455,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇭🇰HK | vmess | @ConfigsHUB | 7",
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "kagoya.hkss.online",
-            "server_port": 443,
-            "uuid": "4664e760-f5f3-3cc2-8bb3-04f85aa7febb",
+            "server": "199.247.3.99",
+            "server_port": 2463,
+            "uuid": "3f015b5c-ec9b-4429-e722-d5e30d7aac50",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1469,16 +1469,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {

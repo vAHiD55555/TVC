@@ -125,6 +125,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 12",
                 "🇸🇪SE | vless | @v2logy | 11",
+                "🇳🇱NL | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇳🇱NL | vless | @Outline_Vpn | 18",
@@ -144,7 +145,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
@@ -158,13 +159,13 @@
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vless | @proxy_mtm | 2",
+                "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 15",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 40",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -195,6 +196,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 12",
                 "🇸🇪SE | vless | @v2logy | 11",
+                "🇳🇱NL | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇳🇱NL | vless | @Outline_Vpn | 18",
@@ -214,7 +216,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
@@ -228,13 +230,13 @@
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vless | @proxy_mtm | 2",
+                "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 15",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 40",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -723,6 +725,37 @@
                 "path": "\/JOIN-ZEDMODEON-@ZEDMODEON",
                 "headers": {
                     "Host": "join-zedmodeon.kanal-asli-zedmodeon.shop."
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @azadi_az_inja_migzare | 1",
+            "type": "vless",
+            "server": "188.114.99.99",
+            "server_port": 443,
+            "uuid": "a4e893cd-f8fc-4438-a239-abb9f25f5507",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Let-Her-Cook.segaro.tech",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/pool.ntp",
+                "headers": {
+                    "Host": "Let-Her-Cook.segaro.tech"
                 }
             }
         },
@@ -1239,11 +1272,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 80,
-            "uuid": "107d3a95-e17e-4931-94b9-e42cdcabb05b",
+            "server": "net.dexaje8106.workers.dev",
+            "server_port": 443,
+            "uuid": "c5978085-0ab4-4771-b204-434dd6a408a0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1251,11 +1284,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "net.dexaje8106.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/backup",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.67.204.84"
+                    "Host": "net.dexaje8106.workers.dev"
                 }
             }
         },
@@ -1629,7 +1672,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 2",
+            "tag": "🇺🇸US | vless | @proxy_mtm | 2",
             "type": "vless",
             "server": "104.18.158.102",
             "server_port": 443,
@@ -1808,7 +1851,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,

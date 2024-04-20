@@ -156,11 +156,12 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 13",
-                "🇩🇪DE | vmess | @ConfigsHUB | 16",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vless | @polproxy | 5",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 16",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -240,11 +241,12 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 13",
-                "🇩🇪DE | vmess | @ConfigsHUB | 16",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vless | @polproxy | 5",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 16",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -1542,16 +1544,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 16",
-            "type": "vmess",
-            "server": "199.247.3.99",
-            "server_port": 3583,
-            "uuid": "ecbba2dc-c910-48dc-d799-374170ffbdc5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.146.173.231",
+            "server_port": 8880,
+            "uuid": "084c2970-17de-4474-b118-29e439ecdc76",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1656,6 +1655,37 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @Outlinev2rayNG | 16",
+            "type": "vless",
+            "server": "isamp.AbrArvan.org",
+            "server_port": 2096,
+            "uuid": "d2be2507-a944-4e5f-a788-80ae95247a18",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "SAmV2ray.naziitness.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "abc",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 12",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -1317,11 +1317,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "%50a%72sa%73%68%6fna%6d-48",
+            "server": "104.21.69.44",
+            "server_port": 2096,
+            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1329,11 +1329,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android,Telegram:@Archive_Android",
+                "path": "\/Telegram-FreeVirGoolNet\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
                 }
             }
         },

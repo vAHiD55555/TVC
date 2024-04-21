@@ -108,13 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇨🇦CA | vmess | @prrofile_purple | 195",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 24",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 11",
+                "🇺🇸US | vmess | @prrofile_purple | 195",
+                "🇺🇸US | vmess | @ShadowProxy66 | 24",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @nofiltering2 | 3"
+                "🇺🇸US | vmess | @nofiltering2 | 3"
             ]
         },
         {
@@ -123,13 +123,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇨🇦CA | vmess | @prrofile_purple | 195",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 24",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 11",
+                "🇺🇸US | vmess | @prrofile_purple | 195",
+                "🇺🇸US | vmess | @ShadowProxy66 | 24",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @nofiltering2 | 3"
+                "🇺🇸US | vmess | @nofiltering2 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -186,7 +186,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
             "server": "martina.quest",
             "server_port": 443,
@@ -220,7 +220,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @prrofile_purple | 195",
+            "tag": "🇺🇸US | vmess | @prrofile_purple | 195",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -254,7 +254,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 24",
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 24",
             "type": "vmess",
             "server": "172.67.170.13",
             "server_port": 443,
@@ -288,7 +288,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -322,11 +322,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "yh5.dtku41.xyz",
-            "server_port": 8080,
-            "uuid": "82cb93a3-65a9-4dac-a2a7-d997b6c26d6a",
+            "server": "104.16.67.38",
+            "server_port": 2087,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -337,11 +337,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "worker-bitter-math-2af8.waxoha3621.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm",
+                "path": "\/afrhms16v.bestxray.buzz\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "worker-bitter-math-2af8.waxoha3621.workers.dev"
                 }
             }
         },
@@ -363,7 +373,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 3",
+            "tag": "🇺🇸US | vmess | @nofiltering2 | 3",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,

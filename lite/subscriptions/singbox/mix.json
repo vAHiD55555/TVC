@@ -148,14 +148,14 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 11",
-                "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇺🇸US | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 136",
                 "🇨🇦CA | vless | @sinabigo | 2",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 9",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @proxystore11 | 9",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 18",
-                "🇺🇸US | vless | @fnet00 | 0",
+                "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -230,14 +230,14 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 11",
-                "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇺🇸US | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 136",
                 "🇨🇦CA | vless | @sinabigo | 2",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 9",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @proxystore11 | 9",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 18",
-                "🇺🇸US | vless | @fnet00 | 0",
+                "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -1337,7 +1337,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 15",
+            "tag": "🇺🇸US | vless | @VmessProtocol | 15",
             "type": "vless",
             "server": "104.22.33.78",
             "server_port": 443,
@@ -1430,28 +1430,41 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 2095,
-            "uuid": "1882447e-9b6d-4494-a9cb-af01a33b5cae",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "104.21.15.212",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "iranserver.com"
+                    "Host": "glweidf.sbs"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 9",
+            "tag": "🇺🇸US | vless | @proxystore11 | 9",
             "type": "vless",
             "server": "104.27.96.87",
             "server_port": 443,
@@ -1482,7 +1495,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -1533,7 +1546,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 0",
+            "tag": "🇨🇦CA | vless | @fnet00 | 0",
             "type": "vless",
             "server": "104.25.221.166",
             "server_port": 443,

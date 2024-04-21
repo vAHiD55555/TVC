@@ -137,6 +137,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇮🇷IR | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
@@ -151,7 +152,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 136",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 11",
+                "🇨🇷CR | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 18",
@@ -219,6 +220,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇮🇷IR | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
@@ -233,7 +235,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 136",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 11",
+                "🇨🇷CR | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 18",
@@ -1043,6 +1045,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "96a72e74-aa5f-4075-a577-608af8dc69a9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "haj_ghasem.ztwom.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "haj_ghasem.ztwom.info",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @v2rayngvpn | 15",
             "type": "vless",
             "server": "85.133.238.57",
@@ -1422,11 +1455,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 11",
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-xvr",
+            "server": "www.dns1.lol",
+            "server_port": 2087,
+            "uuid": "8c7cd31a-39d1-4b11-b40c-8a8ddcee54e1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1434,12 +1467,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "mainv2ray79.mralpha-vpn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@thunderv2ray,@thunderv2ray,@thunderv2ray,@thunderv2ray,@thunderv2ray,@thunderv2ray,@thunderv2ray,@thunderv2ray,@thunderv2ray,@thunderv2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

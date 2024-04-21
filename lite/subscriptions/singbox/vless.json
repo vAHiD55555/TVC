@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
-                "🇸🇪SE | vless | @VlessConfig | 19",
+                "🇩🇪DE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 12",
@@ -144,14 +144,14 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇸🇪SE | vless | @ConfigsHUB | 14",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇸🇬SG | vless | @Capoit | 8",
+                "🇷🇺RU | vless | @Capoit | 8",
                 "🇩🇪DE | vless | @FreakConfig | 5",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
@@ -178,7 +178,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
-                "🇸🇪SE | vless | @VlessConfig | 19",
+                "🇩🇪DE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 12",
@@ -213,14 +213,14 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇸🇪SE | vless | @ConfigsHUB | 14",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇸🇬SG | vless | @Capoit | 8",
+                "🇷🇺RU | vless | @Capoit | 8",
                 "🇩🇪DE | vless | @FreakConfig | 5",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
@@ -333,9 +333,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VlessConfig | 19",
+            "tag": "🇩🇪DE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "51.21.142.19",
+            "server": "52.57.231.71",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1254,17 +1254,34 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 14",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "185.146.173.231",
-            "server_port": 8880,
-            "uuid": "fa159557-1b21-42d8-8ae6-f30eb408d44d",
+            "server": "9052b030.joinmahdiserver-90p.pages.dev",
+            "server_port": 443,
+            "uuid": "79473718-0451-41c3-a0a2-9f6d21c99f75",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "9052b030.joinmahdiserver-90p.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "9052b030.joinmahdiserver-90p.pages.dev"
+                }
             }
         },
         {
@@ -1452,7 +1469,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @Capoit | 8",
+            "tag": "🇷🇺RU | vless | @Capoit | 8",
             "type": "vless",
             "server": "194.53.53.66",
             "server_port": 8880,

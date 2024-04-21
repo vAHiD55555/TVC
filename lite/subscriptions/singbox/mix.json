@@ -151,10 +151,10 @@
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇮🇷IR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -166,7 +166,7 @@
                 "🇩🇪DE | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇺🇸US | vless | @mehrosaboran | 9",
+                "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
@@ -233,10 +233,10 @@
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇮🇷IR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -248,7 +248,7 @@
                 "🇩🇪DE | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇺🇸US | vless | @mehrosaboran | 9",
+                "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
@@ -1422,24 +1422,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "e6cfb781-74e0-45d0-b3d0-00622f012ea8",
+            "server": "musicturkmen.fun",
+            "server_port": 19196,
+            "uuid": "9baa7ce7-571f-4e5b-a339-399f9fb63b83",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "185.146.173.59"
-                }
             }
         },
         {
@@ -1508,11 +1501,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "172.64.80.1",
-            "server_port": 2095,
-            "uuid": "0eb4c78e-c7fa-4c08-9306-aab80db9fb9f",
+            "server": "yh5.dtku41.xyz",
+            "server_port": 8080,
+            "uuid": "82cb93a3-65a9-4dac-a2a7-d997b6c26d6a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1525,9 +1518,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/video.cgi",
+                "path": "\/82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm",
                 "headers": {
-                    "Host": "172.64.80.1"
+                    "Host": ""
                 }
             }
         },
@@ -1830,7 +1823,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 9",
+            "tag": "🇨🇦CA | vless | @mehrosaboran | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,

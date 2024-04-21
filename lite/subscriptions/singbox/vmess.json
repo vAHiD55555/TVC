@@ -108,9 +108,8 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇺🇸US | vmess | @ShadowProxy66 | 34",
-                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 34",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇩🇪DE | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10"
             ]
@@ -121,9 +120,8 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇺🇸US | vmess | @ShadowProxy66 | 34",
-                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 34",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇩🇪DE | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10"
             ],
@@ -189,41 +187,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "hms04.xmivideo.cfd",
-            "server_port": 443,
-            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xmivideo.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "xmivideo.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 34",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 34",
             "type": "vmess",
             "server": "172.67.170.13",
             "server_port": 443,
@@ -257,7 +221,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,

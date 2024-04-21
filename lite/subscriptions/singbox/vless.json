@@ -109,14 +109,14 @@
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
-                "🇩🇪DE | vless | @VlessConfig | 19",
+                "🇫🇷FR | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 12",
                 "🇸🇪SE | vless | @V2pedia | 54",
                 "🇨🇦CA | vless | @frev2ray | 7",
-                "🇸🇪SE | vless | @ARv2ray | 16",
-                "🇨🇦CA | vless | @shh_proxy | 27",
+                "🇸🇪SE | vless | @ARv2ray | 15",
+                "🇨🇦CA | vless | @shh_proxy | 25",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @lightning6 | 15",
@@ -128,7 +128,6 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇳🇱NL | vless | @Outline_Vpn | 18",
-                "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 24",
@@ -177,14 +176,14 @@
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
-                "🇩🇪DE | vless | @VlessConfig | 19",
+                "🇫🇷FR | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 12",
                 "🇸🇪SE | vless | @V2pedia | 54",
                 "🇨🇦CA | vless | @frev2ray | 7",
-                "🇸🇪SE | vless | @ARv2ray | 16",
-                "🇨🇦CA | vless | @shh_proxy | 27",
+                "🇸🇪SE | vless | @ARv2ray | 15",
+                "🇨🇦CA | vless | @shh_proxy | 25",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @lightning6 | 15",
@@ -196,7 +195,6 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇳🇱NL | vless | @Outline_Vpn | 18",
-                "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 24",
@@ -331,9 +329,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 19",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "3.66.242.127",
+            "server": "15.236.163.134",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -470,7 +468,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ARv2ray | 16",
+            "tag": "🇸🇪SE | vless | @ARv2ray | 15",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
@@ -491,7 +489,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @shh_proxy | 27",
+            "tag": "🇨🇦CA | vless | @shh_proxy | 25",
             "type": "vless",
             "server": "172.66.213.38",
             "server_port": 80,
@@ -802,27 +800,6 @@
                 "path": "\/?ed",
                 "headers": {
                     "Host": "VirgInIaVpn.PaGes.DeV"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @customv2ray | 10",
-            "type": "vless",
-            "server": "cafe.zhaal.ir",
-            "server_port": 2052,
-            "uuid": "b97cdd0e-bba9-4391-b265-b72f80b670db",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "cafe.zhaal.ir"
                 }
             }
         },
@@ -1141,8 +1118,8 @@
             "tag": "🇸🇪SE | vless | @V2RayTz | 9",
             "type": "vless",
             "server": "185.146.173.59",
-            "server_port": 2052,
-            "uuid": "089ed26a-cc38-40f7-a59e-98a070702101",
+            "server_port": 80,
+            "uuid": "1f08e791-4ddb-4472-9b63-b21c0145915d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {

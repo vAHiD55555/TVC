@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @Parsashonam | 11",
+                "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
                 "🇩🇪DE | vless | @VlessConfig | 19",
@@ -123,7 +123,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 12",
+                "🇨🇦CA | vless | @proxy_kafee | 7",
                 "🇸🇪SE | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 12",
@@ -137,6 +137,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
+                "🏳️XX | vless | @v2rayNG_Matsuri | 24",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
@@ -150,7 +151,6 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇫🇷FR | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇩🇪DE | vmess | @Hope_Net | 18",
@@ -186,7 +186,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @Parsashonam | 11",
+                "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
                 "🇩🇪DE | vless | @VlessConfig | 19",
@@ -203,7 +203,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 12",
+                "🇨🇦CA | vless | @proxy_kafee | 7",
                 "🇸🇪SE | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 12",
@@ -217,6 +217,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
+                "🏳️XX | vless | @v2rayNG_Matsuri | 24",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
@@ -230,7 +231,6 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇫🇷FR | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇩🇪DE | vmess | @Hope_Net | 18",
@@ -282,7 +282,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 11",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 13",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 8080,
@@ -695,9 +695,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 12",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 7",
             "type": "vless",
-            "server": "www.unpkg.com",
+            "server": "cdnjs.com",
             "server_port": 443,
             "uuid": "742cd304-be2a-4629-bdbc-ad87a22a5eb1",
             "flow": "",
@@ -1039,6 +1039,37 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @v2rayNG_Matsuri | 24",
+            "type": "vless",
+            "server": "3883e5df.joinmahdiserver.pages.dev",
+            "server_port": 443,
+            "uuid": "e5f8bdd5-6df1-4686-80b9-b8b13ffa5bd4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3883e5df.joinmahdiserver.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3883e5df.joinmahdiserver.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 15",
             "type": "vless",
             "server": "172.66.47.78",
@@ -1230,9 +1261,9 @@
         {
             "tag": "🇸🇪SE | vless | @proxyymeliii | 18",
             "type": "vless",
-            "server": "185.146.173.59",
+            "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "5de77c11-04ac-45cd-8a6b-ae26f4cc585f",
+            "uuid": "e6663d5f-35a8-419f-8a1a-6b873b320b7f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1244,7 +1275,7 @@
                 "type": "ws",
                 "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "LIGHTNING6-joinbede.filj.top"
                 }
             }
         },
@@ -1421,28 +1452,6 @@
                 "path": "\/Telegram@SiNABiGO\/",
                 "headers": {
                     "Host": "worker-jolly-block-2e78.gamal32324.workers.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | trojan | @ConfigsHUB | 18",
-            "type": "trojan",
-            "server": "fr01.freeflyingcloud.xyz",
-            "server_port": 30502,
-            "password": "0d5b3d65-e71e-4235-bf68-ea753ad87cc2",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fr01.freeflyingcloud.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },

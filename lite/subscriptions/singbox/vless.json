@@ -1385,9 +1385,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
+            "server": "172.66.213.0",
+            "server_port": 80,
+            "uuid": "068fd24e-415a-4477-9b4b-6a71dd3a7a8b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1395,21 +1395,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "academivpn1-bo7.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/",
+                "path": "\/More_links:@holderproxy",
                 "headers": {
-                    "Host": "academivpn1-bo7.pages.dev"
+                    "Host": "172.66.213.0"
                 }
             }
         },

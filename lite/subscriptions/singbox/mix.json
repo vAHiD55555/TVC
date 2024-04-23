@@ -124,7 +124,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇨🇦CA | vless | @proxy_kafee | 8",
+                "🇸🇪SE | vless | @proxy_kafee | 5",
                 "🇬🇧GB | vmess | @azadi_az_inja_migzare | 0",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
@@ -160,9 +160,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇸🇪SE | vless | @Capoit | 5",
+                "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 4",
-                "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇳🇱NL | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -203,7 +203,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇨🇦CA | vless | @proxy_kafee | 8",
+                "🇸🇪SE | vless | @proxy_kafee | 5",
                 "🇬🇧GB | vmess | @azadi_az_inja_migzare | 0",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
@@ -239,9 +239,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇸🇪SE | vless | @Capoit | 5",
+                "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 4",
-                "🇨🇦CA | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇳🇱NL | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -732,11 +732,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 8",
+            "tag": "🇸🇪SE | vless | @proxy_kafee | 5",
             "type": "vless",
-            "server": "w3.org",
-            "server_port": 443,
-            "uuid": "742cd304-be2a-4629-bdbc-ad87a22a5eb1",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-oud",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -744,21 +744,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "api2.shabazian.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "api2.shabazian.ir"
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1626,7 +1616,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Capoit | 5",
+            "tag": "🇸🇪SE | vless | @Capoit | 7",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 8880,
@@ -1678,11 +1668,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 17",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 16",
             "type": "vless",
-            "server": "web.bbv2ry.pics",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "556b08cc-2f87-485a-8664-6744538f3654",
+            "uuid": "a07388af-7914-4c30-b883-8353e45869cd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1692,7 +1682,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Sky2.bbv2ry.pics",
+                "server_name": "947c504e.wyvernfree.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1702,9 +1692,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@Wyvernvpn?ed=2560",
                 "headers": {
-                    "Host": "Sky2.bbv2ry.pics"
+                    "Host": "947c504e.wyvernfree.pages.dev"
                 }
             }
         },

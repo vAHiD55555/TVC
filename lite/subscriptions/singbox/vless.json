@@ -140,8 +140,8 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇨🇦CA | vless | @v2ray1_ng | 20",
-                "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 158",
+                "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🏳️XX | vless | @proxystore11 | 7",
@@ -204,8 +204,8 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇨🇦CA | vless | @v2ray1_ng | 20",
-                "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 158",
+                "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🏳️XX | vless | @proxystore11 | 7",
@@ -325,7 +325,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "15.188.111.140",
+            "server": "13.37.130.147",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1128,32 +1128,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 8880,
-            "uuid": "3f842d5e-1b2a-47c6-82d2-479b47963216",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6",
-                "headers": {
-                    "Host": "185.146.173.95"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 158",
-            "type": "vless",
-            "server": "104.21.46.85",
-            "server_port": 2087,
-            "uuid": "7b9f4ae9-ae9b-4078-8da9-8bfab43e2be1",
+            "server": "104.18.13.130",
+            "server_port": 443,
+            "uuid": "Parsashonam-50",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1163,7 +1142,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vira-v2-3be7883659a1d2ba4c545dfdf85b61eda1.asiatechnicalwest.ir.",
+                "server_name": "mail.offch.blog",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1172,11 +1151,32 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ViraV2ray,@ViraPN,@ViraV2ray,@ViraPN,@ViraV2ray,@ViraPN,@ViraV2ray,@ViraPN,@ViraV2ray,@ViraPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mail.offch.blog"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 150",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 8880,
+            "uuid": "439b0c38-ca2c-4787-da85-7208b1b39938",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
             }
         },
         {

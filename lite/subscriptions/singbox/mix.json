@@ -132,7 +132,8 @@
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇯🇵JP | trojan | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 14",
@@ -209,7 +210,8 @@
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇯🇵JP | trojan | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 14",
@@ -883,11 +885,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "us219.netfilx.live",
-            "server_port": 80,
-            "uuid": "1e65ec6d-9a42-4cd0-8c51-63030970134f",
+            "server": "hms082.gwdef.sbs",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -898,11 +900,43 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "gwdef.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | trojan | @oneclickvpnkeys | 11",
+            "type": "trojan",
+            "server": "jp01.freeflyingcloud.xyz",
+            "server_port": 44402,
+            "password": "6d257b63-0632-4dd6-b021-3085f8dc28b2",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jp01.freeflyingcloud.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

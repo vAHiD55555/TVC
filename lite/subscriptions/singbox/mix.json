@@ -132,8 +132,8 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 19",
-                "🇳🇱NL | vmess | @oneclickvpnkeys | 10",
+                "🇦🇪AE | ss | @DeamNet_Proxy | 13",
+                "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 192",
                 "🇨🇦CA | vless | @customv2ray | 15",
@@ -153,9 +153,9 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 13",
-                "🏳️XX | vless | @proxystore11 | 7",
+                "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇫🇷FR | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -177,7 +177,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇬🇧GB | ss | @ROMAX_VPN | 1",
-                "🇳🇱NL | vless | @TIKTOK_PROXY | 0",
+                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
                 "🇵🇱PL | vless | @raze_vpn | 2"
             ]
@@ -212,8 +212,8 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 19",
-                "🇳🇱NL | vmess | @oneclickvpnkeys | 10",
+                "🇦🇪AE | ss | @DeamNet_Proxy | 13",
+                "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 192",
                 "🇨🇦CA | vless | @customv2ray | 15",
@@ -233,9 +233,9 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 13",
-                "🏳️XX | vless | @proxystore11 | 7",
+                "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇫🇷FR | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -257,7 +257,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇬🇧GB | ss | @ROMAX_VPN | 1",
-                "🇳🇱NL | vless | @TIKTOK_PROXY | 0",
+                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
                 "🇵🇱PL | vless | @raze_vpn | 2"
             ],
@@ -892,21 +892,21 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 19",
+            "tag": "🇦🇪AE | ss | @DeamNet_Proxy | 13",
             "type": "shadowsocks",
-            "server": "51.195.149.115",
-            "server_port": 45816,
-            "method": "aes-256-gcm",
-            "password": "KkDzY101Oe",
+            "server": "series-a1.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "hu2.xv2ray.net",
-            "server_port": 80,
-            "uuid": "149e424e-3c6d-40a1-910e-b4a120629526",
+            "server": "45.144.3.204",
+            "server_port": 11846,
+            "uuid": "299d5c3e-fc2c-4458-a2e4-3ee2bb053f80",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -919,7 +919,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
@@ -1400,11 +1400,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | vless | @proxystore11 | 7",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 5",
             "type": "vless",
-            "server": "proxystore11.kodaksho.eu.org",
+            "server": "172.67.97.9",
             "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "uuid": "d294366a-73ad-4ba8-ba96-5b249fec4089",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1414,7 +1414,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "prOXysTORE11.Kodaksho.eu.oRG",
+                "server_name": "proxystorr1.kodaksho.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1424,9 +1424,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/7lVHf1tsShSmbqwD",
+                "path": "\/",
                 "headers": {
-                    "Host": "prOXysTORE11.Kodaksho.eu.oRG"
+                    "Host": "proxystorr1.kodaksho.eu.org"
                 }
             }
         },
@@ -1465,11 +1465,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 18",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "199.247.3.99",
-            "server_port": 5201,
-            "uuid": "8ca1dd07-ed4d-45ec-9891-622be7a66971",
+            "server": "172.67.204.84",
+            "server_port": 2096,
+            "uuid": "6a91ce2e-c570-4fa4-a497-c6386fb48a15",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1479,6 +1479,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nl1-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "nl1-vmess.sshmax.xyz"
+                }
             }
         },
         {
@@ -2034,7 +2051,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | vless | @TIKTOK_PROXY | 0",
+            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 0",
             "type": "vless",
             "server": "188.114.97.12",
             "server_port": 443,

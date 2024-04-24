@@ -132,7 +132,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 29",
-                "🇨🇦CA | vless | @v2rayngvpn | 14",
+                "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
@@ -198,7 +198,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 29",
-                "🇨🇦CA | vless | @v2rayngvpn | 14",
+                "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
@@ -353,7 +353,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "52.47.103.52",
+            "server": "13.39.243.200",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -887,7 +887,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 15",
             "type": "vless",
             "server": "172.66.47.125",
             "server_port": 443,
@@ -984,7 +984,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "00a7d24f-d61a-4179-bbfb-f54346e7e416",
+            "uuid": "dadc9927-28d1-4506-bf13-c1392bddd6db",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1138,9 +1138,9 @@
         {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 152",
             "type": "vless",
-            "server": "172.64.84.90",
-            "server_port": 8080,
-            "uuid": "aa2dc840-be38-4b4d-a002-ba234999fd55",
+            "server": "172.66.45.20",
+            "server_port": 443,
+            "uuid": "02e9d15c-530b-441e-a90e-7fff4f249ff0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1148,11 +1148,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "6ebebefa.ali321.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "172.64.84.90"
+                    "Host": "6ebebefa.ali321.pages.dev"
                 }
             }
         },

@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇨🇦CA | vmess | @DeamNet_Proxy | 17 = vmess, 104.16.61.8, 8880, username = 0d1bf26a-ce97-4707-a270-7f4d2ae37334, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"cdn.vds-server.ir", skip-cert-verify = true, tfo = false
 🇨🇿CZ | vmess | @oneclickvpnkeys | 8 = vmess, 77.75.230.125, 8080, username = d466dd36-8b86-48b7-b0f0-67e7d128de6c, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"77.75.230.125", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇿CZ | vmess | @oneclickvpnkeys | 8
-URL-TEST = url-test,🇨🇿CZ | vmess | @oneclickvpnkeys | 8
-FALLBACK = fallback,🇨🇿CZ | vmess | @oneclickvpnkeys | 8
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @DeamNet_Proxy | 17,🇨🇿CZ | vmess | @oneclickvpnkeys | 8
+URL-TEST = url-test,🇨🇦CA | vmess | @DeamNet_Proxy | 17,🇨🇿CZ | vmess | @oneclickvpnkeys | 8
+FALLBACK = fallback,🇨🇦CA | vmess | @DeamNet_Proxy | 17,🇨🇿CZ | vmess | @oneclickvpnkeys | 8
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

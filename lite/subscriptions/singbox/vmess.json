@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -121,7 +121,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -182,11 +182,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "199.247.3.99",
-            "server_port": 2463,
-            "uuid": "3f015b5c-ec9b-4429-e722-d5e30d7aac50",
+            "server": "ip.sb",
+            "server_port": 2053,
+            "uuid": "b2aba745-50f4-45e0-b4c0-6e230b99fb2e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -196,6 +196,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "flat-reserves-stroke-guyana.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/argox-vm",
+                "headers": {
+                    "Host": "flat-reserves-stroke-guyana.trycloudflare.com"
+                }
             }
         },
         {
@@ -235,9 +252,9 @@
         {
             "tag": "🇭🇰HK | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "141.11.90.115",
-            "server_port": 48890,
-            "uuid": "54de5bc2-fd5d-4aa1-adc8-6beb11e402b5",
+            "server": "152.32.190.239",
+            "server_port": 4431,
+            "uuid": "5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -247,6 +264,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cfhk.393930.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cfhk.393930.xyz"
+                }
             }
         },
         {

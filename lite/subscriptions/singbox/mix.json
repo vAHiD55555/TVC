@@ -150,6 +150,7 @@
                 "🇩🇪DE | vless | @v2ray1_ng | 14",
                 "🏳️XX | vless | @vless_vmess | 15",
                 "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇺🇸US | vless | @VmessProtocol | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 155",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 17",
@@ -174,7 +175,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -229,6 +230,7 @@
                 "🇩🇪DE | vless | @v2ray1_ng | 14",
                 "🏳️XX | vless | @vless_vmess | 15",
                 "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇺🇸US | vless | @VmessProtocol | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 155",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 17",
@@ -253,7 +255,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -641,7 +643,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "9f932f46-4a57-43f1-84d3-188888382783",
+            "uuid": "5795e1cb-a420-43ac-98df-61328394395c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1374,8 +1376,8 @@
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "f8972f1a-1424-4cb5-b500-db3140bb030f",
+            "server_port": 8880,
+            "uuid": "de39e1a4-1833-427a-b8ac-a3327b39ec4a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1385,9 +1387,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@POLPROXY- Telegram:@POLPROXY- Telegram:@POLPROXY- Telegram:@POLPROXY- Telegram:@POLPROXY- Telegram:@POLPROXY- Telegram:@POLPROXY- Telegram:@POLPROXY",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
                 "headers": {
                     "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @VmessProtocol | 18",
+            "type": "vless",
+            "server": "103.182.97.44",
+            "server_port": 443,
+            "uuid": "d6831eaa-d049-4a44-c34e-915911a0d513",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ray",
+                "headers": {
+                    "Host": "103.182.97.44"
                 }
             }
         },
@@ -2045,7 +2068,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,

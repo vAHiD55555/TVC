@@ -140,11 +140,11 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
-                "🇸🇪SE | vless | @proxyymeliii | 19",
+                "🇸🇪SE | vless | @proxyymeliii | 20",
                 "🇸🇪SE | vless | @MsV2ray | 16",
                 "🇸🇪SE | vless | @v2ray1_ng | 14",
                 "🇨🇦CA | vless | @vless_vmess | 15",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇳🇱NL | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 18",
                 "🇳🇱NL | vless | @DailyV2RY | 156",
                 "🇨🇦CA | vless | @sinabigo | 3",
@@ -210,11 +210,11 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
-                "🇸🇪SE | vless | @proxyymeliii | 19",
+                "🇸🇪SE | vless | @proxyymeliii | 20",
                 "🇸🇪SE | vless | @MsV2ray | 16",
                 "🇸🇪SE | vless | @v2ray1_ng | 14",
                 "🇨🇦CA | vless | @vless_vmess | 15",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇳🇱NL | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 18",
                 "🇳🇱NL | vless | @DailyV2RY | 156",
                 "🇨🇦CA | vless | @sinabigo | 3",
@@ -1137,11 +1137,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 19",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 20",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "be427558-0c61-42f6-ac8f-f99a7c6f56c2",
+            "uuid": "429137ec-527d-4e99-80e7-a2705192a1e2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1231,11 +1231,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
+            "tag": "🇳🇱NL | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.24.95.58",
-            "server_port": 2096,
-            "uuid": "7b0cd783-4d2a-4d4a-a1bb-66a98e3a85cb",
+            "server": "188.114.98.224",
+            "server_port": 2095,
+            "uuid": "f6f45d58-fa33-473b-a3c6-7eb5c81046e5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1243,21 +1243,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "0a6b0c0a.expressvpnfree021-4j0.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram@V2ray_Alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "0a6b0c0a.expressvpnfree021-4j0.pages.dev"
+                    "Host": "188.114.98.224"
                 }
             }
         },

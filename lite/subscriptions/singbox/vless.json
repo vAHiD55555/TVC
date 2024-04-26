@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
-                "🇸🇪SE | vless | @proxyymeliii | 19",
+                "🇮🇷IR | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 14",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -161,9 +161,9 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
-                "🇸🇪SE | vless | @SvnTeam | 29",
+                "🇸🇪SE | vless | @SvnTeam | 30",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -207,7 +207,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
-                "🇸🇪SE | vless | @proxyymeliii | 19",
+                "🇮🇷IR | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 14",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -229,9 +229,9 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
-                "🇸🇪SE | vless | @SvnTeam | 29",
+                "🇸🇪SE | vless | @SvnTeam | 30",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -1095,24 +1095,17 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 19",
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 18",
             "type": "vless",
-            "server": "LIGHTNING6-joinbede.filj.top",
-            "server_port": 8880,
-            "uuid": "be427558-0c61-42f6-ac8f-f99a7c6f56c2",
+            "server": "217.60.252.208",
+            "server_port": 8443,
+            "uuid": "2033386f-64c0-48ad-bfea-63feabf36523",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6",
-                "headers": {
-                    "Host": "LIGHTNING6-joinbede.filj.top"
-                }
             }
         },
         {
@@ -1163,9 +1156,9 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2052,
-            "uuid": "4db41e02-f340-4d48-8c1b-f50b73e42bdf",
+            "server": "185.146.173.94",
+            "server_port": 8880,
+            "uuid": "308cdcae-0cf4-4775-9422-ba4a4a998587",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1175,9 +1168,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "185.146.173.94"
                 }
             }
         },
@@ -1688,11 +1681,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @SvnTeam | 29",
+            "tag": "🇸🇪SE | vless | @SvnTeam | 30",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
-            "uuid": "SVNTEAM",
+            "uuid": "SVNTEAMm",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1738,7 +1731,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,

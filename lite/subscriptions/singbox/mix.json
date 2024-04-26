@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 2",
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇨🇦CA | vless | @v2_team | 7",
-                "🏳️XX | vless | @NIM_VPN_ir | 16",
+                "🇨🇦CA | vless | @NIM_VPN_ir | 14",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
@@ -189,7 +189,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 2",
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇨🇦CA | vless | @v2_team | 7",
-                "🏳️XX | vless | @NIM_VPN_ir | 16",
+                "🇨🇦CA | vless | @NIM_VPN_ir | 14",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
@@ -365,17 +365,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @NIM_VPN_ir | 16",
+            "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 14",
             "type": "vless",
-            "server": "login.kellekcollection.com",
-            "server_port": 8080,
-            "uuid": "0e39b5a8-1770-4d31-a26c-8aebb91d0b8d",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "7d261f78-eb0c-4489-a50a-3b719ea7374f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "discord.gg"
+                }
             }
         },
         {

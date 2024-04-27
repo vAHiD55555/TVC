@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
-                "🇺🇸US | vless | @v2rayng_config_amin | 7",
+                "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 4",
@@ -160,6 +160,7 @@
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 16",
+                "🇸🇪SE | vless | @SvnTeam | 29",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -217,7 +218,7 @@
                 "🇨🇦CA | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
-                "🇺🇸US | vless | @v2rayng_config_amin | 7",
+                "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 4",
@@ -226,6 +227,7 @@
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 16",
+                "🇸🇪SE | vless | @SvnTeam | 29",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -1386,7 +1388,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_config_amin | 7",
+            "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 7",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
             "server_port": 443,
@@ -1649,6 +1651,27 @@
                 "path": "\/Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,",
                 "headers": {
                     "Host": "www.GozargahVPN.top"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @SvnTeam | 29",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "SVNTEAM",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
+                "headers": {
+                    "Host": "185.146.173.59"
                 }
             }
         },

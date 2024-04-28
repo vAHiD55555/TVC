@@ -110,7 +110,7 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -124,7 +124,7 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -249,11 +249,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "64.23.190.208",
-            "server_port": 59703,
-            "uuid": "6748ac8e-91a2-46d6-ec84-e629ae21edea",
+            "server": "104.16.60.8",
+            "server_port": 2083,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -264,11 +264,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linde06.indiavideo.sbs\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev"
                 }
             }
         },

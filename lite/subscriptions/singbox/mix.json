@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇸🇪SE | vless | @DailyV2RY | 139",
+                "🇨🇦CA | vless | @DailyV2RY | 141",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
@@ -168,6 +168,7 @@
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @Capoit | 13",
                 "🇸🇪SE | vless | @flyv2ray | 25",
+                "🇬🇧GB | vmess | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
@@ -234,7 +235,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇸🇪SE | vless | @DailyV2RY | 139",
+                "🇨🇦CA | vless | @DailyV2RY | 141",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
@@ -250,6 +251,7 @@
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @Capoit | 13",
                 "🇸🇪SE | vless | @flyv2ray | 25",
+                "🇬🇧GB | vmess | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
@@ -906,7 +908,7 @@
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "52.49.173.248",
+            "server": "52.18.150.164",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1413,11 +1415,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 139",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 141",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 2095,
-            "uuid": "b7b6c5d3-f4cb-42af-87dd-321aee28e6d0",
+            "server": "198.41.198.76",
+            "server_port": 443,
+            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1425,11 +1427,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "jd.wxgqlfx.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "jd.wxgqlfx.top"
                 }
             }
         },
@@ -1815,6 +1827,23 @@
                 "headers": {
                     "Host": "185.146.173.59"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vmess | @FAKEOFTVC | 0",
+            "type": "vmess",
+            "server": "51.195.140.87",
+            "server_port": 35995,
+            "uuid": "28f08493-de6d-486e-84f5-5abe092ff78b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

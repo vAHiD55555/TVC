@@ -134,6 +134,7 @@
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 29",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 12",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -142,7 +143,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 145",
+                "🇸🇪SE | vless | @DailyV2RY | 141",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -203,6 +204,7 @@
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 29",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 12",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -211,7 +213,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 145",
+                "🇸🇪SE | vless | @DailyV2RY | 141",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -356,7 +358,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "13.36.87.184",
+            "server": "35.181.133.243",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -952,6 +954,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
+            "type": "vless",
+            "server": "104.31.16.50",
+            "server_port": 443,
+            "uuid": "739aef27-7cf4-4457-839c-449e707d64ea",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sqvsjpkqkfw5lgfvcznq.digikala.network",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/12979\/Digi-Atl",
+                "headers": {
+                    "Host": "sqvsjpkqkfw5lgfvcznq.digikala.network"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
             "type": "vless",
             "server": "Www.ZULA.iR",
@@ -1190,11 +1223,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 145",
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 141",
             "type": "vless",
-            "server": "104.21.94.125",
-            "server_port": 443,
-            "uuid": "e6a047f0-734b-4bd7-82aa-367f2d88f4a4",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "30a5501c-7290-4168-bbd7-b11115e8f007",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1202,21 +1235,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "httpstmev2rayvmessfree.raminramin006.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
                 "headers": {
-                    "Host": "httpstmev2rayvmessfree.raminramin006.workers.dev"
+                    "Host": "185.146.173.59"
                 }
             }
         },

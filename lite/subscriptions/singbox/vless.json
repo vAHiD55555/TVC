@@ -119,7 +119,7 @@
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇸🇪SE | vless | @lightning6 | 11",
+                "🇸🇪SE | vless | @lightning6 | 13",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🇩🇪DE | vless | @vpn_xw | 3",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -141,10 +141,10 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇨🇷CR | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 9",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇸🇪SE | vless | @lrnbymaa | 21",
+                "🇸🇪SE | vless | @lrnbymaa | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
@@ -162,7 +162,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 2",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
@@ -186,7 +186,7 @@
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇸🇪SE | vless | @lightning6 | 11",
+                "🇸🇪SE | vless | @lightning6 | 13",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🇩🇪DE | vless | @vpn_xw | 3",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -208,10 +208,10 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇨🇷CR | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 9",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇸🇪SE | vless | @lrnbymaa | 21",
+                "🇸🇪SE | vless | @lrnbymaa | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
@@ -229,7 +229,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 2",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
@@ -582,7 +582,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lightning6 | 11",
+            "tag": "🇸🇪SE | vless | @lightning6 | 13",
             "type": "vless",
             "server": "185.146.173.94",
             "server_port": 8880,
@@ -1175,11 +1175,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
+            "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.32",
-            "server_port": 80,
-            "uuid": "-DIGIV2RAY-",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "0d0245cd-8412-4a32-b52c-ef810651e644",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1187,12 +1187,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Digiv2ray-?Telegram=@V2RayTz,@V2RayTz",
-                "headers": {
-                    "Host": "185.146.173.32"
+            "tls": {
+                "enabled": true,
+                "server_name": "digi--v2raycncfs.RadioTeHran.oRG",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Digiv2ray,@Digiv2ray,@Digiv2ray,@Digiv2ray,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1248,11 +1258,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lrnbymaa | 21",
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 19",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 2095,
-            "uuid": "-VPNCUSTOMIZE",
+            "uuid": "VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1735,7 +1745,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,

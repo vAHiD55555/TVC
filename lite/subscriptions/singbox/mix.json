@@ -126,7 +126,7 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
-                "🇸🇪SE | vless | @v2logy | 13",
+                "🇸🇪SE | vless | @v2logy | 14",
                 "🇬🇧GB | ss | @azadi_az_inja_migzare | 6",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vless | @V2rayNGn | 24",
@@ -165,6 +165,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
+                "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 22",
                 "🇬🇧GB | vmess | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 8",
@@ -208,7 +209,7 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
-                "🇸🇪SE | vless | @v2logy | 13",
+                "🇸🇪SE | vless | @v2logy | 14",
                 "🇬🇧GB | ss | @azadi_az_inja_migzare | 6",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vless | @V2rayNGn | 24",
@@ -247,6 +248,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
+                "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 22",
                 "🇬🇧GB | vmess | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 8",
@@ -787,7 +789,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2logy | 13",
+            "tag": "🇸🇪SE | vless | @v2logy | 14",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
@@ -1533,9 +1535,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "104.249.173.159",
-            "server_port": 40118,
-            "uuid": "b89f5af7-e478-4b45-f1d5-1a5481acc15b",
+            "server": "207.148.31.167",
+            "server_port": 30587,
+            "uuid": "55219214-9f2d-4914-fbaf-b1b444c85b0e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1595,9 +1597,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 19",
             "type": "vless",
-            "server": "172.66.213.5",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-cdo",
+            "server": "www.visa.com",
+            "server_port": 8080,
+            "uuid": "Parsashonam-57",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1607,9 +1609,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.66.213.5"
+                    "Host": "www.visa.com"
                 }
             }
         },
@@ -1746,6 +1748,37 @@
                 "path": "\/@V2rayGodVip=Telegram\/",
                 "headers": {
                     "Host": "V2rayGodVip--allh1.V2rayGod.Site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 0",
+            "type": "vless",
+            "server": "104.19.54.50",
+            "server_port": 443,
+            "uuid": "e66bb4ed-ea00-4361-b445-3077c3d9936a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ARIameHr-3WP.PAGeS.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@Freakconfig",
+                "headers": {
+                    "Host": "ARIameHr-3WP.PAGeS.Dev"
                 }
             }
         },

@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @frev2ray | 9",
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 29",
-                "🇨🇦CA | vless | @Lockey_vpn | 15",
+                "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 13",
@@ -197,7 +197,7 @@
                 "🇨🇦CA | vless | @frev2ray | 9",
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 29",
-                "🇨🇦CA | vless | @Lockey_vpn | 15",
+                "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 13",
@@ -546,11 +546,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 15",
+            "tag": "🇨🇦CA | vless | @Lockey_vpn | 14",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 8443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "server": "104.24.0.11",
+            "server_port": 443,
+            "uuid": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -560,7 +560,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "test006.pages.dev",
+                "server_name": "whmm.meRlINNz.LiNK",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -570,9 +570,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless-ws\/",
                 "headers": {
-                    "Host": "test006.pages.dev"
+                    "Host": "whmm.meRlINNz.LiNK"
                 }
             }
         },

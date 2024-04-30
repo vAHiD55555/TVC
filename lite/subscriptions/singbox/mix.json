@@ -133,7 +133,6 @@
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
@@ -147,7 +146,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇮🇷IR | vmess | @proxyymeliii | 26",
-                "🇨🇦CA | vless | @v2ray1_ng | 4",
+                "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇸🇪SE | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 174",
@@ -215,7 +214,6 @@
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
@@ -229,7 +227,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
                 "🇮🇷IR | vmess | @proxyymeliii | 26",
-                "🇨🇦CA | vless | @v2ray1_ng | 4",
+                "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇸🇪SE | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 174",
@@ -922,30 +920,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "c9e99213-170b-458a-b45b-79454ac7cf4b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "zula.ir"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "2a01:4f8:242:1d0e::1461:40",
@@ -1222,9 +1196,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2ray_swhil | 21",
             "type": "vless",
-            "server": "172.66.44.169",
-            "server_port": 443,
-            "uuid": "896ea6fd-0754-430d-b5b3-4b4ad487617d",
+            "server": "172.64.229.28",
+            "server_port": 8443,
+            "uuid": "86cb9a9b-dc2e-45d6-b35d-7ce1daa32a15",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1234,7 +1208,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "4d9061a7.joinmahdiserver-7tw.pages.dev",
+                "server_name": "dns68.shift.cloudns.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1244,9 +1218,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/Telegram@V2ray_Alpha\/",
                 "headers": {
-                    "Host": "4d9061a7.joinmahdiserver-7tw.pages.dev"
+                    "Host": "dns68.shift.cloudns.org"
                 }
             }
         },
@@ -1275,7 +1249,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 4",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 5",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2083,

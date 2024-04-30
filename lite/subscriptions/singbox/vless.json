@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
-                "🇨🇦CA | vless | @v2ray1_ng | 4",
+                "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇸🇪SE | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 174",
@@ -207,7 +207,7 @@
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
-                "🇨🇦CA | vless | @v2ray1_ng | 4",
+                "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇸🇪SE | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 174",
@@ -1034,9 +1034,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2ray_swhil | 21",
             "type": "vless",
-            "server": "172.66.44.169",
-            "server_port": 443,
-            "uuid": "896ea6fd-0754-430d-b5b3-4b4ad487617d",
+            "server": "172.64.229.28",
+            "server_port": 8443,
+            "uuid": "86cb9a9b-dc2e-45d6-b35d-7ce1daa32a15",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1046,7 +1046,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "4d9061a7.joinmahdiserver-7tw.pages.dev",
+                "server_name": "dns68.shift.cloudns.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1056,14 +1056,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/Telegram@V2ray_Alpha\/",
                 "headers": {
-                    "Host": "4d9061a7.joinmahdiserver-7tw.pages.dev"
+                    "Host": "dns68.shift.cloudns.org"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 4",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 5",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2083,

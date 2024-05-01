@@ -151,14 +151,14 @@
                 "🇳🇱NL | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇮🇷IR | vless | @VmessProtocol | 17",
-                "🇨🇦CA | vless | @DailyV2RY | 175",
+                "🇸🇪SE | vless | @DailyV2RY | 173",
                 "🇳🇱NL | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇮🇷IR | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -172,7 +172,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 6",
+                "🏳️XX | vless | @kingofilter | 6",
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -233,14 +233,14 @@
                 "🇳🇱NL | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇮🇷IR | vless | @VmessProtocol | 17",
-                "🇨🇦CA | vless | @DailyV2RY | 175",
+                "🇸🇪SE | vless | @DailyV2RY | 173",
                 "🇳🇱NL | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇮🇷IR | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -254,7 +254,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 6",
+                "🏳️XX | vless | @kingofilter | 6",
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -1350,11 +1350,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 175",
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 173",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 80,
-            "uuid": "-DIGIV2RAY-",
+            "server": "185.146.173.32",
+            "server_port": 2095,
+            "uuid": "64e30984-6f53-48ce-a684-131a2b4b0622",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1364,9 +1364,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "185.146.173.32"
                 }
             }
         },
@@ -1529,11 +1529,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇮🇷IR | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "172.67.174.92",
-            "server_port": 2053,
-            "uuid": "f8d2fd33-ab8e-4004-f97d-10dde80af010",
+            "server": "217.60.247.88",
+            "server_port": 20161,
+            "uuid": "da1fcb09-9a4c-4741-af0f-b1546034bf6c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1543,23 +1543,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "qin14.rong1104.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/qin14",
-                "headers": {
-                    "Host": "qin14.rong1104.uk"
-                }
             }
         },
         {
@@ -1917,7 +1900,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @kingofilter | 6",
+            "tag": "🏳️XX | vless | @kingofilter | 6",
             "type": "vless",
             "server": "Iran.poloo.ir",
             "server_port": 2052,

@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 14",
+                "🇨🇦CA | vless | @v2_team | 3",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 10",
                 "🇨🇦CA | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
@@ -123,7 +124,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | vless | @ProxyForOpeta | 4",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇳🇱NL | vless | @V2rayNGn | 27",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
@@ -151,7 +152,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇩🇪DE | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -167,10 +168,10 @@
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 7",
+                "🏳️XX | vless | @kingofilter | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -183,6 +184,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 14",
+                "🇨🇦CA | vless | @v2_team | 3",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 10",
                 "🇨🇦CA | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
@@ -199,7 +201,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | vless | @ProxyForOpeta | 4",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇳🇱NL | vless | @V2rayNGn | 27",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
@@ -227,7 +229,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇩🇪DE | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -243,10 +245,10 @@
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 7",
+                "🏳️XX | vless | @kingofilter | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -292,6 +294,37 @@
                 "headers": {
                     "Host": "www.visa.com"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @v2_team | 3",
+            "type": "vless",
+            "server": "join.v2team.cfd",
+            "server_port": 2096,
+            "uuid": "4f9b3f00-a962-491d-8869-69945383ab8c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "V2ray-NAPSTERNET-IRANCELL-iran-fair-MKH.Snappfoodd.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAMTelegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAMTelegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAMgonTelegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM,Telegram:@V2_TEAM",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -697,7 +730,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ProxyForOpeta | 4",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 4",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -1378,11 +1411,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "199.247.3.99",
-            "server_port": 3087,
-            "uuid": "8e8cba22-0447-4930-9281-fae697b6aace",
+            "server": "207.246.102.64",
+            "server_port": 21636,
+            "uuid": "53d57cfb-189f-4a9f-b620-a3ca168b7ac1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1786,7 +1819,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @kingofilter | 7",
+            "tag": "🏳️XX | vless | @kingofilter | 7",
             "type": "vless",
             "server": "Iran.poloo.ir",
             "server_port": 2052,
@@ -1857,7 +1890,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,

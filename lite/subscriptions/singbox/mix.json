@@ -158,9 +158,10 @@
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇸🇪SE | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -239,9 +240,10 @@
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇸🇪SE | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -1537,11 +1539,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇸🇪SE | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "168.235.82.103",
-            "server_port": 16123,
-            "uuid": "fa09f016-0460-4bcf-d209-197b7f3d270e",
+            "server": "185.146.173.129",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1551,6 +1553,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nt-haze-7dad.rogap16875.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/afrhms16v.bestxray.buzz\/linkws",
+                "headers": {
+                    "Host": "nt-haze-7dad.rogap16875.workers.dev"
+                }
             }
         },
         {
@@ -1600,6 +1619,27 @@
             "transport": {
                 "type": "ws",
                 "path": "\/Telegram:@POLPROXY-",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 14",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2056",
                 "headers": {
                     "Host": "185.146.173.58"
                 }

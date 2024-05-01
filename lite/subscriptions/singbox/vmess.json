@@ -193,9 +193,9 @@
         {
             "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "oracle1.mysupp.com",
-            "server_port": 25943,
-            "uuid": "520c82fe-3e74-43b9-9dfb-87cae71e8cc0",
+            "server": "205.234.231.35",
+            "server_port": 31433,
+            "uuid": "50e82581-bd14-4527-f7d6-e7824cd26f57",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -205,23 +205,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "oracle1.mysupp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/canada",
-                "headers": {
-                    "Host": "oracle1.mysupp.com"
-                }
             }
         },
         {

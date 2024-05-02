@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | vless | @ProxyForOpeta | 4",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇳🇱NL | vless | @V2rayNGn | 27",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | vless | @prrofile_purple | 189",
@@ -158,7 +158,7 @@
                 "🇨🇦CA | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 5",
+                "🏳️XX | vless | @kingofilter | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
                 "🇺🇸US | vless | @V2FETCH | 2",
@@ -190,7 +190,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | vless | @ProxyForOpeta | 4",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇳🇱NL | vless | @V2rayNGn | 27",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | vless | @prrofile_purple | 189",
@@ -224,7 +224,7 @@
                 "🇨🇦CA | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 5",
+                "🏳️XX | vless | @kingofilter | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
                 "🇺🇸US | vless | @V2FETCH | 2",
@@ -698,7 +698,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ProxyForOpeta | 4",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 4",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -1579,11 +1579,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @kingofilter | 5",
+            "tag": "🏳️XX | vless | @kingofilter | 6",
             "type": "vless",
-            "server": "divide.footballlovernews.com",
-            "server_port": 443,
-            "uuid": "d15f5947-f95c-4cc4-b8e0-20219e4bc2d1",
+            "server": "Mci.poloo.ir",
+            "server_port": 2052,
+            "uuid": "67f27227-85ab-4fea-f409-48ef93794de2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1591,21 +1591,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "divide.footballlovernews.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/divide",
+                "path": "\/",
                 "headers": {
-                    "Host": "divide.footballlovernews.com"
+                    "Host": "Mci.poloo.ir"
                 }
             }
         },

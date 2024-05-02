@@ -123,7 +123,7 @@
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 2",
+                "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
                 "🇮🇷IR | vless | @Outline_Vpn | 14",
@@ -190,7 +190,7 @@
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 2",
+                "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
                 "🇮🇷IR | vless | @Outline_Vpn | 14",
@@ -493,7 +493,7 @@
             "type": "vless",
             "server": "185.146.173.32",
             "server_port": 2095,
-            "uuid": "83fae070-50f1-4867-adec-8491ba5abf53",
+            "uuid": "d5d4b1db-b788-4cdf-a2a5-e9d67571029b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -669,11 +669,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 2",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 1",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 80,
-            "uuid": "DIGIV2RAY-",
+            "server": "visa.com",
+            "server_port": 8443,
+            "uuid": "fd64e3de-552d-4f77-a7a2-09c1b6117b81",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -681,11 +681,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo-estoni.falcunar.asso.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "telegram-falcunargo-estoni.falcunar.asso.eu.org"
                 }
             }
         },
@@ -1320,9 +1330,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "104.27.62.243",
+            "server": "172.66.213.5",
             "server_port": 80,
-            "uuid": "8e036538-d161-4cf7-bcc7-ed6b8a66da3d",
+            "uuid": "Telegram-ipV2Ray-vro",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1332,9 +1342,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@VPNHTTPInjectorfree",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "104.27.62.243"
+                    "Host": "172.66.213.5"
                 }
             }
         },

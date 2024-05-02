@@ -137,7 +137,7 @@
                 "🇸🇪SE | vless | @ServerNett | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
-                "🇬🇧GB | vless | @proxyymeliii | 30",
+                "🇸🇪SE | vless | @proxyymeliii | 31",
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @vless_vmess | 6",
                 "🇸🇪SE | vless | @V2RayTz | 17",
@@ -203,7 +203,7 @@
                 "🇸🇪SE | vless | @ServerNett | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 21",
-                "🇬🇧GB | vless | @proxyymeliii | 30",
+                "🇸🇪SE | vless | @proxyymeliii | 31",
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @vless_vmess | 6",
                 "🇸🇪SE | vless | @V2RayTz | 17",
@@ -1014,17 +1014,24 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @proxyymeliii | 30",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 31",
             "type": "vless",
-            "server": "185.42.14.149",
-            "server_port": 40595,
-            "uuid": "b832c123-bb38-43d2-99e9-3bbe83f19aff",
+            "server": "LIGHTNING6-joinbede.filj.top",
+            "server_port": 8880,
+            "uuid": "8827d14a-4459-4fcf-8ebb-b9cf15815c3b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6",
+                "headers": {
+                    "Host": "LIGHTNING6-joinbede.filj.top"
+                }
             }
         },
         {

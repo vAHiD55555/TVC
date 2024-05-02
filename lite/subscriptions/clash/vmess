@@ -119,6 +119,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @DeamNet_Proxy | 19","type":"vmess","server":"zula.ir","port":"80","cipher":"auto","uuid":"e09a0798-24c0-497e-a5b0-62d9f03052eb","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"fr1-vmess.sshmax.xyz"}}}
   - {"name":"🇩🇪DE | vmess | @ShadowProxy66 | 26","type":"vmess","server":"5.75.202.76","port":"39523","cipher":"auto","uuid":"e7e75749-9a57-4471-a9a7-5472be0a0cda","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @vless_vmess | 8","type":"vmess","server":"104.21.15.36","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 19","type":"vmess","server":"172.67.214.33","port":"2095","cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
@@ -131,6 +132,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇩🇪DE | vmess | @ShadowProxy66 | 26'
       - '🇨🇦CA | vmess | @vless_vmess | 8'
       - '🇨🇦CA | vmess | @Hope_Net | 19'
@@ -143,6 +145,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇩🇪DE | vmess | @ShadowProxy66 | 26'
       - '🇨🇦CA | vmess | @vless_vmess | 8'
       - '🇨🇦CA | vmess | @Hope_Net | 19'
@@ -154,6 +157,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇩🇪DE | vmess | @ShadowProxy66 | 26'
       - '🇨🇦CA | vmess | @vless_vmess | 8'
       - '🇨🇦CA | vmess | @Hope_Net | 19'

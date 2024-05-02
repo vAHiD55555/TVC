@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 19",
                 "🇸🇪SE | vless | @proxyymeliii | 31",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
-                "🇨🇦CA | vless | @vless_vmess | 8",
+                "🇨🇦CA | vmess | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 18",
                 "🇮🇪IE | vless | @DailyV2RY | 139",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 19",
                 "🇸🇪SE | vless | @proxyymeliii | 31",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
-                "🇨🇦CA | vless | @vless_vmess | 8",
+                "🇨🇦CA | vmess | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 18",
                 "🇮🇪IE | vless | @DailyV2RY | 139",
@@ -1140,13 +1140,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vless_vmess | 8",
-            "type": "vless",
-            "server": "104.18.13.130",
+            "tag": "🇨🇦CA | vmess | @vless_vmess | 8",
+            "type": "vmess",
+            "server": "104.21.15.36",
             "server_port": 443,
-            "uuid": "Parsashonam-55",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1154,7 +1157,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mail.offch.blog",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1164,9 +1167,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "mail.offch.blog"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },

@@ -152,6 +152,7 @@ proxies:
   - {"name":"🇨🇦CA | vless | @v2ray_swhil | 19","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"6e7e6a4e-a01e-4614-a765-2960c64a56fa","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"9e83eca1.wyvernfree.pages.dev","ws-opts":{"path":"/powerdbyWyvern?ed=2560","headers":{"host":"9e83eca1.wyvernfree.pages.dev"}}}
   - {"name":"🇸🇪SE | vless | @proxyymeliii | 31","type":"vless","server":"LIGHTNING6-joinbede.filj.top","port":8880,"udp":false,"uuid":"9f5467eb-d3dd-4630-b02d-51884a79738b","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6","headers":{"host":"xn---qhantayawi--b-9wl9bqtr75a955a5b97asba44yjwac23607hkhja.lightning6.xyz."}}}
   - {"name":"🇨🇦CA | vless | @v2ray1_ng | 9","type":"vless","server":"172.66.44.139","port":443,"udp":false,"uuid":"de70c2ab-3b16-44c2-8579-9b05fedc3b36","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"pardazeshvpn-tg3.pages.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"pardazeshvpn-tg3.pages.dev"}}}
+  - {"name":"🇨🇦CA | vmess | @vless_vmess | 8","type":"vmess","server":"104.21.15.36","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
   - {"name":"🇨🇦CA | vless | @MTConfig | 12","type":"vless","server":"all.vipxali.cfd","port":2083,"udp":false,"uuid":"d113cd5c-80c9-43e2-a567-107819004a12","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"dm.xsv2ray.cfd"}
   - {"name":"🇨🇦CA | vless | @VmessProtocol | 18","type":"vless","server":"time.is","port":443,"udp":false,"uuid":"5bdf790f-0af2-4481-a624-41b66e7e3489","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"cdn.ircp.online","ws-opts":{"path":"/@ln2ray?ed=2048","headers":{"host":"cdn.ircp.online"}}}
   - {"name":"🇮🇪IE | vless | @DailyV2RY | 139","type":"vless","server":"52.50.132.250","port":443,"udp":true,"uuid":"cf7cf81f-bd77-4507-ba6b-3a233b0c93ed","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"eset.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"UXJg8PBBMG9o_o4l6B_yq2ziTGLmtdRgTrybmtZmcDo","short-id":"7a39ef36"}}
@@ -217,6 +218,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @v2ray_swhil | 19'
       - '🇸🇪SE | vless | @proxyymeliii | 31'
       - '🇨🇦CA | vless | @v2ray1_ng | 9'
+      - '🇨🇦CA | vmess | @vless_vmess | 8'
       - '🇨🇦CA | vless | @MTConfig | 12'
       - '🇨🇦CA | vless | @VmessProtocol | 18'
       - '🇮🇪IE | vless | @DailyV2RY | 139'
@@ -282,6 +284,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @v2ray_swhil | 19'
       - '🇸🇪SE | vless | @proxyymeliii | 31'
       - '🇨🇦CA | vless | @v2ray1_ng | 9'
+      - '🇨🇦CA | vmess | @vless_vmess | 8'
       - '🇨🇦CA | vless | @MTConfig | 12'
       - '🇨🇦CA | vless | @VmessProtocol | 18'
       - '🇮🇪IE | vless | @DailyV2RY | 139'
@@ -346,6 +349,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @v2ray_swhil | 19'
       - '🇸🇪SE | vless | @proxyymeliii | 31'
       - '🇨🇦CA | vless | @v2ray1_ng | 9'
+      - '🇨🇦CA | vmess | @vless_vmess | 8'
       - '🇨🇦CA | vless | @MTConfig | 12'
       - '🇨🇦CA | vless | @VmessProtocol | 18'
       - '🇮🇪IE | vless | @DailyV2RY | 139'

@@ -136,7 +136,6 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 19",
                 "🇸🇪SE | vless | @proxyymeliii | 31",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
-                "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 18",
                 "🇮🇪IE | vless | @DailyV2RY | 139",
@@ -202,7 +201,6 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 19",
                 "🇸🇪SE | vless | @proxyymeliii | 31",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
-                "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 18",
                 "🇮🇪IE | vless | @DailyV2RY | 139",
@@ -986,37 +984,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "pardazeshvpn-tg3.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @vless_vmess | 8",
-            "type": "vless",
-            "server": "104.18.13.130",
-            "server_port": 443,
-            "uuid": "Parsashonam-55",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mail.offch.blog",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mail.offch.blog"
                 }
             }
         },

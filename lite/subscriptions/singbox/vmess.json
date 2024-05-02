@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @vless_vmess | 8",
@@ -125,7 +124,6 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @vless_vmess | 8",
@@ -193,30 +191,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "e09a0798-24c0-497e-a5b0-62d9f03052eb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "zula.ir"
                 }
             }
         },

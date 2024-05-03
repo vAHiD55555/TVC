@@ -120,18 +120,18 @@
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇨🇦CA | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 15",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
-                "🇨🇦CA | vless | @prrofile_purple | 182",
+                "🇨🇦CA | vless | @prrofile_purple | 190",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 26",
-                "🇨🇦CA | vless | @v2rayngvpn | 16",
+                "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇸🇪SE | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 12",
-                "🇳🇱NL | vless | @FreakConfig | 2",
+                "🇳🇱NL | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇨🇷CR | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -189,18 +189,18 @@
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇨🇦CA | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 15",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
-                "🇨🇦CA | vless | @prrofile_purple | 182",
+                "🇨🇦CA | vless | @prrofile_purple | 190",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 26",
-                "🇨🇦CA | vless | @v2rayngvpn | 16",
+                "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇸🇪SE | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 12",
-                "🇳🇱NL | vless | @FreakConfig | 2",
+                "🇳🇱NL | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇨🇷CR | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -335,7 +335,7 @@
         {
             "tag": "🇨🇦CA | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "3.97.233.247",
+            "server": "15.222.108.229",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -590,7 +590,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_xw | 0",
+            "tag": "🇺🇸US | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -777,11 +777,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 182",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 190",
             "type": "vless",
-            "server": "104.18.13.130",
-            "server_port": 8080,
-            "uuid": "Parsashonam-54",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "eeb73621-c4be-4bfc-96cd-9e045cf5d3ba",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -789,11 +789,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "9a3f48f6.wyvernfree.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@Wyvernvpn?ed=2560",
                 "headers": {
-                    "Host": "104.18.13.130"
+                    "Host": "9a3f48f6.wyvernfree.pages.dev"
                 }
             }
         },
@@ -861,7 +871,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 16",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 17",
             "type": "vless",
             "server": "172.66.213.5",
             "server_port": 2095,
@@ -1475,7 +1485,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @FreakConfig | 2",
+            "tag": "🇳🇱NL | vless | @FreakConfig | 3",
             "type": "vless",
             "server": "188.114.96.2",
             "server_port": 443,

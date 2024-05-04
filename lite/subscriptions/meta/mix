@@ -178,6 +178,7 @@ proxies:
   - {"name":"🇩🇪DE | vless | @kiava | 6","type":"vless","server":"35.156.202.181","port":2082,"udp":true,"uuid":"87c86835-d800-40d1-8903-6676869884d6","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"mail.google.com","grpc-opts":{"grpc-service-name":"kiava"},"reality-opts":{"public-key":"af0bgH4-m3NbjsyY0k1ffXn3bE3rrcK2lZNo5vmJxHQ","short-id":"6d1a3ecd"}}
   - {"name":"🇳🇱NL | ss | @kingofilter | 4","type":"ss","server":"88.210.6.98","port":60869,"password":"lPT3Mi25IXYP3iWzPJaryQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | vless | @GozargahVPN | 16","type":"vless","server":"my.GozargahVPN.top","port":443,"udp":false,"uuid":"7f8b597e-3da6-4bbf-88c5-8d2892fbc501","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"www.GozargahVPN.top","ws-opts":{"path":"/Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,?ed=2048","headers":{"host":"www.GozargahVPN.top"}}}
+  - {"name":"🇸🇪SE | vless | @freeconfigv2 | 1","type":"vless","server":"185.139.228.13","port":2083,"udp":true,"uuid":"282bed58-1451-419f-a5b3-ed6f65ab8850","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"www.speedtest.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"x-Zv8k40O3rJ8sjJknVpimNI4dhEk3WRCyKeRb5NeEU","short-id":"b756e372b9623b22"}}
   - {"name":"🇮🇷IR | vless | @Good_V2rayy | 1","type":"vless","server":"89.44.112.229","port":2053,"udp":true,"uuid":"edd7f66d-74dc-45a0-8270-5df829cf1aa8","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"discord.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI","short-id":"291ef87c"}}
   - {"name":"🇸🇪SE | vless | @IBv2ray | 4","type":"vless","server":"v2raxx.amalfatm.ir","port":8080,"udp":false,"uuid":"ec668804-3bf4-45f7-96df-28baa3707ee1","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/@V2RAXX-@V2RAXX?ed=2048","headers":{"host":"xn--047h.v2raxx6.shop."}}}
   - {"name":"🇺🇸US | vless | @V2FETCH | 2","type":"vless","server":"tandfonline.com","port":443,"udp":false,"uuid":"cb74a4c3-f48d-4411-8f4c-2ffee5eab376","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"ae3b1077e4706405.koalalampour.space","ws-opts":{"path":"/","headers":{"host":"ead9935ad2d9ffaa.koalalampour.space"}}}
@@ -249,6 +250,7 @@ proxy-groups:
       - '🇩🇪DE | vless | @kiava | 6'
       - '🇳🇱NL | ss | @kingofilter | 4'
       - '🇺🇸US | vless | @GozargahVPN | 16'
+      - '🇸🇪SE | vless | @freeconfigv2 | 1'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
       - '🇸🇪SE | vless | @IBv2ray | 4'
       - '🇺🇸US | vless | @V2FETCH | 2'
@@ -320,6 +322,7 @@ proxy-groups:
       - '🇩🇪DE | vless | @kiava | 6'
       - '🇳🇱NL | ss | @kingofilter | 4'
       - '🇺🇸US | vless | @GozargahVPN | 16'
+      - '🇸🇪SE | vless | @freeconfigv2 | 1'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
       - '🇸🇪SE | vless | @IBv2ray | 4'
       - '🇺🇸US | vless | @V2FETCH | 2'
@@ -390,6 +393,7 @@ proxy-groups:
       - '🇩🇪DE | vless | @kiava | 6'
       - '🇳🇱NL | ss | @kingofilter | 4'
       - '🇺🇸US | vless | @GozargahVPN | 16'
+      - '🇸🇪SE | vless | @freeconfigv2 | 1'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
       - '🇸🇪SE | vless | @IBv2ray | 4'
       - '🇺🇸US | vless | @V2FETCH | 2'

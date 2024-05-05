@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 8",
-                "🇩🇪DE | vless | @VlessConfig | 19",
+                "🇫🇷FR | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇸🇪SE | vless | @V2pedia | 55",
@@ -131,6 +131,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇨🇦CA | vless | @prrofile_purple | 191",
@@ -155,7 +156,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇿🇦ZA | vmess | @Hope_Net | 18",
+                "🇸🇬SG | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
@@ -175,7 +176,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -190,7 +191,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 8",
-                "🇩🇪DE | vless | @VlessConfig | 19",
+                "🇫🇷FR | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇸🇪SE | vless | @V2pedia | 55",
@@ -212,6 +213,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇨🇦CA | vless | @prrofile_purple | 191",
@@ -236,7 +238,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇿🇦ZA | vmess | @Hope_Net | 18",
+                "🇸🇬SG | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
@@ -256,7 +258,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -367,9 +369,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 19",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "3.79.78.35",
+            "server": "13.36.201.68",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -866,6 +868,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "hms24.ivideos.sbs",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms24.ivideos.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "hms24.ivideos.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
             "server": "qin12.rong1104.uk",
@@ -1305,7 +1341,7 @@
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
-            "uuid": "aae8724f-e67d-4c14-88d4-37a35101a1ba",
+            "uuid": "1ae75abf-aa64-4dce-b2db-a8e7f3b3ab85",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1491,11 +1527,11 @@
             }
         },
         {
-            "tag": "🇿🇦ZA | vmess | @Hope_Net | 18",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "129.151.164.152",
-            "server_port": 55600,
-            "uuid": "e30f8588-2555-48b8-c354-c8e63f57232d",
+            "server": "146.190.86.66",
+            "server_port": 35010,
+            "uuid": "9fbd6d59-dee1-4f1a-be58-53f0ed32356a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2020,7 +2056,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,

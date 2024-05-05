@@ -107,10 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 11",
-                "🇨🇦CA | vless | @v2_team | 3",
+                "🇺🇸US | vless | @v2_team | 3",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 8",
                 "🇮🇪IE | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇸🇪SE | vless | @V2pedia | 55",
                 "🇨🇦CA | vless | @frev2ray | 11",
@@ -144,8 +143,8 @@
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vless | @fnet00 | 1",
-                "🇨🇦CA | vless | @polproxy | 8",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 12",
+                "🇺🇸US | vless | @polproxy | 8",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -172,10 +171,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 11",
-                "🇨🇦CA | vless | @v2_team | 3",
+                "🇺🇸US | vless | @v2_team | 3",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 8",
                 "🇮🇪IE | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇸🇪SE | vless | @V2pedia | 55",
                 "🇨🇦CA | vless | @frev2ray | 11",
@@ -209,8 +207,8 @@
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vless | @fnet00 | 1",
-                "🇨🇦CA | vless | @polproxy | 8",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 12",
+                "🇺🇸US | vless | @polproxy | 8",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -273,7 +271,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2_team | 3",
+            "tag": "🇺🇸US | vless | @v2_team | 3",
             "type": "vless",
             "server": "join.v2team.cfd",
             "server_port": 2096,
@@ -362,27 +360,6 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
-            "type": "vless",
-            "server": "CUSTOMIZEV2ray.V2ray.motorcycles",
-            "server_port": 2095,
-            "uuid": "1436ec94-4d33-4931-8a18-ed43a2a7d11d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2rayCUSTOMIZE?ed=1024",
-                "headers": {
-                    "Host": "CUSTOMIZEV2ray.V2ray.motorcycles"
                 }
             }
         },
@@ -1179,7 +1156,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @polproxy | 8",
+            "tag": "🇺🇸US | vless | @polproxy | 8",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 80,
@@ -1200,11 +1177,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 12",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "185.146.173.32",
-            "server_port": 2095,
-            "uuid": "a88a6e98-1c69-4b99-b1f2-1ecb9dc37c11",
+            "server": "104.26.15.16",
+            "server_port": 443,
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1212,11 +1189,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bIA-paIn-bacHE.PAGeS.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram-V2ray_Alpha?ed=2560",
                 "headers": {
-                    "Host": "185.146.173.32"
+                    "Host": "bIA-paIn-bacHE.PAGeS.DEv"
                 }
             }
         },

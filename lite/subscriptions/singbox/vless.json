@@ -110,7 +110,6 @@
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇮🇪IE | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🏳️XX | vless | @melov2ray | 12",
                 "🇸🇪SE | vless | @V2pedia | 55",
@@ -132,11 +131,12 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 23",
-                "🇨🇦CA | vless | @v2rayngvpn | 11",
+                "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇫🇮FI | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 21",
+                "🇸🇪SE | vless | @v2ray_swhil | 19",
+                "🇨🇦CA | vless | @proxyymeliii | 30",
                 "🇮🇷IR | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
@@ -147,7 +147,6 @@
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 16",
@@ -177,7 +176,6 @@
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇮🇪IE | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🏳️XX | vless | @melov2ray | 12",
                 "🇸🇪SE | vless | @V2pedia | 55",
@@ -199,11 +197,12 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 23",
-                "🇨🇦CA | vless | @v2rayngvpn | 11",
+                "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇫🇮FI | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 21",
+                "🇸🇪SE | vless | @v2ray_swhil | 19",
+                "🇨🇦CA | vless | @proxyymeliii | 30",
                 "🇮🇷IR | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
@@ -214,7 +213,6 @@
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 16",
@@ -356,27 +354,6 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
-            "type": "vless",
-            "server": "CUSTOMIZEV2ray.V2ray.motorcycles",
-            "server_port": 2095,
-            "uuid": "ad88ec60-27b9-46b8-8604-be686577fe5e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2rayCUSTOMIZE?ed=1024",
-                "headers": {
-                    "Host": "CUSTOMIZEV2ray.V2ray.motorcycles"
                 }
             }
         },
@@ -873,24 +850,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 11",
+            "tag": "🇮🇷IR | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 8880,
-            "uuid": "e7ff22c0-b781-41ef-8900-492852e01353",
+            "server": "217.60.249.101",
+            "server_port": 2095,
+            "uuid": "2a4bfe79-b301-c477-a6a7-8929023b1e91",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-@Grizzlypn,telegram-Grizzlypn,telegram-Grizzlypn,telegram-Grizzlypn,telegram-Grizzlypn,telegram-Grizzlypn,telegram-Grizzlypn,telegram-Grizzlypn,telegram-Grizzlypn,telegram-Grizzlypn,telegram-Grizzlypn,telegram-Grizzlypn,telegram-Grizzlypn,telegram-Grizzlypn,telegram-Lookivpn,Grizzlypn-Grizzlypn-telegram-Grizzlypn-v2ray?ed=2056",
-                "headers": {
-                    "Host": "104.18.202.232"
-                }
             }
         },
         {
@@ -970,11 +940,32 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 21",
+            "tag": "🇸🇪SE | vless | @v2ray_swhil | 19",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-oud",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-ipV2Ray",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 30",
+            "type": "vless",
+            "server": "172.66.44.139",
             "server_port": 443,
-            "uuid": "6e7e6a4e-a01e-4614-a765-2960c64a56fa",
+            "uuid": "de70c2ab-3b16-44c2-8579-9b05fedc3b36",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -984,7 +975,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "9e83eca1.wyvernfree.pages.dev",
+                "server_name": "pardazeshvpn-tg3.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -994,9 +985,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/powerdbyWyvern?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "9e83eca1.wyvernfree.pages.dev"
+                    "Host": "pardazeshvpn-tg3.pages.dev"
                 }
             }
         },
@@ -1088,7 +1079,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=1024",
                 "headers": {
                     "Host": "104.17.169.114"
                 }
@@ -1272,37 +1263,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "garywelch.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
-            "type": "vless",
-            "server": "172.66.44.139",
-            "server_port": 443,
-            "uuid": "de70c2ab-3b16-44c2-8579-9b05fedc3b36",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazeshvpn-tg3.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "pardazeshvpn-tg3.pages.dev"
                 }
             }
         },

@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 6",
                 "🇮🇷IR | vmess | @prrofile_purple | 182",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 28",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
@@ -124,7 +124,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 6",
                 "🇮🇷IR | vmess | @prrofile_purple | 182",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 28",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
@@ -195,11 +195,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "qin12.rong1104.uk",
-            "server_port": 2053,
-            "uuid": "e317a3a9-4e15-4792-d11d-b4b08df85803",
+            "server": "162.19.25.207",
+            "server_port": 44513,
+            "uuid": "4552bdb6-e008-43ac-926d-c6c6c5a6fc76",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -209,23 +209,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "qin12.rong1104.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/qin12",
-                "headers": {
-                    "Host": "qin12.rong1104.uk"
-                }
             }
         },
         {

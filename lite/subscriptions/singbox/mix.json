@@ -132,13 +132,13 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
-                "🇨🇦CA | vless | @prrofile_purple | 191",
+                "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 23",
-                "🇨🇦CA | vless | @v2rayngvpn | 14",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 28",
                 "🇫🇮FI | vless | @ServerNett | 20",
@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇨🇦CA | vless | @lrnbymaa | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 8",
@@ -214,13 +214,13 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
-                "🇨🇦CA | vless | @prrofile_purple | 191",
+                "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 23",
-                "🇨🇦CA | vless | @v2rayngvpn | 14",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 28",
                 "🇫🇮FI | vless | @ServerNett | 20",
@@ -237,7 +237,7 @@
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇨🇦CA | vless | @lrnbymaa | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 8",
@@ -870,9 +870,9 @@
         {
             "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "hms24.ivideos.sbs",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "server": "18arcims.ir",
+            "server_port": 80,
+            "uuid": "dac9edf5-b4eb-489d-bb9c-8b94c761d2a9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -883,26 +883,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms24.ivideos.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "hms24.ivideos.sbs"
+                    "Host": "18arcims.ir"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
             "server": "qin12.rong1104.uk",
             "server_port": 2053,
@@ -967,11 +957,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 191",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 181",
             "type": "vless",
-            "server": "172.66.1.85",
-            "server_port": 443,
-            "uuid": "52de3fa6-1673-4918-a90d-21d2b69de98e",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "29360d7e-8c1b-413f-87a4-5c76df9668e9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -979,21 +969,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "eb8c0c64.888766.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram@V2ray_Alpha\/",
+                "path": "\/?ed=2053",
                 "headers": {
-                    "Host": "eb8c0c64.888766.pages.dev"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1061,11 +1041,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 80,
-            "uuid": "c820c9e8-0d1f-42d8-8947-c6fc93a682d3",
+            "server": "104.16.54.150",
+            "server_port": 443,
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1073,11 +1053,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "BIa-pAIN-bAche.PagEs.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@custom_config",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.67.204.84"
+                    "Host": "BIa-pAIN-bAche.PagEs.DeV"
                 }
             }
         },
@@ -1493,7 +1483,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,

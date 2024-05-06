@@ -149,14 +149,14 @@
                 "🇮🇷IR | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 12",
+                "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇩🇪DE | vless | @DailyV2RY | 176",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇨🇳CN | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -231,14 +231,14 @@
                 "🇮🇷IR | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 12",
+                "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇩🇪DE | vless | @DailyV2RY | 176",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇨🇳CN | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -1340,11 +1340,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 12",
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 11",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "104.21.40.63",
             "server_port": 443,
-            "uuid": "8a8b9266-2ac8-433d-9fc3-b082a0013c8c",
+            "uuid": "03728bdd-745c-4ef6-a01f-70b006d3bbae",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1354,7 +1354,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "thevanishingrealm.pages.dev",
+                "server_name": "thorianite.toptechnonews.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1364,9 +1364,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
+                "path": "\/nimws",
                 "headers": {
-                    "Host": "thevanishingrealm.pages.dev"
+                    "Host": "thorianite.toptechnonews.com"
                 }
             }
         },
@@ -1512,11 +1512,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
+            "tag": "🇨🇳CN | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "104.21.8.157",
-            "server_port": 2082,
-            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+            "server": "183.232.199.28",
+            "server_port": 21006,
+            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1526,13 +1526,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.8.157"
-                }
             }
         },
         {

@@ -122,12 +122,12 @@
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇸🇪SE | vless | @lightning6 | 15",
                 "🇩🇪DE | vless | @V2rayNGmat | 1",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
                 "🇺🇸US | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 2",
+                "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 28",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇳🇱NL | vless | @prrofile_purple | 181",
@@ -190,12 +190,12 @@
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇸🇪SE | vless | @lightning6 | 15",
                 "🇩🇪DE | vless | @V2rayNGmat | 1",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
                 "🇺🇸US | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 2",
+                "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 28",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇳🇱NL | vless | @prrofile_purple | 181",
@@ -655,7 +655,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_xw | 0",
+            "tag": "🇺🇸US | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -761,9 +761,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "104.18.8.182",
-            "server_port": 2052,
-            "uuid": "fc17ec58-50b8-41fb-9e50-cd98cc37d4f7",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "5ce20e3e-7f80-4d98-bb50-ec05828b96f3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -771,20 +771,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "thegodsearth.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/t.me\/V2rayFa-V2rayng-v2rayNgfree-telegram-t.me\/V2rayfa_telegram",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "104.18.8.182"
+                    "Host": "thegodsearth.pages.dev"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 2",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
             "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 8080,
-            "uuid": "Parsashonam-61",
+            "server": "www.Speedtest.Net",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAY-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -794,9 +804,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/DIGIV2RAY-digiv2ray",
                 "headers": {
-                    "Host": "www.visa.com"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },

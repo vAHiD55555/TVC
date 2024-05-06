@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇸🇪SE | vless | @lightning6 | 15",
                 "🇩🇪DE | vless | @V2rayNGmat | 0",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
                 "🇺🇸US | vless | @v2logy | 15",
@@ -143,6 +143,7 @@
                 "🇳🇱NL | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇮🇷IR | vless | @DailyV2RY | 162",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @proxystore11 | 8",
@@ -154,7 +155,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 18",
                 "🇨🇦CA | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 16",
+                "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 16",
@@ -187,7 +189,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇸🇪SE | vless | @lightning6 | 15",
                 "🇩🇪DE | vless | @V2rayNGmat | 0",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
                 "🇺🇸US | vless | @v2logy | 15",
@@ -209,6 +211,7 @@
                 "🇳🇱NL | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇮🇷IR | vless | @DailyV2RY | 162",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @proxystore11 | 8",
@@ -220,7 +223,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 18",
                 "🇨🇦CA | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 16",
+                "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 16",
@@ -620,7 +624,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_xw | 0",
+            "tag": "🇺🇸US | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -1129,15 +1133,53 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.94",
-            "server_port": 8880,
-            "uuid": "87a%37379%30-97%311-4%6236-%38f11%2dd26%34173%3896a%62",
+            "server": "185.146.173.237",
+            "server_port": 80,
+            "uuid": "dee%64a3e%37-2a%36f-4%62d5-%62cdb%2d612%62846%3976a%61",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "185.146.173.237"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 17",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "8bf2d75b-2bfc-4aef-a73b-5ea3c6b5783e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "support.37bsjwiowiejjejisjejEejbkss--dbjd37bdka--bc.shOp.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "support.37bsjwiowiejjejisjejEejbkss--dbjd37bdka--bc.shOp."
+                }
             }
         },
         {
@@ -1443,11 +1485,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 16",
+            "tag": "🇸🇪SE | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "Back.MsV2ray.Online",
-            "server_port": 80,
-            "uuid": "MsV2ray-MsV2ray-MsV2ray",
+            "server": "185.146.173.185",
+            "server_port": 2095,
+            "uuid": "a88a6e98-1c69-4b99-b1f2-1ecb9dc37c11",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1457,9 +1499,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "Back.MsV2ray.Online"
+                    "Host": "185.146.173.185"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vless | @mehrosaboran | 4",
+            "type": "vless",
+            "server": "103.184.44.104",
+            "server_port": 8880,
+            "uuid": "dcacbba6-cc7f-437e-9421-7311b4727ce7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6 TEL  @LIGHTNING6 TEL  @LIGHTNING6 TEL  @LIGHTNING6 JOIN @LIGHTNING6 TEL  @LIGHTNING6 JOIN @LIGHTNING6 TEL  @LIGHTNING6 TEL  @LIGHTNING6 JOIN @LIGHTNING6 TEL  @LIGHTNING6 @LiV2ray",
+                "headers": {
+                    "Host": "103.184.44.104"
                 }
             }
         },

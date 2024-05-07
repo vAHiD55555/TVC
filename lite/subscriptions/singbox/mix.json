@@ -133,7 +133,6 @@
                 "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -150,7 +149,7 @@
                 "🇩🇪DE | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇮🇷IR | vless | @DailyV2RY | 178",
+                "🇨🇦CA | vless | @DailyV2RY | 172",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
@@ -214,7 +213,6 @@
                 "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -231,7 +229,7 @@
                 "🇩🇪DE | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇮🇷IR | vless | @DailyV2RY | 178",
+                "🇨🇦CA | vless | @DailyV2RY | 172",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
@@ -380,7 +378,7 @@
         {
             "tag": "🇺🇸US | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "52.72.240.230",
+            "server": "34.206.191.225",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -916,40 +914,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
-            "type": "vmess",
-            "server": "66.241.124.229",
-            "server_port": 443,
-            "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cold-dawn-9246.fly.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
-                "headers": {
-                    "Host": "cold-dawn-9246.fly.dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "104.26.6.65",
@@ -1321,29 +1285,53 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "185.146.173.94",
-            "server_port": 8880,
-            "uuid": "ef099365-5eb3-4af4-9d3b-9b95bc77cb37",
+            "server": "185.146.173.37",
+            "server_port": 2052,
+            "uuid": "ad903091-56f9-47fe-b1ee-895b5b1743a3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "185.146.173.37"
+                }
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @DailyV2RY | 178",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 172",
             "type": "vless",
-            "server": "31.14.122.73",
-            "server_port": 18312,
-            "uuid": "6b1d5ec7-71ed-4523-98b7-4562972937e3",
+            "server": "w3.org",
+            "server_port": 443,
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bIA-paIn-bacHE.PAGeS.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@SiNABiGO\/",
+                "headers": {
+                    "Host": "bIA-paIn-bacHE.PAGeS.DEv"
+                }
             }
         },
         {

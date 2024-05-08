@@ -152,14 +152,14 @@
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇫🇷FR | ss | @VmessProtocol | 13",
+                "🇫🇷FR | ss | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 173",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 13",
@@ -167,7 +167,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇺🇸US | vless | @Capoit | 16",
+                "🇨🇦CA | vless | @Capoit | 16",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -235,14 +235,14 @@
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇫🇷FR | ss | @VmessProtocol | 13",
+                "🇫🇷FR | ss | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 173",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 13",
@@ -250,7 +250,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇺🇸US | vless | @Capoit | 16",
+                "🇨🇦CA | vless | @Capoit | 16",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -1467,19 +1467,26 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.94",
-            "server_port": 8880,
-            "uuid": "27e65bcd-f3d9-4b39-a091-c477cff929b5",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "4ce1ad62-f04d-4dc9-a2fd-8f01afeb8484",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
             }
         },
         {
-            "tag": "🇫🇷FR | ss | @VmessProtocol | 13",
+            "tag": "🇫🇷FR | ss | @VmessProtocol | 14",
             "type": "shadowsocks",
             "server": "149.202.82.172",
             "server_port": 3389,
@@ -1637,9 +1644,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 13",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "104.19.43.107",
+            "server": "104.19.43.26",
             "server_port": 80,
             "uuid": "c0453a16-67e9-4eab-bdc9-b9624ad6bd29",
             "security": "auto",
@@ -1656,7 +1663,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.19.43.107"
+                    "Host": "104.19.43.26"
                 }
             }
         },
@@ -1832,7 +1839,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 16",
+            "tag": "🇨🇦CA | vless | @Capoit | 16",
             "type": "vless",
             "server": "www.visa.com.sg",
             "server_port": 8443,

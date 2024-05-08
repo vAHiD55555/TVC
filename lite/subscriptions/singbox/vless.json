@@ -157,7 +157,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 16",
+                "🇨🇦CA | vless | @Capoit | 16",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -228,7 +228,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 16",
+                "🇨🇦CA | vless | @Capoit | 16",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -1324,15 +1324,22 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.94",
-            "server_port": 8880,
-            "uuid": "27e%365bc%64-f3%649-4%6239-%61091%2dc47%37cff%3929b%35",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "4ce%31ad6%32-f0%34d-4%64c9-%612fd%2d8f0%31afe%62848%34",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
             }
         },
         {
@@ -1594,7 +1601,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 16",
+            "tag": "🇨🇦CA | vless | @Capoit | 16",
             "type": "vless",
             "server": "www.visa.com.sg",
             "server_port": 8443,

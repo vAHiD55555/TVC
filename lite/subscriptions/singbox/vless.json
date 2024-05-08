@@ -111,6 +111,7 @@
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 7",
                 "🇫🇷FR | vless | @VlessConfig | 18",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 18",
                 "🏳️XX | vless | @melov2ray | 12",
                 "🇸🇪SE | vless | @V2pedia | 53",
@@ -124,10 +125,10 @@
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 18",
-                "🇳🇱NL | vless | @proxy_kafee | 0",
+                "🇳🇱NL | vless | @proxy_kafee | 2",
                 "🇺🇸US | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 2",
+                "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 29",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇨🇦CA | vless | @prrofile_purple | 192",
@@ -181,6 +182,7 @@
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 7",
                 "🇫🇷FR | vless | @VlessConfig | 18",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 18",
                 "🏳️XX | vless | @melov2ray | 12",
                 "🇸🇪SE | vless | @V2pedia | 53",
@@ -194,10 +196,10 @@
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 18",
-                "🇳🇱NL | vless | @proxy_kafee | 0",
+                "🇳🇱NL | vless | @proxy_kafee | 2",
                 "🇺🇸US | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 2",
+                "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 29",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇨🇦CA | vless | @prrofile_purple | 192",
@@ -383,6 +385,27 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
+            "type": "vless",
+            "server": "Channel-VPNCUSTOMIZE.V2ray.motorcycles",
+            "server_port": 2095,
+            "uuid": "VPNCUSTOMiZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2rayCUSTOMIZE?ed=1024",
+                "headers": {
+                    "Host": "Channel-VPNCUSTOMIZE.V2ray.motorcycles"
                 }
             }
         },
@@ -728,7 +751,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @proxy_kafee | 0",
+            "tag": "🇳🇱NL | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "188.114.97.141",
             "server_port": 443,
@@ -801,11 +824,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 2",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 3",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "www.Speedtest.Net",
             "server_port": 2095,
-            "uuid": "45999bd7-f243-4d86-adbc-e79240af8e6f",
+            "uuid": "DIGIV2RAY-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -815,18 +838,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/VMESSKHODAM-VMESSKHODAM-VMESSKHODAM-VMESSKHODAM-VMESSKHODAM\/VMESSKHODAM?ed=1024",
+                "path": "\/DIGIV2RAY-digiv2ray",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
         {
             "tag": "🇸🇪SE | vless | @V2rayNGn | 29",
             "type": "vless",
-            "server": "join-VPNCUSTOMIZE.V2ray.motorcycles.",
+            "server": "CUSTOMIZEV2ray.V2ray.motorcycles",
             "server_port": 2095,
-            "uuid": "Join--VPNCUSTOMIZE",
+            "uuid": "TMCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -836,9 +859,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/VPNCUSTOMIZE?ed=1024",
+                "path": "\/V2rayCUSTOMIZE?ed=1024",
                 "headers": {
-                    "Host": "join-VPNCUSTOMIZE.V2ray.motorcycles."
+                    "Host": "CUSTOMIZEV2ray.V2ray.motorcycles"
                 }
             }
         },

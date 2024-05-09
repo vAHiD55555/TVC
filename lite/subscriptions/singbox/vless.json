@@ -110,7 +110,8 @@
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 5",
                 "🇫🇷FR | vless | @VlessConfig | 19",
-                "🇨🇦CA | vless | @ipV2Ray | 16",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
+                "🇨🇦CA | vless | @ipV2Ray | 15",
                 "🏳️XX | vless | @melov2ray | 13",
                 "🇸🇪SE | vless | @V2pedia | 53",
                 "🇸🇪SE | vless | @frev2ray | 8",
@@ -120,7 +121,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇸🇪SE | vless | @lightning6 | 16",
                 "🇩🇪DE | vless | @V2rayNGmat | 6",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 17",
                 "🇳🇱NL | vless | @proxy_kafee | 1",
@@ -143,10 +144,10 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 126",
-                "🇨🇦CA | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @free1_vpn | 0",
@@ -181,7 +182,8 @@
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 5",
                 "🇫🇷FR | vless | @VlessConfig | 19",
-                "🇨🇦CA | vless | @ipV2Ray | 16",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
+                "🇨🇦CA | vless | @ipV2Ray | 15",
                 "🏳️XX | vless | @melov2ray | 13",
                 "🇸🇪SE | vless | @V2pedia | 53",
                 "🇸🇪SE | vless | @frev2ray | 8",
@@ -191,7 +193,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇸🇪SE | vless | @lightning6 | 16",
                 "🇩🇪DE | vless | @V2rayNGmat | 6",
-                "🇨🇦CA | vless | @vpn_xw | 0",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 17",
                 "🇳🇱NL | vless | @proxy_kafee | 1",
@@ -214,10 +216,10 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 126",
-                "🇨🇦CA | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇸🇪SE | vless | @free1_vpn | 0",
@@ -366,7 +368,28 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ipV2Ray | 16",
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
+            "type": "vless",
+            "server": "Channel-VPNCUSTOMIZE.V2ray.motorcycles",
+            "server_port": 2095,
+            "uuid": "VPNCUSTOMiZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2rayCUSTOMIZE?ed=1024",
+                "headers": {
+                    "Host": "Channel-VPNCUSTOMIZE.V2ray.motorcycles"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ipV2Ray | 15",
             "type": "vless",
             "server": "172.66.213.5",
             "server_port": 80,
@@ -624,7 +647,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_xw | 0",
+            "tag": "🇺🇸US | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -1247,24 +1270,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.18.203.232",
-            "server_port": 2095,
-            "uuid": "---%44IGI%562RA%59--",
+            "server": "185.146.173.94",
+            "server_port": 8880,
+            "uuid": "40e%633ce%38-d7%361-4%3222-%619c0%2d3b0%31e59%36e04%64",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/DIGIV2RAY-digiv2ray",
-                "headers": {
-                    "Host": "104.18.203.232"
-                }
             }
         },
         {
@@ -1310,7 +1326,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 5",
+            "tag": "🇨🇦CA | vless | @sinabigo | 6",
             "type": "vless",
             "server": "172.66.47.161",
             "server_port": 443,
@@ -1642,9 +1658,9 @@
         {
             "tag": "🇸🇪SE | vless | @flyv2ray | 16",
             "type": "vless",
-            "server": "185.146.173.32",
-            "server_port": 2095,
-            "uuid": "--DIGIV2RAY--",
+            "server": "185.146.173.59",
+            "server_port": 8080,
+            "uuid": "9c400ffa-feab-4a80-9d80-58caccc53028",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1654,9 +1670,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY-digiv2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.32"
+                    "Host": "185.146.173.59"
                 }
             }
         },

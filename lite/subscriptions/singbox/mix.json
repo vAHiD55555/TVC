@@ -159,7 +159,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇨🇳CN | vmess | @Hope_Net | 18",
+                "🇯🇵JP | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇸🇪SE | vless | @polproxy | 13",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 7",
@@ -244,7 +244,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇨🇳CN | vmess | @Hope_Net | 18",
+                "🇯🇵JP | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇸🇪SE | vless | @polproxy | 13",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 7",
@@ -1008,7 +1008,7 @@
             "type": "vless",
             "server": "104.17.250.237",
             "server_port": 80,
-            "uuid": "cb65e3ab-dd3a-41ea-b22a-8b4c016e8df2",
+            "uuid": "c26c925c-e489-4836-9efd-a5a6056d8e1e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1564,11 +1564,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 18",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "183.232.142.179",
-            "server_port": 61002,
-            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
+            "server": "183.181.36.194",
+            "server_port": 41597,
+            "uuid": "4a6eaa2d-5603-4c05-d967-fb6f42250a5a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1578,6 +1578,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {

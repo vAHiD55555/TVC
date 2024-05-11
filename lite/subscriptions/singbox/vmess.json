@@ -111,7 +111,7 @@
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 17",
+                "🇨🇦CA | vmess | @Hope_Net | 17",
                 "🇵🇱PL | vmess | @v2Line | 8",
                 "🇩🇪DE | vmess | @kingofilter | 2",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -126,7 +126,7 @@
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 17",
+                "🇨🇦CA | vmess | @Hope_Net | 17",
                 "🇵🇱PL | vmess | @v2Line | 8",
                 "🇩🇪DE | vmess | @kingofilter | 2",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -278,11 +278,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 17",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "3.71.200.107",
-            "server_port": 51274,
-            "uuid": "4ebbd93b-0fa4-43e7-9f42-8ca205ca7c11",
+            "server": "104.19.45.235",
+            "server_port": 2095,
+            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -292,6 +292,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.19.45.235"
+                }
             }
         },
         {

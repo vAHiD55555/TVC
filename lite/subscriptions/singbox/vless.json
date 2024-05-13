@@ -156,7 +156,7 @@
                 "🏳️XX | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 7",
                 "🏳️XX | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -224,7 +224,7 @@
                 "🏳️XX | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 7",
                 "🏳️XX | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -452,7 +452,7 @@
         {
             "tag": "🇸🇪SE | vless | @ARv2ray | 21",
             "type": "vless",
-            "server": "185.146.173.237",
+            "server": "185.146.173.58",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
@@ -464,9 +464,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2056",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1439,11 +1439,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 16",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 2095,
-            "uuid": "203eb7c4-6d3b-4a93-97d7-80e258bece3d",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "78dd3bc3-e435-44fc-926d-bf0c8c0ebdb7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1451,11 +1451,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ellisweissellisweissellisweissellisweissellisweisselliswei.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "188.114.98.224"
+                    "Host": "ellisweissellisweissellisweissellisweissellisweisselliswei.pages.dev"
                 }
             }
         },

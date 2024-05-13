@@ -160,7 +160,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇬🇧GB | vmess | @Hope_Net | 15",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇸🇪SE | vless | @polproxy | 15",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -181,7 +181,7 @@
                 "🇨🇦CA | vless | @SvnTeam | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 0",
@@ -246,7 +246,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇬🇧GB | vmess | @Hope_Net | 15",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇸🇪SE | vless | @polproxy | 15",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -267,7 +267,7 @@
                 "🇨🇦CA | vless | @SvnTeam | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 0",
@@ -1578,11 +1578,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @Hope_Net | 15",
+            "tag": "🏳️XX | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "uk2-full.privateip.net",
-            "server_port": 443,
-            "uuid": "36112366-6c82-43ce-92b0-1a442a1a7156",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "cbaabac-cbaa-cbaa-abdc-ccabbacabcab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1592,23 +1592,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "uk2-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "uk2-full.privateip.net"
-                }
             }
         },
         {
@@ -2112,7 +2095,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,

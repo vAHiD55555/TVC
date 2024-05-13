@@ -124,7 +124,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 0",
+                "🇮🇷IR | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
@@ -160,7 +160,7 @@
                 "🏳️XX | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 16",
+                "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇸🇪SE | vless | @polproxy | 15",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇳🇱NL | vless | @v2rayng_vpnrog | 6",
@@ -183,7 +183,7 @@
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 22"
             ]
         },
@@ -209,7 +209,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 0",
+                "🇮🇷IR | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
@@ -245,7 +245,7 @@
                 "🏳️XX | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 16",
+                "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇸🇪SE | vless | @polproxy | 15",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇳🇱NL | vless | @v2rayng_vpnrog | 6",
@@ -268,7 +268,7 @@
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 22"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -701,24 +701,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 0",
+            "tag": "🇮🇷IR | vless | @proxy_kafee | 1",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "e40d8272-abb6-451c-eddd-4f69cf3cec0e",
+            "server": "tnl5.radmehrmax.ir",
+            "server_port": 8097,
+            "uuid": "3cef3166-9c92-440b-9383-a220e68a930a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2ray",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
             }
         },
         {
@@ -1585,7 +1578,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 16",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
             "server": "198.2.218.102",
             "server_port": 41400,
@@ -2170,7 +2163,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
             "type": "vless",
             "server": "104.21.40.63",
             "server_port": 443,

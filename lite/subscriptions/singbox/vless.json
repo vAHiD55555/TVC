@@ -124,7 +124,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 0",
+                "🇮🇷IR | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
@@ -169,7 +169,7 @@
                 "🇸🇪SE | vless | @IBv2ray | 4",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 22"
             ]
         },
@@ -195,7 +195,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 0",
+                "🇮🇷IR | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
@@ -240,7 +240,7 @@
                 "🇸🇪SE | vless | @IBv2ray | 4",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 22"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -673,24 +673,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 0",
+            "tag": "🇮🇷IR | vless | @proxy_kafee | 1",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "e40d8272-abb6-451c-eddd-4f69cf3cec0e",
+            "server": "tnl5.radmehrmax.ir",
+            "server_port": 8097,
+            "uuid": "3cef3166-9c92-440b-9383-a220e68a930a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2ray",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
             }
         },
         {
@@ -1828,7 +1821,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
             "type": "vless",
             "server": "104.21.40.63",
             "server_port": 443,

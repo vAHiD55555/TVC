@@ -134,26 +134,26 @@
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇷FR | trojan | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 185",
                 "🇮🇷IR | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 6",
-                "🇮🇷IR | vless | @v2rayngvpn | 14",
+                "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
                 "🇸🇪SE | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 23",
-                "🇮🇷IR | vless | @proxyymeliii | 29",
+                "🇮🇷IR | vmess | @proxyymeliii | 27",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇮🇷IR | vless | @DailyV2RY | 148",
+                "🇸🇪SE | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 8",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 18",
@@ -220,26 +220,26 @@
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇷FR | trojan | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 185",
                 "🇮🇷IR | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 6",
-                "🇮🇷IR | vless | @v2rayngvpn | 14",
+                "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
                 "🇸🇪SE | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 23",
-                "🇮🇷IR | vless | @proxyymeliii | 29",
+                "🇮🇷IR | vmess | @proxyymeliii | 27",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇮🇷IR | vless | @DailyV2RY | 148",
+                "🇸🇪SE | vless | @DailyV2RY | 147",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 8",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 18",
@@ -815,7 +815,7 @@
             "type": "vless",
             "server": "CUSTOMIZEV2ray.V2ray.motorcycles",
             "server_port": 2095,
-            "uuid": "TMCUSTOMIZE",
+            "uuid": "VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -910,11 +910,16 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @oneclickvpnkeys | 6",
-            "type": "trojan",
-            "server": "45.76.47.77",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+            "type": "vmess",
+            "server": "104.26.6.65",
             "server_port": 443,
-            "password": "wkmY1R4EcP",
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -922,12 +927,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "z-v2-003349.kailib.com",
+                "server_name": "mikasa.yaemiko.cloudns.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
@@ -1050,11 +1062,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2rayngvpn | 14",
+            "tag": "🇮🇷IR | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "185.58.240.176",
-            "server_port": 14914,
-            "uuid": "4045e75a-165c-4a3d-b684-a0b521bbcb20",
+            "server": "95.38.102.7",
+            "server_port": 4001,
+            "uuid": "2b18f835-0920-4619-9a36-b709382b08be",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1233,13 +1245,16 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 29",
-            "type": "vless",
-            "server": "vip3.needvip-s.com",
-            "server_port": 36148,
-            "uuid": "ff857f21-6fdf-4044-b192-96c3b02d3773",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇷IR | vmess | @proxyymeliii | 27",
+            "type": "vmess",
+            "server": "svt203.topnetvip.com",
+            "server_port": 1194,
+            "uuid": "3450510b-6398-47a9-b003-2ad917bdaa43",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1249,7 +1264,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "vip3.needvip-s.com"
+                    "Host": ""
                 }
             }
         },
@@ -1399,17 +1414,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @DailyV2RY | 148",
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 147",
             "type": "vless",
-            "server": "84.47.234.106",
-            "server_port": 13446,
-            "uuid": "e240547f-5a80-4cee-a318-779c320a1d8e",
+            "server": "185.146.173.185",
+            "server_port": 2095,
+            "uuid": "0c0267fc-6bd7-4e32-bb36-bad954efeb12",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.185"
+                }
             }
         },
         {

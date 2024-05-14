@@ -115,13 +115,14 @@
                 "🇮🇷IR | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @ARv2ray | 21",
                 "🇸🇪SE | vless | @shh_proxy | 29",
-                "🇨🇦CA | vless | @Lockey_vpn | 14",
+                "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | vless | @lightning6 | 18",
                 "🇩🇪DE | vless | @V2rayNGmat | 6",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
+                "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
@@ -180,13 +181,14 @@
                 "🇮🇷IR | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @ARv2ray | 21",
                 "🇸🇪SE | vless | @shh_proxy | 29",
-                "🇨🇦CA | vless | @Lockey_vpn | 14",
+                "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | vless | @lightning6 | 18",
                 "🇩🇪DE | vless | @V2rayNGmat | 6",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
+                "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
@@ -444,11 +446,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 14",
+            "tag": "🇨🇦CA | vless | @Lockey_vpn | 17",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 80,
-            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "server": "104.31.16.65",
+            "server_port": 443,
+            "uuid": "5d8569a9-a8cb-4c5e-9ea9-cc40de873a35",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -456,11 +458,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "filTer-1tg.pAges.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/xmrdark",
+                "path": "\/?ed=2047",
                 "headers": {
-                    "Host": "104.18.202.232"
+                    "Host": "filTer-1tg.pAges.DeV"
                 }
             }
         },
@@ -598,6 +610,27 @@
                 "path": "\/DIGIV2RAY-digiv2ray",
                 "headers": {
                     "Host": "185.146.173.32"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "e40d8272-abb6-451c-eddd-4f69cf3cec0e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2ray",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },

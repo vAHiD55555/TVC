@@ -124,7 +124,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇸🇪SE | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇸🇪SE | trojan | @PrivateVPNs | 18",
@@ -149,7 +149,6 @@
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇨🇷CR | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 9",
@@ -167,8 +166,8 @@
                 "🇺🇸US | vmess | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
-                "🏳️XX | vless | @kiava | 4",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🏳️XX | vless | @kiava | 5",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vmess | @kingofilter | 3",
@@ -205,7 +204,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇸🇪SE | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇸🇪SE | trojan | @PrivateVPNs | 18",
@@ -230,7 +229,6 @@
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇨🇷CR | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 9",
@@ -248,8 +246,8 @@
                 "🇺🇸US | vmess | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
-                "🏳️XX | vless | @kiava | 4",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🏳️XX | vless | @kiava | 5",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vmess | @kingofilter | 3",
@@ -686,7 +684,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1299,37 +1297,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 17",
-            "type": "vless",
-            "server": "nitriding.appreviewcenter.com",
-            "server_port": 443,
-            "uuid": "f5a78514-1a94-486e-92a7-3bc9817095a6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nitriding.appreviewcenter.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/nimws",
-                "headers": {
-                    "Host": "nitriding.appreviewcenter.com"
-                }
-            }
-        },
-        {
             "tag": "🇨🇷CR | vless | @DailyV2RY | 142",
             "type": "vless",
             "server": "Www.dns1.lol",
@@ -1725,7 +1692,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @kiava | 4",
+            "tag": "🏳️XX | vless | @kiava | 5",
             "type": "vless",
             "server": "cloud.cdn-kiava-internet.cquality.ir",
             "server_port": 443,
@@ -1756,7 +1723,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "172.67.74.4",
             "server_port": 443,

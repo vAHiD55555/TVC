@@ -124,7 +124,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇮🇷IR | vless | @Outline_Vpn | 16",
@@ -156,10 +156,8 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 12",
                 "🇨🇦CA | vless | @FreakConfig | 1",
-                "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 6",
-                "🇸🇪SE | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 1",
                 "🇨🇷CR | vless | @GozargahVPN | 16",
@@ -194,7 +192,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇮🇷IR | vless | @Outline_Vpn | 16",
@@ -226,10 +224,8 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 12",
                 "🇨🇦CA | vless | @FreakConfig | 1",
-                "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 6",
-                "🇸🇪SE | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 1",
                 "🇨🇷CR | vless | @GozargahVPN | 16",
@@ -479,7 +475,7 @@
             "type": "vless",
             "server": "185.146.173.185",
             "server_port": 2095,
-            "uuid": "ad657e39-5f41-4f9b-9f12-815936d5c19b",
+            "uuid": "92ff0884-98e1-42e8-9f83-5b82471003de",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -647,7 +643,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1450,27 +1446,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 18",
-            "type": "vless",
-            "server": "185.146.173.185",
-            "server_port": 2095,
-            "uuid": "92ff0884-98e1-42e8-9f83-5b82471003de",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.185"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "185.146.173.237",
@@ -1519,27 +1494,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "cloud.cdn-kiava-internet.cquality.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @proxy_mtm | 2",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "%50a%72sa%73%68%6fna%6d-72",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?Telegram:@proxy_mtm",
-                "headers": {
-                    "Host": "185.146.173.58"
                 }
             }
         },

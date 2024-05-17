@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 3",
                 "🇨🇦CA | vless | @proxystore11 | 9",
-                "🇸🇪SE | vless | @polproxy | 16",
+                "🇸🇪SE | vless | @polproxy | 15",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
@@ -161,7 +161,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 6",
-                "🇺🇸US | vless | @proxy_mtm | 12",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇷CR | vless | @GozargahVPN | 16",
                 "🇨🇦CA | vless | @SvnTeam | 3",
@@ -223,7 +222,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 3",
                 "🇨🇦CA | vless | @proxystore11 | 9",
-                "🇸🇪SE | vless | @polproxy | 16",
+                "🇸🇪SE | vless | @polproxy | 15",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
@@ -232,7 +231,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 6",
-                "🇺🇸US | vless | @proxy_mtm | 12",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇷CR | vless | @GozargahVPN | 16",
                 "🇨🇦CA | vless | @SvnTeam | 3",
@@ -353,7 +351,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "35.177.22.117",
+            "server": "18.135.135.194",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1406,11 +1404,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @polproxy | 16",
+            "tag": "🇸🇪SE | vless | @polproxy | 15",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
-            "uuid": "bc7c8a9f-3f9a-4a34-9b50-09d7fd1c6172",
+            "uuid": "71fd3863-a912-4d79-9ef6-0527e7adaad4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1659,27 +1657,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "cloud.cdn-kiava-internet.cquality.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @proxy_mtm | 12",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "Telegram-proxy-mtm",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-Proxy-MTM",
-                "headers": {
-                    "Host": "zula.ir"
                 }
             }
         },

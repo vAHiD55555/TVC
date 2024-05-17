@@ -111,8 +111,9 @@
                 "🇨🇦CA | vless | @v2_team | 1",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 9",
+                "🇨🇦CA | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 49",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇸🇪SE | vless | @ARv2ray | 21",
@@ -151,7 +152,7 @@
                 "🏳️XX | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 16",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 13",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -180,8 +181,9 @@
                 "🇨🇦CA | vless | @v2_team | 1",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 9",
+                "🇨🇦CA | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 49",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇸🇪SE | vless | @ARv2ray | 21",
@@ -220,7 +222,7 @@
                 "🏳️XX | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 16",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 13",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -349,7 +351,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "13.43.56.113",
+            "server": "35.176.115.120",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -378,6 +380,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
+            "type": "vless",
+            "server": "Channel-VPNCUSTOMIZE.V2ray.motorcycles",
+            "server_port": 2095,
+            "uuid": "a8ebef5e-a4d5-4b67-8853-091a97857780",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2rayCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE?ed=1024",
+                "headers": {
+                    "Host": "Channel-VPNCUSTOMIZE.V2ray.motorcycles"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "185.146.173.58",
@@ -399,7 +422,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 9",
+            "tag": "🇨🇦CA | vless | @melov2ray | 9",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1325,11 +1348,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 13",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 10",
             "type": "vless",
-            "server": "185.146.173.77",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "198.41.198.76",
+            "server_port": 443,
+            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1337,11 +1360,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "jd.wxgqlfx.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/SiNABiGO-SiNABiGO",
                 "headers": {
-                    "Host": "185.146.173.77"
+                    "Host": "jd.wxgqlfx.top"
                 }
             }
         },

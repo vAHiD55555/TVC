@@ -111,7 +111,7 @@
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇸🇪SE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
-                "🇸🇪SE | vless | @ipV2Ray | 14",
+                "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇺🇸US | vless | @V2pedia | 38",
                 "🇨🇦CA | vless | @frev2ray | 1",
@@ -119,10 +119,10 @@
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @rxv2ray | 16",
-                "🇸🇪SE | vless | @free_v2rayyy | 3",
+                "🇸🇪SE | vless | @free_v2rayyy | 2",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 0",
+                "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
@@ -189,7 +189,7 @@
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇸🇪SE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
-                "🇸🇪SE | vless | @ipV2Ray | 14",
+                "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇺🇸US | vless | @V2pedia | 38",
                 "🇨🇦CA | vless | @frev2ray | 1",
@@ -197,10 +197,10 @@
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @rxv2ray | 16",
-                "🇸🇪SE | vless | @free_v2rayyy | 3",
+                "🇸🇪SE | vless | @free_v2rayyy | 2",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 0",
+                "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
@@ -386,11 +386,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ipV2Ray | 14",
+            "tag": "🇸🇪SE | vless | @ipV2Ray | 13",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-cew",
+            "uuid": "Telegram-ipV2Ray-teo",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -564,7 +564,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @free_v2rayyy | 3",
+            "tag": "🇸🇪SE | vless | @free_v2rayyy | 2",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
@@ -627,11 +627,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 0",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 1",
             "type": "vless",
-            "server": "172.67.217.107",
-            "server_port": 80,
-            "uuid": "7143e704-5957-42db-bd38-670062722461",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "8b7efacf-8e83-4e51-ab55-1263baccd4b2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -639,11 +639,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "7f905f51.garywelch.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "172.67.217.107"
+                    "Host": "7f905f51.garywelch.pages.dev"
                 }
             }
         },

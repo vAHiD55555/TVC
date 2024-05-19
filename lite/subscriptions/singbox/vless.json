@@ -123,10 +123,11 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
+                "🇮🇷IR | vless | @prrofile_purple | 187",
                 "🇸🇪SE | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🏳️XX | vless | @vmessorg | 11",
@@ -135,6 +136,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
+                "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
@@ -185,10 +187,11 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
+                "🇮🇷IR | vless | @prrofile_purple | 187",
                 "🇸🇪SE | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🏳️XX | vless | @vmessorg | 11",
@@ -197,6 +200,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
+                "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
@@ -636,7 +640,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -727,6 +731,20 @@
                 "headers": {
                     "Host": "turkmenistan.armanibash.Shop."
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @prrofile_purple | 187",
+            "type": "vless",
+            "server": "jomo.arnoldonline.shop",
+            "server_port": 23760,
+            "uuid": "8f59a7fb-f2ea-40ee-a280-6233533e7c91",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -927,6 +945,37 @@
                 "path": "\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/",
                 "headers": {
                     "Host": "963C1F6A-8485-443a-a386-4E6D34A64dc8.MRvi.ONline"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 18",
+            "type": "vless",
+            "server": "172.64.146.118",
+            "server_port": 8443,
+            "uuid": "ecc19b72-2cc8-4690-b23d-960d3e3c6d40",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazeshvpn-tg24.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pardazeshvpn-tg24.pages.dev"
                 }
             }
         },

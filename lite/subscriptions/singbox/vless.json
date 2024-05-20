@@ -1215,9 +1215,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "-DIGIV2RAY--",
+            "server": "www.visa.com.sg",
+            "server_port": 8443,
+            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1225,11 +1225,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazesh-tgws.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY-digiv2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "pardazesh-tgws.pages.dev"
                 }
             }
         },

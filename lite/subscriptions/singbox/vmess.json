@@ -110,8 +110,8 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇭🇰HK | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -127,8 +127,8 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇭🇰HK | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -241,7 +241,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -275,11 +275,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 8",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "us-ny-rn.licom.ga",
-            "server_port": 62008,
-            "uuid": "f81e990e-1283-48f9-9eff-acacad6fb661",
+            "server": "z-cn2.mceee.xyz",
+            "server_port": 24935,
+            "uuid": "bca2b267-61ac-3152-9525-ea1757f8d9f2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -290,21 +290,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "us-ny-rn.licom.ga",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/download",
                 "headers": {
-                    "Host": "us-ny-rn.licom.ga"
+                    "Host": "z-cn2.mceee.xyz"
                 }
             }
         },

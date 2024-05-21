@@ -110,7 +110,6 @@
                 "🇸🇪SE | vless | @Parsashonam | 19",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇫🇷FR | vless | @VlessConfig | 18",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
                 "🇸🇪SE | vless | @ipV2Ray | 14",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇸🇪SE | vless | @V2pedia | 21",
@@ -126,7 +125,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
+                "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
@@ -176,7 +175,6 @@
                 "🇸🇪SE | vless | @Parsashonam | 19",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇫🇷FR | vless | @VlessConfig | 18",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
                 "🇸🇪SE | vless | @ipV2Ray | 14",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇸🇪SE | vless | @V2pedia | 21",
@@ -192,7 +190,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
+                "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
@@ -337,27 +335,6 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
-            "type": "vless",
-            "server": "Channel-VPNCUSTOMIZE.V2ray.motorcycles",
-            "server_port": 2095,
-            "uuid": "d7042aab-af08-4ad4-8498-6ebfa45030cc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2rayCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE?ed=1024",
-                "headers": {
-                    "Host": "Channel-VPNCUSTOMIZE.V2ray.motorcycles"
                 }
             }
         },
@@ -687,7 +664,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
+            "tag": "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -774,7 +751,7 @@
             "type": "vless",
             "server": "Channel-VPNCUSTOMIZE.V2ray.motorcycles",
             "server_port": 2095,
-            "uuid": "Join-VPNCUSTOMIZE",
+            "uuid": "-VPNCUSTOMIZE-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1341,9 +1318,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 8080,
-            "uuid": "09d91bde-2292-462c-ba15-14f3b1b46bf8",
+            "server": "198.41.198.76",
+            "server_port": 443,
+            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1351,11 +1328,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "jd.wxgqlfx.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/",
                 "headers": {
-                    "Host": "188.114.98.224"
+                    "Host": "jd.wxgqlfx.top"
                 }
             }
         },

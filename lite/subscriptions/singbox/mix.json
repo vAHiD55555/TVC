@@ -165,7 +165,6 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 11",
-                "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 16",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
@@ -244,7 +243,6 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 11",
-                "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 16",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
@@ -1692,27 +1690,6 @@
                 "path": "\/telegram-proxy_mtm-telegram-proxy_mtm-telegram-proxy_mtm?ed=2560",
                 "headers": {
                     "Host": "ariAmEhr-447.PaGes.dEV"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 3",
-            "type": "vless",
-            "server": "104.26.6.95",
-            "server_port": 80,
-            "uuid": "1f98b5cc-140f-46b4-987f-6936da9f2238",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.26.6.95"
                 }
             }
         },

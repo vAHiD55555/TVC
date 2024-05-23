@@ -1185,9 +1185,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "104.16.54.14",
-            "server_port": 443,
-            "uuid": "3cdbc462-6272-4c2a-9a2d-1525a81c7dfa",
+            "server": "104.26.7.95",
+            "server_port": 80,
+            "uuid": "1f98b5cc-140f-46b4-987f-6936da9f2238",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1195,21 +1195,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "xeeqi.kevani8800.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "xeeqi.kevani8800.workers.dev"
+                    "Host": "104.26.7.95"
                 }
             }
         },

@@ -124,15 +124,14 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 29",
                 "🇸🇪SE | vless | @Outline_Vpn | 17",
-                "🇸🇪SE | vless | @prrofile_purple | 192",
+                "🇸🇪SE | vless | @prrofile_purple | 191",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 7",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 15",
                 "🇸🇪SE | vless | @v2rayngvpn | 0",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇸🇪SE | vless | @ServerNett | 12",
@@ -152,7 +151,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇸🇪SE | vless | @mehrosaboran | 4",
+                "🇨🇳CN | vless | @mehrosaboran | 3",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vless | @proxy_mtm | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -186,15 +185,14 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 29",
                 "🇸🇪SE | vless | @Outline_Vpn | 17",
-                "🇸🇪SE | vless | @prrofile_purple | 192",
+                "🇸🇪SE | vless | @prrofile_purple | 191",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 7",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 15",
                 "🇸🇪SE | vless | @v2rayngvpn | 0",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇸🇪SE | vless | @ServerNett | 12",
@@ -214,7 +212,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇸🇪SE | vless | @mehrosaboran | 4",
+                "🇨🇳CN | vless | @mehrosaboran | 3",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vless | @proxy_mtm | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -637,7 +635,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -721,11 +719,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @prrofile_purple | 192",
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 191",
             "type": "vless",
-            "server": "all.abadil.shop",
-            "server_port": 80,
-            "uuid": "e3e8fff0-eb2f-4244-8318-1e503ed42dbe",
+            "server": "v2raxx.amalfatm.ir",
+            "server_port": 8080,
+            "uuid": "-V2RAXX-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -735,9 +733,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@V2RAXX-@V2RAXX",
                 "headers": {
-                    "Host": "all.abadil.shop"
+                    "Host": "v2raxx.amalfatm.ir"
                 }
             }
         },
@@ -801,37 +799,6 @@
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg",
                 "headers": {
                     "Host": "104.18.14.118"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 15",
-            "type": "vless",
-            "server": "104.18.41.138",
-            "server_port": 8443,
-            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazesh-tgws.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "pardazesh-tgws.pages.dev"
                 }
             }
         },
@@ -1303,11 +1270,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 4",
+            "tag": "🇨🇳CN | vless | @mehrosaboran | 3",
             "type": "vless",
-            "server": "185.146.173.146",
-            "server_port": 8080,
-            "uuid": "telegram-VPNCUSTOMIZE",
+            "server": "103.184.44.104",
+            "server_port": 8880,
+            "uuid": "621e85b1-6e1d-4c8d-b80a-e306d5301a5a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1317,9 +1284,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.146"
+                    "Host": "103.184.44.104"
                 }
             }
         },

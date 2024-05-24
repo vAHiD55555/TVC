@@ -111,7 +111,6 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @vless_vmess | 6",
-                "🇺🇸US | vmess | @DailyV2RY | 133",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
@@ -129,7 +128,6 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @vless_vmess | 6",
-                "🇺🇸US | vmess | @DailyV2RY | 133",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
@@ -264,30 +262,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 133",
-            "type": "vmess",
-            "server": "jp01.appleid.bf",
-            "server_port": 2086,
-            "uuid": "f27f9fa4-31c0-4fcc-9886-d73324e90e90",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {

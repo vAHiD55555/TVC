@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
-                "🇨🇦CA | vless | @v2ray1_ng | 9",
+                "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇺🇸US | vmess | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 133",
@@ -156,12 +156,12 @@
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇨🇷CR | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 8",
-                "🇨🇦CA | vless | @Capoit | 13",
+                "🇨🇦CA | vless | @Capoit | 14",
                 "🇸🇪SE | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 14",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
@@ -219,7 +219,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
-                "🇨🇦CA | vless | @v2ray1_ng | 9",
+                "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇺🇸US | vmess | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 133",
@@ -231,12 +231,12 @@
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇨🇷CR | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 8",
-                "🇨🇦CA | vless | @Capoit | 13",
+                "🇨🇦CA | vless | @Capoit | 14",
                 "🇸🇪SE | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 14",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
@@ -1160,7 +1160,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 9",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 10",
             "type": "vless",
             "server": "v2ray1ng.pages.dev",
             "server_port": 443,
@@ -1211,8 +1211,8 @@
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "185.146.173.94",
-            "server_port": 80,
-            "uuid": "0b7d6c1a-cf67-4f8c-aa1a-cbfd4415a50e",
+            "server_port": 8880,
+            "uuid": "8c094151-a114-4ada-ab39-d704c4850981",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1222,7 +1222,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
                 "headers": {
                     "Host": "185.146.173.94"
                 }
@@ -1433,17 +1433,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @Outlinev2rayNG | 14",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "185.46.0.192",
-            "server_port": 2083,
-            "uuid": "8bd661ae-f7c1-4f05-93c3-7a6edb0b2dc6",
+            "server": "198.41.198.76",
+            "server_port": 443,
+            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jd.wxgqlfx.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "jd.wxgqlfx.top"
+                }
             }
         },
         {
@@ -1575,7 +1592,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 13",
+            "tag": "🇨🇦CA | vless | @Capoit | 14",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,

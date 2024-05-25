@@ -133,7 +133,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇮🇷IR | vless | @prrofile_purple | 191",
+                "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 5",
@@ -163,7 +163,7 @@
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @Capoit | 14",
                 "🇸🇪SE | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 8",
                 "🇨🇦CA | vless | @proxy_mtm | 11",
@@ -208,7 +208,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇮🇷IR | vless | @prrofile_purple | 191",
+                "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 5",
@@ -238,7 +238,7 @@
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @Capoit | 14",
                 "🇸🇪SE | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 8",
                 "🇨🇦CA | vless | @proxy_mtm | 11",
@@ -748,7 +748,7 @@
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "3.254.45.47",
+            "server": "54.220.223.176",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -896,17 +896,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @prrofile_purple | 191",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 181",
             "type": "vless",
-            "server": "212.33.206.80",
-            "server_port": 37753,
-            "uuid": "a163b46b-7d5e-41f0-80ad-ef42c4696a83",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                }
             }
         },
         {
@@ -1654,11 +1671,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 15",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "185.146.173.94",
-            "server_port": 2095,
-            "uuid": "3142da0b-fc7f-4688-913c-fe5fbbd2d7fb",
+            "server": "172.66.46.251",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1666,11 +1683,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bBF9c21A.tECHNeTbpb.paGEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram-@Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/?ed=2560",
                 "headers": {
-                    "Host": "185.146.173.94"
+                    "Host": "bBF9c21A.tECHNeTbpb.paGEs.Dev"
                 }
             }
         },

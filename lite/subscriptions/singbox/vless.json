@@ -116,6 +116,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 20",
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
+                "🇸🇪SE | vless | @rxv2ray | 10",
                 "🇸🇪SE | vless | @free_v2rayyy | 22",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇸🇪SE | vless | @V2rayNGmat | 13",
@@ -178,6 +179,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 20",
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
+                "🇸🇪SE | vless | @rxv2ray | 10",
                 "🇸🇪SE | vless | @free_v2rayyy | 22",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇸🇪SE | vless | @V2rayNGmat | 13",
@@ -465,6 +467,27 @@
                 "path": "\/?ed=2047",
                 "headers": {
                     "Host": "filTer-1tg.pAges.DeV"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @rxv2ray | 10",
+            "type": "vless",
+            "server": "185.146.173.237",
+            "server_port": 80,
+            "uuid": "d2a0ff68-2731-4e6f-97e9-ecdc6c2a22f6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rxv2ray-rxv2ray-rxv2ray-rxv2ray",
+                "headers": {
+                    "Host": "185.146.173.237"
                 }
             }
         },

@@ -116,6 +116,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 20",
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
+                "🇸🇪SE | vless | @rxv2ray | 10",
                 "🇸🇪SE | vless | @free_v2rayyy | 22",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇸🇪SE | vless | @V2rayNGmat | 13",
@@ -151,7 +152,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -187,6 +188,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 20",
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
+                "🇸🇪SE | vless | @rxv2ray | 10",
                 "🇸🇪SE | vless | @free_v2rayyy | 22",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇸🇪SE | vless | @V2rayNGmat | 13",
@@ -222,7 +224,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -483,6 +485,27 @@
                 "path": "\/?ed=2047",
                 "headers": {
                     "Host": "filTer-1tg.pAges.DeV"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @rxv2ray | 10",
+            "type": "vless",
+            "server": "185.146.173.237",
+            "server_port": 80,
+            "uuid": "d2a0ff68-2731-4e6f-97e9-ecdc6c2a22f6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rxv2ray-rxv2ray-rxv2ray-rxv2ray",
+                "headers": {
+                    "Host": "185.146.173.237"
                 }
             }
         },
@@ -1329,7 +1352,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,

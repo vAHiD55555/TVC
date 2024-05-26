@@ -141,8 +141,9 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇫🇮FI | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 131",
-                "🇨🇦CA | vless | @sinabigo | 3",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 26",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @free1_vpn | 0",
@@ -204,8 +205,9 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇫🇮FI | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 131",
-                "🇨🇦CA | vless | @sinabigo | 3",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 26",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @free1_vpn | 0",
@@ -1086,6 +1088,20 @@
             }
         },
         {
+            "tag": "🇫🇮FI | vless | @VmessProtocol | 17",
+            "type": "vless",
+            "server": "65.109.195.204",
+            "server_port": 443,
+            "uuid": "3a37b151-c4e9-48e5-8373-5d05f5eac003",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 131",
             "type": "vless",
             "server": "104.26.6.95",
@@ -1107,7 +1123,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 3",
+            "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
             "server": "104.26.7.95",
             "server_port": 80,

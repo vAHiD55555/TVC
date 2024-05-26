@@ -146,9 +146,9 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇩🇪DE | ss | @VmessProtocol | 17",
+                "🇫🇮FI | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 131",
-                "🇨🇦CA | vless | @sinabigo | 3",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 26",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @proxystore11 | 3",
@@ -221,9 +221,9 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
-                "🇩🇪DE | ss | @VmessProtocol | 17",
+                "🇫🇮FI | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 131",
-                "🇨🇦CA | vless | @sinabigo | 3",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 26",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @proxystore11 | 3",
@@ -1229,14 +1229,18 @@
             }
         },
         {
-            "tag": "🇩🇪DE | ss | @VmessProtocol | 17",
-            "type": "shadowsocks",
-            "server": "18.185.85.30",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "tKMfzd1wFempVDn3\/FKUn31V0SAwv33GD13hdyFDTiE=",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇫🇮FI | vless | @VmessProtocol | 17",
+            "type": "vless",
+            "server": "65.109.195.204",
+            "server_port": 443,
+            "uuid": "3a37b151-c4e9-48e5-8373-5d05f5eac003",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 131",
@@ -1260,7 +1264,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 3",
+            "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
             "server": "104.26.7.95",
             "server_port": 80,

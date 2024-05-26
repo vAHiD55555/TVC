@@ -106,10 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 4",
                 "🇸🇪SE | vless | @Parsashonam | 16",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇮🇪IE | vless | @VlessConfig | 17",
+                "🇺🇸US | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 26",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇸🇪SE | vless | @melov2ray | 7",
@@ -172,10 +171,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 4",
                 "🇸🇪SE | vless | @Parsashonam | 16",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇮🇪IE | vless | @VlessConfig | 17",
+                "🇺🇸US | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 26",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇸🇪SE | vless | @melov2ray | 7",
@@ -254,27 +252,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 4",
-            "type": "vless",
-            "server": "185.146.173.1",
-            "server_port": 80,
-            "uuid": "285ad466-705a-42ef-b7f1-6303303e67c0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ELiV2RAY-@ELiV2RAY-@ELiV2RAY,V2ray.motorcycles.Elmahstyle.ir",
-                "headers": {
-                    "Host": "185.146.173.1"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @Parsashonam | 16",
             "type": "vless",
             "server": "185.146.173.58",
@@ -310,9 +287,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | vless | @VlessConfig | 17",
+            "tag": "🇺🇸US | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "63.32.188.77",
+            "server": "3.221.178.110",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1104,9 +1081,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "104.21.74.214",
-            "server_port": 8443,
-            "uuid": "b72%66307%66-84%30a-4%388e-%62e78%2d394%33613%345f7%37",
+            "server": "188.114.98.224",
+            "server_port": 2095,
+            "uuid": "dda%32dda%38-71%305-4%6503-%38668%2def7%66129%35d75%37",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1114,22 +1091,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hesha.servernet.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "188.114.98.224"
+                }
             }
         },
         {

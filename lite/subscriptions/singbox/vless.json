@@ -131,7 +131,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 190",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
-                "🇨🇦CA | vless | @vmessorg | 8",
+                "🇨🇦CA | vless | @vmessorg | 7",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
                 "🇨🇦CA | vless | @v2rayngvpn | 0",
                 "🏳️XX | vless | @FalconPolV2rayNG | 0",
@@ -139,13 +139,13 @@
                 "🇸🇪SE | vless | @ServerNett | 5",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 13",
+                "🇨🇦CA | vless | @v2ray_swhil | 15",
                 "🇸🇪SE | vless | @proxyymeliii | 19",
-                "🇮🇷IR | vless | @vless_vmess | 10",
+                "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇬🇧GB | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 32",
-                "🇨🇦CA | vless | @sinabigo | 4",
+                "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇸🇪SE | vless | @polproxy | 8",
@@ -195,7 +195,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 190",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
-                "🇨🇦CA | vless | @vmessorg | 8",
+                "🇨🇦CA | vless | @vmessorg | 7",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
                 "🇨🇦CA | vless | @v2rayngvpn | 0",
                 "🏳️XX | vless | @FalconPolV2rayNG | 0",
@@ -203,13 +203,13 @@
                 "🇸🇪SE | vless | @ServerNett | 5",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 13",
+                "🇨🇦CA | vless | @v2ray_swhil | 15",
                 "🇸🇪SE | vless | @proxyymeliii | 19",
-                "🇮🇷IR | vless | @vless_vmess | 10",
+                "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇬🇧GB | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 32",
-                "🇨🇦CA | vless | @sinabigo | 4",
+                "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇸🇪SE | vless | @polproxy | 8",
@@ -781,7 +781,7 @@
             "type": "vless",
             "server": "104.17.169.114",
             "server_port": 80,
-            "uuid": "aebca481-d343-4ae8-a641-c598d253f0f1",
+            "uuid": "008ba5df-c4d8-4bd5-8516-0b1c9e07961e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -798,11 +798,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 8",
+            "tag": "🇨🇦CA | vless | @vmessorg | 7",
             "type": "vless",
             "server": "104.20.11.224",
             "server_port": 80,
-            "uuid": "98798168-20fa-4609-8b69-39ab86311bf2",
+            "uuid": "392488bb-0996-46bf-9720-f7fc012489c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -989,7 +989,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 13",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 15",
             "type": "vless",
             "server": "v2ray1ng.pages.dev",
             "server_port": 443,
@@ -1041,17 +1041,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @vless_vmess | 10",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 8",
             "type": "vless",
-            "server": "95.38.242.93",
-            "server_port": 2083,
-            "uuid": "a78523dc-436b-4a31-9003-6ea06c0e19ec",
+            "server": "104.21.74.214",
+            "server_port": 2082,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.21.74.214"
+                }
             }
         },
         {
@@ -1111,24 +1118,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 4",
+            "tag": "🇮🇷IR | vless | @sinabigo | 4",
             "type": "vless",
-            "server": "104.26.7.95",
-            "server_port": 80,
-            "uuid": "1f98b5cc-140f-46b4-987f-6936da9f2238",
+            "server": "iSpeedtop.demotek.net",
+            "server_port": 28646,
+            "uuid": "b4cb7101-252d-43c8-a46b-0aab5f0c03fe",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-@SiNABiGO-Telegram-@SiNABiGO\/?ed=2560",
-                "headers": {
-                    "Host": "104.26.7.95"
-                }
             }
         },
         {

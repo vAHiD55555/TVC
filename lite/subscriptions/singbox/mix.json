@@ -112,7 +112,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇮🇷IR | vless | @frev2ray | 0",
-                "🇨🇦CA | vless | @ARv2ray | 19",
+                "🇺🇸US | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 31",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 16",
@@ -121,7 +121,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 15",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @V2rayNGn | 36",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -133,6 +133,7 @@
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 7",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇸🇪SE | vless | @v2rayngvpn | 0",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇸🇪SE | vless | @ServerNett | 8",
@@ -183,7 +184,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇮🇷IR | vless | @frev2ray | 0",
-                "🇨🇦CA | vless | @ARv2ray | 19",
+                "🇺🇸US | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 31",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 16",
@@ -192,7 +193,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 15",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @V2rayNGn | 36",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -204,6 +205,7 @@
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 7",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇸🇪SE | vless | @v2rayngvpn | 0",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇸🇪SE | vless | @ServerNett | 8",
@@ -393,7 +395,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 19",
+            "tag": "🇺🇸US | vless | @ARv2ray | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2087,
@@ -612,7 +614,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -874,6 +876,27 @@
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg",
                 "headers": {
                     "Host": "104.20.11.224"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
+            "type": "vless",
+            "server": "104.18.15.19",
+            "server_port": 8080,
+            "uuid": "c4ddd3a5-3b30-4aff-a9e9-328cbbffa3de",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray",
+                "headers": {
+                    "Host": "104.18.15.19"
                 }
             }
         },

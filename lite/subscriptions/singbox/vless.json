@@ -135,8 +135,8 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇩🇪DE | vless | @MsV2ray | 0",
-                "🇩🇪DE | vless | @v2ray1_ng | 9",
-                "🇨🇦CA | vless | @vless_vmess | 9",
+                "🇨🇦CA | vless | @v2ray1_ng | 9",
+                "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 41",
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 18",
@@ -148,7 +148,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 21",
-                "🇺🇸US | vless | @FreakConfig | 10",
+                "🇺🇸US | vless | @FreakConfig | 11",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 9",
@@ -194,8 +194,8 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇩🇪DE | vless | @MsV2ray | 0",
-                "🇩🇪DE | vless | @v2ray1_ng | 9",
-                "🇨🇦CA | vless | @vless_vmess | 9",
+                "🇨🇦CA | vless | @v2ray1_ng | 9",
+                "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 41",
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 18",
@@ -207,7 +207,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 21",
-                "🇺🇸US | vless | @FreakConfig | 10",
+                "🇺🇸US | vless | @FreakConfig | 11",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 9",
@@ -915,11 +915,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray1_ng | 9",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 9",
             "type": "vless",
-            "server": "89.116.46.1",
-            "server_port": 80,
-            "uuid": "d23d58db-db92-45e1-be42-c4afa25c51f5",
+            "server": "v2ray1ng.pages.dev",
+            "server_port": 443,
+            "uuid": "146d4de0-ae98-411b-940c-03937947e1ef",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -927,16 +927,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray1ng.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/VIP",
                 "headers": {
-                    "Host": "89.116.46.1"
+                    "Host": "v2ray1ng.pages.dev"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vless_vmess | 9",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 10",
             "type": "vless",
             "server": "172.64.87.176",
             "server_port": 443,
@@ -1229,7 +1239,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 10",
+            "tag": "🇺🇸US | vless | @FreakConfig | 11",
             "type": "vless",
             "server": "104.21.74.214",
             "server_port": 2082,

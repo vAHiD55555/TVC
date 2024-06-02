@@ -112,7 +112,6 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 28",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇸🇪SE | vless | @melov2ray | 9",
-                "🇮🇷IR | vless | @frev2ray | 0",
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 25",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
@@ -122,9 +121,10 @@
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
+                "🇳🇱NL | tuic | @irancpi_vpn | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇩🇪DE | vless | @V2rayNGn | 34",
+                "🇸🇪SE | vless | @ProxyForOpeta | 0",
+                "🇸🇪SE | vless | @V2rayNGn | 34",
                 "🇮🇪IE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -156,7 +156,7 @@
                 "🇮🇷IR | vmess | @Hope_Net | 11",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -189,7 +189,6 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 28",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇸🇪SE | vless | @melov2ray | 9",
-                "🇮🇷IR | vless | @frev2ray | 0",
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 25",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
@@ -199,9 +198,10 @@
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
+                "🇳🇱NL | tuic | @irancpi_vpn | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇩🇪DE | vless | @V2rayNGn | 34",
+                "🇸🇪SE | vless | @ProxyForOpeta | 0",
+                "🇸🇪SE | vless | @V2rayNGn | 34",
                 "🇮🇪IE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -233,7 +233,7 @@
                 "🇮🇷IR | vmess | @Hope_Net | 11",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -401,27 +401,6 @@
                 "path": "\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray",
                 "headers": {
                     "Host": "185.146.173.134"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @frev2ray | 0",
-            "type": "vless",
-            "server": "bloo-NEtflix23.maj.gamerme.IR",
-            "server_port": 80,
-            "uuid": "be8962c2-c299-4b2e-a76d-373ddfd9c886",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "bloo-NEtflix23.maj.gamerme.IR"
                 }
             }
         },
@@ -625,6 +604,29 @@
             }
         },
         {
+            "tag": "🇳🇱NL | tuic | @irancpi_vpn | 0",
+            "type": "tuic",
+            "server": "singbox.freelines.net",
+            "server_port": 57034,
+            "uuid": "5663790a-0291-422f-ac20-d873c42a39e4",
+            "password": "5663790a-0291-422f-ac20-d873c42a39e4",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "zero_rtt_handshake": false,
+            "heartbeat": "10s",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "disable_sni": false,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "alpn": [
+                    "h3",
+                    "spdy\/3.1"
+                ]
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
@@ -646,11 +648,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
+            "tag": "🇸🇪SE | vless | @ProxyForOpeta | 0",
             "type": "vless",
-            "server": "104.16.183.240",
+            "server": "185.146.173.94",
             "server_port": 80,
-            "uuid": "881296c5-a05e-4178-b236-79794b7c4d2d",
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -660,18 +662,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "104.16.183.240"
+                    "Host": "185.146.173.94"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2rayNGn | 34",
+            "tag": "🇸🇪SE | vless | @V2rayNGn | 34",
             "type": "vless",
-            "server": "Join--VPNCUSTOMIZE.V2ray.re",
+            "server": "telegram-VPNCUSTOMIZE.V2ray.re",
             "server_port": 8080,
-            "uuid": "Join-VPNCUSTOMIZE",
+            "uuid": "Bia-To-VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -681,16 +683,16 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re",
                 "headers": {
-                    "Host": "Join--VPNCUSTOMIZE.V2ray.re"
+                    "Host": "telegram-VPNCUSTOMIZE.V2ray.re"
                 }
             }
         },
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "52.30.56.133",
+            "server": "52.50.24.222",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1433,9 +1435,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "185.146.173.58",
             "server_port": 8080,
             "uuid": "af6db950-cc84-467b-a68f-dfa06352a074",
             "flow": "",
@@ -1449,7 +1451,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "185.146.173.58"
                 }
             }
         },

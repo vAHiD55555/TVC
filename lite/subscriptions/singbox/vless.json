@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 6",
+                "🇺🇸US | vless | @V2rayNGmat | 6",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇸🇪SE | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 14",
@@ -145,13 +145,15 @@
                 "🇨🇦CA | vless | @DailyV2RY | 65",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 29",
-                "🇨🇦CA | vless | @fnet00 | 1",
+                "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 20",
+                "🇺🇸US | vless | @FreakConfig | 9",
                 "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇺🇸US | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 3",
@@ -180,7 +182,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 6",
+                "🇺🇸US | vless | @V2rayNGmat | 6",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇸🇪SE | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 14",
@@ -207,13 +209,15 @@
                 "🇨🇦CA | vless | @DailyV2RY | 65",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 29",
-                "🇨🇦CA | vless | @fnet00 | 1",
+                "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 20",
+                "🇺🇸US | vless | @FreakConfig | 9",
                 "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇺🇸US | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 3",
@@ -304,7 +308,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "18.159.138.34",
+            "server": "52.29.108.217",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -511,7 +515,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 6",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 6",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -1181,7 +1185,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 1",
+            "tag": "🇺🇸US | vless | @fnet00 | 1",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
@@ -1328,6 +1332,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | @FreakConfig | 9",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 2082,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "188.114.96.3"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @flyv2ray | 15",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1345,6 +1370,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @FAKEOFTVC | 4",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "6897ff59-0c6c-47fa-b728-cdb4b13d4e3f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-vpn_free_v2ray5",
+                "headers": {
+                    "Host": "zula.ir"
                 }
             }
         },

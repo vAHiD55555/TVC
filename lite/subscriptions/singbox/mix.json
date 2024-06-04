@@ -153,20 +153,21 @@
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 3",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
-                "🏳️XX | vless | @Capital_NET | 45",
+                "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
+                "🇺🇸US | vless | @Capoit | 24",
                 "🇺🇸US | vless | @FreakConfig | 14",
                 "🇸🇪SE | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @FAKEOFTVC | 0",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇺🇸US | vless | @kiava | 9",
-                "🇺🇸US | vless | @proxy_mtm | 0",
+                "🇺🇸US | vless | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 4",
                 "🇨🇷CR | vless | @GozargahVPN | 15",
@@ -229,20 +230,21 @@
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 3",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
-                "🏳️XX | vless | @Capital_NET | 45",
+                "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
+                "🇺🇸US | vless | @Capoit | 24",
                 "🇺🇸US | vless | @FreakConfig | 14",
                 "🇸🇪SE | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @FAKEOFTVC | 0",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇺🇸US | vless | @kiava | 9",
-                "🇺🇸US | vless | @proxy_mtm | 0",
+                "🇺🇸US | vless | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 4",
                 "🇨🇷CR | vless | @GozargahVPN | 15",
@@ -470,7 +472,7 @@
             "type": "vless",
             "server": "185.146.173.9",
             "server_port": 2095,
-            "uuid": "c97a1f7c-36f1-4f4c-b020-c6698be15589",
+            "uuid": "f8dfb8df-075f-465a-b7c0-e12c02739878",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1376,7 +1378,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "Tgju.org",
             "server_port": 2095,
@@ -1538,7 +1540,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @Capital_NET | 45",
+            "tag": "🇺🇸US | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -1597,6 +1599,37 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @Capoit | 24",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "82299fb9-f8b0-43bc-ae63-290881a89f72",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jAVidSHAH-aRiaMeHR.pagEs.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "jAVidSHAH-aRiaMeHR.pagEs.DEV"
                 }
             }
         },
@@ -1736,7 +1769,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxy_mtm | 0",
+            "tag": "🇺🇸US | vless | @proxy_mtm | 1",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 2052,

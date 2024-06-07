@@ -109,7 +109,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9"
             ]
@@ -121,7 +121,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9"
             ],
@@ -221,11 +221,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "chaoji2.chaozhijc.xyz",
-            "server_port": 2082,
-            "uuid": "0ff2af1f-4993-41a8-849f-0161cf33bce2",
+            "server": "us2-full.privateip.net",
+            "server_port": 443,
+            "uuid": "c9e7de6a-fde7-4cbe-8adf-081239a0143d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -236,11 +236,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "us2-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "chaoji2.chaozhijc.xyz"
+                    "Host": "us2-full.privateip.net"
                 }
             }
         },

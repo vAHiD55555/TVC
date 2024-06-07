@@ -125,7 +125,7 @@ proxies:
   - {"name":"🇰🇷KR | trojan | @oneclickvpnkeys | 6","type":"trojan","server":"125.139.249.241","port":17057,"udp":false,"password":"NISHIKUITAN222","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t600.ylks.link"}
   - {"name":"🇩🇪DE | ss | @OutlineVpnOfficial | 16","type":"ss","server":"217.182.198.219","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇩🇪DE | trojan | @proxystore11 | 5","type":"trojan","server":"3.70.146.72","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | vmess | @Hope_Net | 4","type":"vmess","server":"chaoji2.chaozhijc.xyz","port":"2082","cipher":"auto","uuid":"0ff2af1f-4993-41a8-849f-0161cf33bce2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"dny.chaozhijc.xyz"}}}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 3","type":"vmess","server":"us2-full.privateip.net","port":"443","cipher":"auto","uuid":"c9e7de6a-fde7-4cbe-8adf-081239a0143d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 9","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
 proxy-groups:
   - name: MANUAL
@@ -140,7 +140,7 @@ proxy-groups:
       - '🇰🇷KR | trojan | @oneclickvpnkeys | 6'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 16'
       - '🇩🇪DE | trojan | @proxystore11 | 5'
-      - '🇺🇸US | vmess | @Hope_Net | 4'
+      - '🇺🇸US | vmess | @Hope_Net | 3'
       - '🇺🇸US | vmess | @v2Line | 9'
   - name: URL-TEST
     type: url-test
@@ -155,7 +155,7 @@ proxy-groups:
       - '🇰🇷KR | trojan | @oneclickvpnkeys | 6'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 16'
       - '🇩🇪DE | trojan | @proxystore11 | 5'
-      - '🇺🇸US | vmess | @Hope_Net | 4'
+      - '🇺🇸US | vmess | @Hope_Net | 3'
       - '🇺🇸US | vmess | @v2Line | 9'
   - name: FALLBACK
     type: fallback
@@ -169,7 +169,7 @@ proxy-groups:
       - '🇰🇷KR | trojan | @oneclickvpnkeys | 6'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 16'
       - '🇩🇪DE | trojan | @proxystore11 | 5'
-      - '🇺🇸US | vmess | @Hope_Net | 4'
+      - '🇺🇸US | vmess | @Hope_Net | 3'
       - '🇺🇸US | vmess | @v2Line | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

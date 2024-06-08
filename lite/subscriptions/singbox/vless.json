@@ -148,6 +148,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
+                "🇷🇺RU | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
@@ -215,6 +216,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
+                "🇷🇺RU | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
@@ -490,7 +492,7 @@
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 2052,
-            "uuid": "125f8076-19c9-4c54-aaf4-dc753b734bb9",
+            "uuid": "7e5d6deb-b001-495e-a95c-3dfa4f6be829",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1223,6 +1225,37 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "185.59.218.3",
+            "server_port": 443,
+            "uuid": "8dd54a54-eb72-4b3a-970c-cb819dbdc3fb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "DisVpn.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram Join: @DisVpn,Telegram Join: @DisVpn,@DisVpn",
+                "headers": {
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },

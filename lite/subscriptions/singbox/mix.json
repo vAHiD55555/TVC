@@ -131,6 +131,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | ss | @DeamNet_Proxy | 15",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇺🇦UA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
@@ -154,11 +155,11 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vmess | @ConfigsHUB | 14",
+                "🇷🇺RU | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 5",
-                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 14",
+                "🇺🇸US | vmess | @Hope_Net | 13",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 8",
@@ -210,6 +211,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | ss | @DeamNet_Proxy | 15",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇺🇦UA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
@@ -233,11 +235,11 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vmess | @ConfigsHUB | 14",
+                "🇷🇺RU | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 5",
-                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 14",
+                "🇺🇸US | vmess | @Hope_Net | 13",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 8",
@@ -514,7 +516,7 @@
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 2052,
-            "uuid": "125f8076-19c9-4c54-aaf4-dc753b734bb9",
+            "uuid": "7e5d6deb-b001-495e-a95c-3dfa4f6be829",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -824,6 +826,16 @@
                     "Host": ""
                 }
             }
+        },
+        {
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 15",
+            "type": "shadowsocks",
+            "server": "205.134.180.145",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "hgLCgfLRgB6d",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
@@ -1370,16 +1382,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 14",
-            "type": "vmess",
-            "server": "104.21.83.108",
+            "tag": "🇷🇺RU | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "185.59.218.3",
             "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "8dd54a54-eb72-4b3a-970c-cb819dbdc3fb",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1387,7 +1396,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hms02.fxiaomi.sbs",
+                "server_name": "DisVpn.us.kg",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1397,9 +1406,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/link",
+                "path": "\/Telegram Join: @DisVpn,Telegram Join: @DisVpn,@DisVpn",
                 "headers": {
-                    "Host": "hms02.fxiaomi.sbs"
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },
@@ -1426,7 +1435,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -1491,13 +1500,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 14",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "104.21.83.108",
-            "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "server": "jplin005.xmrth-node.xyz",
+            "server_port": 15698,
+            "uuid": "ff51ca4a-6050-3e26-a037-88b0dd62d138",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 2,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1506,21 +1515,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms02.fxiaomi.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/link",
+                "path": "\/index",
                 "headers": {
-                    "Host": "hms02.fxiaomi.sbs"
+                    "Host": "jplin005.xmrth-node.xyz"
                 }
             }
         },

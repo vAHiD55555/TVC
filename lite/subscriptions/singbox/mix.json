@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 14",
                 "🇸🇪SE | vless | @lightning6 | 19",
-                "🇨🇦CA | vless | @V2rayNGmat | 1",
+                "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
@@ -132,7 +132,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇺🇦UA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
@@ -198,7 +198,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 14",
                 "🇸🇪SE | vless | @lightning6 | 19",
-                "🇨🇦CA | vless | @V2rayNGmat | 1",
+                "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
@@ -212,7 +212,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇺🇦UA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
@@ -554,7 +554,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 1",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 1",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -851,11 +851,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "104.168.50.21",
-            "server_port": 45979,
-            "uuid": "23bdf6df-c482-46d0-c0f4-5a98d534ea11",
+            "server": "104.16.61.8",
+            "server_port": 8443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -866,11 +866,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "6ba6-sound-6ba6.siliy37818.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/test",
+                "path": "\/obdii.cfd\/linkws",
                 "headers": {
-                    "Host": "104.168.50.21"
+                    "Host": "6ba6-sound-6ba6.siliy37818.workers.dev"
                 }
             }
         },

@@ -119,6 +119,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @DeamNet_Proxy | 19","type":"vmess","server":"188.114.96.40","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
   - {"name":"🇺🇸US | vmess | @Hope_Net | 9","type":"vmess","server":"107.173.146.129","port":"80","cipher":"auto","uuid":"5820093a-bb7d-4e15-8575-1a529f2d8282","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 8","type":"vmess","server":"104.21.44.106","port":"443","cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
 proxy-groups:
@@ -128,6 +129,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇺🇸US | vmess | @Hope_Net | 9'
       - '🇺🇸US | vmess | @v2Line | 8'
   - name: URL-TEST
@@ -137,6 +139,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇺🇸US | vmess | @Hope_Net | 9'
       - '🇺🇸US | vmess | @v2Line | 8'
   - name: FALLBACK
@@ -145,6 +148,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇺🇸US | vmess | @Hope_Net | 9'
       - '🇺🇸US | vmess | @v2Line | 8'
 rules:

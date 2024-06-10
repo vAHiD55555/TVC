@@ -110,14 +110,14 @@
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
-                "🇺🇸US | vless | @melov2ray | 5",
+                "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
@@ -148,12 +148,14 @@
                 "🇸🇪SE | vless | @vless_vmess | 15",
                 "🇺🇸US | vless | @vmess_vless_v2rayng | 55",
                 "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇺🇸US | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 22",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 2",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -183,14 +185,14 @@
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
-                "🇺🇸US | vless | @melov2ray | 5",
+                "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
@@ -221,12 +223,14 @@
                 "🇸🇪SE | vless | @vless_vmess | 15",
                 "🇺🇸US | vless | @vmess_vless_v2rayng | 55",
                 "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇺🇸US | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 22",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 2",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -362,7 +366,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 5",
+            "tag": "🇨🇦CA | vless | @melov2ray | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 80,
@@ -519,7 +523,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
+            "tag": "🇨🇦CA | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -1263,6 +1267,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | @VmessProtocol | 15",
+            "type": "vless",
+            "server": "162.159.252.236",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @DailyV2RY | 150",
             "type": "vless",
             "server": "cloud.kinononva.top",
@@ -1356,6 +1391,37 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.26.14.16",
+            "server_port": 8443,
+            "uuid": "40bd0854-8a76-428a-993d-fea77db2a59d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo-stoniya.falcunar.asso.eu.org.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "telegram-falcunargo-stoniya.falcunar.asso.eu.org."
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 2",
             "type": "vless",
             "server": "Ld8.malimani.com",
@@ -1377,7 +1443,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,

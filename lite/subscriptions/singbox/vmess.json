@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇦🇺AU | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -126,7 +126,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇦🇺AU | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -288,11 +288,11 @@
             }
         },
         {
-            "tag": "🇦🇺AU | vmess | @Hope_Net | 6",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "vjp3.0bad.com",
+            "server": "linde06.indiavideo.sbs",
             "server_port": 443,
-            "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -305,7 +305,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vjp3.0bad.com",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -315,9 +315,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/chat",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "vjp3.0bad.com"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },

@@ -149,7 +149,7 @@
                 "🏳️XX | vless | @DailyV2RY | 103",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -218,7 +218,7 @@
                 "🏳️XX | vless | @DailyV2RY | 103",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -440,7 +440,7 @@
         {
             "tag": "🇸🇪SE | vless | @ARv2ray | 13",
             "type": "vless",
-            "server": "185.146.173.158",
+            "server": "185.146.173.25",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
@@ -454,7 +454,7 @@
                 "type": "ws",
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "185.146.173.158"
+                    "Host": "185.146.173.25"
                 }
             }
         },
@@ -1272,11 +1272,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.16.123.175",
-            "server_port": 2083,
-            "uuid": "10699622-1b25-499c-a424-58f8f4dfb7f7",
+            "server": "185.146.173.58",
+            "server_port": 2052,
+            "uuid": "Telegram-ipV2Ray-zqo",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1284,21 +1284,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "id-falcunargo.sociy12386.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "id-falcunargo.sociy12386.workers.dev"
+                    "Host": "185.146.173.58"
                 }
             }
         },

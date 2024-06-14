@@ -122,7 +122,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -133,19 +133,20 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
-                "🇨🇦CA | vless | @FalconPolV2rayNG | 2",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇺🇸US | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 15",
                 "🇮🇷IR | vless | @v2ray1_ng | 6",
+                "🇮🇷IR | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 14",
                 "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 58",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -187,7 +188,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -198,19 +199,20 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
-                "🇨🇦CA | vless | @FalconPolV2rayNG | 2",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇺🇸US | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 15",
                 "🇮🇷IR | vless | @v2ray1_ng | 6",
+                "🇮🇷IR | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 14",
                 "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 58",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -608,7 +610,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 3",
+            "tag": "🇸🇪SE | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "185.146.173.9",
             "server_port": 8080,
@@ -862,37 +864,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 2",
-            "type": "vless",
-            "server": "falconpolv2rayng.tavalede.co",
-            "server_port": 2087,
-            "uuid": "d3c43b5d-da0d-4675-8351-8984bf4e08f3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vi6.tavalede.co",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@FalconPolV2rayNG@FalconPolV2rayNG",
-                "headers": {
-                    "Host": "vi6.tavalede.co"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @ShadowProxy66 | 23",
             "type": "vless",
             "server": "cdn.discordapp.com",
@@ -1033,6 +1004,20 @@
             "server": "185.58.240.178",
             "server_port": 2020,
             "uuid": "d94e8168-001e-458c-b803-c6b7c915e724",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @vless_vmess | 15",
+            "type": "vless",
+            "server": "185.8.172.29",
+            "server_port": 33570,
+            "uuid": "9255049f-8714-4ae8-f1ce-47483ff4d94f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1184,6 +1169,27 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.146.173.9",
+            "server_port": 8880,
+            "uuid": "welcome-to-Mainv2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray?ed=2058",
+                "headers": {
+                    "Host": "185.146.173.9"
                 }
             }
         },

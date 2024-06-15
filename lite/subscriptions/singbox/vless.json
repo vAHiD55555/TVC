@@ -116,7 +116,7 @@
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
-                "🇸🇪SE | vless | @lightning6 | 18",
+                "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
@@ -179,7 +179,7 @@
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
-                "🇸🇪SE | vless | @lightning6 | 18",
+                "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
@@ -468,11 +468,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lightning6 | 18",
+            "tag": "🇸🇪SE | vless | @lightning6 | 20",
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
             "server_port": 8880,
-            "uuid": "e3d94a9f-d58c-436e-82b3-fa47e0920388",
+            "uuid": "099361db-9849-4e48-ad43-1ac8bc504131",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1127,9 +1127,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "c44ecd98-353e-4d82-be52-b3a9d7fcd145",
+            "server": "188.114.96.6",
+            "server_port": 443,
+            "uuid": "423acc4e-415d-4e0c-9781-40e313866f4d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1137,11 +1137,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "DisVpn.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },

@@ -153,6 +153,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -230,6 +231,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -478,7 +480,7 @@
             "type": "vless",
             "server": "185.146.173.9",
             "server_port": 2095,
-            "uuid": "8cab943f-fbac-4080-8b41-a7763453e01f",
+            "uuid": "0a79a656-0116-4297-9bec-2049d1761332",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -623,9 +625,9 @@
         {
             "tag": "🇸🇪SE | vless | @proxy_kafee | 3",
             "type": "vless",
-            "server": "185.146.173.9",
-            "server_port": 8080,
-            "uuid": "a47b844a-4b11-4d50-bb09-944e8d4d3441",
+            "server": "185.146.173.95",
+            "server_port": 80,
+            "uuid": "f93255ff-7727-4dee-bc1b-80df895e7f3e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -635,9 +637,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
-                    "Host": "185.146.173.9"
+                    "Host": "185.146.173.95"
                 }
             }
         },
@@ -1386,6 +1388,27 @@
             "password": "KixLvKzwjekG00rm",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.146.173.95",
+            "server_port": 2095,
+            "uuid": "253f4ad9-af02-4aad-b51b-6066018af089",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.95"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @proxystore11 | 2",

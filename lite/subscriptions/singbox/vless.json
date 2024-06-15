@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 16",
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇺🇸US | vless | @VlessConfig | 14",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 27",
@@ -146,7 +145,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇷CR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -171,7 +170,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 16",
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇺🇸US | vless | @VlessConfig | 14",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 27",
@@ -211,7 +209,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇷CR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -250,27 +248,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 16",
-            "type": "vless",
-            "server": "185.146.173.134",
-            "server_port": 80,
-            "uuid": "cdd29870-653d-474f-9b3c-107817a723ad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ELiV2RAY-@ELiV2RAY-@ELiV2RAY,V2ray.motorcycles.Elmahstyle.ir",
-                "headers": {
-                    "Host": "185.146.173.134"
-                }
-            }
         },
         {
             "tag": "🇸🇪SE | vless | @Parsashonam | 12",
@@ -1188,11 +1165,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8880,
-            "uuid": "f0e16573-e93d-417f-a32c-b9d6fbc7f97a",
+            "server": "xvproxy.savagev2ray.site",
+            "server_port": 443,
+            "uuid": "b5dab57f-86ab-460a-8bb7-9fb10063ef71",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1200,11 +1177,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "all4.savagev2ray.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2087",
+                "path": "\/Telegram - @XvProxy - Telegram - @XvProxy",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "all4.savagev2ray.site"
                 }
             }
         },
@@ -1315,9 +1302,9 @@
         {
             "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 80,
-            "uuid": "b504aa37-4b20-4202-981f-f4a9221e6fbd",
+            "server": "185.146.173.58",
+            "server_port": 2052,
+            "uuid": "Telegram-ipV2Ray-zqo",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1327,9 +1314,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "185.146.173.58"
                 }
             }
         },

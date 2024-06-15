@@ -151,9 +151,9 @@
                 "🇺🇸US | trojan | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 58",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇸🇪SE | vless | @lrnbymaa | 26",
+                "🇸🇪SE | vless | @lrnbymaa | 24",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -229,9 +229,9 @@
                 "🇺🇸US | trojan | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 58",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇸🇪SE | vless | @lrnbymaa | 26",
+                "🇸🇪SE | vless | @lrnbymaa | 24",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -1323,11 +1323,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lrnbymaa | 26",
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 24",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "19c08c07-a3b7-4c26-bcee-d7270f6d3422",
+            "uuid": "91d28207-ff16-46b6-9da9-b7fc329191c8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1354,11 +1354,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "c44ecd98-353e-4d82-be52-b3a9d7fcd145",
+            "server": "172.66.47.2",
+            "server_port": 443,
+            "uuid": "bcf50589-9654-4331-93a6-da896914ec47",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1366,11 +1366,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "de4ecf6b.isvphp-4g8.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
                 "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                    "Host": "de4ecf6b.isvphp-4g8.pages.dev"
                 }
             }
         },

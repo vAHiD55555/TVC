@@ -131,7 +131,7 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 15",
@@ -140,12 +140,12 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 71",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇸🇪SE | vless | @lrnbymaa | 20",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @lrnbymaa | 23",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
-                "🇨🇦CA | vless | @polproxy | 6",
+                "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -191,7 +191,7 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 15",
@@ -200,12 +200,12 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 71",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇸🇪SE | vless | @lrnbymaa | 20",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @lrnbymaa | 23",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
-                "🇨🇦CA | vless | @polproxy | 6",
+                "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -817,7 +817,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
             "type": "vless",
             "server": "104.17.240.120",
             "server_port": 443,
@@ -1046,7 +1046,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lrnbymaa | 20",
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 23",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
@@ -1067,17 +1067,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "49.13.82.2",
-            "server_port": 8080,
-            "uuid": "99c517c7-606c-4091-99d0-0a19203d6835",
+            "server": "185.146.173.92",
+            "server_port": 2095,
+            "uuid": "95e4ad83-b412-46ac-9d1c-bec1ebf21cec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.92"
+                }
             }
         },
         {
@@ -1164,7 +1171,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @polproxy | 6",
+            "tag": "🇺🇸US | vless | @polproxy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,

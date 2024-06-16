@@ -118,8 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 18","type":"trojan","server":"16.171.247.229","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪DE | trojan | @DirectVPN | 18","type":"trojan","server":"35.157.53.88","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 18","type":"trojan","server":"35.157.66.134","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @DirectVPN | 18","type":"trojan","server":"18.198.52.57","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 5","type":"vmess","server":"www.speedtest.net","port":"80","cipher":"auto","uuid":"1e99893d-8046-4825-9d28-f6de91147337","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"De2.vmess.site."}}}
   - {"name":"🇺🇸US | trojan | @VmessProtocol | 15","type":"trojan","server":"138.199.41.25","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"dngn.phooeyunfold.com"}
@@ -133,7 +133,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇸🇪SE | trojan | @PrivateVPNs | 18'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 18'
       - '🇩🇪DE | trojan | @DirectVPN | 18'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 5'
@@ -148,7 +148,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇸🇪SE | trojan | @PrivateVPNs | 18'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 18'
       - '🇩🇪DE | trojan | @DirectVPN | 18'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 5'
@@ -162,7 +162,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇸🇪SE | trojan | @PrivateVPNs | 18'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 18'
       - '🇩🇪DE | trojan | @DirectVPN | 18'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 5'

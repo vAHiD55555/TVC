@@ -148,12 +148,12 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇰SK | trojan | @ConfigsHUB | 19",
+                "🇰🇷KR | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 1",
-                "🇨🇦CA | vless | @polproxy | 6",
+                "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -220,12 +220,12 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇰SK | trojan | @ConfigsHUB | 19",
+                "🇰🇷KR | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 1",
-                "🇨🇦CA | vless | @polproxy | 6",
+                "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -1205,11 +1205,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇰SK | trojan | @ConfigsHUB | 19",
-            "type": "trojan",
-            "server": "libertyzone.xyz",
+            "tag": "🇰🇷KR | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "152.70.249.67",
             "server_port": 443,
-            "password": "fyy75RVvaT",
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1217,7 +1219,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "libertyzone.xyz",
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1227,9 +1229,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/43574\/@persvpn",
+                "path": "\/",
                 "headers": {
-                    "Host": "libertyzone.xyz"
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
                 }
             }
         },
@@ -1351,7 +1353,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @polproxy | 6",
+            "tag": "🇺🇸US | vless | @polproxy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,

@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 20",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 11",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -151,13 +151,13 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇸🇪SE | trojan | @ConfigsHUB | 8",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 7",
-                "🇺🇸US | vless | @fnet00 | 4",
-                "🇺🇸US | vless | @polproxy | 6",
+                "🇨🇦CA | vless | @fnet00 | 4",
+                "🇨🇦CA | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -196,7 +196,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 20",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 11",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -226,13 +226,13 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇸🇪SE | trojan | @ConfigsHUB | 8",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 7",
-                "🇺🇸US | vless | @fnet00 | 4",
-                "🇺🇸US | vless | @polproxy | 6",
+                "🇨🇦CA | vless | @fnet00 | 4",
+                "🇨🇦CA | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -607,11 +607,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 3",
+            "tag": "🇸🇪SE | vless | @proxy_kafee | 4",
             "type": "vless",
-            "server": "185.146.173.196",
-            "server_port": 8880,
-            "uuid": "mainv2ray-chanel",
+            "server": "185.146.173.95",
+            "server_port": 80,
+            "uuid": "f93255ff-7727-4dee-bc1b-80df895e7f3e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -621,9 +621,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray,Telegram-Mainv2ray?ed",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
-                    "Host": "185.146.173.196"
+                    "Host": "185.146.173.95"
                 }
             }
         },
@@ -1285,16 +1285,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "172.67.170.11",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇸🇪SE | trojan | @ConfigsHUB | 8",
+            "type": "trojan",
+            "server": "16.170.100.142",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1302,19 +1297,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -1439,7 +1427,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 4",
+            "tag": "🇨🇦CA | vless | @fnet00 | 4",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
@@ -1470,7 +1458,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @polproxy | 6",
+            "tag": "🇨🇦CA | vless | @polproxy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,

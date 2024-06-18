@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇬🇧GB | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 11",
@@ -219,7 +219,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇬🇧GB | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 11",
@@ -1227,16 +1227,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "172.99.190.109",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.31.16.125",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1244,7 +1241,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "lmn1716554593476.lmn15430.info",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1254,9 +1251,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/mary",
                 "headers": {
-                    "Host": ""
+                    "Host": "lmn1716554593476.lmn15430.info"
                 }
             }
         },

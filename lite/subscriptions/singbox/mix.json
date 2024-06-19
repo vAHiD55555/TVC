@@ -137,7 +137,7 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 11",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 28",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇸🇪SE | vless | @ShadowProxy66 | 13",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 9",
@@ -150,11 +150,11 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇩🇪DE | trojan | @ConfigsHUB | 19",
+                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 10",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
@@ -210,7 +210,7 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 11",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 28",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇸🇪SE | vless | @ShadowProxy66 | 13",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 9",
@@ -223,11 +223,11 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇩🇪DE | trojan | @ConfigsHUB | 19",
+                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 10",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
@@ -291,7 +291,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "13.39.136.180",
+            "server": "13.39.214.186",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -724,7 +724,7 @@
         {
             "tag": "🇫🇷FR | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "13.38.247.141",
+            "server": "15.188.20.234",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -925,11 +925,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 28",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
             "type": "vless",
-            "server": "172.66.47.2",
+            "server": "104.16.137.88",
             "server_port": 443,
-            "uuid": "bcf50589-9654-4331-93a6-da896914ec47",
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -939,7 +939,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de4ecf6b.isvphp-4g8.pages.dev",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -949,9 +949,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "de4ecf6b.isvphp-4g8.pages.dev"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1230,11 +1230,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | trojan | @ConfigsHUB | 19",
-            "type": "trojan",
-            "server": "35.159.60.69",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "85.198.14.253",
+            "server_port": 44213,
+            "uuid": "8c98403a-340b-4bad-a2fd-2fa5c61de67c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1328,7 +1333,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "104.16.67.38",
             "server_port": 80,

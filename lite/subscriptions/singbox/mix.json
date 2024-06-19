@@ -127,8 +127,8 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
-                "🇫🇷FR | trojan | @PrivateVPNs | 16",
-                "🇫🇷FR | trojan | @DirectVPN | 16",
+                "🇮🇪IE | trojan | @PrivateVPNs | 14",
+                "🇮🇪IE | trojan | @DirectVPN | 14",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
@@ -145,11 +145,11 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
-                "🇮🇷IR | vless | @V2RayTz | 18",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇫🇷FR | trojan | @ConfigsHUB | 19",
+                "🇵🇱PL | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 11",
@@ -198,8 +198,8 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
-                "🇫🇷FR | trojan | @PrivateVPNs | 16",
-                "🇫🇷FR | trojan | @DirectVPN | 16",
+                "🇮🇪IE | trojan | @PrivateVPNs | 14",
+                "🇮🇪IE | trojan | @DirectVPN | 14",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
@@ -216,11 +216,11 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
-                "🇮🇷IR | vless | @V2RayTz | 18",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇫🇷FR | trojan | @ConfigsHUB | 19",
+                "🇵🇱PL | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 11",
@@ -728,9 +728,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 16",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 14",
             "type": "trojan",
-            "server": "13.37.193.116",
+            "server": "108.129.68.218",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -750,9 +750,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 16",
+            "tag": "🇮🇪IE | trojan | @DirectVPN | 14",
             "type": "trojan",
-            "server": "15.188.190.152",
+            "server": "54.78.65.72",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1156,11 +1156,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @V2RayTz | 18",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "2.189.59.2",
-            "server_port": 443,
-            "uuid": "dafa0b54-901a-4dc2-bc13-82ec7ca04fb7",
+            "server": "185.146.173.95",
+            "server_port": 2095,
+            "uuid": "3025fc89-8993-49c9-b4ad-659624a3152a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1168,22 +1168,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mci.unlimiteddev-vpn.Com.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Channel:@UnlimitedDev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.95"
+                }
             }
         },
         {
@@ -1249,9 +1239,9 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | trojan | @ConfigsHUB | 19",
+            "tag": "🇵🇱PL | trojan | @ConfigsHUB | 18",
             "type": "trojan",
-            "server": "62.210.82.54",
+            "server": "151.115.83.178",
             "server_port": 43118,
             "password": "ypDt8RkT7J",
             "multiplex": {
@@ -1261,7 +1251,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wuxgk.phooeyunfold.com",
+                "server_name": "eimna.phooeyunfold.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {

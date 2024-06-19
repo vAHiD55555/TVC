@@ -109,8 +109,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇦UA | vmess | @oneclickvpnkeys | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 15",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
@@ -123,8 +122,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇦UA | vmess | @oneclickvpnkeys | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 15",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
@@ -201,31 +199,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "104.25.77.191",
-            "server_port": 80,
-            "uuid": "0880c19f-f253-4298-8573-42fb83bf3006",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/other",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -261,9 +235,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "104.16.67.38",
+            "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+            "uuid": "00f2237d-d8c4-45c9-8c2e-ca07adb295ab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -276,9 +250,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/v118-fccxmxm35",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "www.speedtest.net"
                 }
             }
         },

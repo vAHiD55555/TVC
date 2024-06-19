@@ -131,7 +131,7 @@
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇺🇸US | vless | @v2rayNG_Matsuri | 23",
+                "🇺🇸US | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 24",
@@ -141,9 +141,9 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
-                "🇨🇦CA | vless | @fnet00 | 6",
+                "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
@@ -190,7 +190,7 @@
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇺🇸US | vless | @v2rayNG_Matsuri | 23",
+                "🇺🇸US | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 24",
@@ -200,9 +200,9 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
-                "🇨🇦CA | vless | @fnet00 | 6",
+                "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
@@ -778,7 +778,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayNG_Matsuri | 23",
+            "tag": "🇺🇸US | vless | @v2rayNG_Matsuri | 26",
             "type": "vless",
             "server": "ns.cloudflare.com",
             "server_port": 443,
@@ -1021,11 +1021,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "173.245.58.100",
-            "server_port": 443,
-            "uuid": "b8d718c6-7516-4259-b4e6-253e280bc6b6",
+            "server": "172.66.44.135",
+            "server_port": 80,
+            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1033,21 +1033,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "bia-vip-programs.hsjsak.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "bia-vip-programs.hsjsak.ir"
+                    "Host": "172.66.44.135"
                 }
             }
         },
@@ -1073,7 +1063,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 6",
+            "tag": "🇺🇸US | vless | @fnet00 | 6",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,

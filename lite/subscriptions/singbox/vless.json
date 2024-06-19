@@ -141,11 +141,11 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
-                "🇺🇸US | vless | @fnet00 | 6",
-                "🇺🇸US | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @fnet00 | 6",
+                "🇨🇦CA | vless | @polproxy | 6",
+                "🇲🇾MY | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
@@ -200,11 +200,11 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
-                "🇺🇸US | vless | @fnet00 | 6",
-                "🇺🇸US | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @fnet00 | 6",
+                "🇨🇦CA | vless | @polproxy | 6",
+                "🇲🇾MY | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
@@ -1021,24 +1021,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.66.44.135",
-            "server_port": 80,
-            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
+            "server": "85.133.200.41",
+            "server_port": 6890,
+            "uuid": "4fabe6bd-5223-408d-840c-027b5a7ca137",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.66.44.135"
-                }
             }
         },
         {
@@ -1063,7 +1056,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 6",
+            "tag": "🇨🇦CA | vless | @fnet00 | 6",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
@@ -1094,7 +1087,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @polproxy | 6",
+            "tag": "🇨🇦CA | vless | @polproxy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
@@ -1115,11 +1108,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 18",
+            "tag": "🇲🇾MY | vless | @Outlinev2rayNG | 18",
             "type": "vless",
-            "server": "172.64.111.69",
+            "server": "172.66.47.54",
             "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1129,7 +1122,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "ircp-617.pages.dev.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1141,7 +1134,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "ircp-617.pages.dev."
                 }
             }
         },

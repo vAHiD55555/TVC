@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇦UA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ]
@@ -121,9 +122,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇦UA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ],
@@ -170,6 +172,23 @@
             "server": "183.232.199.28",
             "server_port": 15605,
             "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇦UA | vmess | @oneclickvpnkeys | 4",
+            "type": "vmess",
+            "server": "141.105.130.28",
+            "server_port": 13299,
+            "uuid": "3d7340f1-9dc6-47e1-9f8b-32acdf352457",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -250,11 +269,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
+            "tag": "🏳️XX | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "104.19.50.201",
-            "server_port": 2082,
-            "uuid": "94ddc411-85d7-4850-b545-acf889333997",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -264,13 +283,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/cctv&Telegram🇨🇳 @WangCai2",
-                "headers": {
-                    "Host": "104.19.50.201"
-                }
             }
         },
         {

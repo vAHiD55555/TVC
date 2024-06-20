@@ -129,7 +129,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
-                "🇮🇷IR | vless | @prrofile_purple | 182",
+                "🇸🇪SE | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -197,7 +197,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
-                "🇮🇷IR | vless | @prrofile_purple | 182",
+                "🇸🇪SE | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -778,17 +778,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @prrofile_purple | 182",
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 180",
             "type": "vless",
-            "server": "85.9.121.3",
-            "server_port": 6710,
-            "uuid": "2bf88034-056d-4181-b8ec-cc1d96204df2",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "f5ea7828-a21f-45a0-ac8b-2518d4a8e9fa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
             }
         },
         {
@@ -1348,9 +1355,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 18",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "Channel-VPNCUSTOMIZE",
+            "server": "162.159.10.111",
+            "server_port": 443,
+            "uuid": "10716279-b1ee-41d8-b63e-87782088305b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1358,11 +1365,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Hey.bAcHebiapAin.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/aCxONcgTilFhvHJJ?ed=2560.telegram:@AB_841",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "Hey.bAcHebiapAin.IR"
                 }
             }
         },

@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -1135,11 +1135,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "1dab0a70-adf9-403d-8d95-499a0a3a0ec3",
+            "server": "172.66.46.214",
+            "server_port": 2053,
+            "uuid": "8545c44f-b1b4-4295-ae98-f0b6301a537f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1149,7 +1149,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "grpctestt.sharesite.ir",
+                "server_name": "ios-azadnet.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1158,11 +1158,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "fvsndvdn\/?ed=2048",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ios-azadnet.pages.dev"
+                }
             }
         },
         {

@@ -120,12 +120,13 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 8",
                 "🇺🇸US | vless | @vpn_xw | 3",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
-                "🇨🇷CR | vless | @proxy_kafee | 4",
+                "🇨🇷CR | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 9",
                 "🇮🇷IR | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
+                "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 170",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
@@ -141,7 +142,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 129",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 4",
@@ -180,12 +181,13 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 8",
                 "🇺🇸US | vless | @vpn_xw | 3",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
-                "🇨🇷CR | vless | @proxy_kafee | 4",
+                "🇨🇷CR | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 9",
                 "🇮🇷IR | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
+                "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 170",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
@@ -201,7 +203,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 129",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 4",
@@ -539,7 +541,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxy_kafee | 4",
+            "tag": "🇨🇷CR | vless | @proxy_kafee | 5",
             "type": "vless",
             "server": "190.93.247.155",
             "server_port": 80,
@@ -681,6 +683,27 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
+            "type": "vless",
+            "server": "104.31.16.110",
+            "server_port": 80,
+            "uuid": "4497407c-54ac-59ef-ab94-41ecb895cf01",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless-ws\/",
+                "headers": {
+                    "Host": "104.31.16.110"
                 }
             }
         },
@@ -963,7 +986,7 @@
             "type": "vless",
             "server": "185.146.173.95",
             "server_port": 8880,
-            "uuid": "%39%33%61%34%66%38%37%34%2d%35%63%65%39%2d%34%35%64%34%2d%61%30%63%64%2d%62%30%32%66%35%36%32%32%39%31%36%66",
+            "uuid": "%31%39%33%66%65%62%61%34%2d%38%37%64%64%2d%34%65%39%34%2d%62%37%38%37%2d%61%64%63%38%65%61%66%61%31%65%66%66",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1043,11 +1066,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "LIGHTNING6-joinbed.filj.top",
-            "server_port": 8880,
-            "uuid": "4e57d49a-4013-4b69-8bbf-3ae4925cde0e",
+            "server": "faradars.org",
+            "server_port": 443,
+            "uuid": "Abc-Cloud",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1055,11 +1078,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "faradars.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "path": "\/a",
                 "headers": {
-                    "Host": "LIGHTNING6-joinbed.filj.top"
+                    "Host": "faradars.org"
                 }
             }
         },

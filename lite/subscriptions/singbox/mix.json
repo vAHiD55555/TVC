@@ -125,8 +125,8 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🏳️XX | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
-                "🇬🇧GB | trojan | @PrivateVPNs | 15",
-                "🇬🇧GB | trojan | @DirectVPN | 15",
+                "🇮🇪IE | trojan | @PrivateVPNs | 15",
+                "🇮🇪IE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | trojan | @oneclickvpnkeys | 5",
@@ -145,10 +145,11 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 4",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -199,8 +200,8 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🏳️XX | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
-                "🇬🇧GB | trojan | @PrivateVPNs | 15",
-                "🇬🇧GB | trojan | @DirectVPN | 15",
+                "🇮🇪IE | trojan | @PrivateVPNs | 15",
+                "🇮🇪IE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | trojan | @oneclickvpnkeys | 5",
@@ -219,10 +220,11 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 4",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -529,7 +531,7 @@
             "type": "vless",
             "server": "185.146.173.37",
             "server_port": 2095,
-            "uuid": "-----DIGIV2RAY-----",
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -692,9 +694,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 15",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "18.170.159.228",
+            "server": "52.31.53.111",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -714,9 +716,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @DirectVPN | 15",
+            "tag": "🇮🇪IE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "18.171.101.79",
+            "server": "54.75.76.203",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1150,6 +1152,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 149",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "ba24c468-8fad-4502-9f30-ab921c7e8e5c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray",
+                "headers": {
+                    "Host": "zula.ir"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
             "server": "zula.ir",
@@ -1202,11 +1225,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "216.24.57.141",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "server": "www.Speedtest.Net",
+            "server_port": 2095,
+            "uuid": "DIGiv2rAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1214,21 +1237,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "zdy700.kpcloud.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/blue",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "zdy700.kpcloud.eu.org"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },

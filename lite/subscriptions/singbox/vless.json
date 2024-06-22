@@ -124,6 +124,7 @@
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇩🇪DE | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
@@ -133,7 +134,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 29",
                 "🇨🇦CA | vless | @ShadowProxy66 | 2",
                 "🇸🇪SE | vless | @ServerNett | 6",
-                "🇸🇪SE | vless | @v2ray_swhil | 8",
+                "🇮🇷IR | vless | @v2ray_swhil | 7",
                 "🇨🇦CA | vless | @proxyymeliii | 35",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -142,7 +143,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -186,6 +187,7 @@
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇩🇪DE | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
@@ -195,7 +197,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 29",
                 "🇨🇦CA | vless | @ShadowProxy66 | 2",
                 "🇸🇪SE | vless | @ServerNett | 6",
-                "🇸🇪SE | vless | @v2ray_swhil | 8",
+                "🇮🇷IR | vless | @v2ray_swhil | 7",
                 "🇨🇦CA | vless | @proxyymeliii | 35",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -204,7 +206,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -647,6 +649,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 4",
+            "type": "vless",
+            "server": "emifree.bestgameir2.ir",
+            "server_port": 2083,
+            "uuid": "73857a8b-9fa0-4b3b-9f3f-aa71b51edd51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/JoinChanel-proxyforopeta-telegram:@proxyforopeta-telegram-proxyforopeta-joinchanel@proxyforopeta.proxyforopeta.join-@proxyforopeta.telegram:@proxyforopeta-V2rayngmmd-telegram-free-v2ray?ed=2560security=tls",
+                "headers": {
+                    "Host": "emifree.bestgameir2.ir"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @V2rayNGn | 23",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
@@ -836,24 +859,17 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray_swhil | 8",
+            "tag": "🇮🇷IR | vless | @v2ray_swhil | 7",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2086,
-            "uuid": "9a279347-749d-4478-8ff6-abd151b23e34",
+            "server": "185.46.0.192",
+            "server_port": 2053,
+            "uuid": "2ec5db96-c091-4401-9528-35c1ec513de1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/AAWED",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
             }
         },
         {
@@ -1065,11 +1081,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "217.60.252.121",
-            "server_port": 6710,
-            "uuid": "cb464319-56c8-404c-b610-6b41d1951032",
+            "server": "185.146.173.237",
+            "server_port": 80,
+            "uuid": "a90f0fd4-2e50-47c5-8d09-2070c68b7a6c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {

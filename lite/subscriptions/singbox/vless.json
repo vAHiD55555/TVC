@@ -120,13 +120,13 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 7",
                 "🇩🇪DE | vless | @vpn_xw | 4",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇩🇪DE | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
-                "🇬🇧GB | vless | @Outline_Vpn | 19",
+                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
@@ -143,6 +143,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -181,13 +182,13 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 7",
                 "🇩🇪DE | vless | @vpn_xw | 4",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇩🇪DE | vless | @servermomo | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
-                "🇬🇧GB | vless | @Outline_Vpn | 19",
+                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
@@ -204,6 +205,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -541,7 +543,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 3",
+            "tag": "🇸🇪SE | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "185.146.173.237",
             "server_port": 80,
@@ -697,17 +699,34 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @Outline_Vpn | 19",
+            "tag": "🇨🇦CA | vless | @Outline_Vpn | 18",
             "type": "vless",
-            "server": "109.120.186.177",
-            "server_port": 555,
-            "uuid": "7bd69117-83a3-4360-ae48-8406b3da1923",
+            "server": "104.31.16.125",
+            "server_port": 443,
+            "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lmn1715683972331.lmn15534.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/srvacc1",
+                "headers": {
+                    "Host": "lmn1715683972331.lmn15534.info"
+                }
             }
         },
         {
@@ -1084,6 +1103,20 @@
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.146.173.237",
+            "server_port": 80,
+            "uuid": "18099ec2-acdf-45d6-9de7-b77176fbe2ee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

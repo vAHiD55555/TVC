@@ -1201,9 +1201,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 8080,
-            "uuid": "387ece1e-2b27-464b-adf5-dd98aa95e017",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "532c9a78-307b-4e57-863d-b8d812708308",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1211,11 +1211,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "fREe-azADNet.pAGeS.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
                 "headers": {
-                    "Host": "188.114.98.224"
+                    "Host": "fREe-azADNet.pAGeS.DeV"
                 }
             }
         },

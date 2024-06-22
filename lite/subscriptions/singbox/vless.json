@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
                 "🇸🇪SE | vless | @lightning6 | 19",
-                "🇺🇸US | vless | @vpn_xw | 3",
+                "🇫🇷FR | vless | @vpn_xw | 2",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
                 "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 10",
@@ -140,6 +140,7 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 4",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 5",
                 "🇨🇦CA | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
@@ -181,7 +182,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
                 "🇸🇪SE | vless | @lightning6 | 19",
-                "🇺🇸US | vless | @vpn_xw | 3",
+                "🇫🇷FR | vless | @vpn_xw | 2",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
                 "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 10",
@@ -204,6 +205,7 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 4",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 5",
                 "🇨🇦CA | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
@@ -453,7 +455,7 @@
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 2052,
-            "uuid": "ab005880-92d4-4d81-83bc-481bba5d893b",
+            "uuid": "befecb38-8e7a-47c4-9201-7e7b8cc30d30",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -491,11 +493,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_xw | 3",
+            "tag": "🇫🇷FR | vless | @vpn_xw | 2",
             "type": "vless",
-            "server": "44.234.140.156",
+            "server": "15.188.202.201",
             "server_port": 8880,
-            "uuid": "b5149096-0c64-46cd-b7d3-6cef8762b7a9",
+            "uuid": "b02c0d8b-63e2-4a16-a6b8-6dcb5dd14aa7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1030,6 +1032,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 5",
+            "type": "vless",
+            "server": "104.16.190.131",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed",
+                "headers": {
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 149",
             "type": "vless",
             "server": "zula.ir",
@@ -1095,9 +1128,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "DIGiv2rAy",
+            "server": "104.18.84.115",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1105,11 +1138,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
+                "path": "\/bmkpskkiym1rrlxm?ed=2560",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV"
                 }
             }
         },

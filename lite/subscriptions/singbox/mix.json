@@ -1240,9 +1240,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.21.40.59",
-            "server_port": 8080,
-            "uuid": "5da741a5-330b-47ef-b039-603c0b2d80ae",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1250,11 +1250,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/V2ray.motorcycles",
+                "path": "\/TELEGRAM-proxy_mtm\/",
                 "headers": {
-                    "Host": "104.21.40.59"
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
                 }
             }
         },

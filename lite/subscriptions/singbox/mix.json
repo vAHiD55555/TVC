@@ -144,12 +144,12 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇳🇱NL | vless | @VmessProtocol | 6",
+                "🇺🇸US | trojan | @VmessProtocol | 5",
                 "🇨🇦CA | vless | @DailyV2RY | 170",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -218,12 +218,12 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇳🇱NL | vless | @VmessProtocol | 6",
+                "🇺🇸US | trojan | @VmessProtocol | 5",
                 "🇨🇦CA | vless | @DailyV2RY | 170",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -1134,13 +1134,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @VmessProtocol | 6",
-            "type": "vless",
-            "server": "158.101.193.127",
-            "server_port": 443,
-            "uuid": "d7dd3a35-b68b-4992-b319-a85b8a1fc8e5",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | trojan | @VmessProtocol | 5",
+            "type": "trojan",
+            "server": "185.180.13.70",
+            "server_port": 43118,
+            "password": "ypDt8RkT7J",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1148,19 +1146,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dns68.putata.eu.org",
+                "server_name": "earya.phooeyunfold.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "dns68.putata.eu.org"
                 }
             }
         },
@@ -1241,16 +1232,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "to.tilebani.com",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "104.18.5.2",
+            "server_port": 2096,
+            "uuid": "85b94f20-e563-498b-9d4b-a75438a51101",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1258,7 +1246,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "to.tilebani.com",
+                "server_name": "VFIvE-teLeGram.PAGEs.Dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1268,9 +1256,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/L\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
                 "headers": {
-                    "Host": "to.tilebani.com"
+                    "Host": "VFIvE-teLeGram.PAGEs.Dev"
                 }
             }
         },

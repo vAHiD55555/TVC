@@ -113,7 +113,7 @@
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @V2pedia | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇸🇪SE | vless | @ARv2ray | 13",
+                "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
@@ -130,7 +130,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇺🇸US | vless | @customv2ray | 15",
@@ -150,7 +150,7 @@
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 17",
+                "🇺🇦UA | vmess | @ConfigsHUB | 18",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -188,7 +188,7 @@
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @V2pedia | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇸🇪SE | vless | @ARv2ray | 13",
+                "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
@@ -205,7 +205,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇺🇸US | vless | @customv2ray | 15",
@@ -225,7 +225,7 @@
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 17",
+                "🇺🇦UA | vmess | @ConfigsHUB | 18",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -429,9 +429,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ARv2ray | 13",
+            "tag": "🇸🇪SE | vless | @ARv2ray | 15",
             "type": "vless",
-            "server": "185.146.173.237",
+            "server": "185.146.173.158",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
@@ -443,9 +443,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ARV2ray",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "185.146.173.158"
                 }
             }
         },
@@ -793,11 +793,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
-            "server": "172.67.170.13",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "server": "164.90.167.137",
+            "server_port": 2087,
+            "uuid": "964d2e04-5de3-478e-8616-b609c9f71954",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -808,21 +808,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/2.v2ray.debian.org.fxp.debian.org.speedtest.net.����ù������.madariran.filegear-sg.m",
                 "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": ""
                 }
             }
         },
@@ -1274,11 +1264,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "tag": "🇺🇦UA | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "mizbanfa.net",
-            "server_port": 443,
-            "uuid": "e16e9768-240f-4ff2-8c29-36d220ed2aa4",
+            "server": "141.105.130.9",
+            "server_port": 55471,
+            "uuid": "714d36ca-09ce-4182-8756-e0bf7a85158e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1288,23 +1278,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "msnghdfy4c2.cpiforpersia.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "GKI7QXj9evft2rWGqHh74mj",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

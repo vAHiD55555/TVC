@@ -134,7 +134,7 @@
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇸🇪SE | vless | @ServerNett | 7",
-                "🇺🇸US | vless | @v2ray_swhil | 7",
+                "🇮🇷IR | vless | @v2ray_swhil | 8",
                 "🇸🇪SE | vless | @proxyymeliii | 41",
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 179",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -200,7 +200,7 @@
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇸🇪SE | vless | @ServerNett | 7",
-                "🇺🇸US | vless | @v2ray_swhil | 7",
+                "🇮🇷IR | vless | @v2ray_swhil | 8",
                 "🇸🇪SE | vless | @proxyymeliii | 41",
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -210,7 +210,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 179",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -868,34 +868,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2ray_swhil | 7",
+            "tag": "🇮🇷IR | vless | @v2ray_swhil | 8",
             "type": "vless",
-            "server": "172.64.111.69",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "185.46.0.192",
+            "server_port": 2053,
+            "uuid": "2ec5db96-c091-4401-9528-35c1ec513de1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
-                }
             }
         },
         {
@@ -1148,11 +1131,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 443,
-            "uuid": "13ba9154-0ace-443b-b38a-5349031d4e1d",
+            "uuid": "601899cf-ed90-433d-9ccd-9fcd2c0cfcac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {

@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
-                "🇰🇷KR | trojan | @ConfigsHUB | 4",
+                "🇺🇸US | vmess | @ConfigsHUB | 10",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
-                "🇰🇷KR | trojan | @ConfigsHUB | 4",
+                "🇺🇸US | vmess | @ConfigsHUB | 10",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -1247,25 +1247,20 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇰🇷KR | trojan | @ConfigsHUB | 4",
-            "type": "trojan",
-            "server": "131.186.21.135",
-            "server_port": 60954,
-            "password": "huge123456",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 10",
+            "type": "vmess",
+            "server": "174.136.205.46",
+            "server_port": 39027,
+            "uuid": "26419143-8a06-43ab-d58c-bea7b7da8203",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "h.iveze.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {

@@ -131,15 +131,16 @@
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 23",
                 "🇸🇪SE | vless | @ServerNett | 13",
-                "🇸🇪SE | vless | @v2ray_swhil | 10",
+                "🇨🇦CA | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇮🇷IR | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇧🇷BR | vless | @V2RayTz | 15",
+                "🇨🇦CA | vless | @DailyV2RY | 101",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -190,15 +191,16 @@
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 23",
                 "🇸🇪SE | vless | @ServerNett | 13",
-                "🇸🇪SE | vless | @v2ray_swhil | 10",
+                "🇨🇦CA | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇮🇷IR | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇧🇷BR | vless | @V2RayTz | 15",
+                "🇨🇦CA | vless | @DailyV2RY | 101",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -823,11 +825,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray_swhil | 10",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 11",
             "type": "vless",
-            "server": "185.146.173.146",
-            "server_port": 80,
-            "uuid": "1ba939cd-b055-43bb-a35d-e011cb7c3ac8",
+            "server": "188.114.96.6",
+            "server_port": 443,
+            "uuid": "300ed34d-5378-4028-874d-43e1e05bc06d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -835,11 +837,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "DisVpn.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--HAJIMAMADVPN",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "185.146.173.146"
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },
@@ -972,6 +984,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 101",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "61900d77-25d0-4424-a1f9-53932275ee97",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray",
+                "headers": {
+                    "Host": "zula.ir"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @sinabigo | 1",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1024,17 +1057,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "infislavefinn.sumsong.shop",
-            "server_port": 9102,
-            "uuid": "cecb31b3-15a4-434f-8b02-f57a79c85d15",
+            "server": "LIGHTNING6-joinbed.filj.top",
+            "server_port": 8880,
+            "uuid": "31331185-73c8-4941-ad33-3f83de50906c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "headers": {
+                    "Host": "LIGHTNING6-joinbed.filj.top"
+                }
             }
         },
         {
@@ -1134,9 +1174,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "eagle.Hafezdivan.Online.",
-            "server_port": 80,
-            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "262e9f21-aef4-47ab-8a81-c16f9ee9bbe1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1144,11 +1184,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "VIOlEtKaUfman.PAGes.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/bzOBBxsE2eORVlNU?ed",
                 "headers": {
-                    "Host": "eagle.Hafezdivan.Online."
+                    "Host": "VIOlEtKaUfman.PAGes.dev"
                 }
             }
         },

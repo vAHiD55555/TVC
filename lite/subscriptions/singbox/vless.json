@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 7",
                 "🇸🇪SE | vless | @V2rayNGn | 28",
-                "🇮🇷IR | vless | @Outline_Vpn | 18",
+                "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
@@ -141,7 +141,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 110",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -184,7 +184,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 7",
                 "🇸🇪SE | vless | @V2rayNGn | 28",
-                "🇮🇷IR | vless | @Outline_Vpn | 18",
+                "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
@@ -201,7 +201,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 110",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -678,17 +678,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @Outline_Vpn | 18",
+            "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
             "type": "vless",
-            "server": "89.235.118.236",
-            "server_port": 2053,
-            "uuid": "4219373a-412d-4347-80b3-85e7b5a38728",
+            "server": "172.64.86.128",
+            "server_port": 80,
+            "uuid": "186c6afe-7234-4911-839f-77086e9b7278",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.64.86.128"
+                }
             }
         },
         {
@@ -976,9 +983,9 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.200",
-            "server_port": 8880,
-            "uuid": "%38%63%39%66%62%32%62%37%2d%62%63%38%34%2d%34%62%66%30%2d%61%36%36%36%2d%34%64%65%61%30%38%65%31%39%32%64%64",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "%31%62%32%32%32%65%39%62%2d%65%38%61%37%2d%34%35%39%38%2d%39%39%65%37%2d%35%65%31%34%31%61%63%31%32%37%65%30",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -988,9 +995,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.200"
+                    "Host": "185.146.173.37"
                 }
             }
         },
@@ -1068,7 +1075,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
             "type": "vless",
             "server": "185.146.173.38",
             "server_port": 2095,

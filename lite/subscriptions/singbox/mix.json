@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
-                "🇫🇷FR | vmess | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 16",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -217,7 +217,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
-                "🇫🇷FR | vmess | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 16",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -880,7 +880,7 @@
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
-            "uuid": "81d323b1-76a3-4d41-94a6-bc81bcf055e7",
+            "uuid": "e4a5a90c-88cb-49b2-81d8-c197e81fd9ac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1118,9 +1118,9 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 2095,
-            "uuid": "50858d39-fb35-452c-96af-9d4f028dd631",
+            "server": "185.146.173.237",
+            "server_port": 8080,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1130,9 +1130,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "185.146.173.95"
+                    "Host": "185.146.173.237"
                 }
             }
         },
@@ -1220,20 +1220,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "162.19.25.207",
-            "server_port": 44513,
-            "uuid": "4552bdb6-e008-43ac-926d-c6c6c5a6fc76",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "185.146.173.69",
+            "server_port": 8080,
+            "uuid": "af883be7-78dc-4fae-89b0-807d554eecd1",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,V2ray,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers?ed=2560",
+                "headers": {
+                    "Host": "185.146.173.69"
+                }
             }
         },
         {

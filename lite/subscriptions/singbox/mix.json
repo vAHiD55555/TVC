@@ -142,13 +142,13 @@
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 11",
-                "🇸🇬SG | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | ss | @VmessProtocol | 7",
                 "🇨🇦CA | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -214,13 +214,13 @@
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 11",
-                "🇸🇬SG | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | ss | @VmessProtocol | 7",
                 "🇨🇦CA | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1090,11 +1090,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @V2RayTz | 19",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "154.219.5.93",
-            "server_port": 2087,
-            "uuid": "958ddeda-3232-4f17-9d19-8fc77ff12956",
+            "server": "185.146.173.200",
+            "server_port": 8880,
+            "uuid": "8c9fb2b7-bc84-4bf0-a666-4dea08e192dd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1102,22 +1102,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "v2rayc.liopiol.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "headers": {
+                    "Host": "185.146.173.200"
+                }
             }
         },
         {
@@ -1214,11 +1204,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "eagle.hafezdivan.online.",
+            "server": "2.189.59.6",
             "server_port": 443,
-            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
+            "uuid": "64e9a6b7-7641-4ff8-82a2-69dca9341626",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1228,7 +1218,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "eagle.hafezdivan.online.",
+                "server_name": "telegram-vpnhttpinjectorfree.dariela-463.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1238,9 +1228,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-@MARAMBASHI-MARAMBASHI\/?ed=2560",
+                "path": "\/Telegram:@VPNHTTPInjectorfree-Telegram:@VPNHTTPInjectorfree-Telegram:@VPNHTTPInjectorfree-Telegram:@VPNHTTPInjectorfree-Telegram:@VPNHTTPInjectorfree",
                 "headers": {
-                    "Host": "eagle.hafezdivan.online."
+                    "Host": "telegram-vpnhttpinjectorfree.dariela-463.workers.dev"
                 }
             }
         },

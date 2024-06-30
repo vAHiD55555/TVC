@@ -123,7 +123,7 @@
                 "🇩🇪DE | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 6",
-                "🇸🇪SE | vless | @V2rayNGn | 20",
+                "🇸🇪SE | vless | @V2rayNGn | 34",
                 "🇩🇪DE | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -142,11 +142,11 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
-                "🇨🇦CA | vless | @V2RayTz | 14",
+                "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 129",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇸🇬SG | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -191,7 +191,7 @@
                 "🇩🇪DE | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 6",
-                "🇸🇪SE | vless | @V2rayNGn | 20",
+                "🇸🇪SE | vless | @V2rayNGn | 34",
                 "🇩🇪DE | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -210,11 +210,11 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
-                "🇨🇦CA | vless | @V2RayTz | 14",
+                "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 129",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇸🇬SG | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -673,11 +673,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2rayNGn | 20",
+            "tag": "🇸🇪SE | vless | @V2rayNGn | 34",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "Join_VPNCUSTOMIZE",
+            "uuid": "telegram_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1112,11 +1112,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 14",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 14",
             "type": "vless",
-            "server": "188.114.96.2",
-            "server_port": 80,
-            "uuid": "00428bd5-1554-4a35-bf79-332d532c1197",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "32961a93-a811-412a-b5f0-3cb7ccef4a6c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1126,9 +1126,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "path": "\/",
                 "headers": {
-                    "Host": "188.114.96.2"
+                    "Host": "185.146.173.37"
                 }
             }
         },
@@ -1206,11 +1206,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "Zz.zemesTanil.IR",
-            "server_port": 2083,
-            "uuid": "Telegram-ipV2Ray-zyu",
+            "server": "185.146.173.58",
+            "server_port": 2095,
+            "uuid": "11e81251-ea65-48bc-bfd4-c4d38ef0f8cc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1218,22 +1218,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Zch1.Zemestanil.IR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/servernet",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
             }
         },
         {

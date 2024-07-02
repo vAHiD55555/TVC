@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -162,7 +162,7 @@
                 "🇹🇷TR | vmess | @v2Line | 6",
                 "🇲🇾MY | vless | @FreakConfig | 10",
                 "🇸🇬SG | vless | @flyv2ray | 12",
-                "🇮🇷IR | vless | @mehrosaboran | 5",
+                "🇮🇷IR | vless | @mehrosaboran | 3",
                 "🇩🇪DE | vless | @kiava | 9",
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇨🇷CR | vless | @proxy_mtm | 2",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -235,7 +235,7 @@
                 "🇹🇷TR | vmess | @v2Line | 6",
                 "🇲🇾MY | vless | @FreakConfig | 10",
                 "🇸🇬SG | vless | @flyv2ray | 12",
-                "🇮🇷IR | vless | @mehrosaboran | 5",
+                "🇮🇷IR | vless | @mehrosaboran | 3",
                 "🇩🇪DE | vless | @kiava | 9",
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇨🇷CR | vless | @proxy_mtm | 2",
@@ -1238,17 +1238,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "mangment-cdn.cleanmark.ir",
-            "server_port": 6060,
-            "uuid": "50eb19de-087c-4041-af10-736ae3fcd218",
+            "server": "bpb-worker-panel-8ms.pages.dev",
+            "server_port": 2053,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bPB-wORKeR-panEL-8MS.PAGeS.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DoVZUtFYZ9bFiEky?ed=2560",
+                "headers": {
+                    "Host": "bPB-wORKeR-panEL-8MS.PAGeS.dEv"
+                }
             }
         },
         {
@@ -1543,7 +1560,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @mehrosaboran | 5",
+            "tag": "🇮🇷IR | vless | @mehrosaboran | 3",
             "type": "vless",
             "server": "2.189.59.6",
             "server_port": 443,

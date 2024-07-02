@@ -138,14 +138,14 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 0",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇸🇪SE | vless | @FreakConfig | 10",
+                "🇲🇾MY | vless | @FreakConfig | 10",
                 "🇸🇬SG | vless | @flyv2ray | 12",
                 "🇮🇷IR | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 9",
@@ -193,14 +193,14 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 0",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇸🇪SE | vless | @FreakConfig | 10",
+                "🇲🇾MY | vless | @FreakConfig | 10",
                 "🇸🇬SG | vless | @flyv2ray | 12",
                 "🇮🇷IR | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 9",
@@ -972,11 +972,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "tracking.canva.com",
-            "server_port": 8880,
-            "uuid": "25094bf9-f475-49d0-811b-4af9a5146865",
+            "server": "185.146.173.38",
+            "server_port": 2095,
+            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb54",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -986,9 +986,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--HOSTPERSIAN.V2ray.re?ed=8880",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "tracking.canva.com"
+                    "Host": "185.146.173.38"
                 }
             }
         },
@@ -1137,11 +1137,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @FreakConfig | 10",
+            "tag": "🇲🇾MY | vless | @FreakConfig | 10",
             "type": "vless",
-            "server": "185.146.173.37",
-            "server_port": 2095,
-            "uuid": "6e94bfa2-e3e2-443d-ad69-d6fcfcaf14f2",
+            "server": "172.66.46.224",
+            "server_port": 443,
+            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1149,11 +1149,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "t-netplus-4vx.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "t-netplus-4vx.pages.dev"
                 }
             }
         },

@@ -133,13 +133,14 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
-                "🇸🇪SE | vless | @proxyymeliii | 47",
+                "🇸🇪SE | vless | @proxyymeliii | 50",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 0",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @lrnbymaa | 34",
+                "🇮🇷IR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -189,13 +190,14 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
-                "🇸🇪SE | vless | @proxyymeliii | 47",
+                "🇸🇪SE | vless | @proxyymeliii | 50",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 0",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @lrnbymaa | 34",
+                "🇮🇷IR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -859,11 +861,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 47",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 50",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "Telegram_VPNCUSTOMIZE",
+            "uuid": "Source_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1005,11 +1007,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 34",
             "type": "vless",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "1a94747b-8901-4812-ba23-7eb44cc1162f",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "Telegram_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1017,22 +1019,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "kingOfIRaN.Pages.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-PROXY_MTM?ed=2560",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "kingOfIRaN.Pages.DEV"
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "mangment-cdn.cleanmark.ir",
+            "server_port": 6060,
+            "uuid": "50eb19de-087c-4041-af10-736ae3fcd218",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {

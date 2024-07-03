@@ -145,7 +145,7 @@
                 "🇦🇪AE | ss | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇩🇰DK | ss | @OutlineVpnOfficial | 18",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | trojan | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -215,7 +215,7 @@
                 "🇦🇪AE | ss | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇩🇰DK | ss | @OutlineVpnOfficial | 18",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | trojan | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -306,7 +306,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "13.43.175.83",
+            "server": "18.135.155.36",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -649,7 +649,7 @@
         {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "3.11.55.148",
+            "server": "18.135.200.252",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -671,7 +671,7 @@
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "3.129.140.194",
+            "server": "3.22.179.84",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -916,9 +916,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2ray_swhil | 13",
             "type": "vless",
-            "server": "104.18.5.2",
-            "server_port": 2096,
-            "uuid": "85b94f20-e563-498b-9d4b-a75438a51101",
+            "server": "172.64.146.118",
+            "server_port": 8443,
+            "uuid": "ecc19b72-2cc8-4690-b23d-960d3e3c6d40",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -928,7 +928,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "VFIvE-teLeGram.PAGEs.Dev",
+                "server_name": "pardazeshvpn-tg24.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -938,9 +938,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/5fz4m1ggihzpkyya?ed=2560",
+                "path": "\/Bia-Kanal-@Free_V2rng",
                 "headers": {
-                    "Host": "VFIvE-teLeGram.PAGEs.Dev"
+                    "Host": "pardazeshvpn-tg24.pages.dev"
                 }
             }
         },
@@ -1121,17 +1121,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "main.del1.tech",
-            "server_port": 57616,
-            "uuid": "1018",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "8b7efacf-8e83-4e51-ab55-1263baccd4b2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "7f905f51.garywelch.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "headers": {
+                    "Host": "7f905f51.garywelch.pages.dev"
+                }
             }
         },
         {

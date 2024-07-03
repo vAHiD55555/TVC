@@ -150,18 +150,18 @@
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇩🇰DK | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇴CO | vless | @Outlinev2rayNG | 16",
+                "🇲🇾MY | vless | @Outlinev2rayNG | 16",
                 "🇲🇾MY | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇹🇷TR | vmess | @v2Line | 7",
-                "🇲🇾MY | vless | @FreakConfig | 10",
+                "🇨🇦CA | vless | @FreakConfig | 10",
                 "🇸🇪SE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
                 "🇮🇷IR | vless | @mehrosaboran | 3",
@@ -225,18 +225,18 @@
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇩🇰DK | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇴CO | vless | @Outlinev2rayNG | 16",
+                "🇲🇾MY | vless | @Outlinev2rayNG | 16",
                 "🇲🇾MY | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇹🇷TR | vmess | @v2Line | 7",
-                "🇲🇾MY | vless | @FreakConfig | 10",
+                "🇨🇦CA | vless | @FreakConfig | 10",
                 "🇸🇪SE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
                 "🇮🇷IR | vless | @mehrosaboran | 3",
@@ -1246,11 +1246,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.64.87.52",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "159.89.98.87",
+            "server_port": 8880,
+            "uuid": "72e3ba46-6e34-4fca-a263-f19da038c0cd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1258,21 +1258,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/2.V2ray.debian.org.fxp.debian.org.speedtest.net.らわなさらわ.madariran.filegear-sg.me",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "159.89.98.87"
                 }
             }
         },
@@ -1430,11 +1420,11 @@
             }
         },
         {
-            "tag": "🇨🇴CO | vless | @Outlinev2rayNG | 16",
+            "tag": "🇲🇾MY | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "nl.hosting-ip.com",
-            "server_port": 8880,
-            "uuid": "CHannel_ExpressVPN_420",
+            "server": "172.66.44.55",
+            "server_port": 443,
+            "uuid": "104380d8-f859-421a-bd11-29b2c9fbfa99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1442,11 +1432,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "famil-5c8.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420V2ray.re",
+                "path": "\/",
                 "headers": {
-                    "Host": "nl.hosting-ip.com"
+                    "Host": "famil-5c8.pages.dev"
                 }
             }
         },
@@ -1518,7 +1518,7 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vless | @FreakConfig | 10",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 10",
             "type": "vless",
             "server": "172.66.46.224",
             "server_port": 443,

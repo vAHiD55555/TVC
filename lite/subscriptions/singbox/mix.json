@@ -133,7 +133,7 @@
                 "🇨🇷CR | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vmess | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
-                "🇨🇦CA | vless | @vmessorg | 13",
+                "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 22",
                 "🇸🇪SE | vless | @ServerNett | 12",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇩🇰DK | ss | @OutlineVpnOfficial | 19",
-                "🇵🇭PH | vmess | @ConfigsHUB | 4",
+                "🇩🇪DE | trojan | @ConfigsHUB | 10",
                 "🇩🇪DE | trojan | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
@@ -205,7 +205,7 @@
                 "🇨🇷CR | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vmess | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
-                "🇨🇦CA | vless | @vmessorg | 13",
+                "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 22",
                 "🇸🇪SE | vless | @ServerNett | 12",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇩🇰DK | ss | @OutlineVpnOfficial | 19",
-                "🇵🇭PH | vmess | @ConfigsHUB | 4",
+                "🇩🇪DE | trojan | @ConfigsHUB | 10",
                 "🇩🇪DE | trojan | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
@@ -864,7 +864,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 13",
+            "tag": "🇨🇦CA | vless | @vmessorg | 12",
             "type": "vless",
             "server": "104.21.78.161",
             "server_port": 8080,
@@ -1183,26 +1183,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇵🇭PH | vmess | @ConfigsHUB | 4",
-            "type": "vmess",
-            "server": "38.54.80.63",
-            "server_port": 44428,
-            "uuid": "388de77b-9709-4e75-b791-5702867a1202",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇩🇪DE | trojan | @ConfigsHUB | 10",
+            "type": "trojan",
+            "server": "52.57.80.200",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

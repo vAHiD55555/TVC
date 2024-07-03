@@ -139,13 +139,13 @@
                 "🇸🇪SE | vless | @DailyV2RY | 85",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
-                "🇺🇸US | vless | @Capital_NET | 45",
-                "🇲🇾MY | vless | @FreakConfig | 11",
+                "🏳️XX | vless | @Capital_NET | 45",
+                "🇲🇾MY | vless | @FreakConfig | 12",
                 "🇸🇪SE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
@@ -194,13 +194,13 @@
                 "🇸🇪SE | vless | @DailyV2RY | 85",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
-                "🇺🇸US | vless | @Capital_NET | 45",
-                "🇲🇾MY | vless | @FreakConfig | 11",
+                "🏳️XX | vless | @Capital_NET | 45",
+                "🇲🇾MY | vless | @FreakConfig | 12",
                 "🇸🇪SE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
@@ -996,11 +996,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "Zula.ir",
-            "server_port": 2087,
-            "uuid": "d4d0a56e-9616-4da6-823e-40663f8a0c81",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "547045a7-3ca1-41b7-af58-f74f8d43426a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1008,21 +1008,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "fa.lightning6x.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "fa.lightning6x.ir"
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -1121,7 +1111,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capital_NET | 45",
+            "tag": "🏳️XX | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -1150,7 +1140,7 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vless | @FreakConfig | 11",
+            "tag": "🇲🇾MY | vless | @FreakConfig | 12",
             "type": "vless",
             "server": "172.66.44.135",
             "server_port": 80,

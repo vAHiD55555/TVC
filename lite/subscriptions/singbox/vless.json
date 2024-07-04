@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 17",
+                "🇸🇪SE | vless | @EliV2ray | 18",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 3",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @ipV2Ray | 14",
@@ -135,11 +135,11 @@
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 3",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 85",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇸🇪SE | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -161,7 +161,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 17",
+                "🇸🇪SE | vless | @EliV2ray | 18",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 3",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @ipV2Ray | 14",
@@ -190,11 +190,11 @@
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 3",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 85",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇸🇪SE | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -232,7 +232,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 17",
+            "tag": "🇸🇪SE | vless | @EliV2ray | 18",
             "type": "vless",
             "server": "TG.ELiV2ray.io",
             "server_port": 80,
@@ -892,11 +892,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "185.146.173.18",
-            "server_port": 8080,
-            "uuid": "%36%63%35%35%65%65%33%30%2d%66%32%33%65%2d%34%32%66%34%2d%62%62%63%63%2d%61%31%39%66%30%34%63%36%33%61%65%34",
+            "server": "185.146.173.58",
+            "server_port": 80,
+            "uuid": "%32%62%62%31%39%35%32%32%2d%32%39%63%38%2d%34%39%33%63%2d%61%36%34%65%2d%64%38%61%32%66%63%34%38%36%30%32%63",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -906,9 +906,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
-                    "Host": "185.146.173.18"
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -976,11 +976,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "20948265-ea02-416a-8ce4-3db7a80cc3f4",
+            "server": "Zula.ir",
+            "server_port": 2087,
+            "uuid": "d4d0a56e-9616-4da6-823e-40663f8a0c81",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -988,11 +988,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "fa.lightning6x.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/servernet",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "fa.lightning6x.ir"
                 }
             }
         },

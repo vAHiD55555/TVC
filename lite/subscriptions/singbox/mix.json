@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇺🇸US | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
-                "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇳🇴NO | vless | @VmessProtocol | 9",
                 "🇸🇪SE | vless | @DailyV2RY | 100",
                 "🇨🇦CA | vless | @sinabigo | 3",
@@ -210,7 +210,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇺🇸US | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
-                "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇳🇴NO | vless | @VmessProtocol | 9",
                 "🇸🇪SE | vless | @DailyV2RY | 100",
                 "🇨🇦CA | vless | @sinabigo | 3",
@@ -1095,11 +1095,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "188.114.96.2",
+            "server_port": 8080,
+            "uuid": "CHANNEL",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1109,9 +1109,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "188.114.96.2"
                 }
             }
         },
@@ -1189,9 +1189,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "www.visa.com.sg",
-            "server_port": 8443,
-            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
+            "server": "104.24.185.137",
+            "server_port": 8080,
+            "uuid": "Parsashonam-6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1199,22 +1199,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazesh-tgws.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/Tel-proxy_mtm\/?ed=2560",
-                "headers": {
-                    "Host": "pardazesh-tgws.pages.dev"
-                }
+                "type": "grpc",
+                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

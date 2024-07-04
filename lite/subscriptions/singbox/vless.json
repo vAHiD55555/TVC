@@ -139,11 +139,12 @@
                 "🇸🇪SE | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @proxystore11 | 8",
                 "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇲🇾MY | vless | @FreakConfig | 12",
                 "🇺🇸US | vless | @flyv2ray | 12",
@@ -194,11 +195,12 @@
                 "🇸🇪SE | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @proxystore11 | 8",
                 "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇲🇾MY | vless | @FreakConfig | 12",
                 "🇺🇸US | vless | @flyv2ray | 12",
@@ -976,6 +978,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "104.16.181.38",
+            "server_port": 443,
+            "uuid": "7f035a95-4b51-4e0b-8995-59864a9cde22",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "MSdOnoR.pagEs.dEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "MSdOnoR.pagEs.dEV"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @proxystore11 | 8",
             "type": "vless",
             "server": "185.146.173.237",
@@ -1039,7 +1072,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
             "server": "104.18.5.2",
             "server_port": 2096,
@@ -1070,7 +1103,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 10",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 8080,

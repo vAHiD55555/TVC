@@ -132,7 +132,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇬🇧GB | trojan | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
-                "🇨🇦CA | vless | @prrofile_purple | 182",
+                "🇨🇦CA | vless | @prrofile_purple | 173",
                 "🇨🇦CA | vmess | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 11",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
                 "🇭🇺HU | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇧🇷BR | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -206,7 +206,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇬🇧GB | trojan | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
-                "🇨🇦CA | vless | @prrofile_purple | 182",
+                "🇨🇦CA | vless | @prrofile_purple | 173",
                 "🇨🇦CA | vmess | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 11",
@@ -224,7 +224,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
                 "🇭🇺HU | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇧🇷BR | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -846,11 +846,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 182",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 173",
             "type": "vless",
-            "server": "104.16.216.241",
-            "server_port": 443,
-            "uuid": "10716279-b1ee-41d8-b63e-87782088305b",
+            "server": "104.16.219.108",
+            "server_port": 80,
+            "uuid": "7a5a4624-df8d-4955-bccc-b3fa6161411f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -858,21 +858,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "heY.bACHeBiapAiN.Ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/iXNpb8TL5D4uHOQC?ed=2560",
+                "path": "\/Telegram\/XV2ray",
                 "headers": {
-                    "Host": "heY.bACHeBiapAiN.Ir"
+                    "Host": "104.16.219.108"
                 }
             }
         },
@@ -1274,11 +1264,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇧🇷BR | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.31.16.215",
-            "server_port": 2096,
-            "uuid": "eecbe2b0-bf36-4f89-9a87-f0bda8f004b3",
+            "server": "185.159.247.35",
+            "server_port": 443,
+            "uuid": "5da27733-3527-479e-bb81-4c5a9c75d83f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1288,7 +1278,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "CafeBazarSoft98ir.misvn.ir.",
+                "server_name": "viphamester.wolfmoon.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1297,11 +1287,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/cf?ed=2560",
-                "headers": {
-                    "Host": "CafeBazarSoft98ir.misvn.ir."
-                }
+                "type": "grpc",
+                "service_name": "okala.com",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1417,9 +1407,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "skk.moe",
-            "server_port": 80,
-            "uuid": "c7bc8d93-5ab1-4964-8298-863f73c25032",
+            "server": "108.162.192.79",
+            "server_port": 443,
+            "uuid": "fb710ee0-f2d3-421c-8556-d23e5075f57e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1427,11 +1417,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-chf.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vless-ws\/?ed",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "skk.moe"
+                    "Host": "bpb-worker-panel-chf.pages.dev"
                 }
             }
         },

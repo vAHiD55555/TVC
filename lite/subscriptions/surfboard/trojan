@@ -14,11 +14,10 @@ DIRECT = direct
 🇫🇷FR | trojan | @PrivateVPNs | 15 = trojan, 13.36.254.9, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇫🇷FR | trojan | @DirectVPN | 13 = trojan, 13.37.86.178, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇬🇧GB | trojan | @oneclickvpnkeys | 4 = trojan, 178.79.140.181, 443, password = 30761083-5dcd-49d6-85b5-33756ef1f7ed, udp-delay = true, skip-cert-verify = false, sni = uk2-full.privateip.net, ws = false
-🇨🇦CA | trojan | @ConfigsHUB | 19 = trojan, 162.159.136.232, 8443, password = auto, udp-delay = true, skip-cert-verify = false, sni = e9464f45.trauma-2r4.pages.dev, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 13,🇬🇧GB | trojan | @oneclickvpnkeys | 4,🇨🇦CA | trojan | @ConfigsHUB | 19
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 13,🇬🇧GB | trojan | @oneclickvpnkeys | 4,🇨🇦CA | trojan | @ConfigsHUB | 19
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 13,🇬🇧GB | trojan | @oneclickvpnkeys | 4,🇨🇦CA | trojan | @ConfigsHUB | 19
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 13,🇬🇧GB | trojan | @oneclickvpnkeys | 4
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 13,🇬🇧GB | trojan | @oneclickvpnkeys | 4
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 13,🇬🇧GB | trojan | @oneclickvpnkeys | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

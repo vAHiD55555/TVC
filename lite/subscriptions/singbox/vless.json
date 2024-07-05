@@ -118,7 +118,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
-                "🇨🇦CA | vless | @proxy_kafee | 5",
+                "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -139,13 +139,13 @@
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @FreakConfig | 13",
+                "🇺🇸US | vless | @FreakConfig | 13",
                 "🇺🇸US | vless | @flyv2ray | 1",
                 "🇸🇪SE | vless | @FAKEOFTVC | 9",
                 "🇮🇷IR | vless | @mehrosaboran | 2",
@@ -174,7 +174,7 @@
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @lightning6 | 18",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
-                "🇨🇦CA | vless | @proxy_kafee | 5",
+                "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -195,13 +195,13 @@
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @FreakConfig | 13",
+                "🇺🇸US | vless | @FreakConfig | 13",
                 "🇺🇸US | vless | @flyv2ray | 1",
                 "🇸🇪SE | vless | @FAKEOFTVC | 9",
                 "🇮🇷IR | vless | @mehrosaboran | 2",
@@ -506,7 +506,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 5",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "104.24.20.71",
             "server_port": 443,
@@ -1026,17 +1026,34 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "188.245.60.79",
-            "server_port": 8080,
-            "uuid": "FILTERSHCAN",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "b41e1631-ceb3-47c9-ba87-c65a46f2f5a8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpNeRor.SAjadHADadi.WEbsiTe",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TElEGRAM-MARAMBASHI-MARAMBASHI",
+                "headers": {
+                    "Host": "vpNeRor.SAjadHADadi.WEbsiTe"
+                }
             }
         },
         {
@@ -1163,7 +1180,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 13",
+            "tag": "🇺🇸US | vless | @FreakConfig | 13",
             "type": "vless",
             "server": "172.66.46.224",
             "server_port": 443,

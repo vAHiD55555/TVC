@@ -140,7 +140,7 @@
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -197,7 +197,7 @@
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -1039,12 +1039,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "172.66.47.126",
+            "server": "188.245.69.77",
             "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
+            "uuid": "Telegram-ipV2Ray-xio",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1053,20 +1053,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "00e463Dc.beSTVPn-4xi.PAgES.dEv",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hbXVj1uC8AjgQrJMOPqkL3DqNKByyweB2SrbeRQ_6Xw",
+                    "short_id": "b1c8e3fa"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/yuyg5ujoovohfscy?ed=2560",
-                "headers": {
-                    "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
-                }
+                "type": "grpc",
+                "service_name": "Telegram-ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

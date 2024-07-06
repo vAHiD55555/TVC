@@ -146,8 +146,8 @@
                 "🇮🇷IR | vless | @V2RayTz | 17",
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
                 "🇺🇸US | vmess | @DailyV2RY | 105",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 19",
-                "🇫🇮FI | vless | @ConfigsHUB | 18",
+                "🇵🇹PT | ss | @OutlineVpnOfficial | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -214,8 +214,8 @@
                 "🇮🇷IR | vless | @V2RayTz | 17",
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
                 "🇺🇸US | vmess | @DailyV2RY | 105",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 19",
-                "🇫🇮FI | vless | @ConfigsHUB | 18",
+                "🇵🇹PT | ss | @OutlineVpnOfficial | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -1186,9 +1186,9 @@
             }
         },
         {
-            "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 19",
+            "tag": "🇵🇹PT | ss | @OutlineVpnOfficial | 19",
             "type": "shadowsocks",
-            "server": "77.83.246.55",
+            "server": "31.129.22.73",
             "server_port": 1080,
             "method": "chacha20-ietf-poly1305",
             "password": "3pURuTUf-lFgg5qWg8euFA",
@@ -1196,17 +1196,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "65.21.2.49",
-            "server_port": 46928,
-            "uuid": "69e25d5b-309f-429e-ba38-212465c534b0",
-            "flow": "xtls-rprx-vision",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry\/telegram-ArV2ry\/telegram-ArV2ry\/telegram-ArV2ry\/telegram-ArV2ry,telegram-ArV2ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {

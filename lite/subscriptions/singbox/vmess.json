@@ -108,8 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray1_ng | 9",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
@@ -125,8 +126,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray1_ng | 9",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
@@ -190,11 +192,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
-            "server": "172.67.171.43",
-            "server_port": 80,
-            "uuid": "b79a6959-6feb-43ba-b3c7-f1afae9ea32c",
+            "server": "23.162.152.6",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -204,13 +206,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess @hopev2ray , @hopev2ray",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -244,6 +239,30 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "104.26.0.56",
+            "server_port": 2086,
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": ""
                 }
             }
         },

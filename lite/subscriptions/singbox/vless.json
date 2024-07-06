@@ -138,9 +138,8 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
-                "🇸🇪SE | vless | @DailyV2RY | 105",
+                "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -195,9 +194,8 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇳🇴NO | vless | @VmessProtocol | 10",
-                "🇸🇪SE | vless | @DailyV2RY | 105",
+                "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -997,11 +995,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 105",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 115",
             "type": "vless",
-            "server": "185.146.173.37",
-            "server_port": 80,
-            "uuid": "1759dd49-3e82-4abb-a9ea-0b097037e09d",
+            "server": "104.18.5.2",
+            "server_port": 2096,
+            "uuid": "85b94f20-e563-498b-9d4b-a75438a51101",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1009,11 +1007,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "VFIvE-teLeGram.PAGEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/5fz4m1ggihzpkyya?ed=2560",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "VFIvE-teLeGram.PAGEs.Dev"
                 }
             }
         },
@@ -1036,42 +1044,6 @@
                 "headers": {
                     "Host": "www.Speedtest.Net"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "188.245.69.77",
-            "server_port": 443,
-            "uuid": "Telegram-ipV2Ray-xio",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hbXVj1uC8AjgQrJMOPqkL3DqNKByyweB2SrbeRQ_6Xw",
-                    "short_id": "b1c8e3fa"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

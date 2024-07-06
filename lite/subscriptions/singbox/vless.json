@@ -141,10 +141,9 @@
                 "🇮🇷IR | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 91",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
@@ -198,10 +197,9 @@
                 "🇮🇷IR | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 91",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
@@ -311,7 +309,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "52.215.94.201",
+            "server": "54.76.197.218",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1079,27 +1077,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "-DIGIV2RAY",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
-                "headers": {
-                    "Host": "www.Speedtest.Net"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @proxystore11 | 4",
             "type": "vless",
             "server": "185.146.173.237",
@@ -1142,31 +1119,23 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 15",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "panel.karunvps.shop",
-            "server_port": 1633,
-            "uuid": "dfa7a700-4941-4d1b-e5ae-21fef6e5eb71",
-            "flow": "xtls-rprx-vision",
+            "server": "172.67.66.177",
+            "server_port": 80,
+            "uuid": "bd2914ed-69b1-4533-a7f0-929527541c35",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UOplfcqYNVqgrkrOykCpxmGLPvwnPzjk8oB2fDicYn4",
-                    "short_id": "4374d295a4f9dd83"
+            "transport": {
+                "type": "ws",
+                "path": "\/Mmdv2rayng-V2rayngmmd-telegram-mmd_v2rayng?ed",
+                "headers": {
+                    "Host": "172.67.66.177"
                 }
             }
         },
@@ -1223,9 +1192,9 @@
         {
             "tag": "🇺🇸US | vless | @FreakConfig | 12",
             "type": "vless",
-            "server": "172.66.46.224",
-            "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
+            "server": "172.66.44.165",
+            "server_port": 2096,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1235,7 +1204,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
+                "server_name": "eB043Cc5.mKHaLili.PAgEs.DEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1247,7 +1216,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
+                    "Host": "eB043Cc5.mKHaLili.PAgEs.DEv"
                 }
             }
         },

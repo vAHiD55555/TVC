@@ -108,13 +108,13 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
-                "🇫🇷FR | vless | @VlessConfig | 16",
+                "🇬🇧GB | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇷CR | vless | @V2pedia | 8",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇸🇬SG | vless | @ARv2ray | 13",
+                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 8",
@@ -146,9 +146,9 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
-                "🇸🇪SE | vless | @DailyV2RY | 110",
+                "🇨🇦CA | vless | @DailyV2RY | 105",
                 "🇷🇸RS | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -178,13 +178,13 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
-                "🇫🇷FR | vless | @VlessConfig | 16",
+                "🇬🇧GB | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇷CR | vless | @V2pedia | 8",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇸🇬SG | vless | @ARv2ray | 13",
+                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 8",
@@ -216,9 +216,9 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
-                "🇸🇪SE | vless | @DailyV2RY | 110",
+                "🇨🇦CA | vless | @DailyV2RY | 105",
                 "🇷🇸RS | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -304,9 +304,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 16",
+            "tag": "🇬🇧GB | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "15.188.233.151",
+            "server": "13.42.238.73",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -440,12 +440,12 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @ARv2ray | 13",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 13",
             "type": "vless",
-            "server": "ArV2ray.mehpow.IR",
+            "server": "188.245.34.226",
             "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
-            "flow": "",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -454,17 +454,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "5d.bahrane.IR",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ad2-N0bBOT1XOpH0GbCNsw2tMBxGAXXO_58D2-__xDI",
+                    "short_id": "b5c5a943"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -785,7 +790,7 @@
         {
             "tag": "🇫🇷FR | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "15.236.119.203",
+            "server": "13.37.10.63",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1194,11 +1199,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 110",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 105",
             "type": "vless",
-            "server": "185.146.173.37",
-            "server_port": 80,
-            "uuid": "c4b9c343-ea6b-4853-8c64-ff3e5ca38273",
+            "server": "172.64.146.118",
+            "server_port": 8443,
+            "uuid": "ecc19b72-2cc8-4690-b23d-960d3e3c6d40",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1206,11 +1211,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazeshvpn-tg24.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "pardazeshvpn-tg24.pages.dev"
                 }
             }
         },
@@ -1225,11 +1240,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir.",
-            "server_port": 443,
-            "uuid": "8bf8b843-bc88-43f7-926c-ab82dd27b220",
+            "server": "104.21.63.234",
+            "server_port": 80,
+            "uuid": "2e05a59d-e0ad-4f93-96c4-41afa62aed9b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1237,21 +1252,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "my.halachicago.com.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN",
+                "path": "\/",
                 "headers": {
-                    "Host": "my.halachicago.com."
+                    "Host": "104.21.63.234"
                 }
             }
         },

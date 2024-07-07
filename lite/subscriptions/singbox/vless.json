@@ -120,11 +120,12 @@
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @lightning6 | 16",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
-                "🇨🇦CA | vless | @proxy_kafee | 4",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 9",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @ProxyForOpeta | 5",
                 "🇸🇪SE | vless | @V2rayNGn | 43",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
@@ -141,13 +142,14 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 9",
-                "🇺🇸US | vless | @flyv2ray | 7",
+                "🇺🇸US | vless | @flyv2ray | 8",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 7",
@@ -178,11 +180,12 @@
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @lightning6 | 16",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
-                "🇨🇦CA | vless | @proxy_kafee | 4",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 9",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @ProxyForOpeta | 5",
                 "🇸🇪SE | vless | @V2rayNGn | 43",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
@@ -199,13 +202,14 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 9",
-                "🇺🇸US | vless | @flyv2ray | 7",
+                "🇺🇸US | vless | @flyv2ray | 8",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 7",
@@ -557,7 +561,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 4",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "104.16.181.38",
             "server_port": 443,
@@ -696,6 +700,37 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "kennethrasmussenkennethrasmussenkennethrasmussenkennethras.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 5",
+            "type": "vless",
+            "server": "proxyforopeta.liongame1.ir",
+            "server_port": 2083,
+            "uuid": "229f58f4-b75d-44d6-9d79-997115ece4da",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "proxyforopeta.liongame1.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/JoinChanel-proxyforopeta-telegram:@proxyforopeta-telegram-proxyforopeta-joinchanel@proxyforopeta.proxyforopeta.join-@proxyforopeta.telegram:@proxyforopeta-V2rayngmmd-telegram-free-v2ray?ed=2560",
+                "headers": {
+                    "Host": "proxyforopeta.liongame1.ir"
                 }
             }
         },
@@ -1086,6 +1121,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "162.159.152.152",
+            "server_port": 443,
+            "uuid": "97e092ee-3a03-434d-a38a-cabd9f860254",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join-v2rey.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "headers": {
+                    "Host": "join-v2rey.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @proxystore11 | 3",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1128,7 +1194,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -1230,7 +1296,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 7",
+            "tag": "🇺🇸US | vless | @flyv2ray | 8",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,

@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 9",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
-                "🇸🇪SE | vless | @V2rayNGn | 36",
+                "🇸🇪SE | vless | @V2rayNGn | 39",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -142,6 +142,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
@@ -183,7 +184,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 9",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
-                "🇸🇪SE | vless | @V2rayNGn | 36",
+                "🇸🇪SE | vless | @V2rayNGn | 39",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -199,6 +200,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
@@ -714,11 +716,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2rayNGn | 36",
+            "tag": "🇸🇪SE | vless | @V2rayNGn | 39",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "Bia_too_VPNCUSTOMIZE",
+            "uuid": "Come_To_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1096,6 +1098,27 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.16.129.18",
+            "server_port": 8080,
+            "uuid": "878eda53-1afa-4a1c-b8fb-1a775db39fc3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
+                "headers": {
+                    "Host": "104.16.129.18"
                 }
             }
         },

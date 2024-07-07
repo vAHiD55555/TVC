@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 9",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
-                "🇸🇪SE | vless | @V2rayNGn | 36",
+                "🇸🇪SE | vless | @V2rayNGn | 39",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | trojan | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -195,7 +195,7 @@
                 "🇨🇦CA | vless | @V2rayCollector | 9",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
-                "🇸🇪SE | vless | @V2rayNGn | 36",
+                "🇸🇪SE | vless | @V2rayNGn | 39",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -217,7 +217,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | trojan | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -738,11 +738,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2rayNGn | 36",
+            "tag": "🇸🇪SE | vless | @V2rayNGn | 39",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "Bia_too_VPNCUSTOMIZE",
+            "uuid": "Come_To_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1229,31 +1229,23 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | trojan | @ConfigsHUB | 18",
-            "type": "trojan",
-            "server": "104.18.12.229",
-            "server_port": 2053,
-            "password": "auto",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.16.129.18",
+            "server_port": 8080,
+            "uuid": "878eda53-1afa-4a1c-b8fb-1a775db39fc3",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "e9464f45.trauma-2r4.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "e9464f45.trauma-2r4.pages.dev"
+                    "Host": "104.16.129.18"
                 }
             }
         },

@@ -143,11 +143,11 @@
                 "🇸🇪SE | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
-                "🇮🇷IR | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
                 "🇺🇸US | vmess | @DailyV2RY | 105",
                 "🇵🇹PT | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -212,11 +212,11 @@
                 "🇸🇪SE | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
-                "🇮🇷IR | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
                 "🇺🇸US | vmess | @DailyV2RY | 105",
                 "🇵🇹PT | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -1118,11 +1118,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @V2RayTz | 17",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "2.189.59.2",
-            "server_port": 443,
-            "uuid": "b96e76e8-0b06-4cdc-af76-2481ab186aa3",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "adbc546e-cbc1-45e9-9f80-7bee55390933",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1130,22 +1130,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mci.unlimiteddev-vpn.Com.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Channel:@UnlimitedDev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/servernet",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
             }
         },
         {
@@ -1198,11 +1188,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "fb.fortestt.ir",
-            "server_port": 2087,
-            "uuid": "56c9ff6f-a210-4791-a35d-54e550d0382e",
+            "server": "172.64.87.52",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1212,7 +1202,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fb.fortestt.ir",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1222,9 +1212,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
                 "headers": {
-                    "Host": "fb.fortestt.ir"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },

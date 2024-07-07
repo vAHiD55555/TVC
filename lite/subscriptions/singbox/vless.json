@@ -137,8 +137,8 @@
                 "🇸🇪SE | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
-                "🇮🇷IR | vless | @V2RayTz | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -191,8 +191,8 @@
                 "🇸🇪SE | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
-                "🇮🇷IR | vless | @V2RayTz | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
@@ -969,11 +969,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @V2RayTz | 17",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "2.189.59.2",
-            "server_port": 443,
-            "uuid": "%62%39%36%65%37%36%65%38%2d%30%62%30%36%2d%34%63%64%63%2d%61%66%37%36%2d%32%34%38%31%61%62%31%38%36%61%61%33",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "%61%64%62%63%35%34%36%65%2d%63%62%63%31%2d%34%35%65%39%2d%39%66%38%30%2d%37%62%65%65%35%35%33%39%30%39%33%33",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -981,30 +981,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mci.unlimiteddev-vpn.Com.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Channel:@UnlimitedDev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/servernet",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "fb.fortestt.ir",
-            "server_port": 2087,
-            "uuid": "56c9ff6f-a210-4791-a35d-54e550d0382e",
+            "server": "172.64.87.52",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1014,7 +1004,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fb.fortestt.ir",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1024,9 +1014,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
                 "headers": {
-                    "Host": "fb.fortestt.ir"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },

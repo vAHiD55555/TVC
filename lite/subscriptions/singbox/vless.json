@@ -119,6 +119,7 @@
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 6",
+                "🇸🇪SE | vless | @lightning6 | 16",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
                 "🇨🇷CR | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 12",
@@ -127,7 +128,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @V2rayNGn | 42",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
-                "🇸🇪SE | vless | @prrofile_purple | 171",
+                "🇸🇪SE | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 21",
                 "🇨🇦CA | vless | @vmessorg | 11",
@@ -142,8 +143,9 @@
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 10",
@@ -176,6 +178,7 @@
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 6",
+                "🇸🇪SE | vless | @lightning6 | 16",
                 "🇸🇪SE | vless | @DigiV2ray | 25",
                 "🇨🇷CR | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 12",
@@ -184,7 +187,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @V2rayNGn | 42",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
-                "🇸🇪SE | vless | @prrofile_purple | 171",
+                "🇸🇪SE | vless | @prrofile_purple | 180",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 21",
                 "🇨🇦CA | vless | @vmessorg | 11",
@@ -199,8 +202,9 @@
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 10",
@@ -534,6 +538,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @lightning6 | 16",
+            "type": "vless",
+            "server": "LIGHTNING6-joinbed.filj.top",
+            "server_port": 8880,
+            "uuid": "92dd2d3c-1f9c-47b5-81e3-a0ab97dc5cde",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "headers": {
+                    "Host": "LIGHTNING6-joinbed.filj.top"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @DigiV2ray | 25",
             "type": "vless",
             "server": "185.146.173.43",
@@ -740,11 +765,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @prrofile_purple | 171",
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 180",
             "type": "vless",
-            "server": "185.146.173.37",
+            "server": "185.146.173.38",
             "server_port": 2095,
-            "uuid": "a10ec8a1-2a6b-4ae5-b81c-9970e4081079",
+            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb45",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -754,9 +779,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "185.146.173.38"
                 }
             }
         },
@@ -1095,6 +1120,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/kkhhl0gssoz7m6id\/zgu1lm1lcmxpbm56lmxpbms=?ed=2560",
+                "headers": {
+                    "Host": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @polproxy | 7",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1116,7 +1172,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
             "server": "eagle.hafezdivan.online.",
             "server_port": 80,

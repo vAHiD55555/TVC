@@ -109,7 +109,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 5",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 7",
-                "🇬🇧GB | vless | @VlessConfig | 15",
+                "🇺🇸US | vless | @VlessConfig | 13",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇨🇷CR | vless | @V2pedia | 8",
@@ -143,10 +143,8 @@
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
-                "🇨🇦CA | vless | @proxystore11 | 3",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 7",
@@ -169,7 +167,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 5",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 7",
-                "🇬🇧GB | vless | @VlessConfig | 15",
+                "🇺🇸US | vless | @VlessConfig | 13",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇨🇷CR | vless | @V2pedia | 8",
@@ -203,10 +201,8 @@
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
-                "🇨🇦CA | vless | @proxystore11 | 3",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 7",
@@ -305,9 +301,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @VlessConfig | 15",
+            "tag": "🇺🇸US | vless | @VlessConfig | 13",
             "type": "vless",
-            "server": "35.179.82.203",
+            "server": "54.225.199.10",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1127,25 +1123,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "85.133.151.142",
-            "server_port": 35349,
-            "uuid": "86632902-c329-40f8-a7a2-43fb983f7e7c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 3",
-            "type": "vless",
-            "server": "104.21.65.133",
-            "server_port": 80,
-            "uuid": "8fba3304-bb4e-418e-868f-b27b33109135",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1153,11 +1135,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/SvnTeamV2ray",
+                "path": "\/JOIN-Proxy_mtm\/",
                 "headers": {
-                    "Host": "104.21.65.133"
+                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
                 }
             }
         },
@@ -1179,37 +1171,6 @@
                 "path": "\/telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy",
                 "headers": {
                     "Host": "185.146.173.58"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
-            "type": "vless",
-            "server": "108.162.192.79",
-            "server_port": 443,
-            "uuid": "fb710ee0-f2d3-421c-8556-d23e5075f57e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-worker-panel-chf.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "bpb-worker-panel-chf.pages.dev"
                 }
             }
         },

@@ -141,6 +141,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 127",
                 "🇳🇱NL | vless | @sinabigo | 2",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
@@ -149,11 +150,11 @@
                 "🇺🇸US | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 10",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
-                "🇺🇸US | vless | @mehrosaboran | 4",
+                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 7",
                 "🇺🇸US | vless | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🇺🇸US | vless | @SvnTeam | 11",
+                "🇺🇸US | vless | @SvnTeam | 17",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 9",
                 "🏳️XX | vless | @VpnSkyy | 7"
@@ -198,6 +199,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 127",
                 "🇳🇱NL | vless | @sinabigo | 2",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
@@ -206,11 +208,11 @@
                 "🇺🇸US | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 10",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
-                "🇺🇸US | vless | @mehrosaboran | 4",
+                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 7",
                 "🇺🇸US | vless | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🇺🇸US | vless | @SvnTeam | 11",
+                "🇺🇸US | vless | @SvnTeam | 17",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 9",
                 "🏳️XX | vless | @VpnSkyy | 7"
@@ -1070,6 +1072,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.146.173.68",
+            "server_port": 2095,
+            "uuid": "---DIGIV2RAY--",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DigiconnecT?ed=1024",
+                "headers": {
+                    "Host": "185.146.173.68"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @proxystore11 | 1",
             "type": "vless",
             "server": "z61.maduss.com",
@@ -1276,7 +1299,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 4",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2087,
@@ -1385,7 +1408,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @SvnTeam | 11",
+            "tag": "🇺🇸US | vless | @SvnTeam | 17",
             "type": "vless",
             "server": "mtn.VPNPROSEC.com",
             "server_port": 80,

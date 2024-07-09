@@ -130,17 +130,16 @@
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇬SG | vless | @prrofile_purple | 171",
                 "🇸🇪SE | vless | @customv2ray | 17",
-                "🇨🇦CA | vless | @UnlimitedDev | 24",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 4",
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
-                "🇮🇷IR | vless | @v2ray1_ng | 12",
+                "🇮🇷IR | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @vless_vmess | 5",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -203,17 +202,16 @@
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇬SG | vless | @prrofile_purple | 171",
                 "🇸🇪SE | vless | @customv2ray | 17",
-                "🇨🇦CA | vless | @UnlimitedDev | 24",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 4",
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
-                "🇮🇷IR | vless | @v2ray1_ng | 12",
+                "🇮🇷IR | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @vless_vmess | 5",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -692,7 +690,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "bc5280bf-76cc-4f64-bdba-8ea62b68ab4d",
+            "uuid": "d8020643-38ab-4a07-882a-885377aab8ed",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -702,7 +700,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "kennethrasmussenkennethrasmussenkennethrasmussenkennethras.pages.dev",
+                "server_name": "darcymooney.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -714,7 +712,7 @@
                 "type": "ws",
                 "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "kennethrasmussenkennethrasmussenkennethrasmussenkennethras.pages.dev"
+                    "Host": "darcymooney.pages.dev"
                 }
             }
         },
@@ -849,11 +847,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
-            "server": "23.157.88.35",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "cfcdn1.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "8b03c864-31e3-4cfb-949a-2e7eb13f698d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -863,6 +861,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/GQ2qE5Us9g",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -945,27 +950,6 @@
                 "path": "\/@V2rayGodVip=Telegram\/",
                 "headers": {
                     "Host": "185.146.173.83"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 24",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "b1e1dfa4-2e9a-4f19-986e-3ec18d81481c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
-                "headers": {
-                    "Host": "zula.ir"
                 }
             }
         },
@@ -1078,7 +1062,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2ray1_ng | 12",
+            "tag": "🇮🇷IR | vless | @v2ray1_ng | 13",
             "type": "vless",
             "server": "62.60.161.184",
             "server_port": 46777,
@@ -1262,9 +1246,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "188.114.97.141",
-            "server_port": 443,
-            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
+            "server": "mtn.VPNPROSEC.com",
+            "server_port": 80,
+            "uuid": "SVNTEAMa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1272,21 +1256,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "e10c0e4b.oodaeq2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=443",
                 "headers": {
-                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                    "Host": "mtn.VPNPROSEC.com"
                 }
             }
         },

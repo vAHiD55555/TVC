@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 32",
                 "🇸🇪SE | trojan | @PrivateVPNs | 16",
-                "🇸🇪SE | trojan | @DirectVPN | 16",
+                "🇩🇪DE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 5",
@@ -147,10 +147,11 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 9",
+                "🇸🇪SE | vless | @DailyV2RY | 153",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -202,7 +203,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 32",
                 "🇸🇪SE | trojan | @PrivateVPNs | 16",
-                "🇸🇪SE | trojan | @DirectVPN | 16",
+                "🇩🇪DE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 5",
@@ -221,10 +222,11 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 9",
+                "🇸🇪SE | vless | @DailyV2RY | 153",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -791,9 +793,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 16",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "13.51.16.21",
+            "server": "3.76.164.59",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1227,6 +1229,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 153",
+            "type": "vless",
+            "server": "185.146.173.37",
+            "server_port": 80,
+            "uuid": "1759dd49-3e82-4abb-a9ea-0b097037e09d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "185.146.173.37"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | vless | @sinabigo | 2",
             "type": "vless",
             "server": "109.176.207.43",
@@ -1287,12 +1310,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "108.162.192.79",
-            "server_port": 443,
-            "uuid": "fb710ee0-f2d3-421c-8556-d23e5075f57e",
-            "flow": "",
+            "server": "91.107.174.135",
+            "server_port": 1000,
+            "uuid": "fc31868c-ca54-4da6-b64f-e8a8f198061f",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1301,19 +1324,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bpb-worker-panel-chf.pages.dev",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
-                "headers": {
-                    "Host": "bpb-worker-panel-chf.pages.dev"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xqlmWddryaShYnqVDlceZdvSxmwIZ6rJwpUEulJwNkA",
+                    "short_id": "d2952538"
                 }
             }
         },

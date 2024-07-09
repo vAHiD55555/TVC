@@ -110,6 +110,7 @@
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇸🇪SE | vless | @VmessProtocol | 11",
                 "🇳🇱NL | vless | @sinabigo | 2",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ]
@@ -122,6 +123,7 @@
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇸🇪SE | vless | @VmessProtocol | 11",
                 "🇳🇱NL | vless | @sinabigo | 2",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ],
@@ -273,6 +275,42 @@
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "5.42.82.119",
+            "server_port": 443,
+            "uuid": "13380deb-1572-467f-975e-476ef2c7c280",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lC-IttXPaZQw17168-hWeaREu1aFDurUufNNCRyBkz0",
+                    "short_id": "aa31260c"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me\/entryNET",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

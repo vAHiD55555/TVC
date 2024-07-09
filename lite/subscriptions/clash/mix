@@ -123,11 +123,10 @@ proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"183.238.202.173","port":"51193","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇪SE | ss | @OutlineVpnOfficial | 18","type":"ss","server":"217.196.103.206","port":29312,"password":"qgpdyzHj8rZW9fDxxkUHRI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦CA | vmess | @ConfigsHUB | 4","type":"vmess","server":"104.21.94.64","port":"443","cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 1","type":"vmess","server":"russia.com","port":"8080","cipher":"auto","uuid":"b7c56170-edb4-4c4a-bb64-ed5ef40b8739","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"sssub.v2.001.ssrsub.com"}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 3","type":"vmess","server":"172.67.175.56","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
   - {"name":"🇺🇸US | vmess | @kingofilter | 13","type":"vmess","server":"zula.ir","port":2096,"cipher":"auto","uuid":"ddeea8a5-260e-4b6e-9cbb-804f106d5bee","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"kingo.hightechservice.ir"}}}
-  - {"name":"🇨🇦CA | vmess | @ROMAX_VPN | 2","type":"vmess","server":"nodejs.org","port":"443","cipher":"auto","uuid":"6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/QvtvPdDXXIlSdZMqnuxG","headers":{"host":"hdfy1c1.cpiforpersia.uk"}}}
+  - {"name":"🇺🇸US | vmess | @ROMAX_VPN | 2","type":"vmess","server":"nodejs.org","port":"443","cipher":"auto","uuid":"6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/QvtvPdDXXIlSdZMqnuxG","headers":{"host":"hdfy1c1.cpiforpersia.uk"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -139,11 +138,10 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 18'
-      - '🇨🇦CA | vmess | @ConfigsHUB | 4'
       - '🇨🇦CA | vmess | @Hope_Net | 1'
       - '🇺🇸US | vmess | @v2Line | 3'
       - '🇺🇸US | vmess | @kingofilter | 13'
-      - '🇨🇦CA | vmess | @ROMAX_VPN | 2'
+      - '🇺🇸US | vmess | @ROMAX_VPN | 2'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -155,11 +153,10 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 18'
-      - '🇨🇦CA | vmess | @ConfigsHUB | 4'
       - '🇨🇦CA | vmess | @Hope_Net | 1'
       - '🇺🇸US | vmess | @v2Line | 3'
       - '🇺🇸US | vmess | @kingofilter | 13'
-      - '🇨🇦CA | vmess | @ROMAX_VPN | 2'
+      - '🇺🇸US | vmess | @ROMAX_VPN | 2'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -170,11 +167,10 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 18'
-      - '🇨🇦CA | vmess | @ConfigsHUB | 4'
       - '🇨🇦CA | vmess | @Hope_Net | 1'
       - '🇺🇸US | vmess | @v2Line | 3'
       - '🇺🇸US | vmess | @kingofilter | 13'
-      - '🇨🇦CA | vmess | @ROMAX_VPN | 2'
+      - '🇺🇸US | vmess | @ROMAX_VPN | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve

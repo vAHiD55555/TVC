@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇬🇧GB | vless | @VlessConfig | 16",
+                "🇮🇪IE | vless | @VlessConfig | 14",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇷CR | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 2",
@@ -125,8 +125,8 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 32",
-                "🇫🇷FR | trojan | @PrivateVPNs | 16",
-                "🇫🇷FR | trojan | @DirectVPN | 16",
+                "🇮🇪IE | trojan | @PrivateVPNs | 14",
+                "🇮🇪IE | trojan | @DirectVPN | 14",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
@@ -177,7 +177,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇬🇧GB | vless | @VlessConfig | 16",
+                "🇮🇪IE | vless | @VlessConfig | 14",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇷CR | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 2",
@@ -194,8 +194,8 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 32",
-                "🇫🇷FR | trojan | @PrivateVPNs | 16",
-                "🇫🇷FR | trojan | @DirectVPN | 16",
+                "🇮🇪IE | trojan | @PrivateVPNs | 14",
+                "🇮🇪IE | trojan | @DirectVPN | 14",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
@@ -302,9 +302,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @VlessConfig | 16",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 14",
             "type": "vless",
-            "server": "3.9.44.89",
+            "server": "46.51.133.190",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -717,9 +717,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 16",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 14",
             "type": "trojan",
-            "server": "13.39.66.112",
+            "server": "54.220.32.75",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -739,9 +739,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 16",
+            "tag": "🇮🇪IE | trojan | @DirectVPN | 14",
             "type": "trojan",
-            "server": "13.37.101.51",
+            "server": "52.49.157.3",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1223,9 +1223,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "mtn.VPNPROSEC.com",
-            "server_port": 80,
-            "uuid": "SVNTEAM",
+            "server": "104.24.20.71",
+            "server_port": 443,
+            "uuid": "9902fc94-31f9-4afe-b37a-82f5790b3d2a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1233,11 +1233,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "de1-moryvpnbot.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
                 "headers": {
-                    "Host": "mtn.VPNPROSEC.com"
+                    "Host": "de1-moryvpnbot.pages.dev"
                 }
             }
         },

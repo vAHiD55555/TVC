@@ -1111,9 +1111,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2095,
-            "uuid": "-----DIGIV2RAY----",
+            "server": "104.16.181.38",
+            "server_port": 443,
+            "uuid": "7f035a95-4b51-4e0b-8995-59864a9cde22",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1121,11 +1121,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "MSdOnoR.pagEs.dEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/R5lApEWHnBpYI2jQ?ed=2560",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "MSdOnoR.pagEs.dEV"
                 }
             }
         },

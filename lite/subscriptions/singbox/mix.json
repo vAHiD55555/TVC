@@ -420,7 +420,7 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 80,
+            "server_port": 2095,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -431,7 +431,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
@@ -440,15 +440,22 @@
         {
             "tag": "🇨🇦CA | vless | @shh_proxy | 29",
             "type": "vless",
-            "server": "104.22.13.192",
-            "server_port": 80,
-            "uuid": "--Shh-Proxy--",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "dc8d6d5d-0696-480b-8676-ef76e025f7ed",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SHHPROXY?ed=8080",
+                "headers": {
+                    "Host": "www.parsvds.ir"
+                }
             }
         },
         {
@@ -1215,9 +1222,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "www.parsvds.ir",
             "server_port": 8080,
-            "uuid": "a9ee1f5f-ee06-4465-bbb7-f23a637a3996",
+            "uuid": "455c9217-703b-451d-8b55-47852abbc2b0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1227,9 +1234,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "www.parsvds.ir"
                 }
             }
         },

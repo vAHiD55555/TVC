@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
                 "🇸🇪SE | trojan | @PrivateVPNs | 17",
-                "🇮🇪IE | trojan | @DirectVPN | 17",
+                "🇨🇦CA | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 120",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -200,7 +200,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
                 "🇸🇪SE | trojan | @PrivateVPNs | 17",
-                "🇮🇪IE | trojan | @DirectVPN | 17",
+                "🇨🇦CA | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 120",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -757,9 +757,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @DirectVPN | 17",
+            "tag": "🇨🇦CA | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "99.80.68.126",
+            "server": "15.157.194.104",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1257,7 +1257,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
             "server": "172.67.204.39",
             "server_port": 443,
@@ -1281,7 +1281,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
                 "headers": {
                     "Host": "turkmenistan.armanibash.Shop."
                 }
@@ -1428,9 +1428,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "162.159.129.17",
-            "server_port": 80,
-            "uuid": "7a5a4624-df8d-4955-bccc-b3fa6161411f",
+            "server": "avval.ir",
+            "server_port": 8443,
+            "uuid": "51d19c6d-d0bf-4e0b-8eef-9a1d3f13c7e6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1438,11 +1438,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip-romax-tiktok.hsjsak.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y?ed=2560",
+                "path": "\/vless-ws\/?ed",
                 "headers": {
-                    "Host": "162.159.129.17"
+                    "Host": "vip-romax-tiktok.hsjsak.ir"
                 }
             }
         },

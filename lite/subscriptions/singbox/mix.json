@@ -128,8 +128,8 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
-                "🇩🇪DE | trojan | @PrivateVPNs | 15",
-                "🇩🇪DE | trojan | @DirectVPN | 15",
+                "🇩🇪DE | trojan | @PrivateVPNs | 16",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇮🇷IR | vmess | @oneclickvpnkeys | 3",
@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 126",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇮🇪IE | trojan | @ConfigsHUB | 14",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -200,8 +200,8 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
-                "🇩🇪DE | trojan | @PrivateVPNs | 15",
-                "🇩🇪DE | trojan | @DirectVPN | 15",
+                "🇩🇪DE | trojan | @PrivateVPNs | 16",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇮🇷IR | vmess | @oneclickvpnkeys | 3",
@@ -219,7 +219,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 126",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇮🇪IE | trojan | @ConfigsHUB | 14",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -331,7 +331,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "18.159.193.212",
+            "server": "52.58.89.21",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -756,7 +756,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 15",
+            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 16",
             "type": "trojan",
             "server": "3.75.2.236",
             "server_port": 22222,
@@ -778,9 +778,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 15",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "3.76.5.71",
+            "server": "16.171.229.164",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1194,23 +1194,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇪IE | trojan | @ConfigsHUB | 14",
+            "type": "trojan",
+            "server": "52.49.248.184",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
-                "headers": {
-                    "Host": "www.speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

@@ -1004,9 +1004,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.17.23.36",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "104.18.101.41",
+            "server_port": 8080,
+            "uuid": "47aff861-b287-4c7b-a213-6982cdb53db9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1014,21 +1014,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "104.18.101.41"
                 }
             }
         },

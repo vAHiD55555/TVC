@@ -142,13 +142,14 @@
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🏳️XX | vless | @DailyV2RY | 150",
                 "🇸🇪SE | vless | @sinabigo | 1",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
-                "🇺🇸US | vless | @v2rayng_config_amin | 2",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
+                "🇨🇦CA | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @flyv2ray | 9",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
@@ -204,13 +205,14 @@
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🏳️XX | vless | @DailyV2RY | 150",
                 "🇸🇪SE | vless | @sinabigo | 1",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
-                "🇺🇸US | vless | @v2rayng_config_amin | 2",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
+                "🇨🇦CA | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @flyv2ray | 9",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
@@ -1096,6 +1098,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "104.21.19.124",
+            "server_port": 8880,
+            "uuid": "Parsashonam-9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "104.21.19.124"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @proxystore11 | 3",
             "type": "vless",
             "server": "z61.maduss.com",
@@ -1200,7 +1223,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
             "type": "vless",
             "server": "avval.ir",
             "server_port": 8443,
@@ -1231,7 +1254,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 12",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
             "type": "vless",
             "server": "104.18.41.138",
             "server_port": 8443,
@@ -1262,7 +1285,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_config_amin | 2",
+            "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 2",
             "type": "vless",
             "server": "172.66.44.181",
             "server_port": 443,

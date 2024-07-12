@@ -127,12 +127,11 @@
                 "🇸🇪SE | vless | @V2rayCollector | 19",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
-                "🇨🇦CA | vless | @V2rayNGn | 8",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇮🇷IR | vmess | @oneclickvpnkeys | 3",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇮🇷IR | vmess | @prrofile_purple | 179",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -147,7 +146,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 126",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇮🇪IE | trojan | @ConfigsHUB | 3",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -198,12 +197,11 @@
                 "🇸🇪SE | vless | @V2rayCollector | 19",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
-                "🇨🇦CA | vless | @V2rayNGn | 8",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇮🇷IR | vmess | @oneclickvpnkeys | 3",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇮🇷IR | vmess | @prrofile_purple | 179",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -218,7 +216,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 126",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇮🇪IE | trojan | @ConfigsHUB | 3",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -743,27 +741,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGn | 8",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "277dd9ed-ce66-45f5-9fb4-dc186424a115",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "🇫🇷FR | trojan | @PrivateVPNs | 15",
             "type": "trojan",
             "server": "15.236.189.253",
@@ -849,11 +826,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "45.147.77.110",
-            "server_port": 13736,
-            "uuid": "5b24cb20-908c-435e-cb83-815950bea779",
+            "server": "104.17.148.128",
+            "server_port": 80,
+            "uuid": "2d14e84b-226b-412a-9a3c-ffce70b02bdf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -863,6 +840,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "104.17.148.128"
+                }
             }
         },
         {
@@ -1178,13 +1162,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "104.19.230.57",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇪IE | trojan | @ConfigsHUB | 3",
+            "type": "trojan",
+            "server": "54.170.173.3",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1192,19 +1174,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "523afb17.IRS23.pAgES.Dev",
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
-                "headers": {
-                    "Host": "523afb17.IRS23.pAgES.Dev"
                 }
             }
         },

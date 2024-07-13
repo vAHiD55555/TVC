@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | vless | @free_v2rayyy | 4",
+                "🇨🇦CA | vless | @free_v2rayyy | 3",
                 "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
@@ -136,7 +136,6 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
                 "🇸🇪SE | vless | @ServerNett | 12",
                 "🇸🇪SE | vless | @v2ray_swhil | 10",
-                "🇨🇦CA | vless | @v2ray1_ng | 14",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -177,7 +176,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 15",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | vless | @free_v2rayyy | 4",
+                "🇨🇦CA | vless | @free_v2rayyy | 3",
                 "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
@@ -196,7 +195,6 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
                 "🇸🇪SE | vless | @ServerNett | 12",
                 "🇸🇪SE | vless | @v2ray_swhil | 10",
-                "🇨🇦CA | vless | @v2ray1_ng | 14",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -483,7 +481,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 4",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 3",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -906,37 +904,6 @@
                 "path": "\/servernet",
                 "headers": {
                     "Host": "185.146.173.58"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 14",
-            "type": "vless",
-            "server": "104.19.230.57",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "523afb17.IRS23.pAgES.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-proxy_mtm\/?ed=2560",
-                "headers": {
-                    "Host": "523afb17.IRS23.pAgES.Dev"
                 }
             }
         },

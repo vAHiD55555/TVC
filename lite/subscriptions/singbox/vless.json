@@ -114,7 +114,7 @@
                 "🇨🇦CA | vless | @melov2ray | 10",
                 "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇨🇦CA | vless | @ARv2ray | 15",
+                "🇨🇦CA | vless | @ARv2ray | 16",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
@@ -130,7 +130,7 @@
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇨🇷CR | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 178",
-                "🇸🇪SE | vless | @customv2ray | 16",
+                "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 8",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -175,7 +175,7 @@
                 "🇨🇦CA | vless | @melov2ray | 10",
                 "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇨🇦CA | vless | @ARv2ray | 15",
+                "🇨🇦CA | vless | @ARv2ray | 16",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
@@ -191,7 +191,7 @@
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇨🇷CR | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 178",
-                "🇸🇪SE | vless | @customv2ray | 16",
+                "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
@@ -203,7 +203,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 8",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -422,7 +422,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 15",
+            "tag": "🇨🇦CA | vless | @ARv2ray | 16",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -776,11 +776,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @customv2ray | 16",
+            "tag": "🇨🇦CA | vless | @customv2ray | 15",
             "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "join_Bede_VPNCUSTOMIZE",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "262e9f21-aef4-47ab-8a81-c16f9ee9bbe1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -788,11 +788,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "VIOlEtKaUfman.PAGes.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/Telegram-@proxy_mtm\/?ed=2560",
                 "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                    "Host": "VIOlEtKaUfman.PAGes.dev"
                 }
             }
         },
@@ -987,9 +997,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "172.67.138.69",
-            "server_port": 2095,
-            "uuid": "%74%65%6c%65%67%72%61%6d%2d%69%64%2d%41%72%56%32%72%61%79",
+            "server": "172.67.204.84",
+            "server_port": 8080,
+            "uuid": "%61%64%35%61%38%31%39%35%2d%39%35%62%62%2d%34%32%61%30%2d%61%65%34%66%2d%65%33%31%37%64%31%37%65%37%33%38%64",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -999,9 +1009,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "172.67.138.69"
+                    "Host": "172.67.204.84"
                 }
             }
         },
@@ -1058,11 +1068,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 8",
             "type": "vless",
-            "server": "www.zula.ir",
+            "server": "188.114.97.2",
             "server_port": 8080,
-            "uuid": "2af8209f-2766-4522-b0ed-e458648b0a48",
+            "uuid": "%33%33%36%66%66%38%30%61%2d%37%39%35%37%2d%34%33%62%32%2d%61%63%64%31%2d%30%36%62%32%38%62%37%31%62%66%32%34",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1072,9 +1082,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers?ed=2560",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "www.zula.ir"
+                    "Host": "188.114.97.2"
                 }
             }
         },

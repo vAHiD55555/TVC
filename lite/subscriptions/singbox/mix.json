@@ -133,7 +133,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇷CR | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 178",
                 "🇨🇦CA | vless | @customv2ray | 15",
@@ -149,7 +149,7 @@
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 4",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -206,7 +206,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇷CR | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 178",
                 "🇨🇦CA | vless | @customv2ray | 15",
@@ -222,7 +222,7 @@
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 4",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -860,11 +860,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
-            "server": "104.19.32.0",
-            "server_port": 443,
-            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -875,21 +875,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "xmivideo.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "xmivideo.cfd"
+                    "Host": ""
                 }
             }
         },
@@ -1238,23 +1228,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "185.146.173.68",
-            "server_port": 2095,
-            "uuid": "DIGIV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 4",
+            "type": "vmess",
+            "server": "172.67.191.45",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "nezuko.raidenshogun.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/linkws\/obdii.cfd",
                 "headers": {
-                    "Host": "185.146.173.68"
+                    "Host": "nezuko.raidenshogun.cloudns.org"
                 }
             }
         },

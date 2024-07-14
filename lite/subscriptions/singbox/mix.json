@@ -131,7 +131,7 @@
                 "🇸🇪SE | trojan | @PrivateVPNs | 17",
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇩🇪DE | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇱🇹LT | vless | @Outline_Vpn | 17",
@@ -204,7 +204,7 @@
                 "🇸🇪SE | trojan | @PrivateVPNs | 17",
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇩🇪DE | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇱🇹LT | vless | @Outline_Vpn | 17",
@@ -823,7 +823,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfd.ipa.monster",
             "server_port": 8080,
@@ -1137,8 +1137,8 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 8080,
+            "server": "172.67.204.84",
+            "server_port": 443,
             "uuid": "Telegram-NUFiLTER",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1147,11 +1147,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "khoda.bklink.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
-                    "Host": "104.17.147.22"
+                    "Host": "khoda.bklink.ir"
                 }
             }
         },
@@ -1189,9 +1199,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "226cba5e-44df-45b6-b32e-01a24bb748e4",
+            "server": "ip.v2catch.buzz",
+            "server_port": 2082,
+            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1201,9 +1211,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/VezzeWmV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g?ed=80",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "ip.v2catch.buzz"
                 }
             }
         },
@@ -1372,9 +1382,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 2095,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "172.67.137.11",
+            "server_port": 8080,
+            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1384,9 +1394,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.parsvds.ir"
+                    "Host": "172.67.137.11"
                 }
             }
         },

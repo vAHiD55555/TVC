@@ -137,11 +137,11 @@
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇺🇸US | vless | @ShadowProxy66 | 44",
+                "🇨🇦CA | vless | @ShadowProxy66 | 40",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @hcv2ray | 2",
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
-                "🇺🇸US | vless | @v2ray1_ng | 11",
+                "🇺🇸US | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -155,7 +155,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -212,11 +212,11 @@
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇺🇸US | vless | @ShadowProxy66 | 44",
+                "🇨🇦CA | vless | @ShadowProxy66 | 40",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @hcv2ray | 2",
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
-                "🇺🇸US | vless | @v2ray1_ng | 11",
+                "🇺🇸US | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -230,7 +230,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -970,11 +970,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ShadowProxy66 | 44",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 40",
             "type": "vless",
-            "server": "162.159.245.217",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "c9abc6f1-7c7a-4bcb-a807-7e3365dc48fd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -982,21 +982,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1084,7 +1074,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2ray1_ng | 11",
+            "tag": "🇺🇸US | vless | @v2ray1_ng | 12",
             "type": "vless",
             "server": "172.64.101.233",
             "server_port": 443,
@@ -1454,7 +1444,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
             "type": "vless",
             "server": "172.66.47.2",
             "server_port": 2096,

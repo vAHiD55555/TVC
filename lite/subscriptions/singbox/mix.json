@@ -127,18 +127,18 @@
                 "🇨🇦CA | vless | @V2rayCollector | 9",
                 "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 4",
+                "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | trojan | @PrivateVPNs | 11",
                 "🇨🇦CA | trojan | @DirectVPN | 11",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇱🇹LT | vless | @prrofile_purple | 179",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 49",
                 "🇸🇪SE | vless | @ServerNett | 10",
+                "🇨🇦CA | vless | @hcv2ray | 2",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 12",
@@ -201,18 +201,18 @@
                 "🇨🇦CA | vless | @V2rayCollector | 9",
                 "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 4",
+                "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | trojan | @PrivateVPNs | 11",
                 "🇨🇦CA | trojan | @DirectVPN | 11",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇱🇹LT | vless | @prrofile_purple | 179",
                 "🇸🇪SE | vless | @customv2ray | 17",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 49",
                 "🇸🇪SE | vless | @ServerNett | 10",
+                "🇨🇦CA | vless | @hcv2ray | 2",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 12",
@@ -753,7 +753,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 4",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 3",
             "type": "vless",
             "server": "proxyforopeta.bestgameir2.ir",
             "server_port": 2083,
@@ -865,40 +865,6 @@
                 "path": "\/itdog?ed=2560",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "188.114.99.134",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -1035,6 +1001,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @hcv2ray | 2",
+            "type": "vless",
+            "server": "godcdn.my-teamspeak.ir",
+            "server_port": 2083,
+            "uuid": "50ad3422-98df-4f64-90f4-5015b3276441",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "godcdn.my-teamspeak.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "godcdn.my-teamspeak.ir"
                 }
             }
         },

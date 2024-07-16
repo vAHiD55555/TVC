@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 15",
+                "🇨🇦CA | vless | @EliV2ray | 16",
                 "🇸🇪SE | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
@@ -114,7 +114,7 @@
                 "🇸🇪SE | vless | @V2pedia | 15",
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇨🇦CA | vless | @ARv2ray | 16",
-                "🇨🇦CA | vless | @shh_proxy | 27",
+                "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 2",
                 "🇨🇦CA | vless | @lightning6 | 20",
@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 50",
                 "🇸🇪SE | vless | @ServerNett | 5",
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
-                "🇺🇸US | vless | @v2ray1_ng | 10",
+                "🇺🇸US | vless | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
@@ -170,7 +170,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 15",
+                "🇨🇦CA | vless | @EliV2ray | 16",
                 "🇸🇪SE | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
@@ -178,7 +178,7 @@
                 "🇸🇪SE | vless | @V2pedia | 15",
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇨🇦CA | vless | @ARv2ray | 16",
-                "🇨🇦CA | vless | @shh_proxy | 27",
+                "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 2",
                 "🇨🇦CA | vless | @lightning6 | 20",
@@ -200,7 +200,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 50",
                 "🇸🇪SE | vless | @ServerNett | 5",
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
-                "🇺🇸US | vless | @v2ray1_ng | 10",
+                "🇺🇸US | vless | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
@@ -250,7 +250,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 15",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 16",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
@@ -428,11 +428,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @shh_proxy | 27",
+            "tag": "🇨🇦CA | vless | @shh_proxy | 29",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
-            "uuid": "e4f4344f-5b08-4727-9c0b-d543aaf57154",
+            "uuid": "462aefbc-5b9b-48bb-9e27-659166c7a6e9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -941,7 +941,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2ray1_ng | 10",
+            "tag": "🇺🇸US | vless | @v2ray1_ng | 11",
             "type": "vless",
             "server": "172.64.101.233",
             "server_port": 443,
@@ -1224,9 +1224,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "d1a0ccb2-26f8-4dbc-aa17-04d2ad7c8d6d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1236,9 +1236,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "www.parsvds.ir"
                 }
             }
         },

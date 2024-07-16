@@ -132,6 +132,7 @@
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 16",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇮🇷IR | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
@@ -142,7 +143,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 50",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
-                "🇺🇸US | vless | @v2ray1_ng | 10",
+                "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 14",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -208,6 +209,7 @@
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 16",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇮🇷IR | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
@@ -218,7 +220,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 50",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
-                "🇺🇸US | vless | @v2ray1_ng | 10",
+                "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 14",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
@@ -858,6 +860,16 @@
             }
         },
         {
+            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 16",
+            "type": "shadowsocks",
+            "server": "188.212.132.20",
+            "server_port": 52952,
+            "method": "chacha20-ietf-poly1305",
+            "password": "XRUwpkSouW5HCTUFUxErfnL5AmahofrjznVrAu2iNFMFGUCrChznAULhuHGAQdC463mzcgo2jV546Ut5HKhk3pz956cHYYyc",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "104.26.0.56",
@@ -1084,11 +1096,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2ray1_ng | 10",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 9",
             "type": "vless",
-            "server": "172.64.101.233",
+            "server": "104.31.16.125",
             "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1098,7 +1110,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "lmn1716703142099.lmn15581.info",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1108,9 +1120,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/srvacc1",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "lmn1716703142099.lmn15581.info"
                 }
             }
         },

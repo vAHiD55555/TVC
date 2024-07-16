@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 16",
                 "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
@@ -172,7 +171,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 16",
                 "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
@@ -252,27 +250,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 16",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "-Channel--ELiV2ray-",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ELENA--repo.steampowered.com?ed=8080",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
         },
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 17",
@@ -1259,9 +1236,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "c0d0f61d-65d3-4475-b592-3f53010cbc81",
+            "server": "172.66.44.55",
+            "server_port": 443,
+            "uuid": "104380d8-f859-421a-bd11-29b2c9fbfa99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1269,11 +1246,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "famil-5c8.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "famil-5c8.pages.dev"
                 }
             }
         },

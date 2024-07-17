@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 9",
                 "🇨🇦CA | vless | @V2rayNGn | 9",
-                "🇮🇪IE | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @PrivateVPNs | 17",
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -146,9 +146,10 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vmess | @DailyV2RY | 168",
+                "🇨🇦CA | vless | @DailyV2RY | 186",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -165,7 +166,6 @@
                 "🇫🇷FR | trojan | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 8",
-                "🇳🇱NL | ss | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vmess | @kingofilter | 10",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
@@ -201,7 +201,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 9",
                 "🇨🇦CA | vless | @V2rayNGn | 9",
-                "🇮🇪IE | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @PrivateVPNs | 17",
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -220,9 +220,10 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vmess | @DailyV2RY | 168",
+                "🇨🇦CA | vless | @DailyV2RY | 186",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -239,7 +240,6 @@
                 "🇫🇷FR | trojan | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 8",
-                "🇳🇱NL | ss | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vmess | @kingofilter | 10",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
@@ -738,9 +738,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 17",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "46.137.167.67",
+            "server": "13.50.128.210",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1144,9 +1144,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "172.67.138.69",
+            "server": "104.17.147.22",
             "server_port": 8080,
-            "uuid": "e21c01a9-51fd-4176-ad61-1f2e0fedf190",
+            "uuid": "77e27da2-c4cb-4084-a4d1-ae775cdab352",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1156,9 +1156,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "172.67.138.69"
+                    "Host": "104.17.147.22"
                 }
             }
         },
@@ -1194,20 +1194,34 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DailyV2RY | 168",
-            "type": "vmess",
-            "server": "155.138.159.139",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 186",
+            "type": "vless",
+            "server": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
+            "server_port": 443,
+            "uuid": "67e85955-02b7-46f3-b3d6-ca34a4b0ccc1",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir"
+                }
             }
         },
         {
@@ -1251,6 +1265,16 @@
                     "Host": "www.parsvds.ir"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 18",
+            "type": "shadowsocks",
+            "server": "45.158.171.129",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🏳️XX | vless | @proxystore11 | 3",
@@ -1665,16 +1689,6 @@
                     "Host": "melonmusic.ir"
                 }
             }
-        },
-        {
-            "tag": "🇳🇱NL | ss | @proxy_mtm | 2",
-            "type": "shadowsocks",
-            "server": "45.158.171.129",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🏳️XX | vless | @vpn_go67 | 21",

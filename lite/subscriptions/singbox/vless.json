@@ -140,6 +140,7 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @DailyV2RY | 186",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -201,6 +202,7 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @DailyV2RY | 186",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -989,9 +991,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "172.67.138.69",
+            "server": "104.17.147.22",
             "server_port": 8080,
-            "uuid": "%65%32%31%63%30%31%61%39%2d%35%31%66%64%2d%34%31%37%36%2d%61%64%36%31%2d%31%66%32%65%30%66%65%64%66%31%39%30",
+            "uuid": "%37%37%65%32%37%64%61%32%2d%63%34%63%62%2d%34%30%38%34%2d%61%34%64%31%2d%61%65%37%37%35%63%64%61%62%33%35%32",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1001,9 +1003,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "172.67.138.69"
+                    "Host": "104.17.147.22"
                 }
             }
         },
@@ -1035,6 +1037,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "4d3d6f00.garywelch.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 186",
+            "type": "vless",
+            "server": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
+            "server_port": 443,
+            "uuid": "67e85955-02b7-46f3-b3d6-ca34a4b0ccc1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir"
                 }
             }
         },

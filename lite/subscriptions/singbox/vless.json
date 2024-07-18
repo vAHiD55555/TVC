@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
-                "🇨🇦CA | vless | @DailyV2RY | 218",
+                "🇨🇦CA | vless | @DailyV2RY | 211",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -205,7 +205,7 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
-                "🇨🇦CA | vless | @DailyV2RY | 218",
+                "🇨🇦CA | vless | @DailyV2RY | 211",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -1078,11 +1078,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 218",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 211",
             "type": "vless",
-            "server": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
-            "server_port": 443,
-            "uuid": "67e85955-02b7-46f3-b3d6-ca34a4b0ccc1",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "2079ecde-938d-4c45-bf6d-a43de1b3993d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1090,21 +1090,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1134,7 +1124,7 @@
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
-            "uuid": "9e802d62-510f-4f64-b73c-5d116a7aea44",
+            "uuid": "VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {

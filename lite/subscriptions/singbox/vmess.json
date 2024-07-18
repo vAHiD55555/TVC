@@ -109,7 +109,7 @@
                 "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -123,7 +123,7 @@
                 "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -201,11 +201,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "ffaa16d7-4fc8-4436-b43f-725743de3ff9",
+            "server": "45.76.33.120",
+            "server_port": 443,
+            "uuid": "19c80ce9-0935-41b9-b077-277621316a87",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -216,11 +216,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hidd2.afsharidempire.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/dgfgdfgdfg",
+                "path": "\/liUxUGJTGoPjd07ui73LZgwx8s",
                 "headers": {
-                    "Host": ""
+                    "Host": "hidd2.afsharidempire.uk"
                 }
             }
         },

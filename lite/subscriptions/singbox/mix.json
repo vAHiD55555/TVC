@@ -116,9 +116,8 @@
                 "🇸🇪SE | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇨🇦CA | vless | @ARv2ray | 19",
-                "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | vless | @free_v2rayyy | 2",
+                "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
@@ -156,7 +155,7 @@
                 "🇭🇰HK | vmess | @Hope_Net | 0",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -190,9 +189,8 @@
                 "🇸🇪SE | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇨🇦CA | vless | @ARv2ray | 19",
-                "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | vless | @free_v2rayyy | 2",
+                "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
@@ -230,7 +228,7 @@
                 "🇭🇰HK | vmess | @Hope_Net | 0",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -490,27 +488,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @shh_proxy | 29",
-            "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "3fd99f0d-e9c4-41f8-ac0d-f3cb90cb3dee",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/SHHPROXY?ed=8080",
-                "headers": {
-                    "Host": "www.parsvds.ir"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | @Lockey_vpn | 19",
             "type": "vless",
             "server": "198.41.206.124",
@@ -532,7 +509,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 2",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 4",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1159,9 +1136,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.17.148.22",
+            "server": "104.17.147.22",
             "server_port": 8080,
-            "uuid": "telegram-id-PcV2ray",
+            "uuid": "4df2f3b9-ef65-4447-9077-2ad090b0bc28",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1171,9 +1148,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-PcV2ry",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "104.17.148.22"
+                    "Host": "104.17.147.22"
                 }
             }
         },
@@ -1397,7 +1374,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 11",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
             "type": "vless",
             "server": "104.24.20.71",
             "server_port": 443,

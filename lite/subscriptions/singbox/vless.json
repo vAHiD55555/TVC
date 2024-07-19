@@ -126,7 +126,7 @@
                 "🇰🇷KR | vless | @Watashi_VPN | 2",
                 "🇺🇸US | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 18",
+                "🇨🇦CA | vless | @ProxyForOpeta | 17",
                 "🇨🇦CA | vless | @V2rayNGn | 10",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 179",
@@ -137,7 +137,7 @@
                 "🇸🇪SE | vless | @ServerNett | 4",
                 "🇮🇷IR | vless | @v2ray_swhil | 0",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
-                "🇨🇦CA | vless | @vless_vmess | 15",
+                "🇨🇦CA | vless | @vless_vmess | 14",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 184",
@@ -151,7 +151,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇺🇸US | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @mehrosaboran | 4",
+                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 3",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -187,7 +187,7 @@
                 "🇰🇷KR | vless | @Watashi_VPN | 2",
                 "🇺🇸US | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 18",
+                "🇨🇦CA | vless | @ProxyForOpeta | 17",
                 "🇨🇦CA | vless | @V2rayNGn | 10",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 179",
@@ -198,7 +198,7 @@
                 "🇸🇪SE | vless | @ServerNett | 4",
                 "🇮🇷IR | vless | @v2ray_swhil | 0",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
-                "🇨🇦CA | vless | @vless_vmess | 15",
+                "🇨🇦CA | vless | @vless_vmess | 14",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 184",
@@ -212,7 +212,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇺🇸US | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @mehrosaboran | 4",
+                "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 3",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -692,7 +692,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 18",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 17",
             "type": "vless",
             "server": "proxyforopeta.bestgameir2.ir",
             "server_port": 2083,
@@ -946,11 +946,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vless_vmess | 15",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 14",
             "type": "vless",
-            "server": "172.67.137.11",
-            "server_port": 2082,
-            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
+            "server": "172.64.87.176",
+            "server_port": 443,
+            "uuid": "df4608a5-0ceb-4513-b991-596f541bccdb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -958,11 +958,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "cfdy.yueuzi.dynv6.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "172.67.137.11"
+                    "Host": "cfdy.yueuzi.dynv6.net"
                 }
             }
         },
@@ -1318,11 +1328,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 4",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "zula.ir",
-            "server_port": 8880,
-            "uuid": "30c50390-c3c9-4287-bd5a-0fbd3d3712fa",
+            "server_port": 8080,
+            "uuid": "62f87825-d93f-448a-9b40-7c991f661dfa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1332,7 +1342,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
                 "headers": {
                     "Host": "zula.ir"
                 }

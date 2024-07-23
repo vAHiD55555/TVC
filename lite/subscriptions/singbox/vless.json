@@ -106,12 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 13",
+                "🇺🇸US | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 0",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 18",
-                "🇺🇸US | vless | @ipV2Ray | 15",
-                "🇺🇸US | vless | @V2pedia | 9",
+                "🇨🇦CA | vless | @ipV2Ray | 15",
+                "🇨🇦CA | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 19",
@@ -136,10 +136,10 @@
                 "🇨🇷CR | vless | @proxyymeliii | 16",
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 12",
-                "🇺🇸US | vless | @MTConfig | 11",
+                "🇨🇦CA | vless | @MTConfig | 11",
                 "🇺🇸US | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
-                "🏳️XX | vless | @DailyV2RY | 171",
+                "🇨🇦CA | vless | @DailyV2RY | 173",
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇺🇸US | vless | @proxystore11 | 4",
                 "🇨🇦CA | vless | @fnet00 | 6",
@@ -168,12 +168,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 13",
+                "🇺🇸US | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 0",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 18",
-                "🇺🇸US | vless | @ipV2Ray | 15",
-                "🇺🇸US | vless | @V2pedia | 9",
+                "🇨🇦CA | vless | @ipV2Ray | 15",
+                "🇨🇦CA | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 19",
@@ -198,10 +198,10 @@
                 "🇨🇷CR | vless | @proxyymeliii | 16",
                 "🇨🇦CA | vless | @v2ray1_ng | 10",
                 "🇨🇦CA | vless | @vless_vmess | 12",
-                "🇺🇸US | vless | @MTConfig | 11",
+                "🇨🇦CA | vless | @MTConfig | 11",
                 "🇺🇸US | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
-                "🏳️XX | vless | @DailyV2RY | 171",
+                "🇨🇦CA | vless | @DailyV2RY | 173",
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇺🇸US | vless | @proxystore11 | 4",
                 "🇨🇦CA | vless | @fnet00 | 6",
@@ -246,7 +246,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 13",
+            "tag": "🇺🇸US | vless | @EliV2ray | 13",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -340,7 +340,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ipV2Ray | 15",
+            "tag": "🇨🇦CA | vless | @ipV2Ray | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -361,7 +361,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 9",
+            "tag": "🇨🇦CA | vless | @V2pedia | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -908,7 +908,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @MTConfig | 11",
+            "tag": "🇨🇦CA | vless | @MTConfig | 11",
             "type": "vless",
             "server": "all.vipxali.cfd",
             "server_port": 2083,
@@ -989,11 +989,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 171",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 173",
             "type": "vless",
-            "server": "hidden-mdkfuydimbtyybeacf.logged.site",
-            "server_port": 443,
-            "uuid": "fcce600f-90f4-45c9-a5fd-940fc05bebc2",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "5779d821-693b-4573-b71d-d332199ead38",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1001,21 +1001,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "apple.logged.store",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "apple.logged.store"
+                    "Host": "zula.ir"
                 }
             }
         },

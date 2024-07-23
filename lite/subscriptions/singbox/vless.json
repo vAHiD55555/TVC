@@ -106,13 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | vless | @EliV2ray | 14",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 0",
                 "🇨🇦CA | vless | @VlessConfig | 17",
                 "🇺🇸US | vless | @ipV2Ray | 15",
                 "🇺🇸US | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 3",
-                "🇺🇸US | vless | @ARv2ray | 19",
+                "🇨🇦CA | vless | @ARv2ray | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 19",
                 "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇺🇸US | vless | @lightning6 | 18",
@@ -165,13 +164,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | vless | @EliV2ray | 14",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 0",
                 "🇨🇦CA | vless | @VlessConfig | 17",
                 "🇺🇸US | vless | @ipV2Ray | 15",
                 "🇺🇸US | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 3",
-                "🇺🇸US | vless | @ARv2ray | 19",
+                "🇨🇦CA | vless | @ARv2ray | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 19",
                 "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇺🇸US | vless | @lightning6 | 18",
@@ -238,27 +236,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸US | vless | @EliV2ray | 14",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "-JOIN--ELiV2RAY--",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ELeNa-@ELiV2-@ELiV2-ELiV2.net?ed=8880",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 0",
@@ -376,7 +353,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ARv2ray | 19",
+            "tag": "🇨🇦CA | vless | @ARv2ray | 19",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,

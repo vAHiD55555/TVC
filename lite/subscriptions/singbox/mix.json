@@ -106,13 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | vless | @EliV2ray | 14",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 0",
                 "🇨🇦CA | vless | @VlessConfig | 17",
                 "🇺🇸US | vless | @ipV2Ray | 15",
                 "🇺🇸US | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 3",
-                "🇺🇸US | vless | @ARv2ray | 19",
+                "🇨🇦CA | vless | @ARv2ray | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 19",
                 "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇺🇸US | vless | @lightning6 | 18",
@@ -131,7 +130,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🏳️XX | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | vmess | @prrofile_purple | 169",
                 "🇨🇦CA | vless | @customv2ray | 16",
@@ -157,7 +156,7 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @FreakConfig | 15",
                 "🏳️XX | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @mehrosaboran | 3",
@@ -179,13 +178,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | vless | @EliV2ray | 14",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 0",
                 "🇨🇦CA | vless | @VlessConfig | 17",
                 "🇺🇸US | vless | @ipV2Ray | 15",
                 "🇺🇸US | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 3",
-                "🇺🇸US | vless | @ARv2ray | 19",
+                "🇨🇦CA | vless | @ARv2ray | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 19",
                 "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇺🇸US | vless | @lightning6 | 18",
@@ -204,7 +202,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🏳️XX | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | vmess | @prrofile_purple | 169",
                 "🇨🇦CA | vless | @customv2ray | 16",
@@ -230,7 +228,7 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @FreakConfig | 15",
                 "🏳️XX | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @mehrosaboran | 3",
@@ -266,27 +264,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸US | vless | @EliV2ray | 14",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "-JOIN--ELiV2RAY--",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ELeNa-@ELiV2-@ELiV2-ELiV2.net?ed=8880",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 0",
@@ -404,7 +381,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ARv2ray | 19",
+            "tag": "🇨🇦CA | vless | @ARv2ray | 19",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -827,11 +804,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "104.21.82.17",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "45.154.156.178",
+            "server_port": 32648,
+            "uuid": "bc8e1235-6cef-4bdd-f3f2-0b4f3c8a7b70",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -841,23 +818,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
-                }
             }
         },
         {
@@ -1444,7 +1404,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 6",
+            "tag": "🇨🇦CA | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "pandor.boats",
             "server_port": 443,
